@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ALCHEMY_PEDIA</Tag>
+    <English>[TAB]A philosophy and attempt to achieve ultimate wisdom, alchemy began in Classical Greece but developed in Persia and later Europe during the Middle Ages. The goals of the alchemist were the "transmutation" of common metals into gold or silver, the creation of an elixir of life and the search for a universal solvent, and the quest to find the "philosophers stone" in the pursuit of these goals. Alchemists like Paracelsus and Issac Newton enjoyed great prestige and made contributions to early chemical processes like ore-testing and refining, metallurgy and the production of gunpowder, dyes, ceramics and glass. And the Islamic alchemists like Geber and al Kindi also laid the important foundations of modern scientific chemistry.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>炼金术是一种哲学，也是为了获得最终的智慧，它始于古典希腊，但在中世纪的波斯和后来的欧洲发展起来。炼金术士的目标是把普通金属“转化”成金或银，创造一种长生不老药，寻找一种万能的溶剂，并在追求这些目标的过程中寻找“哲学家之石”。像帕拉塞尔苏和伊萨克牛顿这样的炼金术士享有很高的声望，并为早期的化学过程，如矿石测试和精炼、冶金和火药、染料、陶瓷和玻璃的生产作出了贡献。基伯和金迪等伊斯兰炼金术士也奠定了现代科学化学的重要基础。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ARABIC_KNOWLEDGE_PEDIA</Tag>
+    <English>[TAB]The Islamic world from the 9thC experienced a Golden Age of science and learning in which scholars translated all the world's knowledge into Arabic. Thousands of works from Greece, Rome and India were preserved and studied by Muslim scholars who developed from them even greater scientific, mathematical and astronomical achievements. For over 500 years Islamic knowledge in every field surpassed anything else in the world, including the astronomical advances of Al Biruni; the introduction of numerals and invention of algebra by Al Khwarizmi; the optical breakthroughs of al Haytham and the development of modern chemistry by Geber, of whom Issac Newton may have referred when he said, "I have stood upon the shoulders of giants".</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]第九世纪以来的伊斯兰世界经历了一个科学和学习的黄金时代，学者们将世界上所有的知识翻译成阿拉伯语。来自希腊、罗马和印度的数千件作品被穆斯林学者保存和研究，他们从中获得了更大的科学、数学和天文成就。500多年来，伊斯兰在各个领域的知识都超过了世界上任何一个领域，包括比鲁尼的天文学进步；赫瓦里兹米引入数字和发明代数；海瑟姆的光学突破和盖伯的现代化学发展，当牛顿说“我站在巨人的肩膀上”时，他可能提到了这个问题。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ARABIC_MEDICINE_PEDIA</Tag>
+    <English>[TAB]The prophet Muhammad himself recognized the infectious nature of disease and that for every disease there was always a cause and a cure. Islamic medicine translated Greek and Indian sources into Arabic greatly expanding medical knowledge and the practices found in the work of Galen and Hippocrates. Muslim physicians set up the first hospitals, medical schools, clinics and operating theatres, pioneering thousands of new remedies and procedures, many unmatched even in the 19thC. But it was the contributions of scientists like Albucasis, considered the father of modern surgery, and Avicenna, still regarded as the father of all modern medicine, that make them some of the greatest medical scholars and innovators of history.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>先知穆罕默德自己也认识到疾病的传染性，每一种疾病都有原因和治疗方法。伊斯兰医学将希腊和印度的资料翻译成阿拉伯语，极大地扩展了医学知识和伽伦和希波克拉底的工作实践。穆斯林医生建立了第一批医院、医学院、诊所和手术室，开创了数千种新的治疗方法和程序，许多甚至在19世纪都是无与伦比的。但正是像被认为是现代外科之父的阿尔布卡西斯和仍然被认为是所有现代医学之父的阿维森纳这样的科学家的贡献，使他们成为历史上最伟大的医学学者和创新者。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ARCHITECTURE_PEDIA</Tag>
+    <English>[TAB]As a process, architecture involves the designing and constructing buildings which first evolved to address the human needs of shelter, security and worship. Texts on architecture first appeared in Classical Greece and Rome and continued throughout the Middle Ages in Europe. With the Renaissance, buildings were constructed by individual designers and master builders like Brunelleschi, Michelangelo and Inigo Jones, combining the functions of artist, architect and engineer. As scientific knowledge advanced with the use of new materials and technologies, architecture and civil engineering began to diverge, allowing the architects like Bernini, Palladio and Christopher Wren to concentrate on the more aesthetic aspects of building design.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]建筑作为一个过程，包括设计和建造建筑，这些建筑最初是为了满足人类对住房、安全和礼拜的需要而发展起来的。建筑文本最早出现在古典希腊和罗马，并延续到整个中世纪的欧洲。文艺复兴时期，建筑由布鲁内莱斯基、米开朗基罗和伊尼戈·琼斯等独立设计师和建筑大师建造，集艺术家、建筑师和工程师的功能于一身。随着科学知识的进步，新材料和新技术的使用，建筑和土木工程开始分化，使建筑师像贝尔尼尼，帕拉迪奥和克里斯托弗雷恩集中精力在建筑设计的美学方面。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ARISTOCRACY_PEDIA</Tag>
+    <English>[TAB]Aristocracy refers to a form of government where the most prominent citizens rule, or as the highest class in society which holds the bulk of land, money and power. In Europe during the Middle Ages, a hereditary class of arbitrary rulers became known as the "nobility". In the feudal system, these nobles normally held a "fief" under "vassalage",ie. property and wealth in exchange for allegiance and military service to the Monarch or Lord and became a ruling caste holding a hereditary title, enjoying fiscal, political and other privileges. The military power of the aristocracy gradually declined as Kings began to organize cohesive national armies and their economic power declined with the rise of the urban merchant classes.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]贵族是指由最杰出的公民统治的一种政府形式，或是社会中拥有大量土地、金钱和权力的最高阶层。在中世纪的欧洲，一个由专横统治者组成的世袭阶级被称为“贵族”。在封建制度中，这些贵族通常在“封臣”之下拥有“封地”，即财产和财富，以换取对君主或君主的效忠和服兵役，成为一个拥有世袭头衔的统治阶级，享有财政、政治和其他特权。贵族阶级的军事力量随着国王开始组织有凝聚力的国家军队而逐渐衰落，他们的经济实力随着城市商人阶级的兴起而衰落。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ASTROLABE_PEDIA</Tag>
+    <English>[TAB]An astronomical instrument, the astrolabe was used by classical astronomers, navigators and astrologers to plot the position of the Sun, the Moon, the planets and the stars, and determining latitude, surveying and triangulation. In the Islamic world they were used for astronomical studies as well as astrology, navigation, surveying and timekeeping and determining the direction of prayer. Astrologers in medieval Europe mostly used astrolabes to construct horoscopes and the "mariners astrolabe" was later developed to cope with conditions at sea on ships and was still in use well into the 17thC. The first mechanical astronomical clocks developed from the astrolabe until they were replaced by advanced clock-making techniques.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]星盘是一种天文仪器，古典天文学家、航海家和占星家使用它来绘制太阳、月亮、行星和恒星的位置，并确定纬度、测量和三角测量。在伊斯兰世界，它们被用于天文学研究以及占星术、航海、测量和计时，并决定祈祷的方向。中世纪欧洲的占星家大多使用星盘来建造占星术，“水手星盘”后来被发展用来应付船上的海上条件，直到17世纪仍在使用。最早的机械天文钟从等高仪发展到后来被先进的钟表制造技术所取代。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_BLAST_FURNACE_PEDIA</Tag>
+    <English>[TAB]Used in smelting iron and steel for making farm implements and weapons, blast furnaces existed in China in the 5thC. B.C. In Europe, the Celts, Romans and Greeks used the inferior "bloom" method until early blast furnaces developed in Germany and Sweden in the 12thC. Used primarily in the production of cast iron, the Cistercian monasteries in France became the leading iron producers in Europe. While in the Muslim East, Indian "bloom"-cast iron was imported for the forging of the greatly superior "Damascus" steel sword blades. Iron and steel blast smelting reached its peak in 17thC England and Belgium in the production of precision machinery and weapons until it was replaced by more advanced coke-burning blast processes.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]五世纪中国已有高炉，用于冶炼农具和武器用钢铁。B、 在欧洲，凯尔特人、罗马人和希腊人使用劣质的“布鲁姆”方法，直到12世纪德国和瑞典发展出早期的高炉。法国的西多会修道院主要用于生产铸铁，成为欧洲主要的钢铁生产商。而在穆斯林东部，印度的“布鲁姆”铸铁是进口来锻造极为优越的“大马士革”钢刀。钢铁鼓风熔炼在17世纪达到顶峰，当时英国和比利时生产精密机械和武器，后来被更先进的烧焦鼓风工艺所取代。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_BRONZE_CASTING_PEDIA</Tag>
+    <English>[TAB]A metal alloy of copper with an additive of tin, bronze was important from pre-Classical times as the first important alloy used by man. Used for the mould-casting of tools, weapons and jewelry, it was much harder and more durable than stone or copper. Tin and copper ores are rarely found together, making Cornwall in Britain the major ancient source for both and a source of much early trade with Europe. Though bronze is harder than wrought iron, iron is much easier to find. So the Bronze Age gave way to the Iron Age in Europe and as iron-working became cheaper, bronze was increasingly confined to artistic uses, and cultures learned to make iron into steel which is much harder than bronze and holds a much sharper cutting edge.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]铜加锡、青铜的金属合金是人类使用的第一种重要合金，是前古典时期的重要合金。用于模具铸造工具，武器和珠宝，它比石头或铜更硬，更耐用。锡矿和铜矿很少同时发现，这使得英国的康沃尔成为这两者的主要古代来源，也是早期与欧洲贸易的来源。虽然青铜比锻铁硬，但铁更容易找到。因此，青铜时代让位给了欧洲的铁器时代，随着铁的加工变得更便宜，青铜越来越局限于艺术用途，文化也学会了将铁制成钢，钢比青铜坚硬得多，而且具有更锋利的尖端。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CHAIN_MAIL_PEDIA</Tag>
+    <English>[TAB]Known as "mail" or "maille", chain mail consists of small metal rings linked together in a pattern to form a mesh. Worn as a shirt, it is known as a "hauberk", normally knee-length but often shorter. It also take the form of leggings, hoods, mittens or collars. Mail seems to have emerged in both East Asia and Europe around 400BC and featured prominently throughout the Dark Ages and into the Middle Ages, reaching its apex in Europe during the 13thC were mail often covered the whole body. Plate armour, however, gradually began to replace mail in the 14th.C as it offered more effective protection against archery, pikes and early firearms. Mail did continue much longer however as a protective clothing for foot soldiers as late as the 18thC.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]被称为“邮件”或“邮件”，链式邮件由小金属环组成，以一种模式连接在一起，形成一个网格。作为衬衫穿，它被称为“hauberk”，通常及膝，但通常较短。它也有紧身裤，帽衫，手套或领子的形式。邮件似乎在公元前400年左右出现在东亚和欧洲，在整个黑暗时代和中世纪都有显著的特点，在13世纪达到欧洲的顶峰，邮件经常覆盖整个身体。然而，在公元14世纪，平板装甲逐渐开始取代邮件，因为它提供了更有效的防御射箭、长矛和早期火器的保护。尽管如此，直到18世纪，作为步兵的防护服，邮件还是持续了很久。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CHIVALRY_PEDIA</Tag>
+    <English>[TAB]As an expression of the medieval institution of knighthood, chivalry embodied the ideals of knightly virtue, duty, honour and courtly love. The term originated in 10th.C France from the word "chevalier" for knight, a powerful warrior with military training, a horse and equipment with sufficient wealth and prestige to support him. Chivalry was mainly associated with the occupation, duties and social class of the knight but from the 12thC, chivalry was also seen as a moral, religious and social code of knightly conduct, esp. with the development of knightly orders like the Templars and Hospitallers during the Crusades, and with the practice of heraldry and its elaborate rules of displaying personal and family coats of arms.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]作为中世纪骑士制度的一种表现，骑士精神体现了骑士美德、责任、荣誉和宫廷爱情的理想。“骑士”一词起源于公元前10世纪的法国，意思是骑士、受过军事训练的强大战士、拥有足够财富和威望来支持他的马和装备。骑士精神主要与骑士的职业、职责和社会等级有关，但从12世纪开始，骑士精神也被视为骑士行为的道德、宗教和社会准则，特别是随着十字军东征期间圣殿骑士和招待所骑士团的发展，以及纹章学的实践，以及展示个人和家庭纹章的详细规则。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CIVIL_ENGINEERING_PEDIA</Tag>
+    <English>[TAB]The engineering discipline that deals with the design, construction and maintenance of works like bridges, roads, canals, dams and buildings, civil engineering can be traced as far back as about 3000BC in Egypt and Mesopotamia in projects like the Great Pyramids of Egypt and the Hanging Gardens of Babylon. The Romans built civil structures throughout their empire including aqueducts, harbours, bridges and roads. In Europe during the Middle Ages, rulers commissioned huge cathedrals and palaces built by armies of labourers and guilds of skilled building masons and other craftsmen. Until the 18thC there was no distinction between civil engineering and architecture and only described works not specifically for military purposes.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]工程学科涉及桥梁、道路、运河、水坝和建筑物等工程的设计、施工和维护，土木工程可追溯到公元前3000年左右的埃及和美索不达米亚，例如埃及的金字塔和巴比伦的空中花园。罗马人在整个帝国建造民用建筑，包括渡槽、港口、桥梁和道路。在中世纪的欧洲，统治者委托大量的工人和熟练的建筑泥瓦匠和其他工匠组成的行会建造大教堂和宫殿。在18世纪以前，土木工程和建筑之间没有区别，只描述了不专门用于军事目的的工程。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CLASSICAL_KNOWLEDGE_PEDIA</Tag>
+    <English>[TAB]Classical antiquity refers broadly to the period of cultural history of the Ancient Greeks and Romans from the poetry of Homer (8th-7thC BC), through the rise of Christianity until the decline of the Roman Empire (5thC AD). Classical Greek civilization was hugely influential in the language, politics, education, philosophy, science, art and architecture of Western Europe esp. during its revival in Renaissance Italy. The Hellenistic tradition carried on throughout the Roman republic and empire with important advances by Roman authors and scientists like Virgil and Galen and the followers of Plato and Aristotle, until gradually being replaced by the theology of the Christian Church in the early Middle Ages.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>【TAB】古典古物泛指古希腊人和罗马人从荷马诗歌（公元前8-7世纪）到基督教兴起直至罗马帝国衰落（公元5世纪）的文化历史时期。希腊古典文明在西欧的语言、政治、教育、哲学、科学、艺术和建筑等方面都有着巨大的影响，尤其是在文艺复兴时期的意大利。希腊主义的传统在整个罗马共和国和帝国延续，罗马的作者和科学家如维吉尔和盖伦以及柏拉图和亚里士多德的追随者取得了重要进展，直到中世纪早期逐渐被基督教的神学所取代。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CLOCKMAKING_PEDIA</Tag>
+    <English>[TAB]As a device for measuring time less than a day or month, early types of clocks include the sundial, the measured candle and the hour glass. Many types of water clock were known in China, Babylon and Egypt though these were refined by the Greeks and Romans and developed further in the Byzantine and Islamic period. In the Middle Ages as religious institutions sought to regulate the hours of prayer and work, came the development of "escapement" or weight-driven clocks and the use of the astrolabe in astronomical clocks. A further refinement arose in Calileo's invention of the pendulum clock and early attempts in spring-driven clocks which culminated in the invention of the marine chronometer by John Harrison in 1761.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]早期的钟表是用来测量一天或一个月以内的时间的，包括日晷、测得的蜡烛和计时玻璃。中国、巴比伦和埃及有许多类型的水钟，尽管这些水钟是由希腊人和罗马人改进的，并在拜占庭和伊斯兰时期得到进一步发展。在中世纪，随着宗教机构试图调整祈祷和工作的时间，出现了“擒纵”或重量驱动时钟的发展和天文钟中的星盘的使用。卡利奥发明了钟摆钟，并在早期尝试弹簧驱动的钟，后来在1761年由约翰·哈里森发明了船用计时钟，这一技术得到了进一步的改进。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_COMBINED_ARMS_PEDIA</Tag>
+    <English>[TAB]The integration of different military units to achieve mutually complimentary effects is known as "combined arms" and dates back to antiquity. Roman legions were traditionally heavy infantry but were used in combination with skirmishers and light cavalry to form an integrated unit. The "Strategikon" written by Emperor Maurice of Byzantium in the 6thC described and refined this principle. The Engish effectively combined massed longbowmen with heavy men-at-arms against superior French mtd. forces at Crecy, Poiters and Agincourt. The weakness of early firearms led the Spanish to adopt the "tercio" pike and musket formations protected by swordsmen. Finally as firearms improved, pikes were gradually replaced by the bayonet.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]为达到相互补充的效果而整合不同的军事单位被称为“联合兵种”，可以追溯到古代。罗马军团传统上是重步兵，但与小骑兵和轻骑兵结合使用，形成一个综合部队。拜占庭皇帝莫里斯在第六章中所写的《战略通则》对这一原则进行了描述和提炼。英格兰人有效地将大量的长弓兵和重兵结合起来对抗法国的mtd。克里西、波特和阿金库尔的军队。早期火器的弱点导致西班牙人采用由剑客保护的“特尔西奥”长矛和步枪编队。最后随着枪械的改进，长矛逐渐被刺刀取代。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_EXPLOSIVES_PEDIA</Tag>
+    <English>[TAB]The first explosives came in the form of gunpowder, a mixture of sulphur, charcoal and saltpetre, in China in the 9thC. Often used in the production of fireworks it soon was employed in incendiary grenades and as a propellant for early bombards and cannons. In the 13thC it had spread to the Middle East where the Ottomans and Arabs developed bombard cannons of great power. The use of gunpowder spread in Europe leading to the fielding of early cannon and the increasing reliance on firearms. A key advancement was corned gunpowder in which powder was mixed with a solvent making it more stable and reliable. Black powder was also used in the mining industry and civil engineering before the invention of chemical explosives in the early 19thC.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]第一批爆炸物是9世纪中国的火药，是硫磺、木炭和硝石的混合物。它经常用于制造烟花，很快就被用于燃烧手榴弹和早期轰炸和大炮的推进剂。在13世纪，它已经蔓延到中东，在那里奥斯曼人和阿拉伯人发展了强大的炮击大炮。火药的使用在欧洲蔓延，导致了早期大炮的部署和对火器的日益依赖。一个关键的进展是将火药与溶剂混合，使其更稳定可靠。在19世纪早期发明化学炸药之前，黑色粉末也被用于采矿业和土木工程。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_FARRIERS_PEDIA</Tag>
+    <English>[TAB]A farrier is a specialist of equine hoofcare, fabricating, adapting, and placing of iron shoes to the horses' foot. The practice of shoeing horses followed the domestication of the horse as it was realized that the feet of working horses needed the additional protection of fitted covers. The Romans used wooden or hide coverings on the shoes of their cavalry horses but the making of iron shoes seems to have become common in Byzantine and Arab armies at the time of the Crusades. But in Europe it was only with the heavy war horse and the armoured knight that specially crafted iron horse shoes became common practice. The early farriers art derived from that of the blacksmith and the two remained synonymous until at least the 18thC.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]马蹄铁制造商是马蹄铁的专家，负责马蹄铁的制作、改装和放置。在驯化马匹之后，人们认识到工作马匹的脚需要额外的保护套，于是就开始给马匹穿鞋带。罗马人在骑兵的鞋子上使用木制或皮制的覆盖物，但是在十字军东征时期，铁制的鞋子似乎在拜占庭和阿拉伯军队中已经很普遍了。但在欧洲，只有在重型战马和装甲骑士的帮助下，特制的铁马鞋才成为普遍的做法。早期的法瑞尔艺术起源于铁匠，直到18世纪，这两种艺术仍然是同义词。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MATCHLOCK_PEDIA</Tag>
+    <English>[TAB]The flintlock firing mechanism in early firearms, invented in France about 1630, gradually replaced the more primitive matchlock and wheel-lock mechanisms. Flintlocks could be small-arm long guns or pistols, rifled or smoothbore, muzzle-loading or breech-loading. Flintlock muskets became the mainstay of European armies between 1660 and 1840 and were generally muzzle-loading, smoothbore long guns firing a round lead ball. Flintlock pistols were most often self-defense weapons, employed in dueling and as a cavalry arm in conjunction with swords and cutlasses. It was only with the invention of paper and metal cartridges and the development of multi-shot revolvers and rifles in the mid 19thC that flintlocks became obsolete.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]法国在1630年左右发明的早期火器中的燧石锁射击机构，逐渐取代了较原始的火柴锁和轮锁机构。燧石可以是小臂长枪或手枪，来复枪或光面膛，枪口装药或炮尾装药。燧石步枪在1660年至1840年间成为欧洲军队的主力，通常是枪口装填，光面膛长枪发射一个圆形铅球。燧石手枪是最常见的自卫武器，用于决斗和作为骑兵武器与剑和弯刀。直到19世纪中叶，随着纸和金属弹壳的发明以及多发左轮手枪和步枪的发展，燧石才变得过时。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_FREE_MARKET_PEDIA</Tag>
+    <English>[TAB]In theory, a market free of government regulation apart from a legal system and protection of property rights, a free market is characterized by open pricing and competition in a free marketplace. Many argue that a free market is a natural form of social organization that arises in any society when not obstructed. Historically, the free market economy seems to have emerged in late medieval and early modern Europe with the development of capitalism and the theory of "laissez-faire". It is unclear whether such a pure form could have existed in the era of mercantilism and colonialism with their competing systems of tariffs and other trade restrictions. In fact a truly free market may instead be more of an aspiration than a reality.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>从理论上讲，自由市场是一个除了法律制度和产权保护之外没有政府监管的市场，自由市场的特点是在自由市场中公开定价和竞争。许多人认为，自由市场是一种自然的社会组织形式，在任何社会中，只要不受阻碍，它就会产生。从历史上看，随着资本主义的发展和“放任主义”理论的提出，自由市场经济似乎出现在中世纪晚期和现代早期的欧洲。目前尚不清楚，在重商主义和殖民主义及其相互竞争的关税和其他贸易限制制度的时代，这种纯粹的形式是否可能存在。事实上，一个真正自由的市场可能更多的是一种愿望，而不是现实。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_GOTHIC_ARCHITECTURE_PEDIA</Tag>
+    <English>[TAB]Gothic architecture evolved from earlier Romanesque architecture and was succeeded by the Renaissance style. Originating in 12thC France and lasting until the 16thC, and generally known as "The French style", its characteristic features were the pointed arch, elevated spires. the ribbed vault and the flying buttress. Gothic architecture is most typified in the great cathedrals, abbeys and parish churches in Europe but also in many castles, palaces, town-halls, guildhalls and universities. But it is especially the great cathedrals like Rheims, Notre Dame, Cologne and York which most exemplify this distinctive architectural design which so much appeals to the emotions and humbles the soul by its sheer monumental power.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>哥特式建筑是从早期的罗马式建筑演变而来，后来又被文艺复兴时期的风格所取代。起源于12世纪的法国，一直延续到16世纪，通常被称为“法式风格”，其特点是尖拱、高尖塔。肋拱和飞扶壁。哥特式建筑在欧洲的大教堂、修道院和教区教堂以及许多城堡、宫殿、市政厅、会馆和大学中最为典型。但尤其是像莱姆斯、圣母院、科隆和约克这样的大教堂，最能体现这种独特的建筑设计，它以其不朽的力量吸引着人们的情感，使灵魂谦卑。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_HERBAL_MEDICINE_PEDIA</Tag>
+    <English>[TAB]Herbalism is the traditional practice of folk medicine based on the use of plants and plant extracts as well as fungal, apiary and even animal products which was well-documented in the works of Hippocrates and Galen and faithfully copied and studied in monasteries in early medieval Europe. Monasteries became the local centres of medical practice and kept extensive herb gardens for medicinal use. There was also a rise in traveling herbalists including many "wise women" whose use of spells would open them to charges of witchcraft in later centuries. The Arabs expanded greatly on Greek and Roman methods and from their trading networks introduced hundreds of new plants and preparations to European medical practice.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>【TAB】草药学是一种传统的民间医学实践，它以植物和植物提取物以及真菌、养蜂甚至动物产品为基础，在希波克拉底和盖伦的著作中有详细记载，并在中世纪早期的欧洲修道院中忠实地复制和研究。寺院成为当地的医疗中心，并保留了大量的草药花园供药用。旅行中的草药医生也有所增加，其中包括许多“聪明的女人”，她们使用法术会使她们在以后的几个世纪里受到巫术的指控。阿拉伯人大大扩展了希腊和罗马的方法，并从他们的贸易网络引进了数以百计的新植物和制剂到欧洲的医疗实践。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_INDUSTRIAL_TECH_PEDIA</Tag>
+    <English>[TAB]The Industrial Revolution which saw major changes in agriculture, mining, manufacturing and transportation occurred initially in Britain but spread rapidly to Europe, America and the World, transforming socio-economic and cultural conditions. From the 1780's there was a profound shift from a mainly rural economy using on manual labour to one based increasingly on machine-based manufacturing. The enclosure of agricultural land, mechanization of the textile industry, the refinement of iron and steel-making and the introduction of steam power brought with it the improvement of canals, roads and railroads. And the refinement of all-metal machine tools greatly increased production capacity and output in manufacturing industry.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]工业革命最初在英国发生，农业、矿业、制造业和运输业发生了重大变化，但迅速蔓延到欧洲、美洲和世界各地，改变了社会经济和文化条件。从17世纪80年代开始，中国经济发生了深刻的转变，从主要依靠体力劳动的农村经济转变为日益依靠机械制造业的农村经济。农业用地的圈地、纺织工业的机械化、钢铁的精炼和蒸汽动力的引进，带来了运河、公路和铁路的改善。而全金属机床的精化大大提高了制造业的生产能力和产量。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_LATEEN_SAILS_PEDIA</Tag>
+    <English>[TAB]A lateen or latin-rig is a triangular sail set on a large yard mounted at an angle to the mast in a fore to aft direction. First used in Arabian waters and the Indian Ocean as early as the 4thC BC, it again became standard in the rigging of Roman vessels from the 3rd.C. Until the 14thC its use was confined to the Mediterranean Sea while Atlantic and Balkan vessels relied on the square sail. But it was the Portugese who first used large lateen sails in ocean-going caravels and the larger carrick with its mixed arrangement of both lateen and square rigging which became the mainstay of Atlantic voyages by the early European discoverers. Lateen sails have continued today mainly on the Nile, Mediterranean and Indian Oceans.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]三角帆或拉丁帆是一种三角帆，安装在一个大的船坞上，与桅杆成一个角度，从船首到船尾。早在公元前4世纪，它就开始在阿拉伯水域和印度洋使用，从公元前3世纪到公元14世纪，它再次成为罗马船只的标准索具。它的使用仅限于地中海，而大西洋和巴尔干的船只则依靠方帆。但正是葡萄牙人首先在远洋商船和大帆船上使用了大型的拉延帆，拉延帆和方形帆的混合布置成为早期欧洲发现者进行大西洋航行的支柱。今天，主要在尼罗河、地中海和印度洋继续航行。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MACHINE_TOOLS_PEDIA</Tag>
+    <English>[TAB]A machine tool is a powerful mechanical device used to shape or fabricate metal objects by "machining" or the selective removal of metals. Machine tools typically used a source of power other than human movement but could employ human action only is set up as such. But true machine tools only arose with the employment of water wheels as in the earliest forms which involved direct mechanical control of the cutting tool. Early examples include the first screw-cutting lathes in the 15thC as well as simple drill presses and milling machines. But it was only in the 18thC with the development of the steam engine that reliable machine tools began to develop, contributing to the great advances of the Industrial Revolution.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]机床是一种强大的机械装置，用于通过“加工”或选择性地去除金属来塑造或制造金属物体。机床通常使用除人类运动以外的动力源，但只能使用人类活动，因此被设置为这样。但真正的机床只有在使用水轮的情况下才出现，因为最早的形式涉及到对刀具的直接机械控制。早期的例子包括15世纪的第一台螺旋切削车床，以及简单的钻床和铣床。但直到18世纪，随着蒸汽机的发展，可靠的机床才开始发展，为工业革命的伟大进步作出了贡献。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MANORIALISM_PEDIA</Tag>
+    <English>[TAB]As the organizing principle of rural economy and society in early medieval Europe, "manorialism" was characterized by the vesting of legal and economic power in a lord (French, "seigneur") supported economically from his direct landholding ( or "manor"), and from the obligatory contributions of a legally-bound peasant population under his control. The lord held this position as part of his obligations of loyalty and military service to a higher lord or king and exercised local justice through his manor court governed by public law and local custom. Although usually secular, seigneurs could also be bishops or abbots who controlled manors and lands by religious authority but enjoyed similar local rights and obligations.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]作为中世纪早期欧洲农村经济和社会的组织原则，“庄园制”的特点是将法律和经济权力授予一个领主（法国称为“君主”），由他直接拥有的土地（或“庄园”）提供经济支持，以及在他控制下的受法律约束的农民的义务捐款。耶和华担任这一职务，是他对上一级君主或国王忠诚和服兵役的义务的一部分，并通过公法和地方习俗管辖的庄园法院行使地方司法。虽然通常是世俗的，但也可以是主教或住持谁控制庄园和土地的宗教权威，但享有类似的地方权利和义务。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MAP_MAKING_PEDIA</Tag>
+    <English>[TAB]Cartography, or map making, is the practice of making geographical maps which developed in ancient Greece and Rome in the 6thC. BC. An early example was Ptolemy's map of the known world in the 2ndC. AD. Arab geographers began to translate the works of Greek geographers into Arabic and many "mappa mundi" were produced in early medieval Europe, but the first accurate atlas of maps was produced by the Arab geographer al-Idrisi in 1154, incorporating knowledge of Europe, Africa, the Indian Ocean and the Far East. Later European geographers relied heavily on previous maps and the observations of explorers but were aided by the introduction of the magnetic compass, telescope and sextant which improved the accuracy of map making greatly.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>制图学，或称地图制作，是在古希腊和古罗马六世时期发展起来的制作地理地图的实践。公元前。一个早期的例子是托勒密在第二届华盛顿特区绘制的已知世界地图。公元前，阿拉伯地理学家开始将希腊地理学家的作品翻译成阿拉伯语，许多“mappa mundi”都是在中世纪早期的欧洲制作的，但1154年，阿拉伯地理学家al-Idrisi制作了第一个精确的地图地图集，其中包含了欧洲、非洲、印度洋和远东的知识。后来的欧洲地理学家在很大程度上依赖于以前的地图和探险家的观测，但借助于磁罗盘、望远镜和六分仪的引入，大大提高了地图制作的准确性。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MILITARY_TACTICS_PEDIA</Tag>
+    <English>[TAB]The art of organizing an army and techniques for the use of weapons and military units to engage the enemy in battle, military tactics have changed greatly over time with changes in philosophy and technology. Before the 19th.C, most military tactics were confined to the concerns of the battlefield, such as how to maneuver units during combat in open terrain. Typical practices in early warfare included ambushes, seeking and turning flanks, reconnaissance, creating and using obstacles and defences. An essential element of tactics was the use of ground to advantage, such as rivers, swamps, passes, choke points and natural cover, which might be used by a commander to create or enhance an advantage over his opponent.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]组织军队的艺术和使用武器和军事单位与敌人交战的技术，随着时间的推移，随着哲学和技术的变化，军事战术发生了很大的变化。在19世纪以前，大多数军事战术都局限于战场上的关注点，例如在开阔地形作战时如何机动部队。早期战争的典型做法包括伏击、寻找和转向侧翼、侦察、制造和使用障碍物和防御。战术的一个基本要素是利用地面优势，例如河流、沼泽、传球、瓶颈和自然掩护，指挥官可以利用这些优势来创造或增强对对手的优势。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MONASTICISM_PEDIA</Tag>
+    <English>[TAB]Monasticism is the religious practice in which individuals renounce worldly pursuits in favour of more spiritual work. The practice developed early in Christianity and monasteries were founded throughout early Europe to organize their followers in orders based on the rules laid down by St. Benedict, St. Dominic and others. Monasteries were communities whose members engaged in prayer, study and contemplation but also cooperated in the production of books and manuscripts, metallurgy, agriculture, textiles and brewing. Monasteries often became very powerful and wealthy communities whose influence could challenge the more secular authorities such as the landed nobility, the military and the king or even the Church itself.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]修道是个人放弃世俗追求，转而从事更多精神工作的宗教实践。早期在基督教和修道院发展起来的做法是在整个早期欧洲建立起来的，根据圣本笃、圣多米尼克和其他人制定的规则来组织信徒。寺院是一个社区，其成员从事祈祷、学习和冥想，但也合作生产书籍和手稿、冶金、农业、纺织和酿酒。修道院往往成为非常强大和富有的社区，其影响力可能挑战更世俗的权威，如土地贵族、军队和国王，甚至教会本身。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MONUMENT_BUILDING_PEDIA</Tag>
+    <English>[TAB]A monument is a structure built to commemorate a person or event, or a remembrance of past events, the word being derived from the Latin "monere" meaning to remind or warn. Monuments have been created for thousands of years and have become the most durable symbols of past civilizations. In the Middle Ages, wealthy patrons financed the building of statues, tombs and memorials to famous people, esp. military leaders, national heroes or notable politicians. Triumphal arches and decorative fountains often commemorated military victories or famous generals. During the Renaissance, the Church commissioned great statues and sculptures by artists like Michelangelo and Bernini to celebrate Christianity and the glory of God.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]纪念碑是为纪念一个人或一个事件而建造的结构，或对过去事件的纪念，这个词来源于拉丁语“monere”，意思是提醒或警告。纪念碑已经被创造了数千年，并已成为过去文明最持久的象征。在中世纪，富有的赞助人资助为名人，特别是军事领导人、民族英雄或著名政治家建造雕像、坟墓和纪念碑。凯旋门和装饰喷泉通常用来纪念军事胜利或著名的将军。文艺复兴时期，教会委托米开朗基罗和贝尔尼尼等艺术家制作伟大的雕像和雕塑，以庆祝基督教和上帝的荣耀。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_NAVAL_ARCHITECTURE_PEDIA</Tag>
+    <English>[TAB]The engineering discipline dealing with the design, construction and repair of marine vehicles, naval architecture involves research, design, development and calculation in all stages of the life of a marine vehicle. Traditionally, naval architecture has been more craft than science, the shape of a vessel being judged by the use of scale models or prototypes. In Europe, Viking longships were developed from the use of "clinker" or overlapped planking though later European vessels favoured more rounded hulls with a broad beam and heavily curved at both ends. Later innovations included a straight steerpost enabling the mounting of a moveable rudder and a mixed array of both lateen and square-rigged sails on ocean-going vessels.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]涉及船舶设计、建造和修理的工程学科，包括船舶生命周期各个阶段的研究、设计、开发和计算。传统上，海军建筑更多的是工艺而不是科学，船只的形状是通过使用比例模型或原型来判断的。在欧洲，北欧海盗的长船是从使用“熟料”或重叠木板发展而来的，尽管后来的欧洲船只喜欢更圆的船体，宽的横梁和严重弯曲的两端。后来的创新包括一个直的舵杆，可以安装一个可移动的方向舵，以及在远洋船只上混合使用的一系列板帆和方形帆。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PATRONAGE_PEDIA</Tag>
+    <English>[TAB]Patronage is the support, encouragement, privilege and financial aid that an organization or individual bestows on another. In the history of art, patronage refers to the support kings, popes or the wealthy provided to musicians, painters and sculptors, acting as sponsors of individual artists to enhance their prestige, political ambitions or social position. Some patrons like the Medici family of Florence and the Papacy supported the the creation of religious art and architecture by their commissioning of churches, cathedrals, paintings and sculpture. Artists and writers such as Michelangelo, Raphael, Da Vinci, Shakespeare and Ben Jonson all enjoyed the direct support of wealthy noble or ecclesiastical patrons.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]资助是指一个组织或个人给予另一个组织或个人的支持、鼓励、特权和经济援助。在艺术史上，赞助人是指国王、教皇或富人向音乐家、画家和雕塑家提供的支持，作为艺术家个人的赞助人，以提高他们的声望、政治野心或社会地位。一些赞助人，如佛罗伦萨的美第奇家族和教皇，通过委托教堂、大教堂、绘画和雕塑来支持宗教艺术和建筑的创作。米开朗基罗、拉斐尔、达·芬奇、莎士比亚和本·琼森等艺术家和作家都得到了富有的贵族或教会赞助人的直接支持。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PLATE_ARMOR_PEDIA</Tag>
+    <English>[TAB]A personal armour made from large metal plates, worn on the chest and sometimes the whole body, plate armour was first used by the Greeks and Romans but fell into disuse until its revival in the 13thC in Byzantium and Europe. Single plates of metal armour were used to protect joints and shins but worn over a full mail "haubergeon" or shirt although by the end of the 14thC larger and more complete full sets of plate armour were developed. The best armour was produced in Germany, Northern Italy, Serbia and at Greenwich in England, each with its own distinctive style. Full plate armour continued in use until the 18thC but became more decorative than militarily useful due to advances in weaponry like the adoption of rifled muskets.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>平板甲一种由大金属板制成的个人盔甲，穿在胸前，有时穿在全身，最初被希腊人和罗马人使用，但在公元13世纪拜占庭和欧洲复兴之前一直被废弃。单板金属甲被用来保护关节和胫骨，但穿在一件完整的“haubergeon”或衬衫上，尽管到14世纪末，发展出了更大、更完整的全套金属甲。最好的盔甲产于德国、意大利北部、塞尔维亚和英国的格林威治，每种盔甲都有自己独特的风格。全板甲一直使用到18世纪，但由于武器装备的进步，如步枪的使用，全板甲的装饰性比军事上更有用。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_POLYGONAL_FORT_PEDIA</Tag>
+    <English>[TAB]A polygonal fort is a type of fortification which was designed in the early 19thC.in response to the effects of powerful explosive shells. It replaced the earlier complex designs of the "star fort" which developed in 16thC. Italy to replace more traditional fortifications. In order to counter the effect of cannons and bombards, defensive walls were made lower and thicker and made of brick rather than stone as it was not shattered so easily by the impact of cannonballs. Bastions were placed at every angle or corner to provide overlapping covering fire, producing the characteristic star or multiple star patterns. These "star forts" prevailed in Europe until replaced by the geometrically simpler but more durable polygonal form.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>【TAB】多边形堡垒是19世纪初设计的一种防御工事，是为了应对强大的爆炸性炮弹的影响。它取代了16世纪发展起来的“星堡”早期复杂的设计。意大利将取代更传统的防御工事。为了对抗大炮和炮击的影响，防御墙被造得越来越低，越来越厚，用砖块而不是石头，因为它不容易被炮弹的冲击粉碎。堡垒被放置在每一个角度或角落，以提供重叠的掩护火力，产生典型的恒星或多个恒星图案。这些“恒星堡垒”盛行于欧洲，直到被几何上更简单但更耐用的多边形形式所取代。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PROFESSIONAL_ARMY_PEDIA</Tag>
+    <English>[TAB]A "standing" or professional army is comprised of full-time soldiers who "stand over" or do not disband in peacetime. Standing armies were better trained, equipped and prepared for battle, as defined in the "Marian" reforms which transformed the earlier property-based citizen army of the Roman Republic into a full-time professional Roman Army based on a period of service. Early European armies tended to be temporary levees raised by the King but standing armies emerged in Hungary under Matthias Corvinus, France under Henry VII and the "janissary" armies of the Ottoman Empire in the 15thC. James II of England raised the first professional British Army which saw action throughout the expanding British Empire of the 17th and 18th centuries.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]一支“常备军”或专业部队由在和平时期“待命”或不解散的全职士兵组成。按照“马里安”改革的定义，常备军经过了更好的训练、装备和战斗准备，该改革将罗马共和国早期以财产为基础的公民军队转变为以服役期为基础的全职专业罗马军队。早期的欧洲军队往往是国王修建的临时堤防，但常备军出现在匈牙利的马提亚斯·科尔维纳斯（Matthias Corvinus）统治下，法国在亨利七世统治下，以及15世纪奥斯曼帝国的“janissary”军队。英国的詹姆斯二世（James II）建立了第一支专业的英国军队，在17和18世纪不断扩张的大英帝国中看到了行动。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PUBLIC_WORKS_PEDIA</Tag>
+    <English>[TAB]Public works are construction or engineering projects carried out by the state on behalf of the community which might include roads, canals, dams, harbours or city walls. Many great public projects were carried out by the Roman emperors to enhance their power and prestige and secure favour with the public like arenas, stadiums, public baths, theatres and libraries. In Europe during the Middle Ages, powerful kings, wealthy families and the Christian monasteries all supplied the wealth to finance the building of churches, cathedrals, castles, schools and transportation networks. As governments grew in power and influence and were able to raise tax revenues the building of public works became increasingly collective and national.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]公共工程是国家代表社区进行的建设或工程项目，可能包括道路、运河、水坝、港口或城墙。罗马皇帝进行了许多伟大的公共工程，以提高他们的权力和威望，并获得公众的青睐，如竞技场、体育场馆、公共浴室、剧院和图书馆。在中世纪的欧洲，有权势的国王、富裕的家庭和基督教修道院都为建造教堂、大教堂、城堡、学校和交通网络提供了资金。随着政府在权力和影响力上的增长以及能够提高税收，公共工程的建设变得越来越集体化和国家化。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_RELIGIOUS_ART_PEDIA</Tag>
+    <English>[TAB]Sacred or religious art was intended to uplift the mind to the spiritual as an object venerated not for what it was but what it represented. The use of art in religion was essential in symbolizing concepts or feelings that words alone could not express. Christian art was usually allusive, or built on familiar images, like the Virgin Mary holding the baby Jesus, or Christ on the cross. As most people could not read, an elaborate iconograghic style in depicting religious themes was developed with Biblical events representing parables or lessons for the audience. Islamic art, however, forbade natural images but used geometric or calligraphic devices which emphasized the spiritual essence rather than the physical form.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]神圣或宗教艺术的目的是将心灵提升到精神层面，使之成为一种受人尊敬的对象，而不是因为它是什么，而是它所代表的东西。艺术在宗教中的运用对于象征语言本身无法表达的概念或情感至关重要。基督教艺术通常是含蓄的，或建立在熟悉的形象，如圣母玛利亚抱着婴儿耶稣，或基督在十字架上。由于大多数人无法阅读，在描绘宗教主题时形成了一种精心制作的偶像派风格，用圣经中的事件来代表寓言或教训。然而，伊斯兰艺术禁止自然形象，但使用几何或书法手段，强调精神实质，而不是物理形式。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_RENAISSANCE_ART_PEDIA</Tag>
+    <English>[TAB]The most distinguishing feature of Renaissance art which developed in 14thC. Europe was its highly realistic and linear perspective, first demonstrated in the writings of the architect Leon Battista Alberti. Painters like Leonardo Da Vinci, Michelangelo and Raphael studied the effects of light, shadow, colour and anatomy in their aesthetic attempt to depict the beauty of Nature. Paintings by Botticelli, Donatello and Titian were generally Classical or religious in theme though a vibrant artistic culture with more natural and rustic themes developed in the Netherlands in works by Van Eyck, Vermeer and Breughel and the German artists Durer and Holbein who themselves influenced the further development of the Italian style.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]文艺复兴时期艺术最显著的特点是在14世纪发展起来的。欧洲是其高度现实和线性的视角，首先表现在建筑师利昂巴蒂斯塔阿尔贝蒂的作品。像达芬奇、米开朗基罗和拉斐尔这样的画家，在试图描绘自然美的美学尝试中，研究了光、影、色和解剖学的影响。波提切利、多纳泰罗和提香的绘画在主题上一般是古典主义或宗教主义的，但在荷兰，范艾克、维米尔和布雷厄尔以及德国艺术家杜勒和霍尔宾的作品中发展了一种充满活力的艺术文化，主题更为自然和质朴，他们自己也影响了意大利风格的进一步发展。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_RIGHTS_OF_MAN_PEDIA</Tag>
+    <English>[TAB]"The Rights of Man", published by Thomas Paine in 1791, suggested that popular political revolution was permissible where a government had failed to safeguard its people, their natural rights and their interests. Defending both the French and American Revolutions from critics like Edmund Burke and others, Paine's ideas followed logically from those of Jean Jacques Rousseau in "The Social Contract" (1762) where he outlined the basis of legitimate political order in a republican context with sovereignty lying in the hands of the people based on definable laws. Paine also opposed the continuation of hereditary government, preferring a natural progression to representative democracy based on an agreed and written constitution.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>托马斯·潘恩于1791年发表的《人的权利》指出，在政府未能保护人民、人民的自然权利和人民的利益的情况下，人民的政治革命是可以允许的。为法国和美国的革命辩护，不让像埃德蒙·伯克和其他人这样的批评家批评，潘恩的思想逻辑上遵循了让-雅克卢梭在《社会契约》（1762年）中的思想，他在《社会契约》（1762年）中概述了在共和背景下合法政治秩序的基础，主权掌握在人民手中，基于可定义的法律。潘恩还反对继续实行世袭政府，主张在商定和书面宪法的基础上，向代议制民主自然过渡。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_SHIPBUILDING_PEDIA</Tag>
+    <English>[TAB]The construction of ships or vessels of all types traces its roots to well before recorded history. The early Egyptians and Phoenicians fashioned large ships whose hulls were formed from wooden planking fixed with sinews or reeds. Greek ships were equipped with multiple masts and sails and powered by several banks of oars. Viking longships were traditional "clinker" built with overlapping planks and large square sails. Later European vessels were more rounded,with broader beam, heavily curved at each end and equipped with vertical steerposts and a moveable rudder. Lateen sails were gradually combined with square-rigged types in the 15thC. to produce the caravels and carracks were the mainstay of the European navigators and explorers.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]船舶或各类船舶的建造，其根源远远早于有记录的历史。早期的埃及人和腓尼基人建造了大型船只，它们的船体是由用筋或芦苇固定的木板制成的。希腊船只装备有多个桅杆和帆，由几排桨提供动力。北欧海盗的长船是传统的“熟料”建造与重叠的木板和大方形帆。后来的欧洲船只更为圆润，横梁更宽，两端都有严重的弯曲，并配有垂直的舵杆和可移动的舵。15世纪晚期的帆逐渐与方形帆组合。生产克拉维尔和卡拉克是欧洲航海家和探险家的支柱。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_SIEGE_ENGINES_PEDIA</Tag>
+    <English>[TAB]A device designed to break or circumvent city walls and other fortifications in siege warfare, the earliest type of siege engines were probably the battering ram developed by the Assyrians and siege towers used by the Carthaginians against Greek colonies in Sicily. Greek inventions like those of Archimedes, were further refined by the Romans in their use of catapults, the onager, the ballista, the tortoise and the testudo. European devices like the mangonel and the traction trebuchet were replaced by the more advanced counterweight trebuchet first used by the Arabs during the Crusades. Siege warfare was at its apex in the European Middle Ages where protracted sieges against cities were often preferred to open field warfare.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]在攻城战中，一种用来攻破或绕过城墙和其他防御工事的装置，最早的攻城引擎可能是亚述人发明的重锤和迦太基人用来攻打西西里的希腊殖民地的攻城塔。希腊的发明如阿基米德的发明，被罗马人在使用弹弓、水壶、弩炮、乌龟和泰斯图多时进一步改进。像芒果和牵引投石机这样的欧洲设备被更先进的平衡重投石机取代，阿拉伯人在十字军东征期间首先使用了平衡重投石机。围攻战在欧洲中世纪处于顶峰，在那里，对城市的长期围攻往往比公开的野战更受欢迎。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_STEAM_ENGINES_PEDIA</Tag>
+    <English>[TAB]As an engine that performs mechanical work using steam as its working fluid, machines using boiling water to produce motion date back nearly 2000 years but were not practical power producers. It was not until the 18thC. that designs which produced usable power were developed, initially vacuum engines for the removal of mine-water as invented by Thomas Newcomen in 1712. In the 1760s, James Watt greatly improved these engines, making them more fuel-efficient and cheaper to run, and introduced a rotary motion which made them suitable for driving factory machinery. But it was the invention of the more powerful high pressure steam engine by Richard Trevithick in 1800 that made steam the dominant power source of the Industrial Revolution.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]作为一种使用蒸汽作为工作流体进行机械工作的发动机，使用沸水产生运动的机器可以追溯到近2000年前，但不是实用的发电设备。直到18世纪。产生可用功率的设计被开发出来，最初是托马斯·纽科门在1712年发明的用于排除矿井水的真空发动机。在17世纪60年代，詹姆斯瓦特对这些发动机进行了极大的改进，使其更省油、运行成本更低，并引入了旋转运动，使其适合驱动工厂机械。但正是1800年理查德特雷维希克（Richard Trevithick）发明的更强大的高压蒸汽机，使蒸汽成为工业革命的主要动力源。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_STIRRUP_PEDIA</Tag>
+    <English>[TAB]The stirrup is a flat-bottomed ring fixed to a leather strap hanging on either side of a saddle to create a footrest for a person riding a horse, both as a support and an aid in mounting. Greatly improving the rider's ability to stay in the saddle and controlling his mount, it increased the animal's usefulness in communication, transportation and warfare. As a key factor in the creating and spreading of civilization, it may be just as important as the wheel and the printing press. Originating in China about 200AD it spread into Europe by the 7thC. and was widely adopted in the Middle Ages. With the rise of the armoured mounted knight and his retainers, it may also have helped initiate the development of the European feudal system.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]马镫是一个平底环，固定在马鞍两侧的皮带上，为骑马的人创造一个搁脚板，既作为支撑，也作为安装的辅助。它极大地提高了骑手在马鞍上停留和控制坐骑的能力，增加了动物在通讯、交通和战争中的效用。作为创造和传播文明的关键因素，它可能和轮子和印刷机一样重要。约公元200年起源于中国，7世纪传入欧洲。在中世纪被广泛采用。随着骑兵和侍从的兴起，这也可能有助于欧洲封建制度的发展。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_TRADING_COMPANIES_PEDIA</Tag>
+    <English>[TAB]As a type of public or joint-stock company, trading companies generally put their shares for sale on the open market and were "listed" on the stock exchange. An early example was the Virginia Company, combining the overseas interests of the London Company and the Plymouth Company which established the colonies of Jamestown and Popham on the east coast of America. Also about 1600, the Dutch East India Company and the Honourable East India Company of England were established to develop favourable trade contacts and advantages in India and the East Indies. Similar companies were established in South America and the West Indies by Spain, Portugal, Britain, Holland and Denmark to exploit their trade interests in those regions.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]作为一种上市公司或股份制公司，贸易公司一般将其股票在公开市场上出售，并在证券交易所“上市”。一个早期的例子是弗吉尼亚公司，它把伦敦公司和普利茅斯公司的海外利益结合起来，在美国东海岸建立了詹姆斯敦和波普汉姆殖民地。大约1600年，荷兰东印度公司和英国尊贵的东印度公司成立，以在印度和东印度发展有利的贸易联系和优势。西班牙、葡萄牙、英国、荷兰和丹麦在南美洲和西印度群岛成立了类似的公司，以利用它们在这些地区的贸易利益。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_VASSALAGE_PEDIA</Tag>
+    <English>[TAB]A vassal, as developed during the rise of feudalism in Europe, was someone who enjoyed mutual rights and obligations with a lord or monarch, usually of military support and protection in exchange for guarantees which might entitle him to a certain terrain or "fief". Vassalage might involve an elaborate ceremony composed of declarations of homage and fealty backed by the Christian sacraments which formalized the concepts of lordship or "seigneurship" in a recognized pattern of individual social standing in the European Middle Ages. Increasingly society began to be organized around an elaborate pattern of overlapping hierarchies where each individual was bound by mutual rights, duties, honour and his own clearly defined obligations.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]附庸是在欧洲封建主义兴起期间发展起来的，与君主或君主享有共同权利和义务的人，通常是军事支持和保护，以换取可能使他有权享有某种地形或“封地”的保障。在欧洲中世纪，封臣仪式可能包括一个精心设计的仪式，包括由基督教圣礼支持的尊崇和忠诚宣言，这些圣礼以一种公认的个人社会地位模式正式确立了领主或“君主统治”的概念。越来越多的社会开始围绕着一种复杂的重叠等级模式进行组织，每个人都受到相互权利、义务、荣誉和他自己明确规定的义务的约束。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_VAULTED_ARCHES_PEDIA</Tag>
+    <English>[TAB]A vault is an architectural term for an arched form used to provide space with a ceiling or roof. The parts of a vault exert a thrust that require a counter resistance which is provided by the soil if built below ground but requires various means such as barreled or continuous vaults combined with buttresses to supply the extra needed resistance. Particularly in the Romanesque, Gothic and Baroque cathedrals of the European Middle ages, barrel vaults were replaced or supplemented by the introduction of more elaborate forms such as groin vaults, rib vaults, fan vaults and transverse ribbing which allowed the creation of higher, wider ceilings and open spaces that typified the greatest architectural wonders of European history.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[选项卡]拱顶是一个建筑术语，指用于为空间提供天花板或屋顶的拱形形式。拱顶部分产生的推力需要土壤提供的反阻力（如果建在地下），但需要各种方式，如筒形或连续拱顶与扶壁结合，以提供额外需要的阻力。尤其是在欧洲中世纪的罗马式、哥特式和巴洛克式大教堂中，桶形拱顶被更为精致的形式所取代或补充，如腹股沟拱顶、肋形拱顶、扇形拱顶和横向肋形拱顶，从而创造出更高的拱顶，更宽的天花板和开放空间，代表了欧洲历史上最伟大的建筑奇迹。</Chinese>
+  </TEXT>
+</Civ4GameText>

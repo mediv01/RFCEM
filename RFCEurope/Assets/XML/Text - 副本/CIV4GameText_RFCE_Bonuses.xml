@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Bonuses -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SALT</Tag>
+    <English>Salt</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>盐</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SALT_PEDIA</Tag>
+    <English>[TAB]Salt has been one of the most valued commodities in the history of mankind - among other reasons, humans need a certain amount of salt in their diet to survive. Humans have been harvesting salt for thousands of years; the practice started in the dim recesses of history, long before any written records were made.[PARAGRAPH:2]One of salt's greatest properties is its ability to preserve food. Before the development of reliable refrigeration, one of the few known ways to keep food from becoming inedible was to apply salt, which delays or prevents microbial invasion. (Some kinds of foods can also by preserved by "smoking" them.) In addition to its preservative qualities, salt also simply makes food taste better.[PARAGRAPH:2]One of the earliest-discovered methods of harvesting salt was by evaporating seawater under the sun, a very tedious and expensive process, leading to high prices for this important good. It wouldn't be until the mid-nineteenth century - when salt mining was widely practiced across the world - that this commodity would become much less expensive, no longer "worth its weight in gold," as it was commonly described. </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]Salt has been one of the most valued commodities in the history of mankind - among other reasons, humans need a certain amount of salt in their diet to survive. Humans have been harvesting salt for thousands of years; the practice started in the dim recesses of history, long before any written records were made.[PARAGRAPH:2]One of salt's greatest properties is its ability to preserve food. Before the development of reliable refrigeration, one of the few known ways to keep food from becoming inedible was to apply salt, which delays or prevents microbial invasion. (Some kinds of foods can also by preserved by "smoking" them.) In addition to its preservative qualities, salt also simply makes food taste better.[PARAGRAPH:2]One of the earliest-discovered methods of harvesting salt was by evaporating seawater under the sun, a very tedious and expensive process, leading to high prices for this important good. It wouldn't be until the mid-nineteenth century - when salt mining was widely practiced across the world - that this commodity would become much less expensive, no longer "worth its weight in gold," as it was commonly described. </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_POTATO</Tag>
+    <English>Potatoes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>马铃薯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_POTATO_PEDIA</Tag>
+    <English>[TAB]The potato (Solanum tuberosum) is a perennial plant of the Solanaceae, or nightshade, family, commonly grown for its starchy tuber. Potatoes are the world's most widely grown tuber crop, and the fourth largest crop in terms of fresh produce (after rice, wheat, and maize), but this ranking is inflated due to the high water content of fresh potatoes relative to that of other crops. The potato originated in South America, somewhere in present-day Peru. Potatoes are important to the culture of the Andes, where farmers grow many different varieties that have a remarkable diversity of colors and shapes. Potatoes spread to the rest of the world after European contact with the Americas in the late 1400s and early 1500s and have since become an important field crop.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]The potato (Solanum tuberosum) is a perennial plant of the Solanaceae, or nightshade, family, commonly grown for its starchy tuber. Potatoes are the world's most widely grown tuber crop, and the fourth largest crop in terms of fresh produce (after rice, wheat, and maize), but this ranking is inflated due to the high water content of fresh potatoes relative to that of other crops. The potato originated in South America, somewhere in present-day Peru. Potatoes are important to the culture of the Andes, where farmers grow many different varieties that have a remarkable diversity of colors and shapes. Potatoes spread to the rest of the world after European contact with the Americas in the late 1400s and early 1500s and have since become an important field crop.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_COFFEE</Tag>
+    <English>Coffee</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>咖啡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_COFFEE_PEDIA</Tag>
+    <English>[TAB]The history of coffee begins in the 9th century. It is thought to have originated in the highlands of Ethiopia and spread to the rest of the world via Egypt and Europe. The word coffee is derived from the Arabic word Qah'wa, over Ottoman Turkish Kahve, which originally meant wine or other intoxicating liquors. Partly due to the Islamic prohibition on drinking alcohol, preparing and drinking coffee became an important social ritual. In the 15th century, Muslims introduced coffee in Persia, Egypt, northern Africa and Turkey, where the first cafeteria, Kiva Han, opened in 1475 in Constantinople. The stimulant effect of drinking coffee caused it to be forbidden among orthodox and conservative imams in Mecca in 1511 and in Cairo in 1532 by a theological court. In Egypt, coffeehouses and warehouses containing coffee cherries were sacked. But the product's popularity, particularly among intellectuals, led to the reversal of this decision in 1524 by an order of the Ottoman Turkish Sultan Selim I. From the Muslim world, coffee spread to Europe, where it became popular in the 17th century. Dutch traders were the first to start large scale import of coffee into Europe.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]The history of coffee begins in the 9th century. It is thought to have originated in the highlands of Ethiopia and spread to the rest of the world via Egypt and Europe. The word coffee is derived from the Arabic word Qah'wa, over Ottoman Turkish Kahve, which originally meant wine or other intoxicating liquors. Partly due to the Islamic prohibition on drinking alcohol, preparing and drinking coffee became an important social ritual. In the 15th century, Muslims introduced coffee in Persia, Egypt, northern Africa and Turkey, where the first cafeteria, Kiva Han, opened in 1475 in Constantinople. The stimulant effect of drinking coffee caused it to be forbidden among orthodox and conservative imams in Mecca in 1511 and in Cairo in 1532 by a theological court. In Egypt, coffeehouses and warehouses containing coffee cherries were sacked. But the product's popularity, particularly among intellectuals, led to the reversal of this decision in 1524 by an order of the Ottoman Turkish Sultan Selim I. From the Muslim world, coffee spread to Europe, where it became popular in the 17th century. Dutch traders were the first to start large scale import of coffee into Europe.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SULPHUR</Tag>
+    <English>Sulphur</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>硫磺</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SULPHUR_PEDIA</Tag>
+    <English>[TAB]Sulfur is the chemical element in the periodic table that has the symbol S and atomic number 16. It is an abundant, tasteless, odorless, multivalent non-metal. Sulfur, in its native form, is a yellow crystalline solid. In nature, it can be found as the pure element or as sulfide and sulfate minerals. It is an essential element for life and is found in two amino acids. Its commercial uses are primarily in fertilizers but it is also widely used in gunpowder, matches, insecticides and fungicides. Sulfur (Sanskrit, sulvari; Latin, sulpur) was known in ancient times, and is referred to in the Biblical Pentateuch (Genesis). The word itself probably is from the Arabic sufra meaning yellow, from the bright color of the naturally occurring form, although the Sanskrit name for sulfur, sulvari could also be interpreted as meaning "enemy of copper". English translations of the Bible commonly refer to sulfur as "brimstone", giving rise to the name of 'Fire and brimstone' sermons, in which listeners are reminded of the fate of eternal damnation that awaits the nonbelieving and unrepented. It is from this part of the Bible that Hell is implied to "smell of sulfur", although as mentioned above sulfur is in fact odorless. The "smell of sulfur" usually refers to the odor of hydrogen sulfide, e.g. from rotten eggs. Burning sulfur produces sulfur dioxide, the smell associated with burnt matches. Homer mentioned "pest-averting sulfur" in the 8th century BC and in 424 BC, the tribe of Boeotia destroyed the walls of a city by burning a mixture of coal, sulfur, and tar under them. Sometime in the 12th century, the Chinese invented gun powder which is a mixture of potassium nitrate (KNO3), carbon, and sulfur. Early alchemists gave sulfur its own alchemical symbol which was a triangle at the top of a cross. In the late 1770s, Antoine Lavoisier helped convince the scientific community that sulfur was an element and not a compound.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]Sulfur is the chemical element in the periodic table that has the symbol S and atomic number 16. It is an abundant, tasteless, odorless, multivalent non-metal. Sulfur, in its native form, is a yellow crystalline solid. In nature, it can be found as the pure element or as sulfide and sulfate minerals. It is an essential element for life and is found in two amino acids. Its commercial uses are primarily in fertilizers but it is also widely used in gunpowder, matches, insecticides and fungicides. Sulfur (Sanskrit, sulvari; Latin, sulpur) was known in ancient times, and is referred to in the Biblical Pentateuch (Genesis). The word itself probably is from the Arabic sufra meaning yellow, from the bright color of the naturally occurring form, although the Sanskrit name for sulfur, sulvari could also be interpreted as meaning "enemy of copper". English translations of the Bible commonly refer to sulfur as "brimstone", giving rise to the name of 'Fire and brimstone' sermons, in which listeners are reminded of the fate of eternal damnation that awaits the nonbelieving and unrepented. It is from this part of the Bible that Hell is implied to "smell of sulfur", although as mentioned above sulfur is in fact odorless. The "smell of sulfur" usually refers to the odor of hydrogen sulfide, e.g. from rotten eggs. Burning sulfur produces sulfur dioxide, the smell associated with burnt matches. Homer mentioned "pest-averting sulfur" in the 8th century BC and in 424 BC, the tribe of Boeotia destroyed the walls of a city by burning a mixture of coal, sulfur, and tar under them. Sometime in the 12th century, the Chinese invented gun powder which is a mixture of potassium nitrate (KNO3), carbon, and sulfur. Early alchemists gave sulfur its own alchemical symbol which was a triangle at the top of a cross. In the late 1770s, Antoine Lavoisier helped convince the scientific community that sulfur was an element and not a compound.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_TOBACCO</Tag>
+    <English>Tobacco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>烟草</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_TOBACCO_PEDIA</Tag>
+    <English>[TAB]It is believed that tobacco began growing in the Americas about 6,000 BCE, and by 1 BCE Native Americans were using tobacco in spiritual rituals and social gatherings. On October 15, 1492 Columbus was presented with a gift of dried tobacco leaves by the Native Americans. Soon after, it was brought to Europe where its popularity soared as people thought it cured everything from bad breath to cancer. The opposite, of course, was true. In 1847 Phillip Morris established selling hand rolled Turkish cigarettes. Cigarettes have served in every war since WW I, and have become entwined with images of war in the modern era. The active ingredient, Nicotine, is a highly toxic liquid alkaloid which has since been recognized as severely detrimental to health. The neuro-depressant is highly addictive, and also suppresses appetite while increasing blood pressure. New users experience a "high," while experienced users feel simple satisfaction.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]It is believed that tobacco began growing in the Americas about 6,000 BCE, and by 1 BCE Native Americans were using tobacco in spiritual rituals and social gatherings. On October 15, 1492 Columbus was presented with a gift of dried tobacco leaves by the Native Americans. Soon after, it was brought to Europe where its popularity soared as people thought it cured everything from bad breath to cancer. The opposite, of course, was true. In 1847 Phillip Morris established selling hand rolled Turkish cigarettes. Cigarettes have served in every war since WW I, and have become entwined with images of war in the modern era. The active ingredient, Nicotine, is a highly toxic liquid alkaloid which has since been recognized as severely detrimental to health. The neuro-depressant is highly addictive, and also suppresses appetite while increasing blood pressure. New users experience a "high," while experienced users feel simple satisfaction.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_BARLEY</Tag>
+    <English>Barley</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>大麦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_BARLEY_PEDIA</Tag>
+    <English>[TAB]Cultivated barley (H. vulgare) is descended from wild barley (Hordeum spontaneum), which grows wild in the Middle East. Both forms are diploid (2n=14 chromosomes). As wild barley is interfertile with domesticated barley, the two forms are often treated as one species, divided into Hordeum vulgare subsp. spontaneum (wild) and subsp. vulgare (domesticated). The main difference between the two forms is the brittle rachis of the former, which enables seed dispersal in the wild. The earliest finds of wild barley come from Epi-Paleolithic sites in the Levant, beginning in the Natufian. The earliest domesticated barley occurs at Aceramic Neolithic sites such as the (PPN B) layers of Tell Abu Hureyra in Syria. Barley was one of the first crops domesticated in the Near East, at the same time as einkorn and emmer wheat. Barley was, alongside emmer wheat, a staple cereal of ancient Egypt, where it was used to make bread and beer; together, these were a complete diet. The general name for barley is jt (hypothetically pronounced "eat"); 歮a (hypothetically pronounced "SHE-ma") refers to Upper Egyptian barley and is a symbol of Upper Egypt. The ritual significance of barley in ancient Greece possibly dates back to the earliest stages of the Eleusinian Mysteries. The preparatory kykeon or mixed drink of the initiates, prepared from barley and herbs, was referred to in the Homeric hymn to Demeter, who was also called "Barley-mother". Greek practice was to dry the barley groats and roast them before preparing the porridge, according to Pliny the Elder's Natural History (xviii.72). This produces malt that soon ferments and becomes slightly alcoholic. Tibetan barley has been the only major staple food in Tibet for centuries. Palaeoethnobotanists have found that barley has been grown in the Korean Peninsula since the Early Mumun Pottery Period (c. 1500-850 B.C.) along with other crops such as millet, wheat, and legumes.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]Cultivated barley (H. vulgare) is descended from wild barley (Hordeum spontaneum), which grows wild in the Middle East. Both forms are diploid (2n=14 chromosomes). As wild barley is interfertile with domesticated barley, the two forms are often treated as one species, divided into Hordeum vulgare subsp. spontaneum (wild) and subsp. vulgare (domesticated). The main difference between the two forms is the brittle rachis of the former, which enables seed dispersal in the wild. The earliest finds of wild barley come from Epi-Paleolithic sites in the Levant, beginning in the Natufian. The earliest domesticated barley occurs at Aceramic Neolithic sites such as the (PPN B) layers of Tell Abu Hureyra in Syria. Barley was one of the first crops domesticated in the Near East, at the same time as einkorn and emmer wheat. Barley was, alongside emmer wheat, a staple cereal of ancient Egypt, where it was used to make bread and beer; together, these were a complete diet. The general name for barley is jt (hypothetically pronounced "eat"); 歮a (hypothetically pronounced "SHE-ma") refers to Upper Egyptian barley and is a symbol of Upper Egypt. The ritual significance of barley in ancient Greece possibly dates back to the earliest stages of the Eleusinian Mysteries. The preparatory kykeon or mixed drink of the initiates, prepared from barley and herbs, was referred to in the Homeric hymn to Demeter, who was also called "Barley-mother". Greek practice was to dry the barley groats and roast them before preparing the porridge, according to Pliny the Elder's Natural History (xviii.72). This produces malt that soon ferments and becomes slightly alcoholic. Tibetan barley has been the only major staple food in Tibet for centuries. Palaeoethnobotanists have found that barley has been grown in the Korean Peninsula since the Early Mumun Pottery Period (c. 1500-850 B.C.) along with other crops such as millet, wheat, and legumes.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_APPLE</Tag>
+    <English>Apples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>苹果</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_APPLE_PEDIA</Tag>
+    <English>[TAB]The apple is the pomaceous fruit of the apple tree, species Malus domestica in the rose family Rosaceae. It is one of the most widely cultivated tree fruits. The tree is small and deciduous, reaching 5-12 m tall, with a broad, often densely twiggy crown.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]The apple is the pomaceous fruit of the apple tree, species Malus domestica in the rose family Rosaceae. It is one of the most widely cultivated tree fruits. The tree is small and deciduous, reaching 5-12 m tall, with a broad, often densely twiggy crown.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_OLIVES</Tag>
+    <English>Olives</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>橄榄</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_OLIVES_PEDIA</Tag>
+    <English>[TAB]The olive (Olea europaea) is a species of small tree native to the eastern Mediterranean which bears a fruit bearing the same name. The olive is a bitter fruit but can be eaten (usually after some kind of fermentation or curing) or used to make olive oil. It is not known exactly when olive trees first began being cultivated by humans, but they have been in use since at least 3000 BC. The olive is native to Greece and Palestine, but was later spread to the western Mediterranean and (eventually) all over the world, as it is grown today in California and Australia.[PARAGRAPH:2]Olives and olive oil both possessed special religious significance for the ancient Greeks. According to legend, the olive tree was created by the goddess Athena and used to win a contest with the god Poseidon over who would name a newly founded city; as a result of her gift of the olive, the city of Athens bears her name to this day. The ancient Greeks considered the olive to be sacred; it was a symbol of peace, wisdom, and triumph. Olive wreaths were used to crown Olympic champions. Olive oil was used in Hellenic religious ceremonies, and to this day it continues to possess a special importance in the Greek Orthodox Church. The olive continues to be of economic importance to Greece, which exports more than 400,000 tons of olive oil worldwide each year.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]The olive (Olea europaea) is a species of small tree native to the eastern Mediterranean which bears a fruit bearing the same name. The olive is a bitter fruit but can be eaten (usually after some kind of fermentation or curing) or used to make olive oil. It is not known exactly when olive trees first began being cultivated by humans, but they have been in use since at least 3000 BC. The olive is native to Greece and Palestine, but was later spread to the western Mediterranean and (eventually) all over the world, as it is grown today in California and Australia.[PARAGRAPH:2]Olives and olive oil both possessed special religious significance for the ancient Greeks. According to legend, the olive tree was created by the goddess Athena and used to win a contest with the god Poseidon over who would name a newly founded city; as a result of her gift of the olive, the city of Athens bears her name to this day. The ancient Greeks considered the olive to be sacred; it was a symbol of peace, wisdom, and triumph. Olive wreaths were used to crown Olympic champions. Olive oil was used in Hellenic religious ceremonies, and to this day it continues to possess a special importance in the Greek Orthodox Church. The olive continues to be of economic importance to Greece, which exports more than 400,000 tons of olive oil worldwide each year.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_TEA</Tag>
+    <English>Tea</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>茶</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_TEA_PEDIA</Tag>
+    <English>[TAB]Made from the leaves or buds of a bush, tea is the liquid created by soaking the extracted foliage in water and it is a popular beverage throughout the world. The "Camellia Sinesis," (tea plant), is grown in tropical and sub-tropical regions of the planet such as China or India. Originally from Southeast Asia, it early on became a staple in the diet of many person from the Orient. It was not until the sixteenth or seventeenth century that it was introduced to Europe as explorers crossed the globe in search of knowledge and treasure. Tea quickly became popular with the wealthy of Western Europe, and Britain would set up numerous plantations in its colony of India to help satiate the demand - India today remains the biggest producer of tea in the world.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]Made from the leaves or buds of a bush, tea is the liquid created by soaking the extracted foliage in water and it is a popular beverage throughout the world. The "Camellia Sinesis," (tea plant), is grown in tropical and sub-tropical regions of the planet such as China or India. Originally from Southeast Asia, it early on became a staple in the diet of many person from the Orient. It was not until the sixteenth or seventeenth century that it was introduced to Europe as explorers crossed the globe in search of knowledge and treasure. Tea quickly became popular with the wealthy of Western Europe, and Britain would set up numerous plantations in its colony of India to help satiate the demand - India today remains the biggest producer of tea in the world.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_TIMBER</Tag>
+    <English>Timber</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>木材</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_TIMBER_PEDIA</Tag>
+    <English>[TAB]Timber is a term used to describe wood; either standing or that has been processed for use as material for construction. Uses for timber in the ancient Mediterranean were numerous; uses included ship building, architecture, furniture, fortifications, tools, weapons, fuel, and many more. Proper timber was especially important in ship building and the availability of this wood dictated which nations could build and maintain navies. The need for timber in Greece, Crete, and the Italian Peninsula is thought to have cause severe deforestation in these regions and the need to import suitable timber from other regions. Important source regions for timber in the ancient Mediterranean included Crete, Germania, and Syria.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]Timber is a term used to describe wood; either standing or that has been processed for use as material for construction. Uses for timber in the ancient Mediterranean were numerous; uses included ship building, architecture, furniture, fortifications, tools, weapons, fuel, and many more. Proper timber was especially important in ship building and the availability of this wood dictated which nations could build and maintain navies. The need for timber in Greece, Crete, and the Italian Peninsula is thought to have cause severe deforestation in these regions and the need to import suitable timber from other regions. Important source regions for timber in the ancient Mediterranean included Crete, Germania, and Syria.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_HONEY</Tag>
+    <English>Honey</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>蜂蜜</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_HONEY_PEDIA</Tag>
+    <English>[TAB]Honey is a sweet aliment produced by honey bees (and some other species) and derived from the nectar of flowers. Honey use and production has a long and varied history, reaching back approximately 10,000 years ago. In Ancient Egypt, honey was used to sweeten cakes and biscuits, and was a common ingredient in many other dishes. It was also cultivated for culinary purposes in ancient Mesoamerica; the Maya regarded the bee as sacred. But honey has associations that go beyond its use as a food. In Hinduism and Buddhism it serves as an offering in religious ceremonies, Ancient Egyptian and Middle-Eastern peoples used honey for embalming the dead and some cultures believe in its practical health use, e.g. as an ointment for rashes and burns or to soothe sore throats.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]Honey is a sweet aliment produced by honey bees (and some other species) and derived from the nectar of flowers. Honey use and production has a long and varied history, reaching back approximately 10,000 years ago. In Ancient Egypt, honey was used to sweeten cakes and biscuits, and was a common ingredient in many other dishes. It was also cultivated for culinary purposes in ancient Mesoamerica; the Maya regarded the bee as sacred. But honey has associations that go beyond its use as a food. In Hinduism and Buddhism it serves as an offering in religious ceremonies, Ancient Egyptian and Middle-Eastern peoples used honey for embalming the dead and some cultures believe in its practical health use, e.g. as an ointment for rashes and burns or to soothe sore throats.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_COTTON</Tag>
+    <English>Cotton</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>棉花</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_COTTON_PEDIA</Tag>
+    <English>[TAB]Important for production of cloth, cotton is a soft fiber which can be extracted from cotton plants. After removal from the plant, the fibers are processed to remove seeds and wax, and then they are spun into threads. Cotton grows well in both tropical and warm temperate climates, and it can be cultivated across much of the inhabited portions of the world.[PARAGRAPH:2]Many civilizations recognized the value cotton very early in their development. Examples include the Egyptians, (Asian) Indians and even some pre-Colombian American cultures. The Industrial Revolution saw the invention of the "Spinning Jenny" and cotton gin, which enabled mass production of cotton-based cloth. After these developments the demand for the plant fiber became almost insatiable, driving up labor demands for its cultivation across the world - leading to, among other things, the continuation of slavery in the United States into the mid-nineteenth century. Today, however, most cotton in western nations is harvested mechanically. It remains an important good worldwide.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]Important for production of cloth, cotton is a soft fiber which can be extracted from cotton plants. After removal from the plant, the fibers are processed to remove seeds and wax, and then they are spun into threads. Cotton grows well in both tropical and warm temperate climates, and it can be cultivated across much of the inhabited portions of the world.[PARAGRAPH:2]Many civilizations recognized the value cotton very early in their development. Examples include the Egyptians, (Asian) Indians and even some pre-Colombian American cultures. The Industrial Revolution saw the invention of the "Spinning Jenny" and cotton gin, which enabled mass production of cotton-based cloth. After these developments the demand for the plant fiber became almost insatiable, driving up labor demands for its cultivation across the world - leading to, among other things, the continuation of slavery in the United States into the mid-nineteenth century. Today, however, most cotton in western nations is harvested mechanically. It remains an important good worldwide.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_IVORY</Tag>
+    <English>Ivory</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>象牙</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_IVORY_PEDIA</Tag>
+    <English>[TAB]The walrus (Odobenus rosmarus) is a large flippered marine mammal with a discontinuous circumpolar distribution in the Arctic Ocean and sub-Arctic seas of the Northern Hemisphere. The walrus is the only living species in the Odobenidae family and Odobenus genus. It is subdivided into three subspecies: the Atlantic Walrus (O. rosmarus rosmarus) which lives in the Atlantic Ocean, the Pacific Walrus (O. rosmarus divergens) which lives in the Pacific Ocean, and O. rosmarus laptevi, which lives in the Laptev Sea.[PARAGRAPH:2]The walrus is immediately recognized by its prominent tusks, whiskers and great bulk. Adult Pacific males can weigh up to 1,700 kilograms (3,700 lb) and, among pinnipeds, are exceeded in size only by the two species of elephant seals. It resides primarily in shallow oceanic shelf habitat, spending a significant proportion of its life on sea ice in pursuit of its preferred diet of benthic bivalve mollusks. It is a relatively long-lived, social animal and is considered a keystone species in Arctic marine ecosystems.[PARAGRAPH:2]The walrus has played a prominent role in the cultures of many indigenous Arctic peoples, who have hunted the walrus for its meat, fat, skin, tusks and bone. In the 19th and early 20th centuries, the walrus was the object of heavy commercial exploitation for blubber and ivory and its numbers declined rapidly. Its global population has since rebounded, though the Atlantic and Laptev populations remain fragmented and at historically depressed levels.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]The walrus (Odobenus rosmarus) is a large flippered marine mammal with a discontinuous circumpolar distribution in the Arctic Ocean and sub-Arctic seas of the Northern Hemisphere. The walrus is the only living species in the Odobenidae family and Odobenus genus. It is subdivided into three subspecies: the Atlantic Walrus (O. rosmarus rosmarus) which lives in the Atlantic Ocean, the Pacific Walrus (O. rosmarus divergens) which lives in the Pacific Ocean, and O. rosmarus laptevi, which lives in the Laptev Sea.[PARAGRAPH:2]The walrus is immediately recognized by its prominent tusks, whiskers and great bulk. Adult Pacific males can weigh up to 1,700 kilograms (3,700 lb) and, among pinnipeds, are exceeded in size only by the two species of elephant seals. It resides primarily in shallow oceanic shelf habitat, spending a significant proportion of its life on sea ice in pursuit of its preferred diet of benthic bivalve mollusks. It is a relatively long-lived, social animal and is considered a keystone species in Arctic marine ecosystems.[PARAGRAPH:2]The walrus has played a prominent role in the cultures of many indigenous Arctic peoples, who have hunted the walrus for its meat, fat, skin, tusks and bone. In the 19th and early 20th centuries, the walrus was the object of heavy commercial exploitation for blubber and ivory and its numbers declined rapidly. Its global population has since rebounded, though the Atlantic and Laptev populations remain fragmented and at historically depressed levels.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_AMBER</Tag>
+    <English>Amber</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>琥珀</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_AMBER_PEDIA</Tag>
+    <English>[TAB]Amber is the name for fossil resin or tree sap that is appreciated for its colour. It is used for the manufacture of ornamental objects and jewellery. Although not mineralized, it is sometimes considered a gemstone. Most of the world's amber is in the range of 30-90 million years old. Semi-fossilized resin or sub-fossil amber is called copal. The presence of insects in amber was noticed by the Romans and led them to the (correct) theory that at some point, amber had to be in a liquid state to cover the bodies of insects. Hence they gave it the expressive name of suceinum or gum-stone, a name that is still in use today to describe succinic acid as well as succinite, a term given to a particular type of amber by James Dwight Dana (see below under Baltic Amber). The Greek name for amber was Electron and was connected to the Sun God, one of whose titles was Elector or the Awakener.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]Amber is the name for fossil resin or tree sap that is appreciated for its colour. It is used for the manufacture of ornamental objects and jewellery. Although not mineralized, it is sometimes considered a gemstone. Most of the world's amber is in the range of 30-90 million years old. Semi-fossilized resin or sub-fossil amber is called copal. The presence of insects in amber was noticed by the Romans and led them to the (correct) theory that at some point, amber had to be in a liquid state to cover the bodies of insects. Hence they gave it the expressive name of suceinum or gum-stone, a name that is still in use today to describe succinic acid as well as succinite, a term given to a particular type of amber by James Dwight Dana (see below under Baltic Amber). The Greek name for amber was Electron and was connected to the Sun God, one of whose titles was Elector or the Awakener.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_ACCESS</Tag>
+    <English>Atlantic Access</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>大西洋探索</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_ACCESS_PEDIA</Tag>
+    <English>[TAB]Atlantic Access was the very basic requisite for European powers to launch their naval exploration to North and South America and into the Far East. This is represented in RFCE by the Atlantic Access resource, you need at least one of them if you wan't to compete in the colonial race.[PARAGRAPH:2]Atlantic Accesses can be found in their "historical locations", near cities/areas which were capable of launching big colonial expeditions. A couple examples: near Sevilla, Lisbon, western coast of France and England, Amsterdam.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]Atlantic Access was the very basic requisite for European powers to launch their naval exploration to North and South America and into the Far East. This is represented in RFCE by the Atlantic Access resource, you need at least one of them if you wan't to compete in the colonial race.[PARAGRAPH:2]Atlantic Accesses can be found in their "historical locations", near cities/areas which were capable of launching big colonial expeditions. A couple examples: near Sevilla, Lisbon, western coast of France and England, Amsterdam.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_NORTH_AMERICA_ACCESS</Tag>
+    <English>North America Access</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>北美航线</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_NORTH_AMERICA_ACCESS_PEDIA</Tag>
+    <English>[TAB]While the Iberian Kingdoms were busy exploring the New World's southern and western reaches, England, France, and the Netherlands began to prod the northern continent in the 16th and 17th centuries. The reasons for their explorations changed throughout the period. At first, nearly all of them were searching for the "Northwest Passage", a way around North America to the Pacific. After plenty of failures, mutinies, deaths, and lost money, the nations realized that their efforts were in vain, so they searched for other reasons to have a piece of the continent.[PARAGRAPH:2]England found that America was an ideal place to put prisoners, relocate the religiously suppressed, grow cash crops, and "rid England of its surplus population"- in other words, send people out of the crowded cities, send them to Virginia, and hope they die. France found Quebec and Louisiana to be a land full of potential converts to Christianity (to which success was limited) and plenty of beaver, the pelts of which were in high demand in the 17th Century. The Dutch found an opportunity to shove more money into their already bulging pockets, and established profitable trading posts in New York, including New York City itself, even then a leading commercial center. Timber from North America was also an important resource for these seafaring nations, as there were few forests in left Western Europe with big enough trees for ship masts.[PARAGRAPH:2]By the 19th Century, North America had new values that had yet to be exploited. The eastern US became a major industrial center, thanks to nearby coal mines and new canals. The middle section of the continent also found new valuable attributes: land to sell to settlers, cultivatable land to feed growing populations, and vast oil fields all the way from Texas to Canada and Alaska. Alaska, along with much of western North America, also had rich gold veins. Scattered all along the much west coast, these deposits sparked major gold rushes in the region several times in the century, in some cases establishing major population centers.[PARAGRAPH:2]Today, with most of its oil drawn, gold mined, and industrial power nearly gone, it would first seem that North America had lost all of its economic value to the world. However, due to its consumerism society, North America is still a huge market for mass-produced goods. Also, the headquarters of several major high-tech companies are located here, which- along with consumerism- keeps North America in the world's global economy.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]While the Iberian Kingdoms were busy exploring the New World's southern and western reaches, England, France, and the Netherlands began to prod the northern continent in the 16th and 17th centuries. The reasons for their explorations changed throughout the period. At first, nearly all of them were searching for the "Northwest Passage", a way around North America to the Pacific. After plenty of failures, mutinies, deaths, and lost money, the nations realized that their efforts were in vain, so they searched for other reasons to have a piece of the continent.[PARAGRAPH:2]England found that America was an ideal place to put prisoners, relocate the religiously suppressed, grow cash crops, and "rid England of its surplus population"- in other words, send people out of the crowded cities, send them to Virginia, and hope they die. France found Quebec and Louisiana to be a land full of potential converts to Christianity (to which success was limited) and plenty of beaver, the pelts of which were in high demand in the 17th Century. The Dutch found an opportunity to shove more money into their already bulging pockets, and established profitable trading posts in New York, including New York City itself, even then a leading commercial center. Timber from North America was also an important resource for these seafaring nations, as there were few forests in left Western Europe with big enough trees for ship masts.[PARAGRAPH:2]By the 19th Century, North America had new values that had yet to be exploited. The eastern US became a major industrial center, thanks to nearby coal mines and new canals. The middle section of the continent also found new valuable attributes: land to sell to settlers, cultivatable land to feed growing populations, and vast oil fields all the way from Texas to Canada and Alaska. Alaska, along with much of western North America, also had rich gold veins. Scattered all along the much west coast, these deposits sparked major gold rushes in the region several times in the century, in some cases establishing major population centers.[PARAGRAPH:2]Today, with most of its oil drawn, gold mined, and industrial power nearly gone, it would first seem that North America had lost all of its economic value to the world. However, due to its consumerism society, North America is still a huge market for mass-produced goods. Also, the headquarters of several major high-tech companies are located here, which- along with consumerism- keeps North America in the world's global economy.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SOUTH_AMERICA_ACCESS</Tag>
+    <English>South America Access</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>南美航线</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SOUTH_AMERICA_ACCESS_PEDIA</Tag>
+    <English>[TAB]Access to South America was a huge bonus to Spain and Portugal, the continent's main explorers. In fact, except its north eastern corner, the entire continent was taken by the two nations. This is due to the value of having South America often being more easily recognizable than in North America, and the pay off came much more sooner.[PARAGRAPH:2]The western part of the continent was taken by Spain, for despite the arid climate and high altitude, among the Andes mountain range (and the empire inside it) was an astonishing amount of gold and silver. In the town of Potos? vein of 50 percent pure silver was struck, and the mining here was so rich that the money it accumulated- despite vast amounts exported to China, lost from smuggling, and the general lack of law and order in town- completely covered Spain's military budget for over a century.[PARAGRAPH:2]The Portuguese had a later start, but still managed to claim and incredible amount of territory, known as Brazil. The wealth could be found among gold and diamonds, but soon it was found that even more money could be made by cutting down swaths of rainforests, planting sugarcane, tobacco, and coffee, and having the plantations worked by slaves from the Portuguese colony of Angola. On top the Angolans there were also plenty of native people to enslave as well, and some of the slavers made it all the way from Buenos Aries to Potosi, around 1500 miles away, and became silver smugglers. By the 19th century, Portugal conquered nearly the entire eastern continent; a vast amount of territory that was quite profitable, considering more sugarcane was now grown by Portugal than by another New World colony, and the money from slave depots and silver smugglers in Aries and Paulo.[PARAGRAPH:2]In the modern day, South America has a very unstable political climate, with corruption, dictators, and juntas ever since the continent became independent. Sugarcane is still exported from Brazil, and Venezuela has oilfields, but unfortunately northwest South America- Columbia in particular- is now infamous for narcotics production. Still, there is hope for the continent, as tourism (due to Incan ruins and the Amazon rainforests, among others) is major boon to the economies of several counties, and Buenos Aries has since dropped its slave depots and now has a growing high-tech industry.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]Access to South America was a huge bonus to Spain and Portugal, the continent's main explorers. In fact, except its north eastern corner, the entire continent was taken by the two nations. This is due to the value of having South America often being more easily recognizable than in North America, and the pay off came much more sooner.[PARAGRAPH:2]The western part of the continent was taken by Spain, for despite the arid climate and high altitude, among the Andes mountain range (and the empire inside it) was an astonishing amount of gold and silver. In the town of Potos? vein of 50 percent pure silver was struck, and the mining here was so rich that the money it accumulated- despite vast amounts exported to China, lost from smuggling, and the general lack of law and order in town- completely covered Spain's military budget for over a century.[PARAGRAPH:2]The Portuguese had a later start, but still managed to claim and incredible amount of territory, known as Brazil. The wealth could be found among gold and diamonds, but soon it was found that even more money could be made by cutting down swaths of rainforests, planting sugarcane, tobacco, and coffee, and having the plantations worked by slaves from the Portuguese colony of Angola. On top the Angolans there were also plenty of native people to enslave as well, and some of the slavers made it all the way from Buenos Aries to Potosi, around 1500 miles away, and became silver smugglers. By the 19th century, Portugal conquered nearly the entire eastern continent; a vast amount of territory that was quite profitable, considering more sugarcane was now grown by Portugal than by another New World colony, and the money from slave depots and silver smugglers in Aries and Paulo.[PARAGRAPH:2]In the modern day, South America has a very unstable political climate, with corruption, dictators, and juntas ever since the continent became independent. Sugarcane is still exported from Brazil, and Venezuela has oilfields, but unfortunately northwest South America- Columbia in particular- is now infamous for narcotics production. Still, there is hope for the continent, as tourism (due to Incan ruins and the Amazon rainforests, among others) is major boon to the economies of several counties, and Buenos Aries has since dropped its slave depots and now has a growing high-tech industry.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_EAST_ASIA_ACCESS</Tag>
+    <English>East Asia Access</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>东亚航线</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_EAST_ASIA_ACCESS_PEDIA</Tag>
+    <English>[TAB]Access to East Asia was the original driving force of European exploration and colonization, but it was always on the minds of Western traders. The profit surrounding the trade - which included silk, spice, gold, and other valuable items - was immense, and has been coveted by the West ever since trade routes linked Orientals to Occidentals.[PARAGRAPH:2]European trade with China has gone at least as far back as the infancy of the Roman Empire, whom traded with the Chinese Han Empire via a vast transcontinental trade route known as the Silk Road. The trade remained a very lucrative business, even after the fall of Rome, and goods from the East still flowed to the West despite the Silk Road falling into disrepair. This made travel more dangerous (and more expensive), but it made the goods that reached Europe all the more valuable. Constantinople was one of the first to profit off this trade, after the collapse of the Roman Empire due to its position on the most direct land and sea routes between Europe and Asia. Even the Emperor Justinian got in the act, by having silkworms smuggled from China.[PARAGRAPH:2]The riches of the East, however, did not leave the thoughts of ambitious Europeans. Within a century, goods that were once transported across small seas on Italian galleys were replaced by Spanish and Portuguese caravels, carracks and galleons. The two kingdoms were racing to the Indies, the spice rich islands that had made the Egyptians so wealthy. Portugal headed west, as it had already been exploring the African coast and needed only to round the continent, which was accomplished by Bartolomeu Dias in 1488. Spain meanwhile, sent a Genovese navigator, named Christopher Columbus, to find the Indies- by sailing west. Setting off in August of 1492, three months later he landed in what he thought was Indonesia. Columbus' discovery shocked the Portuguese, who believed that their claims to the East had been stolen by the Spaniards, and a shouting match between the two Empires. The Pope finally put an end to their bickering with the Treaty of Tordesillas in 1494, which split the world into two halves, with Portugal ruling the East and Spain ruling the west.[PARAGRAPH:2]Other European powers eventually searched for a path to the East as well. English, French, and Dutch explorers tried to find a "Northwest Passage" around North America and into the Pacific. Unsuccessful, they instead ousted the Portuguese from West Africa and now the Dutch established a colony on the very tip of South Africa, Cape Town, which became a frequented resupply post for Dutch (and later British) Ships on the way to India, China, and Indonesia. The French also tried to reach the East, indeed one of Napoleons' goals when invading Egypt in 1799 was finding a route to India, as traveling through the Red Sea was much faster than rounding Cape Town or Cape Horn, on the tip of South America. When the British, who more or less controlled both points, then took Egypt for themselves, they would exploit this by building the Suez Canal, and the United States did the same in Panama to unite its Atlantic and Pacific fleets.[PARAGRAPH:2]Today, access to the East remains vital for Western businesses. Access to East Asia is much easier to achieve today with airports, Trans oceanic canals and even simply through the internet, but such access is crucial in and increasingly global economy with China becoming the world's prime industrial center, and India and Singapore as the high tech industry's chief locations for expansion.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]Access to East Asia was the original driving force of European exploration and colonization, but it was always on the minds of Western traders. The profit surrounding the trade - which included silk, spice, gold, and other valuable items - was immense, and has been coveted by the West ever since trade routes linked Orientals to Occidentals.[PARAGRAPH:2]European trade with China has gone at least as far back as the infancy of the Roman Empire, whom traded with the Chinese Han Empire via a vast transcontinental trade route known as the Silk Road. The trade remained a very lucrative business, even after the fall of Rome, and goods from the East still flowed to the West despite the Silk Road falling into disrepair. This made travel more dangerous (and more expensive), but it made the goods that reached Europe all the more valuable. Constantinople was one of the first to profit off this trade, after the collapse of the Roman Empire due to its position on the most direct land and sea routes between Europe and Asia. Even the Emperor Justinian got in the act, by having silkworms smuggled from China.[PARAGRAPH:2]The riches of the East, however, did not leave the thoughts of ambitious Europeans. Within a century, goods that were once transported across small seas on Italian galleys were replaced by Spanish and Portuguese caravels, carracks and galleons. The two kingdoms were racing to the Indies, the spice rich islands that had made the Egyptians so wealthy. Portugal headed west, as it had already been exploring the African coast and needed only to round the continent, which was accomplished by Bartolomeu Dias in 1488. Spain meanwhile, sent a Genovese navigator, named Christopher Columbus, to find the Indies- by sailing west. Setting off in August of 1492, three months later he landed in what he thought was Indonesia. Columbus' discovery shocked the Portuguese, who believed that their claims to the East had been stolen by the Spaniards, and a shouting match between the two Empires. The Pope finally put an end to their bickering with the Treaty of Tordesillas in 1494, which split the world into two halves, with Portugal ruling the East and Spain ruling the west.[PARAGRAPH:2]Other European powers eventually searched for a path to the East as well. English, French, and Dutch explorers tried to find a "Northwest Passage" around North America and into the Pacific. Unsuccessful, they instead ousted the Portuguese from West Africa and now the Dutch established a colony on the very tip of South Africa, Cape Town, which became a frequented resupply post for Dutch (and later British) Ships on the way to India, China, and Indonesia. The French also tried to reach the East, indeed one of Napoleons' goals when invading Egypt in 1799 was finding a route to India, as traveling through the Red Sea was much faster than rounding Cape Town or Cape Horn, on the tip of South America. When the British, who more or less controlled both points, then took Egypt for themselves, they would exploit this by building the Suez Canal, and the United States did the same in Panama to unite its Atlantic and Pacific fleets.[PARAGRAPH:2]Today, access to the East remains vital for Western businesses. Access to East Asia is much easier to achieve today with airports, Trans oceanic canals and even simply through the internet, but such access is crucial in and increasingly global economy with China becoming the world's prime industrial center, and India and Singapore as the high tech industry's chief locations for expansion.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SLAVES</Tag>
+    <English>Slaves</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>奴隶</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SLAVES_PEDIA</Tag>
+    <English>[TAB]In the Early Middle Ages, slavery was being slowly replaced by serfdom. In some areas outside of Western Europe, however, slaves were still a vital part of the economy.[PARAGRAPH:2]In the Viking era starting c. 793, the Norse raiders often captured and enslaved their opponents. In Norway and Iceland the slaves were called Thralls. The thralls were mostly from Western Europe, among them many Franks, Irish and Anglo-Saxons. There is evidence of German and south European slaves as well. The Norse slavery came to an end with the breakthrough of christianity and national laws in the Scandinavian countries.[PARAGRAPH:2]The Arab world has traded in slaves like many other cultures of the region. It was one of the oldest slave trades, predating the European transatlantic slave trade by hundreds of years. The Arab or Middle Eastern slave trade is thought to have originated with trans-Saharan slavery. The Moors, starting in the 8th century, raided coastal areas of the Mediterranean and Northern European (including British and even as far north as Scandinavian) coastal areas and would carry away sometimes whole villages to the Moorish slave markets on the Barbary Coast.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]In the Early Middle Ages, slavery was being slowly replaced by serfdom. In some areas outside of Western Europe, however, slaves were still a vital part of the economy.[PARAGRAPH:2]In the Viking era starting c. 793, the Norse raiders often captured and enslaved their opponents. In Norway and Iceland the slaves were called Thralls. The thralls were mostly from Western Europe, among them many Franks, Irish and Anglo-Saxons. There is evidence of German and south European slaves as well. The Norse slavery came to an end with the breakthrough of christianity and national laws in the Scandinavian countries.[PARAGRAPH:2]The Arab world has traded in slaves like many other cultures of the region. It was one of the oldest slave trades, predating the European transatlantic slave trade by hundreds of years. The Arab or Middle Eastern slave trade is thought to have originated with trans-Saharan slavery. The Moors, starting in the 8th century, raided coastal areas of the Mediterranean and Northern European (including British and even as far north as Scandinavian) coastal areas and would carry away sometimes whole villages to the Moorish slave markets on the Barbary Coast.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_RELIC</Tag>
+    <English>Relic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>圣物</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_RELIC_PEDIA</Tag>
+    <English>[TAB]A relic is an object or a personal item of religious significance, carefully preserved with an air of veneration as a tangible memorial. Relics are an important aspect of some forms of Buddhism, Christianity, Hinduism, Shamanism, and many other religions.[PARAGRAPH:2]The word relic comes from the Latin reliquiae, meaning "remains". A reliquary is a shrine that houses one or more relics.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]A relic is an object or a personal item of religious significance, carefully preserved with an air of veneration as a tangible memorial. Relics are an important aspect of some forms of Buddhism, Christianity, Hinduism, Shamanism, and many other religions.[PARAGRAPH:2]The word relic comes from the Latin reliquiae, meaning "remains". A reliquary is a shrine that houses one or more relics.</Chinese>
+  </TEXT>
+</Civ4GameText>

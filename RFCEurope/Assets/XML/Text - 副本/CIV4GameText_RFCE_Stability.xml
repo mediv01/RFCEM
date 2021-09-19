@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Stability -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_COLLAPSING</Tag>
+    <English>Collapsing</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>濒临崩溃</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_UNSTABLE</Tag>
+    <English>Unstable</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>动荡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_SHAKY</Tag>
+    <English>Shaky</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>动摇</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_STABLE</Tag>
+    <English>Stable</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安定</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_SOLID</Tag>
+    <English>Solid</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>稳固</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_VERYSOLID</Tag>
+    <English>Very Solid</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>非常稳固</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_OVERLAY_WIDGET</Tag>
+    <English>Toggle Stability Display</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>切换稳定显示</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_OVERLAY_HELP</Tag>
+    <English>Province Stability Overlay[NEWLINE]Color code:[NEWLINE][COLOR_HIGHLIGHT_CORE]Core area:[COLOR_REVERT] Very stable, but huge stability penalty if you don't own it[NEWLINE][COLOR_HIGHLIGHT_NATURAL]Natural / Historically stable area:[COLOR_REVERT] Stable territory, but small penalty if it's not yours[NEWLINE][COLOR_HIGHLIGHT_POTENTIAL]Potentially stable area:[COLOR_REVERT] Becomes a Natural province when settled or conquered[NEWLINE][COLOR_HIGHLIGHT_BORDER]Border / Outer / Contested area:[COLOR_REVERT] Small initial stability penalty for expanding there[NEWLINE][COLOR_HIGHLIGHT_FOREIGN]Foreign / Unstable area:[COLOR_REVERT] Large stability penalty and revolt risk for having cities there</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Province Stability Overlay[NEWLINE]Color code:[NEWLINE][COLOR_HIGHLIGHT_CORE]Core area:[COLOR_REVERT] Very stable, but huge stability penalty if you don't own it[NEWLINE][COLOR_HIGHLIGHT_NATURAL]Natural / Historically stable area:[COLOR_REVERT] Stable territory, but small penalty if it's not yours[NEWLINE][COLOR_HIGHLIGHT_POTENTIAL]Potentially stable area:[COLOR_REVERT] Becomes a Natural province when settled or conquered[NEWLINE][COLOR_HIGHLIGHT_BORDER]Border / Outer / Contested area:[COLOR_REVERT] Small initial stability penalty for expanding there[NEWLINE][COLOR_HIGHLIGHT_FOREIGN]Foreign / Unstable area:[COLOR_REVERT] Large stability penalty and revolt risk for having cities there</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_CIVILWAR_HUMAN</Tag>
+    <English>Your empire is descending into civil war!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>你的帝国陷入了内战!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_CIVILWAR</Tag>
+    <English>is descending into civil war!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>陷入了内战!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_SECESSION</Tag>
+    <English>has declared its independence!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>宣布独立建国!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_PERIOD</Tag>
+    <English>Your empire is experiencing a period of</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>你的帝国正在进入</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_DEMOCRACY</Tag>
+    <English>instability caused by transition to democracy!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>向民主政府过渡导致国家动荡！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FINANCIAL_ADVISOR_TITLE</Tag>
+    <English>Interior Advisor</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>内政顾问</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_ADVISOR_TITLE</Tag>
+    <English>STABILITY: </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>稳定度: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_PARAMETER_CITIES</Tag>
+    <English>CITIES</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>城市</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_PARAMETER_CIVICS</Tag>
+    <English>CIVICS</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>内政法令</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_PARAMETER_FOREIGN</Tag>
+    <English>FOREIGN</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>国外因素</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_PARAMETER_ECONOMY</Tag>
+    <English>ECONOMY</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>经济因素</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_PARAMETER_EXPANSION</Tag>
+    <English>EXPANSION</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>扩张因素</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_PARAMETER_SWING</Tag>
+    <English>SWING</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>震荡变量</Chinese>
+  </TEXT>
+</Civ4GameText>

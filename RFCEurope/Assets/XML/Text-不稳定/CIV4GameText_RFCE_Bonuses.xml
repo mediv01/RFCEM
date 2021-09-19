@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Bonuses -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SALT</Tag>
+    <English>Salt</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>盐</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SALT_PEDIA</Tag>
+    <English>Salt has been one of the most valued commodities in the history of mankind - among other reasons, humans need a certain amount of salt in their diet to survive. Humans have been harvesting salt for thousands of years; the practice started in the dim recesses of history, long before any written records were made.[PARAGRAPH:2]One of salt's greatest properties is its ability to preserve food. Before the development of reliable refrigeration, one of the few known ways to keep food from becoming inedible was to apply salt, which delays or prevents microbial invasion. (Some kinds of foods can also by preserved by "smoking" them.) In addition to its preservative qualities, salt also simply makes food taste better.[PARAGRAPH:2]One of the earliest-discovered methods of harvesting salt was by evaporating seawater under the sun, a very tedious and expensive process, leading to high prices for this important good. It wouldn't be until the mid-nineteenth century - when salt mining was widely practiced across the world - that this commodity would become much less expensive, no longer "worth its weight in gold," as it was commonly described. </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>盐一直是人类历史上最有价值的商品之一——除其他原因外，人类需要在饮食中添加一定量的盐才能生存。几千年来，人类一直在收获盐，这种做法始于历史的阴暗角落，早在任何书面记录形成之前就已经开始了。在研制出可靠的冷藏设备之前，为数不多的防止食物变得不可食用的方法之一是使用盐，盐可以延缓或防止微生物入侵。（有些食物也可以通过“吸烟”来保存。）除了它的防腐性能外，盐还可以简单地使食物味道更好。[第2段]最早发现的一种收获盐的方法是在阳光下蒸发海水，这是一个非常繁琐和昂贵的过程，导致这一重要商品的高价。直到十九世纪中叶，当盐矿开采在全世界广泛应用时，这种商品才会变得便宜得多，不再像人们常说的那样“值钱”。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_POTATO</Tag>
+    <English>Potatoes</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>马铃薯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_POTATO_PEDIA</Tag>
+    <English>The potato (Solanum tuberosum) is a perennial plant of the Solanaceae, or nightshade, family, commonly grown for its starchy tuber. Potatoes are the world's most widely grown tuber crop, and the fourth largest crop in terms of fresh produce (after rice, wheat, and maize), but this ranking is inflated due to the high water content of fresh potatoes relative to that of other crops. The potato originated in South America, somewhere in present-day Peru. Potatoes are important to the culture of the Andes, where farmers grow many different varieties that have a remarkable diversity of colors and shapes. Potatoes spread to the rest of the world after European contact with the Americas in the late 1400s and early 1500s and have since become an important field crop.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>马铃薯（Solanum tuberosum）是茄科或茄科的一种多年生植物，通常因其淀粉质块茎而种植。马铃薯是世界上种植最广泛的块茎作物，也是新鲜农产品（仅次于水稻、小麦和玉米）的第四大作物，但由于新鲜马铃薯的含水量高于其他作物，这一排名被夸大了。马铃薯起源于南美洲，现在秘鲁的某个地方。土豆对安第斯山脉的文化很重要，那里的农民种植许多不同的品种，它们有着显著的颜色和形状的多样性。在14世纪末和15世纪初欧洲与美洲接触后，马铃薯传播到世界其他地区，并已成为一种重要的大田作物。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_COFFEE</Tag>
+    <English>Coffee</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>咖啡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_COFFEE_PEDIA</Tag>
+    <English>The history of coffee begins in the 9th century. It is thought to have originated in the highlands of Ethiopia and spread to the rest of the world via Egypt and Europe. The word coffee is derived from the Arabic word Qah'wa, over Ottoman Turkish Kahve, which originally meant wine or other intoxicating liquors. Partly due to the Islamic prohibition on drinking alcohol, preparing and drinking coffee became an important social ritual. In the 15th century, Muslims introduced coffee in Persia, Egypt, northern Africa and Turkey, where the first cafeteria, Kiva Han, opened in 1475 in Constantinople. The stimulant effect of drinking coffee caused it to be forbidden among orthodox and conservative imams in Mecca in 1511 and in Cairo in 1532 by a theological court. In Egypt, coffeehouses and warehouses containing coffee cherries were sacked. But the product's popularity, particularly among intellectuals, led to the reversal of this decision in 1524 by an order of the Ottoman Turkish Sultan Selim I. From the Muslim world, coffee spread to Europe, where it became popular in the 17th century. Dutch traders were the first to start large scale import of coffee into Europe.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>咖啡的历史始于9世纪。它被认为起源于埃塞俄比亚高原，并通过埃及和欧洲传播到世界其他地区。咖啡这个词来源于阿拉伯语单词Qah'wa，而不是土耳其的土耳其卡夫，它最初的意思是葡萄酒或其他令人陶醉的酒。部分由于伊斯兰禁止饮酒，准备和喝咖啡成为一种重要的社会仪式。15世纪，穆斯林在波斯、埃及、北非和土耳其引进咖啡，1475年在君士坦丁堡开设了第一家自助餐厅Kiva Han。1511年在麦加和1532年在开罗，一个神学法庭禁止正统和保守的伊玛目喝咖啡。在埃及，咖啡馆和存放咖啡樱桃的仓库被洗劫一空。但是这种产品的流行，特别是在知识分子中的流行，导致了1524年土耳其奥斯曼苏丹塞利姆一世（Selim I）下令推翻这一决定。咖啡从穆斯林世界传播到欧洲，并在17世纪风靡欧洲。荷兰贸易商率先开始向欧洲大规模进口咖啡。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SULPHUR</Tag>
+    <English>Sulphur</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>硫磺</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SULPHUR_PEDIA</Tag>
+    <English>Sulfur is the chemical element in the periodic table that has the symbol S and atomic number 16. It is an abundant, tasteless, odorless, multivalent non-metal. Sulfur, in its native form, is a yellow crystalline solid. In nature, it can be found as the pure element or as sulfide and sulfate minerals. It is an essential element for life and is found in two amino acids. Its commercial uses are primarily in fertilizers but it is also widely used in gunpowder, matches, insecticides and fungicides. Sulfur (Sanskrit, sulvari; Latin, sulpur) was known in ancient times, and is referred to in the Biblical Pentateuch (Genesis). The word itself probably is from the Arabic sufra meaning yellow, from the bright color of the naturally occurring form, although the Sanskrit name for sulfur, sulvari could also be interpreted as meaning "enemy of copper". English translations of the Bible commonly refer to sulfur as "brimstone", giving rise to the name of 'Fire and brimstone' sermons, in which listeners are reminded of the fate of eternal damnation that awaits the nonbelieving and unrepented. It is from this part of the Bible that Hell is implied to "smell of sulfur", although as mentioned above sulfur is in fact odorless. The "smell of sulfur" usually refers to the odor of hydrogen sulfide, e.g. from rotten eggs. Burning sulfur produces sulfur dioxide, the smell associated with burnt matches. Homer mentioned "pest-averting sulfur" in the 8th century BC and in 424 BC, the tribe of Boeotia destroyed the walls of a city by burning a mixture of coal, sulfur, and tar under them. Sometime in the 12th century, the Chinese invented gun powder which is a mixture of potassium nitrate (KNO3), carbon, and sulfur. Early alchemists gave sulfur its own alchemical symbol which was a triangle at the top of a cross. In the late 1770s, Antoine Lavoisier helped convince the scientific community that sulfur was an element and not a compound.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>硫是元素周期表中的化学元素，符号S，原子序数16。它是一种丰富、无味、无味、多价的非金属。硫是一种黄色的晶体固体。在自然界中，它可以作为纯元素或硫化物和硫酸盐矿物被发现。它是生命的基本元素，存在于两种氨基酸中。它的商业用途主要是肥料，但也广泛用于火药、火柴、杀虫剂和杀菌剂。硫（梵语，苏尔瓦里语；拉丁语，苏尔普尔语）在远古时期就已经知道了，并在《圣经》五经（创世记）中被提及。这个词本身可能来自阿拉伯语sufra，意思是黄色，从自然出现的形式的明亮颜色，尽管梵语中硫的名字sulvari也可以解释为“铜的敌人”。《圣经》的英译本通常将硫称为“硫磺”，因此产生了“火与硫磺”布道的名称，在这一名称中，听众会想起等待不相信和未被救赎的永恒诅咒的命运。正是从圣经的这一部分，地狱被暗示为“硫磺的气味”，尽管如上文所述，硫磺实际上是无嗅的。“硫磺味”通常是指硫化氢的气味，例如来自臭鸡蛋的气味。燃烧的硫磺会产生二氧化硫，这种气味与燃烧的火柴有关。荷马在公元前8世纪和公元前424年提到了“害虫避免硫磺”，博奥提亚部落在城墙下燃烧煤、硫磺和焦油的混合物，摧毁了城墙。在12世纪的某个时候，中国人发明了火药，它是硝酸钾（KNO3）、碳和硫的混合物。早期的炼金术士给硫磺自己的炼金符号，那是十字架顶端的三角形。在17世纪70年代末，安托万·拉瓦西耶帮助科学界相信硫是一种元素，而不是化合物。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_TOBACCO</Tag>
+    <English>Tobacco</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>烟草</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_TOBACCO_PEDIA</Tag>
+    <English>It is believed that tobacco began growing in the Americas about 6,000 BCE, and by 1 BCE Native Americans were using tobacco in spiritual rituals and social gatherings. On October 15, 1492 Columbus was presented with a gift of dried tobacco leaves by the Native Americans. Soon after, it was brought to Europe where its popularity soared as people thought it cured everything from bad breath to cancer. The opposite, of course, was true. In 1847 Phillip Morris established selling hand rolled Turkish cigarettes. Cigarettes have served in every war since WW I, and have become entwined with images of war in the modern era. The active ingredient, Nicotine, is a highly toxic liquid alkaloid which has since been recognized as severely detrimental to health. The neuro-depressant is highly addictive, and also suppresses appetite while increasing blood pressure. New users experience a "high," while experienced users feel simple satisfaction.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>据信，大约在公元前6000年，烟草开始在美洲生长，到公元前1年，美洲土著人在精神仪式和社会集会中使用烟草。1492年10月15日，美洲原住民向哥伦布赠送了一份干烟叶。不久之后，它被带到欧洲，在那里它的受欢迎程度飙升，因为人们认为它可以治愈从口臭到癌症的一切疾病。当然，事实恰恰相反。1847年，菲利普·莫里斯创立了销售手工卷制土耳其香烟的公司。自第一次世界大战以来，香烟在每一场战争中都起着作用，并与现代战争的形象交织在一起。尼古丁是一种剧毒的液体生物碱，被认为对健康有害。神经抑制剂是高度上瘾，也抑制食欲，同时增加血压。新用户体验“高”，而有经验的用户感觉简单满足。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_BARLEY</Tag>
+    <English>Barley</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>大麦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_BARLEY_PEDIA</Tag>
+    <English>Cultivated barley (H. vulgare) is descended from wild barley (Hordeum spontaneum), which grows wild in the Middle East. Both forms are diploid (2n=14 chromosomes). As wild barley is interfertile with domesticated barley, the two forms are often treated as one species, divided into Hordeum vulgare subsp. spontaneum (wild) and subsp. vulgare (domesticated). The main difference between the two forms is the brittle rachis of the former, which enables seed dispersal in the wild. The earliest finds of wild barley come from Epi-Paleolithic sites in the Levant, beginning in the Natufian. The earliest domesticated barley occurs at Aceramic Neolithic sites such as the (PPN B) layers of Tell Abu Hureyra in Syria. Barley was one of the first crops domesticated in the Near East, at the same time as einkorn and emmer wheat. Barley was, alongside emmer wheat, a staple cereal of ancient Egypt, where it was used to make bread and beer; together, these were a complete diet. The general name for barley is jt (hypothetically pronounced "eat"); 歮a (hypothetically pronounced "SHE-ma") refers to Upper Egyptian barley and is a symbol of Upper Egypt. The ritual significance of barley in ancient Greece possibly dates back to the earliest stages of the Eleusinian Mysteries. The preparatory kykeon or mixed drink of the initiates, prepared from barley and herbs, was referred to in the Homeric hymn to Demeter, who was also called "Barley-mother". Greek practice was to dry the barley groats and roast them before preparing the porridge, according to Pliny the Elder's Natural History (xviii.72). This produces malt that soon ferments and becomes slightly alcoholic. Tibetan barley has been the only major staple food in Tibet for centuries. Palaeoethnobotanists have found that barley has been grown in the Korean Peninsula since the Early Mumun Pottery Period (c. 1500-850 B.C.) along with other crops such as millet, wheat, and legumes.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>栽培大麦（H.vulgare）是野生大麦（Hordeum spontaneum）的后代，生长在中东地区。两种形态都是二倍体（2n=14条染色体）。由于野生大麦与驯化大麦互作，这两种大麦常被视为一个种，分为大麦亚种。自发性（野生）和亚种。粗俗的（驯养的）。这两种形态的主要区别在于前者的轴是易碎的，这使得种子能够在野外传播。最早发现的野生大麦来自黎凡特的旧石器时代早期遗址，始于纳图菲。最早的驯化大麦出现在新石器时代的Acerami遗址，例如叙利亚的Tell Abu Hureyra（PPN B）层。大麦是最早在近东地区驯化的作物之一，与埃因霍恩和埃默小麦同时种植。大麦和埃默小麦是古埃及的一种主要谷物，在那里它被用来制作面包和啤酒；这些都是一个完整的饮食。大麦的一般名称是jt（假设发音为“eat”）；a（假设发音为“SHE ma”）是指上埃及大麦，是上埃及的象征。在古希腊，大麦的仪式意义可能可以追溯到伊留申神秘的早期阶段。由大麦和草药制成的同修预备酒或混合饮料，在荷马赞美诗中被称为德米特，也被称为“大麦母亲”。根据老普林尼的自然历史（xviii.72），希腊的做法是在煮粥之前先把大麦的腹股沟弄干并烤熟。这就产生了麦芽，很快就会发酵，变得有点含酒精。几个世纪以来，西藏大麦一直是西藏唯一的主要主食。古人类植物学家发现，早在木蒙陶器时代（约公元前1500-850年）以来，朝鲜半岛就开始种植大麦以及谷子、小麦和豆类等其他作物。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_APPLE</Tag>
+    <English>Apples</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>苹果</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_APPLE_PEDIA</Tag>
+    <English>The apple is the pomaceous fruit of the apple tree, species Malus domestica in the rose family Rosaceae. It is one of the most widely cultivated tree fruits. The tree is small and deciduous, reaching 5-12 m tall, with a broad, often densely twiggy crown.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>苹果是苹果树的果实，蔷薇科苹果属。它是栽培最广泛的果树之一。这棵树很小，每年落叶，高达5-12米，树冠宽阔，通常浓密。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_OLIVES</Tag>
+    <English>Olives</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>橄榄</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_OLIVES_PEDIA</Tag>
+    <English>The olive (Olea europaea) is a species of small tree native to the eastern Mediterranean which bears a fruit bearing the same name. The olive is a bitter fruit but can be eaten (usually after some kind of fermentation or curing) or used to make olive oil. It is not known exactly when olive trees first began being cultivated by humans, but they have been in use since at least 3000 BC. The olive is native to Greece and Palestine, but was later spread to the western Mediterranean and (eventually) all over the world, as it is grown today in California and Australia.[PARAGRAPH:2]Olives and olive oil both possessed special religious significance for the ancient Greeks. According to legend, the olive tree was created by the goddess Athena and used to win a contest with the god Poseidon over who would name a newly founded city; as a result of her gift of the olive, the city of Athens bears her name to this day. The ancient Greeks considered the olive to be sacred; it was a symbol of peace, wisdom, and triumph. Olive wreaths were used to crown Olympic champions. Olive oil was used in Hellenic religious ceremonies, and to this day it continues to possess a special importance in the Greek Orthodox Church. The olive continues to be of economic importance to Greece, which exports more than 400,000 tons of olive oil worldwide each year.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>橄榄（Olea europaea）是原产于东地中海的一种小乔木，果实同名。橄榄是一种苦味的水果，但可以食用（通常经过某种发酵或腌制）或用来制作橄榄油。目前还不清楚橄榄树是什么时候开始被人类栽培的，但它们至少在公元前3000年就开始使用了。橄榄原产于希腊和巴勒斯坦，但后来传播到西地中海和（最终）全世界，正如今天在加利福尼亚和澳大利亚种植的一样。[第2段]橄榄和橄榄油对古希腊人都具有特殊的宗教意义。据传说，橄榄树是雅典娜女神创造的，用来赢得与波塞冬神的比赛，谁将命名一个新建立的城市；由于她的橄榄礼物，雅典城以她的名字至今。古希腊人认为橄榄是神圣的，它是和平、智慧和胜利的象征。橄榄花环被用来为奥运冠军加冕。橄榄油曾被用于希腊的宗教仪式，直到今天，它仍然在希腊东正教中占有特别重要的地位。橄榄油对希腊来说仍然具有重要的经济意义，希腊每年在全球出口40多万吨橄榄油。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_TEA</Tag>
+    <English>Tea</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>茶</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_TEA_PEDIA</Tag>
+    <English>Made from the leaves or buds of a bush, tea is the liquid created by soaking the extracted foliage in water and it is a popular beverage throughout the world. The "Camellia Sinesis," (tea plant), is grown in tropical and sub-tropical regions of the planet such as China or India. Originally from Southeast Asia, it early on became a staple in the diet of many person from the Orient. It was not until the sixteenth or seventeenth century that it was introduced to Europe as explorers crossed the globe in search of knowledge and treasure. Tea quickly became popular with the wealthy of Western Europe, and Britain would set up numerous plantations in its colony of India to help satiate the demand - India today remains the biggest producer of tea in the world.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>茶是由灌木的叶子或芽制成的液体，它是将提取的叶子浸泡在水中而制成的，是世界上很受欢迎的饮料。茶树生长在地球的热带和亚热带地区，如中国或印度。它起源于东南亚，很早就成为许多东方人的主食。直到十六、十七世纪，当探险家们穿越世界寻找知识和财富时，它才被引入欧洲。茶叶很快受到西欧富人的欢迎，英国将在其殖民地印度建立许多种植园，以帮助满足需求——今天的印度仍然是世界上最大的茶叶生产国。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_TIMBER</Tag>
+    <English>Timber</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>木材</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_TIMBER_PEDIA</Tag>
+    <English>Timber is a term used to describe wood; either standing or that has been processed for use as material for construction. Uses for timber in the ancient Mediterranean were numerous; uses included ship building, architecture, furniture, fortifications, tools, weapons, fuel, and many more. Proper timber was especially important in ship building and the availability of this wood dictated which nations could build and maintain navies. The need for timber in Greece, Crete, and the Italian Peninsula is thought to have cause severe deforestation in these regions and the need to import suitable timber from other regions. Important source regions for timber in the ancient Mediterranean included Crete, Germania, and Syria.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>木材是一个用来描述木材的术语；无论是立木还是已加工用作建筑材料的木材。古地中海的木材用途很多，包括造船、建筑、家具、防御工事、工具、武器、燃料等等。适当的木材在造船中尤其重要，而这种木材的供应决定了哪些国家可以建造和维护海军。人们认为，希腊、克里特岛和意大利半岛对木材的需求造成了这些地区严重的森林砍伐，并需要从其他地区进口合适的木材。古地中海的重要木材产地包括克里特岛、日耳曼岛和叙利亚。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_HONEY</Tag>
+    <English>Honey</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>蜂蜜</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_HONEY_PEDIA</Tag>
+    <English>Honey is a sweet aliment produced by honey bees (and some other species) and derived from the nectar of flowers. Honey use and production has a long and varied history, reaching back approximately 10,000 years ago. In Ancient Egypt, honey was used to sweeten cakes and biscuits, and was a common ingredient in many other dishes. It was also cultivated for culinary purposes in ancient Mesoamerica; the Maya regarded the bee as sacred. But honey has associations that go beyond its use as a food. In Hinduism and Buddhism it serves as an offering in religious ceremonies, Ancient Egyptian and Middle-Eastern peoples used honey for embalming the dead and some cultures believe in its practical health use, e.g. as an ointment for rashes and burns or to soothe sore throats.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>蜂蜜是蜜蜂（和其他一些物种）从花蜜中提炼出来的一种甜食。蜂蜜的使用和生产有着悠久而多样的历史，可以追溯到大约10000年前。在古埃及，蜂蜜被用来使蛋糕和饼干变甜，是许多其他菜肴中的常见成分。在古代中美洲，它也被用于烹饪；玛雅人认为蜜蜂是神圣的。但是蜂蜜的关联性超出了它作为食物的用途。在印度教和佛教中，蜂蜜是宗教仪式上的供品，古埃及和中东人民用蜂蜜来防腐死者，一些文化相信蜂蜜的实际健康用途，例如用作治疗皮疹和烧伤的药膏或缓解喉咙痛。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_COTTON</Tag>
+    <English>Cotton</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>棉花</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_COTTON_PEDIA</Tag>
+    <English>Important for production of cloth, cotton is a soft fiber which can be extracted from cotton plants. After removal from the plant, the fibers are processed to remove seeds and wax, and then they are spun into threads. Cotton grows well in both tropical and warm temperate climates, and it can be cultivated across much of the inhabited portions of the world.[PARAGRAPH:2]Many civilizations recognized the value cotton very early in their development. Examples include the Egyptians, (Asian) Indians and even some pre-Colombian American cultures. The Industrial Revolution saw the invention of the "Spinning Jenny" and cotton gin, which enabled mass production of cotton-based cloth. After these developments the demand for the plant fiber became almost insatiable, driving up labor demands for its cultivation across the world - leading to, among other things, the continuation of slavery in the United States into the mid-nineteenth century. Today, however, most cotton in western nations is harvested mechanically. It remains an important good worldwide.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>棉花是一种从棉花中提取出来的柔软纤维，对布料的生产具有重要意义。从植物中去除后，纤维被加工去除种子和蜡，然后纺成线。棉花在热带和暖温带气候中生长良好，世界上许多有人居住的地区都可以种植棉花。[第2段]许多文明在发展早期就认识到棉花的价值。例如埃及人、亚洲人、印第安人，甚至一些前哥伦比亚裔美国人的文化。工业革命见证了“纺纱珍妮”和轧棉机的发明，使棉布得以大规模生产。在这些发展之后，对植物纤维的需求几乎是无法满足的，这导致了全世界对植物纤维种植的劳动力需求——除其他外，导致美国的奴隶制延续到19世纪中叶。然而，今天西方国家的大多数棉花是机械收获的。它在世界范围内仍然是一件重要的商品。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_IVORY</Tag>
+    <English>Ivory</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>象牙</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_IVORY_PEDIA</Tag>
+    <English>The walrus (Odobenus rosmarus) is a large flippered marine mammal with a discontinuous circumpolar distribution in the Arctic Ocean and sub-Arctic seas of the Northern Hemisphere. The walrus is the only living species in the Odobenidae family and Odobenus genus. It is subdivided into three subspecies: the Atlantic Walrus (O. rosmarus rosmarus) which lives in the Atlantic Ocean, the Pacific Walrus (O. rosmarus divergens) which lives in the Pacific Ocean, and O. rosmarus laptevi, which lives in the Laptev Sea.[PARAGRAPH:2]The walrus is immediately recognized by its prominent tusks, whiskers and great bulk. Adult Pacific males can weigh up to 1,700 kilograms (3,700 lb) and, among pinnipeds, are exceeded in size only by the two species of elephant seals. It resides primarily in shallow oceanic shelf habitat, spending a significant proportion of its life on sea ice in pursuit of its preferred diet of benthic bivalve mollusks. It is a relatively long-lived, social animal and is considered a keystone species in Arctic marine ecosystems.[PARAGRAPH:2]The walrus has played a prominent role in the cultures of many indigenous Arctic peoples, who have hunted the walrus for its meat, fat, skin, tusks and bone. In the 19th and early 20th centuries, the walrus was the object of heavy commercial exploitation for blubber and ivory and its numbers declined rapidly. Its global population has since rebounded, though the Atlantic and Laptev populations remain fragmented and at historically depressed levels.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>海象（Odobenus rosmarus）是一种大型的鳍状海洋哺乳动物，在北半球的北冰洋和亚北极海域具有不连续的极地分布。海象是奥多贝尼科和奥多贝尼乌斯属中唯一活着的物种。它被分为三个亚种：生活在大西洋中的大西洋海象（O.rosmarus rosmarus）、生活在太平洋中的太平洋海象（O.rosmarus differentis）和生活在拉普捷夫海中的O.rosmarus laptevi。[第2段]海象的突出的獠牙、胡须和巨大的身躯立即被认出。成年太平洋雄性海象体重可达1700公斤（3700磅），在鳍足动物中，只有两种象海豹的体型超过了它们。它主要生活在浅海陆架生境中，大部分生活在海冰上，以寻找其首选的底栖双壳类软体动物的食物。海象是一种寿命相对较长的社会性动物，被认为是北极海洋生态系统中的一个关键物种。[第2段]海象在许多北极土著民族的文化中发挥了突出的作用，他们捕猎海象的肉、脂肪、皮肤、象牙和骨头。在19世纪和20世纪初，海象是鲸脂和象牙的大量商业开采对象，数量迅速下降。尽管大西洋和拉普捷夫的人口仍然支离破碎，处于历史上的低迷水平，但其全球人口此后出现反弹。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_AMBER</Tag>
+    <English>Amber</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>琥珀</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_AMBER_PEDIA</Tag>
+    <English>Amber is the name for fossil resin or tree sap that is appreciated for its colour. It is used for the manufacture of ornamental objects and jewellery. Although not mineralized, it is sometimes considered a gemstone. Most of the world's amber is in the range of 30-90 million years old. Semi-fossilized resin or sub-fossil amber is called copal. The presence of insects in amber was noticed by the Romans and led them to the (correct) theory that at some point, amber had to be in a liquid state to cover the bodies of insects. Hence they gave it the expressive name of suceinum or gum-stone, a name that is still in use today to describe succinic acid as well as succinite, a term given to a particular type of amber by James Dwight Dana (see below under Baltic Amber). The Greek name for amber was Electron and was connected to the Sun God, one of whose titles was Elector or the Awakener.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>琥珀是化石树脂或树液的名称，因其颜色而被欣赏。它被用来制造装饰物和珠宝。虽然没有矿化，但有时被认为是宝石。世界上大部分的琥珀都有3000万到9000万年的历史。半化石树脂或亚化石琥珀被称为copal。罗马人注意到琥珀中有昆虫的存在，于是他们得出（正确的）理论：在某个时刻，琥珀必须处于液态才能覆盖昆虫的身体。因此，他们给它起了一个富有表现力的名字suceinum或gum stone，这个名字至今仍被用来描述琥珀酸和琥珀酸酯，这是詹姆斯德怀特·达纳（James Dwight Dana）给一种特殊类型的琥珀起的名字（见下文波罗的海琥珀）。琥珀的希腊名字是Electron，与太阳神有关，太阳神的头衔之一是选举人或觉醒者。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_ACCESS</Tag>
+    <English>Atlantic Access</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>大西洋探索</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_ACCESS_PEDIA</Tag>
+    <English>Atlantic Access was the very basic requisite for European powers to launch their naval exploration to North and South America and into the Far East. This is represented in RFCE by the Atlantic Access resource, you need at least one of them if you wan't to compete in the colonial race.[PARAGRAPH:2]Atlantic Accesses can be found in their "historical locations", near cities/areas which were capable of launching big colonial expeditions. A couple examples: near Sevilla, Lisbon, western coast of France and England, Amsterdam.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>大西洋通道是欧洲列强向北美、南美和远东展开海军勘探的基本条件。这在RFCE中由大西洋通道资源代表，如果你不想在殖民地种族中竞争，你至少需要其中一个。[第2段]大西洋通道可以在它们的“历史位置”找到，靠近那些能够发动大规模殖民地探险的城市/地区。几个例子：靠近塞维利亚，里斯本，法国和英国的西海岸，阿姆斯特丹。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_NORTH_AMERICA_ACCESS</Tag>
+    <English>North America Access</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>北美航线</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_NORTH_AMERICA_ACCESS_PEDIA</Tag>
+    <English>While the Iberian Kingdoms were busy exploring the New World's southern and western reaches, England, France, and the Netherlands began to prod the northern continent in the 16th and 17th centuries. The reasons for their explorations changed throughout the period. At first, nearly all of them were searching for the "Northwest Passage", a way around North America to the Pacific. After plenty of failures, mutinies, deaths, and lost money, the nations realized that their efforts were in vain, so they searched for other reasons to have a piece of the continent.[PARAGRAPH:2]England found that America was an ideal place to put prisoners, relocate the religiously suppressed, grow cash crops, and "rid England of its surplus population"- in other words, send people out of the crowded cities, send them to Virginia, and hope they die. France found Quebec and Louisiana to be a land full of potential converts to Christianity (to which success was limited) and plenty of beaver, the pelts of which were in high demand in the 17th Century. The Dutch found an opportunity to shove more money into their already bulging pockets, and established profitable trading posts in New York, including New York City itself, even then a leading commercial center. Timber from North America was also an important resource for these seafaring nations, as there were few forests in left Western Europe with big enough trees for ship masts.[PARAGRAPH:2]By the 19th Century, North America had new values that had yet to be exploited. The eastern US became a major industrial center, thanks to nearby coal mines and new canals. The middle section of the continent also found new valuable attributes: land to sell to settlers, cultivatable land to feed growing populations, and vast oil fields all the way from Texas to Canada and Alaska. Alaska, along with much of western North America, also had rich gold veins. Scattered all along the much west coast, these deposits sparked major gold rushes in the region several times in the century, in some cases establishing major population centers.[PARAGRAPH:2]Today, with most of its oil drawn, gold mined, and industrial power nearly gone, it would first seem that North America had lost all of its economic value to the world. However, due to its consumerism society, North America is still a huge market for mass-produced goods. Also, the headquarters of several major high-tech companies are located here, which- along with consumerism- keeps North America in the world's global economy.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>当伊比利亚王国忙于探索新大陆的南部和西部时，英国、法国和荷兰在16世纪和17世纪开始在北部大陆上发展。他们探索的原因在整个时期都发生了变化。起初，几乎所有人都在寻找“西北通道”，一条环绕北美到太平洋的通道。在经历了大量的失败、叛乱、死亡和金钱损失之后，这些国家意识到他们的努力是徒劳的，因此他们寻找其他的理由在这块大陆上占有一席之地。[第2段]英国发现，美国是一个理想的地方，可以关押囚犯，重新安置受到宗教压制的人，种植经济作物，“把英格兰的剩余人口赶走”——换句话说，把人们从拥挤的城市里赶出来，送到弗吉尼亚州，希望他们死。法国发现魁北克和路易斯安那是一个充满了基督教潜在皈依者（成功有限）和大量海狸的地方，海狸毛皮在17世纪的需求量很大。荷兰人找到了一个机会，把更多的钱塞进他们已经鼓起来的口袋，并在纽约建立了有利可图的贸易站，包括纽约市本身，即使当时是一个领先的商业中心。来自北美的木材也是这些航海国家的重要资源，因为左西欧几乎没有森林有足够大的树木来支撑船桅。[第2段]到19世纪，北美有了新的价值观，但尚未开发。由于附近的煤矿和新运河，美国东部成为一个主要的工业中心。该大陆中部地区也发现了新的有价值的特征：土地出售给定居者，可耕种的土地养活不断增长的人口，以及从得克萨斯到加拿大和阿拉斯加的广阔油田。阿拉斯加和北美西部的大部分地区也有丰富的金矿脉。这些矿藏散布在西海岸，在本世纪曾几次在该地区引发大规模的淘金热，在某些情况下，这些矿藏建立了主要的人口中心。[第2段]今天，由于大部分的石油开采、黄金开采和工业力量几乎消失，北美洲的经济价值首先似乎已经完全丧失了世界。然而，由于其消费主义社会，北美仍然是一个巨大的批量生产商品市场。此外，几家主要高科技公司的总部都设在这里，这与消费主义一道，使北美在全球经济中保持领先地位。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SOUTH_AMERICA_ACCESS</Tag>
+    <English>South America Access</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>南美航线</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SOUTH_AMERICA_ACCESS_PEDIA</Tag>
+    <English>Access to South America was a huge bonus to Spain and Portugal, the continent's main explorers. In fact, except its north eastern corner, the entire continent was taken by the two nations. This is due to the value of having South America often being more easily recognizable than in North America, and the pay off came much more sooner.[PARAGRAPH:2]The western part of the continent was taken by Spain, for despite the arid climate and high altitude, among the Andes mountain range (and the empire inside it) was an astonishing amount of gold and silver. In the town of Potos? vein of 50 percent pure silver was struck, and the mining here was so rich that the money it accumulated- despite vast amounts exported to China, lost from smuggling, and the general lack of law and order in town- completely covered Spain's military budget for over a century.[PARAGRAPH:2]The Portuguese had a later start, but still managed to claim and incredible amount of territory, known as Brazil. The wealth could be found among gold and diamonds, but soon it was found that even more money could be made by cutting down swaths of rainforests, planting sugarcane, tobacco, and coffee, and having the plantations worked by slaves from the Portuguese colony of Angola. On top the Angolans there were also plenty of native people to enslave as well, and some of the slavers made it all the way from Buenos Aries to Potosi, around 1500 miles away, and became silver smugglers. By the 19th century, Portugal conquered nearly the entire eastern continent; a vast amount of territory that was quite profitable, considering more sugarcane was now grown by Portugal than by another New World colony, and the money from slave depots and silver smugglers in Aries and Paulo.[PARAGRAPH:2]In the modern day, South America has a very unstable political climate, with corruption, dictators, and juntas ever since the continent became independent. Sugarcane is still exported from Brazil, and Venezuela has oilfields, but unfortunately northwest South America- Columbia in particular- is now infamous for narcotics production. Still, there is hope for the continent, as tourism (due to Incan ruins and the Amazon rainforests, among others) is major boon to the economies of several counties, and Buenos Aries has since dropped its slave depots and now has a growing high-tech industry.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>西班牙和葡萄牙是南美大陆的主要探险家，他们能进入南美是一个巨大的收获。事实上，除了东北角，整个大陆都被这两个国家占领了。这是因为南美洲的价值往往比北美更容易辨认，而且回报来得更快。[第2段]该大陆的西部被西班牙占领，因为尽管气候干旱，海拔高，但在安第斯山脉（以及其中的帝国）中，有惊人数量的黄金和白银。在波托斯镇？50%纯银的矿脉被打中，这里的矿藏非常丰富，尽管大量出口到中国，走私活动造成损失，以及城镇普遍缺乏法律和秩序，但积累的资金完全覆盖了西班牙一个多世纪的军事预算以及令人难以置信的面积，被称为巴西。这些财富可以在黄金和钻石中找到，但很快人们发现，通过砍伐大片雨林、种植甘蔗、烟草和咖啡，以及让葡萄牙殖民地安哥拉的奴隶经营种植园，可以赚更多的钱。除此之外，安哥拉人还有很多土著人要奴役，一些奴隶贩子从布宜诺斯艾利斯一路来到1500英里外的波托西，成为了白银走私者。到了19世纪，葡萄牙几乎征服了整个东部大陆；考虑到葡萄牙种植的甘蔗比另一个新的世界殖民地种植的甘蔗还多，以及白羊座和保罗的奴隶仓库和白银走私者的钱，大量的土地相当有利可图，南美洲有一个非常不稳定的政治气候，自从该大陆独立以来就有腐败、独裁者和军政府。甘蔗仍然从巴西出口，委内瑞拉也有油田，但不幸的是，南美洲西北部，特别是哥伦比亚，现在因毒品生产而声名狼藉。尽管如此，非洲大陆还是有希望的，因为旅游业（由于印加废墟和亚马逊雨林等）对几个县的经济是一大利好，布宜诺斯艾利斯从此放弃了奴隶仓库，现在拥有了一个不断增长的高科技产业。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_EAST_ASIA_ACCESS</Tag>
+    <English>East Asia Access</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>东亚航线</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_EAST_ASIA_ACCESS_PEDIA</Tag>
+    <English>Access to East Asia was the original driving force of European exploration and colonization, but it was always on the minds of Western traders. The profit surrounding the trade - which included silk, spice, gold, and other valuable items - was immense, and has been coveted by the West ever since trade routes linked Orientals to Occidentals.[PARAGRAPH:2]European trade with China has gone at least as far back as the infancy of the Roman Empire, whom traded with the Chinese Han Empire via a vast transcontinental trade route known as the Silk Road. The trade remained a very lucrative business, even after the fall of Rome, and goods from the East still flowed to the West despite the Silk Road falling into disrepair. This made travel more dangerous (and more expensive), but it made the goods that reached Europe all the more valuable. Constantinople was one of the first to profit off this trade, after the collapse of the Roman Empire due to its position on the most direct land and sea routes between Europe and Asia. Even the Emperor Justinian got in the act, by having silkworms smuggled from China.[PARAGRAPH:2]The riches of the East, however, did not leave the thoughts of ambitious Europeans. Within a century, goods that were once transported across small seas on Italian galleys were replaced by Spanish and Portuguese caravels, carracks and galleons. The two kingdoms were racing to the Indies, the spice rich islands that had made the Egyptians so wealthy. Portugal headed west, as it had already been exploring the African coast and needed only to round the continent, which was accomplished by Bartolomeu Dias in 1488. Spain meanwhile, sent a Genovese navigator, named Christopher Columbus, to find the Indies- by sailing west. Setting off in August of 1492, three months later he landed in what he thought was Indonesia. Columbus' discovery shocked the Portuguese, who believed that their claims to the East had been stolen by the Spaniards, and a shouting match between the two Empires. The Pope finally put an end to their bickering with the Treaty of Tordesillas in 1494, which split the world into two halves, with Portugal ruling the East and Spain ruling the west.[PARAGRAPH:2]Other European powers eventually searched for a path to the East as well. English, French, and Dutch explorers tried to find a "Northwest Passage" around North America and into the Pacific. Unsuccessful, they instead ousted the Portuguese from West Africa and now the Dutch established a colony on the very tip of South Africa, Cape Town, which became a frequented resupply post for Dutch (and later British) Ships on the way to India, China, and Indonesia. The French also tried to reach the East, indeed one of Napoleons' goals when invading Egypt in 1799 was finding a route to India, as traveling through the Red Sea was much faster than rounding Cape Town or Cape Horn, on the tip of South America. When the British, who more or less controlled both points, then took Egypt for themselves, they would exploit this by building the Suez Canal, and the United States did the same in Panama to unite its Atlantic and Pacific fleets.[PARAGRAPH:2]Today, access to the East remains vital for Western businesses. Access to East Asia is much easier to achieve today with airports, Trans oceanic canals and even simply through the internet, but such access is crucial in and increasingly global economy with China becoming the world's prime industrial center, and India and Singapore as the high tech industry's chief locations for expansion.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>进入东亚是欧洲探索和殖民的原始动力，但它始终在西方商人的心目中。围绕这项贸易的利润——包括丝绸、香料、黄金和其他贵重物品——是巨大的，自从东方人和西方人的贸易路线连接起来之后，西方就一直觊觎着这项贸易。[第2段]欧洲与中国的贸易至少早在罗马帝国的初期就已经开始了，罗马帝国通过广袤的横贯大陆的贸易通道，被称为丝绸之路。即使在罗马沦陷之后，贸易仍然是一项非常有利可图的生意，尽管丝绸之路年久失修，东方的货物仍然流向西方。这使得旅行更加危险（也更加昂贵），但它使到达欧洲的货物更加值钱。君士坦丁堡是在罗马帝国崩溃后最先从这项贸易中获利的国家之一，因为它位于欧洲和亚洲之间最直接的陆路和海路上。就连查士丁尼皇帝也参与了这一行动，他从中国走私了蚕。[第2段]然而，东方的财富并没有离开雄心勃勃的欧洲人的思想。在一个世纪内，曾经用意大利帆船穿越小海的货物被西班牙和葡萄牙的帆船、卡拉克帆船和加隆帆船所取代。这两个王国正奔向印度群岛，这个香料丰富的岛屿使埃及人变得如此富有。葡萄牙向西走，因为它已经在探索非洲海岸，只需要环绕非洲大陆，这是巴托洛梅乌迪亚斯在1488年完成的。与此同时，西班牙派出了一位名叫克里斯托弗·哥伦布的热那韦航海家，向西航行，寻找印度群岛。1492年8月出发，三个月后他降落在他认为是印度尼西亚的地方。哥伦布的发现震惊了葡萄牙人，葡萄牙人认为他们对东方的主张被西班牙人偷走了，这两个帝国之间也发生了激烈的较量。1494年，罗马教皇终于结束了他们与《托德塞拉斯条约》（Treaty of Tordesillas）的争吵，该条约将世界一分为二，葡萄牙统治着东方，西班牙统治着西方。英国、法国和荷兰的探险家们试图找到一条“西北通道”，绕过北美进入太平洋。他们没有成功，反而把葡萄牙人赶出了西非，现在荷兰人在南非的最顶端开普敦建立了殖民地，开普敦成为荷兰（后来是英国）船只前往印度、中国和印度尼西亚途中经常光顾的补给站。法国人也试图到达东方，实际上拿破仑在1799年入侵埃及时的目标之一是找到一条通往印度的路线，因为穿越红海比绕过南美洲尖端的开普敦或合恩角要快得多。当或多或少控制了这两个点的英国人把埃及据为己有时，他们会通过修建苏伊士运河来利用这一点，而美国也在巴拿马做同样的事，以联合其大西洋和太平洋舰队。[第2段]今天，进入东方对西方企业来说仍然至关重要。如今，通过机场、跨洋运河甚至仅仅通过互联网就可以更容易地进入东亚，但随着中国成为世界第一大工业中心，印度和新加坡成为高科技产业的主要扩张地，这种进入在全球经济中起着至关重要的作用。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SLAVES</Tag>
+    <English>Slaves</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>奴隶</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_SLAVES_PEDIA</Tag>
+    <English>In the Early Middle Ages, slavery was being slowly replaced by serfdom. In some areas outside of Western Europe, however, slaves were still a vital part of the economy.[PARAGRAPH:2]In the Viking era starting c. 793, the Norse raiders often captured and enslaved their opponents. In Norway and Iceland the slaves were called Thralls. The thralls were mostly from Western Europe, among them many Franks, Irish and Anglo-Saxons. There is evidence of German and south European slaves as well. The Norse slavery came to an end with the breakthrough of christianity and national laws in the Scandinavian countries.[PARAGRAPH:2]The Arab world has traded in slaves like many other cultures of the region. It was one of the oldest slave trades, predating the European transatlantic slave trade by hundreds of years. The Arab or Middle Eastern slave trade is thought to have originated with trans-Saharan slavery. The Moors, starting in the 8th century, raided coastal areas of the Mediterranean and Northern European (including British and even as far north as Scandinavian) coastal areas and would carry away sometimes whole villages to the Moorish slave markets on the Barbary Coast.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>在中世纪早期，奴隶制正慢慢被农奴制所取代。然而，在西欧以外的一些地区，奴隶仍然是经济的重要组成部分。[第2段]从公元793年开始的北欧海盗时代，北欧掠夺者经常俘虏并奴役他们的对手。在挪威和冰岛，奴隶被称为奴隶。这些奴隶大多来自西欧，其中包括许多法兰克人、爱尔兰人和盎格鲁撒克逊人。也有德国和南欧奴隶的证据。北欧的奴隶制度随着基督教和斯堪的纳维亚国家法律的突破而结束。[第2段]阿拉伯世界像该地区的许多其他文化一样，贩卖奴隶。这是最古老的奴隶贸易之一，比欧洲跨大西洋奴隶贸易早几百年。阿拉伯或中东的奴隶贸易被认为起源于撒哈拉以南的奴隶制。从8世纪开始，摩尔人袭击了地中海和北欧（包括英国，甚至远至斯堪的纳维亚北部）的沿海地区，有时会把整个村庄搬到巴巴里海岸的摩尔奴隶市场。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_RELIC</Tag>
+    <English>Relic</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>圣物</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BONUS_RELIC_PEDIA</Tag>
+    <English>A relic is an object or a personal item of religious significance, carefully preserved with an air of veneration as a tangible memorial. Relics are an important aspect of some forms of Buddhism, Christianity, Hinduism, Shamanism, and many other religions.[PARAGRAPH:2]The word relic comes from the Latin reliquiae, meaning "remains". A reliquary is a shrine that houses one or more relics.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>遗物是具有宗教意义的物品或个人物品，作为有形的纪念物，以崇敬的姿态精心保存。遗物是佛教、基督教、印度教、萨满教和许多其他宗教形式的一个重要方面。圣骨箱是存放一件或多件遗物的神龛。</Chinese>
+  </TEXT>
+</Civ4GameText>

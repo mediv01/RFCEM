@@ -1,0 +1,1570 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Diplomacy Texts -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <!-- Generic first contact DiploTexts -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GENERIC_1</Tag>
+    <English>Hello! I am [OUR_NAME], ruler of [OUR_CIV_SHORT]! I expect years of good relations between the [OUR_EMPIRE] and the [CT_EMPIRE]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hello! I am [OUR_NAME], ruler of [OUR_CIV_SHORT]! I expect years of good relations between the [OUR_EMPIRE] and the [CT_EMPIRE]!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GENERIC_2</Tag>
+    <English>Welcome to [OUR_CIV_SHORT], [CT_NAME]. I am [OUR_NAME]! Are you looking for peace or demand war?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>欢迎来到[OUR_CIV_SHORT]，[CT_NAME]。我是[OUR_NAME]！你是否正在寻找和平或需求战争?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GENERIC_3</Tag>
+    <English>Welcome to this beautiful land, [CT_NAME]. Take a look around and see the might of the [OUR_EMPIRE]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>欢迎来到这片美丽的土地，[CT_NAME]。Take a look around and see the might of the [OUR_EMPIRE]!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GENERIC_4</Tag>
+    <English>Hello, I am [OUR_NAME], ruler of the [OUR_EMPIRE]! I hope you come in peace... it would be so unfortunate if we had to destroy you!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>你好，我是[OUR_NAME]，[OUR_EMPIRE]的统治者！I hope you come in peace... it would be so unfortunate if we had to destroy you!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GENERIC_5</Tag>
+    <English>I am honored to meet you, [CT_NAME]. I am [OUR_NAME] of the [OUR_CIV_ADJ] people. We can be friends or enemies.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I am honored to meet you, [CT_NAME]. I am [OUR_NAME] of the [OUR_CIV_ADJ] people. We can be friends or enemies.</Chinese>
+  </TEXT>
+  <!-- Generic first contact DiploTexts -->
+  <!-- Leader specific first contact DiploTexts -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_YAQUB_AL_MANSUR_1</Tag>
+    <English>Welcome to the desert. I am Abu Yusuf Yagub. We can be friends or enemies.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Welcome to the desert. I am Abu Yusuf Yagub. We can be friends or enemies.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MARIA_THERESA_1</Tag>
+    <English>While other nations go to war, we lucky Austria, we wed.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>While other nations go to war, we lucky Austria, we wed.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CHRISTIAN_IV_1</Tag>
+    <English>Welcome to my court. Grab a drink and look around. If we are friends, perhaps you will reign as long as I will.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Welcome to my court. Grab a drink and look around. If we are friends, perhaps you will reign as long as I will.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_WILLIAM_1</Tag>
+    <English>Well met friend. What shall we conquer today?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Well met friend. What shall we conquer today?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MAXIMILIAN_1</Tag>
+    <English>I am Maximilian. My titles would take all day. Let's have a good old joust instead.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I am Maximilian. My titles would take all day. Let's have a good old joust instead.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SIMEON_1</Tag>
+    <English>By the favour shown to me by heaven, I have led the Bulgarian nation to a height of glory. Tell me about yourself.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>By the favour shown to me by heaven, I have led the Bulgarian nation to a height of glory. Tell me about yourself.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PHILIP_THE_BOLD_1</Tag>
+    <English>Ah, fantastic, a new enemy to crush! Perhaps you have heard of me, Philip the Bold? No... well, you shall.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ah, fantastic, a new enemy to crush! Perhaps you have heard of me, Philip the Bold? No... well, you shall.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ABD_AR_RAHMAN_1</Tag>
+    <English>I have now reigned above fifty years in victory or peace; beloved by my subjects, dreaded by my enemies, and respected by my allies. O man! place not thy confidence in this present world!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I have now reigned above fifty years in victory or peace; beloved by my subjects, dreaded by my enemies, and respected by my allies. O man! place not thy confidence in this present world!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_BOCCANEGRA_1</Tag>
+    <English>I am Simone Boccanegra, first Doge of Genoa. You don't sing by any chance, do you?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I am Simone Boccanegra, first Doge of Genoa. You don't sing by any chance, do you?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ENRICO_DANDOLO_1</Tag>
+    <English>I can see what you're up to, you know.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I can see what you're up to, you know.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_BOHDAN_1</Tag>
+    <English>Greetings, pan! I, [OUR_NAME], Ataman of the Zaporozhian army! What are you looking for on the green steppes of Ukraine?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Greetings, pan! I, [OUR_NAME], Ataman of the Zaporozhian army! What are you looking for on the green steppes of Ukraine?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_THE_POPE_1</Tag>
+    <English>In nomine Patris, et Filii, et Spiritus Sancti. Welcome, my child.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>In nomine Patris, et Filii, et Spiritus Sancti. Welcome, my child.</Chinese>
+  </TEXT>
+  <!-- Leader specific first contact DiploTexts -->
+  <!-- New DiploText by AbsintheRed -->
+  <!-- Spanish 2nd leader - Philip II -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PHILIP_II_1</Tag>
+    <English>Welcome to my dominions, [CT_NAME]. My empire is vast, as is my knowlege. Would you agree to peaceful terms, or shall I bring forth my armies against you, in the name of God?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Welcome to my dominions, [CT_NAME]. My empire is vast, as is my knowlege. Would you agree to peaceful terms, or shall I bring forth my armies against you, in the name of God?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PHILIP_II_2</Tag>
+    <English>It is impiety, and almost blasphemy to presume to know the will of God. It comes from the sin of pride. Even kings, [CT_NAME], must submit to being used by God's will without knowing what it is. They must never seek to use it.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It is impiety, and almost blasphemy to presume to know the will of God. It comes from the sin of pride. Even kings, [CT_NAME], must submit to being used by God's will without knowing what it is. They must never seek to use it.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PHILIP_II_3</Tag>
+    <English>Hello! I am [OUR_NAME], king of [OUR_CIV_SHORT]! I hope you come with peace... it would be so unfortunate if we had to destroy you!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hello! I am [OUR_NAME], king of [OUR_CIV_SHORT]! I hope you come with peace... it would be so unfortunate if we had to destroy you!</Chinese>
+  </TEXT>
+  <!-- Actually this is a quote from Philip II, macedon king, father of Alexander. Currently unused, but I leave it here for now, it's a good quote :) (AbsintheRed) -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PHILIP_II_4</Tag>
+    <English>O how small a portion of earth will hold us when we are dead, who ambitiously seek after the whole world while we are living.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>O how small a portion of earth will hold us when we are dead, who ambitiously seek after the whole world while we are living.</Chinese>
+  </TEXT>
+  <!-- Actually this is a quote from Philip II, macedon king, father of Alexander. Currently unused, but I leave it here for now, it's a good quote :) (AbsintheRed) -->
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_PHILIP_II_1</Tag>
+    <English>Speak of the devil and the devil appears... begone, [CT_NAME]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Speak of the devil and the devil appears... begone, [CT_NAME]!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_PHILIP_II_1</Tag>
+    <English>Peace? Not impossible, but right now very improbable, [CT_NAME]. You still need to be taught a lesson!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Peace? Not impossible, but right now very improbable, [CT_NAME]. You still need to be taught a lesson!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_PHILIP_II_1</Tag>
+    <English>Good, good, [CT_NAME], I am glad you have come. Let us discuss our visions of glorious imperialism and colonization of the world!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Good, good, [CT_NAME], I am glad you have come. Let us discuss our visions of glorious imperialism and colonization of the world!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_PHILIP_II_1</Tag>
+    <English>Time is money, [CT_NAME], and you're apparently wasting my time.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Time is money, [CT_NAME], and you're apparently wasting my time.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_PHILIP_II_1</Tag>
+    <English>The humble realm of [OUR_CIV_SHORT] have but one small request. I am quite sure you can handle it.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>The humble realm of [OUR_CIV_SHORT] have but one small request. I am quite sure you can handle it.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_PHILIP_II_1</Tag>
+    <English>In times of need, kindness can be very valuable.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>In times of need, kindness can be very valuable.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_PHILIP_II_1</Tag>
+    <English>[CT_NAME], it has been brought to my attention that you have something the [OUR_EMPIRE] needs. I am sure you are willing to help us here, or else I will send my armada - and mark my words, it will not fail this time!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[CT_NAME], it has been brought to my attention that you have something the [OUR_EMPIRE] needs. I am sure you are willing to help us here, or else I will send my armada - and mark my words, it will not fail this time!</Chinese>
+  </TEXT>
+  <!-- Spanish 2nd leader - Philip II -->
+  <!-- French 2nd leader - Joan of Arc -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_JOAN_1</Tag>
+    <English>One life is all we have and we live it as we believe in living it. But to sacrifice what you are and to live without belief, that is a fate more terrible than dying.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>One life is all we have and we live it as we believe in living it. But to sacrifice what you are and to live without belief, that is a fate more terrible than dying.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_JOAN_2</Tag>
+    <English>Bonjour, [CT_NAME]. I am [OUR_NAME], the Messenger of God. Choose your words carefully, for it is said that people are hanged sometimes for speaking the truth.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Bonjour, [CT_NAME]. I am [OUR_NAME], the Messenger of God. Choose your words carefully, for it is said that people are hanged sometimes for speaking the truth.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_JOAN_1</Tag>
+    <English>I'm talking to the Lord right now. Don't interrupt me!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I'm talking to the Lord right now. Don't interrupt me!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_JOAN_1</Tag>
+    <English>You'll have to burn me at the stake first.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>You'll have to burn me at the stake first.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_JOAN_1</Tag>
+    <English>[CT_NAME], I had a vision that you'd arrive here! Come and make yourself comfortable.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[CT_NAME], I had a vision that you'd arrive here! Come and make yourself comfortable.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_JOAN_1</Tag>
+    <English>Come out, [CT_NAME], so I can send you to hell!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Come out, [CT_NAME], so I can send you to hell!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_JOAN_1</Tag>
+    <English>God told me that you should hand this over. That is all.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>God told me that you should hand this over. That is all.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_JOAN_1</Tag>
+    <English>I know nothing about the love or hatred that God has for you, [CT_NAME], but I do know that you will all die if you don't hand this over to [OUR_CIV_SHORT].</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I know nothing about the love or hatred that God has for you, [CT_NAME], but I do know that you will all die if you don't hand this over to [OUR_CIV_SHORT].</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_JOAN_1</Tag>
+    <English>I had a vision of the [CT_EMPIRE] going up in flames. Care to assure me that I was just crazy?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I had a vision of the [CT_EMPIRE] going up in flames. Care to assure me that I was just crazy?</Chinese>
+  </TEXT>
+  <!-- French 2nd leader - Joan of Arc -->
+  <!-- Polish 1st leader - Casimir III -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CASIMIR_1</Tag>
+    <English>Greetings from [OUR_NAME] the Great, king of [OUR_CIV_SHORT]! I expect years of good relations between the [OUR_EMPIRE] and the [CT_EMPIRE]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Greetings from [OUR_NAME] the Great, king of [OUR_CIV_SHORT]! I expect years of good relations between the [OUR_EMPIRE] and the [CT_EMPIRE]!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CASIMIR_2</Tag>
+    <English>I am [OUR_NAME]. Will you help me make [OUR_CIV_SHORT] great?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I am [OUR_NAME]. Will you help me make [OUR_CIV_SHORT] great?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_CASIMIR_1</Tag>
+    <English>Go away if you don't want me to get my sword!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Go away if you don't want me to get my sword!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_CASIMIR_1</Tag>
+    <English>You do not deserve peace with [OUR_NAME] the Great!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>You do not deserve peace with [OUR_NAME] the Great!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_CASIMIR_1</Tag>
+    <English>Greetings, [CT_NAME]! I am so happy to see you here! Have you already seen the new castle I built?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Greetings, [CT_NAME]! I am so happy to see you here! Have you already seen the new castle I built?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_CASIMIR_1</Tag>
+    <English>Say what you have to say and try to give me a reason to listen to you!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Say what you have to say and try to give me a reason to listen to you!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_CASIMIR_1</Tag>
+    <English>Any chance [OUR_CIV_SHORT] can get help from [CT_NAME]?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Any chance [OUR_CIV_SHORT] can get help from [CT_NAME]?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_CASIMIR_1</Tag>
+    <English>Help [OUR_CIV_SHORT] today, so it won't destroy you tomorrow!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Help [OUR_CIV_SHORT] today, so it won't destroy you tomorrow!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_CASIMIR_1</Tag>
+    <English>Give us this or prepare for war with the [OUR_EMPIRE]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Give us this or prepare for war with the [OUR_EMPIRE]!</Chinese>
+  </TEXT>
+  <!-- Polish 1st leader - Casimir III -->
+  <!-- Polish 2nd leader - Jan III Sobieski -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SOBIESKI_1</Tag>
+    <English>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. Remember: they don't call me the "Lion of Lechistan" for no reason!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. Remember: they don't call me the "Lion of Lechistan" for no reason!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SOBIESKI_2</Tag>
+    <English>I am [OUR_NAME], King of Poland and Grand Duke of Lithuania by the grace of God. You may kiss my hand.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I am [OUR_NAME], King of Poland and Grand Duke of Lithuania by the grace of God. You may kiss my hand.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_SOBIESKI_1</Tag>
+    <English>I do not wish to talk. You may send me a letter if you really want to.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I do not wish to talk. You may send me a letter if you really want to.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_SOBIESKI_1</Tag>
+    <English>It is not possible to stop my hussars if they have already started charging.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It is not possible to stop my hussars if they have already started charging.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SOBIESKI_1</Tag>
+    <English>[CT_NAME], my dear friend! What do you think about founding the Holy League?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[CT_NAME], my dear friend! What do you think about founding the Holy League?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SOBIESKI_1</Tag>
+    <English>Have you ever heard the roar of a hundred charging knights? My hussars, be ready!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Have you ever heard the roar of a hundred charging knights? My hussars, be ready!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SOBIESKI_1</Tag>
+    <English>This will be the test of our friendship, [CT_NAME].</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>This will be the test of our friendship, [CT_NAME].</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SOBIESKI_1</Tag>
+    <English>We need to help each other, [CT_NAME].</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>We need to help each other, [CT_NAME].</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SOBIESKI_1</Tag>
+    <English>Do you really want me to start another crusade? My beloved Marysienka won't be happy.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Do you really want me to start another crusade? My beloved Marysienka won't be happy.</Chinese>
+  </TEXT>
+  <!-- Polish 2nd leader - Jan III Sobieski -->
+  <!-- Kievan 1st leader - Yaroslav the Wise -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_YAROSLAV_1</Tag>
+    <English>To quote my patron saint: Nothing in this inconstant life can weaken my resolve to serve God.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>To quote my patron saint: Nothing in this inconstant life can weaken my resolve to serve God.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_YAROSLAV_2</Tag>
+    <English>Hello, I am [OUR_NAME], ruler of the [OUR_EMPIRE]! Take a look around you and see the might of my empire!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hello, I am [OUR_NAME], ruler of the [OUR_EMPIRE]! Take a look around you and see the might of my empire!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_YAROSLAV_1</Tag>
+    <English>I do not speak to those who are disloyal to me! Go away I said!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I do not speak to those who are disloyal to me! Go away I said!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_YAROSLAV_1</Tag>
+    <English>So, you want peace? No, you'll have to beat me first! Good luck, [CT_NAME]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>So, you want peace? No, you'll have to beat me first! Good luck, [CT_NAME]!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_YAROSLAV_1</Tag>
+    <English>Oh, hello, [CT_NAME]! Welcome again to my glorious lands! Do you have any daughters my sons can marry?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Oh, hello, [CT_NAME]! Welcome again to my glorious lands! Do you have any daughters my sons can marry?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_YAROSLAV_1</Tag>
+    <English>Speak faster, [CT_NAME], I have no time for the likes of you. My laws won't write themselves, you know!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Speak faster, [CT_NAME], I have no time for the likes of you. My laws won't write themselves, you know!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_YAROSLAV_1</Tag>
+    <English>As a patron of learning, I'd like some help from you to educate my society. Do we have a deal?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>As a patron of learning, I'd like some help from you to educate my society. Do we have a deal?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_YAROSLAV_1</Tag>
+    <English>If you don't want to make me mad I suggest you give me this. You don't want to spoil our relations, do you?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>If you don't want to make me mad I suggest you give me this. You don't want to spoil our relations, do you?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_YAROSLAV_1</Tag>
+    <English>I suggest you give us this if you don't want to spend the rest of your life imprisoned like my brother...</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I suggest you give us this if you don't want to spend the rest of your life imprisoned like my brother...</Chinese>
+  </TEXT>
+  <!-- Kievan 1st leader - Yaroslav the Wise -->
+  <!-- Moscow 1st leader - Ivan IV -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_IVAN_IV_1</Tag>
+    <English>I am honored to meet you, [CT_NAME]. I am the great [OUR_NAME] of the [OUR_CIV_ADJ] people, inhabitants of [OUR_CIV_SHORT].</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I am honored to meet you, [CT_NAME]. I am the great [OUR_NAME] of the [OUR_CIV_ADJ] people, inhabitants of [OUR_CIV_SHORT].</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_IVAN_IV_2</Tag>
+    <English>Hello, [CT_NAME]. I am [OUR_NAME], czar of [OUR_CIV_SHORT]. Do you want to discover why they call me the Terrible?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hello, [CT_NAME]. I am [OUR_NAME], czar of [OUR_CIV_SHORT]. Do you want to discover why they call me the Terrible?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_IVAN_IV_3</Tag>
+    <English>Two Romes have fallen but the third exists, and there will not be a fourth.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Two Romes have fallen but the third exists, and there will not be a fourth.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_IVAN_IV_1</Tag>
+    <English>No! I absolutely refuse to speak with you!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>No! I absolutely refuse to speak with you!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_IVAN_IV_2</Tag>
+    <English>You stinky dog! Go away!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>You stinky dog! Go away!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_IVAN_IV_1</Tag>
+    <English>This war won't end until you and your entire army will be sitting in my court... impaled on poles!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>This war won't end until you and your entire army will be sitting in my court... impaled on poles!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_IVAN_IV_2</Tag>
+    <English>Certainly not. The war will continue until I decide it is time to resume peace, or you are conquered!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Certainly not. The war will continue until I decide it is time to resume peace, or you are conquered!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_IVAN_IV_1</Tag>
+    <English>Oh, [CT_NAME]! Wait a second... I'll finish torturing this basurman and I'll be with you!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Oh, [CT_NAME]! Wait a second... I'll finish torturing this basurman and I'll be with you!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_IVAN_IV_2</Tag>
+    <English>Welcome, [CT_NAME]. I can always spare a few moments to converse with friends and allies.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Welcome, [CT_NAME]. I can always spare a few moments to converse with friends and allies.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_IVAN_IV_1</Tag>
+    <English>Right on time, [CT_NAME]! I have prepared a pole just for you!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Right on time, [CT_NAME]! I have prepared a pole just for you!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_IVAN_IV_1</Tag>
+    <English>Can you spare us this, [CT_NAME]? I would be extremely grateful for your assistance.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Can you spare us this, [CT_NAME]? I would be extremely grateful for your assistance.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_IVAN_IV_2</Tag>
+    <English>[OUR_CIV_SHORT] could use this, you know?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[OUR_CIV_SHORT] could use this, you know?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_IVAN_IV_1</Tag>
+    <English>It would be diplomatically expedient to give us what we want, [CT_NAME].</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It would be diplomatically expedient to give us what we want, [CT_NAME].</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_IVAN_IV_2</Tag>
+    <English>Peace is the biggest struggle. Time to pay up, [CT_NAME].</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Peace is the biggest struggle. Time to pay up, [CT_NAME].</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_IVAN_IV_1</Tag>
+    <English>Give me this or be impaled!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Give me this or be impaled!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_IVAN_IV_2</Tag>
+    <English>Pay your debts, dog!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Pay your debts, dog!</Chinese>
+  </TEXT>
+  <!-- Moscow 1st leader - Ivan IV -->
+  <!-- Swedish 2nd leader - Gustav II Adolf -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GUSTAV_ADOLF_1</Tag>
+    <English>Greetings from the great king of [OUR_CIV_SHORT], [OUR_NAME]! Are you looking for peace and an alliance with us or demand war?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Greetings from the great king of [OUR_CIV_SHORT], [OUR_NAME]! Are you looking for peace and an alliance with us or demand war?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GUSTAV_ADOLF_2</Tag>
+    <English>The Lord God is my armor!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>The Lord God is my armor!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_GUSTAV_ADOLF_1</Tag>
+    <English>I don't speak to traitors!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I don't speak to traitors!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_GUSTAV_ADOLF_1</Tag>
+    <English>Peace, [CT_NAME]?! I'm not done with you yet!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Peace, [CT_NAME]?! I'm not done with you yet!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_GUSTAV_ADOLF_1</Tag>
+    <English>Welcome again! I will show you how the restoration of my castle is going.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Welcome again! I will show you how the restoration of my castle is going.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_GUSTAV_ADOLF_1</Tag>
+    <English>Well, if it isn't [CT_NAME]... What is that you want from the great [OUR_NAME]?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Well, if it isn't [CT_NAME]... What is that you want from the great [OUR_NAME]?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_GUSTAV_ADOLF_1</Tag>
+    <English>Help [OUR_CIV_SHORT], [CT_NAME], and we will be grateful!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Help [OUR_CIV_SHORT], [CT_NAME], and we will be grateful!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_GUSTAV_ADOLF_1</Tag>
+    <English>So, any chance you will share the following with your allies, the [OUR_CIV_ADJ:1]?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>So, any chance you will share the following with your allies, the [OUR_CIV_ADJ:1]?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_GUSTAV_ADOLF_1</Tag>
+    <English>[OUR_NAME] demands this! Do not test his patience!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[OUR_NAME] demands this! Do not test his patience!</Chinese>
+  </TEXT>
+  <!-- Swedish 2nd leader - Gustav II Adolf -->
+  <!-- Hungarian 1st leader - Istv醤 I -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_STEPHEN_1</Tag>
+    <English>I am [OUR_NAME] of [OUR_CIV_SHORT]! Welcome to my kingdom, [CT_NAME]. It is through divine will that I am here before you; to what do YOU owe your presence before me?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I am [OUR_NAME] of [OUR_CIV_SHORT]! Welcome to my kingdom, [CT_NAME]. It is through divine will that I am here before you; to what do YOU owe your presence before me?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_STEPHEN_2</Tag>
+    <English>If you associate with wise men, you will become wise; if you deal with fools, you will become one of them. So, [CT_NAME], are you that wise that you come in peace?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>If you associate with wise men, you will become wise; if you deal with fools, you will become one of them. So, [CT_NAME], are you that wise that you come in peace?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_STEPHEN_3</Tag>
+    <English>Be strong lest prosperity lifts you up too much or adversity cast you down. Be humble in this life that God may raise you up in the next.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Be strong lest prosperity lifts you up too much or adversity cast you down. Be humble in this life that God may raise you up in the next.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_STEPHEN_1</Tag>
+    <English>Insubordination is a pestilence in the kingdom. I have nothing to say to you.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Insubordination is a pestilence in the kingdom. I have nothing to say to you.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_STEPHEN_2</Tag>
+    <English>Don't come back until you've converted, you pagan son of a badger!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Don't come back until you've converted, you pagan son of a badger!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_STEPHEN_1</Tag>
+    <English>A patient king reigns, but an impatient king is a tyrant. We can not have peace with tyrants.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>A patient king reigns, but an impatient king is a tyrant. We can not have peace with tyrants.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_STEPHEN_2</Tag>
+    <English>Talk to the Holy Right, [CT_NAME]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Talk to the Holy Right, [CT_NAME]!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_STEPHEN_1</Tag>
+    <English>Welcome back to my palace, [CT_NAME]! I thank God that I can receive an honorable ruler like you in my kingdom.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Welcome back to my palace, [CT_NAME]! I thank God that I can receive an honorable ruler like you in my kingdom.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_STEPHEN_2</Tag>
+    <English>God with you, my friend [CT_NAME]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>God with you, my friend [CT_NAME]!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_STEPHEN_1</Tag>
+    <English>Go! Go with God, but go, [CT_NAME]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Go! Go with God, but go, [CT_NAME]!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_STEPHEN_2</Tag>
+    <English>Oh, it's you, [CT_NAME]. Did you postpone your weekly chat with the devil to talk to me?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Oh, it's you, [CT_NAME]. Did you postpone your weekly chat with the devil to talk to me?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_STEPHEN_1</Tag>
+    <English>Even pagans like you can help the [OUR_EMPIRE] in times of need, [CT_NAME].</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Even pagans like you can help the [OUR_EMPIRE] in times of need, [CT_NAME].</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_STEPHEN_1</Tag>
+    <English>I have the divine right to demand this, [CT_NAME]. If you don't pay up, God has a steamy pile of heavenly wrath in store for you.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I have the divine right to demand this, [CT_NAME]. If you don't pay up, God has a steamy pile of heavenly wrath in store for you.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_STEPHEN_1</Tag>
+    <English>Begad, give us what we want or you will know the wrath of God!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Begad, give us what we want or you will know the wrath of God!</Chinese>
+  </TEXT>
+  <!-- Hungarian 1st leader - Istv醤 I -->
+  <!-- Hungarian 3rd leader - M醫y醩 -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MATTHIAS_1</Tag>
+    <English>Welcome to this beautiful land, [CT_NAME]. I hope that you bring peace with you, for he who greets with a stick, will be answered with a club.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Welcome to this beautiful land, [CT_NAME]. I hope that you bring peace with you, for he who greets with a stick, will be answered with a club.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MATTHIAS_2</Tag>
+    <English>Welcome to [OUR_CIV_SHORT], [CT_NAME]. I am [OUR_NAME]! I hope to many years of peace and cooperation between the [OUR_CIV_ADJ] and [CT_CIV_ADJ] empires!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Welcome to [OUR_CIV_SHORT], [CT_NAME]. I am [OUR_NAME]! I hope to many years of peace and cooperation between the [OUR_CIV_ADJ] and [CT_CIV_ADJ] empires!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MATTHIAS_3</Tag>
+    <English>Welcome traveller. I am [OUR_NAME]. Do you have any books to contribute to my library?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Welcome traveller. I am [OUR_NAME]. Do you have any books to contribute to my library?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_MATTHIAS_1</Tag>
+    <English>I won't change a single word with you, [CT_NAME]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I won't change a single word with you, [CT_NAME]!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_MATTHIAS_2</Tag>
+    <English>We have absolutely nothing to discuss, so go away before I lock you in some cell!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>We have absolutely nothing to discuss, so go away before I lock you in some cell!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_MATTHIAS_1</Tag>
+    <English>No peace in this time between us!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>No peace in this time between us!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_MATTHIAS_2</Tag>
+    <English>No way! We shall fight to the end!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>No way! We shall fight to the end!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MATTHIAS_1</Tag>
+    <English>Oh, szervusz, [CT_NAME]! Come, lets sit in the library and discuss the arts!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Oh, szervusz, [CT_NAME]! Come, lets sit in the library and discuss the arts!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MATTHIAS_2</Tag>
+    <English>God with you, my friend [CT_NAME]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>God with you, my friend [CT_NAME]!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MATTHIAS_1</Tag>
+    <English>You dare to bother me, [CT_NAME]?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>You dare to bother me, [CT_NAME]?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MATTHIAS_2</Tag>
+    <English>What, you again?!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>What, you again?!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MATTHIAS_1</Tag>
+    <English>I could use some good cheer, my friend [CT_NAME]. Such a gift would surely lift my spirits!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I could use some good cheer, my friend [CT_NAME]. Such a gift would surely lift my spirits!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MATTHIAS_2</Tag>
+    <English>I would really appreciate if you donated to [OUR_CIV_SHORT]. Any chance for that at all?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I would really appreciate if you donated to [OUR_CIV_SHORT]. Any chance for that at all?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MATTHIAS_1</Tag>
+    <English>Friendship between peoples is built on the share of resources; don't you think so, [CT_NAME]?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Friendship between peoples is built on the share of resources; don't you think so, [CT_NAME]?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MATTHIAS_2</Tag>
+    <English>You should try to keep me in humour, [CT_NAME].</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>You should try to keep me in humour, [CT_NAME].</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MATTHIAS_3</Tag>
+    <English>If you are a true friend you'll give me this!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>If you are a true friend you'll give me this!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MATTHIAS_1</Tag>
+    <English>Give me this, and my armies will go spill the blood of some other heathen on the ground.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Give me this, and my armies will go spill the blood of some other heathen on the ground.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MATTHIAS_2</Tag>
+    <English>If you won't give me this I'll use my army to get it, so what do you prefer?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>If you won't give me this I'll use my army to get it, so what do you prefer?</Chinese>
+  </TEXT>
+  <!-- Hungarian 3rd leader - M醫y醩 -->
+  <!-- German 1st leader - Barbarossa -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_BARBAROSSA_1</Tag>
+    <English>Hello, I am [OUR_NAME], [OUR_CIV_ADJ] Emperor! You, [CT_NAME], are pleased to be in my presence!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hello, I am [OUR_NAME], [OUR_CIV_ADJ] Emperor! You, [CT_NAME], are pleased to be in my presence!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_BARBAROSSA_2</Tag>
+    <English>By my beard, your lands look easily conquered!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>By my beard, your lands look easily conquered!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_BARBAROSSA_1</Tag>
+    <English>We speak only when I say so!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>We speak only when I say so!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_BARBAROSSA_1</Tag>
+    <English>Your army cannot stop mine! You know I will win eventually! I'll make it into your capital even if it'll be inside a barrel!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Your army cannot stop mine! You know I will win eventually! I'll make it into your capital even if it'll be inside a barrel!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_BARBAROSSA_1</Tag>
+    <English>[CT_NAME], come in! It is nice to have other great rulers in the world to talk to!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[CT_NAME], come in! It is nice to have other great rulers in the world to talk to!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_BARBAROSSA_1</Tag>
+    <English>Make it quick, I have no time to waste on the likes of you!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Make it quick, I have no time to waste on the likes of you!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_BARBAROSSA_1</Tag>
+    <English>I really need your aid, [CT_NAME]. You know you can trust me!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I really need your aid, [CT_NAME]. You know you can trust me!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_BARBAROSSA_1</Tag>
+    <English>Lets put it like this: if you won't give us this don't count on me joining your crusades!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Lets put it like this: if you won't give us this don't count on me joining your crusades!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_BARBAROSSA_1</Tag>
+    <English>The [OUR_EMPIRE] demands the following! I suggest you give it to us unless you like eating donkey droppings!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>The [OUR_EMPIRE] demands the following! I suggest you give it to us unless you like eating donkey droppings!</Chinese>
+  </TEXT>
+  <!-- German 1st leader - Barbarossa -->
+  <!-- Arabia 1st leader - Abu Bakr -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ABU_BAKR_1</Tag>
+    <English>Peace be onto you, [CT_NAME]. I am the righteous [OUR_NAME] of the [OUR_EMPIRE]. May there be peace betwen us for as long as we worship the same deity!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Peace be onto you, [CT_NAME]. I am the righteous [OUR_NAME] of the [OUR_EMPIRE]. May there be peace betwen us for as long as we worship the same deity!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ABU_BAKR_2</Tag>
+    <English>What you will need to understand, [CT_NAME], is that anyone who fights on behalf of Allah, when he dies, the first drop of blood that comes out, all of his sins will be forgiven.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>What you will need to understand, [CT_NAME], is that anyone who fights on behalf of Allah, when he dies, the first drop of blood that comes out, all of his sins will be forgiven.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ABU_BAKR_3</Tag>
+    <English>Assalamu alaikum. Allah will help him who moves in the way of Allah.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Assalamu alaikum. Allah will help him who moves in the way of Allah.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_ABU_BAKR_1</Tag>
+    <English>Silence! Or must I have your tongue cut out?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Silence! Or must I have your tongue cut out?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_ABU_BAKR_2</Tag>
+    <English>Silence! I kill you!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Silence! I kill you!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_ABU_BAKR_1</Tag>
+    <English>There will be no peace until you convert from your wicked ways.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>There will be no peace until you convert from your wicked ways.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ABU_BAKR_1</Tag>
+    <English>You are my favorite infidel in the whole wide world, [CT_NAME]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>You are my favorite infidel in the whole wide world, [CT_NAME]!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ABU_BAKR_1</Tag>
+    <English>What is it now, you swine-eating drunkard?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>What is it now, you swine-eating drunkard?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ABU_BAKR_1</Tag>
+    <English>Allah is watching you, [CT_NAME]. He would approve if you did this good deed.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Allah is watching you, [CT_NAME]. He would approve if you did this good deed.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ABU_BAKR_2</Tag>
+    <English>Allah is watching you, [CT_NAME]. He would really like if you did this good deed, you know.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Allah is watching you, [CT_NAME]. He would really like if you did this good deed, you know.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ABU_BAKR_1</Tag>
+    <English>If you give this to me, [CT_NAME], there might be 72 virgins waiting to greet you in the afterlife!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>If you give this to me, [CT_NAME], there might be 72 virgins waiting to greet you in the afterlife!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ABU_BAKR_1</Tag>
+    <English>Mighty [OUR_CIV_SHORT] will crush your kingdom of evil if you don't obey her commands!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mighty [OUR_CIV_SHORT] will crush your kingdom of evil if you don't obey her commands!</Chinese>
+  </TEXT>
+  <!-- Arabia 1st leader - Abu Bakr -->
+   <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AFONSO_1</Tag>
+    <English>Welcome to the [OUR_EMPIRE], [CT_NAME]. I am the king, [OUR_NAME]. Would you like to become a friend of our kingdom? If you don't want to, then... it's been nice knowing you.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Welcome to the [OUR_EMPIRE], [CT_NAME]. I am the king, [OUR_NAME]. Would you like to become a friend of our kingdom? If you don't want to, then... it's been nice knowing you.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AFONSO_2</Tag>
+    <English>Welcome to the independent [OUR_CIV_ADJ] lands! I am the king, [OUR_NAME]. Will [CT_CIV_SHORT] recognize [OUR_CIV_SHORT]'s independence or do I need to convince you with my armies?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Welcome to the independent [OUR_CIV_ADJ] lands! I am the king, [OUR_NAME]. Will [CT_CIV_SHORT] recognize [OUR_CIV_SHORT]'s independence or do I need to convince you with my armies?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AFONSO_3</Tag>
+    <English>Welcome, [CT_NAME] of the [CT_EMPIRE]. Excuse my distance but birds of prey do not flock together.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Welcome, [CT_NAME] of the [CT_EMPIRE]. Excuse my distance but birds of prey do not flock together.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AFONSO_4</Tag>
+    <English>[OUR_CIV_SHORT] shall be free, for God is on my side. Whose side are you on?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[OUR_CIV_SHORT] shall be free, for God is on my side. Whose side are you on?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_AFONSO_1</Tag>
+    <English>I thought we banished all your people from [OUR_CIV_SHORT]. What are you doing here?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I thought we banished all your people from [OUR_CIV_SHORT]. What are you doing here?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_AFONSO_2</Tag>
+    <English>You are an enemy of [OUR_CIV_SHORT] and I will not talk to you!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>You are an enemy of [OUR_CIV_SHORT] and I will not talk to you!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_AFONSO_1</Tag>
+    <English>There will be no peace between us until you recognize [OUR_CIV_SHORT]'s sovereignity over her territory!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>There will be no peace between us until you recognize [OUR_CIV_SHORT]'s sovereignity over her territory!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_AFONSO_2</Tag>
+    <English>Take that peace treaty of yours and shove it!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Take that peace treaty of yours and shove it!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_AFONSO_1</Tag>
+    <English>Hey, if it isn't [CT_NAME], my greatest friend in the world! You want to hold my sword? Careful, it's heavy!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hey, if it isn't [CT_NAME], my greatest friend in the world! You want to hold my sword? Careful, it's heavy!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_AFONSO_2</Tag>
+    <English>Here comes my best friend, [CT_NAME]! What brings you today to [OUR_CIV_SHORT]?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Here comes my best friend, [CT_NAME]! What brings you today to [OUR_CIV_SHORT]?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_AFONSO_1</Tag>
+    <English>You know, I almost feel sorry for [CT_CIV_SHORT], having of all people you as their leader. What is it you want to talk about?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>You know, I almost feel sorry for [CT_CIV_SHORT], having of all people you as their leader. What is it you want to talk about?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_AFONSO_1</Tag>
+    <English>Would you like to take part in this deal with [OUR_EMPIRE]? It's not like you have much choice anyway.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Would you like to take part in this deal with [OUR_EMPIRE]? It's not like you have much choice anyway.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_AFONSO_2</Tag>
+    <English>Any chance you share your wealth with [OUR_CIV_SHORT]?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Any chance you share your wealth with [OUR_CIV_SHORT]?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_AFONSO_1</Tag>
+    <English>We demand your assistance, [CT_NAME]! [OUR_CIV_SHORT]'s future depends on you!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>We demand your assistance, [CT_NAME]! [OUR_CIV_SHORT]'s future depends on you!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_AFONSO_2</Tag>
+    <English>If you don't give me this, you're asking me to engage you in personal combat. Believe me, that is not a good idea.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>If you don't give me this, you're asking me to engage you in personal combat. Believe me, that is not a good idea.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_AFONSO_1</Tag>
+    <English>Hand this over, or I'll have to call ten men over here to bring me my sword!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hand this over, or I'll have to call ten men over here to bring me my sword!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_AFONSO_2</Tag>
+    <English>Recognizing me as king of the [OUR_EMPIRE] is not enough! I demand the following in tribute!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Recognizing me as king of the [OUR_EMPIRE] is not enough! I demand the following in tribute!</Chinese>
+  </TEXT>
+   <!-- Norse 1st leader - Harald Hardrada -->
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HARALD_HARDRADA_1</Tag>
+    <English>Hail and well met, [CT_NAME]! I am [OUR_NAME], ruler of the glorious [OUR_CIV_SHORT]. So tell me: does [CT_CIV_SHORT] have a lot of rich and unprotected coastal cities, or what?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hail and well met, [CT_NAME]! I am [OUR_NAME], ruler of the glorious [OUR_CIV_SHORT]. So tell me: does [CT_CIV_SHORT] have a lot of rich and unprotected coastal cities, or what?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HARALD_HARDRADA_2</Tag>
+    <English>Greetings from the [OUR_CIV_ADJ:1] of the ancient north! Shall we live in peace or do you wish to challenge us?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Greetings from the [OUR_CIV_ADJ:1] of the ancient north! Shall we live in peace or do you wish to challenge us?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HARALD_HARDRADA_3</Tag>
+    <English>Hail, [CT_NAME]! Do you follow the real warrior's way?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hail, [CT_NAME]! Do you follow the real warrior's way?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_HARALD_HARDRADA_1</Tag>
+    <English>I don't wish to talk to you. To me you are just like those bandits I have slaughtered!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I don't wish to talk to you. To me you are just like those bandits I have slaughtered!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_NO_PEACE_LEADER_HARALD_HARDRADA_1</Tag>
+    <English>There will be no peace between us! I've been planning on occupying your land a long time ago, and now I finally have the chance to do it! Don't spoil it for me!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>There will be no peace between us! I've been planning on occupying your land a long time ago, and now I finally have the chance to do it! Don't spoil it for me!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_HARALD_HARDRADA_1</Tag>
+    <English>Hello, [CT_NAME]! Who's bothering you this time? I'll make them pay!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hello, [CT_NAME]! Who's bothering you this time? I'll make them pay!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_HARALD_HARDRADA_1</Tag>
+    <English>Your crown is tempting, [CT_NAME], don't tempt me to take it by force.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Your crown is tempting, [CT_NAME], don't tempt me to take it by force.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_HARALD_HARDRADA_2</Tag>
+    <English>Speak, heathen fool!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Speak, heathen fool!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_HARALD_HARDRADA_1</Tag>
+    <English>I hate to disturb you, but I really need this!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>I hate to disturb you, but I really need this!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_HARALD_HARDRADA_1</Tag>
+    <English>The [OUR_CIV_ADJ:1] are strong and don't need anything from you... except for maybe this...</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>The [OUR_CIV_ADJ:1] are strong and don't need anything from you... except for maybe this...</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_HARALD_HARDRADA_1</Tag>
+    <English>Give me this or we will go berserk on your country, [CT_NAME]!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Give me this or we will go berserk on your country, [CT_NAME]!</Chinese>
+  </TEXT>
+  <!-- Norse 1st leader - Harald Hardrada -->
+  <!-- New DiploText by AbsintheRed -->
+</Civ4GameText>

@@ -1,0 +1,1107 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE General Texts -->
+<!-- Please place any new text entries into this file -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_HANDICAP_VICEROY</Tag>
+    <English>Viceroy</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>总督</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HANDICAP_MONARCH</Tag>
+    <English>Monarch</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>国王</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HANDICAP_EMPEROR</Tag>
+    <English>Emperor</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>皇帝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HANDICAP_VICEROY_HELP</Tag>
+    <English>Viceroy is a relatively easy difficulty level - good for when you want to try a new strategy. Barbarians are not too strong and your people are more forgiving, resulting in higher stability. You might find the UHVs too easy after a few games with RFCE.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>总督是一个相对容易的难度水平-当你想尝试一个新的战略很好。野蛮人并不太强大，你们的人民也更宽容，从而带来更高的稳定。在和RFCE玩了几场游戏之后，你可能会发现UHVs太简单了。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HANDICAP_MONARCH_HELP</Tag>
+    <English>The challenges definitely start to ramp up on Monarch. Barbarians are a threat now, upkeep is higher, your people are harder to please so you may run into frequent stability issues, and your computer opponents are just plain smarter. This is the most balanced level for RFCE, the UHVs should be fairly challenging.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>毫无疑问，挑战开始向君主发起。野蛮人现在是一个威胁，维护更高，你的人民更难取悦，所以你可能会遇到频繁的稳定问题，你的电脑对手只是简单的聪明。这是RFCE最平衡的水平，超高压应该相当具有挑战性。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HANDICAP_EMPEROR_HELP</Tag>
+    <English>Are you ready to be an Emperor? If so, you will need to prove yourself by overcoming a lot of difficulties. Raging barbarians, strong opponents and difficult finances, while it is much harder to keep your people statisifed, thus your state stable. Can you achieve all UHVs in time? This is a true test for Civ experts.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>你准备好当皇帝了吗？如果是这样，你需要通过克服许多困难来证明自己。狂暴的野蛮人，强大的对手和困难的财政，而这是很难让你的人民站稳脚跟，因此你的国家稳定。你能及时实现所有的超高压吗？这对Civ专家来说是一个真正的考验。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LANGUAGE_5</Tag>
+    <English>Chinese</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>中文</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_DEFEAT</Tag>
+    <English>TXT_KEY_MISC_DEFEAT</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese> </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_DEFEAT2</Tag>
+    <English>You have been defeated!!!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>你失败了!!!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LOADING_TIME</Tag>
+    <English>(Estimated loading time:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>(预计加载时间:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MINUTES</Tag>
+    <English>minutes)</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>分钟)</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_AUTOPLAY_TURNS_REMAINING</Tag>
+    <English>AUTO-PLAY TURNS REMAINING:  %d1_Num</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>自动进行游戏剩余回合数: %d1_Num</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_SAVEGAME_TURN</Tag>
+    <English>Turn %d1_TurnNum</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>回合%d1_TurnNum</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STARTING_YEAR</Tag>
+    <English>Starting year</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>起始年份</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BC</Tag>
+    <English>BC</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>公元前</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_AD</Tag>
+    <English>AD</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>公元</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ERA_EARLY_MEDIEVAL</Tag>
+    <English>Early Middle Ages</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>早期中世纪</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ERA_HIGH_MEDIEVAL</Tag>
+    <English>High Middle Ages</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>中世纪中期</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ERA_LATE_MEDIEVAL</Tag>
+    <English>Late Middle Ages</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>中世纪后期</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ERA_RENAISSANCE</Tag>
+    <English>Renaissance</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>文艺复兴</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ERA_MEDIEVAL</Tag>
+    <English>Late Middle Ages</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>中世纪后期</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ERA_CLASSICAL</Tag>
+    <English>High Middle Ages</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>中世纪中期</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ERA_ANCIENT</Tag>
+    <English>Early Middle Ages</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>早期中世纪</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FOUNDED_BEFORE_START</Tag>
+    <English>Good Ol' Days</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>美好时光</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FOUNDED_BEFORE_ERA</Tag>
+    <English>Before our Age</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>在时代之前</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FOUNDED_BEFORE_500AD</Tag>
+    <English>Before 500 AD</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>公元500年以前</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FOUNDED_BEFORE_1200AD</Tag>
+    <English>Before 1200 AD</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>公元1200年以前</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_FOUNDED</Tag>
+    <English>Founded: %s1_DateStr</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>建立: %s1_DateStr</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_INFO_UNKNOWN_CITY</Tag>
+    <English>Unknown city</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>陌生的城市</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_INFO_WONDER_CITY_NAME</Tag>
+    <English>City: %s1_CityStr</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>城市: %s1_CityStr</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_INFO_WONDER_DATE</Tag>
+    <English>Completed: %s1_DateStr</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>已完成: %s1_DateStr</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_INFO_WONDER_CIV_NAME</Tag>
+    <English>Civ: %s1_CivStr</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>文明: %s1_CivStr</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MM_GOLD</Tag>
+    <English>[ICON_BULLET]Gold: </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[ICON_BULLET]金币: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MM_SCIENCE</Tag>
+    <English>[ICON_BULLET]Science: </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[ICON_BULLET]科研: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MM_TRADE</Tag>
+    <English>[ICON_BULLET]Trade: </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[ICON_BULLET]商业: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MM_PRODUCTION</Tag>
+    <English>[ICON_BULLET]Production: </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[ICON_BULLET]产能: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MM_CULTURE</Tag>
+    <English>[ICON_BULLET]Culture: </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[ICON_BULLET]文化: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MM_GROWTH</Tag>
+    <English>[ICON_BULLET]Growth: </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[ICON_BULLET]人口: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MM_STARTING_SITUATION</Tag>
+    <English>[ICON_BULLET]Starting situation: </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[ICON_BULLET]起始状况: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_5STARS</Tag>
+    <English>%F1_HealthOrUn%F2_HealthOrUn%F3_HealthOrUn%F4_HealthOrUn%F5_HealthOrUn</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%F1_HealthOrUn%F2_HealthOrUn%F3_HealthOrUn%F4_HealthOrUn%F5_HealthOrUn</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_4STARS</Tag>
+    <English>%F1_HealthOrUn%F2_HealthOrUn%F3_HealthOrUn%F4_HealthOrUn</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%F1_HealthOrUn%F2_HealthOrUn%F3_HealthOrUn%F4_HealthOrUn</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_3STARS</Tag>
+    <English>%F1_HealthOrUn%F2_HealthOrUn%F3_HealthOrUn</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%F1_HealthOrUn%F2_HealthOrUn%F3_HealthOrUn</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_2STARS</Tag>
+    <English>%F1_HealthOrUn%F2_HealthOrUn</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%F1_HealthOrUn%F2_HealthOrUn</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_1STAR</Tag>
+    <English>%F1_HealthOrUn</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%F1_HealthOrUn</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_RATING</Tag>
+    <English>Rating</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>评级</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MILITARY_BONUS</Tag>
+    <English>Military Bonus</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>军事加成</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FREE_PROMOTION</Tag>
+    <English>Free Promotion: (%s1)</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>免费晋升: (%s1)</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TRADE_DEFENSIVE_PACT</Tag>
+    <English>A Mutual Protection Pact - Each Party Agrees to Automatically Declare War if the Other Party is Attacked.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>共同防御协定——双方同意在对方遭到第三方攻击时自动向其宣战。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_STABILITY_CHECKF2</Tag>
+    <English>Check the Interior Advisor (F2) for details</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>查看内政顾问界面(F2)了解详情</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_VICTORY_CHECKF8</Tag>
+    <English>Check the Victory Conditions (F8) for details</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>查看胜利条件界面(F8)了解详情</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_PLAYER_GOLDEN_AGE_BEGINS</Tag>
+    <English>The %s1_PlyrAdject Golden Age begins</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%s1_PlyrAdject的黄金时代开始了</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_PLAYER_GOLDEN_AGE_HAS_BEGUN</Tag>
+    <English>The %s1_PlyrAdject Golden Age has begun!!!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%s1_PlyrAdject的黄金时代开始了!!!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_PLAYER_GOLDEN_AGE_ENDED</Tag>
+    <English>The %s1_PlyrAdject Golden Age has ended...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%s1_PlyrAdject的黄金时代结束了...</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISSION_START_GOLDENAGE_HELP</Tag>
+    <English>This order will consume one or more Great People (of different types) and initiate a Golden Age (extra [ICON_PRODUCTION], [ICON_COMMERCE], [ICON_GREATPEOPLE]).</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>这项命令将消耗掉一个或多个（不同类型的）伟人并开启黄金时代（额外增加[ICON_PRODUCTION]、[ICON_COMMERCE]与[ICON_GREATPEOPLE]）。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNITCOMBAT_LIGHT_CAVALRY</Tag>
+    <English>Light Cavalry</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>轻骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNITCOMBAT_HEAVY_CAVALRY</Tag>
+    <English>Heavy Cavalry</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>重装骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNITCOMBAT_POLEARM</Tag>
+    <English>Polearm</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>长柄士兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNITCOMBAT_HEAVY_INFANTRY</Tag>
+    <English>Heavy Infantry</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>重装步兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROMOTION_FEINT</Tag>
+    <English>Feint</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>佯攻</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROMOTION_CARGO</Tag>
+    <English>Cargo Capacity</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>载重</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_ACCOMPLISHED_OK</Tag>
+    <English>Very well, carry on then...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>很好,请继续</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_ACCOMPLISHED_MORE</Tag>
+    <English>What's the Big Picture?</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>大局是什么？</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_UNITCOMBAT_ARCHER</Tag>
+    <English>Congratulations, you have trained your first Archery Unit ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! These units get a special first-strike ability that allows them a chance to hit their opponent before regular combat begins.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你，你已经训练了你第一个 弓箭单位 ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! 这些单位有一个特殊的第一次打击能力，使他们有机会在常规战斗开始前打击对手。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_UNITCOMBAT_LIGHT_CAVALRY</Tag>
+    <English>Congratulations, you have trained your first Light Cavalry Unit ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! These units can move very fast, allowing them to wreak havoc behind enemy lines.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你，你已经训练了你第一个轻骑兵部队 ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! 这些部队可以移动得非常快，使他们能够在敌后造成严重破坏。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_UNITCOMBAT_HEAVY_CAVALRY</Tag>
+    <English>Congratulations, you have trained your first Heavy Cavalry Unit ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! The strongest units in the medieval armies, while still considerably fast. If you have access to both iron and horse, don't hesitate to build them!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你，你已经训练了你第一个 重骑兵 ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! 中世纪军队中最强的单位，但速度仍然相当快。如果你有铁和马，不要犹豫建立他们！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_UNITCOMBAT_POLEARM</Tag>
+    <English>Congratulations, you have trained your first Polearm Unit ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! They are effective against both Light and Heavy Cavalry units - use them to break the mounted dominance on the battlefields!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你，你已经训练了你第一个 长枪兵单位([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! 它们对轻骑兵和重骑兵都有效-用它们来打破骑兵在战场上的优势！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_UNITCOMBAT_HEAVY_INFANTRY</Tag>
+    <English>Congratulations, you have trained your first Heavy Infantry Unit ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! These melee units form the backbone of your armies.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你，你已经训练了你第一个 重型步兵 ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name!这些近战单位是你们军队的骨干。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_UNITCOMBAT_SIEGE</Tag>
+    <English>Congratulations, you have trained your first Siege Unit ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! These units cause collateral damage to the tiles they attack, damaging multiple units at once.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你，你已经训练了你第一个攻城单位 ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name!这些单位对他们攻击的瓦片造成附带伤害，同时伤害多个单位。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_UNITCOMBAT_GUN</Tag>
+    <English>Congratulations, you have trained your first Gunpowder Unit ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! All units whose weaponry is based on gunpowder can ignore man-made city fortifications.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你，你已经训练了你第一个 火枪单位 ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! 所有以火药为武器的单位都可以忽略人造城市防御工事。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_UNITCOMBAT_NAVAL</Tag>
+    <English>Congratulations, you have trained your first Naval Unit ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! Protecting coastal cities is a crucial part your national defense. Naval units can also blockade enemy towns, preventing them from working adjacent water tiles.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你，你已经训练了你第一个 海军单位 ([COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]) in %s2City_Name! 保护沿海城市是国防的重要组成部分。海军部队也可以封锁敌人的城镇，阻止他们在邻近的水砖上工作。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_UNIT_PRIVATEER</Tag>
+    <English>Congratulations, you have trained your first [COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT] in %s2City_Name! The nationality of this unit is invisible to your rivals, so you may use it to attack their ships without having to declare war. You may also blockade and plunder rival trade routes without having to be at war.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你，你已经训练了你第一个 [COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT] in %s2City_Name! 你的对手看不到这个单位的国籍，所以你可以用它攻击他们的船只而不必宣战。你也可以封锁和掠夺竞争对手的贸易路线，而不必打仗。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_UNIT_SPY</Tag>
+    <English>Congratulations, you have trained your first [COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT] in %s2City_Name! This unit is invisible to other players, which allows you to enter into their territory to gather intelligence and to perform Espionage Missions. Be aware, however, that even though it cannot be seen, this unit still has a chance to get caught when operating in rival territory, possibly revealing its identity and causing tension in your international relations.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你，你已经训练了你第一个 [COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT] in %s2City_Name! This unit is invisible to other players, which allows you to enter into their territory to gather intelligence and to perform Espionage Missions. Be aware, however, that even though it cannot be seen, this unit still has a chance to get caught when operating in rival territory, possibly revealing its identity and causing tension in your international relations.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_NATIONAL_WONDER</Tag>
+    <English>Congratulations, you have completed your first National Wonder ([COLOR_BUILDING_TEXT]%s1Building_Name[COLOR_REVERT]) in %s2City_Name! These powerful buildings are useful for specializing your cities - it is wise to plan ahead, though, as only two National Wonders can be built in each one.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你, 你已经完成您的第一个国家级奇迹 ([COLOR_BUILDING_TEXT]%s1Building_Name[COLOR_REVERT]) in %s2City_Name! 这些强大的建筑对你们城市的专业化很有用——尽管如此，提前计划是明智的，因为每个城市只能建造两个国家奇迹。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_TRADE_ROUTE</Tag>
+    <English>Congratulations! You have connected your first city (%s1City_Name) with your Capital. Because the cities are connected, they will share resources and increase their commerce.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你! 你已经将您的第一个城市 (%s1City_Name) 和首都相连.因为城市是相互连接的，它们将共享资源，增加商业。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_COPPER_CONNECTED</Tag>
+    <English>Congratulations! You have gained access to [COLOR_HIGHLIGHT_TEXT]Copper[COLOR_REVERT], an important strategic resource! Cities with access to [COLOR_HIGHLIGHT_TEXT]Copper[COLOR_REVERT] can build strong melee units.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你! 您已经获得 [COLOR_HIGHLIGHT_TEXT]铜[COLOR_REVERT], 这是一个重要的战略资源！拥有[COLOR_HIGHLIGHT_TEXT]铜[COLOR_REVERT]的城市可以建立强大的近战单位。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_HORSE_CONNECTED</Tag>
+    <English>Congratulations! You have gained access to [COLOR_HIGHLIGHT_TEXT]Horses[COLOR_REVERT], an important strategic resource! Cities with access to [COLOR_HIGHLIGHT_TEXT]Horses[COLOR_REVERT] can build fast mounted units.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你! 您已经获得 [COLOR_HIGHLIGHT_TEXT]马匹[COLOR_REVERT], 这是一项重要资源，使用[COLOR_HIGHLIGHT_TEXT]马匹[COLOR_REVERT]的城市可以建造快速移动的骑兵部队。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_IRON_CONNECTED</Tag>
+    <English>Congratulations! You have gained access to [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT], an important strategic resource! Cities with access to [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] can build strong melee units.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你! 您已经获得 [COLOR_HIGHLIGHT_TEXT]铁器[COLOR_REVERT], 这是一个重要的战略资源！有权使用[COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT]的城市可以建立强大的近战单位。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_LUXURY_CONNECTED</Tag>
+    <English>Congratulations! You have gained access to your first luxury resource ([COLOR_HIGHLIGHT_TEXT]%s1Luxury_Name[COLOR_REVERT])! This resource will create happiness in all cities connected to your Capital, making your citizens easier to manage.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你! 您已经获得你的第一个奢侈品资源 ([COLOR_HIGHLIGHT_TEXT]%s1Luxury_Name[COLOR_REVERT])! 这一资源将在所有与你的首都相连的城市创造幸福，使你的公民更容易管理。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_FOOD_CONNECTED</Tag>
+    <English>Congratulations! You have gained access to your first food resource ([COLOR_HIGHLIGHT_TEXT]%s1Food_Name[COLOR_REVERT])! This resource will raise the health level in all cities connected to your Capital, encouraging faster growth.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你! 您已经获得你的第一个食物资源 ([COLOR_HIGHLIGHT_TEXT]%s1Food_Name[COLOR_REVERT])! 这一资源将提高所有与首都相连的城市的健康水平，鼓励更快的增长。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_CORPORATION_ENABLED</Tag>
+    <English>Congratulations! You now possess the knowledge required to found [COLOR_HIGHLIGHT_TEXT]%s1_corporation[COLOR_REVERT]. You may use a [COLOR_UNIT_TEXT]%s2_unit[COLOR_REVERT] to build the Headquarters in any city with access to [COLOR_HIGHLIGHT_TEXT]%s3_bonus_list[COLOR_REVERT].</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你! 你已经拥有知识去创建 [COLOR_HIGHLIGHT_TEXT]%s1_corporation[COLOR_REVERT]. 你可以使用 [COLOR_UNIT_TEXT]%s2_unit[COLOR_REVERT] 在任何城市建立总部去连接 [COLOR_HIGHLIGHT_TEXT]%s3_bonus_list[COLOR_REVERT].</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_100_THOUSAND</Tag>
+    <English>Congratulations, the burgeoning %s1Civ_Name now reached an urban population of One Hundred Thousand souls! Larger cities allow more citizens and specialists, increasing our productivity!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你, 新兴城市 %s1Civ_Name 的人口总数到达10万! 大城市允许更多的市民和专家，提高我们的生产力！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_200_THOUSAND</Tag>
+    <English>Congratulations, the burgeoning %s1Civ_Name now reached an urban population of Two Hundred Thousand souls! Larger cities allow more citizens and specialists, increasing our productivity!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你, 新兴城市 %s1Civ_Name 的人口总数到达20万! 大城市允许更多的市民和专家，提高我们的生产力！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_500_THOUSAND</Tag>
+    <English>Congratulations, the burgeoning %s1Civ_Name now reached an urban population of Five Hundred Thousand souls! Larger cities allow more citizens and specialists, increasing our productivity!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你, 新兴城市 %s1Civ_Name 的人口总数到达50万! 大城市允许更多的市民和专家，提高我们的生产力！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_1_MILLION</Tag>
+    <English>Congratulations, the burgeoning %s1Civ_Name now reached an urban population of One Million souls! Larger cities allow more citizens and specialists, increasing our productivity!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你, 新兴城市 %s1Civ_Name 的人口总数到达100万! 大城市允许更多的市民和专家，提高我们的生产力！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_2_MILLION</Tag>
+    <English>Congratulations, the burgeoning %s1Civ_Name now reached an urban population of Two Million souls! Larger cities allow more citizens and specialists, increasing our productivity!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你, 新兴城市 %s1Civ_Name 的人口总数到达200万! 大城市允许更多的市民和专家，提高我们的生产力！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_5_MILLION</Tag>
+    <English>Congratulations, the burgeoning %s1Civ_Name now reached an urban population of Five Million souls! Larger cities allow more citizens and specialists, increasing our productivity!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你, 新兴城市 %s1Civ_Name 的人口总数到达500万! 大城市允许更多的市民和专家，提高我们的生产力！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_10_MILLION</Tag>
+    <English>Congratulations, the burgeoning %s1Civ_Name now reached an urban population of Ten Million souls! Larger cities allow more citizens and specialists, increasing our productivity!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你, 新兴城市 %s1Civ_Name 的人口总数到达1000万! 大城市允许更多的市民和专家，提高我们的生产力！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_20_MILLION</Tag>
+    <English>Congratulations, the burgeoning %s1Civ_Name now reached an urban population of Twenty Million souls! Larger cities allow more citizens and specialists, increasing our productivity!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你, 新兴城市 %s1Civ_Name 的人口总数到达2000万! 大城市允许更多的市民和专家，提高我们的生产力！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_50_MILLION</Tag>
+    <English>Congratulations, the burgeoning %s1Civ_Name now reached an urban population of Fifty Million souls! Larger cities allow more citizens and specialists, increasing our productivity!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你, 新兴城市 %s1Civ_Name 的人口总数到达5000万! 大城市允许更多的市民和专家，提高我们的生产力！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FEAT_100_MILLION</Tag>
+    <English>Congratulations, the burgeoning %s1Civ_Name now reached an urban population of One Hundred Million souls! Larger cities allow more citizens and specialists, increasing our productivity!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>恭喜你, 新兴城市 %s1Civ_Name 的人口总数到达1亿人! 大城市允许更多的市民和专家，提高我们的生产力！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DEMO_SCREEN_MILITARY_TEXT</Tag>
+    <English>Military Power</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>军事能力</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DEMO_SCREEN_MILITARY_MEASURE</Tag>
+    <English> Military Power Index</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>军事能力指数</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DEMO_SCREEN_SOLDIERS_TEXT</Tag>
+    <English>Soldiers</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>军队</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DEMO_SCREEN_SOLDIERS_MEASURE</Tag>
+    <English> Current Military Units</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>目前的军队</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DEMO_SCREEN_POPULATION_TEXT</Tag>
+    <English>Urban Population</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>城市人口</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DEMO_SCREEN_POPULATION_MEASURE</Tag>
+    <English> Population in your cities</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>你们城市的人口</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DEMO_SCREEN_TOTAL_POPULATION_TEXT</Tag>
+    <English>Total Population</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>总人口</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DEMO_SCREEN_TOTAL_POPULATION_MEASURE</Tag>
+    <English> All your subjects (estimate)</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>所有科目(估计)</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DEMO_SCREEN_HAPPINESS_TEXT</Tag>
+    <English>Approval Rate</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>支持率</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DEMO_SCREEN_HAPPINESS_MEASURE</Tag>
+    <English> Based on happiness</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>幸福度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DEMO_SCREEN_HEALTH_MEASURE</Tag>
+    <English> Based on health, in years</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>健康度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PEDIA_CATEGORY_UPGRADES</Tag>
+    <English>Unit Upgrades</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>单位升级</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_WONDER_DESTROYED_1</Tag>
+    <English>You have destroyed the wonder %s1!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>你毁灭了奇迹 %s1!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_WONDER_DESTROYED_2</Tag>
+    <English>The %s1 has destroyed the wonder %s2!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese> %s1 毁灭了奇迹 %s2!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_WONDER_DESTROYED_3</Tag>
+    <English>The %s1 lost the wonder %s2, it has been destroyed!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese> %s1 失去了奇迹 %s2, 它已经被毁灭了!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_WONDER_CAPTURED_1</Tag>
+    <English>You have captured the wonder %s1!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>你控制了奇迹 %s1!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_WONDER_CAPTURED_2</Tag>
+    <English>The %s1 has captured the wonder %s2!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese> %s1 现在控制奇迹 %s2!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_WONDER_CAPTURED_3</Tag>
+    <English>The %s1 lost the wonder %s2, it has been captured!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese> %s1 失去了奇迹 %s2, 它现在被别人控制!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_HELP_BONUS_COMMERCE</Tag>
+    <English>[ICON_BULLET]%D1% %F2from Resources</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[ICON_BULLET]%D1% %F2从资源</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CLEANSE_RELIGION_MOUSE_OVER</Tag>
+    <English>Remove non-state religion</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>移除非国教</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FINANCIAL_ADVISOR_MERCENARY_MAINTENANCE</Tag>
+    <English>Mercenary Maintenance</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>佣兵维护费</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FINANCIAL_ADVISOR_COLONY_UPKEEP</Tag>
+    <English>Colony Upkeep</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>殖民地维护费</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ECON_AMOUNT_COLONY_UPKEEP</Tag>
+    <English>The Amount of Money Spent on Colony Maintenance</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>花在殖民地上的钱</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FINANCE_ADVISOR_COLONY_UPKEEP_COST</Tag>
+    <English>%s1[NEWLINE]------------------------[NEWLINE]TOTAL COLONY UPKEEP: %d2[ICON_GOLD]</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%s1[NEWLINE]------------------------[NEWLINE]全部殖民地维护费: %d2[ICON_GOLD]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FINANCE_ADVISOR_CITY_MAINT_COST</Tag>
+    <English>[NEWLINE]%d1[ICON_GOLD]: Distance Maintenance[NEWLINE]%d2[ICON_GOLD]: Number of Cities Maintenance[NEWLINE]%d3[ICON_GOLD]: Extra Expenses from Oversea Cities[NEWLINE]%d4[ICON_GOLD]: Company Payments[NEWLINE]------------------------[NEWLINE]------------------------[NEWLINE]TOTAL CITY MAINTENANCE COST: %d5[ICON_GOLD]</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[NEWLINE]%d1[ICON_GOLD]: 距离维护费[NEWLINE]%d2[ICON_GOLD]: 城市数量维护费[NEWLINE]%d3[ICON_GOLD]: 海外城市额外维护费[NEWLINE]%d4[ICON_GOLD]: 公司费用[NEWLINE]------------------------[NEWLINE]------------------------[NEWLINE]全部城市维护费: %d5[ICON_GOLD]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_IMP_DESTROYED</Tag>
+    <English>A %s1_ImpName has been destroyed by a marauding %s3_civ_adjective %s2_UnitName!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>A %s1_ImpName 被 %s3_civ_adjective %s2_UnitName 的一场劫掠摧毁了！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_ROAD_DESTROYED</Tag>
+    <English>A road system has been made impassable by a marauding %s2_civ_adjective %s1_UnitName!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>强盗使道路系统无法通行 %s2_civ_adjective %s1_UnitName!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DENIAL_TOO_FAR</Tag>
+    <English>"Your land is too far away."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>“你的土地太远了。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DENIAL_VASSAL</Tag>
+    <English>"Sorry, it's out of our hands."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>“对不起，这是我们无法控制的。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DENIAL_POWER_YOUR_ENEMIES</Tag>
+    <English>"We are afraid of your enemies!"</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>"我们害怕你的敌人!"</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DENIAL_LOW_STABILITY</Tag>
+    <English>"We are afraid our nation is not stable enough."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>“我们担心我们的国家不够稳定。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DENIAL_TOO_FAR_CITY</Tag>
+    <English>"It's too far from our territory."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>"这离我的国土太远了y."</Chinese>
+  </TEXT>
+</Civ4GameText>

@@ -1,0 +1,792 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Civilopedia Concepts -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_PEDIA_CATEGORY_CONCEPT</Tag>
+    <English>RFC Concepts</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>“文明的兴衰”特有概念</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_RFCINTRO</Tag>
+    <English>Welcome to RFC Europe</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>欢迎来到“文明的兴衰”欧洲</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_RFCINTRO_PEDIA</Tag>
+    <English>[H1]Welcome to Rhye's and Fall of Civilization: Europe[\H1][PARAGRAPH:2]RFC Europe is a mod that derives from Rhye's and Fall of Civilization. It is Eurocentric in nature, spans the Middle Ages and Renaissance periods of Europe from 500AD to 1800AD.
+[PARAGRAPH:1]If you can't find an answer in the Civilopedia for some of your questions, visit our development forum on CivFanatics: http://forums.civfanatics.com/forumdisplay.php?f=386.
+[PARAGRAPH:1]We are also open to feedback and suggestions on how to improve RFCE, everything in this mod is currently under development and open to debate.
+		</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[H1]欢迎来到Rhye's and Fall of Civilization:Europe[\H1][第2段]RFC Europe是一个源自Rhye's and Fall of Civilization的模式。它以欧洲为中心，横跨欧洲中世纪和文艺复兴时期，从公元500年到1800年。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_HISTORICALSTARTS</Tag>
+    <English>Historical Starts</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>史实开局</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_HISTORICALSTARTS_PEDIA</Tag>
+    <English>[H1]Historical Starts[\H1][PARAGRAPH:2]This is why your game won't start immediately for most Civs. Rhye's mod, above all else, was designed to mirror history. As such, most civs spawn many years into the game, as late as 1581 for the Dutch. If you want to play as a late spawning civ now, you can use the 1200AD scenario. Don't worry about being behind; you will start with many units and techs to place you on an even footing with the AIs.[PARAGRAPH:2]In addition to all those units and techs, you may even have some cities flip for you. Although, be aware when playing imperialistic civilizations such as Byzantium, Germany and France. New civs will carve their empires out of your land! If you refuse to let go of the cities, units in the area will join the resistance for several turns. If you decide to resist the wave of nationalism, make sure your army is large enough to handle defectors!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[H1]历史开始[\H1][段落：2]这就是为什么你的游戏不会立即开始对大多数文明。Rhye的mod，最重要的是，它的设计反映了历史。因此，大多数公民产生了多年的游戏，直到1581年为荷兰人。如果你想玩作为一个后期产卵civ现在，你可以使用1200广告场景。不要担心落后，你将从许多单位和技术人员开始，使你与AIs处于一个平衡的基础上。[第2段]除了所有这些单位和技术人员，你甚至可能有一些城市为你翻转。不过，在玩拜占庭、德国、法国等帝国主义文明游戏时要注意。新公民将在你的土地上建立他们的帝国！如果你不放开城市，该地区的单位将加入抵抗运动，进行几轮。如果你决定抵制民族主义浪潮，确保你的军队足够大，可以对付叛逃者！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_STABILITY</Tag>
+    <English>Stability</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>稳定度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_STABILITY_PEDIA</Tag>
+    <English>[H1]Stability[\H1][PARAGRAPH:2]Perhaps the crowning jewel of the RFC Mod, Stability has caused many dynamic falls of Empires. The general idea behind Stability is that your empire can expand only so far in the world before cries for independence lead to whole nations rising again from the dust, or a collapse into Civil War. As frustrating as it is exciting, this section will help you better understand Stability and prevent you from collapsing "for no apparent reason".[PARAGRAPH:2]On the Interior Advisor (F2) screen, there are 5 new boxes added. These star ratings represent how well you are doing in several areas of stability. 3 is average, and all civs start with 3 stars in every box. An average of 3 stars produces a "stable" rating. This means you're not falling apart, but may from some unstable decisions. Unstable means that new civs may rise and declare their independence from you. Collapsing means that you can no longer stave off the masses. A few turns of Collapsing will send your empire into civil war, leaving you with only your capital under control. Solid and Very Solid are good times to be expanding your empire. You can keep an eye on your and other civ's stability ratings with the new icons on the mini-score screen. The red ball on top of a hill stands for Unstable or Collapsing, on flat ground represents Stable or Shaky and inside a dip means Solid or Very Solid.[PARAGRAPH:2]The five groupings for the star rating are a rough reflection of how you are performing in various aspects. Cities reflects how well developed your cities are. Civics reflects how many turns of anarchy you've had (bad) and how much synergy is present in your civics. Economy is based mostly off of your GNP, which factors in your commerce, production, food and a couple other values. Expansion reflects how far out of your "natural" home (check a historical atlas) you've gone and how well you've used your chosen Expansion civic. Foreign represents general foreign sentiment and your solid diplomatic relationships.[PARAGRAPH:2]In fact, nearly everything affects your stability. Common sense will help you determine what increases your stability and what leads to civil war.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[H1]稳定性[\H1][段落：2]也许是RFC模型的王冠宝石，稳定性已经导致了帝国的许多动态衰落。稳定背后的基本理念是，在要求独立的呼声导致整个国家再次从尘土中崛起或陷入内战之前，你们的帝国只能在世界上扩张这么远。令人沮丧和兴奋的是，这一部分将帮助您更好地理解稳定性，并防止您崩溃“没有明显的原因”。[第2段]在内部顾问（F2）屏幕上，有5个新的框添加。这些星级代表了你在几个稳定领域的表现。3是平均值，所有的公民都从每个盒子里的3颗星开始。平均3颗星产生一个“稳定”的评级。这意味着你不会崩溃，但可能是因为一些不稳定的决定。不稳定意味着新公民可能会站起来，宣布独立于你。坍塌意味着你不能再避开群众。几次崩溃会让你的帝国陷入内战，只剩下你的资本在掌控之中。稳固和非常稳固是扩张你的帝国的好时机。你可以随时关注你和其他公民的稳定性评级与新图标上的迷你分数屏幕。山顶上的红色球代表不稳定或塌陷，平地上的红色球代表稳定或不稳定，下倾的红色球代表坚实或非常坚实。[第2段]星级评定的五组球大致反映了你在各个方面的表现。城市反映了你的城市有多发达。公民反映了你经历了多少次无政府状态的转变（糟糕的），以及你的公民之间有多少协同作用。经济的基础主要是你的国民生产总值，其中的因素在你的商业，生产，食品和其他一些价值观。扩展反映出你的“自然”家（查看历史地图集）有多远，你有多好，你已经使用你选择的扩展公民。外国代表着一般的外国情绪和你稳固的外交关系。[第2段]事实上，几乎所有的事情都会影响你的稳定。常识将帮助你决定什么能增强你的稳定性，什么会导致内战。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_UP_UHV</Tag>
+    <English>Unique Powers and Historical Victories</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>特色专长与历史胜利条件</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_UP_UHV_PEDIA</Tag>
+    <English>[H1]Unique Powers and Historical Victories[\H1][PARAGRAPH:2]There are no leader traits in Rhye's and Fall of Civilization. They were removed and replaced with a system of Unique Powers: each civilization has one unique ability according to its historical role. Given the different start years, each civilization have its own modifiers (which rendered leader traits useless). Their effect are summarized in the civ selection screen, at the beginning of the game, with general parameters rated 1 to 5 stars.[PARAGRAPH:2]Each Civilization can achieve a "Historical Victory" fulfilling 3 goals that differ from civ to civ and match their own historical background or just what they were trying to achieve. This way even a civilization with a weaker starting situation such as the Dutch has a chance of success. When 2 goals out of 3 are achieved, a "Triumphal Arch" is automatically built in player's capital, triggering a Golden Age.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[H1]独特的力量和历史的胜利[\H1][第2段]在Rhye和文明的衰落中没有领袖的特征。它们被移除，取而代之的是一个独特的权力体系：每个文明根据其历史角色都有一种独特的能力。在不同的起始年份，每个文明都有自己的修饰语（这使得领导者的特质毫无用处）。它们的效果在游戏开始时的civ选择屏幕中进行了总结，一般参数为1到5颗星。[第2段]每个文明都可以实现“历史性胜利”，实现不同civ的3个目标，并与它们自己的历史背景或它们试图实现的目标相匹配。这样，即使是像荷兰人这样一个起步条件较弱的文明也有成功的机会。当3个进球中有2个进球时，一个“凯旋门”会自动建立在玩家的首都，触发一个黄金时代。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_CONTINENTS</Tag>
+    <English>Continents, Countries and Unique Historical Victories</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>大洲、国家与特色历史胜利</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_CONTINENTS_PEDIA</Tag>
+    <English>[H1]Continents, Countries and Unique Historical Victories[\H1][PARAGRAPH:2]Everything on the map is considered to be one continent. All the wonder effects cover the entire world.[PARAGRAPH:2]Just like RFC, in RFC:Europe all the cities automatically have geographically and historically accurate names associated with them. UHV conditions also work accordingly.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[H1]大陆、国家和独特的历史胜利[\H1][第2段]地图上的一切都被认为是一个大陆。所有的奇迹效应都覆盖了整个世界。[第2段]就像RFC一样，在RFC中：欧洲所有的城市都自动地有地理上和历史上准确的名字。特高压条件也相应地起作用。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_GOLDEN_AGE</Tag>
+    <English>Golden Age in RFCE</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>RFCE的黄金时代</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_GOLDEN_AGE_PEDIA</Tag>
+    <English>[H1]Golden Ages[\H1][PARAGRAPH:2]During certain periods of time, some civilizations seem to burst with energy and creativity. The civilization's people become increasingly productive; technological advances come easy to the civilization; and its culture is the envy of the world. Italy during the Renaissance is one such example, and Great Britain in the 19th century another. In Civilization IV, such periods are called "golden ages".[PARAGRAPH:2][H2]Entering a Golden Age[\H2][PARAGRAPH:1][BOLD]Wonders:[\BOLD] A civilization can enter a golden age by constructing the [LINK=BUILDING_VERSAILLES]Versailles[\LINK] wonder.[PARAGRAPH:2][BOLD]Great People:[\BOLD] A civilization can combine one or more [LINK=CONCEPT_GREAT_PEOPLE]Great People[\LINK] of different types to start a golden age. The cost of this method escalates: the first golden age costs two great person, the second costs three, the third one cost four, and so on.[PARAGRAPH:2][H2]Effects of Golden Ages[\H2][PARAGRAPH:1]During a golden age, your civilization greatly increases its output of production and commerce, meaning faster build times and research rates. (In game terms, every space within your cities' radii that provides commerce produces an extra commerce, and every space that provides production now produces an additional one.)[PARAGRAPH:2][H2]Duration of Golden Ages[\H2][PARAGRAPH:1]Golden ages last eight turns on Normal Speed. If you achieve another golden age while in the midst of one already, the eight additional turns are tacked onto the end of the present golden age. You may increase the length of your Golden Ages by controlling the [LINK=BUILDING_DOME_ROCK]Dome of the Rock[\LINK].[PARAGRAPH:2][H2]The End of the Age[\H2][PARAGRAPH:1]Once the golden age ends, your civilization's commerce and production return to normal levels.[PARAGRAPH:2]</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[H1]黄金时代[\H1][第2段]在某些时期，一些文明似乎迸发出活力和创造力。文明的人越来越多产，科技的进步越来越容易，文明的文化更是让世界羡慕。文艺复兴时期的意大利就是这样一个例子，而19世纪的英国则是另一个例子。在文明四世，这类时期被称为“黄金时代”。[第2段][H2]进入黄金时代[\H2]进入黄金时代[第1段][粗体]奇观：[\BOLD]一个文明可以通过建造[链接=建造凡尔赛宫]凡尔赛宫[链接]奇观进入黄金时代[第2段][粗体]伟人：[\BOLD]一个文明可以结合一个或多个[链接=概念]伟人不同类型的人开始了一个黄金时代。这种方法的成本上升：第一个黄金时代花费两个伟人，第二个花费三个，第三个花费四个，等等。[第2段][H2]黄金时代的影响[\H2][第1段]在黄金时代，你们的文明大大增加了它的生产和商业产出，这意味着更快的建造时间和研究速度。（在游戏中，城市半径内提供商业的每个空间都会产生额外的商业，而提供生产的每个空间现在都会产生额外的商业。）[第2段][第2段]黄金时代的持续时间[\H2段][第1段]黄金时代的最后8个时间将开启正常速度。如果你达到了另一个黄金时代，而在其中一个已经，八个额外的转折点是在目前的黄金时代结束。你可以通过控制岩石的圆顶来延长你的黄金时代的长度。[LINK=BUILDING_DOME_ROCK]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_PLAGUE</Tag>
+    <English>Plague</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>瘟疫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_PLAGUE_PEDIA</Tag>
+    <English>[H1]Plague[\H1][PARAGRAPH:2]The most controversial and bemoaned addition to this mod, Plague has made RFCE more dynamic than even Stability. There are 5 pre-determined Plague spawns. They occur roughly at 600AD, 1350AD, 1500AD, 1650AD and 1740AD. But fear not! There are many ways for you to control the spread and duration of the plague.[PARAGRAPH:2]Plague spreads through foreign contact and proximity to infected cities. You can limit this spread by canceling open borders and running "no foreign trade routes" civic. The major determining factor in catching plague is your health surplus. Having far more health bonuses than unhealthiness will prevent the plague from spreading to your cities. Even if you don't reach the preventative threshold, high health will lessen the duration and severity of the plague. Health boosting buildings are all vital to any populous empire. Even with these precautions, once a city catches plague, there is little you can do to prevent the spread to neighboring cities.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[H1]瘟疫[\H1][第2段]瘟疫是这个模型中最有争议和最令人惋惜的一个，瘟疫使RFCE比稳定更具活力。有5个预先确定的鼠疫卵。它们大约出现在公元600年、1350年、1500年、1650年和1740年。但不要害怕！有很多方法可以控制瘟疫的传播和持续时间。[第2段]瘟疫通过外国接触和靠近受感染的城市传播。你可以通过取消开放的边界和运行“无外贸路线”公民来限制这种扩散。感染鼠疫的主要决定因素是你的健康过剩。拥有比不健康多得多的健康奖金将防止瘟疫蔓延到你们的城市。即使你没有达到预防的门槛，高健康也会减少瘟疫的持续时间和严重程度。促进健康的建筑对任何人口稠密的帝国都至关重要。即使有了这些预防措施，一旦一个城市染上瘟疫，你也没什么办法阻止瘟疫蔓延到邻近的城市。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_MERCENARIES</Tag>
+    <English>Mercenaries</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>雇佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_MERCENARIES_PEDIA</Tag>
+    <English>[H1]Mercenaries[\H1][PARAGRAPH:2]Mercenaries are soldiers who fight primarily for private gain, usually with little regard for ideological, national, political, or moral considerations. However, when the term is used to refer to a soldier in a regular national army, it is usually considered an insult.[PARAGRAPH:2]Mercenaries have seen regular deployment in battle since the time of Ancient Egypt and Carthage, up through the 16th century, including the famous Swiss Guard and the Landsknechts. In the game, Mercenaries can be hired only until the discovery of Nationalism, which changed the conception of armies and caused a rapid decline in Mercenary usage.[PARAGRAPH:2]The Mercenary screen can be accessed by clicking the small axe icon in the upper left of the screen. Here you can hire foreign units for your wars. Mercenaries are tied to provinces, and they appear in a random city of the given province, on the same turn you hire them.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[H1]雇佣兵[\H1][第2段]雇佣兵是主要为私利而战的士兵，通常不考虑意识形态、国家、政治或道德因素。然而，当这个词被用来指正规国民军中的士兵时，它通常被认为是一种侮辱。[第2段]从古埃及和迦太基时代起，直到16世纪，雇佣兵一直在战斗中经常被部署，包括著名的瑞士卫队和兰兹克内赫特人。在游戏中，雇佣兵只能被雇佣直到民族主义的发现，民族主义改变了军队的概念，导致雇佣兵的使用率迅速下降。[第2段]点击屏幕左上角的小斧头图标可以进入雇佣兵屏幕。在这里你可以为你的战争雇佣外国部队。雇佣兵与省份有联系，他们出现在某个省份的一个随机城市里，你雇佣他们的时候也是这样。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_ODDS</Tag>
+    <English>Odds and Ends</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>杂项</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_ODDS_PEDIA</Tag>
+    <English>[H1]Odds and Ends[\H1][PARAGRAPH:1]
+- There are many new terrain types, check the terrain section.
+- Many new resources, check the resource section.
+- Shrines are capped at +20
+- Corporations will consume a maximum of 12 resources.
+- Tech costs increase as you grow
+- There is only one speed due to scripted events</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[H1]零碎物品[\H1][第1段]-有许多新的地形类型，请检查地形部分。
+
+-许多新资源，请检查资源部分。
+
+-神龛的上限为+20
+
+-公司最多将消耗12种资源。
+
+-技术成本随着增长而增加
+
+-由于脚本事件，只有一种速度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_COLONIES</Tag>
+    <English>Colonies and Access Resources</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <!-- Modificado -->
+     <Chinese>殖民地和贸易资源</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_COLONIES_PEDIA</Tag>
+    <English>[H1]Colonies and Access Resources[\H1][PARAGRAPH:2]Colonies played a major role in the economical development of Europe. In RFC:Europe colonies are represented by colonial projects.[PARAGRAPH:2]There are two Trading Companies that are national projects (i.e. everyone can have one of those) and a number of colonies that are world projects (i.e. only one player can build them). Some colonial projects require one Trading Company or another in order to be build. Every colony requires a specific tech and all the colonies require the abstract resource "Atlantic Access".[PARAGRAPH:2]We have added the Atlantic Access to ensure that colonies are mainly build by the historical colonial powers (note that this is different from physical access to the Atlantic Ocean). The number of AA resources is kept to a minimum to represent interesting gameplay. Traditional colonial powers, such as Portugal, Spain, England, France and the Netherlands, receive AA by default. Mediterranean nations can obtain AA from by establishing control over the Gibraltar straight and others can do that by war or trade with the colonial powers.[PARAGRAPH:2]Colonies are furthermore divided into several regions (South America, North America, Asia and Africa). Excluding the colonies in Africa, establishing a colony in a given region will grant the player an additional access resource that will make further colonies in that region easier to create (i.e. having Virginia would make it easier to colonize New England).[PARAGRAPH:2]Every colony provides a number of resources for the nation that builds it. Many of those resources cannot be obtained by any other way (i.e. they are not present on the map). Colonies add to the overall score of the player. A number of UHV conditions require building a number of colonies, note that Trading Companies do not count as colonies.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[H1]殖民地和获取资源[\H1][第2段]殖民地在欧洲经济发展中发挥了重要作用。在RFC中：欧洲殖民地由殖民地项目代表。[第2段]有两个贸易公司是国家项目（即每个人都可以拥有其中一个）和一些殖民地是世界项目（即只有一个玩家可以建造它们）。一些殖民地项目需要一个或另一个贸易公司才能建造。每一个殖民地都需要特定的技术，所有殖民地都需要抽象的资源“大西洋通道”。[第2段]我们增加了大西洋通道，以确保殖民地主要由历史殖民大国建造（注意，这不同于实际进入大西洋）。a a资源的数量保持在最小，以表示有趣的游戏。葡萄牙、西班牙、英国、法国和荷兰等传统殖民国家默认获得AA。地中海国家可以通过直接控制直布罗陀而获得AA，其他国家可以通过战争或与殖民地国家的贸易来获得AA。[第2段]殖民地还被分为几个区域（南美国、北美国、亚洲和非洲）。不包括非洲的殖民地，在一个给定的地区建立殖民地将给予玩家额外的访问资源，使该地区的进一步殖民地更容易创建（即拥有弗吉尼亚州将使新英格兰更容易殖民）。[第2段]每个殖民地都为建立殖民地的国家提供了大量资源。其中许多资源无法通过任何其他方式获得（即它们不在地图上）。殖民地增加了玩家的总分。一些特高压条件要求建立若干殖民地，注意贸易公司不算殖民地。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_RELIGION_OVERHAUL</Tag>
+    <English>Religion Overhaul</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>宗教的革新</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_RELIGION_OVERHAUL_PEDIA</Tag>
+    <English>[H1]Religion Overhaul[\H1][PARAGRAPH:2]What sets RFC:Europe apart from RFC is the complete overhaul of the religion dynamics. We have four major religions (Catholicism, Orthodoxy, Protestantism and Islam) as well as Judaism as a minor religion. All religions are asymmetric, with each one providing unique befits. In order to simulate the complicated dynamics that existed between the religions, we have implemented The Great Schism, Reformation, Crusades, The Pope as a special player, Faith Points and Religious Prosecutions.[NEWLINE]
+[H2]On the Five Religions[\H2][PARAGRAPH:1]Catholicism, Judaism and Orthodoxy are founded at the start of the game, with Holy Cities at Rome, Jerusalem and Constantinople. Islam is founded on the turn that Arabia spawns, with Holy City at Damascus. Mecca is geographically not included and hence Damascus was chosen as the Arabic center of religious power (as well as the Arabic capital). Protestantism is founded by the first player to research the Printing Press, the Protestant Holy City is chosen at random, much like Holy Cities in regular BtS. Whenever a religion is founded, the Holy Shrine is automatically build in the corresponding Holy City.[NEWLINE]
+[H2]Judaism[\H2][PARAGRAPH:1]Unlike the other four religions, Jews never tried to spread their faith by the sword and quite often they were the victims of that sword. In RFC:Europe Jews spread throughout Europe in a semi-random manner, driven by trade and trade opportunities. Cities with Judaism can build Jewish Quarters that provide a boost of culture and gold.[NEWLINE]
+[H2]The Great Schism[\H2][PARAGRAPH:1]Prior to 1054AD, Catholics and Orthodoxes had many differences, but in more ways then not acted as a single religion. In RFC:Europe, there is no diplomatic penalty between Catholic and Orthodox players, until 1054AD.[NEWLINE]
+[H2]Reformation[\H2][PARAGRAPH:1]The discovery of the Printing Press and founding Protestantism trigger the Reformation. All Catholic players have the opportunity to convert to the new religion. Conversion changes Catholicism to Protestantism and all the religious buildings are converted to their corresponding counterparts, however, Catholicism is not completely removed from all the large cities. Some of the Faith Points are also generated. The AI's probability to convert is based upon the actual history of the corresponding nation.[NEWLINE]
+[H2]Faith Points[\H2][PARAGRAPH:1]Faith points are an abstract concept that determines the level of benefits that a player can obtain from the corresponding religion.[NEWLINE]
+- Civilizations generally start with 0 faith points.
+- Changing the state religion resets the faith points to 0.
+- Spread of the state religion throughout the empire and building religious buildings (Temples, Monasteries and Cathedrals) generate faith points.
+- Spread of a non-state religion decreases the amount of faith points.
+- Faith points provide different benefit for every religion
+- Large boost of Faith Points is provided by the Great Prophets to compensate for the fact that they can no longer build Holy Shrines
+- The current number of Faith Points and the benefits thay provide can be seen in the Religious Advisor screen[NEWLINE]
+[H2]Catholicism[\H2][PARAGRAPH:1]The benefits of Faith Points for Catholic players are not as straight forward as those for the other religions. It all revolves around the Pope and his role as an absolute authority over the Catholic Church. Check the special section on the Pope and his role in the game.[NEWLINE]
+[H2]Islam[\H2][PARAGRAPH:1]Geographically Islam stretches well beyond the boundaries of our map. Thus, with strong faith (i.e. a lot of Faith Points), the Islamic nations receive a boost on their Growth as well as a hammer discount for new Units.[NEWLINE]
+[H2]Orthodoxy[\H2][PARAGRAPH:1]One of the key concepts of the Orthodox Church is the principle of Caesaropapism, that is the subjugation of the religious authority under the secular authority. As a result, strong faith boosts the stability of the Orthodox nations and lowers the civic maintenance cost.[NEWLINE]
+[H2]Protestantism[\H2][PARAGRAPH:1]The new liberal ideas and emphasis on personal freedom, grant the Protestant nations beaker discount for new techs and hammer discount on the production of Colonies and Wonders.[NEWLINE]
+[H2]Religious Prosecutions and Stability[\H2][PARAGRAPH:1]As ugly as they were, religious prosecutions were very common in medieval Europe. Thus, in RFC:Europe we present the Prosecutor unit that can be used to remove all non-state religions and buildings from a given city.[NEWLINE]
+- Non-state religion in your cities causes instability
+- Prosecutions remove the non-state religion and buildings, but generate unhappiness and cause instability of their own, resulting in an even larger penalty
+- Prosecution instability and unhappiness wear off over time, so the short term penalty creates a long term benefit
+- Spain does not suffer from Prosecution penalty, however, they do suffer from unhappiness
+- Prosecutions generate Faith Points
+- The combined Prosecution instability vs added Faith Points and boost of Orthodox stability still generates short term instability
+- Religion cannot be removed from its Holy City (i.e. no religion can be completely destroyed) and no religion can be removed from Jerusalem
+- When Jews are being prosecuted from one city, they automatically move to another from the same or different nation
+- Under the civic Free Religion, Prosecutions are impossible and no instability is generated by numerous religions in the same city[NEWLINE]
+[H2]The Pope[\H2][PARAGRAPH:1]The Pope is the head of the Catholic Church and has absolute authority over it. Every player that choses Catholicism would have to interact with the Pope in more than one way.[NEWLINE]
+- The Pope can never control any city other than Rome and the Pope's culture cannot extend beyond Rome's BFC
+- The Pope would gift money and units to faithful Catholic players
+- Relations with the Pope play a major role in the Crusade dynamics
+- To get any benefits from the Pope you must Open Borders with him
+- If you Open Borders with the Pope, you will soon see an army of Missionaries spreading Catholicism for you
+- On the same note, for a non-Catholic player, Open Borders with the Pope is probably not a good idea (see Prosecutions and Stability)
+- The Pope would also randomly build Churches and Monasteries for the Catholic nations
+- The Pope can remove non-Catholic religions from the cities of Catholic players (generating unhappiness and instability for the corresponding player)[NEWLINE]
+[H2]The Choice of Religion[\H2][PARAGRAPH:1]The benefits from choosing one religion over another are tied to the individual civilizations' historical preferences. For example the Byzantines would definitely benefit more from Orthodoxy and Spain from Catholicism. Going with the historical setting is never a wrong decision, however, you are always free to experiment anyway you want.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[H1]宗教改革[\H1][第2段]什么使RFC：除了RFC之外的欧洲是宗教动态的彻底改革。我们有四大宗教（天主教、正统派、新教和伊斯兰教）以及犹太教作为次要宗教。所有的宗教都是不对称的，每一个宗教都提供独特的适合性。为了模拟宗教之间存在的复杂动态，我们实施了大分裂、宗教改革、十字军东征、教皇作为特殊角色、信仰点和宗教起诉
+
+[H2]关于五种宗教，[\H2][第1段]天主教、犹太教和正统教义在游戏开始时就建立了，罗马、耶路撒冷和君士坦丁堡都有圣城。伊斯兰教建立在阿拉伯诞生的转折点上，圣城在大马士革。麦加不包括在地理上，因此大马士革被选为阿拉伯宗教权力中心（以及阿拉伯首都）。新教是由第一个研究印刷机的玩家创建的，新教圣城是随机选择的，很像正规BtS中的圣城。每当一个宗教建立起来，圣殿就会自动地建在相应的圣城里
+
+犹太教[第2段][第1段]与其他四种宗教不同，犹太人从来没有试图用剑来传播他们的信仰，而且他们常常是这把剑的受害者。在RFC：欧洲犹太人在贸易和贸易机会的驱使下，以半随机的方式在欧洲各地传播。有犹太教信仰的城市可以建造犹太人居住区，以促进文化和黄金的发展
+
+[H2]在公元1054年以前，天主教徒和正统教徒有很多不同之处，但在很多方面，他们并不是一个单一的宗教。在RFC：欧洲，天主教和东正教之间没有外交惩罚，直到公元1054年
+
+[H2]宗教改革[\H2][第1段]印刷机的发现和新教的创立引发了宗教改革。所有天主教徒都有机会皈依新宗教。皈依使天主教转变为新教，所有的宗教建筑都转变为相应的建筑，然而，天主教并没有完全从所有的大城市中消失。一些信仰点也产生了。人工智能转换的概率是基于相应国家的实际历史
+
+[H2]信仰点[\H2][段落：1]信仰点是一个抽象的概念，它决定了玩家可以从相应的宗教中获得的利益水平。[NEWLINE]
+
+-文明通常从0信仰点开始。
+
+-改变国家宗教会将信仰点重置为0。
+
+-国家宗教在整个帝国的传播和建造宗教建筑（寺庙、修道院和大教堂）产生了信仰点。
+
+-非国家宗教的传播减少了信仰点的数量。
+
+-信仰点为每个宗教提供不同的利益
+
+-伟大的先知们提供了大量的信仰点来补偿他们不能再建造圣殿的事实
+
+-当前的信仰点数和他们提供的好处可以在宗教顾问屏幕上看到[新行]
+
+[H2]天主教[\H2][第1段]天主教玩家的信仰点数并不像其他宗教那样直接。这一切都围绕着教皇和他作为天主教绝对权威的角色。查看关于教皇和他在游戏中的角色的特别部分
+
+[H2]伊斯兰教[\H2][第1段]从地理上讲，伊斯兰教远远超出了我们地图的边界。因此，有了坚定的信仰（即许多信仰点），伊斯兰国家的经济增长将得到提振，新单位的价格也将大打折扣
+
+[H2]正统学说[\H2][第1段]东正教的一个关键概念是凯撒娄派的原则，即在世俗权威下征服宗教权威。因此，坚定的信仰促进了正统国家的稳定，降低了公民的维护成本
+
+[H2]新教[\H2][第1段]新自由主义思想和对人身自由的强调，给予新教国家新技术的烧杯折扣和对殖民地和奇迹生产的锤子折扣
+
+[H2]宗教起诉和稳定[\H2][第1段]宗教起诉虽然丑陋，但在中世纪的欧洲非常普遍。因此，在RFC:european中，我们提出了检察官单位，它可以用来从一个特定的城市中清除所有非国家宗教和建筑
+
+-你们城市的非国家宗教导致不稳定
+
+-检察机关移去了非国家宗教和建筑物，却产生了不快，造成了自身的不稳定，导致了更大的惩罚
+
+-随着时间的推移，起诉的不稳定性和不愉快会逐渐消失，因此短期的惩罚会带来长期的好处。-西班牙并没有受到起诉的惩罚，但是他们确实感到不快
+
+-起诉产生信任点
+
+-联合检控的不稳定与增加的信仰点和促进正统稳定仍然会产生短期的不稳定
+
+-宗教不能离开圣城（即任何宗教都不能被完全摧毁），任何宗教都不能离开耶路撒冷
+
+-当犹太人从一个城市被起诉时，他们会自动从同一个或不同的国家转移到另一个城市
+
+-在公民自由的宗教下，起诉是不可能的，同一城市的许多宗教不会造成不稳定[新线]
+
+[H2]教皇[\H2][第1段]教皇是天主教会的领袖，对它拥有绝对的权威。每一个选择天主教的玩家都必须以一种以上的方式与教皇互动
+
+-教皇无法控制除罗马以外的任何城市，教皇的文化也无法超越罗马的博鳌亚洲论坛
+
+-教皇会把钱和单位赠送给忠实的天主教玩家
+
+-与教皇的关系在十字军东征运动中起着重要作用
+
+-要从教皇那里得到任何好处，你必须与他开放边界
+
+-如果你打开与教皇的边界，你很快就会看到一大群传教士为你传播天主教
+
+-同样，对于一个非天主教的玩家来说，与教皇开放边界可能不是一个好主意（见起诉和稳定）
+
+-教皇还将为天主教国家随机建造教堂和修道院
+
+-教皇可以将非天主教的宗教从天主教玩家的城市中移除（给相应的玩家带来不快乐和不稳定）[NEWLINE]
+
+[H2]宗教的选择[\H2][第1段]选择一种宗教而不是另一种宗教的好处与各个文明的历史偏好有关。例如，拜占庭人肯定会从正统教义中受益更多，而西班牙则会从天主教中受益更多。遵循历史背景永远不会是一个错误的决定，然而，你总是可以随心所欲地进行实验。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_CRUSADES</Tag>
+    <English>Crusades</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+      <Chinese>十字军东征</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_CRUSADES_PEDIA</Tag>
+    <English>[H1]Crusades[\H1][PARAGRAPH:2]There are two types of Crusades: for the Holy Land that aim at capturing Jerusalem and Defensive that aim at reclaiming a city lost by a Catholic player.[NEWLINE]
+[H2]Crusades for the Holy Land[\H2]
+- From the 1000AD on, the Pope may periodically call for a Crusade for the Holy Land
+- A Crusade is called only if Jerusalem is controlled by a non-Catholic, non-Orthodox player
+- Every Catholic nation can participate in the Crusade, sending some units at random (city defenders do not get send off, but other units leave)
+- Teutonic Knights and Knight Templars are very likely to leave for the Crusade, Knights are also generally more likely to leave then Archers
+- All participants get to vote on a Crusade leader, where the candidates are chosen for their high Faith Points, size of the Empire and good relations with the Pope
+- The chosen leader of the Crusade declares war on whomever controls Jerusalem and a few turns later receives a stack of units next to the city
+- The first Catholic player that captures Jerusalem (with or without a Crusade) receives a golden age as well as boost of stability and faith
+- Refusal to participate in the Crusade decreases one's faith and relations with the Pope
+- Sometimes, Crusades can be deviated to go not after Jerusalem, but the capital of any non-Catholic nation
+- The richest Catholic player gets the opportunity to deviate the crusade for certain amount of gold
+- If one uses gold to take over the Crusade, one can still aim it at Jerusalem
+- Reformation makes the Catholic church turn to its own internal affairs and thus stops any further Crusades for the Holy Land[NEWLINE]
+[H2]Defensive Crusades[\H2]
+- If there is a non-Catholic and non-Orthodox player holding a city in a Catholic player's war map zone then a defensive Crusade can be called
+- If the Catholic player is at war with the one holding the city, and if the Catholic player has good relations with the Pope, the Catholic player may get an opportunity for a Defensive Crusade
+- Defensive Crusade means that some units would spawn at the Catholic player's capital
+- Defensive Crusades cost faith points
+- Faith points can be regained by conquering the other player's cities and converting them to Catholicism[NEWLINE]
+[H2]Crusades and non-Catholic Religions[\H2][PARAGRAPH:1]If you are an Islamic player, prepare for the Crusaders. Whether you are fighting against the Reconquista, defending Jerusalem or conquering Hungary, Crusaders will come to visit you. Meet them accordingly. Strong Islamic faith would help you build more units and successfully fight off the Crusaders.
+[PARAGRAPH:1]Judaism is not meant to be anyone's state religion, however, it as vulnerable to Crusades as Islam.
+[PARAGRAPH:1]Orthodox players are generally immune to Crusades, but beware of Balduin I, VI and IX (all numbers refer to the same person). Crusaders can always get greedy and attack you for purely economical reasons.
+[PARAGRAPH:1]Reformation stops the Crusades for the Holy Land, however, if you are at war with a Catholic nation, you may still suffer from a defensive Crusade.[NEWLINE]</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[H1]十字军[\H1][PARAGRAPH:2]这里有两种形式的十字军: 攻占圣城Jerusalem和防御战(Defensive Crusades)帮助天主教国家重夺一座他丢失的一座城市.[NEWLINE]
+[H2]为圣城发起的十字军[\H2]
+- AD1000开始,教皇会周期性的发起十字军收复圣城
+- 十字军只会当Jerusalem被控制于一个非天主教和东正教国家手里时发起
+- 每一个天主教国家都可以参与十字军并且随机赠送一些部队出去(城市保卫者city defenders 不会被送出去,但其他单位会离开)
+- 条顿骑士和圣殿骑士非常可能会离开,骑士一般比弓箭单位更可能被送出去
+- 所有参与者都投票选出十字军的领导者,候选人一般依据他们的高信仰点，帝国大小以及和教皇的关系是否更好
+- 选出来的领导者会对控制圣城的文明宣战,然后在一定回合以后送来的单位会直接传送到圣城旁边
+- 第一个攻占圣城的天主教玩家(是十字军或不是都可以)都会开启一次黄金时代同时获得稳定度以及信仰点奖励
+- 拒绝参与十字军行动会降低你的信仰点以及恶化你与教皇的关系
+- 有时候十字军很有可能产生偏离不去圣城,而是去到任意一个非天主教文明的首都附近
+- 最富有的天主教玩家有机会通过金钱偏离十字军的目标
+- 如果你用金钱控制了十字军后,你依然可以将目标设定为圣城耶路撒冷 
+- 宗教改革使得天主教会变成它自己内部的事情，也因此停止了后续的对圣城的十字军行动Reformation makes the Catholic church turn to its own internal affairs and thus stops any further Crusades for the Holy Land[NEWLINE]
+[H2]十字军防御战[\H2]
+- 如果这里有一个非天主教和非东正教的文明占领了一座在天主教玩家战争地图上显示(in a Catholic player's war map zone)的城市,那么将触发十字军防御战
+- 如果天主教玩家与操控该城市的国家已经处于战争状态同时该天主教文明和教皇关系良好,那么天主教玩家也有机会开展十字军防御战If the Catholic player is at war with the one holding the city, and if the Catholic player has good relations with the Pope, the Catholic player may get an opportunity for a Defensive Crusade
+- 十字军防御战意味着一些单位将会出现首都附近
+- 十字军防御战消耗信仰点
+- 信阳点数可以通过攻占其他玩家的城市而重新获得或者使他们皈依天主教[NEWLINE]
+[H2]非天主教文明和十字军[\H2][PARAGRAPH:1]如果你是伊斯兰文明, 请为十字军入侵做准备.无论你是在对抗收复失地运动(卡斯提尔收复伊比利亚半岛),保卫Jerusalem或者正在征服匈牙利,十字军都有可能相应出现. 强大的伊斯兰信仰(信仰点?)将会帮你暴更多兵来打败十字军.
+[PARAGRAPH:1]犹太教不会成为任何一个国家的国教 is not meant to be anyone's state religion,但是它也可能会像伊斯兰教很容易成为十字军的目标.
+[PARAGRAPH:1]东正教文明一般免疫十字军,但是请小心Balduin I, VI and IX (所有这些数字都指代同一个人).十字军总是很贪婪的因此他们很有可能仅仅回了财富而攻击你.
+[PARAGRAPH:1]改革会停止对圣城的十字军行动.但是如果你一个天主教文明开战时,你依然有可能出发十字军防御战.[NEWLINE]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_STABILITY_GUIDE</Tag>
+    <English>Stability Guide</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>稳定度指南</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CONCEPT_STABILITY_GUIDE_PEDIA</Tag>
+    <English>[H1]RFCE stability guide:[\H1]
+
+[BOLD]The F2 Screen[\BOLD]
+On the F2-screen you can see the four main stability categories: cities, civics, economy, expansion and a special fifth category called swing. 
+The main categories have two values: the one on the left side is the sum of all permanent modifiers and the one on the right side is a value that is calculated every turn.
+The swing category has only one value and represents effects that last only a few turns. Most of the time this value should be zero.
+
+All values are summed up and give the total stability or simply the stability (The value that can be seen on the main screen). This is the only value that matters in the end.
+
+[BOLD]The two ways how stability is calculated[\BOLD]
+There are two ways in which stability is calculated: event based and state based.
+You can say the state based modifiers look at what you have (eg. total number of cities) and the event based look on how you got there (eg. if you found a city yourself or if you conquer one).
+
+[BOLD]State based modifiers[\BOLD]
+The state based modifiers have to be updated once in a while. This is usually done every turn or every three turns or when it is obvious that the state has changed (eg. founding a city will change the total number of cities and therefore triggers a recalculation). Because they only look at the current state they can be recalculated from scratch every time. Previous values don't have to be remembered. That means if an error occures, this error can not accumulate over several calculations and the total effect of one modifier can easily be limited.
+The effects of state-based modifiers are hard to track because all effects are calculated at once.
+
+[BOLD]Event based modifiers[\BOLD]
+The event based modifiers on the other hand can not be calculated from the scratch every time and therefore have to be remembered. This is done by storing a single number for each category. It holds the sum of all modifiers that have been triggered so far. That means those modifiers are permanent and cumulative. And that means also that errors can accumulate. And because only a single number is stored it is impossible to say how often a certain event has occured and therefore it is impossible to limit the total effect of a single modifier.
+The effect of event-based modifiers can easily be seen. Just found, conquer or raze a city and look on the F2-screen how the corresponding value has changed. Sometimes more then one event is triggered at once (eg. razing a city triggers also conquering a city)
+
+[BOLD]Useful tips[\BOLD]
+The swing category has only event based modifiers, sometimes with rather big values.
+On the other hand it's value gets halved every turn, so it rapidly converges to zero.
+
+Note that one of the big permanent changes in stability happens when some of your provinces change to worse status.
+In most cases this happens when a new civ is born in or near your territory (the first example is the Arab spawn for Byzantium).
+
+Various special events and historic mechanisms can also effect your stability.
+For example on the reformation event: If you choose to stay catholic, you miss on the economic and scientific benefits of switching to protestantism, but the counter-reformation might bring some stability to your realm.
+Or you get a minor bonus to your stability in case you successfully complete one of your UHVs.
+
+[H1]List of event based stability modifiers:[\H1](all permanent, apart from the swing stability)
+
+[BOLD]Base stability[\BOLD]
+[TAB]Difficulty:
+[TAB][TAB]Viceroy: +6
+[TAB][TAB]Monarch: +2
+[TAB][TAB]Emperor: 0
+[TAB]Completing one of your UHVs: +3
+
+[BOLD]Cities[\BOLD]
+[TAB]Entering a war: -1
+[TAB]Building a [LINK=BUILDING_COURTHOUSE]courthouse[\LINK]: +1
+[TAB]After AI collapse date: -1 stability every 4 turns up to a total of -15 stability
+
+[BOLD]Civics[\BOLD]
+[TAB]Building a [LINK=BUILDING_NIGHT_WATCH]nightwatch[\LINK]: +1
+[TAB]Being in anarchy: 0, -1 or -2 for each turn, based on city number (0 for Prussia)
+
+[BOLD]Expansion[\BOLD]
+[TAB]Building a [LINK=BUILDING_CASTLE]castle[\LINK]: +1
+[TAB]Founding a city
+[TAB][TAB]in a core province: +1
+[TAB][TAB]in a contested province: -1
+[TAB][TAB]in a foreign province: -2
+[TAB][TAB]while the number of your cities is less than 5: +1
+[TAB]Conquering a city in a core or historic province: +1
+[TAB]Conquering a city while running Militarism: +1
+[TAB]Razing a city
+[TAB][TAB]with a population of 3-5: -1
+[TAB][TAB]with a population of 6-9: -2
+[TAB][TAB]with a population of 10+: -3
+[TAB][TAB]Norwegian UP: one less instability for each raze
+[TAB]Losing a city in a core or historic province: -3 (-2 for Scotland)
+[TAB]Losing the capitol city: -10 (-20 for Byzantium, -5 for Scotland)
+[TAB]Moving the palace: -2
+[TAB]Building a colony: -2 (-1 with Colonialism)
+
+[BOLD]Economy[\BOLD]
+[TAB]Building a [LINK=BUILDING_MANOR_HOUSE]manor house[\LINK]: +1
+[TAB]Founding a corporation: -2
+[TAB]Researching certain techs: -1
+[TAB][TAB](Feudalism, Guilds, Machinery, Aristocracy, Nationalism,
+[TAB][TAB]Civil Service, Gunpowder, Professional Army, Economics)
+
+[BOLD]Swing[\BOLD]
+[TAB]Being in anarchy: -8 (0 for Prussia)
+[TAB]Successful religious purge: -3 (0 for Spain)
+[TAB]Entering a war: -3
+[TAB]Razing a city: -3 (0 for Norway)
+[TAB]Own improvement got destroyed: -2
+[TAB]Moving the palace: -5
+[TAB]Conquering a city in a core or historic province: +3
+[TAB]Losing a city in a core or historic province: -4 (-2 for Scotland)
+[TAB]Losing a city in a border of foreign province: -2 (-1 for Scotland)
+[TAB]Losing the capitol city: -10 (-20 for Byzantium, -5 for Scotland)
+
+[H1]List of state based stability modifiers:[\H1](dynamic, calculated each turn)
+
+[BOLD]Cities[\BOLD]
+[TAB]For an average city happiness of at least k: +k
+[TAB]For an average city health of at least k: +k
+[TAB]At least 10% war weariness on average (in your k cities): -k/3 - 1
+[TAB][TAB]so -1 with 1-2 cities, -2 with 3-5 cities, -3 with 6-8 cities, etc.
+[TAB]For a persecution count (nationwide) of at least 3k+1: -k-1
+[TAB][TAB]so -1 with 1-3 points, -2 with 4-6 points, -3 with 7-9 points, etc.
+[TAB][TAB]a successful purge adds 8 points to the persecution counter (4 for Spain)
+[TAB][TAB]an unsuccessful purge adds 4 points to the persecution counter (2 for Spain)
+[TAB][TAB]the persecution counter goes down with 1 point in each turn
+[TAB]For each city that
+[TAB][TAB]is unhealthy: -1
+[TAB][TAB]is unhappy (has at least one angry population): -2
+[TAB][TAB]has a foreign religion: -2 (0 for Poland, -1 for Ottomans)
+[TAB][TAB]has a foreign religion with Paganism: -1 (0 for Poland)
+[TAB][TAB]each foreign religion after the 1st one: -1 (0 for Poland)
+[TAB][TAB]any number of foreign religions with Religious Tolerance: 0
+[TAB][TAB]has a Jewish Quarter with religious penalties present in the city: +1
+[TAB][TAB]has some unhappiness because of whipping for production: -1
+[TAB][TAB]has some unhappiness because of no military presence: -1
+[TAB][TAB]has some unhappiness because of religious civics: -1 (0 for Poland)
+[TAB][TAB]has less than 40% own culture: -1 (0 for Hungary)
+[TAB][TAB]has less than 40% own culture with Subjugation: 0
+[TAB][TAB]has less than 20% own culture: -2 (0 for Hungary)
+[TAB][TAB]has less than 20% own culture with Subjugation: -1 (0 for Hungary)
+[TAB]Stability bonus for Orthodox faith points: +1 for 10 faith
+[TAB]While in a golden age: +8
+
+[BOLD]Civics[\BOLD]
+[TAB]Feudal Monarchy with
+[TAB][TAB]the [LINK=BUILDING_STEPHANSDOM]Stephansdom[\LINK] wonder: +2
+[TAB][TAB]Feudal Law: +3
+[TAB]Divine Monarchy with
+[TAB][TAB]the Stephansdom wonder: +2
+[TAB][TAB]Paganism: -4
+[TAB][TAB]State Religion: +2
+[TAB][TAB]Theocracy: +3
+[TAB][TAB]Organized Religion: +4
+[TAB][TAB]Religious Tolerance: -3
+[TAB][TAB]Religious Law: +2
+[TAB]Constitutional Monarchy with
+[TAB][TAB]the Stephansdom wonder: +2
+[TAB][TAB]Common Law: +3
+[TAB][TAB]Free Peasantry: +2
+[TAB][TAB]Free Labor: +2
+[TAB]Merchant Republic with
+[TAB][TAB]Feudal Law: -3
+[TAB][TAB]Trade Economy: +4
+[TAB][TAB]Common Law: +3
+[TAB][TAB]Free Peasantry: +2
+[TAB][TAB]Free Labor: +2
+[TAB][TAB]Imperialism: -2
+[TAB]Merchant Republic with k cities: 5-k (0 with 5 cities)
+[TAB][TAB]the penalties are halved for Venice ((5-k)/2, if k&gt;5)
+[TAB]Feudal Law with
+[TAB][TAB]Serfdom: +3
+[TAB][TAB]Manorialism: +2
+[TAB][TAB]Free Peasantry: -4
+[TAB][TAB]Vassalage: +2
+[TAB]Bureaucracy with k cities: 6-k (0 with 6 cities)
+[TAB][TAB]the penalties are halved for Novgorod ((6-k)/2, if k&gt;6)
+[TAB]Serfdom with
+[TAB][TAB]Manorialism: +2
+[TAB][TAB]Common Law: -3
+[TAB]Religious Law with
+[TAB][TAB]Paganism: -5
+[TAB][TAB]Theocracy: +5
+[TAB][TAB]Religious Tolerance: -3
+[TAB]Common Law with
+[TAB][TAB]Free Labor: +3
+[TAB][TAB]Theocracy: -4
+[TAB]Apprenticeship with
+[TAB][TAB]Guilds: +3
+
+[BOLD]Expansion[\BOLD]
+[TAB]For each own city
+[TAB][TAB]in a foreign province: -5 (-4 with Imperialism)
+[TAB][TAB]in a border province: -2 (-1 with Imperialism)
+[TAB][TAB]French UP: additional +1 for each city in a border or foreign province
+[TAB]For each foreign city
+[TAB][TAB]in a core province: -3 (0 with Militarism)
+[TAB][TAB]in a normal province: -1 (0 with Militarism)
+[TAB]For each vassal: +1 (+3 with Vassalage)
+[TAB]For being a vassal of someone else: +8
+[TAB]Stability penalty for number of cities (with k cities): -(k*k)/40
+[TAB][TAB]So 0 for less than 7 cities, -1 with 7 and 8 cities, -2 with 9 and 10 cities
+[TAB][TAB]-3 with 11 and 12 cities, -4 with 13 and 14 cities, -5 with 15 city
+[TAB][TAB]-1 for each city after the 15th, -2 for each city after the 31th
+[TAB][TAB]The Ottomans and Muscovy get five cities for free
+
+[BOLD]Economy[\BOLD]
+[TAB]Industrial Stability in your empire: between -3 and +3
+[TAB][TAB]Based on agriculture, production and industrial development
+[TAB]Financial Stability in your empire: between -4 and +4
+[TAB][TAB]Based on finances, inflation, trade and economic development</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[H1]RFCE稳定度指南:[\H1]
+
+[BOLD]F2 屏幕[\BOLD]
+译者前言：这是个人渣翻，所以出现翻译奇怪的地方请多包涵，我不确定的地方会在后面保留原文             贴吧 by tyrm8 译于RFCE1.5版本 修改by mediv01 20200413
+在F2界面你可以看见四个主要的稳定度分类: 城市, 内政法令, 经济因素, 扩张 以及特别的第五个分类--震荡变量. 
+每个类别下都有两个数值 : 在左边的是所有永久修正的总和，而在右边的数值每回合计算一次.
+震荡变量只有一个数值，它代表了那些会持续数个回合的修正效果. 大部分时候这个数值应该为0.
+
+所有这些数值都会加起来，然后给出总的稳定度或者简单的显示稳定 (这个数值你可以在屏幕左上方看见). 而且这是唯一的一个会最终影响到你稳定状态的数值.
+
+[BOLD]这里有两种方式计算稳定度[\BOLD]
+这里有两种计算稳定度的方式：基于事件和基于国家.
+你可以这么理解，你所拥有的会决定国家修正 (比如说你的总城市数目) 而基于事件的修正则是由你怎么获得 (比如说：你自己建立了一座城市或者说你占领了一坐城市e).
+
+[BOLD]基于国家的修正[\BOLD]
+国家修正会不定时的更新一次. 这通常会每回合或者每三回合或者当你的国家发生了很明显的变化 (例如建立了一座新的城市，系统便会开始重新计算或者检测). 因为它只看国家当前的状况，所以它一般会重新从0开始计算.之前的数值并不需要被记住. 这意味着一个错误出现时，这个错误不会被计算多于数回合，也因此它造成的影响是有限的(译者：错误原文是an error occur 我想不到有更好的翻译 所以只译成错误这个简单 但略奇怪的词).
+由于所有的效果只计算一次，所以基于国家修正带来的影响很难被追踪. The effects of state-based modifiers are hard to track because all effects are calculated at once.
+
+[BOLD]基于事件的修正[\BOLD]
+在另一方面来说基于事件的修正每次都不会从0开始计算，因此这些修正每次都会被记住. 这会为每个分类存储一个单独的数字.因此它会记住到目前为止发生过的所有修正之和. 这意味着那些修正是永久性的且可累计的.这也意味着错误也会被累计. 同时由于只有一个数值会被记住，所以你不可能说出特定事件出现的频率，也因此也不可能限制单一修正所带来的全部影响。And because only a single number is stored it is impossible to say how often a certain event has occured and therefore it is impossible to limit the total effect of a single modifier.
+基于事件的修正是很容易被发现的. 就像你建立和占领或者摧毁一座城市的时候，你可以在F2界面看到相应的数值发生变化.有时会同时引起多个事件(比如摧毁城市同时也会触发占领城市) 。Sometimes more then one event is triggered at once (eg. razing a city triggers also conquering a city)
+
+[BOLD]一些有用的提示[\BOLD]
+震荡变量只显示事件带来的修正，所以有时可能会显示了一个非常大的数目.
+在另一方面这些数值会减半，所以它会很快回复到0.
+
+请注意当你的某些省份转变为不稳定的状态(原文worse status)会出现一个比较大的永久的稳定度变化.
+在大多数情况下,只有当新文明出现在你的领土或者附近时才会引起这种变化(第一个例子就是当阿拉伯出生在拜占庭附近时).
+
+还有很多特别的事件和历史事件机制也同样会影响你的稳定度 Various special events and historic mechanisms can also effect your stability.
+比如说宗教改革事件中：如果你选择坚守天主教，那么你将会失去皈依新教所带来的经济和科研奖励,但是反对宗教改革也可能会给你带来一些稳定度改变 but the counter-reformation might bring some stability to your realm.
+或者当你完成其中一个UHV任务时，也可能会给你小幅度的稳定度奖励.
+
+[H1]以下是基于事件带来的稳定度修正的清单:[\H1](除了震荡变量,其他所有都是永久的)
+
+[BOLD]基本稳定度[\BOLD]
+[TAB]难度:
+[TAB][TAB]总督: +6
+[TAB][TAB]国王: +2
+[TAB][TAB]皇帝: 0
+[TAB]完成每个历史任务: +3
+
+[BOLD]城市[\BOLD]
+[TAB]开战: -1
+[TAB]建造一个 [LINK=BUILDING_COURTHOUSE]法庭[\LINK]: +1
+[TAB]在AI史实崩溃日期后:每四回合 -1 稳定度 最多-15稳定度
+
+[BOLD]内政法令[\BOLD]
+[TAB]建造一个[LINK=BUILDING_NIGHT_WATCH]守夜岗哨[\LINK]: +1
+[TAB]无政府状态:每回合 0, -1 或 -2, 基于城市数目 (普鲁士Up 为0)
+
+[BOLD]扩张[\BOLD]
+[TAB]建造一个 [LINK=BUILDING_CASTLE]城堡[\LINK]: +1
+[TAB]建立城市
+[TAB][TAB]在核心省份: +1
+[TAB][TAB]在争议省份: -1
+[TAB][TAB]在外国/国外省份: -2
+[TAB][TAB]当总城市数目少于5: +1
+[TAB]占领在核心区或历史区省份的城市: +1
+[TAB]占领城市同时实施军国主义: +1
+[TAB]摧毁城市
+[TAB][TAB]人口在3-5之间: -1
+[TAB][TAB]人口在6-9之间: -2
+[TAB][TAB]人口在10以上: -3
+[TAB][TAB]挪威 UP: 摧毁城市造成稳定惩罚减少1e
+[TAB]在核心区或者历史区丢失城市: -3 (苏格兰为-2)
+[TAB]丢失首都: -10 (拜占庭-20,苏格兰-5)
+[TAB]搬走宫殿: -2
+[TAB]建立一个殖民地y: -2 (实施殖民主义时-1)
+
+[BOLD]经济因素[\BOLD]
+[TAB]建造一个 [LINK=BUILDING_MANOR_HOUSE庄园[\LINK]: +1
+[TAB]创建公司: -2
+[TAB]研发特定科技: -1
+[TAB][TAB](封建主义,行会,机械贵族政治, 民族主义,
+[TAB][TAB]文官制度,火药,职业军队,经济学)
+
+[BOLD]震荡变量[\BOLD]
+[TAB]处于无政府状态: -8 (普鲁士为0)
+[TAB]成功清理异教: -3 (西班牙为0)
+[TAB]开战: -3
+[TAB]摧毁城市: -3 (挪威为0)
+[TAB]地格设施被摧毁: -2
+[TAB]搬首都(宫殿): -5
+[TAB]占领在核心区或者历史区的城市: +3
+[TAB]丢失核心区或者历史区的城市: -4 (苏格兰-2)
+[TAB]丢失边境区或者外国省份的城市: -2 (苏格兰为-1)
+[TAB]失去首都: -10 (拜占庭-20, 苏格兰-5)
+
+[H1]以下是基于国家带来的稳定度修正清单:[\H1](动态的,每回合都会计算的)
+
+[BOLD]城市[\BOLD]
+[TAB]对于城市平均富余快乐至少为k(For an average city happiness of at least k): +k
+[TAB]对于城市平均健康点至少为k(For an average city health of at least k): +k
+[TAB]平均每座城市都有至少10%厌战情绪(你的城市数目k): -k/3 - 1
+[TAB][TAB]1-2座城市时为-1,3-5 座城市时为 -2, 6-8 座城市时为-3,如此类推.
+[TAB]对于宗教迫害点(全国范围内) 有至少 3k+1: -k-1
+[TAB][TAB]所以1-3点-1,4-6 点-2 , 7-9 点-3,如此类推.
+[TAB][TAB]一次成功的异教清理后会+8点 (西班牙则+4)
+[TAB][TAB]如果失败了则+4点 (西班牙为+2)
+[TAB][TAB]迫害点每回合下降1点
+[TAB]对于每座城市
+[TAB][TAB]不健康: -1
+[TAB][TAB]不满 (有至少一个不满人口): -2
+[TAB][TAB]有外国宗教(非国教): -2 (波兰为0, 奥斯曼为-1)
+[TAB][TAB]有外国宗教同时实施多神信仰: -1 (波兰为0)
+[TAB][TAB]除第一个之后每个外国宗教: -1 (波兰为0)
+[TAB][TAB]实施宗教容忍时不论有多少个外国宗教: 0
+[TAB][TAB]有犹太区的城市带来: +1
+[TAB][TAB]因为产能whipping带来的不满: -1
+[TAB][TAB]因为无驻军带来的不满: -1
+[TAB][TAB]因为宗教政策带来的不满: -1 (波兰为0)
+[TAB][TAB]本国文化少于40%: -1 (匈牙利为0)
+[TAB][TAB]本国文化少于40%但同时实施强力压迫: 0
+[TAB][TAB]本国文化少于20%: -2 (匈牙利为0)
+[TAB][TAB]]本国文化少于40%但同时实施强力压迫: -1 (匈牙利为0)
+[TAB]东正教信仰点数会带来稳定度奖励: 每10点+1
+[TAB]在黄金时代: +8
+
+[BOLD]内政法令[\BOLD]
+[TAB]封建君主+
+[TAB][TAB] [LINK=BUILDING_STEPHANSDOM]斯蒂芬主教座堂[\LINK] 奇观r: +2
+[TAB][TAB]封建法典: +3
+[TAB]神权君主+
+[TAB][TAB]斯蒂芬主教座堂奇观: +2
+[TAB][TAB]多神信仰: -4
+[TAB][TAB]国家宗教: +2
+[TAB][TAB]神权政治: +3
+[TAB][TAB]宗教组织: +4
+[TAB][TAB]宗教容忍: -3
+[TAB][TAB教法体制: +2
+[TAB]君主立宪+
+[TAB][TAB]斯蒂芬主教座堂: +2
+[TAB][TAB]普通法系: +3
+[TAB][TAB]自由农户: +2
+[TAB][TAB]自由劳工: +2
+[TAB]商业共和+
+[TAB][TAB]封建法典: -3
+[TAB][TAB]贸易经济: +4
+[TAB][TAB]普通法系: +3
+[TAB][TAB]自由农户: +2
+[TAB][TAB]自由劳工: +2
+[TAB][TAB]帝国主义: -2
+[TAB]商业共和和城市数目5: 5-k (0 with 5 cities)
+[TAB][TAB]是威尼斯时惩罚减半 ((5-k)/2, if k&gt;5)
+[TAB]封建法典+
+[TAB][TAB]农奴制度: +3
+[TAB][TAB]Manorialism: +2
+[TAB][TAB]自由农户: -4
+[TAB][TAB]封臣制度e: +2
+[TAB]官僚制度和城市数目ks: 6-k (0 with 6 cities)
+[TAB][TAB]是诺夫哥罗德时惩罚减半 ((6-k)/2, if k&gt;6)
+[TAB]农奴制度+
+[TAB][TAB]庄园制度: +2
+[TAB][TAB]普通法系: -3
+[TAB]教法体制+
+[TAB][TAB]多神信仰: -5
+[TAB][TAB]神权政治: +5
+[TAB][TAB]宗教容忍: -3
+[TAB]普通法系+
+[TAB][TAB]自由劳工: +3
+[TAB][TAB]神权政治: -4
+[TAB]学徒制度+
+[TAB][TAB]行会制度: +3
+
+[BOLD]扩张因素[\BOLD]
+[TAB]对于每个你拥有的城市
+[TAB][TAB]在外国省份: -5 (实施帝国主义时-4)
+[TAB][TAB]在边界省份: -2 (实施帝国主义时-1)
+[TAB][TAB]法国 UP: 每座在外国和边界省份的城市额外+1
+[TAB]对于每座外国城市
+[TAB][TAB]在核心省份: -3 (实施军国主义时为0)
+[TAB][TAB]在一般省份: -1 (实施军国主义时为0)
+[TAB]对于每个附庸国: +1 (实施封臣制度时+3)
+[TAB]成为附庸国或者其他的: +8
+[TAB]城市数目k带来的稳定度惩罚: -(k*k)/40
+[TAB][TAB]因此7座一下为0，7/8座为-1,9/10 座-2
+[TAB][TAB]11/12座-3,13/14座 -4 , 15座 -5 
+[TAB][TAB]第15城之后每多一座-1, 第31城之后每座-2 
+[TAB][TAB]奥斯曼和莫斯科文明有5座城市不计入
+
+[BOLD]经济因素[\BOLD]
+[TAB]你的工业稳定度: 在-3和3之间
+[TAB][TAB]根据你的农业,产能和工业发展水平
+[TAB]你的金融稳定度: 在-4和4之间
+[TAB][TAB]根据你的金融情况,通货膨胀,贸易和经济发展水平</Chinese>
+  </TEXT>
+</Civ4GameText>

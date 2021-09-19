@@ -1,0 +1,683 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Quotes -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ALCHEMY_QUOTE</Tag>
+    <English>"The glorious sun stays in its course and plays the alchemist. Turning with splendour of his precious eye the meagre earth to glittering gold." - William Shakespeare</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“灿烂的太阳在它的轨道上，扮演炼金术士。用他那双珍贵的眼睛把贫瘠的土地变成金光闪闪的金子</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ARABIC_KNOWLEDGE_QUOTE</Tag>
+    <English>"We reveal this Book unto thee as an exposition of all things, and a guidance and a mercy to those of you who submit to Allah" - Muhammad, Sura 16.90</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我们向你们揭示这本书，是对万物的阐述，是对你们中那些服从真主的人的指引和怜悯”-穆罕默德，苏拉16.90</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ARABIC_MEDICINE_QUOTE</Tag>
+    <English>"There is no disease that Allah has created, except that He also has created its treatment." - Sunan Abi Dawood</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“除了真主创造了治疗方法之外，没有任何疾病是真主创造的。”—苏南·阿比·达伍德</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ARCHITECTURE_QUOTE</Tag>
+    <English>"It is from their foes, not from their friends, that cities learn the wisdom of building high walls." - Aristophanes</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“城市学习建造高墙的智慧，是从他们的敌人，而不是从他们的朋友。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ARISTOCRACY_QUOTE</Tag>
+    <English>"There is nothing which wounds the heart of a noble man more than the thought of his honour being assailed." - Moliere</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“没有什么比想到一个贵族的荣誉会受到侵犯更能伤到他的心的了。”—莫里哀</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ASTROLABE_QUOTE</Tag>
+    <English>"All things are in the Universe, and the Universe in all things; we in it and it in us; in this way everything in perfect unity." - Giordano Bruno</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“万物在宇宙中，万物在宇宙中；我们在宇宙中，万物在我们体内；以这种方式，万物在完美的统一中。”——乔达诺·布鲁诺</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ASTRONOMY_QUOTE</Tag>
+    <English>"Astronomy compels the soul to look upwards and leads us from this world to another." - Plato</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“天文学迫使灵魂向上看，引导我们从这个世界走向另一个世界。”—柏拉图</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_BANKING_QUOTE</Tag>
+    <English>"Banking establishments are more dangerous than standing armies." - Thomas Jefferson</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“银行机构比常备军更危险。”—托马斯·杰斐逊</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_BIOLOGY_QUOTE</Tag>
+    <English>"In all things of Nature, there is something of the marvellous." - Aristotle</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“自然界的一切事物都有奇妙的东西。”—亚里士多德</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_BLAST_FURNACE_QUOTE</Tag>
+    <English>"And them that take up the sword shall perish by the sword" - Book of Matthew, the Bible</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“拿起刀的，必被刀杀”—马太福音，圣经</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_BRONZE_CASTING_QUOTE</Tag>
+    <English>"It is entirely seemly for a young man killed in battle to lie mangled by the bronze spear. In his death all things appear fair." - Homer</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“一个在战场上阵亡的年轻人被青铜矛划伤躺在地上是完全合适的。在他死后，一切都显得很公平</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CALENDAR_QUOTE</Tag>
+    <English>"For everything there is a season and a time for every purpose under heaven." - Ecclisiastics, The Bible</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“在天堂里，凡事都有一个季节，凡事都有一个时间。”—传道书，圣经</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CHAIN_MAIL_QUOTE</Tag>
+    <English>"The glories of our blood and state are shadows not substantial things. There is no armour against fate. Death lays his icy hand on kings." - James Shirley</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我们的鲜血和国家的荣耀是阴影，不是实质性的东西。没有抵御命运的盔甲。死亡将冰冷的手放在国王身上</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CHEMISTRY_QUOTE</Tag>
+    <English>"We must trust to nothing but facts. These are presented to us by Nature and cannot deceive. We ought in every instance to submit our reasoning to the test of experiment and observation." - Antoine Lavoissier</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我们只能相信事实。这些都是自然呈现给我们的，不能欺骗。在任何情况下，我们都应该把我们的推理交给实验和观察的检验。”—安托万·拉沃伊瑟</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CHIVALRY_QUOTE</Tag>
+    <English>"He was a verrey purfit, gentil knight." - Geoffrey Chaucer</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“他是个威瑞·珀菲，绅士骑士。”—杰弗里·乔叟</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CIVIL_ENGINEERING_QUOTE</Tag>
+    <English>"Building well has three conditions; firmness, commodity and delight." - Vitruvius</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“建井有三个条件：坚固、商品和快乐。”—维特鲁维乌斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CIVIL_SERVICE_QUOTE</Tag>
+    <English>"For forms of government let fools contest, whatever's best administered is best." - Alexander Pope</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“对于政府形式来说，让傻瓜来竞争，最好的管理就是最好的。”—亚历山大·波普</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CLASSICAL_KNOWLEDGE_QUOTE</Tag>
+    <English>"True knowledge exists in knowing that you know nothing." - Socrates</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“真正的知识存在于知道你什么都不知道。”—苏格拉底</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CLOCK_MAKING_QUOTE</Tag>
+    <English>"The wisest men follow their own direction." - Euripides</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“最聪明的人遵循自己的方向。”—欧里庇得斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CODE_OF_LAWS_QUOTE</Tag>
+    <English>"Justice is a contract of expediency, entered upon to prevent men harming or being harmed." - Epicurus</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“正义是一种权宜之计，是为了防止人们受到伤害或伤害而订立的。”—伊壁鸠鲁</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_COMBINED_ARMS_QUOTE</Tag>
+    <English>"Such as do build up their faith upon the holy text of pike and gun...and decide all controversies by infalliable artillery." - Samuel Butler</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“比如，在《长矛与枪》的神圣文本上建立起他们的信仰……并用无误的大炮来决定所有的争论。”——塞缪尔·巴特勒</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CONSTITUTION_QUOTE</Tag>
+    <English>"No man shall be taken, imprisoned or destroyed, except by the lawful judgement of his peers." - The Magna Carta</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“任何人不得被带走、监禁或毁灭，除非由同龄人的合法判决。”—大宪章</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_DIVINE_RIGHT_QUOTE</Tag>
+    <English>"Kings arose before any estates or ranks of men, before any parliaments were holden, or laws made and by then all land was distributed which was at first wholely theirs. So it is that kings are the makers of law, not laws the makers of kings." - James I</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“君王在一切产业或官阶前，在一切议会成立前，在一切法律制定前，都已立起来，那时，所有的土地都已分得，起初都是他们的。所以国王是法律的制定者，而不是法律的制定者</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_DRAMA_QUOTE</Tag>
+    <English>"All the world's a stage. And all the men and women merely players. They have their exits and their entrances. And each man, in his time, plays many parts." - William Shakespeare</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“全世界都是一个舞台。所有的男人和女人都只是运动员。他们有他们的出口和入口。每个人，在他的时代，都扮演许多角色</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ECONOMICS_QUOTE</Tag>
+    <English>"The more opportunities there are in a Society for some persons to live upon the toil of others, the less those others may enjoy the fruits of their work themselves." - Anders Chydenius</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“一个社会中，有些人靠别人的辛劳生活的机会越多，其他人就越不可能自己享受到工作的成果。”—安德斯·齐德尼乌斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_EDUCATION_QUOTE</Tag>
+    <English>"There is no wealth like knowledge, no poverty like ignorance." - Caliph Ali ibn Abi-Talib</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“没有财富比知识更富有，没有贫穷比无知更贫穷。”——哈里发阿里·伊本·阿比·塔利布</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ENGINEERING_QUOTE</Tag>
+    <English>"A designer knows he has achieved perfection, not when there is nothing left to add, but when there is nothing left to take away." - Antoine de Saint-Expury</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“一个设计师知道他已经达到了完美，不是当没有什么可以补充的时候，而是当没有什么可以带走的时候。”—安托万·德·圣埃普瑞</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_EXPLOSIVES_QUOTE</Tag>
+    <English>"A desperate disease requires a dangerous remedy." - Guy Fawkes</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“绝症需要危险的治疗。”—盖伊·福克斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_FARRIERS_QUOTE</Tag>
+    <English>"For want of a nail the shoe is lost. For want of a shoe the horse is lost. For want of a horse the rider is lost." - George Herbert</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“由于缺少钉子，鞋子丢了。由于缺少一只鞋，马迷路了。因为缺少一匹马，骑手迷路了。——乔治·赫伯特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_FEUDALISM_QUOTE</Tag>
+    <English>"I will to my lord be true, and love all which he loves and shun all which he shuns."- Anglo-Saxon Oath of Fealty</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我要忠于我的主，爱他所爱的一切，回避他所回避的一切。”—盎格鲁撒克逊效忠誓言</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_FLINTLOCK_QUOTE</Tag>
+    <English>"Wise anger is like fire from a flint: there is great ado to get it out; and when it does come, it is out again immediately." - Matthew Henry</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“明智的愤怒就像火石上的火，要把它扑灭是很费劲的；当它扑灭时，它马上又扑灭了。”—马修·亨利</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_FREE_MARKET_QUOTE</Tag>
+    <English>"Everything is worth what its purchaser will pay for it." - Publius Syrus</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“一切都是值得的，只要它的买主愿意为它付出代价。”—普布利乌斯·西鲁斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_GOTHIC_ARCHITECTURE_QUOTE</Tag>
+    <English>"I would call architecture frozen music." - Friedrich Schiller</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我称之为建筑凝固的音乐。”—弗里德里希·席勒</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_GUILDS_QUOTE</Tag>
+    <English>"People of the same trade seldom meet together, even for merriment and diversion, but the conversation ends in a conspiracy against the public." - Adam Smith, "The Wealth of Nations"</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“同行业的人很少聚在一起，即使是为了娱乐和消遣，但谈话的结局却是一场反对公众的阴谋。”—亚当·斯密，《国富论》</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_GUNPOWDER_QUOTE</Tag>
+    <English>"Put your trust in God. And keep your powder dry". - Oliver Cromwell</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“相信上帝。保持粉末干燥。-奥利弗·克伦威尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_HERBAL MEDICINE_QUOTE</Tag>
+    <English>"The Art of Medicine is to amuse the patient while Nature cures the disease." - Voltaire</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“医学的艺术是在自然治愈疾病的同时取悦病人。”—伏尔泰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_INDUSTRIAL_REVOLUTION_QUOTE</Tag>
+    <English>"There are only two ways of getting on in the world; By one's industry or by the stupidity of others." - Jean de La Bruyere</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“世界上只有两种生活方式：一种是靠自己的勤奋，另一种是靠别人的愚蠢。”—让·德拉布鲁耶</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_LATEEN_SAILS_QUOTE</Tag>
+    <English>"You can't direct the wind, but you can adjust your sails." - unknown</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“你不能指挥风，但你可以调整你的帆。”—未知</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_LIBERALISM_QUOTE</Tag>
+    <English>"Any society that would give up a little liberty to gain a little security, will deserve neither and lose both." - Benjamin Franklin</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“任何一个为了获得一点安全而放弃一点自由的社会，都不值得拥有，都会失去。”—本杰明·富兰克林</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_LITERATURE_QUOTE</Tag>
+    <English>"Some books are to be tasted, others to be swallowed, and some few to be chewed and digested." - Sir Francis Bacon</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“有些书可以品尝，有些书可以吞咽，有些书可以咀嚼和消化。”—弗朗西斯·培根爵士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MACHINE_TOOLS_QUOTE</Tag>
+    <English>"Man is a tool-using animal. Without tools he is nothing. With tools he is all." - Thomas Carlyle</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“人是使用动物的工具。没有工具他什么都不是。用工具他就是一切。——托马斯·卡莱尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MACHINERY_QUOTE</Tag>
+    <English>"It is questionable if all the mechanical inventions yet made have lightened the days toil of any human being." - J.S. Mill</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“所有的机械发明是否减轻了人类的日常劳动，这是值得怀疑的。”—J.S.密尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MANORIALISM_QUOTE</Tag>
+    <English>"They have shelter and ease in their fine manors. While we have hardship and toil and the rain in the fields. And from us must come from our labour, the things that keep them in luxury." - Jean Froissart</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“他们在他们美丽的庄园里有庇护所和安逸。当我们在田里吃苦，劳碌，下雨的时候。必须从我们的劳动中来，从那些使他们保持奢侈的东西中来。”—让·弗罗issart</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MAPMAKING_QUOTE</Tag>
+    <English>"Like sea discoverers to new worlds have gone, like maps to other worlds have shown. Let us possess one World, each hath one and one for all." - John Donne</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“新世界的海洋发现者消失了，其他世界的地图也显示了这一点。让我们拥有一个世界，每个人都拥有一个，为所有人都拥有一个</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MEDICINE_QUOTE</Tag>
+    <English>"As to diseases make a habit of two things - to help, or at least, to do no harm." - Hippocrates</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“至于疾病，养成两件事的习惯——帮助，或者至少不伤害。”——希波克拉底</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MILITARY_TACTICS_QUOTE</Tag>
+    <English>"One minute decides the outcome of a battle, one hour the outcome of a campaign, and one day the fate of empires." - Alexander Suvorov</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“一分钟决定战争的结果，一小时决定战役的结果，一天决定帝国的命运。”—亚历山大·苏沃罗夫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MILITARY_TRADITION_QUOTE</Tag>
+    <English>"Diplomacy without armies is like music without instruments." - Frederick the Great</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“没有军队的外交就像没有乐器的音乐。”—腓特烈大帝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MONASTICISM_QUOTE</Tag>
+    <English>"Meditation is the life of the soul, action is the soul of meditation, so meditate that you mayst give God glory." - Francis Quarles</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“冥想是灵魂的生命，行动是冥想的灵魂，所以冥想可以给上帝荣耀。”—弗朗西斯·夸尔斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MONUMENT_BUILDING_QUOTE</Tag>
+    <English>"The monuments of wit survive the monuments of power." - Francis Bacon</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“智慧的丰碑在权力的丰碑中幸存下来。”—弗朗西斯·培根</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MUSIC_QUOTE</Tag>
+    <English>"If music be the food of love, play on." - William Shakespeare</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“如果音乐是爱的食物，就继续演奏吧。”—莎士比亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_NATIONALISM_QUOTE</Tag>
+    <English>"Such is the human condition, that to wish greatness for one's country is to wish harm to another's." - Voltaire</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“这就是人类的状况，为自己的国家祈愿伟大，就是为别人的国家祈愿伤害。”—伏尔泰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_NAVAL_ARCHITECTURE_QUOTE</Tag>
+    <English>"The royal navy hath ever been its greatest defence and ornament. It is its ancient and natural strength, the floating bulwarks of our island." - William Blackstone</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“皇家海军一直是它最大的防御和装饰。这是它古老而自然的力量，是我们岛上漂浮的堡垒</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_OPTICS_QUOTE</Tag>
+    <English>"We should distinguish the properties of particulars, and gather by induction what pertains to the eye when vision takes place; And what is found in the manner of sensation to be uniform, unchanging, manifest and not subject to doubt." - Ibn al-Haytham</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我们应该区分细节的属性，并通过归纳法收集视觉发生时与眼睛有关的信息；以及以感觉的方式发现的一致、不变、明显和不受怀疑的信息。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PAPER_QUOTE</Tag>
+    <English>"You philosophers are lucky men. You write on paper. And paper is patient. But I am an Empress. And the people are not." - Catherine the Great</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“你们这些哲学家是幸运的。你写在纸上。纸是有耐心的。但我是皇后。而人民不是。”—凯瑟琳大帝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PATRONAGE_QUOTE</Tag>
+    <English>"Patron (n.) One who countenances, supports or protects. Commonly a wretch who supports with insolence and is repaid with flattery." - Samuel Johnson</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>支持、支持或保护的人。通常是一个以傲慢来支持，以奉承来报答的可怜虫。”——塞缪尔·约翰逊</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PHILOSOPHY_QUOTE</Tag>
+    <English>"I have gained this by philosophy, that I do without being commanded what others do only from the fear of the law." - Aristotle</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我从哲学中获得了这一点，即我不必被命令去做别人只因害怕法律而做的事。”—亚里士多德</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PHYSICS_QUOTE</Tag>
+    <English>"To every action there is always an opposed but equal reaction." - Isaac Newton</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“对每一个动作总是有一个相反但相等的反应。”—艾萨克牛顿</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PLATE_ARMOUR_QUOTE</Tag>
+    <English>"You should hammer your iron when it is glowing hot." - Publius Syrus</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“你应该在热的时候锤打你的铁。”—普布利乌斯·西勒斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_POLYGONAL_FORT_QUOTE</Tag>
+    <English>"The house of everyone is to him his castle and fortress...as well for his defence against injury and violence as for his repose." - Edward Coke</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“每个人的家对他来说都是他的城堡和堡垒……也是他抵御伤害和暴力的保障，也是他的安息之所。”—爱德华·科克</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PROFESSIONAL_ARMY_QUOTE</Tag>
+    <English>"Good order and discipline in an army are more to be depended upon than mere ferocity." - Nicolo Machiavelli</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“军队的良好秩序和纪律不仅仅取决于凶残。”—尼古拉马基雅维利</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PUBLIC_WORKS_QUOTE</Tag>
+    <English>"The city will gain beauty worthy of its name and to you it will be useful for its revenues and the eternal flame of its aggrandizement." - Leonardo Da Vinci</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“这座城市将获得名副其实的美丽，对你来说，它将有益于它的收入和它不断膨胀的永恒火焰。”—达芬奇</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_RELIGIOUS_ART_QUOTE</Tag>
+    <English>"The true work of Art is but a shadow of the Divine Perfection." - Michelangelo</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“真正的艺术作品不过是神性完美的影子。”—米开朗基罗</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_RENAISSANCE_ART_QUOTE</Tag>
+    <English>"I saw the angel in the marble and carved until I set him free." - Michelangelo</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我看见天使在大理石上雕刻，直到我把他放出来。”—米开朗基罗</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_REPLACEABLE_PARTS_QUOTE</Tag>
+    <English>"True knowledge is greater than the sum of its parts." - Aristotle</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“真正的知识大于其各部分的总和。”—亚里士多德</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_RIGHTS_OF_MAN_QUOTE</Tag>
+    <English>"Man is born free but everywhere he is in chains." - Jean Jacques Rousseau</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“人生而自由，却处处受束缚。”—卢梭</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_SCIENTIFIC_METHOD_QUOTE</Tag>
+    <English>"I do not feel obliged to believe that the same God who endowed us with sense, reason and intellect has intended us to forgoe its use." - Galileo Galilei</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我不觉得有义务相信赋予我们理智、理智和智慧的同一位上帝，是有意让我们放弃使用它的。”—伽利略·伽利略</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_SHIPBUILDING_QUOTE</Tag>
+    <English>"Is this the face that launched a thousand ships?" - Christopher Marlowe</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“这就是发射一千艘船的脸吗？”-克里斯托弗·马洛</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_SIEGE_ENGINES_QUOTE</Tag>
+    <English>"And forty winters shall besiege thy brow, And dig deep trenches in the beauty's field. Against the wrackful siege of battering day. When rocks impregnable are not so stout." - William Shakespeare</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“四十个冬天要围困你的额头，在美丽的田野里挖深沟。以抵抗毁灭日的恐怖围攻。当坚不可摧的岩石不再那么坚固时。——莎士比亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_STEAM_ENGINES_QUOTE</Tag>
+    <English>"Wit's an unruly engine, wildly striking sometimes a friend, sometimes the engineer." - George Herbert</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“机智是一个不受控制的引擎，有时是朋友，有时是工程师，有时是疯狂的攻击。”—乔治·赫伯特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_STIRRUP_QUOTE</Tag>
+    <English>"If you speak the truth, have a foot in the stirrup." - Turkish proverb</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“如果你说的是真话，就要脚踏实地。”—土耳其谚语</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_THEOLOGY_QUOTE</Tag>
+    <English>"Two cities have been formed by two loves, the earthly by love of self, the heavenly by the love of God." - St. Augustine</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“两座城市是由两种爱组成的，一种是出于对自己的爱，一种是出于对上帝的爱。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_TRADING_COMPANIES_QUOTE</Tag>
+    <English>"Our wants are various, and nobody has been found able to acquire even the necessaries without the aid of other peoples. And there is scarcely any Nation that has not stood in the need of others." - Anders Chydenius</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我们的需求是多种多样的，没有人能够在没有其他人帮助的情况下获得任何必需品。几乎没有一个国家不需要别人的帮助</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_VASSALAGE_QUOTE</Tag>
+    <English>"As the King lives, so shall his vassals." - Old Portugese proverb</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“国王活着，他的臣仆也会活着。”—葡萄牙谚语</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_VAULTED_ARCHES_QUOTE</Tag>
+    <English>"Heavens gates are not so highly arched as prince's palaces, that they enter there must go upon their knees." - John Webster</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“天堂之门不像王子的宫殿那样高拱形，它们必须跪着进入那里。”—约翰·韦伯斯特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PRINTING_PRESS_QUOTE</Tag>
+    <English>"He who first shortened the labour of copyists by device of moveable type was disbanding hired armies and creating a whole democratic world through the art of the printing machine." - Thomas Carlyle</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“首先通过移动式装置缩短抄写员劳动的人是解散雇佣的军队，并通过印刷机的艺术创造一个完整的民主世界。”—托马斯·卡莱尔</Chinese>
+  </TEXT>
+</Civ4GameText>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Plague -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_BUILDING_PLAGUE</Tag>
+    <English>Plague</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>瘟疫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PLAGUE_SPREAD_CITY</Tag>
+    <English>Plague has spread in</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>瘟疫传入；</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PLAGUE_SPREAD_CIV</Tag>
+    <English>Plague has spread in the</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>瘟疫在</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PLAGUE_PROCESS_CITY</Tag>
+    <English>Plague was devastating for the local populace in</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>年的瘟疫对当地居民是毁灭性的</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PLAGUE_PROCESS_UNIT</Tag>
+    <English>Plague has killed our %s1 near</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>瘟疫在附近杀死了我们的%s1</Chinese>
+  </TEXT>
+</Civ4GameText>

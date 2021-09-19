@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Colonies and Projects -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_PREREQ_BONUS</Tag>
+    <English>[ICON_BULLET]Requires [LINK=literal]%s1_Bonus[\LINK] </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]要求[LINK=literal]%s1_Bonus[\LINK] </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_PPROJECT_REQUIRES1</Tag>
+    <English>[ICON_BULLET]Requires [LINK=literal]%s1_Bonus[\LINK] </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]要求[LINK=literal]%s1_Bonus[\LINK] </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_PPROJECT_REQUIRES2</Tag>
+    <English> [SPACE] (%D1_Mod) </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese> [SPACE] (%D1_Mod) </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_FREE_BONUS_RESOURCE1</Tag>
+    <English>[ICON_BULLET]Provides %D1_Mod </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]提供%D1_Mod </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_FREE_BONUS_RESOURCE2</Tag>
+    <English>[SPACE] [LINK=literal]%s1_Bonus[\LINK] </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[SPACE] [LINK=literal]%s1_Bonus[\LINK] </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_TRADING_COMPANY</Tag>
+    <English>Trading Company</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>贸易公司</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_EAST_INDIA_COMPANY</Tag>
+    <English>The East India Company</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>东印度公司</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_WEST_INDIA_COMPANY</Tag>
+    <English>The West India Company</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>西印度公司</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_ENCYCLOPEDIE</Tag>
+    <English>L'Encyclop閐ie</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>大百科全书</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_GOLD_COAST</Tag>
+    <English>Gold Coast</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>黄金海岸</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_IVORY_COAST</Tag>
+    <English>Ivory Coast</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>象牙海岸</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_CUBA</Tag>
+    <English>Cuba</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>古巴</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_BRAZIL</Tag>
+    <English>Brazil</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>巴西</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_HUDSON</Tag>
+    <English>Hudson Bay</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>哈德逊湾</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_FAR_EASTERN_TREATY_PORT</Tag>
+    <English>Far Eastern Treaty Port</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>远东通商口岸</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_INDIA</Tag>
+    <English>Indian Trading Post</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>印度通商口岸</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_EAST_INDIES</Tag>
+    <English>East Indies</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>东印度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_MALAYSIA</Tag>
+    <English>Malaya</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>马来亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_CAPE_TOWN</Tag>
+    <English>Cape Town</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>开普敦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_VIRGINIA</Tag>
+    <English>Virginia</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>弗吉尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_EAST_AFRICA</Tag>
+    <English>East Africa</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>东非</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_AZTEC_CONQUEST</Tag>
+    <English>Aztec Conquest</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>征服阿兹特克</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_INCA_CONQUEST</Tag>
+    <English>Inca Conquest</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>征服印加</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_HISPANIOLA</Tag>
+    <English>Hispaniola</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>伊斯帕尼奥拉</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_QUEBEC</Tag>
+    <English>Quebec</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>魁北克</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_NEW_ENGLAND</Tag>
+    <English>New England</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>新英格兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_JAMAICA</Tag>
+    <English>Jamaica</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>牙买加</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_PANAMA</Tag>
+    <English>Panama</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>巴拿马</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_LOUISIANA</Tag>
+    <English>Louisiana</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>路易斯安那</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_PHILLIPPINES</Tag>
+    <English>Philippines</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>菲律宾</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_GUINEA</Tag>
+    <English>Guinea</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>几内亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_VINLAND</Tag>
+    <English>Vinland</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>文兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_ENCYCLOPEDIE_PEDIA</Tag>
+    <English>[TAB]"L'Encyclop閐ie, ou dictionnaire raisonn?des sciences, des arts et des m閠iers" (English: Encyclopedia, or a systematic dictionary of the sciences, arts, and crafts) was a general encyclopedia published in France between 1751 and 1772, with later supplements and revisions in 1772, 1777 and 1780 and numerous foreign editions and later derivatives.[PARAGRAPH:2]Its introduction, the Preliminary Discourse, is considered an important exposition of Enlightenment ideals. The Encyclop閐ie's self-professed aim was "to change the way people think." It was hoped that the work would eventually encompass all of human knowledge; Denis Diderot explained the goal of the project as "All things must be examined, debated, investigated without exception and without regard for anyone's feelings."[PARAGRAPH:2]The Encyclop閐ie was originally meant to be simply a French translation of Ephraim Chambers's Cyclopaedia (1728). The translation was commissioned by Paris book publisher Andr?Le Breton in 1743 to John Mills, an English resident in France. In May 1745 Le Breton announced the work as available for sale - however to Le Breton's dismay, Mills had not done the work he was commissioned to do; in fact, he could barely read and write French and did not even own a copy of Cyclopaedia. Le Breton had been swindled, and so he physically beat Mills with a cane - Mills sued on assault charges, but Le Breton was acquitted in court as being justified. Setting out to find a new editor, Le Breton engaged Jean Paul de Gua de Malves. Among those hired by Malves were the young 蓆ienne Bonnot de Condillac, Jean le Rond d'Alembert and Denis Diderot. Within thirteen months, in August 1747, Malves was fired due to his rigid methods. Le Breton then hired Diderot and Jean d'Alembert as the new editors. Diderot would remain editor for the next 25 years, seeing the Encyclop閐ie through to completion.[PARAGRAPH:2]The work comprised 35 volumes, with 71,818 articles, and 3,129 illustrations. The first 28 volumes were published between 1751 and 1766 and were edited by Diderot - although some of the later picture-only volumes were not actually printed until 1772. The remaining five volumes were completed by other editors in 1777, along with a two volume index in 1780. Many of the most noted figures of the French enlightenment contributed to the work including Voltaire, Rousseau, and Montesquieu. The single greatest contributor was Louis de Jaucourt who wrote 17,266 articles, or about 8 per day between 1759 and 1765.[PARAGRAPH:2]The writers of the encyclopedia saw it as a vehicle to covertly destroy superstitions while overtly providing access to human knowledge. It was a summary of thought and belief of the Enlightenment. In ancien r間ime France it caused a storm of controversy, due mostly to its tone of religious tolerance. The encyclopedia praised Protestant thinkers and challenged Catholic dogma, and classified religion as a branch of philosophy, not as the ultimate source of knowledge and moral advice. The entire work was banned by royal decree and officially closed down after the first seven volumes in 1759; but because it had many highly placed supporters, notably Madame de Pompadour, work continued "in secret". In truth, secular authorities did not want to disrupt the commercial enterprise which employed hundreds of people. To appease the church's enemies of the project, the authorities had officially banned the enterprise, but they turned a blind eye to its continued existence.[PARAGRAPH:2]The Encyclop閐ie played an important role in the intellectual ferment leading to the French Revolution. While it is debatable that the editors intended to have a radical influence on French society, it can hardly be denied that it did. The Encyclop閐ie denied that the teachings of the Catholic Church could be treated as authoritative in matters of science. The editors also refused to treat the decisions of political powers as definitive in intellectual or artistic questions. Given that Paris was the intellectual capital of Europe at the time and that many European leaders used French as their administrative language, these ideas had the capacity to spread.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]“百科全书”（英文百科全书，或科学、艺术和手工艺的系统词典）是1751年至1772年在法国出版的一部通用百科全书，1772年、1777年和1780年进行了后来的补充和修订，以及许多外国版本和后来的衍生版本。[第2段]其导言，初步论述，被认为是启蒙理想的重要阐述。百科全书自诩的目的是“改变人们的思维方式”。人们希望这项工作最终能涵盖人类所有的知识；丹尼斯·狄德罗解释说，这个项目的目标是“所有的事情都必须被审查、辩论、调查，没有例外，也不考虑任何人的感受。”原本只是法文版的《伊法莲钱伯斯百科全书》（1728）。翻译是受巴黎图书出版商Andr？1743年勒布列顿送给约翰·米尔斯，一个住在法国的英国人。1745年5月，勒布列顿宣布该作品可供出售——然而令勒布列顿感到沮丧的是，米尔斯没有完成他被委托做的工作；事实上，他几乎不会读写法语，甚至没有一本百科全书。勒布雷顿被骗了，所以他用甘蔗作坊殴打米尔斯，并以殴打罪起诉，但勒布雷顿在法庭上被宣判无罪。开始寻找一个新的编辑，勒布列顿聘请让保罗德瓜德马尔维斯。马尔维斯雇佣的人包括年轻的伊恩·邦诺·德·康迪拉克、让·勒隆德·阿伦贝尔和丹尼斯·迪德罗。在1747年8月的13个月内，马尔夫斯因为方法僵化而被解雇。勒布列顿随后聘请狄德罗和让阿伦贝尔为新编辑。狄德罗将在接下来的25年里继续担任编辑，直到完成这部百科全书。前28卷出版于1751年至1766年之间，由狄德罗编辑，尽管后来的一些纯图片的卷直到1772年才真正印刷出来。其余五卷由其他编辑于1777年完成，另外两卷索引于1780年完成。法国启蒙运动中许多最著名的人物都对这部作品做出了贡献，包括伏尔泰、卢梭和孟德斯鸠。最伟大的贡献者是路易·德·贾考特（Louis de Jaucourt），他在1759年至1765年间撰写了17266篇文章，大约每天8篇。[第2段]百科全书的作者将其视为一种工具，在公开提供人类知识的同时，暗中摧毁迷信。这是启蒙运动思想和信仰的总结。在古代的法国，它引起了一场争论，主要是由于它的宗教宽容的基调。百科全书赞扬新教思想家，挑战天主教教条，并将宗教归类为哲学的一个分支，而不是知识和道德建议的最终来源。整个作品被皇家法令禁止，并在1759年出版前七卷后正式停刊；但由于它有许多地位很高的支持者，尤其是庞巴杜夫人，所以作品继续“秘密”进行。事实上，世俗当局并不想破坏雇佣了数百人的商业企业。为了安抚教会对这项计划的敌人，当局正式禁止了这项计划，但他们对它的继续存在视而不见。[第2段]百科全书在导致法国大革命的思想发酵中发挥了重要作用。尽管编辑们有意对法国社会产生激进的影响这一点值得商榷，但也不能否认这一点。百科全书否认天主教会的教义在科学上是权威的。编辑们也拒绝将政治权力的决定视为智力或艺术问题上的决定性决定。鉴于巴黎当时是欧洲的知识之都，许多欧洲领导人使用法语作为行政语言，这些思想有传播的能力。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_EAST_INDIA_COMPANY_PEDIA</Tag>
+    <English>[TAB]Following the voyages of the early Portugese and Spanish explorers around the coast of Africa, India, the East Indies, China and Japan, many European nations established trading posts and plantation colonies to exploit the abundant herbs, spices, fruits and precious stones so much in demand in Europe. In order to attract investment in the new colonies and spread the risk of trade with such far-off areas of the world, a number of joint stock companies were formed under royal charter or license in England, France, the Netherlands and other European countries.[PARAGRAPH:2]The first was the British East India Company, founded in 1600 for trade in India and China. Trading largely in cotton, silk, dye, tea and opium, it was enormously profitable and even established absolute rule over the Indian sub-continent from 1757 to 1858. Another was the Dutch East India Company, formed in 1602 which developed a monoply in the nutmeg and clove trade in the Spice Islands, Java and Sumatra, establishing vast plantations using slave labour and ruling much of the East Indies on behalf of the Dutch Republic. Other notable East India Companies were formed by France, Portugal, Denmark and Sweden. </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]早期葡萄牙和西班牙探险家在非洲、印度、东印度群岛、中国和日本沿岸航行后，许多欧洲国家建立了贸易站和种植殖民地，以开发欧洲需求量巨大的丰富的草药、香料、水果和宝石。为了吸引新殖民地的投资，并分散与世界上如此遥远地区的贸易风险，英国、法国、荷兰和其他欧洲国家根据皇家特许或执照成立了一些股份公司，成立于1600年，用于印度和中国的贸易。它主要从事棉花、丝绸、染料、茶叶和鸦片贸易，利润丰厚，甚至在1757年至1858年间确立了对印度次大陆的绝对统治。另一家是1602年成立的荷兰东印度公司，该公司在香料岛、爪哇岛和苏门答腊岛发展肉豆蔻和丁香贸易的垄断地位，利用奴隶劳动建立了广阔的种植园，并代表荷兰共和国统治了东印度群岛的大部分地区。其他著名的东印度公司由法国、葡萄牙、丹麦和瑞典组成。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_WEST_INDIA_COMPANY_PEDIA</Tag>
+    <English>[TAB]The late 16th century saw the establishment of new European colonies in the New World, following the voyages of exploration by the Spanish aand Portugese and the conquest of the Aztec and Incan empires. The earliest colonies, like Cuba, Hispaniola, Brazil and New Spain, were established as royal concessions to wealthy aristocrats who ruled in conjunction with the "Casa de Contracion" (House of Trade) which strictly controlled all exploration, imported goods, and the foundation and administration of colonies on behalf of the Crown.[PARAGRAPH:2]With the early 17th century came the establishment of joint-stock companies in England, France and the Netherlands, selling shares to investors to spread the risk of trade and hazardous sea voyages in the development of colonial ventures in the New World. The earliest companies were formed under Royal charters granted to the Virginia Company, the London Company and the Plymouth Company, set up to develop the Jamestown and New England colonies. Later examples included the French West India Company, the Dutch West India Company, the Danish West India Company, the Hudson Bay Company and the Compagnie de l'Occident.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]16世纪末，随着西班牙和葡萄牙的探险之旅以及阿兹特克和印加帝国的征服，新大陆建立了新的欧洲殖民地。最早的殖民地，如古巴、伊斯帕尼奥拉、巴西和新西班牙，都是作为皇室租让地建立起来的，这些租让地是与严格控制所有勘探、进口货物的“康特拉宫”（Casa de Contracion）一起统治的富有贵族的，（2）十七世纪初，英国、法国和荷兰设立了股份公司，向投资者出售股份，以在新世界发展殖民地企业时，分散贸易风险和危险海上航行的风险。最早的公司是根据授予弗吉尼亚公司、伦敦公司和普利茅斯公司的皇家特许成立的，这些公司的成立是为了开发詹姆斯敦和新英格兰殖民地。后来的例子包括法国西印度公司、荷兰西印度公司、丹麦西印度公司、哈德逊湾公司和西方公司。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_AZTEC_CONQUEST_PEDIA</Tag>
+    <English>[TAB]In Feb. 1519, the Spanish conquistador, Hernan Cortes, landed with an army of 530 men on the coast of Mexico near present-day Veracruz. Gathering a large force including thousands of Tlaxcalan Indian allies he first massacred the Aztec town of Cholula then advanced on their capital, Tenochtitlan. Warily, Moctezuma, the Aztec emperor treated the invaders with caution and respect, suspecting that Cortes was an incarnation of the white feathered serpent god "Quetzalcoatl".[PARAGRAPH:2]At first the Spaniards seemed welcome but increasingly alienated their hosts with greater and greater demands for gold as tribute. As Cortes put it, "We Spaniards suffer from a disease that only gold can cure". All the Spanish demands were met but Cortes demanded more, finally imprisoning Moctezuma in his own palace to discourage any Aztec revolt. But warfare against the Aztecs continued for another year with great losses on both sides, first one gaing the upper hand then the other.[PARAGRAPH:2]Finally the Spaniards and their Tlaxcalan allies triumphed and Tenochtitlan fell in August 1521 when the last Aztec emperor, Cuauhtemoc, surrendered to Cortes. The "Council of the Indies" was instituted in the newly-renamed Mexico City in 1524 and the first "AUdienca" in 1535 as the lands of the Aztecs were formally incorporated by Charles V into the Spanish Empire as the province of "New Spain", the largest and potentially the most wealthy of his overseas possessions.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[附文]1519年2月，西班牙征服者赫尔南·科尔特斯率领530人的军队在墨西哥海岸靠近今天的韦拉克鲁斯登陆。他首先屠杀了阿兹特克的乔鲁拉镇，然后向他们的首都特诺奇蒂兰挺进，集结了包括数千名特拉克斯卡兰印第安人盟友在内的庞大部队。阿兹特克皇帝莫特祖马谨慎而尊重地对待入侵者，怀疑科尔特斯是白羽蛇神“格扎尔考特”的化身。[第2段]起初西班牙人似乎很受欢迎，但越来越疏远他们的东道主，越来越多地要求黄金作为贡品。正如科尔特斯所说，“我们西班牙人患有只有黄金才能治愈的疾病”。西班牙的所有要求都得到了满足，但科尔特斯要求更多，最后将莫特祖马囚禁在自己的宫殿里，以阻止阿兹特克人的反抗。但与阿兹特克人的战争又持续了一年，双方都遭受了巨大损失，先是占了上风，然后又占了上风。“印度群岛议会”于1524年在新改名的墨西哥城成立，1535年在阿兹特克人的土地被查理五世正式并入西班牙帝国，成为“新西班牙”的一个省，这是他在海外拥有的最大和可能最富有的财产。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_INCA_CONQUEST_PEDIA</Tag>
+    <English>[TAB]When Spanish conquistadors led by Francisco Pizarro arrived in 1528 the Empire of the Inca extended the length of the Pacific coast from Columbia to Chile. This vast empire was unstable and difficult to govern, so when the Emperor, Huayna Capac and his heir died suddenly of smallpox, his empire was plunged into a civil war between two rival sons, Huascar and Atahualpa.[PARAGRAPH:2]The arrival of a force of 182 Spanish soldiers, many with firearms and horses, caused great panic as smallpox and measles decimated the Incan and subject populations. Pizarro met Atahualpa demanding gold as tribute and conversion of the Inca to Christianity but despite complying with most of the Spanish demands, Atahualpa was captured and later executed by Pizarro in 1533. Despite the defeat of the rival Huascar, stiff Incan resistance continued until 1535 when Pizarro captured Cuzco and founded Lima as the capitol of the new Spanish colony.[PARAGRAPH:2]After a period of civil war between rival Spanish factions Pizarro was himself assassinated in 1541 and it was not until 1542 that the last organized rebellion ended. Finally Spanish Royal authority was established in Lima with the creation of the Viceroyalty of New Castille later becoming the Viceroyalty of Peru as all Incan resistance came to an end with the capture and execution of the last Inca, Tupac Amaru, at Vilcabamba in 1572.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]1528年，当弗朗西斯科·皮萨罗率领的西班牙征服者到达时，印加帝国将太平洋沿岸从哥伦比亚延伸到智利。这个庞大的帝国是不稳定的，很难统治，所以当皇帝华伊娜·卡帕克和他的继承人突然死于天花时，他的帝国陷入了两个敌对的儿子华斯卡和阿塔华尔帕之间的内战。[第2段]182名西班牙士兵的到来，其中许多人携带武器和马，引起了极大的恐慌，如天花和麻疹毁灭印加人和受试者。皮萨罗会见了阿塔瓦尔帕，要求黄金作为贡品，并将印加人皈依基督教，但尽管阿塔瓦尔帕遵守了西班牙的大部分要求，他还是被俘虏，并于1533年被皮萨罗处决。尽管击败了对手华斯卡，激烈的印加抵抗一直持续到1535年，皮萨罗占领了库斯科，并建立了利马作为新的西班牙殖民地的国会大厦。[第2段]在西班牙敌对派系之间的内战之后，皮萨罗本人于1541年被暗杀，直到1542年，最后一次有组织的叛乱才结束。最后，随着新卡斯蒂利亚总督的创建，西班牙皇室权威在利马建立，后来成为秘鲁总督，因为随着1572年最后一个印加人图帕克·阿马鲁（Tupac Amaru）在维尔卡班巴（Vilcabamba）被抓获并处决，所有印加人的抵抗活动结束。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_HUDSON_PEDIA</Tag>
+    <English>[TAB]In 1610, the English explorer, Henry Hudson lead an expedition to the NW coast of the Americas in search of a Northwest passage which might lead directly to India. Rounding the tip of Labrador he explored the east coast of Hudson Bay as far south as the lower shores of James Bay. The late 17th century saw the establishment of a French monopoly of the fur trade in the area from their bases in Quebec and Montreal, a monopoly the English Crown was keen to challenge.[PARAGRAPH:2]Finally, an English expedition guided by Cree Indians and French fur traders explored the Hudson Bay and James Bay area before founding Fort Rupert in 1668, putting them in direct competition with the French. "The Governor and Company of Adventurers of England Trading in Hudson Bay" was incorporated in 1670 by a Royal charter from King Charles II granting them a monopoly over the fur trade in the lands north of the Great Lakes which was known as "Rupert's Land".[PARAGRAPH:2]Frequent wars between the English and French saw both sides battle for control of the lucrative fur trade before the whole area as far as the Great Plains was ceded to Britain by the Treaty of Utrecht in 1713. The Company, with York Factory as its headquarters, was renamed as the Hudson's Bay Company and merged with the NorthWest Company of Montreal in 1821, controlling vast tracts of fur-producing lands as far west as the Rockies and the Missouri River.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]1610年，英国探险家亨利·哈德森率领一支探险队前往美洲西北海岸，寻找可能直接通向印度的西北航道。他绕过拉布拉多的尖端，探索了哈德逊湾的东海岸，一直向南到詹姆斯湾的下海岸。17世纪末，法国在魁北克和蒙特利尔建立了对该地区皮毛贸易的垄断，英国皇冠急于挑战这一垄断1668年，使他们与法国人直接竞争。”1670年，英国国王查理二世颁布了一项皇家特许状，将哈德逊湾贸易的总督和冒险者公司“并入英国，授予他们对大湖北部被称为“鲁珀特之地”的地区皮毛贸易的垄断权。[第2段]英法之间频繁的战争导致双方争夺控制权在1713年《乌得勒支条约》将整个大平原割让给英国之前，利润丰厚的毛皮贸易。该公司以约克工厂为总部，更名为哈德逊湾公司，并于1821年与蒙特利尔西北公司合并，控制着西部至落基山脉和密苏里河的大片毛皮生产地。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_LOUISIANA_PEDIA</Tag>
+    <English>[TAB]The first Europeans to visit Louisiana were the Spanish in 1528, then by the conquistador, Hernado de Soto, who discovered the mouth of the Mississippi river in 1541. But it was not until the late 16th century that the French established a foothold in the region, when Robert Cavalier de la Salle, exploring the river south from the Great lakes, first founded St. Louis and La Belise (Biloxi) in 1682. Once the French became established on the Mississippi the port of New orleans was founded in 1722.[PARAGRAPH:2]The region was first settled by German immigrants and French colonists from Saint Domingue who imported thousands of African slaves to develop vast tobacco, rice and cotton plantations along the floodplains of the river. Despite many slave revolts which caused much unrest, the port of New Orleans became the largest slave market in North America. The British conquest of Quebec brought a wave of French Acadian refugees, many of whom intermarried with escaped slaves and fled deep into the swamps of the interior, giving rise to the mixed race Creole and Cajun populations we see today.[PARAGRAPH:2]With the fall of French Canada and the Treaty of Paris in 1763, the Louisiana territories were awarded to the Spanish who ruled until 1800 when it was briefly acquired for the French by Napoleon Bonaparte. Finally, the vast territory leading up into Canada and far into the NorthWest was sold to the United States in 1803 as what became known as the "Louisiana Purchase".</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>第一批访问路易斯安那州的欧洲人是1528年的西班牙人，然后是1541年发现密西西比河河口的征服者埃尔纳多·德索托。但直到16世纪末，法国人才在该地区建立了立足点，罗伯特·卡瓦利埃·德·拉萨尔（Robert Cavalier de la Salle）从五大湖向南探索河流，于1682年首次建立了圣路易斯和拉贝利斯（Biloxi）。法国人在密西西比河上建立后，新奥尔良港于1722年建立。[第2段]该地区最初由来自圣多明戈的德国移民和法国殖民者定居，他们进口了数千名非洲奴隶，在河漫滩上发展了大片的烟草、水稻和棉花种植园。尽管许多奴隶起义引起了许多动乱，新奥尔良港还是成为北美最大的奴隶市场。英国对魁北克的征服带来了法国阿卡迪亚难民的浪潮，他们中的许多人与逃跑的奴隶通婚，逃到内地的沼泽地深处，导致了我们今天看到的克里奥尔人和卡琼人的混血，路易斯安那州的领土被授予西班牙人，西班牙人一直统治到1800年，当时拿破仑·波拿巴曾短暂地为法国人取得了路易斯安那州的领土。最后，这片通往加拿大和西北部的广阔领土于1803年被出售给美国，被称为“路易斯安那购买”。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_NEW_ENGLAND_PEDIA</Tag>
+    <English>[TAB]In the early 16th century following the Spanish and Portugese exploration and conquest of the New World, Iberian claims came into conflict with other European powers, chiefly the Dutch, French and English. French colonization focused on Quebec with its rich fur resources while the Dutch and English settled the east coast of North America. English immigration in the 17th century, often initiated by people fleeing from religious persecution in Europe, resulted in the founding of several colonies on the Northeast coast which soon became known as New England.[PARAGRAPH:2]The first was the New Plymouth colony, founded in 1620 by Puritan settlers under a patent from the London Virginia Company. Despite initial conflicts and the threat of starvation, the colony survived and attracted further emigration from England. The Massachusetts Bay Colony was established in 1629 with the arrival of 400 English settlers and further settlements were added in the following years, including the Connecticut, New Hampshire and Rhode Island colonies.[PARAGRAPH:2]The New England colonies prospered in subsequent years, with their abundant fish, fur and timber resources. The fur trade provided much needed income in the early years. A growing agricultural economy provided increasing amounts of food, exporting large quantities of wheat, corn and flax to England and her colonies in the West Indies. Fish was also an important food source and the the vast forests provided valuable timber, giving rise to a thriving whaling and ship-building industry in ports like Boston, Salem and Nantucket by the mid-18th century.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]16世纪初，在西班牙和葡萄牙对新世界的探索和征服之后，伊比利亚的主张与其他欧洲大国发生了冲突，主要是荷兰、法国和英国。法国的殖民地集中在魁北克，拥有丰富的毛皮资源，而荷兰人和英国人则定居在北美东海岸。17世纪的英国移民，通常是由逃避欧洲宗教迫害的人发起的，结果在东北海岸建立了几个殖民地，很快就被称为新英格兰，1620年由清教徒定居者在伦敦弗吉尼亚公司的专利下建立。尽管最初的冲突和饥饿的威胁，殖民地生存下来，并吸引更多的移民从英国。1629年，随着400名英国殖民者的到来，马萨诸塞湾殖民地成立，随后几年又增加了新的殖民地，包括康涅狄格州、新罕布什尔州和罗德岛殖民地。[第2段]新英格兰殖民地在随后的几年里繁荣起来，拥有丰富的鱼、毛皮和木材资源。毛皮贸易在早期提供了急需的收入。日益增长的农业经济提供了越来越多的粮食，向英格兰和她在西印度群岛的殖民地出口大量小麦、玉米和亚麻。鱼类也是重要的食物来源，广阔的森林提供了宝贵的木材，从而在18世纪中叶在波士顿、塞勒姆和南塔基特等港口形成了繁荣的捕鲸和造船业。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_QUEBEC_PEDIA</Tag>
+    <English>[TAB]Early French exploration of the New World centered chiefly on the search for a Northwest Passage to India. Following visits by Basque and Breton fishermen to the rich cod fisheries of the Grand Banks near Newfoundland, the French explorer Jacques Cartier explored the Gulf of St. Lawrence and the river as far as present-day Montreal in 1535. After years of French fishing and trading expeditions, Samuel de Champlain founded the town of Quebec in 1608 as the capital of the colony of New France and explored the Great Lakes region.[PARAGRAPH:2]France quickly developed a lucrative fur trade with the local Algonquin and Huron tribes by forging alliances with them against their enemies, the Iroquois. Though the population of the colony was rarely more than a few hundred, the French encouraged young men to live among the Huron,learning their language and customs. These men, known as "coureurs des bois" acted as fur traders, explorers and guides, helping to extend French influence beyond the Great Lakes and the Ohio River.[PARAGRAPH:2]New France prospered with increased immigration in 17th and 18th centuries, despite frequent wars with the English and their native allies. The towns of Trois Rivieres and Montreal were founded as the fertile plains of the St. Lawrence river were farmed, the forests provided valuable timber and Jesuit missionaries spread Christianity among friendly tribes. But New France finally fell with the English capture of Quebec in 1759 during the Seven Years War and most French territories in North America were ceded to Britain after the Treaty of Paris in 1763.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>法国早期对新世界的探索主要集中在寻找通往印度的西北航道上。在巴斯克和布雷顿渔民参观纽芬兰附近大河岸丰富的鳕鱼渔场之后，法国探险家雅克·卡地亚于1535年探索了圣劳伦斯湾和这条河，直到今天的蒙特利尔。经过多年的法国捕鱼和贸易考察，塞缪尔·德·尚普兰于1608年建立了魁北克镇，作为新法国殖民地的首府，并探索了大湖区。[第2段]法国与当地的阿尔冈昆部落和休伦部落结成联盟，对抗他们的敌人易洛魁人。虽然这个殖民地的人口很少超过几百人，但法国人鼓励年轻人生活在休伦人中间，学习他们的语言和习俗。这些被称为“courers des bois”的人充当皮草商人、探险家和向导，帮助将法国的影响扩展到大湖区和俄亥俄河以外。[第2段]尽管与英国及其本土盟友经常发生战争，17和18世纪，随着移民的增加，新法国繁荣起来。特洛伊里维埃雷斯和蒙特利尔的城镇是在圣劳伦斯河肥沃的平原上开垦的，森林提供了宝贵的木材，耶稣会传教士在友好的部落中传播基督教。但新法国最终在1759年英国占领魁北克的七年战争中沦陷，1763年《巴黎条约》签订后，法国在北美的大部分领土被割让给英国。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_VIRGINIA_PEDIA</Tag>
+    <English>[TAB]The first English colony in the New World was at Roanoke in present-day Virginia when the English adventurer, Sir Walter Raliegh, sent two groups of colonists to the area in 1584-87 though their settlements eventually failed. A further attempt by the Virginia Company in 1607 established a colony at Jamestown which survived despite being ill-equiped, nearly vanishing in the winter of 1609-10. The colony grew and soon flourished as the first valuable cargo of Virginia-grown tobacco arrived in England in 1612.[PARAGRAPH:2]The Virginia colony began to prosper with a thriving tobacco industry and a lucrative agriculture and fur trade as more settlers from England and the first African slaves arrived from Angola. Despite repeated conflict with the local Powatan tribes, it grew rapidly and established control of the rich coastal plain by 1646. Meanwhile the Virginia Company's charter was revoked and the colony came under direct control of the Crown, who realized its truly great potential.[PARAGRAPH:2]Most Virginia colonists remained loyal during the English Civil War and many Royalists fled to the colony. establishing some of the area's most important families. After the Restoration, Charles II rewarded Virginia's loyalty with the nickname "Old Dominion" by which it is still known today. The Virginia Colony, with it's wealthy tobacco and cotton economy based on great plantations worked by slaves, became the richest British colony in North America, which it remained right up until the American Revolution.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>新大陆上的第一个英国殖民地是在今天的弗吉尼亚州的罗诺克，当时英国冒险家沃尔特·拉莱格爵士在1584-1587年派遣了两批殖民者前往该地区，尽管他们的定居点最终失败了。1607年弗吉尼亚公司的进一步尝试在詹姆斯敦建立了一个殖民地，尽管装备简陋，但仍然幸存下来，1609-16010年冬天几乎消失。1612年，随着第一批珍贵的弗吉尼亚烟草货物运抵英国，殖民地迅速发展壮大。[第2段]随着越来越多的英国定居者和第一批非洲奴隶从安哥拉抵达，弗吉尼亚殖民地开始繁荣起来，烟草业蓬勃发展，农业和毛皮贸易利润丰厚。尽管与当地的波瓦坦部落一再发生冲突，但它迅速发展，并于1646年控制了富饶的沿海平原。与此同时，维吉尼亚公司的章程被撤销，殖民地直接控制在皇室之下，皇室意识到了它真正的巨大潜力。[第2段]大多数维吉尼亚殖民者在英国内战期间仍然忠诚，许多保皇党人逃到殖民地。建立该地区一些最重要的家庭。复辟后，查理二世以“旧领地”的绰号来奖励弗吉尼亚的忠诚，这个绰号至今仍为人所知。维吉尼亚殖民地，其富裕的烟草和棉花经济是建立在奴隶种植园的基础上的，成为北美最富有的英国殖民地，直到美国革命。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_GOLD_COAST_PEDIA</Tag>
+    <English>[TAB]First explored by Prince Henry the Navigator in 1471, the Gold Coast was the region of West Africa now corresponding to the nation of Ghana. The Portugese built the first colony in 1482 with a castle at Elmina (or" the mine"), so named for the fabulous amounts of gold they discovered there. The Dutch also colonised the area from 1598 and absorbed all Portugese holdings in 1642 when the area became known as the Dutch Gold Coast, run by the Dutch West india Company centered on their capital and fortress town of Fort Nassau.[PARAGRAPH:2]There was also the Brandenburger Gold Coast founded in 1682 which became known as the Prussian Gold Coast. Sweden established a colony in 1650 but it was seized by Denmark in 1663, forming the basis of the Danish Gold Coast. The entire coastline became dotted by more than 30 forts and castles built to protect the interests of Dutch, Danish and British merchants, the largest concentration of military architecture outside Europe. Finally, by the 19th century the whole area was ceded by the Dutch to the control of the British African Company.[PARAGRAPH:2]The opening of European plantations in the New World expanded the demand for African slaves, which soon overshadowed the importance of gold from the area. Much of the conflict between European nations on the coast and competing African kingdoms was a struggle for control of the highly profitable slave trade. By the 18th century as much as 5000 slaves per year were shipped to the Americas from the Gold Coast alone. Later British control of the Gold Coast however became dominated by their efforts to eliminate and abolish the slave trade altogether.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>【TAB】1471年航海家亨利王子首次探索黄金海岸，当时是西非地区，现在与加纳国相对应。1482年，葡萄牙人在埃尔米纳建造了第一个殖民地（或称“矿场”），以他们在那里发现的大量黄金而得名。荷兰人也从1598年开始对该地区进行殖民统治，并在1642年吸收了葡萄牙的所有财产，当时该地区被称为荷兰黄金海岸，由荷兰西印度公司经营，以其首都和要塞城市拿骚堡为中心。[第2段]还有建于1682年的布兰登堡黄金海岸，后来被称为普鲁士黄金海岸。瑞典在1650年建立了殖民地，但1663年被丹麦占领，形成了丹麦黄金海岸的基础。整个海岸线点缀着30多个堡垒和城堡，这些城堡是为保护荷兰、丹麦和英国商人的利益而建造的，是欧洲以外最大的军事建筑集中地。最后，到了19世纪，整个地区被荷兰人割让给了英国非洲公司（British African Company）的控制权。欧洲沿岸国家和非洲国家之间的冲突，很大程度上是为了控制利润丰厚的奴隶贸易而进行的斗争。到18世纪，每年仅从黄金海岸就有多达5000名奴隶被运往美洲。然而，后来英国对黄金海岸的控制却被他们彻底消除和废除奴隶贸易的努力所支配。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_IVORY_COAST_PEDIA</Tag>
+    <English>[TAB]The first Europeans to explore the west coast of Africa in the late 15th century were the Portugese who traded along the Ivory Coast with native peoples for gold, ivory and pepper. The establishment of European plantation colonies in The New World during the 16th century spawned a new demand for slaves, which soon became the major export of the native kingdoms in the West African coastal regions. The Ivory Coast, unlike the Gold Coast to the east, lacked sheltered harbours along its coastline, which prevented the Europeans from establishing permanent trading posts and forts.[PARAGRAPH:2]Seaborne trade, therefore, was irregular along the coast and the slave trade in particular had little effect pn the peoples of the Ivory Coast. A profitable trade in ivory however did develop in the 17th century, giving the region its name, but it declined and virtually died out by the late 18th century due to the decimation of the local elephant population. Trade in gold, pepper and tropical fruits continued with the European colonies to the east but the Ivory Coast itself saw little European settlement or permanent trading links until well into the 17th Century.[PARAGRAPH:2]The earliest French voyage to the West African coast was in 1483 but the first permanent settlement, Saint Louis in present-day Senegal, was not established until the mid-17th century. The first French presence in the Ivory Coast came with founding of a mission at Assimie near the borders of the Gold coast in 1637. But its status as an established colony did not come about until the early 1840's when the French signed treaties with local tribes and proclaimed a protectorate over the whole Ivory Coast with its first capital at Grand Bassam.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]15世纪末，第一批探索非洲西海岸的欧洲人是葡萄牙人，他们在象牙海岸与当地人进行黄金、象牙和胡椒的贸易。16世纪欧洲种植园殖民地在新大陆的建立催生了对奴隶的新需求，很快成为西非沿海地区土著王国的主要出口。象牙海岸不像东部的黄金海岸，它的海岸线缺乏庇护的港口，这使得欧洲人无法建立永久的贸易站和堡垒。[第2段]因此，沿海的海上贸易是不正常的，尤其是奴隶贸易对象牙海岸的人民几乎没有影响。然而，17世纪确实发展了一种有利可图的象牙贸易，给该地区起了名字，但由于当地大象数量的大量减少，象牙贸易在18世纪末衰落并几乎消亡。黄金、胡椒和热带水果的贸易继续与东部的欧洲殖民地进行，但象牙海岸本身直到17世纪才见到欧洲的殖民地或永久贸易联系。[第2段]法国最早的西非之旅是在1483年，但第一个永久性殖民地是现在的圣路易斯塞内加尔，直到17世纪中叶才建立起来。法国在象牙海岸的第一次出现是在1637年黄金海岸边界附近的阿西米建立了一个使团。但是，直到1840年早期，法国与当地部落签订条约，宣布在整个象牙海岸建立保护国，其首府位于大巴萨姆，它作为一个既定殖民地的地位才得以实现。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_EAST_AFRICA_PEDIA</Tag>
+    <English>[TAB]Portugal was the first European nation to explore the east coast of Africa with Vasco da Gama visiting the area in 1498 on his way to India. Venice had previously controlled the trade routes between Europe and Asia but all land access to the Orient was effectively closed by the Ottoman Turks in the 15th century. Their in East Africa began in 1505 with the capture of Kilwa and Mombassa from the Omani Arabs who had previously controlled the lucrative coastal spice, coffee and slave trade based at the ports of Mombassa, Dar es Salaam and the island of Zanzibar.[PARAGRAPH:2]Throughout the 16th century the Portugese dominated the Indian Ocean due to their strategic control of the East African ports and shipping lanes, their naval vessels demanding a high tariff on all goods transported to Europe from India. The construction of Fort Jesus at Mombassa in 1593 and the founding of the Mozambique colony at Lourenco Marques solidified Portugese control of East Africa, but that influence was often interrupted by Omani Arab, Dutch and British incursions in the 17th and 18th. centuries as they soon lost control of their Indian Ocean monopoly.[PARAGRAPH:2]Finally, Portugese dominance ended as they lost interest in the spice trade and were ousted from Mombassa and other ports by the Omani Arabs in 1730. Arab colonization of East Africa revived as they planted large clove estates and increased their supply of slaves to Europe. Despite the continuation of the Portugese colony of Mozambique, Omani Arab dominance of the coast continued until the early 19th century when the British blockaded Zanzibar, Mombassa and other ports to eradicate the slave trade and occupied the territory which later became Kenya and Tanzania.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>【TAB】1498年，葡萄牙是第一个探索非洲东海岸的欧洲国家，瓦斯科·达加马在前往印度的途中访问了该地区。威尼斯以前控制了欧洲和亚洲之间的贸易路线，但15世纪奥斯曼土耳其人实际上关闭了通往东方的所有陆路通道。他们在东非的行动始于1505年，从阿曼阿拉伯人手中夺取了基尔瓦和蒙巴萨，这些阿拉伯人以前控制着蒙巴萨港口利润丰厚的沿海香料、咖啡和奴隶贸易，达累斯萨拉姆和桑给巴尔岛。[第2段]整个16世纪，由于对东非港口和航道的战略控制，葡萄牙控制了印度洋，其海军船只要求对从印度运往欧洲的所有货物征收高关税。1593年在蒙巴萨建造了耶稣堡，并在卢伦科侯爵建立了莫桑比克殖民地，巩固了葡萄牙对东非的控制，但这种影响经常在17日和18日被阿曼阿拉伯、荷兰和英国的入侵所中断。几个世纪后，他们很快失去了对印度洋垄断的控制。[第2段]最后，葡萄牙人的统治结束了，因为他们对香料贸易失去了兴趣，并在1730年被阿曼阿拉伯人赶出了蒙巴萨和其他港口。随着他们种植了大量丁香，并增加了对欧洲的奴隶供应，东非的阿拉伯殖民地复兴了。尽管葡萄牙殖民地莫桑比克继续存在，但阿曼-阿拉伯对海岸的统治一直持续到19世纪初，当时英国封锁桑给巴尔、蒙巴萨和其他港口，以根除奴隶贸易，占领后来成为肯尼亚和坦桑尼亚的领土。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_CAPE_TOWN_PEDIA</Tag>
+    <English>[TAB]The history of the Cape Colony began Bartholomeu Dias, a Portugese explorer, discovered the Cape of Good Hope in 1488. In 1497, Vasco da Gama sailed along the coast of South Africa seeking a sea route to India. Through the 16th century various fleets paused on their way to the Indian Ocean in order to restock on water, vegetables and meat, but it was not until 1652 that the Dutch East India Company established the first resupply station in the Cape Colony with the founding of Capetown. Confined to trading for cattle with the local Khokhoi peoples, the Colony remained undeveloped for many years.[PARAGRAPH:2]But trading relations with local people became strained as more and more white-owned farms were established to feed the Cape Colony, encroaching on the surrounding area and causing war with the Khokhoi and Xhosa inhabitants. Nomadic Dutch farmers, known as "Trekboers", migrated deep into the dry, grassy interior from the richer but limited coastal areas, coming into increasing conflict with native cattle herders for the best grazing land. Throughout the 18th century the Cape Colony remained largely an agricultural subsistence economy with only the promise of some rich mineral potential.[PARAGRAPH:2]Cape society became increasingly diverse from Europe as many Dutch colonists intermarried with local peoples creating the Cape Coloured mixed race population so predominant today. The emergence of "Afikaans" as a distinct Dutch dialect further distinguished the Cape population from their European roots. The beginning of the 19th century saw the discovery of vast quantities of gold and diamonds, sparking a fresh new wave of European immigration and speculation, prompting the British government to acquire Capetown and the Cape Colony from the Dutch East India Company in 1807.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>【TAB】殖民地的历史始于1488年，葡萄牙探险家巴塞洛缪迪亚斯发现了好望角。1497年，瓦斯科·达加马沿着南非海岸航行，寻找通往印度的海上航线。16世纪，为了补充水、蔬菜和肉类，各舰队在前往印度洋的途中都停了下来，但直到1652年，荷兰东印度公司才在开普敦建立了开普敦殖民地的第一个补给站。该殖民地仅限于与当地霍霍族人进行牛的贸易，多年来一直未得到发展。[第2段]但随着越来越多的白人拥有的农场被建立来喂养开普敦殖民地，侵犯了周边地区，并与霍霍族人和科萨居民发生战争，与当地人的贸易关系变得紧张。荷兰的游牧农民，被称为“特雷克布尔人”，从富裕但有限的沿海地区深入到干旱、多草的内陆地区，与当地牧民争夺最佳牧场的冲突日益加剧。整个18世纪，开普殖民地在很大程度上仍然是一个农业自给型经济体，只有一些丰富的矿产资源才有希望。[第2段]开普社会与欧洲的差异越来越大，因为许多荷兰殖民者与当地人民通婚，使得开普有色人种的人口在今天如此占主导地位。“Afikaans”作为一种独特的荷兰方言的出现，进一步区分了开普人和他们的欧洲根源。19世纪初，大量黄金和钻石被发现，引发了欧洲移民和投机的新浪潮，促使英国政府于1807年从荷兰东印度公司手中收购了开普敦和开普敦殖民地。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_JAMAICA_PEDIA</Tag>
+    <English>[TAB]Jamaica, the 3rd largest island in the Caribbean, was populated by the Taino or Arawak people when Christopher Columbus arrived in 1494 to claim the area for Spain. The natives were largely exterminated by massacres and disease as the Spanish occupation began in 1509 with the founding of Villa de la Vega (now called Spanish Town) and African slaves imported to work the new sugar plantations which would become the mainstay of the island economy. Jamaica also became a base of operations for many European buccaneers attacking Spanish shipping, like the pirate captain Henry Morgan, in return for discouraging other European powers from attacking the island.[PARAGRAPH:2]Between 1555 and 1655, Spanish Jamaica was subject to numerous pirate attacks from their bases on the north coast, the last of these resulting in the English occupation of the island. In 1657 the new Governor of Jamaica invited English buccaneers to base themselves at Port Royal while attacking Spanish treasure fleets in order to deter Spanish aggression. Port Royal remained a major base for pirates and privateers until it was destroyed by an earthquake in 1692. After the disaster, Kingston was founded on the large natural harbour, rapidly becoming the major commercial centre of Jamaica.[PARAGRAPH:2]Many African slaves arrived via the Atlantic slave trade to work on the sugar cane and coffee plantations and sugar exports made Jamaica one the most valuable colonial possessions in the world for the next 150 years. Throughout that period there were rising racial tensions as Jamaica experienced one of the highest instances of slave uprisings of any Caribbean island.[PARAGRAPH:2]The colony's slave population came to outnumber whites by 20:1, and many escaped slaves, known as "Maroons" established independent communities in the mountainous interior innaccesible to the British. Continued racial unrest persisted into the 19th century, contributing to the abolishment of slavery throughout the British Empire in 1834.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]1494年克里斯托弗·哥伦布抵达牙买加，声称该地区属于西班牙。牙买加是加勒比海第三大岛，当时居住着泰诺人或阿拉瓦克人。随着1509年西班牙占领伊始，维拉德拉维加（现称西班牙城镇）的建立和非洲奴隶的进口，当地人在很大程度上被屠杀和疾病所消灭，这些奴隶将成为岛上经济的支柱。牙买加也成为许多欧洲海盗袭击西班牙船只的行动基地，就像海盗船长亨利·摩根，作为阻止其他欧洲列强进攻该岛的回报。[第2段]在1555年至1655年间，西班牙-牙买加在其位于北海岸的基地遭受了多次海盗袭击，最后导致英国占领该岛。1657年，牙买加新总督邀请英国海盗在皇家港驻扎，同时攻击西班牙的珍宝船队，以阻止西班牙的侵略。在1692年被地震摧毁之前，皇家港一直是海盗和海盗的主要基地。灾后，金斯敦建立在一个巨大的天然海港上，迅速成为牙买加的主要商业中心。[第2段]许多非洲奴隶通过大西洋奴隶贸易来到这里，从事甘蔗和咖啡种植园的工作，并出口糖，使牙买加成为世界上最有价值的殖民地之一，在接下来的150年里年。在这段时期内，由于牙买加经历了加勒比岛屿上最严重的奴隶起义事件之一，种族紧张局势不断加剧。[第2段]殖民地的奴隶人口以20:1的比例超过白人，许多被称为“放逐者”的逃亡奴隶在内陆山区建立了难以接近的独立社区对英国人来说。持续的种族动荡一直持续到19世纪，促成了1834年整个大英帝国废除奴隶制。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_CUBA_PEDIA</Tag>
+    <English>[TAB]In October 1492, Christopher Columbus landed on the coast of Cuba, which was inhabited by the indigenous Taino and Ciboney peoples, sometimes known as the Arawak, who were primarily farmers and hunter gatherers. In 1511, the first Spanish settlement was founded at Baracoa by the conquistador, Diego Velasquez de Cuellar, and other towns soon followed including the future capitol, San Christobal de la Habana in 1515. The Spanish enslaved the approx. 100,000 indigenous people, sending some to Spain as servants while putting the rest to the searching and mining of gold. Within a hundred years the indigenous poulation was all but exterminated by European infectious diseases and massacres.[PARAGRAPH:2]The Spanish colonists learned the growing of tobacco and smoking it in cigars, giving rise to an extensive system of tobacco plantations which earned valuable profits from the export of dried and cured tobacco products to Europe. A similiar system of sugar growing became established which soon became the prime export earner of the colony. Cuba remained a valuable Spanish possession for nearly 400 years with it's thriving plantation-based economy and an important mining sector particularly in gold and gems. But it's true value to the Spanish Crown was the income derived from the export of tobacco and sugar to Western Europe and later to North America.[PARAGRAPH:2]The plantation system was manned largely by slaves, firstly indigenous Indians and those imported from the colony of Hispaniola but later by slaves traded from West Africa. Early restrictive Spanish trade laws and the closure of Cuban ports to European traffic prevented the economy from flourishing in the early years but an easing of regulations, followed by the influx of African slaves and advances in sugar refining processes in the 17-18th centuries brought a dramatic boom in the Cuban economy. Improvements in road transport, water mills and steam engines allowed Cuba to produce a higher quality of sugar than elsewhere in the Caribbean so that by 1800 Cuba became the world's leading supplier of sugar.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+
+    <Chinese>[附]1492年10月，克里斯托弗·哥伦布登陆古巴海岸，那里居住着土著泰诺人和锡博尼人，有时被称为阿拉瓦克人，他们主要是农民和狩猎采集者。1511年，征服者迭戈·维拉斯奎兹·德奎利亚尔（Diego Velasquez de Cuellar）在巴拉科亚建立了第一个西班牙殖民地，随后不久又建立了其他城镇，包括未来的国会大厦，1515年的圣赫里斯托巴尔·德拉哈巴纳（San Christobal de la Habana）。西班牙人奴役了大约10万土著人民，把其中一些人作为仆人送到西班牙，而把其余的人用于寻找和开采黄金。在一百年内，欧洲的传染病和大屠杀几乎消灭了当地的家禽。[第2段]西班牙殖民者学会了烟草的种植和雪茄烟的熏制，产生了一个广泛的烟草种植系统，从向欧洲出口干烟叶和烤烟产品中获得了宝贵的利润。一个类似的蔗糖种植体系建立起来，很快成为殖民地的主要出口创收者。古巴近400年来一直是西班牙宝贵的领土，种植园经济蓬勃发展，是一个重要的采矿部门，尤其是黄金和宝石。但对西班牙皇室来说，真正的价值在于向西欧和后来向北美出口烟草和糖所得的收入。[第2段]种植园系统主要由奴隶控制，首先是土著印第安人和从伊斯帕尼奥拉殖民地进口的人，后来又由从西非交易的奴隶控制。西班牙早期的限制性贸易法和古巴港口对欧洲交通的关闭使经济在早期无法繁荣，但随着17-18世纪非洲奴隶的涌入和制糖工艺的进步，放松了管制，古巴经济出现了戏剧性的繁荣。道路运输、水厂和蒸汽机的改进使古巴的食糖质量比加勒比其他地方高，因此到1800年古巴成为世界食糖的主要供应国。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_HISPANIOLA_PEDIA</Tag>
+    <English>[TAB]Derived from the Spanish "La Espanola", the island of Hispaniola today consists of Haiti and the Dominican Republic. Originally inhabited by the Taino or Arawak peoples, it was first visited by Christopher Columbus in 1492 during his first voyage to the New World. Although their initial site at La Navidad was destroyed, the first Spanish towns of La Isabella and Santo Domingo in 1496 were to become the oldest continually inhabited settlements in the Americas. The indigenous Taino population of the island became so rapidly decimated by European diseases like smallpox and measles and the harsh Spanish treatment that the initial population of about a half a million fell to less than 60,000 by 1535.[PARAGRAPH:2]As Spain conquered new regions in the Americas its initial interest in Hispaniola began to wane. Several Taino revolts in the early 16th century continually troubled the Spanish colonists although some plantations were established around Santo Domingo as increasing numbers of African slaves were imported after 1510. Suger cane was introduced from the Canary Islands and the first sugar mill in the Americas was established in 1516 but many slaves began to escape and join Taino rebels in the mountainous interior. The Spanish gradually lost control of the northern and western parts of Hispaniola in the 17th century as English, French and Dutch pirates established bases on the coasts and preyed constantly on Spanish shipping.[PARAGRAPH:2]French buccaneers settled on the nearby island of Tortuga in 1625 and moved onto the Western coast which they dubbed "Grande Terre", founding settlements like Cap Francois which were recognized by the French Crown in 1660. Now called "Saint Domingue" the colony attracted French settlers who established tobacco, indigo and coffee plantations with the first sugar mill being built in 1685. Spain ceded the western third of the island to France in 1697 as "Saint Domingue" grew increasingly wealthy with its exports of sugar, coffee and cotton, outproducing the entire British West Indies put together. Finally after increasing slave revolts and unrest, it broke free from Napoleonic France in 1804 becoming the Republic of Haiti.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]伊斯帕尼奥拉岛起源于西班牙的“La Espanola”，现在由海地和多米尼加共和国组成。最初居住在泰诺或阿拉瓦克人，1492年克里斯托弗哥伦布在他第一次到新大陆的航行中首次造访。尽管他们在拉纳维达的最初遗址被摧毁，1496年西班牙的第一个城镇拉伊莎贝拉和圣多明各将成为美洲最古老的持续居住的定居点。由于天花、麻疹等欧洲疾病和西班牙的严厉治疗，该岛的土著泰诺人人口迅速减少，到1535年，大约50万人的初始人口减少到不足6万人。[第2段]随着西班牙征服美洲新地区，其对伊斯帕尼奥拉的最初兴趣开始减弱。16世纪初，随着1510年后越来越多的非洲奴隶被进口，尽管在圣多明各周围建立了一些种植园，但仍有几次泰诺人起义持续困扰着西班牙殖民者。苏格甘蔗是从加那利群岛引进的，美洲第一家糖厂于1516年建立，但许多奴隶开始逃亡，并加入了内陆山区的泰诺叛军。西班牙人在17世纪逐渐失去了对伊斯帕尼奥拉北部和西部的控制，成为英国人，1625年，法国和荷兰海盗在附近的托尔图加岛（Tortuga）建立了基地，并不断掠夺西班牙的船只。[第2段]法国海盗定居在该岛的西部海岸，他们称之为“Grande Terre”，并在1660年建立了弗朗索瓦角（Cap Francois）这样的殖民地，并得到法国王室的承认。现在被称为“圣多明戈”的殖民地吸引了法国殖民者，他们在1685年建造了第一家糖厂，建立了烟草、靛蓝和咖啡种植园。1697年，由于“圣多明戈”的糖、咖啡和棉花出口日益富裕，西班牙将岛的西三分之一割让给了法国，产量超过了整个英属西印度群岛的总和。最后，在奴隶起义和动乱加剧后，1804年脱离了拿破仑法国，成为海地共和国。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_PANAMA_PEDIA</Tag>
+    <English>[TAB]In 1501, Rodrigo de Bastidas became the first European to explore the narrow isthmus of Panama which lay between the continents of North and South America. Christopher Columbas explored the Caribbean coast the following year and further Spanish expeditions followed to what became known as "Tierra Firma" (or dry land). In 1510 the settlement of Santa Maria la Antigua del Darien was founded by Vasco Nunez de Balboa, which was the first permanent settlement on the American mainland. After a number of violent engagements with the indigenous peoples, whose chiefs became allies and were baptized, Balboa became the first European to sight the Pacific Ocean in 1513.[PARAGRAPH:2]Renamed the "Castillo del Oro", the colony's capitol was moved to the present site of Panama City on the Pacific Coast in 1525. Roads were built linking it to the fortified ports of Porto Bello and Nombre de Dios to facilitate the trans-shipment of goods from west to east. It is estimated that as much as 60% of all gold entering Spain from the New World between 1531 and 1660 was shipped from these two ports alone. Exploration and conquest expeditions to the north and south secured the land and riches of Central and South America as a number of ships were built on the west coast enabling further exploration of the Pacific and a secure sea route to the Philippines and the East Indies.[PARAGRAPH:2]In 1538 the Real Audencia of Panama was established with jurisdiction from Nicaragua in the north to Columbia in the south. As Panama was colonized, the remaining indigenous Indians who had survived diseases, massacres and enslavement fled into the forests along with a number of escaped African slaves. And although Panama remained fairly prosperous for its first two centuries, its importance became minimal as its shipments of gold dwindled and Spain's power in Europe eroded. With the threat of piracy and advances in navigation making the sea route around Cape Horn more profitable, Panama further declined in the 18th century, finally gaining its independence from Spain in 1821.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]1501年，罗德里戈巴斯蒂达斯成为第一个探索巴拿马狭长地峡的欧洲人，该地峡位于南北美洲大陆之间。第二年，克里斯托弗·哥伦巴斯探索了加勒比海海岸，随后西班牙又进行了一次探险，来到了后来被称为“铁拉菲尔马”（Tierra Firma）的地方。1510年，由瓦斯科·努内兹·德巴尔博亚（Vasco Nunez de Balboa）建立了圣玛利亚-安提瓜-德尔达里安（Santa Maria la Antigua del Darien）定居点，这是美国大陆上的第一个永久性定居点。巴尔博亚与土著人民进行了多次暴力接触，土著人民的首领成为盟国并接受洗礼，1513年巴尔博亚成为第一个看到太平洋的欧洲人。[第2段]将该殖民地的国会大厦更名为“Castillo del Oro”，1525年迁至太平洋沿岸的巴拿马城。为了方便货物从西向东转运，修建了公路，将其与设防港口波尔图贝洛港和诺姆布雷迪奥斯港连接起来。据估计，1531年至1660年间从新大陆进入西班牙的黄金中，有多达60%是从这两个港口运来的。北美洲和南美洲的勘探和征服探险确保了中美洲和南美洲的土地和财富，因为一些船只建造在西海岸，使人们能够进一步勘探太平洋和通往菲律宾和东印度群岛的安全航道。[第2段]1538年，巴拿马的真正奥登西亚建立在北起尼加拉瓜，南至哥伦比亚。随着巴拿马被殖民化，幸存下来的土著印第安人和一些逃跑的非洲奴隶一起逃进了森林。尽管巴拿马在前两个世纪一直相当繁荣，但随着其黄金运输量的减少和西班牙在欧洲的势力的削弱，巴拿马的重要性变得微乎其微。随着海盗的威胁和航海技术的进步，使得环绕合恩角的海上航线更加有利可图，巴拿马在18世纪进一步衰落，最终在1821年从西班牙获得独立。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_BRAZIL_PEDIA</Tag>
+    <English>[TAB]In 1500 a fleet led by Pedro Alves Cabral, on its way to India via Africa, sighted the coast of Brazil and claimed the land in the name of Manuel I, King of Portugal. The leading sea powers, Castille and Portugal had effectively divided the New World between them in 1494, under the Treaty of Tordesillas which decided that land to the east of a fixed meridian should belong to Portugal while the rest of South America was assigned to Spain. But after Cabral's voyage Portugal concentrated its attentions on its lucrative possessions in Africa and India while showing little interest in Brazil, apart from occasional expeditions which mapped the coast and collected valuable brazil wood for its rich dye used in staining luxury textiles.[PARAGRAPH:2]The Portugese soon realized that other nations like the French were showing an interest in the area, so in 1530 they sent a expedition under Martim Afonso de Susa to patrol the coast and found the first settlements at Sao Vincente and Salvador on the NE coast. Brazil was set up as 15 private hereditary "captaincies" like Pernambuco, which prospered by growing sugar cane, and Sao Vincente,which profited from the traffic in indigenous slaves. But most failed, prompting the Crown to send Tome de Susa in 1549 to establish a centralized colonial government with it's capitol at Salvador, while setting up Jesuit missions to convert the local Indians and expelling a French Calvanist colony at Rio de Janeiro.[PARAGRAPH:2]Initial attempts at finding gold and silver having failed, the colonists turned to a plantation economy exporting tobacco, cotton and esp. sugar to Europe, employing indigenous labour at first but increasing numbers of African slaves. The sugar industry went into decline in the 17th century due to competition from the Caribbean and Dutch attempts at settling the north coast finally ended in 1661. A gold rush in the early 18th century brought thousands of immigrants and adventurers to Brazil and the capitol was moved to Rio de Janeiro in 1763, though as gold production declined Brazil sunk into stagnation by 1800. </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[注]1500年，佩德罗·阿尔维斯·卡布拉尔率领的舰队经非洲前往印度，发现了巴西海岸，并以葡萄牙国王曼努埃尔一世的名义夺走了这块土地。1494年，根据《托德塞拉斯条约》（Treaty of Tordesillas），卡斯蒂利亚和葡萄牙这两个主要的海洋大国有效地将新世界分割开来，该条约规定，固定子午线以东的陆地应属于葡萄牙，而南美洲其他地区则归属西班牙。但在卡布拉尔的航行之后，葡萄牙将注意力集中在了非洲和印度的有利可图的领地上，而对巴西却毫无兴趣，除了偶尔的考察，他们绘制了海岸地图，收集了珍贵的巴西木材，用于染色奢华纺织品，所以在1530年，他们派出一支探险队在马蒂姆·阿方索·德苏萨的带领下巡逻海岸，在东北海岸的萨奥·文森特和萨尔瓦多发现了第一个定居点。巴西被建立为15个私人世袭“酋长国”，比如靠种植甘蔗致富的伯南布哥和靠贩卖土著奴隶获利的萨奥文森特。但大多数都失败了，促使国王在1549年派遣托米·德·苏萨（Tome de Susa）与萨尔瓦多的国会大厦建立了一个集中的殖民政府，同时成立了耶稣会使团来改变当地印第安人的信仰，并驱逐了里约热内卢的一个法国加尔文主义殖民地转向种植园经济，向欧洲出口烟草、棉花、尤其是糖，起初雇用土著劳工，但非洲奴隶数量不断增加。17世纪，由于来自加勒比地区的竞争，制糖业开始衰落，荷兰试图在北海岸定居的努力最终在1661年结束。18世纪早期的淘金热将成千上万的移民和冒险家带到了巴西，国会大厦于1763年迁至里约热内卢，不过随着黄金产量的下降，巴西在1800年陷入停滞。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_EAST_INDIES_PEDIA</Tag>
+    <English>[TAB]The East Indies area is largely comprised of the present-day countries of Indonesia, Malaysia and the Philippines, and was first explored by Portugese navigators in the late 15th. and early 16th. centuries. In 1498, Vasco da Gama sailed around the coast of Africa, reaching India, and in 1510 the ports of Goa and Malacca were conquered by Afonso de Albuquerque. Later the Portugese explored much of East Asia, landing in Taiwan, Japan, Java and Timor and even the north coast of Australia. From 1595 and 1663, the Dutch-Portugese War primarily involved Dutch trading companies invading many Portugese colonies in the East Indies, resulting in the loss of Portugal's Indian Ocean trade monopoly.[PARAGRAPH:2]The Dutch founded a single East India Company in 1602 which was granted a monopoly over all East Asian trade, empowering it to build forts, maintain armies and conduct treaties with local rulers. In 1603 the first permanent Dutch trading post was set up in West Java and another at Jaykarta (later Batavia) in 1611. Expeditions by the English East India Company threatened the Dutch monopoly of the spice trade, though they largely withdrew from the East Indies by 1623, leaving Dutch control of the region secure. In 1619, Batavia became the capitol of the Dutch East Indies as they established large plantations using local slave labour with a complete monopoly of the export of pepper, nutmeg, and cloves to Europe.[PARAGRAPH:2]By 1670, the Dutch East India Company had become the richest private company in the world and a state-within-a-state, with over 150 merchant ships, 40 warships, 50,000 employees and an army of 10,000 soldiers. But the closure of its trading rights in Japan and China, wars with Britain disrupting its contact with Europe and competition from French and Danish companies for the pepper trade, made serious inroads in its trading monopoly. Despite attempts to diversify into crops like tea, coffee, cotton and sugar, the economic power of the Dutch East India Company declined throughout the 18th century and many Dutch possesions in the East Indies were finally occupied by Britain during the Napoleonic wars.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]东印度群岛地区主要由现在的印度尼西亚、马来西亚和菲律宾组成，葡萄牙航海家于15日晚些时候首次对其进行勘探。以及16日早些时候。世纪。1498年，瓦斯科·达加马沿着非洲海岸航行，到达印度，1510年果阿和马六甲的港口被阿方索·德阿尔伯克基征服。后来，葡萄牙人探索了东亚的大部分地区，在台湾、日本、爪哇和帝汶甚至澳大利亚的北海岸登陆。从1595年到1663年，荷属葡萄牙战争主要是荷兰贸易公司入侵东印度群岛的许多葡萄牙殖民地，导致葡萄牙失去了对印度洋的贸易垄断。[第2段]荷兰人在1602年建立了一个单一的东印度公司，该公司被授予了对整个东亚贸易的垄断权，使其得以建立堡垒，维持军队并与当地统治者签订条约。1603年，第一个永久性的荷兰贸易站在西爪哇建立，1611年在雅加达（后来的巴达维亚）建立。英国东印度公司的探险队威胁到了荷兰对香料贸易的垄断，尽管他们在1623年之前基本上撤出了东印度，使得荷兰对该地区的控制安全。1619年，巴达维亚成为荷兰东印度群岛的首都，他们利用当地的奴隶劳动建立了大型种植园，完全垄断了向欧洲出口胡椒、肉豆蔻和丁香。[第2段]到1670年，荷兰东印度群岛公司已成为世界上最富有的私人公司和一个国家内的一个国家，拥有150多艘商船，40艘军舰，50000名员工和10000名士兵。但由于其在日本和中国的贸易权被关闭，与英国的战争中断了与欧洲的联系，以及法国和丹麦公司对辣椒贸易的竞争，使其贸易垄断地位受到严重冲击。尽管荷兰试图多样化种植茶叶、咖啡、棉花和糖等作物，但这家荷兰东印度公司的经济实力在整个18世纪都在下降，在东印度的许多荷兰领地在拿破仑战争期间最终被英国占领。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_INDIA_PEDIA</Tag>
+    <English>[TAB]The Portugese were the first Europeans to set up trading posts in India, landing near the city of Calicut in South India in 1498. The next three centuries were marked by the pursuit of trade and competition between European powers as the Dutch, French, British and Danes also established trading colonies on the Indian sub-continent. The Portugese founded a string of trading forts along the west coast, at Damman, Bombay and Goa from where the Portugese Viceroy governed their empire in Asia from 1530. The Dutch finally defeated the Portugese in most of India by 1660, who withdrew to their important trading enclave of Goa, where they remained until forcibly ousted by the Government of India in 1961.[PARAGRAPH:2]The Dutch also founded a number of trading posts in the mid-17th century, notably at Cochin on the Malabar Coast and Pulicat on India's east coast. But their most important possession was the port of Chinsura near present-day Calcutta on the Bengal coast which was founded in 1625, where they traded in opium, salt, muslin and spices. Other Indian trading posts were founded by the Danish East India Company and especially the French East India Company at Pondicherry on the east coast and Chandannagar in Bengal. Despite being in a state of continual conflict with the Dutch and the English, the French maintained a strong commercial presence on the Indian coast until the mid-19th Century.[PARAGRAPH:2]The British first gained a colonial foothold in India in 1612 when the Mughal Emperor Jahangir signed a treaty with James I, giving the British East India Company exclusive rights to reside and conduct trade at Surat and surrounding territories. Other trading concessions were later established at Madras in 1639, Bombay (1668) and Calcutta (1690), trading chiefly in cotton, silk, tea, indigo dye and saltpetre. It greatly expanded in wealth and influence through the 18th.C, esp. with its monopoly on the saltpetre trade so vital to British miltary firearms in the Seven Years War and other conflicts and assumed direct rule over the Indian sub-continent on behalf of the British government from 1757 to 1858.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]葡萄牙人是第一批在印度设立贸易站的欧洲人，1498年在南印度的卡利克特市附近登陆。在接下来的三个世纪里，随着荷兰、法国、英国和丹麦也在印度次大陆建立了贸易殖民地，欧洲列强之间的贸易和竞争成为了一个标志。葡萄牙人在西海岸的达曼、孟买和果阿建立了一系列贸易要塞，从1530年起，葡萄牙人总督就在这里统治着他们在亚洲的帝国。1660年，荷兰人终于在印度大部分地区击败了葡萄牙人，葡萄牙人撤退到他们重要的贸易飞地果阿，直到1961年被印度政府强行驱逐，他们才离开果阿东海岸。但他们最重要的属地是位于今天加尔各答附近的钦苏拉港，它建于1625年，在那里他们买卖鸦片、盐、棉布和香料。其他印度贸易站则是由丹麦东印度公司，特别是法国东印度公司在东海岸的庞迪切利和孟加拉邦的钱丹纳加建立的。尽管法国与荷兰人和英国人一直处于冲突状态，但直到19世纪中叶，法国仍在印度海岸保持着强大的商业存在。[第2段]1612年，当莫卧儿皇帝贾汉吉尔与詹姆斯一世签署条约时，英国人第一次在印度获得了殖民地位，给予英国东印度公司在苏拉特及周边地区居住和进行贸易的专有权。其他贸易特许权后来于1639年在马德拉斯、孟买（1668年）和加尔各答（1690年）建立，主要交易棉花、丝绸、茶叶、靛蓝染料和硝石。在十八世纪，它的财富和影响力大大扩大，特别是在七年战争和其他冲突中，它对硝石贸易的垄断对英国军械至关重要，并在1757年至1858年代表英国政府直接统治印度次大陆。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_FAR_EASTERN_TREATY_PORT_PEDIA</Tag>
+    <English>[TAB]Portugal became the first European nation to establish a trading post in China in 1535 when traders obtained the right to anchor ships and carry out trading activities at Macau where a permanent settlement was later founded in 1553. Chinese and European merchants flocked to the port, which became an important link from Goa in India to Nagasaki in Japan and Mexico via Manila in the Philippines. Despite several Dutch attempts to occupy the colony, Macau enjoyed a lucrative monopoly until 1685 when the loss of Malacca severed its trade links with Goa. The closure of Japan to foriegn ships and the decision by the Chinese Emperor to allow trade with all other foriegn countries also hastened its decline in importance.[PARAGRAPH:2]Over the next century, the Dutch, French, Danish and Russians all established trading posts and forts on the Chinese coast, notably at Darien, Guangzou, Shanghai and Macau. The Dutch East India Company operated throughout East Asia, trading silver and copper from Japan to India and China in return for silk, cotton, porcelain and spices, and were instrumental in introducing European technology to China and Japan. From their trading post at Dejima, an artificial island off the coast of Nagasaki, the Dutch Protestants in fact were the only Europeans permitted to trade with the Japanese, who had become increasingly suspicious of the activities of Spanish and Portugese Jesuit missionaries.[PARAGRAPH:2]By the mid-17th century, The English, Dutch, and the French had begun to challenge the Portugese monopoly of trade with Asia, forming joint-stock companies to raise the capital to finance voyages and establish trading missions. The British, Dutch and French East India Companies aimed to share the lucrative spice trade from the Indian sub-continent and the East Asian archipelago, also setting up trading posts on the Chinese coast at Darien, Canton, Shanghai and Macau where they exported silk, jade, ivory and porcelain to Europe in exchange for opium and gold. The British established a trading mission at HongKong which later grew into an important Crown colony and wealthy commercial centre in the 19th and 20th centuries.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>〔TAB〕1535年，葡萄牙成为第一个在中国设立贸易站的欧洲国家，当时商人获得了在澳门停泊船只和开展贸易活动的权利，澳门后来于1553年建立了永久性结算。中国和欧洲商人蜂拥而至，港口成为印度果阿经菲律宾马尼拉到日本长崎和墨西哥的重要通道。尽管荷兰曾多次试图占领澳门，但澳门一直享有丰厚的垄断地位，直到1685年马六甲失利切断了与果阿的贸易联系。日本对外国船只的关闭以及中国皇帝允许与所有其他外国国家进行贸易的决定也加速了其重要性的下降。[第2段]在下个世纪，荷兰、法国、丹麦和俄罗斯都在中国沿海建立了贸易据点和堡垒，特别是在达连、广州，上海和澳门。荷兰东印度公司在整个东亚地区开展业务，从日本向印度和中国交易白银和铜，以换取丝绸、棉花、瓷器和香料，并在向中国和日本引进欧洲技术方面发挥了重要作用。事实上，荷兰新教徒是唯一获准与日本人进行贸易的欧洲人，因为日本人对西班牙和葡萄牙耶稣会传教士的活动越来越持怀疑态度。17世纪中叶，英国人、荷兰人和法国人已经开始挑战葡萄牙对亚洲贸易的垄断地位，成立了股份公司，筹集资金，为航行提供资金，并设立贸易特派团。英国、荷兰和法国的东印度公司旨在分享来自印度次大陆和东亚群岛的利润丰厚的香料贸易，还在中国沿海达里安、广州、上海和澳门设立贸易站，向欧洲出口丝绸、玉石、象牙和瓷器，以换取鸦片和黄金。英国人在香港建立了一个贸易使团，后来在19世纪和20世纪发展成为一个重要的殖民地和富裕的商业中心。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_MALAYSIA_PEDIA</Tag>
+    <English>[TAB]The modern area of Malaysia consists mostly of the Malay Peninsula and the island of Sumatra, which was visited by Muslim traders in the 10th century, although Islam was not fully established until the 15th century, most prominently with the powerful Malacca Sultanate at the port of Melaka which spread Islam throught the archipelago. The first Europeans to arrive were the Portugese under the leadership of Afonso de Albuquerque who seized Melaka in 1511, making it the first centre of Portugese trading activities in the Far East. By the end of the 16th century the colony grew very wealthy as the tin mines of northern Malaya were exploited by European traders and the Portugese gained control of the spice-rich Malaku islands.[PARAGRAPH:2]In 1607, the nearby Sultanate of Aceh rose to be the most powerful and wealthy state in the Malay archipelago, conquering the tin-producing region of Pahang on the Malayan Peninsula, putting it in direct conflict with the Portugese at Melaka. It soon controlled Sumatra and the surrounding islands but in 1629 a disastrous invasion by the Sultan's forces failed to oust the Portugese from their base. Soon after, the Dutch East India Company began to trade in the area from their base at Batavia in West Java, forming an alliance with the Sultan of Johore against their enemies, the Portugese and the Sultan of Aceh. Finally, in 1641 they succeeded in capturing Melaka, ending Portugese power in the East Indies for good.[PARAGRAPH:2]The economic importance of Malaya to Europe continued to grow in the 17th century as the tea trade increased the demand for Malayan tin used to line tea chests and thousands of Arab and Chinese immigrants began to dominate economic activities in the town. English traders had always been present in the area but it was not until the mid-18th century that British East India Company sought local bases for trade with China. Their first colonies were established when Penang was leased from the Sultan of Kedah in 1786, Dutch Melaka was occupied during the Napoleonic War and Singapore was acquired from the Sultan of Johore in 1819. The British then became the dominant economic and naval power in the region throught the 19th and 20th centuries.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]马来西亚的现代地区主要包括马来半岛和苏门答腊岛，穆斯林商人在10世纪访问过该岛，尽管伊斯兰教直到15世纪才完全确立，最突出的是在马六甲港口的强大的马六甲苏丹国，该国将伊斯兰教传播到群岛。第一批到达的欧洲人是在阿尔伯克基领导下的葡萄牙人，阿尔伯克基于1511年占领了马六甲，使之成为远东地区葡萄牙人贸易活动的第一个中心。16世纪末，随着马来亚北部锡矿被欧洲商人开采，葡萄牙人控制了香料丰富的马来库群岛，殖民地变得非常富有。[第2段]1607年，附近的亚齐苏丹国成为马来群岛最强大和最富有的国家，征服了产锡国马来亚半岛上的巴亨地区，在马六甲与葡萄牙人发生直接冲突。它很快控制了苏门答腊岛和周边岛屿，但在1629年苏丹军队的灾难性入侵未能将葡萄牙人赶出他们的基地。不久之后，荷兰东印度公司开始从西爪哇巴达维亚基地开始在该地区进行贸易，与柔佛苏丹结成同盟，对抗他们的敌人葡萄牙和亚齐苏丹。最后，在1641，他们成功地占领了马六甲，结束了葡萄牙在东印度群岛的统治。[第2段]17世纪，随着茶叶贸易增加了对马来亚锡的需求，成千上万的阿拉伯和中国移民开始主宰经济，马六甲对欧洲的经济重要性继续增加镇上的活动。英国贸易商一直在这一地区，但直到18世纪中叶，英国东印度公司才寻求与中国进行贸易的当地基地。他们的第一个殖民地是在1786年槟城从基达苏丹租借时建立的，荷兰人马六甲在拿破仑战争期间被占领，新加坡在1819年从柔佛苏丹手中获得。英国在19世纪和20世纪成为该地区的主要经济和海军力量。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_PHILLIPPINES_PEDIA</Tag>
+    <English>[TAB]The 7100 islands of the Philippines in the western Pacific Ocean were originally inhabited by a mixture of indigenous peoples who traded with the Malay archipelago from 700AD, adopting influences from Hinduism and Buddhism. There was no unifying state in the area though groups of islands were governed by various Rajahs who increasingly came under the influence of Arab traders and missionaries and they largely adopted Islam by the end of the 15th century. The first European contact came in 1521, when the Spanish explorer, Ferdinand Magellan, arrived at Samar and Leyte and claimed the islands for Spain. Colonization began in 1565 when Miguel Lopez de Legazpi arrived from Mexico and founded the first European settlement on Cebu.[PARAGRAPH:2]In 1571 the Spanish occupied much of the Philippines and established Manila as the capital of the Spanish East Indies, naming their colony after King Philip II which was governed as a territory of the Vice-Royalty of New Spain from 1565 to 1821. The fragmented nature of the islands made them easy to occupy and political unification was achieved, with the exception of the Sultanate of Mindanao and remote highland villages in Luzon by the mid-17th century. The Spanish introduced elements of Western civilization including the code of law, printing, silver coinage, the Gregorian calendar and Christianity, as well as food resources from Latin America like maize, pineapple, the potato, vanilla and chocolate.[PARAGRAPH:2]The Manilla galleons, which linked the Philippines with Acapulco, loaded spices, textiles, and fruit in return for silver bullion, arms and colonists from Mexico. The Spanish military fought various indigenous revolts and incursions from the Dutch and English as Jesuit missionaries converted most of the lowland population and established public schooling in the Spanish language. The Philipppines was never profitable as a colony during the early years of Spanish rule and a long war against the Dutch and its own Muslim inhabitants nearly bankrupted the colonial treasury, though later attempts at establishing a plantation economy based on rice, coffee, fruit and other foodstuffs brought relative prosperity by the 19th century.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]西太平洋中的菲律宾7100个岛屿最初居住着一批土著民族，他们从公元700年开始与马来群岛进行贸易，受到印度教和佛教的影响。该地区没有统一的国家，尽管岛屿群由不同的国王统治，这些国王越来越多地受到阿拉伯商人和传教士的影响，他们在15世纪末基本上接受了伊斯兰教。第一次欧洲接触发生在1521年，当时西班牙探险家费迪南德·麦哲伦抵达萨马尔和莱特岛，并为西班牙声称拥有这些岛屿。殖民开始于1565年，当时米格尔·洛佩斯·德·勒加兹皮从墨西哥来到宿务，并在宿务建立了第一个欧洲殖民地。[第2段]1571年，西班牙人占领了菲律宾的大部分地区，并将马尼拉建立为西班牙东印度群岛的首都，以国王菲利普二世命名他们的殖民地，从1565年到1821年，菲利普二世作为新西班牙副皇室的领地被统治。除了棉兰老苏丹国和17世纪中叶在吕宋的偏远高地村庄外，这些岛屿的分散性使它们易于占领，实现了政治统一。西班牙人引进了西方文明的元素，包括法典、印刷术、银币、公历和基督教，以及来自拉丁美洲的食物资源，如玉米、菠萝、土豆、香草和巧克力，纺织品和水果作为对来自墨西哥的银条、武器和殖民者的回报。当耶稣会传教士改变了大部分低地居民的信仰，并用西班牙语建立了公立学校时，西班牙军队与荷兰和英国的各种土著反抗和入侵进行了斗争。在西班牙统治的早期，菲利浦家族作为殖民地从来没有盈利过，长期的对荷兰人和其穆斯林居民的战争几乎使殖民财政部破产，尽管后来试图建立一个以大米、咖啡为基础的种植园经济，水果和其他食品在19世纪带来了相对繁荣。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROJECT_VINLAND_PEDIA</Tag>
+    <English>[TAB]Vinland was the name given to an area of North America by the Norsemen, about the year 1000 CE. There is a consensus among scholars that the Vikings reached North America approximately five centuries prior to the voyages of Christopher Columbus. In 1960 archaeological evidence of the only known Norse settlement in North America (outside of Greenland) was found at L'Anse aux Meadows on the northern tip of the island of Newfoundland, in what is now the Canadian province of Newfoundland and Labrador. This proved conclusively the Vikings' pre-Columbian discovery of North America. Recent archaeological studies suggest that this site is not the Vinland of the Norse accounts in its entirety but was the entrance to a larger region called Vinland by the Norse.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]Vinland是北欧人在公元前1000年给北美地区起的名字。学者们一致认为，北欧海盗在哥伦布出航前大约五个世纪到达北美。1960年，在纽芬兰岛北端的安塞奥克斯草地（现在是加拿大纽芬兰省和拉布拉多省）发现了北美洲（格陵兰岛以外）唯一已知的挪威人定居点的考古证据。这确凿地证明了北欧海盗在哥伦布时代之前发现北美洲。最近的考古研究表明，这个遗址并不是整个北欧账户的Vinland，而是进入一个更大的区域称为Vinland的北欧人。</Chinese>
+  </TEXT>
+</Civ4GameText>

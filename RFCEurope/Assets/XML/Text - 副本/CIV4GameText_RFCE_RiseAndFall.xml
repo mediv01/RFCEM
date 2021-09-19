@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Rise and Fall -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_FLIP_TO_US</Tag>
+    <English>Cities in the area have joined our rising empire!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>一些地方的城市加入了我们正在崛起的帝国！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_NEWCIV_TITLE</Tag>
+    <English>A new civilization is being born</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>一个新的文明诞生了</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_NEWCIV_MESSAGE</Tag>
+    <English>Do you wish to take permanent control of the %s1 civilization?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>你是否希望接手控制%s1文明？</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_NEWCIV_MESSAGE1</Tag>
+    <English>Do you wish to take permanent control of the </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>你是否希望接手控制</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_NEWCIV_MESSAGE2</Tag>
+    <English> civilization?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese> 文明?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FLIPMESSAGE1</Tag>
+    <English>The following cities:[NEWLINE][NEWLINE]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>以下城市:[NEWLINE][NEWLINE]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FLIPMESSAGE2</Tag>
+    <English>[NEWLINE]want to flip to a rising civilization. Our refusal may lead to a war and some of our troops may join it. Should we let them go?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[NEWLINE]希望加入一个初起的文明。如果我们拒绝可能导致战争的爆发及部分军队的叛离。我们要给予他们自由吗？</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FLIP_AGREED</Tag>
+    <English>We agreed to the flip!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>让他们走！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FLIP_REFUSED</Tag>
+    <English>We refused the flip, this means war!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>拒绝，这意味着战争！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FLIP_BETRAYAL</Tag>
+    <English>Some of our forces are joining the enemy to help their war of liberation!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>我们的部分军队加入了叛乱者，为他们的独立而战！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FLIP_BETRAYAL_NEW</Tag>
+    <English>Some of our enemy's forces are joining us to help our war of liberation!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>敌人的部分军队决定反戈一击，为我们的独立而战！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_CIV_IS_BORN</Tag>
+    <English>A new civilization is born: %s1_CityName</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>一个新文明在%s1_CityName诞生了</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_CITY_WAS_TRADED_TO</Tag>
+    <English>%s1_CityName was traded to the %s2_CivName!!!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>%s1_CityName已移交给%s2_CivName!!!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_INDEPENDENCE_TEXT</Tag>
+    <English>%s1 cities have declared their independence from their foreign domination!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>%s1人宣布脱离外来统治独立建国！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REBELLION_TITLE</Tag>
+    <English>Independence!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>独立！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REBELLION_HUMAN</Tag>
+    <English>The people of %s1_CivName are trying to regain their independence and rebuild their nation. Cities from our empire want to join them!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>%s1_CivName的人民试图恢复独立并重建它们的国家。我们帝国的一些城市想加入他们！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REBELLION_LETGO</Tag>
+    <English>A sign of weakness: Let them go, they contribute nothing to our glorious empire are not worth the trouble.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>一个软弱的迹象:让他们去,那些家伙对我们荣耀的帝国没有任何帮助，不值得烦恼。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REBELLION_DONOTHING</Tag>
+    <English>Stretched too thin: We cannot deal with them right now. Let the local garrison best deal with the situation on their own.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>国家很虚弱:我们现在无法对付他们。以现在的处境收买那些驻军是最好的选择。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REBELLION_CRACK</Tag>
+    <English>The whip: Let them feel the strength of our Empire, no one rebel against my rule!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>鞭笞:让他们感受一下我们帝国的实力，没有一个乱臣贼子可以反抗我的统治！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REBELLION_BRIBE</Tag>
+    <English>The price of loyalty: Bribe the local lords, with them on our side we will not have to bother with the peasants. Bribe: </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>忠诚的代价:贿赂当地的领主，我们不希望在他们身边打扰那些农民。贿赂:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REBELLION_BOTH</Tag>
+    <English>Sticks and carrots: Do whatever it takes, but keep those cities loyal and subjugated.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>软硬兼施:不惜一切代价，但保留那些识时务的城市并征服。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_SUPPRESSED_RESURRECTION</Tag>
+    <English>Wonderful news! Our suppression efforts were successful, the cities remained in our hands!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Wonderful news! Our suppression efforts were successful, the cities remained in our hands!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REBELLION_TEXT</Tag>
+    <English>%s1 cities have declared their independence from us and expelled our garrisons. Shall we leave them free?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>%s1人宣布独立建国并赶走了我们的驻军。我们要给予他们自由吗？</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REBELLION_MESSAGE</Tag>
+    <English>cities have declared their independence from us and expelled our garrisons. Shall we leave them free?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>一些城市宣布脱离我国统治独立建国，并赶走了我们的驻军。我们要允许他们独立吗？</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_EXILE_TITLE</Tag>
+    <English>Exile!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>流放！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_EXILE_TEXT</Tag>
+    <English>You have been captured by the %s1:2 and exiled to the unimportant lands of %s2. You have a short period of time for retaking your capital and gain back your position.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>你已被%s1:2流放到偏远的%s2。你必须在短时间内夺回首都以恢复权力。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_EXILE_TEXT1</Tag>
+    <English>You have been captured by the</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>你已被</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_EXILE_TEXT2</Tag>
+    <English>and exiled to the unimportant lands of</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>抓获并流放到偏远的</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_EXILE_TEXT3</Tag>
+    <English>. You have a short period of time for retaking your capital and gain back your position.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>。你必须在短时间内夺回首都以恢复权力。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ESCAPE_TITLE</Tag>
+    <English>You have escaped!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>你逃得一命！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ESCAPE_TEXT</Tag>
+    <English>You have escaped and regained control of %s1 territory. Now let's teach our enemies a lesson!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>你已卷土重来掌握了%s1的统治权。现在去好好教训敌人吧！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ESCAPE_TEXT1</Tag>
+    <English>You have escaped and regained control of </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>你已卷土重来并重新掌握了</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ESCAPE_TEXT2</Tag>
+    <English>territory. Now let's teach our enemies a lesson!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>的统治权。现在该好好教训你的敌人了！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REDUCE_CITY_1</Tag>
+    <English>Due to the growth of other cities,</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>由于其他城市的增长,</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REDUCE_CITY_2</Tag>
+    <English>has lost most of its significance.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>失去了它的意义.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LEADER_SWITCH</Tag>
+    <English>%s1 has risen as the new leader of the %s2!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>%s1 已经成为 %s2新的领袖!</Chinese>
+  </TEXT>
+</Civ4GameText>

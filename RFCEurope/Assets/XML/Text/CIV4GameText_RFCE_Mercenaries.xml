@@ -1,0 +1,1054 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Mercenaries -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_MERCENARIES_SCREEN_TITLE</Tag>
+    <English>Mercenary Manager</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>雇佣兵管理</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERCENARY_SCREEN_TITLE</Tag>
+    <English>Mercenaries</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>雇佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERCENARY_GROUPS_SCREEN_TITLE</Tag>
+    <English>Mercenary Groups</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>佣兵团</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERCENARY_CONTRACTS_SCREEN_TITLE</Tag>
+    <English>Mercenary Contracts</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>雇佣契约</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_AVAILABLE_MERCENARIES</Tag>
+    <English>Available Mercenaries</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>现有雇佣军</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_AVAILABLE_MERCENARY_GROUPS</Tag>
+    <English>Available Mercenary Groups</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>现有佣兵团</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNITS_CONTRACTED_OUT</Tag>
+    <English>Units Contracted Out</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>已签订雇佣契约</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HIRED_MERCENARIES</Tag>
+    <English>Hired Mercenaries</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>已征召雇佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HIRED_MERCENARY_GROUPS</Tag>
+    <English>Hired Mercenary Groups</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>已征召佣兵团</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_AVAILABLE_UNITS</Tag>
+    <English>Available Units</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>现有单位</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERCENARY_INFORMATION</Tag>
+    <English>Mercenary Information</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>雇佣兵信息</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERCENARY_GROUP_INFORMATION</Tag>
+    <English>Mercenary Group Information</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>佣兵团信息</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_INFORMATION</Tag>
+    <English>Unit Information</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>单位信息</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROMOTION_MERCENARY</Tag>
+    <English>Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>雇佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERCENARIES_DISABLED</Tag>
+    <English>Nationalism has changed the conception of armies: Mercenaries no longer fit in!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>民族主义的兴起改变了军队的概念: 雇佣兵已经变得不合时宜!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_AVAILABLE_IN_PROVINCES</Tag>
+    <English>Available in the following province:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在以下省份提供：</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_NOT_ENOUGH_MONEY</Tag>
+    <English>You don't have enough money</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你没有足够的钱</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_LACK_CULTURE</Tag>
+    <English>You need more culture in the province</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你需要更多的文化</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_NO_PORT</Tag>
+    <English>You need a coastal city in the province</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你需要一个沿海城市</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_WRONG_RELIGION</Tag>
+    <English>Only with a different state religion</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>只有不同的国家宗教</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_NEW_MERC_AVAILABLE</Tag>
+    <English>New Mercenaries are available for hire in</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>可以雇佣新的佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_NEW_MERC_RELIGION</Tag>
+    <English>, but they won't follow anyone with your State Religion!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>，但他们不会追随任何有你国宗教信仰的人！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_NEW_MERC_CULTURE</Tag>
+    <English>, but only if you develop a base culture level in the province!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>但只有当你在该省发展基础文化水平!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_AVAILABLE_NEAR_NEW_CITY</Tag>
+    <English>There are available mercenaries in the province of %s1!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>%s1省有可用的雇佣兵！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_NEW_MERC_MOVING</Tag>
+    <English>Mercenaries got tired of waiting for a contract and have left to seek their fortune elsewhere.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>雇佣兵厌倦了等待合同，并在前往其他地方寻找自己的财富.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_HIRED_BY_SOMEONE</Tag>
+    <English>Mercenaries in %s1 are no longer available, another civilization has hired them!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>%s1中的雇佣兵不再可用，另一个文明雇佣了他们！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_NEW_MERC_DESERTERS</Tag>
+    <English>Upset for not getting payed, Mercenaries have abandoned your cause.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>由于你没有支付佣金，佣兵已经离开了你。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_SERBIAN</Tag>
+    <English>Serbian Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>塞尔维亚佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_KHAZAR</Tag>
+    <English>Khazar Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>哈扎尔佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_AVAR</Tag>
+    <English>Avar Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>阿瓦尔佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_ITALIAN</Tag>
+    <English>Italian Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>意大利佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_SWISS</Tag>
+    <English>Swiss Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>瑞士佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_VARANGIAN</Tag>
+    <English>Norse Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>挪威佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_BALKAN</Tag>
+    <English>Balkan Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>巴尔干佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_DANISH</Tag>
+    <English>Danish Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>丹麦佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_ARAGON</Tag>
+    <English>Aragonese Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>阿拉贡佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_MOROCCO</Tag>
+    <English>Moroccan Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>摩洛哥佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_GERMAN</Tag>
+    <English>German Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>德意志佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_FINNISH</Tag>
+    <English>Finnish Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>芬兰佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_DON</Tag>
+    <English>Kuban Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>库班佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_ZAPOROZHIAN</Tag>
+    <English>Zaporozhian Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>扎波罗热佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_BALTIC</Tag>
+    <English>Baltic Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>波罗的海佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_IRISH</Tag>
+    <English>Irish Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>爱尔兰佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_SCOTTISH</Tag>
+    <English>Scottish Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>苏格兰佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_WELSH</Tag>
+    <English>Welsh Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>威尔士佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_AFRICAN</Tag>
+    <English>African Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>非洲佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_NUBIAN</Tag>
+    <English>Nubian Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>努比亚佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_WALLOON</Tag>
+    <English>Walloon Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>瓦隆佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_ARABIAN</Tag>
+    <English>Arabian Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>阿拉伯佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_EGYPTIAN</Tag>
+    <English>Egyptian Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>埃及佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_BOHEMIAN</Tag>
+    <English>Bohemian Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>波希米亚佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_CRIMEAN</Tag>
+    <English>Crimean Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>克里米亚佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_GREEK</Tag>
+    <English>Greek Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>希腊佣兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_CORSAIR</Tag>
+    <English>Barbary Pirate</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>巴巴里海盗</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_TEMPLAR</Tag>
+    <English>Templar Knight</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>圣殿骑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_TEUTONIC</Tag>
+    <English>Teutonic Knight</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>条顿骑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MERC_GENERIC</Tag>
+    <English>Generic Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>佣兵</Chinese>
+  </TEXT>
+  <!-- Conditional Mercs -->
+  <TEXT>
+    <Tag>TXT_KEY_MERCENARY_HELP</Tag>
+    <English>Only Available as a Mercenary</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>做能做为佣兵出现</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_TAGMATA</Tag>
+    <English>Tagmata</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>罗马皇家近卫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_TAGMATA_PEDIA</Tag>
+    <English>[TAB]The tagma is a term for a military unit of battalion size. The best-known use of the term however refers to the elite regiments comprising the central imperial army of the middle and late Byzantine Empire.[PARAGRAPH:2]In Byzantine usage, the term came to refer exclusively to the professional, standing troops, garrisoned in and around the capital of Constantinople. Most of them traced their origins to the Imperial guard units of the later Roman Empire. By the 7th century, these had declined to little more than parade troops, meaning that the emperors were hard put to face the frequent revolts of the new and powerful thematic formations, especially the Opsician theme, the Asian theme closest to the capital. Within the first sixty years since its creation, it was involved in five revolts, culminating in the rebellion and usurpation of the throne by its commander, the Count Artabasdos, in 741 - 743.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]tagma是营级军事单位的一个术语。然而，这个词最著名的用法是指组成拜占庭帝国中后期中央帝国军队的精英团。[第2段]在拜占庭用法中，这个词专门指驻扎在君士坦丁堡首都及其周围的专业常备部队。它们大多起源于后来罗马帝国的帝国卫队。到了7世纪，这些军队已经减少到只有阅兵式的数量，这意味着皇帝们很难面对新的和强大的主题阵型的频繁反抗，尤其是最接近首都的亚洲主题——西西里主题。在其创建后的头六十年里，它参与了五次叛乱，最终在741-743年由其指挥官阿塔巴索斯伯爵叛乱和篡位。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_CORSAIR</Tag>
+    <English>Corsair</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>海盗船</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_CORSAIR_PEDIA</Tag>
+    <English>[TAB]From the French "corsaire" for privateer, the Barbary Pirates, often known as "Turkish corsairs" were Muslim pirates operating from the North African ports of Tunis, Tripoli, Algiers and part of Morocco in an area which became known as the Barbary Coast. Their attacks even extended into the Atlantic as far north as Ireland and Iceland as they destroyed thousands of Venetian, French, Spanish and English ships from the time of the Crusades until the beginning of the early 1800s. Long stretches of coastline in Italy, Spain and France were almost abandoned for centuries as the pirates captured nearly a million Europeans as slaves between the 16th and 19th century to be sold in the slave markets of North Africa and the Ottoman Empire.[PARAGRAPH:2]Among the most famous corsairs were the brothers Hayreddin Barbarossa and Oruc Reis, who took control of the port of Algiers in the 15th century. beginning 400 years of Ottoman presence in North Africa and establishing a centre of Mediterranean piracy, nominally under Ottoman control but self-governing and funded largely by piracy. Many of these Barbary corsairs, sailing in their large war galleys or "Xebecs" were originally Europeans, often former Dutch captives recruited as pirates, and operated with the cooperation of some European powers, like the French against the Spanish or the British and Dutch against the French. Most European nations paid ransom and tribute to the Barbary pirates until the beginning of the 19th century when concerted French, British and American naval actions finally suppressed their fleets and bases and Algiers was captured by the French in 1830.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]在法国海盗海盗船中，巴巴拉海盗，通常被称为“土耳其海盗”，是从北非的突尼斯、的黎波里、阿尔及尔和摩洛哥的一部分港口，在一个被称为巴巴拉海岸地区活动的穆斯林海盗。从十字军东征开始到19世纪初，他们摧毁了数千艘威尼斯、法国、西班牙和英国船只，袭击范围甚至延伸到了大西洋北部的爱尔兰和冰岛，意大利、西班牙和法国漫长的海岸线几乎被海盗占领了几个世纪16至19世纪期间，一百万欧洲人作为奴隶被卖到北非和奥斯曼帝国的奴隶市场上。[第2段]最著名的海盗是15世纪控制阿尔及尔港的海雷丁·巴巴罗萨和奥鲁克·赖斯兄弟。开始了奥斯曼帝国在北非400年的存在，建立了一个地中海海盗中心，名义上由奥斯曼帝国控制，但自治，资金主要来自海盗。这些野蛮海盗中的许多人，乘坐大型战舰或“Xebecs”航行，最初是欧洲人，通常是前荷兰俘虏，被招募为海盗，并与一些欧洲大国合作，如法国对西班牙或英国和荷兰对法国。直到19世纪初，法国、英国和美国的海军联合行动终于镇压了他们的舰队和基地，阿尔及尔在1830年被法国人俘虏，大多数欧洲国家才向野蛮海盗支付赎金和贡品。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HIGHLANDER</Tag>
+    <English>Highlander</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>高地剑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HIGHLANDER_PEDIA</Tag>
+    <English>[TAB]The term "Highlander" refers to the Gaelic-speaking inhabitants of the northern uplands and western isles of Scotland who are descended from original Picts and Scots before the 10th century, becoming increasingly distinct from the "Lowlanders" of southern Scotland, with their traditional Gaelic language and customs. Organized in clans led by chiefs or "lairds", they were known as fierce warriors armed with swords, axes and small shields, wearing little else but their short skirt or "kilt" woven in their distinctive clan pattern or "tartan". Although they supported Robert the Bruce in the unification of Scotland and its independence following the Declaration of Arbroath in 1320, the highland clans remained resistant to any central government.[PARAGRAPH:2]The Stewart dynasty ruled Scotland for the remainder of the Middle Ages, managing to retain the loyalty of the fierce Highland clans despite their growing resentment of the increasingly Protestant and Anglophile Scottish lowlands. Clan resistance to British rule erupted after the Act of Union between Scotland and England in 1707 in support of the Stewart pretender "Bonnie Prince Charlie" until the Scottish highlanders were finally decisively beaten at the Battle of Culloden in 1745. The Scottish Highlands were effectively cleared and replaced with sheep in the late 18th century while most highlanders were deported to the colonies, mainly Canada and Australia, where many retain their language and customs to this day.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]高地人是指苏格兰北部高地和西部岛屿上讲盖尔语的居民，他们在10世纪以前是原始皮克特人和苏格兰人的后裔，以其传统的盖尔语语言和习俗越来越不同于苏格兰南部的“低地人”。他们由首领或“巢穴”领导的氏族组织起来，被称为凶猛的武士，手持剑、斧和小盾牌，除了短裙或以其独特的氏族图案编织的“短裙”或“格子裙”外，几乎不穿其他衣服。尽管在1320年宣布阿尔布罗斯独立后，他们支持罗伯特布鲁斯统一苏格兰和独立，但高地部族仍然抵制任何中央政府。[第2段]斯图尔特王朝统治苏格兰，直到中世纪的剩余时间，设法保持了激烈的高地部族的忠诚尽管他们对苏格兰低地越来越新教和亲英派的怨恨与日俱增。1707年，苏格兰和英格兰联合起来支持斯图尔特伪装者“邦妮·查理王子”后，爆发了宗族对英国统治的反抗，直到1745年，苏格兰高地人最终在卡洛登战役中被决定性地击败。18世纪末，苏格兰高地被有效地清理干净，取而代之的是绵羊，而大多数高地人被驱逐到殖民地，主要是加拿大和澳大利亚，许多人至今仍保留着他们的语言和习俗。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_WELSH_LONGBOWMAN</Tag>
+    <English>Welsh Longbowman</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>威尔士长弓手</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_WELSH_LONGBOWMAN_PEDIA</Tag>
+    <English>[TAB]Following the Norman conquest of Wales in the 13th century, during which Welsh bowmen caused heavy casualties to the invader, Kings of England increasingly began to used longbowmen, including Welsh bowmen in their armies. Originally the Welsh employed a much shorter, rougher bow made of elm technically distinct from the classic English yew longbows. But as soon as the Welsh campaign was successfully over, Welsh conscripts began to be incorporated in large numbers into English armies. The valuable lessons the English learned in Wales of the tactic of massed formations of skilled archers using powerful bows was later used with great effect by English and Welsh mercenary longbowmen on the battlefields of Scotland and France.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]13世纪诺曼人征服威尔士，威尔士弓箭手给入侵者造成重大伤亡后，英格兰国王越来越多地开始使用长弓，包括威尔士弓箭手。威尔士人最初使用的是一种短得多、粗得多的榆树弓，技术上有别于经典的英国紫杉长弓。但威尔士战役一成功结束，威尔士征兵开始大量并入英国军队。英国人在威尔士学到的宝贵经验是，熟练弓箭手使用强力弓箭的密集编队战术后来被英国和威尔士雇佣兵长弓兵在苏格兰和法国战场上使用，效果非常显著。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_CONDOTTIERI</Tag>
+    <English>Condottiero</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>雇佣军队长</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_CONDOTTIERI_PEDIA</Tag>
+    <English>[TAB]Condottieri (singular condottiero and condottiere) were the mercenary soldier leaders (or warlords) of the professional, military free companies contracted by the Italian city-states and the Papacy, from the late Middle Ages until the mid-16th century. In contemporary Italian, condottiero means "contractor", and is synonymous with the modern English title Mercenary Captain, which, historiographically, does not connote the hired soldier's nationality.[PARAGRAPH:2]These Italian words were standard usage in English writing of the Napoleonic times that remained current in the histories until the late 20th century; because formally-employed, standing, professional armies were uncommon until late in the Napoleonic Wars (1800-1815) thus, the word Condottiere in the English language has come to denote any hired soldier.[PARAGRAPH:2]In the thirteenth and fourteenth centuries, the Italian city-states of Venice, Florence, and Genoa were very rich from their trade with the Levant, yet possessed woefully small national armies. In the event that foreign powers and envious neighbours attacked, the ruling nobles hired foreign mercenaries to fight for them. The military-service terms and conditions were stipulated in a condotta (contract) between the City-State and the Soldier (officer and enlisted man), thus, the contracted leader, the Mercenary Captain commanding, was titled the Condottiere.[PARAGRAPH:2]From the eleventh to the thirteenth century, European soldiers led by professional officers, fought against the Muslims in the Crusades (1095-1291). These officers provided large-scale warfare combat experience in the foreign Holy Land of the Asian Middle East. On the Crusades' conclusion, the first masnada (bands of roving soldiers) appeared; they were not Italian, but (mostly) German, from the Duchy of Brabant (hence, Brabanzoni), and from Catalonia and Aragon. The latter were Spanish soldiers who had followed King Peter III of Aragon to the Holy Land in October 1282, and, post-war, remained there, seeking military employment. In Italy, in 1333, other mercenaries arrived with John of Bohemia to fight, as the Compagnia della Colomba (Dove Company), Perugia's war against Arezzo. Given the profession, some masnade were less mercenaries than bandits and desperate men.[PARAGRAPH:2]The first organised mercenaries were the Ventura Companies of Duke Werner of Urslingen and Count Konrad von Landau. Werner's company differed from other mercenary companies because its code of military justice imposed discipline and an equal division of the contract's income. The Ventura Company increased in number until becoming the fearsome "Great Company" of some 3,000 barbute (each barbuta comprised a knight and a sergeant). To this, the Italian nobleman Lodrisio Visconti countered with the "Company of St. George"-featuring cavalrymen as the key fighting men, and not infantrymen. In Italy, the first mercenary army was led by Alberico da Barbiano, the Count of Conio, who later taught military science to condottieri such as Braccio da Montone and Giacomuzzo Attendolo Sforza.[PARAGRAPH:2]Once aware of their military power monopoly in Italy, the condottieri bands became notorious for their capriciousness, and soon dictated terms to their ostensible employers. In turn, many condottieri, such as Braccio da Montone and Muzio Sforza, became powerful politicians. As most were educated men acquainted with Roman military-science manuals (e.g. Vegetius's Epitoma rei militarii), they began viewing warfare from the perspective of military science, rather than that of guts (physical courage)-a great, consequential departure from chivalry, the traditional medieval model of soldiering. Consequently, the condottieri fought by out-manoeuvring the opponent and fighting his ability to wage war, rather than risk uncertain fortune-defeat, capture, death-in battlefield combat.[PARAGRAPH:2]The medieval condottieri developed the art of war (strategy and tactics) into military science more than any of their historical military predecessors-fighting indirectly, not directly-thus, only reluctantly endangering themselves and their enlisted men, avoiding battle when possible. As a political scientist, Niccolo Machiavelli mis-interpreted that condottieri fought each other in grandiose, but often pointless and near-bloodless battles. Militarily, the condottieri line of battle still deployed the grand armoured knight and medieval weapons and tactics after most European powers had begun employing professional standing armies of pikemen and musketeers.[PARAGRAPH:2]In 1347, Cola di Rienzo (Tribune and effective dictator of the city) had Werner of Urslingen executed in Rome, and Konrad von Landau assumed command of the Great Company. In 1362, Count von Landau was betrayed by his Hungarian soldiers, and defeated in combat, by the White Company's more advanced tactics under commanders Albert Sterz and John Hawkwood. Stategically, the barbuta was replaced with the three-soldier, mounted lancia (a capo-lancia, a groom, and a boy); five lance composed a posta, five poste composed a bandiera (flag). By that time, the campaigning condottieri companies were as much Italian as foreign: the Astorre I Manfredi's Compagnia della Stella (Star Company); a new Company of St. George under Ambrogio Visconti; Niccolo da Montefeltro's Compagnia del Cappelletto (Little Hat Company); and the Compagnia della Rosa, commanded by Giovanni da Buscareto and Bartolomeo Gonzaga.[PARAGRAPH:2]From the fifteenth century hence, most condottieri were landless Italian nobles who had chosen the profession of arms as livelihood; the most famous of such mercenary captains was the son of Caterina Sforza, Giovanni dalle Bande Nere, from Forl? known as The Last Condottiere; his son was Cosimo I de' Medici, Grand Duke of Tuscany; besides noblemen, princes also fought as condottieri, given the sizable income to their estates, notably Sigismondo Malatesta, Lord of Rimini, and Federico da Montefeltro, Duke of Urbino.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]康多蒂耶里（Condottieri，单数condottiero和condottiere）是从中世纪晚期到16世纪中叶，意大利城邦和教皇签订的专业的、无军事限制的公司的雇佣兵首领（或军阀）。在现代意大利语中，condottiero的意思是“承包商”，是现代英语中雇佣军船长的同义词，历史上，并不意味着雇佣士兵的国籍。[第2段]这些意大利语单词是拿破仑时代英语写作的标准用法，直到20世纪末才在历史上流行；因为正式雇佣的、常备的、专业的军队直到拿破仑战争（1800-1815）后期才出现，英语中的Condottiere一词用来指任何雇佣的士兵。[第2段]在十三和十四世纪，意大利的城市威尼斯、佛罗伦萨和热那亚州与黎凡特的贸易非常丰富，但却拥有少得可怜的国家军队。一旦外国列强和嫉妒的邻国发动攻击，执政贵族就会雇佣外国雇佣军为他们而战。在城邦和士兵（军官和士兵）之间的契约（契约）中规定了兵役条款和条件，因此，契约领袖，雇佣兵上尉指挥官，被称为契约者。[第2段]从11世纪到13世纪，由职业军官领导的欧洲士兵，在十字军东征（1095-1291）中与穆斯林作战。这些军官在亚洲中东的外国圣地提供了大规模的战争战斗经验。十字军东征结束时，出现了第一批玛斯纳达（游荡的士兵队伍）；他们不是意大利人，而是（主要是）德国人，来自布拉班特公爵领地（因此，布拉班佐尼），来自加泰罗尼亚和阿拉贡。后者是西班牙士兵，他们于1282年10月跟随阿拉贡国王彼得三世来到圣地，战后仍留在那里寻求军事工作。1333年，在意大利，其他雇佣兵和波希米亚的约翰一起来到佩鲁贾，作为德拉科伦巴公司（鸽子公司）与阿雷佐作战。考虑到这一职业，一些马斯纳德人的雇佣兵比强盗和绝望的人少。[第2段]第一批有组织的雇佣兵是乌尔斯林根的沃纳公爵和康拉德·冯·兰道伯爵的文图拉公司。沃纳的公司不同于其他雇佣兵公司，因为其军事司法准则规定了纪律和合同收入的平等分配。文图拉连的数量不断增加，直到成为约3000名巴布特人中令人恐惧的“伟大连”（每个巴布塔人由一名骑士和一名中士组成）。对此，意大利贵族洛德里西奥·维斯康蒂（Lodrisio Visconti）用“圣乔治连”反击——骑兵是主要战斗人员，而不是步兵。在意大利，第一支雇佣军是由科尼奥伯爵阿尔贝里科·达巴比亚诺领导的，他后来教了康多蒂里的军事科学，比如布拉西奥·达蒙通和贾科穆佐·阿滕多洛·斯福尔扎（Giacomuzzo Attendolo Sforza），很快就向他们表面上的雇主口授了条件。反过来，许多康多蒂耶里，如布拉西奥达蒙通和穆齐奥斯福尔扎，成为强大的政治家。由于大多数受过教育的人都熟悉罗马军事科学手册（例如维盖提的《军事帝国的缩影》），他们开始从军事科学的角度来看待战争，而不是从勇气的角度来看待战争——这是对骑士精神（中世纪传统的军人模式）的一种重大的、必然的背离。因此，康多蒂耶里的战斗方式是：出动对手，并尽其所能发动战争，而不是冒着命运不确定的危险，打败、俘虏对手，战场战斗中的死亡。[第2段]中世纪的康多蒂耶里把战争艺术（战略和战术）发展成军事科学，比他们任何历史上的军事前辈都要多，不是直接地，而是间接地，不情愿地危害他们自己和他们的士兵，尽可能避免战争。作为一名政治科学家，尼科洛·马基雅维利错误地解释了康多蒂耶里在宏大的、但往往毫无意义的、近乎血腥的战斗中互相争斗。在军事上，康多蒂埃里战役线仍然部署了大装甲骑士和中世纪的武器和战术，因为大多数欧洲强国已经开始使用专业的常备军，包括枪兵和火枪手。[第2段]1347年，科拉迪里佐（论坛报和有效的城市独裁者）在罗马处决了厄斯林根的沃纳，康拉德·冯·兰道接管了这家大公司。1362年，冯·兰道伯爵被他的匈牙利士兵出卖，并在战斗中被阿尔伯特·斯特兹和约翰·霍克伍德指挥官领导的白军更先进的战术打败。庄严地，巴布塔被三个士兵取代，兰西亚骑兵（一个卡波兰西亚，一个新郎和一个男孩）；五个兰斯骑兵组成一个邮差，五个邮差组成一个班迪拉（旗帜）。那时，竞选的康多蒂里公司不仅是外国公司，而且是意大利公司：阿斯托雷·曼弗雷迪（Astorre I Manfredi）旗下的德拉斯特拉（Compagnia della Stella）（明星公司）；安布罗吉奥·维斯康蒂（Ambrogio Visconti）旗下的圣乔治（St.George）新公司；尼科洛·达蒙特费尔特罗（Niccolo da Montefeltro）旗下的卡佩莱托（Compagnia del Cappelletto）（小帽子公司）；以及德拉·罗莎，由乔瓦尼·达布斯卡雷托（Giovanni da Buscareto）和巴托洛梅奥·冈萨加（Bartolomeo Gonzaga）指挥。[第2段]从15世纪开始，大多数康多蒂耶里都是无地的意大利贵族，他们选择武器作为谋生手段；在这些雇佣兵队长中，最著名的是来自福尔的卡特琳娜·斯福尔扎（Caterina Sforza）的儿子乔瓦尼·达勒·班德·内尔（Giovanni dalle Bande Nere）？被称为最后的康多蒂宫；他的儿子是托斯卡纳大公科西莫·德梅迪奇；除了贵族之外，王子们也以康多蒂宫的身份战斗，因为他们的财产有可观的收入，特别是里米尼的领主西吉斯蒙多·马拉泰斯塔和乌尔比诺公爵费德里科·达蒙特费尔特罗。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SWISS_PIKEMAN</Tag>
+    <English>Swiss Pikeman</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>瑞士长枪兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SWISS_PIKEMAN_PEDIA</Tag>
+    <English>[TAB]Swiss Guards is the name given to the Swiss soldiers who have served as bodyguards, ceremonial guards, and palace guards at foreign European courts since the late 15th century. In contemporary usage it refers to the Pontifical Swiss Guard of Vatican City. They have generally had a high reputation for discipline and loyalty to their employers. Apart from household and guard units, some formations have also served as fighting troops; regular Swiss mercenary regiments served as line troops in various armies, notably those of France, Spain and Naples up to the 19th century.[PARAGRAPH:2]Various units of Swiss Guards have existed for hundreds of years. The earliest such detachment was the Swiss Hundred Guard (Cent-Garde) at the French court (1497-1830). This small force was complemented in 1567 by a Swiss Guard regiment. The Papal Swiss Guard in the Vatican was founded in 1506 and is the only Swiss Guard that still exists. In the 18th century several other Swiss Guards existed for periods in various European courts.[PARAGRAPH:2]The institution reflects the situation of Switzerland at the time. Unlike the present, Switzerland was a poor country whose young men often sought their fortunes abroad.[PARAGRAPH:2]The Corps of the Pontifical Swiss Guard or Swiss Guard (German: Schweizergarde, Italian: Guardia Svizzera Pontificia, Latin: Pontificia Cohors Helvetica, or Cohors Pedestris Helvetiorum a Sacra Custodia Pontificis) is something of an exception to the Swiss rulings of 1874 and 1927. It is a small force maintained by the Holy See and is responsible for the safety of the Pope, including the security of the Apostolic Palace. It serves as the de facto military of Vatican City.[PARAGRAPH:2]The history of the Swiss Guards has its origins in the 15th century. Pope Sixtus IV (1471-1484) already made a previous alliance with the Swiss Confederation and built barracks in Via Pellegrino after foreseeing the possibility of recruiting Swiss mercenaries. The pact was renewed by Innocent VIII (1484-1492) in order to use them against the Duke of Milan. Alexander VI (1492-1503) later actually used the Swiss mercenaries during their alliance with the King of France. During the time of the Borgias, however, the Italian Wars began in which the Swiss mercenaries were a fixture in the front lines among the warring factions, sometimes for France and sometimes for the Holy See or the Holy Roman Empire. The mercenaries enlisted when they heard King Charles VIII of France was going to raise a war against Naples. Among the participants in the war against Naples was Cardinal Giuliano della Rovere, the future Pope Julius II (1503-1513), who was well acquainted with the Swiss having been Bishop of Lausanne years earlier. The expedition failed in part thanks to new alliances made by Alexander VI against the French. When Cardinal della Rovere became pope Julius II in 1505, he asked the Swiss Diet to provide him with a constant corps of 200 Swiss mercenaries. In September 1505, the first contingent of 150 soldiers started their march towards Rome, under the command of Kaspar von Silenen, and entered the city on January 22, 1506, today given as the official date of the Guard's foundation. "The Swiss see the sad situation of the Church of God, Mother of Christianity, and realize how grave and dangerous it is that any tyrant, avid for wealth, can assault with impunity, the common Mother of Christianity," declared Huldrych Zwingli, a Swiss Catholic who later became a Protestant reformer. Pope Julius II later granted them the title "Defenders of the Church's freedom".[PARAGRAPH:2]After the disbanding of the main Swiss mercenaries battalions, most of the former soldiers returned to Switzerland. In there, and after some effort, they were reintegrated to the rural life. An amend on the Swiss constitution on 1874 banning the recruitment of Swiss citizens by foreign powers put the final nail on the group, with the sole exception of the Papal guards.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]瑞士卫兵是15世纪末以来，瑞士士兵在欧洲其他国家的法庭上担任保镖、仪仗队和宫廷卫兵的名字。在现代用法中，它指的是梵蒂冈城的宗座瑞士卫队。他们一向以纪律严明和对雇主忠诚而闻名。除了家庭和警卫部队外，一些编队还充当战斗部队；瑞士正规雇佣军团在各种军队中充当一线部队，特别是19世纪以前的法国、西班牙和那不勒斯。最早的这种分遣队是法国宫廷（1497-1830年）的瑞士百卫队（Cent Garde）。这支小部队在1567年得到了瑞士警卫团的补充。梵蒂冈的教皇瑞士卫队成立于1506年，是唯一一个仍然存在的瑞士卫队。在18世纪，其他几名瑞士警卫曾在欧洲不同的法庭上呆过一段时间。与现在不同的是，瑞士是一个贫穷的国家，那里的年轻人经常到国外寻找财富对1874年和1927年瑞士裁决的例外。它是由罗马教廷维持的一支小型部队，负责教皇的安全，包括使徒宫的安全。它实际上是梵蒂冈城的军队。[第2段]瑞士卫队的历史起源于15世纪。教皇西克斯图斯四世（1471-1484）在预见到招募瑞士雇佣兵的可能性后，已经与瑞士联邦结成同盟，并在比莱格里诺建立了兵营。无辜的八世（1484-1492）延长了这项协议，以便利用它们对付米兰公爵。亚历山大六世（1492-1503）后来在与法国国王结盟期间，实际使用了瑞士雇佣军。然而，在博尔吉亚时期，意大利战争开始时，瑞士雇佣军是交战派系中前线的一支固定部队，有时为法国，有时为罗马教廷或神圣罗马帝国。当听到法国国王查理八世要对那不勒斯发动战争时，雇佣军应征入伍。在反对那不勒斯的战争中，朱利亚诺·德拉·罗韦雷枢机主教是未来的教皇朱利叶斯二世（1503-1513），他与瑞士人早在几年前就担任过洛桑主教。这次探险失败的部分原因是亚历山大六世与法国人结成了新的同盟。1505年，红衣主教德拉·罗维尔成为教皇朱利叶斯二世时，他要求瑞士国会为他提供一支由200名瑞士雇佣兵组成的常备军团。1505年9月，150名士兵的第一支队伍在Kaspar von Silenen的指挥下开始向罗马进军，并于1506年1月22日进入该市，今天是卫兵基金会的正式日期。后来成为新教改革者的瑞士天主教徒赫尔德里奇·茨温利（Huldrych Zwingli）宣称：“瑞士人看到了基督教之母上帝教会的悲惨处境，意识到任何渴望财富的暴君都可以肆无忌惮地攻击基督教共同之母，这是多么的严重和危险。”。教皇朱利叶斯二世后来授予他们“捍卫教会自由”的称号。[第2段]在瑞士主要雇佣军营解散后，大多数前士兵返回瑞士。在那里，经过一番努力，他们重新融入了农村生活。1874年关于瑞士宪法的一项修正案禁止外国势力招募瑞士公民，这给这个组织敲定了最后一根钉子，只有教皇卫队例外。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_VARANGIAN_GUARD</Tag>
+    <English>Varangian Guard</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>瓦良格卫士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_VARANGIAN_GUARD_PEDIA</Tag>
+    <English>[TAB]It was because of Basil's distrust of the native Byzantine guardsmen, whose loyalties often shifted with fatal consequences, as well as the proven loyalty of the Varangians that led Basil to employ them as his personal bodyguards. This new force became known as the Varangian Guard. Over the years, new recruits from as far abroad as Sweden, Denmark, and Norway gave a predominantly Scandinavian cast to the organization until the late 11th century.[PARAGRAPH:2]Composed primarily of Scandinavians for the first 100 years, the guard began to see increased inclusion of Anglo-Saxons after the successful invasion of England by the Normans, the earliest written record dating to 1088. At this time a large number of Anglo-Saxons and Danes emigrated to the Byzantine Empire by way of the Mediterranean. One source has more than 5,000 of them arriving in 235 ships. Those who did not enter imperial service were settled on the Black Sea, but those who did became so vital to the Varangians that it was commonly called the Englinbarrangoi from that point. In this capacity they were able to war against the Normans under Robert Guiscard in Sicily, who unsuccessfully sought to invade the lower Balkans as well.[PARAGRAPH:2]The Varangians served as the personal bodyguard of the emperor, swearing an oath of loyalty to him; they had ceremonial duties as retainers and acclaimers and performed some police duties, especially with regard to cases of treason and conspiracy. Other than their fierce loyalty, the most recognizable attributes of the Varangian guard during the 11th century were their large axes and their penchant for drinking. There are countless stories of the Varangian guard either drinking in excess or being drunk. In 1103 during a visit to Constantinople, King Eric of Denmark "exhorted members of the guard to lead a more sober life and not give themselves up to drunkenness." It is not surprising, due to this Varangian vice to find a 12th century description of them as "the Emperor's wine-bags."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]正是因为巴兹尔不信任当地拜占庭卫兵，他们的忠诚往往会带来致命的后果，而且瓦兰吉安人的忠诚已经被证明是导致巴兹尔雇用他们作为他的私人保镖的原因。这支新的部队被称为瓦兰吉安卫队。在过去的几年里，来自瑞典、丹麦和挪威等国的新兵在11世纪末以前一直为该组织提供以斯堪的纳维亚人为主的演员阵容，在诺曼人成功入侵英格兰之后，卫兵开始看到盎格鲁撒克逊人的加入，最早的书面记录可以追溯到1088年。这时大量盎格鲁撒克逊人和丹麦人经由地中海移民到拜占庭帝国。一个消息来源有超过5000人乘坐235艘船抵达。那些没有参加皇室服务的人定居在黑海，但是那些没有参加皇室服务的人对瓦兰吉安人来说变得如此重要，因此从那时起，这里通常被称为英格兰巴朗戈伊（Englinbarrangoi）。他们以这种身份在西西里与罗伯特·吉斯卡德领导下的诺曼人作战，后者也试图入侵巴尔干半岛北部，但未果。[第2段]瓦兰吉安人担任皇帝的私人保镖，宣誓效忠他；他们有作为家臣和赞誉者的礼仪职责，并履行一些警察职责，特别是在叛国和共谋案件方面。除了他们的忠诚，11世纪瓦兰吉安卫队最明显的特征是他们的大斧头和嗜酒。有无数的故事，瓦兰吉安卫队要么过量饮酒，要么喝醉。1103年，丹麦国王埃里克在访问君士坦丁堡时“劝诫卫兵们过上更加清醒的生活，不要醉酒自尽。”这并不奇怪，因为瓦兰吉安的恶习发现了12世纪对他们的描述，称他们为“皇帝的酒袋”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HACKAPELL</Tag>
+    <English>Hackapell</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>刀骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HACKAPELL_PEDIA</Tag>
+    <English>[TAB]Hakkapeliitta (plural Hakkapeliitat) was the term used in the Holy Roman Empire for a Finnish light cavalryman in the service of King Gustavus Adolphus of Sweden (a.k.a. Sweden-Finland) during the Thirty Years' War (1618 to 1648). A Hakkapeliitta was also known as a Hackapelit, Hackapelite, Haccapelit, or Haccapelite.[PARAGRAPH:2]The hakkapeliitat were first used during the Polish-Swedish Wars of the late 1500s. In the early 17th century the cavalry led by the Swedish-Finnish Field Marshal Jacob De la Gardie conquered the Russian cities Novgorod and Moscow. The Hakkapeliitta cavalry men led by the Finnish Field Marshal Gustaf Horn were vital to the Swedish victories in Germany during the Thirty Years' War.[PARAGRAPH:2]The Hakkapeliitat were well-trained Finnish light cavalrymen who excelled in sudden and savage attacks, raiding and reconnaissance. The term hakkapeliitta comes from the Finnish war cry hakkaa p滗lle (English: hack on or hit on; Swedish: hacka p?, but most commonly translated as "Cut them down!"[PARAGRAPH:2]The greatest advantage of the fast and lightly-armored Hakkapeliitta cavalry was its charge. They typically had two pistols, a sword, a helmet, and leather armor or a breastplate of steel. They would attack at a full gallop, fire the first pistol at twenty paces and the second at five paces, and then draw the sword. The horse itself was used like another weapon, as it was used to trample enemy infantry.[PARAGRAPH:2]The horses used by the Hakkapeliitat were known as Finnhorses, a strong and durable breed larger than the neighboring Swedish counterpart.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]哈克卡佩利塔（复数Hakkapeliitat）是神圣罗马帝国在三十年战争（1618年至1648年）期间，为瑞典国王古斯塔夫斯·阿道夫（又名瑞典-芬兰）服务的芬兰轻骑兵所使用的术语。哈卡佩利特也被称为哈卡佩利特、哈卡佩利特、哈卡佩利特或哈卡佩利特。[第2段]哈卡佩利特最早在15世纪末的波兰-瑞典战争中使用。17世纪初，瑞典-芬兰陆军元帅雅各布·德拉加德率领的骑兵征服了俄罗斯的诺夫哥罗德和莫斯科。由芬兰陆军元帅古斯塔夫霍恩率领的哈克卡佩利塔骑兵对瑞典在德国三十年战争中的胜利至关重要。[第2段]哈克卡佩利塔骑兵是训练有素的芬兰轻骑兵，擅长突然袭击、突袭和侦察。hakkapeliitta一词来源于芬兰战争中的cry hakkaa p滗lle（英文：hack on or hit on；瑞典语：hacka p？，但最常见的翻译是“砍掉他们！”[第2段]快速、轻甲的哈卡佩利塔骑兵的最大优势是冲锋。他们通常有两把手枪、一把剑、一顶头盔、皮甲或钢制胸甲。他们会全速进攻，第一把手枪在二十步处射击，第二把手枪在五步处射击，然后拔剑。马本身被用作另一种武器，因为它被用来践踏敌人的步兵。[第2段]哈卡佩利特人使用的马被称为芬兰马，一种强壮耐用的马，比邻近的瑞典马大。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_REITER</Tag>
+    <English>Black Rider</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>黑骑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_REITER_PEDIA</Tag>
+    <English>[TAB]Black Riders were also known as "Devil Riders", because of the blackened armor they wore. They first appeared in Germany in the sixteenth century. The Riders developed a special tactic known as "Caracole", which allowed them to effectively bombard infantry units with constant weapons fire. In Caracole, cavalry units created a tight formation. The units in front fired their weapons, and then quickly charged to the back to reload. The units that were just behind them fired immediately after the first row charged backwards to reload, repeating as many times as required.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]黑色骑士也被称为“魔鬼骑士”，因为他们穿着黑色盔甲。它们最早出现在16世纪的德国。骑手们发展了一种特殊的战术，称为“卡拉科尔”，使他们能够有效地轰炸步兵单位不断的武器射击。在卡拉科尔，骑兵部队形成了紧密的队形。前面的部队发射了武器，然后迅速冲向后面重新装弹。刚在他们后面的部队在第一排后立即开火，向后充电重新装弹，根据需要重复多次。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ZAPOROZHIAN_COSSACK</Tag>
+    <English>Zaporozhian Cossack</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>哥萨克扎波罗热步兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ZAPOROZHIAN_COSSACK_PEDIA</Tag>
+    <English>[TAB]The Zaporozhian Cossacks were Cossacks who lived in Zaporizhya, a region in Central Ukraine. The Zaporozhian Host grew rapidly in the 15th century by serfs escaping the Polish Lithuanian Commonwealth. The base and fortress of the Cossacks was the Zaporozhian Sich, which was originally built in the area known as Zaporizhia. During the course of the 16th, 17th and well into the 18th century, the Zaporozhian Cossacks became a strong political and military force that challenged the authority of the Poland-Lithuania, the Ottoman Empire and its vassal, the Crimean Khanate, and the Tsardom of Russia. The Host underwent a sequence of conflicts and alliances involving the three powers before being destroyed in the late 18th century by the Russian Empire.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]扎波罗齐亚哥萨克是居住在乌克兰中部扎波里希亚地区的哥萨克。扎波罗齐的主人在15世纪迅速成长，农奴逃离波兰-立陶宛联邦。哥萨克的基地和要塞是扎波罗齐亚的西西里岛，它最初建于扎波罗齐亚地区。在16、17和18世纪，扎波罗齐亚哥萨克成为一支强大的政治和军事力量，挑战波兰-立陶宛、奥斯曼帝国及其附属国、克里米亚汗国和俄罗斯沙皇的权威。东道主在18世纪末被俄罗斯帝国摧毁之前，经历了一系列涉及三国的冲突和联盟。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_DON_COSSACK</Tag>
+    <English>Don Cossack</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>顿河哥萨克骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_DON_COSSACK_PEDIA</Tag>
+    <English>[TAB]The Don Cossack Host, (Russian: Vsevelikoye Voysko Donskoye) was a frontier military organization from the end of the sixteenth until the early twentieth century.[NEWLINE][TAB]Don Cossacks were masters of horse riding and had superb military training, due to their long conflict with the Crimean Khanate and the Ottoman Empire. They were selling their military services to different powers in Eastern Europe. Together with the Polish King, they raided Moscow during The Time of Troubles and under Russian authority carried out raids and expeditions against Turkey and Persia.[NEWLINE][TAB]Don Cossacks are credited with playing a significant part in repelling Napoleon's Invasion of Russia. Under the command of Count Matvey Ivanovich Platov, the Don Cossacks successfully fought in the number of battles with Grande Armee. In the Battle of Borodino Don Cossacks were making raids to the rear of the French Army. Ataman Platov commanded all Cossack troops and had successfully covered the retreat of the Russian Army to Moscow. The Don Cossacks distinguished themselves in all the campaigns to come and took part in the capture of Paris. Napoleon is credited with declaring, "Cossacks are the best light troops among all that exist. If I had them in my army, I would go through all the world with them."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]东哥萨克东道主（俄文：Vsevelikoye Voysko Donskoye）是一个边疆军事组织，从16世纪末到20世纪初。[新线][表]东哥萨克人是骑马的主人，由于他们与克里米亚汗国和奥斯曼帝国的长期冲突，他们受过极好的军事训练。他们向东欧的不同国家出售军事服务。他们与波兰国王一起，在动乱时期突袭莫斯科，并在俄罗斯的领导下，对土耳其和波斯进行了突袭和远征。在马特维·伊万诺维奇·柏拉图伯爵的指挥下，唐·哥萨克成功地与格兰德·阿梅进行了多次战斗。在波罗底诺战役中，哥萨克对法国军队的后方进行了突袭。阿塔曼·柏拉图指挥了所有哥萨克军队，并成功地掩护了俄军撤退到莫斯科。哥萨克老头子在所有的战役中都表现出色，参加了攻占巴黎的战役。拿破仑曾宣称：“哥萨克是现存最优秀的轻型部队。如果我的军队里有他们，我会和他们一起走遍全世界。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_DOPPELSOLDNER</Tag>
+    <English>Doppelsoldner</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>都卜勒武士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_DOPPELSOLDNER_PEDIA</Tag>
+    <English>[TAB]Doppels鰈dner (Double mercenary) were Landsknechts in 16th-century Germany who were prepared to fight in the front line, taking an extra risk, in exchange for double payment. The stated ratio was that one Landsknecht in four would be a Doppels鰈dner. A small number of the Doppels鰈dner of each company were usually issued with firearms.[NEWLINE][TAB]Likewise, Landsknechts schooled in the use of the Zweih鋘der (two-hander), a massive two-handed sword, were entitled to double pay and thus qualified as Doppels鰈dner. The fencing guild of the Brotherhood of St. Mark had the monopoly on the use of the Zweih鋘der after Frederick III, Holy Roman Emperor granted it to them in 1487.[NEWLINE][TAB]The Zweih鋘der was allegedly used by the Doppels鰈dner to break through formations of pikemen, especially Swiss pikemen, by either being swung to break the ends of the pikes themselves or to knock them aside and attack the pikemen directly. The factuality of this tradition is disputed, but at least as a legend, it appears to date to at least the 17th century.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]Doppels鰈dner（双重雇佣兵）是16世纪德国的Landsknecht，他们准备在前线作战，冒着额外的风险，换取双倍报酬。所说的比例是四分之一的土地将是一个双色球。每一家公司的少量道佩尔德涅尔通常都有枪支。[新行][表]同样，在使用一把巨大的双手剑Zweih鋘der（双手剑）的培训中学习的兰德斯克内赫特也有权获得双倍报酬，因此被认定为道佩尔德涅尔。圣马可兄弟会击剑行会在1487年神圣罗马皇帝腓特烈三世（Frederick III）授予了Zweih鋘der的使用权后，垄断了Zweih鋘der的使用权。[NEWLINE][TAB]据称，Zweih鋘der被Doppels鰈dner用来突破枪兵的阵型，尤其是瑞士枪兵，要么被甩断枪枝的末端，要么把它们推开直接攻击枪枝。这个传统的真实性是有争议的，但至少作为一个传说，它似乎至少可以追溯到17世纪。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_IRISH_BRIGADE</Tag>
+    <English>Irish Brigade</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>爱尔兰卫队</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_IRISH_BRIGADE_PEDIA</Tag>
+    <English>[TAB]The Irish Brigade was a brigade in the French army composed of Irish exiles, led by Robert Reid. It was formed in May 1690 when five Jacobite regiments were sent from Ireland to France in return for a larger force of French infantry who were sent to fight in the Williamite war in Ireland. The Irish Brigade served as part of the French Army until 1792.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]爱尔兰旅是由流亡爱尔兰人组成的法国军队中的一个旅，由罗伯特·里德率领。它成立于1690年5月，当时5个雅各布兵团从爱尔兰被派往法国，以换取一支更大的法国步兵部队，他们被派去参加爱尔兰的威廉特战争。爱尔兰旅在1792年以前一直是法国军队的一部分。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_STRADIOT</Tag>
+    <English>Stradiot</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>巴尔干骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_STRADIOT_PEDIA</Tag>
+    <English>[TAB]The Stratioti or Stradioti, were mercenary units from the Balkans recruited mainly by states of southern and central Europe from the 15th until the middle of the 18th century.[NEWLINE][TAB]The stradioti were recruited in Albania, Greece, Dalmatia, Serbia and later Cyprus. Most modern historians have indicated that of the Stratioti were mostly Albanians. According to a study by a Greek author, around 80% of the listed names attributed to the stradioti were of Albanian origin while most of the remaining ones, especially those of officers, were of Greek origin; a small minority were of South Slavic origin. Among their leaders there were also members of some old Byzantine Greek noble families such as the Palaiologi and Comneni.[NEWLINE][TAB]On various medieval sources Stradioti are mentioned either as Greeks or Albanians. This mainly happened because the bulk of stradioti rank and file were of Albanian origin from regions of Greece, but by the middle of the 16th century there is evidence that many of them had been Hellenized and in some occasions even Italianized. Hellenization was possibly underway prior to service abroad, since stradioti of Albanian origin had settled in Greek lands for two generations before their emigration to Italy. Moreover, since many served under Greek commanders and together with the Greek stradioti, this process continued. Another factor in this assimilative process was the stradioti's and their families' active involvement and affiliation with the Greek Orthodox or Uniate Church communities in the places they lived in Italy.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+
+    <Chinese>[TAB]斯特拉蒂奥蒂或斯特拉蒂奥蒂是巴尔干半岛的雇佣兵部队，15世纪至18世纪中叶主要由南欧和中欧国家招募。[NEWLINE][TAB]斯特拉蒂奥蒂在阿尔巴尼亚、希腊、达尔马提亚、塞尔维亚和后来的塞浦路斯招募。大多数现代历史学家都指出，斯特拉托蒂人中大部分是阿尔巴尼亚人。根据一位希腊作者的研究，在所列的斯德拉迪奥蒂人的名字中，大约80%是阿尔巴尼亚人，而其余的名字，特别是军官的名字，大部分是希腊人；少数是南斯拉夫人。在他们的领导人中，也有一些拜占庭古希腊贵族家族的成员，如帕莱奥洛吉和科姆涅尼（Palaiologi and Comneni）[NEWLINE][TAB]在中世纪的各种资料中，斯特拉迪奥蒂被称为希腊人或阿尔巴尼亚人。这主要是因为斯特拉迪奥蒂的大部分普通士兵都是阿尔巴尼亚人，他们来自希腊地区，但到16世纪中叶，有证据表明，他们中的许多人已经希腊化，在某些情况下甚至意大利化。希腊化可能是在海外服役之前进行的，因为阿尔巴尼亚裔的斯特拉迪奥蒂在移居意大利之前已经在希腊土地上定居了两代。此外，由于许多人在希腊指挥官的领导下，并与希腊的斯特拉迪奥蒂一起服役，这一进程继续下去。这一同化过程中的另一个因素是斯特拉迪奥蒂及其家人积极参与并与他们在意大利居住的地方的希腊东正教或单一教会社区有联系。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_WAARDGELDER</Tag>
+    <English>Waardgelder</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>阿尔巴尼亚轻骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_WAARDGELDER_PEDIA</Tag>
+    <English>[TAB]A Waardgelder is a mercenary from Albania. The word comes from the German word "Wartegeld", what "redundancy" means. In the Republic of the Seven United Netherlands, they were the mercenary corps rent by the directors of cities to protect the city against foreign troops.[NEWLINE][TAB]In August 1617, the States of Holland adopted a "Sharp Resolution", this resolution gave the cities in Holland the opportunity to hire Waardgelders on own hand, at the expense of the states, to prevent riots. In practice, the resolution was directed against the Counter-Remonstrants, a rebellious group among population in the cities. This, however, undermined the authority of Prince Maurice, commander of the army. This was Prince Maurice therefore not acceptable and he went to Utrecht to dismiss the Waardgelders on 31 July 1618.[NEWLINE][TAB]In 1627, 8000 Waardgelders were hired for the Siege of Grol. Two years later, for the Siege of 's-Hertogenbosch, between 10000 and 11000 Waardgelders were hired.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]瓦德格勒是阿尔巴尼亚的雇佣兵。这个词来自德语中的“Wartegeld”，意思是“冗余”。在七个统一的荷兰共和国，他们是城市主管为保护城市免受外国军队攻击而租用的雇佣军。[新线][表]1617年8月，荷兰各州通过了一项“尖锐的决议”，这项决议给了荷兰各城市自行雇佣瓦德格勒斯的机会，以牺牲国家利益为代价，防止暴乱。实际上，这项决议针对的是反抗议者，一个城市人口中的反叛团体。然而，这削弱了军队指挥官莫里斯王子的权威。这是莫里斯王子因此不可接受的，他于1618年7月31日去乌得勒支解散瓦德格勒人。[新线][标签]1627年，8000瓦德格勒人受雇围攻格罗尔。两年后，为了围攻s-Hertogenbosch，雇佣了10000到11000名Waardgelders。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_NAFFATUN</Tag>
+    <English>Naffatun</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>拿法掷油兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_NAFFATUN_PEDIA</Tag>
+    <English>[TAB]Naffatun were Arabian infantry corps armed with naphtha grenades. They are noted for the successful defense during the Seljuk Siege of Baghdad in 1157, when they managed to destroy several catapults.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]拿法掷油兵是一种装备着拿法手雷的阿拉伯步兵。他们以1157年在巴格达成功击退塞尔柱人的围城而闻名。那场战役中他们击毁了塞尔柱人的很多投石车。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_TURKOPOLES</Tag>
+    <English>Turkopoles</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>土耳其轻骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_TURKOPOLES_PEDIA</Tag>
+    <English>[TAB]Turkopoles are mercenaries hired by Christian forces in the Holy Lands for light cavalry duties. Composed of Christianised Turks and Eastern Orthodox Christians, these Turkopoles are armed with a bow and sword, and are capable of adopting a shooting circle formation, which provides constant fire against the enemy.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]土耳其人是基督教军队在圣地雇佣来执行轻骑兵任务的雇佣兵。这些土耳其人由信奉基督教的土耳其人和东正教的基督徒组成，他们手持弓和剑，能够形成射击圈队形，不断向敌人开火。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_WALLOON_GUARD</Tag>
+    <English>Walloon Guard</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>瓦隆卫队</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_WALLOON_GUARD_PEDIA</Tag>
+    <English>[TAB]The Walloon Guards were an infantry corps originally recruited in the region now known as Belgium, mainly in Catholic Wallonia, for the Spanish Army. The Walloons formed an elite unit tasked with the interior security of Spain and the maintenance of public order, eventually being incorporated as a regiment of the Spanish Royal Guard.[NEWLINE][TAB]The Walloon Guards originated at a time when the Low Countries were under the Spanish Crown as the Spanish Netherlands. "Walloons" was the German (walah) name for their romanized neighbors. The first Walloon regiments were formed by the Flemish, the Brabantians and Walloons to the number of 4,000 men and were recruited among the strongest and tallest men available, to spearhead assaults or to cover retreats.[NEWLINE][TAB]The decision to raise a regiment of Walloon Guards was taken on 17 October 1702 by Philip V of Spain and the new unit arrived in Spain in December the following year. They were linked with the Spanish Guards (Gardes Espagnoles) raised shortly before. Both regiments had the same organisation, disciplinary regulations and uniforms of dark blue, red and silver. The model for both were the French Guards (Gardes Francais) of the French Maison du Roi, a detachment of whom were sent to Spain in 1703 to act as instructors.[NEWLINE][TAB]After the independence of the United Netherlands in 1648 and the cession of the Spanish Netherlands to Austria at the Treaty of Utrecht in 1714, Walloons continued to serve in the Spanish army together with foreign soldiers from Switzerland, Ireland, and Italy. The Walloon Guards remained a primarily Walloon unit, although the Austrian authorities attempted to discourage recruitment in the former Spanish Netherlands. Most officers of the Regiment came from Spanish families of Walloon origin.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]瓦隆卫兵是一支最初在比利时地区招募的步兵部队，主要在天主教瓦隆，为西班牙军队服务。瓦隆一家组建了一支精锐部队，负责西班牙的内部安全和维护公共秩序，最终被编入西班牙皇家卫队的一个团。[新线][标签]瓦隆卫队起源于当时的低地国家作为西班牙-荷兰在西班牙的皇冠下。”“瓦隆”是他们的罗马化邻居的德语（瓦拉）名字。第一个瓦隆兵团由佛兰芒人、布拉班人和瓦隆人组成，兵力四千人，是在现有最强壮和最高的人中招募的，作为进攻的先锋或掩护撤退。[新线][标签]1702年10月17日，西班牙的菲利普五世决定组建瓦隆卫兵团，新部队于次年12月抵达西班牙。他们与不久前培养起来的西班牙卫兵有联系。两个团都有相同的组织、纪律规定和深蓝色、红色和银色的制服。这两个国家的模式都是法国皇家骑兵队的法国卫队（Gardes Francais），该支队于1703年被派往西班牙担任教官。[NEWLINE][TAB]1648年荷兰独立后，1714年根据《乌得勒支条约》（Treaty of Utrecht）将西班牙-荷兰割让给奥地利，瓦隆继续服役于西班牙军队和来自瑞士、爱尔兰和意大利的外国士兵。瓦隆卫队仍然是瓦隆部队的主要成员，尽管奥地利当局试图阻止在前西班牙荷兰招募士兵。该团大多数军官来自瓦隆族的西班牙家庭。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SWISS_GUN</Tag>
+    <English>Swiss Line Infantry</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>瑞士线列步兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SWISS_GUN_PEDIA</Tag>
+    <English>[TAB]The Swiss mercenaries were valued through the Late Medieval Europe for their overall effectiveness in the use of pikes and halberd on formation. However, after having dominated the European battlefield for near a century, advances in tactics and the incorporation of firearms and artillery saw a decline in their effectiveness. In the following years, the Swiss mercenaries saw extensive changes in tactics, drill and weapons. The Swiss Line Infantry is the culmination of this process, and saw action on the French, Spanish, Dutch and British armies until their dissolution on the 1820-1830 period. Currently, the only remaining Swiss mercenary unit remaining are the Papal guards.[PARAGRAPH:2]After the disbanding of the main Swiss mercenaries battalions, most of the former soldiers returned to Switzerland. In there, and after some effort, they were reintegrated to the rural life. An amend on the Swiss constitution on 1874 banning the recruitment of Swiss citizens by foreign powers put the final nail on the group, with the sole exception of the Papal guards.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]瑞士雇佣兵在中世纪晚期的欧洲由于其在编队中使用长矛和戟的整体效能而受到重视。然而，在统治欧洲战场近一个世纪之后，战术的进步以及火器和大炮的合并使它们的效力下降。在接下来的几年里，瑞士雇佣军在战术、演习和武器方面发生了广泛的变化。瑞士步兵是这一进程的顶点，在1820-1830年期间，瑞士步兵对法国、西班牙、荷兰和英国军队采取了行动，直至解散。目前，仅存的瑞士雇佣兵部队是教皇卫队。[第2段]在瑞士主要雇佣兵营解散后，大多数前士兵返回瑞士。在那里，经过一番努力，他们重新融入了农村生活。1874年关于瑞士宪法的一项修正案禁止外国势力招募瑞士公民，这给这个组织敲定了最后一根钉子，只有教皇卫队例外。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_LIPKA_TATAR</Tag>
+    <English>Lipka Tatar</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>立陶宛鞑靼兵团</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_LIPKA_TATAR_PEDIA</Tag>
+    <English>[TAB]The Lipka Tatars are a group of Tatars who originally settled in the Grand Duchy of Lithuania at the beginning of 14th century. The first settlers tried to preserve their shamanistic religion and sought asylum amongst the non-Christian Lithuanians. Towards the end of the 14th century, another wave of Tatars - this time, Muslims, were invited into the Grand Duchy by Vytautas the Great. These Tatars first settled in Lithuania proper around Vilnius, Trakai, Hrodna and Kaunas and later spread to other parts of the Grand Duchy that later became part of Polish Lithuanian Commonwealth. These areas comprise present-day Lithuania, Belarus and Poland. From the very beginning of their settlement in Lithuania they were known as the Lipka Tatars. While maintaining their religion, they united their fate with that of the mainly Christian Polish-Lithuanian Commonwealth. From the Battle of Grunwald onwards the Lipka Tatar light cavalry regiments participated in every significant military campaign of Lithuania and Poland.[NEWLINE][TAB]The Lipka Tatar origins can be traced back to the descendant states of the Mongol Empire of Genghis Khan - the White Horde, the Golden Horde, the Crimean Khanate and Kazan Khanate. They initially served as a noble military caste but later they became urban-dwellers known for their crafts, horses and gardening skills. Throughout centuries they resisted assimilation and kept their traditional lifestyle. While they remained very attached to their religions, over time however, they lost their original Tatar language and for the most part adopted Polish. There are still small groups of Lipka Tatars living in today's Belarus, Lithuania and Poland, as well as their communities in United States.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]利普卡鞑靼人是14世纪初在立陶宛大公国定居的鞑靼人。第一批定居者试图保护他们的萨满教，并寻求庇护的非基督教立陶宛人。14世纪末，又一批鞑靼人——这一次是穆斯林——被维塔塔塔斯大帝邀请进入大公国。这些鞑靼人最初在立陶宛的维尔纽斯、特拉凯、赫罗德纳和考纳斯附近定居，后来扩展到大公国的其他地区，后来成为波兰-立陶宛联邦的一部分。这些地区包括今天的立陶宛、白俄罗斯和波兰。从他们在立陶宛定居的一开始，他们就被称为利普卡鞑靼人。在保持宗教信仰的同时，他们将自己的命运与主要信奉基督教的波兰-立陶宛联邦统一起来。从格伦瓦尔德战役开始，利普卡鞑靼轻骑兵团参加了立陶宛和波兰的每一次重大军事行动。[新线][制表符]利普卡鞑靼的起源可以追溯到成吉思汗蒙古帝国的后裔国家——白汗国、金汗国、克里米亚汗国和喀山汗国。他们最初是一个高贵的军事种姓，但后来他们成为以手工艺、马匹和园艺技能闻名的城市居民。几个世纪以来，他们抵制同化，保持着传统的生活方式。尽管他们对自己的宗教非常依恋，但随着时间的推移，他们失去了原来的鞑靼语，大部分采用了波兰语。在今天的白俄罗斯、立陶宛和波兰，以及他们在美国的社区，仍有少数利普卡鞑靼人居住。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HIGHLANDER_GUN</Tag>
+    <English>Highlander Infantry</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>高地步兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HIGHLANDER_GUN_PEDIA</Tag>
+    <English>[TAB]The Highlanders were clansmen warriors and soldiers from the highlands of Scotland. A group of Highlanders raised in 1745 under the banner of Prince Charles Edward Stuart, also known as Bonnie Prince Charles or the Young Pretender, fought against English royalist armies with the goal of restoring the Scottish line of kings (the Stuarts) to the throne of England. They were ultimately unsuccessful and many Highlanders scatterd to mainland Europe and America to escape the ruthless oppression of th Scottish Highlands. In their new homes, regiments of these Scotsmen fought as part of other armies.[NEWLINE][TAB]Highlandrs carried swords, daggers and rifles. They wore kilts, bonnets (a seamless and brimless woolen cap, typically with a strip of tartan around the headband) and double-breasted coats.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>高地人是来自苏格兰高地的氏族战士和士兵。1745年在查尔斯·爱德华·斯图尔特王子（又名邦妮·查尔斯王子或年轻的伪装者）的旗帜下兴起的一群高地人，与英国保皇党军队作战，目的是恢复苏格兰国王（斯图尔特）的王位。他们最终失败了，许多高地人分散到欧洲和美洲大陆，以逃避苏格兰高地的残酷压迫。在他们的新家里，这些苏格兰人的军团作为其他军队的一部分战斗。他们穿着短裙、帽子（一种无缝无边的羊毛帽子，通常头带上有一条格子呢）和双排扣外套。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_TOUAREG</Tag>
+    <English>Tuareg</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>图阿雷格战士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_TOUAREG_PEDIA</Tag>
+    <English>[TAB]The Tuareg are a Berber nomadic pastoralist people. They are the principal inhabitants of the Saharan interior of North Africa.[NEWLINE][TAB]Throughout history, the Tuareg were renowned and respected warriors. Their decline as a military might came with the introduction of firearms, weapons which the Tuareg did not possess. The Tuareg warrior attire consisted of a takoba (sword), allagh (lance) and aghar (shield) made of antelope's skin.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>图阿雷格人是柏柏尔游牧民族。他们是北非撒哈拉内陆地区的主要居民。他们作为军事力量的衰落伴随着枪支的引进，而图阿雷格人并不拥有这些武器。图阿雷格战士的服装由塔科巴（剑）、阿拉（长矛）和阿加尔（盾牌）组成，由羚羊的皮肤制成。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ZANJI</Tag>
+    <English>Zanji Spearman</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>赞基长枪兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ZANJI_PEDIA</Tag>
+    <English>[TAB]Zanj ("Land of the Blacks") was a name used by medieval Arab geographers to refer to both a certain portion of the coast of East Africa and its inhabitants. Zanjis in Arabia were kept as slaves but also hired as mercenaries, notably by the Fatimid Caliphate in Egypt, whose armies included large numbers of Sudanese, Somali and Nubian soldiers.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]赞基意为黑人的土地，被中世纪的阿拉伯人用来称呼非洲东海岸的土地和人民。赞基在阿拉伯既被蓄为奴隶也有被雇佣为雇佣兵，尤其是埃及的法蒂玛哈里发，他们的军队中包含了大量来自苏丹、马里和努比亚的黑人士兵。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_NUBIAN_LONGBOWMAN</Tag>
+    <English>Medjay Bowman</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>马库里亚弓箭手</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_NUBIAN_LONGBOWMAN_PEDIA</Tag>
+    <English>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]阿拉伯人在641年夺取了埃及，之后圣战指向了南方。马库里亚是世界上为数不多的成功抵抗了穆斯林征服的国家。马库里亚人首先在642年与第一次栋古拉战役中打败了阿拉伯军队，其后又在652年的第二次栋古拉战役中再次打败阿拉伯人。据阿拉伯人记载，这两次战斗中马库里亚人非常擅长使用弓箭。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_MAMLUK_CAVALRY</Tag>
+    <English>Mamluk Cavalry</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>马穆鲁克骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_MAMLUK_CAVALRY_PEDIA</Tag>
+    <English>[TAB]When the Mongol Empire's troops of Hulagu Khan sacked Baghdad in 1258 and advanced towards Syria, Mamluk Emir Baibars left Damascus for Cairo where he was welcomed by Sultan Qutuz. After taking Damascus, Hulagu demanded that Qutuz surrender Egypt but Qutuz had Hulagu's envoys killed and, with Baibars' help, mobilized his troops. Although Hulagu pulled the majority of his forces out of Syria to attend the kurultai when great Khan M鰊gke died in action against the Southern Song, he left his lieutenant, the Christian Kitbuqa, in charge with a token force of about 18,000 men as a garrison. Qutuz drew the Ilkhanate army into an ambush near the Orontes River, routed them at the Battle of Ain Jalut in 1260 and captured and executed Kitbuqa.[PARAGRAPH:2]After this great triumph, Qutuz was assassinated by conspiring Mamluks. It was said that Baibars, who seized power, was involved in the assassination. In the following centuries the rule of mamluks was discontinuous, with an average span of seven years.[PARAGRAPH:2]The Mamluks defeated the Ilkhanates a second time in the First Battle of Homs and began to drive them back east. In the process they consolidated their power over Syria, fortified the area, and formed mail routes and diplomatic connections between the local princes. Baibars's troops attacked Acre in 1263, captured Caesarea in 1265, and took Antioch in 1268.[PARAGRAPH:2]Mamluks also defeated new Ilkhanate attacks in Syria in 1271 and 1281 (Second Battle of Homs). They were defeated by the Ilkhanates and their Christian allies at the Battle of Wadi al-Khazandar in 1299, but soon after that the Mamluks defeated the Ilkhanate again in 1303/1304 and 1312. Finally, the Ilkhanates and the Mamluks signed a treaty of peace in 1323.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>当蒙古帝国的胡拉格汗军队于1258年洗劫巴格达并向叙利亚挺进时，马穆鲁克埃米尔拜巴尔离开大马士革前往开罗，在那里受到了苏丹库图兹的欢迎。在占领大马士革后，胡拉格要求库图兹投降埃及，但库图兹杀害了胡拉格的特使，并在拜巴尔的帮助下，调动了他的军队。尽管胡拉格在大汗M鰊gke在对抗南宋的战斗中阵亡时，将大部分兵力撤出叙利亚，参加库鲁泰战役，但他还是让他的中尉克里斯蒂安·基特布卡（Christian Kitbuqa）负责一支象征性的约18000人的部队作为驻军。库图兹将伊尔汗国军队引向奥朗特斯河附近的伏击，在1260年的艾因贾鲁特战役中击溃他们，俘虏并处决了基布卡。[第2段]在这场伟大的胜利之后，库图兹被密谋的马穆鲁克人暗杀。据说夺取政权的拜巴尔参与了暗杀行动。在接下来的几个世纪里，马穆鲁克的统治是不连续的，平均持续了七年。[第2段]马穆鲁克人在霍姆斯的第一次战役中第二次击败了伊尔汗国，并开始把他们赶回东方。在此过程中，他们巩固了对叙利亚的权力，加强了该地区的防御，并在当地王子之间建立了邮路和外交联系。拜巴尔的军队在1263年进攻阿克雷，在1265年攻占凯撒利亚，并在1268年攻占安提俄克。[段落：2]马穆鲁克也在1271年和1281年（霍姆斯第二次战役）击败了伊尔汗国在叙利亚的新进攻。1299年，他们在瓦迪卡赞达尔战役中被伊尔汗国及其基督教盟友击败，但不久之后，马穆鲁克人又在1303/1304和1312年击败了伊尔汗国。最后，伊尔汗国和马穆鲁克人于1323年签署了和平条约。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SOUTH_SLAV_VLASTELA</Tag>
+    <English>South Slav Vlastela</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>塞尔维亚战士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SOUTH_SLAV_VLASTELA_PEDIA</Tag>
+    <English>[TAB]The Serbian army was feudal in nature, though its system of military landholding was inherited from the Byzantine pronoia rather than the Western European fief. The pronoia itself - hereditary by some accounts, non-hereditary by others - is only first recorded in Serbia under that name in 1299 (the Serbs spelt it pronija, or pronya, and called its holder a promjar), but even from as early as Stefan Nemanja reign (1186-96) every able-bodied man possessing a bashtina (a grant of hereditary freehold land, the holder being called a bashtinik or voynici) had been obliged to attend the army whenever required, only monastic tenants being exempted in exchange for performing part-time garrison duties in local fortresses and fortified monasteries. The building and maintenance (gradozadanje) of such fortresses, and equally the maintenance of their permanent garrisons (gradobljudenlje) was an additional aspect of the feudal responsibilities of the population of each Zupa (district), who were also responsible for guarding their own frontier. The holders of both bashtinas and pronijas constituted the nobility (though many of the former were only upper-class peasants), and these were the principal native element of every Serbian army, serving as heavy cavalry (the proniiars) and infantry (the voynici), In fact most armies included only the nobility (the vlastelini, or 'holders of power') and their retinues, maintained at their own expense, but in times of emergency the arriere-ban, called the Zamanitchka Voyska ('All Together'), would be summoned. As elsewhere, this comprised all the nobility and every able-bodied freeman.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>塞尔维亚军队在本质上是封建的，尽管它的军事土地占有制度是从拜占庭的普罗诺亚而不是西欧的封地继承来的。普罗诺亚本身——有人说它是世袭的，有人说它是非世袭的——直到1299年才在塞尔维亚首次以这个名字记录下来（塞族人称它为普罗诺亚，或称普罗诺亚，并称它的持有者为普罗姆贾尔），但甚至早在斯特凡·内曼贾（Stefan Nemanja）统治时期（1186-1996年），每一个拥有巴什蒂纳（一块世袭不动产土地的赠与，持有人被称为巴什蒂尼克或伏尼契）有义务在任何需要时参军，只有僧侣房客被免除在当地要塞和设防寺院执行兼职驻军任务。修建和维护这些要塞（格拉多扎丹吉），同样地维护它们的永久驻军（格拉多布尔朱登杰），是每个祖帕（地区）人民封建责任的另一个方面，他们也负责保卫自己的边境。巴什蒂纳斯和普罗尼亚斯的拥有者都是贵族（尽管前者中的许多人只是上流社会的农民），他们是塞尔维亚每支军队的主要本土元素，充当重骑兵（普罗尼亚斯）和步兵（伏尼契），事实上大多数军队只包括贵族（弗拉斯蒂里尼，或“权力持有人”）及其随从，费用自理，但在紧急情况下，将传唤被称为Zamanitchka Voyska（“全体”）的arriere禁令。和其他地方一样，这包括了所有的贵族和每一个健全的自由人。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_BOHEMIAN_WAR_WAGON</Tag>
+    <English>Bohemian War Wagon</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>波西米亚战车</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_BOHEMIAN_WAR_WAGON_PEDIA</Tag>
+    <English>[TAB]The war wagon was a medieval development during the Hussite Wars around 1420 by Hussite forces rebelling in Bohemia. It was a heavy wagon given protective sides with firing slits and heavy firepower from either a cannon or a force of hand-gunners, archers and crossbowmen, supported by infantry using spears, pikes and flails. Groups of them could form defensive works, but they also were used as hardpoints for Hussite formations or as firepower in pincer movements. This early use of gunpowder and innovative tactics helped a largely peasant infantry stave off attacks by the Holy Roman Empire larger forces of mounted knights.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]战车是1420年左右在波希米亚反叛的侯赛特军队在侯赛特战争期间的中世纪发展。这是一辆重型战车，两边有枪眼和重型火力，可以是大炮，也可以是手枪手、弓箭手和弩手，由步兵用长矛、长矛和连枷支撑。它们可以组成防御工事，但也被用作侯赛特编队的要塞或钳形运动中的火力。早期使用火药和创新的战术帮助大部分农民步兵避开神圣罗马帝国更大的骑兵部队的攻击。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_LOMBARD_HEAVY_FOOTMAN</Tag>
+    <English>Lombard Heavy Footman</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>伦巴第重装步兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_LOMBARD_HEAVY_FOOTMAN_PEDIA</Tag>
+    <English>[TAB]The Lombards or Langobards were a Germanic tribe who ruled Italy from 568 to 774. The Lombard historian Paul the Deacon wrote in the Historia Langobardorum that the Lombards descended from a small tribe called the Winnili who dwelt in southern Scandinavia[2] (Scadanan) before migrating to seek new lands. In the 1st century AD, they formed part of the Suebi, in northwestern Germany. By the end of the 5th century, they had moved into the area roughly coinciding with modern Austria north of the Danube river, where they subdued the Heruls and later fought frequent wars with the Gepids. The Lombard king Audoin defeated the Gepid leader Thurisind in 551 or 552; his successor Alboin eventually destroyed the Gepids at the Battle of Asfeld in 567.[PARAGRAPH:2]Following this victory, Alboin decided to lead his people to Italy, which had become severely depopulated and devastated after the long Gothic War (535-554) between the Byzantine Empire and the Ostrogothic Kingdom there. The Lombards were joined by numerous Saxons, Heruls, Gepids, Bulgars, Thuringians, and Ostrogoths, and their invasion of Italy was almost unopposed. By late 569 they had conquered all the principal cities north of the Po River except Pavia, which fell in 572. At the same time, they occupied areas in central and southern Italy. They established a Lombard Kingdom in Italy, later named Regnum Italicum ("Kingdom of Italy"), which reached its zenith under the 8th-century ruler Liutprand. In 774, the Kingdom was conquered by the Frankish King Charlemagne and integrated into his Empire. However, Lombard nobles continued to rule parts of the Italian peninsula well into the 11th century when they were conquered by the Normans and added to their County of Sicily. Their legacy is apparent in the regional name, Lombardy.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]伦巴第人或兰戈巴德人是一个日耳曼部落，从568年到774年统治意大利。伦巴第历史学家保罗迪肯在《兰戈巴多姆历史》中写道，伦巴第人是一个叫做温尼利的小部落的后裔，他们在迁徙到新大陆之前居住在斯堪的纳维亚半岛南部。公元1世纪，它们形成了德国西北部苏比的一部分。到了5世纪末，他们进入了多瑙河以北与现代奥地利大致重合的地区，在那里他们制服了赫鲁尔人，后来与格皮人频繁交战。伦巴第国王奥多因在551年或552年击败了基普领导人图里辛；他的继任者阿尔博因最终在567年的阿斯菲尔德战役中消灭了基普人。[第2段]在这场胜利之后，阿尔博因决定带领他的人民去意大利，在拜占庭帝国和东哥特王国之间的长期哥特式战争（535-554年）之后，这里人口严重减少，遭到破坏。伦巴第人加入了众多的撒克逊人，赫鲁尔人，格皮兹人，保加利亚人，图林根人，和东哥特人，他们对意大利的入侵几乎没有对手。到569年底，他们征服了除帕维亚以外的所有主要城市，帕维亚在572年沦陷。同时，他们占领了意大利中部和南部地区。他们在意大利建立了伦巴第王国，后来被命名为“意大利王国”（Regnum Italicum），在8世纪的统治者柳普兰（Liutprand）统治下达到了顶峰。774年，这个王国被法兰克国王查理曼征服并并入他的帝国。然而，伦巴第贵族继续统治意大利半岛的部分地区，直到11世纪，他们被诺曼人征服，并加入他们的西西里郡。他们的遗产显然是在地区名称，伦巴第。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_CRIMEAN_TATAR_RIDER</Tag>
+    <English>Crimean Tatar Rider</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>克里米亚鞑靼骑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_CRIMEAN_TATAR_RIDER_PEDIA</Tag>
+    <English>[TAB]The Crimean Tatars emerged as a nation at the time of the Crimean Khanate. The Crimean Khanate was a Turkic-speaking Muslim state which was among the strongest powers in Eastern Europe until the beginning of the 18th century. The nobles and rulers of the Crimean Tatars were the progeny of Haci I Girai a Jochid descendant of Genghis Khan who was Great Mongol ruler, and thus of Batu Khan of the Mongol Golden Horde. The Crimean Tatars mostly adopted Islam in the 14th century and thereafter Crimea became one of the centers of Islamic civilization. The Russo-Turkish War (1768-74) resulted in the defeat of the Ottomans by the Russians, and according to the Treaty of K&#58354;黭 Kaynarca (1774) signed after the war, Crimea became independent and Ottomans renounced their political right to protect the Crimean Khanate. After a period of political unrest in Crimea, Russia violated the treaty and annexed the Crimean Khanate in 1783.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]克里米亚鞑靼人在克里米亚汗国时期成为一个民族。克里米亚汗国是一个讲突厥语的穆斯林国家，在18世纪初之前一直是东欧最强大的国家之一。克里米亚鞑靼人的贵族和统治者是伟大的蒙古统治者成吉思汗（Genghis Khan）的乔吉思吉（Haci Girai）的后代，因此也是蒙古金色部落的巴图汗（Batu Khan）的后代。克里米亚鞑靼人在14世纪主要信奉伊斯兰教，此后克里米亚成为伊斯兰文明的中心之一。俄土战争（1768-174）导致俄罗斯人打败了奥斯曼帝国，根据战后签署的《卡亚纳卡条约》（1774），克里米亚独立，奥斯曼帝国放弃了保护克里米亚汗国的政治权利。克里米亚政局动荡一段时间后，俄罗斯违反了条约，于1783年吞并了克里米亚汗国。</Chinese>
+  </TEXT>
+</Civ4GameText>

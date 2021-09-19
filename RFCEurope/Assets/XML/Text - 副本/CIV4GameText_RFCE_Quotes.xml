@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Quotes -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ALCHEMY_QUOTE</Tag>
+    <English>"The glorious sun stays in its course and plays the alchemist. Turning with splendour of his precious eye the meagre earth to glittering gold." - William Shakespeare</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"The glorious sun stays in its course and plays the alchemist. Turning with splendour of his precious eye the meagre earth to glittering gold." - William Shakespeare</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ARABIC_KNOWLEDGE_QUOTE</Tag>
+    <English>"We reveal this Book unto thee as an exposition of all things, and a guidance and a mercy to those of you who submit to Allah" - Muhammad, Sura 16.90</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"We reveal this Book unto thee as an exposition of all things, and a guidance and a mercy to those of you who submit to Allah" - Muhammad, Sura 16.90</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ARABIC_MEDICINE_QUOTE</Tag>
+    <English>"There is no disease that Allah has created, except that He also has created its treatment." - Sunan Abi Dawood</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"There is no disease that Allah has created, except that He also has created its treatment." - Sunan Abi Dawood</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ARCHITECTURE_QUOTE</Tag>
+    <English>"It is from their foes, not from their friends, that cities learn the wisdom of building high walls." - Aristophanes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"It is from their foes, not from their friends, that cities learn the wisdom of building high walls." - Aristophanes</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ARISTOCRACY_QUOTE</Tag>
+    <English>"There is nothing which wounds the heart of a noble man more than the thought of his honour being assailed." - Moliere</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"There is nothing which wounds the heart of a noble man more than the thought of his honour being assailed." - Moliere</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ASTROLABE_QUOTE</Tag>
+    <English>"All things are in the Universe, and the Universe in all things; we in it and it in us; in this way everything in perfect unity." - Giordano Bruno</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"All things are in the Universe, and the Universe in all things; we in it and it in us; in this way everything in perfect unity." - Giordano Bruno</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ASTRONOMY_QUOTE</Tag>
+    <English>"Astronomy compels the soul to look upwards and leads us from this world to another." - Plato</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Astronomy compels the soul to look upwards and leads us from this world to another." - Plato</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_BANKING_QUOTE</Tag>
+    <English>"Banking establishments are more dangerous than standing armies." - Thomas Jefferson</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Banking establishments are more dangerous than standing armies." - Thomas Jefferson</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_BIOLOGY_QUOTE</Tag>
+    <English>"In all things of Nature, there is something of the marvellous." - Aristotle</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"In all things of Nature, there is something of the marvellous." - Aristotle</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_BLAST_FURNACE_QUOTE</Tag>
+    <English>"And them that take up the sword shall perish by the sword" - Book of Matthew, the Bible</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"And them that take up the sword shall perish by the sword" - Book of Matthew, the Bible</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_BRONZE_CASTING_QUOTE</Tag>
+    <English>"It is entirely seemly for a young man killed in battle to lie mangled by the bronze spear. In his death all things appear fair." - Homer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"It is entirely seemly for a young man killed in battle to lie mangled by the bronze spear. In his death all things appear fair." - Homer</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CALENDAR_QUOTE</Tag>
+    <English>"For everything there is a season and a time for every purpose under heaven." - Ecclisiastics, The Bible</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"For everything there is a season and a time for every purpose under heaven." - Ecclisiastics, The Bible</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CHAIN_MAIL_QUOTE</Tag>
+    <English>"The glories of our blood and state are shadows not substantial things. There is no armour against fate. Death lays his icy hand on kings." - James Shirley</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"The glories of our blood and state are shadows not substantial things. There is no armour against fate. Death lays his icy hand on kings." - James Shirley</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CHEMISTRY_QUOTE</Tag>
+    <English>"We must trust to nothing but facts. These are presented to us by Nature and cannot deceive. We ought in every instance to submit our reasoning to the test of experiment and observation." - Antoine Lavoissier</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"We must trust to nothing but facts. These are presented to us by Nature and cannot deceive. We ought in every instance to submit our reasoning to the test of experiment and observation." - Antoine Lavoissier</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CHIVALRY_QUOTE</Tag>
+    <English>"He was a verrey purfit, gentil knight." - Geoffrey Chaucer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"He was a verrey purfit, gentil knight." - Geoffrey Chaucer</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CIVIL_ENGINEERING_QUOTE</Tag>
+    <English>"Building well has three conditions; firmness, commodity and delight." - Vitruvius</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Building well has three conditions; firmness, commodity and delight." - Vitruvius</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CIVIL_SERVICE_QUOTE</Tag>
+    <English>"For forms of government let fools contest, whatever's best administered is best." - Alexander Pope</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"For forms of government let fools contest, whatever's best administered is best." - Alexander Pope</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CLASSICAL_KNOWLEDGE_QUOTE</Tag>
+    <English>"True knowledge exists in knowing that you know nothing." - Socrates</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"True knowledge exists in knowing that you know nothing." - Socrates</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CLOCK_MAKING_QUOTE</Tag>
+    <English>"The wisest men follow their own direction." - Euripides</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"The wisest men follow their own direction." - Euripides</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CODE_OF_LAWS_QUOTE</Tag>
+    <English>"Justice is a contract of expediency, entered upon to prevent men harming or being harmed." - Epicurus</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Justice is a contract of expediency, entered upon to prevent men harming or being harmed." - Epicurus</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_COMBINED_ARMS_QUOTE</Tag>
+    <English>"Such as do build up their faith upon the holy text of pike and gun...and decide all controversies by infalliable artillery." - Samuel Butler</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Such as do build up their faith upon the holy text of pike and gun...and decide all controversies by infalliable artillery." - Samuel Butler</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_CONSTITUTION_QUOTE</Tag>
+    <English>"No man shall be taken, imprisoned or destroyed, except by the lawful judgement of his peers." - The Magna Carta</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"No man shall be taken, imprisoned or destroyed, except by the lawful judgement of his peers." - The Magna Carta</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_DIVINE_RIGHT_QUOTE</Tag>
+    <English>"Kings arose before any estates or ranks of men, before any parliaments were holden, or laws made and by then all land was distributed which was at first wholely theirs. So it is that kings are the makers of law, not laws the makers of kings." - James I</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Kings arose before any estates or ranks of men, before any parliaments were holden, or laws made and by then all land was distributed which was at first wholely theirs. So it is that kings are the makers of law, not laws the makers of kings." - James I</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_DRAMA_QUOTE</Tag>
+    <English>"All the world's a stage. And all the men and women merely players. They have their exits and their entrances. And each man, in his time, plays many parts." - William Shakespeare</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"All the world's a stage. And all the men and women merely players. They have their exits and their entrances. And each man, in his time, plays many parts." - William Shakespeare</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ECONOMICS_QUOTE</Tag>
+    <English>"The more opportunities there are in a Society for some persons to live upon the toil of others, the less those others may enjoy the fruits of their work themselves." - Anders Chydenius</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"The more opportunities there are in a Society for some persons to live upon the toil of others, the less those others may enjoy the fruits of their work themselves." - Anders Chydenius</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_EDUCATION_QUOTE</Tag>
+    <English>"There is no wealth like knowledge, no poverty like ignorance." - Caliph Ali ibn Abi-Talib</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"There is no wealth like knowledge, no poverty like ignorance." - Caliph Ali ibn Abi-Talib</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_ENGINEERING_QUOTE</Tag>
+    <English>"A designer knows he has achieved perfection, not when there is nothing left to add, but when there is nothing left to take away." - Antoine de Saint-Expury</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"A designer knows he has achieved perfection, not when there is nothing left to add, but when there is nothing left to take away." - Antoine de Saint-Expury</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_EXPLOSIVES_QUOTE</Tag>
+    <English>"A desperate disease requires a dangerous remedy." - Guy Fawkes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"A desperate disease requires a dangerous remedy." - Guy Fawkes</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_FARRIERS_QUOTE</Tag>
+    <English>"For want of a nail the shoe is lost. For want of a shoe the horse is lost. For want of a horse the rider is lost." - George Herbert</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"For want of a nail the shoe is lost. For want of a shoe the horse is lost. For want of a horse the rider is lost." - George Herbert</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_FEUDALISM_QUOTE</Tag>
+    <English>"I will to my lord be true, and love all which he loves and shun all which he shuns."- Anglo-Saxon Oath of Fealty</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"I will to my lord be true, and love all which he loves and shun all which he shuns."- Anglo-Saxon Oath of Fealty</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_FLINTLOCK_QUOTE</Tag>
+    <English>"Wise anger is like fire from a flint: there is great ado to get it out; and when it does come, it is out again immediately." - Matthew Henry</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Wise anger is like fire from a flint: there is great ado to get it out; and when it does come, it is out again immediately." - Matthew Henry</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_FREE_MARKET_QUOTE</Tag>
+    <English>"Everything is worth what its purchaser will pay for it." - Publius Syrus</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Everything is worth what its purchaser will pay for it." - Publius Syrus</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_GOTHIC_ARCHITECTURE_QUOTE</Tag>
+    <English>"I would call architecture frozen music." - Friedrich Schiller</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"I would call architecture frozen music." - Friedrich Schiller</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_GUILDS_QUOTE</Tag>
+    <English>"People of the same trade seldom meet together, even for merriment and diversion, but the conversation ends in a conspiracy against the public." - Adam Smith, "The Wealth of Nations"</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"People of the same trade seldom meet together, even for merriment and diversion, but the conversation ends in a conspiracy against the public." - Adam Smith, "The Wealth of Nations"</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_GUNPOWDER_QUOTE</Tag>
+    <English>"Put your trust in God. And keep your powder dry". - Oliver Cromwell</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Put your trust in God. And keep your powder dry". - Oliver Cromwell</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_HERBAL MEDICINE_QUOTE</Tag>
+    <English>"The Art of Medicine is to amuse the patient while Nature cures the disease." - Voltaire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"The Art of Medicine is to amuse the patient while Nature cures the disease." - Voltaire</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_INDUSTRIAL_REVOLUTION_QUOTE</Tag>
+    <English>"There are only two ways of getting on in the world; By one's industry or by the stupidity of others." - Jean de La Bruyere</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"There are only two ways of getting on in the world; By one's industry or by the stupidity of others." - Jean de La Bruyere</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_LATEEN_SAILS_QUOTE</Tag>
+    <English>"You can't direct the wind, but you can adjust your sails." - unknown</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"You can't direct the wind, but you can adjust your sails." - unknown</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_LIBERALISM_QUOTE</Tag>
+    <English>"Any society that would give up a little liberty to gain a little security, will deserve neither and lose both." - Benjamin Franklin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Any society that would give up a little liberty to gain a little security, will deserve neither and lose both." - Benjamin Franklin</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_LITERATURE_QUOTE</Tag>
+    <English>"Some books are to be tasted, others to be swallowed, and some few to be chewed and digested." - Sir Francis Bacon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Some books are to be tasted, others to be swallowed, and some few to be chewed and digested." - Sir Francis Bacon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MACHINE_TOOLS_QUOTE</Tag>
+    <English>"Man is a tool-using animal. Without tools he is nothing. With tools he is all." - Thomas Carlyle</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Man is a tool-using animal. Without tools he is nothing. With tools he is all." - Thomas Carlyle</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MACHINERY_QUOTE</Tag>
+    <English>"It is questionable if all the mechanical inventions yet made have lightened the days toil of any human being." - J.S. Mill</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"It is questionable if all the mechanical inventions yet made have lightened the days toil of any human being." - J.S. Mill</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MANORIALISM_QUOTE</Tag>
+    <English>"They have shelter and ease in their fine manors. While we have hardship and toil and the rain in the fields. And from us must come from our labour, the things that keep them in luxury." - Jean Froissart</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"They have shelter and ease in their fine manors. While we have hardship and toil and the rain in the fields. And from us must come from our labour, the things that keep them in luxury." - Jean Froissart</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MAPMAKING_QUOTE</Tag>
+    <English>"Like sea discoverers to new worlds have gone, like maps to other worlds have shown. Let us possess one World, each hath one and one for all." - John Donne</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Like sea discoverers to new worlds have gone, like maps to other worlds have shown. Let us possess one World, each hath one and one for all." - John Donne</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MEDICINE_QUOTE</Tag>
+    <English>"As to diseases make a habit of two things - to help, or at least, to do no harm." - Hippocrates</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"As to diseases make a habit of two things - to help, or at least, to do no harm." - Hippocrates</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MILITARY_TACTICS_QUOTE</Tag>
+    <English>"One minute decides the outcome of a battle, one hour the outcome of a campaign, and one day the fate of empires." - Alexander Suvorov</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"One minute decides the outcome of a battle, one hour the outcome of a campaign, and one day the fate of empires." - Alexander Suvorov</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MILITARY_TRADITION_QUOTE</Tag>
+    <English>"Diplomacy without armies is like music without instruments." - Frederick the Great</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Diplomacy without armies is like music without instruments." - Frederick the Great</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MONASTICISM_QUOTE</Tag>
+    <English>"Meditation is the life of the soul, action is the soul of meditation, so meditate that you mayst give God glory." - Francis Quarles</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Meditation is the life of the soul, action is the soul of meditation, so meditate that you mayst give God glory." - Francis Quarles</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MONUMENT_BUILDING_QUOTE</Tag>
+    <English>"The monuments of wit survive the monuments of power." - Francis Bacon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"The monuments of wit survive the monuments of power." - Francis Bacon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_MUSIC_QUOTE</Tag>
+    <English>"If music be the food of love, play on." - William Shakespeare</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"If music be the food of love, play on." - William Shakespeare</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_NATIONALISM_QUOTE</Tag>
+    <English>"Such is the human condition, that to wish greatness for one's country is to wish harm to another's." - Voltaire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Such is the human condition, that to wish greatness for one's country is to wish harm to another's." - Voltaire</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_NAVAL_ARCHITECTURE_QUOTE</Tag>
+    <English>"The royal navy hath ever been its greatest defence and ornament. It is its ancient and natural strength, the floating bulwarks of our island." - William Blackstone</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"The royal navy hath ever been its greatest defence and ornament. It is its ancient and natural strength, the floating bulwarks of our island." - William Blackstone</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_OPTICS_QUOTE</Tag>
+    <English>"We should distinguish the properties of particulars, and gather by induction what pertains to the eye when vision takes place; And what is found in the manner of sensation to be uniform, unchanging, manifest and not subject to doubt." - Ibn al-Haytham</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"We should distinguish the properties of particulars, and gather by induction what pertains to the eye when vision takes place; And what is found in the manner of sensation to be uniform, unchanging, manifest and not subject to doubt." - Ibn al-Haytham</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PAPER_QUOTE</Tag>
+    <English>"You philosophers are lucky men. You write on paper. And paper is patient. But I am an Empress. And the people are not." - Catherine the Great</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"You philosophers are lucky men. You write on paper. And paper is patient. But I am an Empress. And the people are not." - Catherine the Great</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PATRONAGE_QUOTE</Tag>
+    <English>"Patron (n.) One who countenances, supports or protects. Commonly a wretch who supports with insolence and is repaid with flattery." - Samuel Johnson</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Patron (n.) One who countenances, supports or protects. Commonly a wretch who supports with insolence and is repaid with flattery." - Samuel Johnson</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PHILOSOPHY_QUOTE</Tag>
+    <English>"I have gained this by philosophy, that I do without being commanded what others do only from the fear of the law." - Aristotle</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"I have gained this by philosophy, that I do without being commanded what others do only from the fear of the law." - Aristotle</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PHYSICS_QUOTE</Tag>
+    <English>"To every action there is always an opposed but equal reaction." - Isaac Newton</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"To every action there is always an opposed but equal reaction." - Isaac Newton</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PLATE_ARMOUR_QUOTE</Tag>
+    <English>"You should hammer your iron when it is glowing hot." - Publius Syrus</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"You should hammer your iron when it is glowing hot." - Publius Syrus</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_POLYGONAL_FORT_QUOTE</Tag>
+    <English>"The house of everyone is to him his castle and fortress...as well for his defence against injury and violence as for his repose." - Edward Coke</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"The house of everyone is to him his castle and fortress...as well for his defence against injury and violence as for his repose." - Edward Coke</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PROFESSIONAL_ARMY_QUOTE</Tag>
+    <English>"Good order and discipline in an army are more to be depended upon than mere ferocity." - Nicolo Machiavelli</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Good order and discipline in an army are more to be depended upon than mere ferocity." - Nicolo Machiavelli</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PUBLIC_WORKS_QUOTE</Tag>
+    <English>"The city will gain beauty worthy of its name and to you it will be useful for its revenues and the eternal flame of its aggrandizement." - Leonardo Da Vinci</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"The city will gain beauty worthy of its name and to you it will be useful for its revenues and the eternal flame of its aggrandizement." - Leonardo Da Vinci</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_RELIGIOUS_ART_QUOTE</Tag>
+    <English>"The true work of Art is but a shadow of the Divine Perfection." - Michelangelo</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"The true work of Art is but a shadow of the Divine Perfection." - Michelangelo</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_RENAISSANCE_ART_QUOTE</Tag>
+    <English>"I saw the angel in the marble and carved until I set him free." - Michelangelo</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"I saw the angel in the marble and carved until I set him free." - Michelangelo</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_REPLACEABLE_PARTS_QUOTE</Tag>
+    <English>"True knowledge is greater than the sum of its parts." - Aristotle</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"True knowledge is greater than the sum of its parts." - Aristotle</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_RIGHTS_OF_MAN_QUOTE</Tag>
+    <English>"Man is born free but everywhere he is in chains." - Jean Jacques Rousseau</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Man is born free but everywhere he is in chains." - Jean Jacques Rousseau</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_SCIENTIFIC_METHOD_QUOTE</Tag>
+    <English>"I do not feel obliged to believe that the same God who endowed us with sense, reason and intellect has intended us to forgoe its use." - Galileo Galilei</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"I do not feel obliged to believe that the same God who endowed us with sense, reason and intellect has intended us to forgoe its use." - Galileo Galilei</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_SHIPBUILDING_QUOTE</Tag>
+    <English>"Is this the face that launched a thousand ships?" - Christopher Marlowe</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Is this the face that launched a thousand ships?" - Christopher Marlowe</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_SIEGE_ENGINES_QUOTE</Tag>
+    <English>"And forty winters shall besiege thy brow, And dig deep trenches in the beauty's field. Against the wrackful siege of battering day. When rocks impregnable are not so stout." - William Shakespeare</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"And forty winters shall besiege thy brow, And dig deep trenches in the beauty's field. Against the wrackful siege of battering day. When rocks impregnable are not so stout." - William Shakespeare</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_STEAM_ENGINES_QUOTE</Tag>
+    <English>"Wit's an unruly engine, wildly striking sometimes a friend, sometimes the engineer." - George Herbert</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Wit's an unruly engine, wildly striking sometimes a friend, sometimes the engineer." - George Herbert</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_STIRRUP_QUOTE</Tag>
+    <English>"If you speak the truth, have a foot in the stirrup." - Turkish proverb</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"If you speak the truth, have a foot in the stirrup." - Turkish proverb</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_THEOLOGY_QUOTE</Tag>
+    <English>"Two cities have been formed by two loves, the earthly by love of self, the heavenly by the love of God." - St. Augustine</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Two cities have been formed by two loves, the earthly by love of self, the heavenly by the love of God." - St. Augustine</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_TRADING_COMPANIES_QUOTE</Tag>
+    <English>"Our wants are various, and nobody has been found able to acquire even the necessaries without the aid of other peoples. And there is scarcely any Nation that has not stood in the need of others." - Anders Chydenius</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Our wants are various, and nobody has been found able to acquire even the necessaries without the aid of other peoples. And there is scarcely any Nation that has not stood in the need of others." - Anders Chydenius</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_VASSALAGE_QUOTE</Tag>
+    <English>"As the King lives, so shall his vassals." - Old Portugese proverb</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"As the King lives, so shall his vassals." - Old Portugese proverb</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_VAULTED_ARCHES_QUOTE</Tag>
+    <English>"Heavens gates are not so highly arched as prince's palaces, that they enter there must go upon their knees." - John Webster</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"Heavens gates are not so highly arched as prince's palaces, that they enter there must go upon their knees." - John Webster</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TECH_EU_PRINTING_PRESS_QUOTE</Tag>
+    <English>"He who first shortened the labour of copyists by device of moveable type was disbanding hired armies and creating a whole democratic world through the art of the printing machine." - Thomas Carlyle</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>"He who first shortened the labour of copyists by device of moveable type was disbanding hired armies and creating a whole democratic world through the art of the printing machine." - Thomas Carlyle</Chinese>
+  </TEXT>
+</Civ4GameText>

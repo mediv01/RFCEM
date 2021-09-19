@@ -1,0 +1,1260 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Civics -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_WE_LOVE_DESPOT</Tag>
+    <English>"We Love the Despot Day"</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我们热爱暴君日”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_WE_LOVE_KING</Tag>
+    <English>"We Love the King Day"</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我们热爱国王日”</Chinese>
+  </TEXT>
+  <!-- Civic Category Government -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVICOPTION_GOVERNMENT</Tag>
+    <English>Government</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>统治类型</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DESPOTISM</Tag>
+    <English>Despotism</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>独裁统治</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DESPOTISM_PEDIA</Tag>
+    <English>[TAB]Despotism is a form of government characterized by a ruler who wields absolute power over his people. Despite the word's negative connotations, a leader doesn't necessarily have to be a corrupt, evil megalomaniac to be a despot; it is possible to be a benevolent despot, though history records few cases of such. [PARAGRAPH:2]The strength of this form of government is that the ruler can easily implement his decisions; he does not need to compromise, cajole, or bribe anyone to get the job done. The weakness of this form of government is that the ruler can implement bad decisions just as easily as good ones; with no checks and balances, how can he be stopped? Also, there is a lot of truth in the old saying, "Power corrupts; absolute power corrupts absolutely." And though as said before, despots don't need to be corrupt, evil megalomaniacs, many of them end up that way.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+      <Chinese>专制是一种政府形式，其特点是统治者对其人民行使绝对权力。尽管这个词有消极的含义，但一个领导者不一定非得是腐败、邪恶的狂妄自大者才能成为暴君；有可能成为仁慈的暴君，尽管历史上很少有这样的记录。[第2段]这种形式的政府的力量在于统治者可以很容易地执行他的决定；他不需要为了完成任务而妥协、哄骗或贿赂任何人。这种政府形式的弱点在于，统治者可以像执行好的决策一样容易地执行坏的决策；没有制衡，怎么能阻止他？还有，老话说的“权力腐败，绝对权力绝对腐败”也有很多道理。尽管如前所述，暴君不必是腐败、邪恶的妄自尊大者，但他们中的许多人最终都是这样。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DESPOTISM_STRATEGY</Tag>
+    <English>The most primitive Government civic</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>最原始的政府公民</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_MONARCHY</Tag>
+    <English>Feudal Monarchy</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>封建君主</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_MONARCHY_PEDIA</Tag>
+    <English>[TAB]Feudal monarchy spread across Europe in the wake of Charlemagne's empire. Kings and lesser lords were bound to each other by agreements to provide mutual assistance. The monarch guaranteed his authority to the execution of government functions by his vassals; in exchange, they agreed to provide the soldiers for the king's military adventures.[PARAGRAPH:2]In practice, feudal monarchies were quite diverse in the amount of authority given to vassals. The Kingdom of England was strong, but the weak Kingdom of France could not exert its power over its nominal vassals, like the Duchy of Burgundy. As kings centralised government authority, the traditional feudal monarchy declined. The last feudal government in Europe was on the island of Sark, which became a democracy only in 2008.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]查理曼帝国之后，封建君主制在欧洲蔓延开来。国王和小领主之间有相互帮助的协议。君主保证自己的权威，由其臣下执行政府职能；作为交换，他们同意为国王的军事冒险提供士兵。[第2段]实际上，封建君主政体赋予臣下的权力是相当多的。英国王国是强大的，但弱小的法国王国无法对其名义上的附庸，如勃艮第公爵领地行使权力。随着国王集权，传统的封建帝制逐渐衰落。欧洲最后一个封建政府是在萨克岛上，直到2008年才成为民主国家。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_MONARCHY_STRATEGY</Tag>
+    <English>Your first couple units don't have a maintenance cost and you get a minor happiness boost from barracks</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你的前两个单位没有维修费用，你可以从兵营得到一个小小的快乐提升</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_MONARCHY_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Feudal Law</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：封建法典</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DIVINE_MONARCHY</Tag>
+    <English>Divine Monarchy</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>神权君主</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DIVINE_MONARCHY_PEDIA</Tag>
+    <English>[TAB]The theory of divine monarchy, or the divine right of kings, holds that monarchs derive their legitimacy from the will of God, and that any limitation of the king's power is therefore against the will of God. This provided a justification for absolute monarchs of Western Europe to overrule other social groups, including the nobility and the church itself.[PARAGRAPH:2]The doctrine was popular among both Protestant and Catholic kings, and similar concepts existed elsewhere. The common thread was simply that they sought to govern without regard to the will of the established and often powerful elite classes.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>神圣君主制或国王的神圣权利理论认为，君主的合法性来源于上帝的意志，因此，对国王权力的任何限制都违背了上帝的意志。这为西欧的绝对君主推翻其他社会群体，包括贵族和教会本身提供了一个理由。[第2段]这一学说在新教徒和天主教国王中都很流行，其他地方也存在类似的概念。他们的共同点很简单，就是不考虑已建立的、往往是强大的精英阶层的意愿而寻求统治。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DIVINE_MONARCHY_STRATEGY</Tag>
+    <English>Happiness from military units in cities; happiness from castle; improved espionage</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>城市军队的幸福；城堡的幸福；间谍活动的改进</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DIVINE_MONARCHY_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Theocracy, State Religion, Organized Religion, Religious Law[NEWLINE][ICON_BULLET]Unstable with Paganism, Religious Tolerance</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：神权政治, 国家宗教, 宗教组织, 教法体制[NEWLINE][ICON_BULLET]与下列政策组合减少稳定度：多神信仰, 宗教容忍</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_LIMITED_MONARCHY</Tag>
+    <English>Constitutional Mon.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>君主立宪.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_LIMITED_MONARCHY_PEDIA</Tag>
+    <English>[TAB]A constitutional monarchy is a form of government in which a king or queen reigns with limits to their power along with a governing body (i.e. Parliament), giving rise to the modern adage "the Queen reigns but does not rule". In constitutional monarchies the position of monarch may be hereditary, hence the need for a royal family, or elected.[PARAGRAPH:2]The English monarchy is considered the oldest of modern constitutional monarchies, and the model for this form of government in the English-speaking world. A constitutional monarchy was able to form in England across different periods of history for a complex combination of reasons: sometimes due to a lack of strong leadership, and at other times due to strong leaders short of funding, who needed to raise money to prosecute wars, and needed to address public grievances to ensure this money was forthcoming.[PARAGRAPH:2]Historically, the English were divided on the question of the origins and justification for monarchy, but the Continental and Scottish belief in the "Divine Right of Kings" gradually gave ground to modern social-contract philosophy. The Magna Carta in 1215 is considered the first codification of the monarchy as a contract among territorial chiefs.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]君主立宪政体是国王或女王与一个管理机构（即议会）共同统治权力的一种政府形式，产生了“女王统治，但不统治”的现代格言。在君主立宪政体中，君主的地位可能是世袭的，因此需要一个王室，或者是民选的。[第2段]英国君主立宪政体被认为是现代君主立宪政体中最古老的，也是英语国家这种政体的典范。君主立宪制之所以能够在英国形成，有着复杂的原因：有时是因为缺乏强有力的领导，有时是因为强有力的领导人缺乏资金，他们需要筹集资金来发动战争，需要解决公众的不满，以确保这笔钱的到来。[第2段]历史上，英国人在君主制的起源和正当性问题上存在分歧，但大陆和苏格兰人对“国王的神圣权利”的信仰逐渐让位于现代社会契约哲学。1215年的《大宪章》被认为是第一次将君主政体编撰为领土酋长之间的契约。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_LIMITED_MONARCHY_STRATEGY</Tag>
+    <English>Can use gold to rush production; +1[ICON_PRODUCTION] from towns</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>可以使用金钱加速生成; 每个小镇+1[ICON_PRODUCTION] </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_LIMITED_MONARCHY_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Common Law, Free Peasantry, Free Labor</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：普通法系, 自由农户, 自由劳工</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCHANT_REPUBLIC</Tag>
+    <English>Merchant Republic</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>商业共和</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCHANT_REPUBLIC_PEDIA</Tag>
+    <English>[TAB]When the merchant class became powerful enough to influence public opinion by their actions, they sought to ensure the government would rule according to their interests. The landed aristocracy lost out as commercial goals often came into conflict with the desires of traditional domestic agriculture.[PARAGRAPH:2]Although this strife played itself out in many European states, it was in the republics of Venice and Genoa that mercantile oligarchies took power. Ruling councils ended feudal influence over taxation and spending. These states thrived on trade, but could not sustain the war economy common in medieval Europe without great cost to the interests of the government.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]当商人阶层的势力强大到足以通过他们的行动影响舆论时，他们试图确保政府会根据他们的利益进行统治。由于商业目的常常与传统的国内农业的愿望相冲突，土地贵族败北了。[第2段]尽管这场斗争在许多欧洲国家爆发，但商业寡头掌权的是威尼斯共和国和热那亚共和国。执政委员会结束了封建社会对税收和支出的影响。这些国家在贸易上繁荣昌盛，但如果不牺牲政府的利益，就无法维持中世纪欧洲常见的战争经济。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCHANT_REPUBLIC_STRATEGY</Tag>
+    <English>This government form is good for small, peaceful nations, bad for big empires and for war</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>这种政府形式对和平的小国有利，对大帝国和战争不利</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCHANT_REPUBLIC_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Common Law, Free Peasantry, Free Labor, Trade Economy[NEWLINE][ICON_BULLET]Stable when controlling less than 5 cities[NEWLINE][ICON_BULLET]Unstable with Feudal Law, Imperialism[NEWLINE][ICON_BULLET]Unstable when controlling more than 5 cities</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：普通法系, 自由农户, 自由劳工, 贸易经济[NEWLINE][ICON_BULLET]控制不足5个城市稳定[NEWLINE][ICON_BULLET]与下列政策组合减少稳定度：封建法典, 帝国主义[NEWLINE][ICON_BULLET]控制超过5个城市不稳定</Chinese>
+  </TEXT>
+  <!-- Civic Category Government -->
+  <!-- Civic Category Legal -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVICOPTION_LEGAL</Tag>
+    <English>Legal</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>法律类型</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRIBAL_LAW</Tag>
+    <English>Tribal Law</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>部族法典</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRIBAL_LAW_PEDIA</Tag>
+    <English>[TAB]After the fall of Rome, Europe reverted to local rule by local rulers. Codes of laws were applied arbitrarily where they even existed. The ordinary person had no conception of rights, and no entitlement to such rights, even in theory.[PARAGRAPH:2]The philosopher Thomas Hobbes wrote that human life without government is a "war of all against all"; much the same can be said for arbitrary government. Society cannot enact higher concepts such as justice and fairness. And without property rights, individuals have no interest in making long-term investments whose payoff they will never enjoy.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]罗马沦陷后，欧洲恢复了地方统治者的地方统治。法律法规在它们存在的地方被任意应用。普通人没有权利的概念，甚至在理论上也没有权利享有这些权利。[第2段]哲学家托马斯·霍布斯写道，没有政府的人的生活是一场“所有人对所有人的战争”；专横的政府也可以这样说。社会不能树立公正、公平等更高的理念。如果没有产权，个人就没有兴趣进行长期投资，因为他们永远不会享受到这些投资的回报。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRIBAL_LAW_STRATEGY</Tag>
+    <English>The most primitive Legal civic</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>最原始的法律公民</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_LAW</Tag>
+    <English>Feudal Law</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>封建法典</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_LAW_PEDIA</Tag>
+    <English>[TAB]Feudal law is the framework within which most medieval European societies operated. Under feudalism, the individual's position in society depended on his family and his family's land, and these would stay the same from generation to generation.[PARAGRAPH:2]Each man, from peasant to king, owes certain basic duties to those above and below him in the chain. The vassal must swear fealty to his lord, and the lord must protect his vassal from others. Government power of every sort is highly decentralised. Though far from a system of equal rights under one law, feudalism did create a balance of power among the classes in which Europe operated until the rise of free cities and merchants in the High Middle Ages.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]封建法是大多数中世纪欧洲社会运作的框架。在封建制度下，个人在社会中的地位取决于他的家庭和家庭的土地，而且这些地位代代相传。[第2段]每个人，从农民到国王，都对他上面和下面的人负有一定的基本义务。臣民必须宣誓效忠他的主，主必须保护他的臣民不受他人伤害。各种政府权力高度分散。尽管远非一部法律规定的平等权利体系，但封建制度确实在欧洲运作的阶级之间创造了权力平衡，直到中世纪晚期自由城市和商人的兴起。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_LAW_STRATEGY</Tag>
+    <English>Bonus for unit production, and reduced maintenance for city distance</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>单位生产奖励，减少城市距离维护</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_LAW_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Feudal Monarchy, Serfdom, Manorialism, Vassalage[NEWLINE][ICON_BULLET]Unstable with Merchant Republic, Free Peasantry</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：封建君主, 农奴制度, 庄园制度, 封臣制度[NEWLINE][ICON_BULLET]与下列政策组合减少稳定度：商业共和, 自由农户</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUREAUCRACY</Tag>
+    <English>Bureaucracy</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>官僚制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUREAUCRACY_PEDIA</Tag>
+    <English>[TAB]Bureaucracy is a form of government in which a professional class manages the day to day operations of the government. They collect the taxes. They build the roads. They turn the ruler's wishes into actuality. The Chinese mandarins are an early example of a bureaucracy; the motor vehicle agency of your local government is a later example. [PARAGRAPH:2]Bureaucracies provide a certain amount of stability and competence to a government, ensuring that the government will continue to operate efficiently even if the old ruler is thrown out and a new and totally inexperienced ruler takes his or her place. Over time, though, a bureaucracy may become "entrenched" - growing in size and inefficiency to the point where it is extremely difficult for a leader to accomplish anything - good or ill.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]官僚主义是政府的一种形式，在这种形式下，专业阶层管理着政府的日常运作。他们收税。他们修路。他们把统治者的愿望变成了现实。中国的官员是官僚机构的早期例子；你们地方政府的机动车管理局是后来的例子。[第2款]官僚主义为政府提供了一定程度的稳定和能力，确保即使旧统治者被赶下台，新的完全没有经验的统治者取而代之，政府仍能继续有效运作。不过，随着时间的推移，一个官僚机构可能会变得“根深蒂固”——规模越来越大，效率越来越低，以至于一个领导人很难完成任何事情——无论是好是坏。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUREAUCRACY_STRATEGY</Tag>
+    <English>Increases production and commerce in your capital city</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>增加首都的生产和贸易</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUREAUCRACY_HELP</Tag>
+    <English>[ICON_BULLET]Stable when controlling less than 6 cities[NEWLINE][ICON_BULLET]Unstable when controlling more than 6 cities</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]控制少于6个城市时稳定[NEWLINE][ICON_BULLET]控制多于6个城市时不稳定</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_RELIGIOUS_LAW</Tag>
+    <English>Religious Law</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>教法体制</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_RELIGIOUS_LAW_PEDIA</Tag>
+    <English>[TAB]Many organised religions have extensive codes or bodies of law to govern their internal affairs. In some societies, these legal systems are accepted as the principles which will govern the nation as a whole. A legal system in which religious principles determine secular law tends to mean an intermingling of the affairs of church and state.[PARAGRAPH:2]Canon law exists in those Christian churches with a centralised hierarchy, like Catholicism and Anglicanism. Though not widespread in Christendom, it did apply in religious communities instead of secular laws. The Islamic jurisprudence, or fiqh, has produced a body of work that lasts continuously from the time just after the Qur'an to the present day.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]许多有组织的宗教都有广泛的法典或法律机构来管理其内部事务。在一些社会中，这些法律制度被接受为将统治整个国家的原则。宗教原则决定世俗法律的一种法律制度，往往意味着教会和国家事务的混合。[第2段]教规存在于那些具有中央等级制度的基督教教堂中，如天主教和圣公会。虽然在基督教世界并不普遍，但它确实适用于宗教团体，而不是世俗法律。伊斯兰法理学，或称fiqh，已经产生了一个从古兰经之后一直持续到今天的工作机构。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_RELIGIOUS_LAW_STRATEGY</Tag>
+    <English>Can train missionaries without monastery; unhappiness with non-state religions; reduced war weariness</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>可以训练没有修道院的传教士；对非国家宗教的不满；减少厌战</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_RELIGIOUS_LAW_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Divine Monarchy, Theocracy[NEWLINE][ICON_BULLET]Unstable with Paganism, Religious Tolerance</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：神权君主, 神权政治[NEWLINE][ICON_BULLET]与下列政策组合减少稳定度：多神信仰, 宗教容忍</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COMMON_LAW</Tag>
+    <English>Common Law</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>普通法系</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COMMON_LAW_PEDIA</Tag>
+    <English>[TAB]Common law was developed by the English judiciary following the Norman conquest of 1066. Judges themselves were given great scope to develop the law beyond that set out by the legislature or executive. The term "common law" itself refers to legal precedent, the body of past decisions which are binding upon future cases.[PARAGRAPH:2]Common law allowed for reliable outcomes from the legal system even without a formal code of laws. This was of great use in early commercial economies, and the qualities of the system are shown in its resilience. To this day, in many countries which were once part of the British Empire, case law precedent (not parliamentary legislation) is the basis for the laws of contract and liability.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]英国司法部门在1066年诺曼征服后制定了普通法。法官本身有很大的空间来发展法律，使之超越立法机关或行政机关制定的法律。“普通法”一词本身是指法律先例，即过去对未来案件具有约束力的决定的主体。[第2款]即使没有正式的法律法典，普通法也允许法律制度产生可靠的结果。这在早期的商业经济中有很大的用处，而这个系统的质量体现在它的弹性上。时至今日，在许多曾经是大英帝国一部分的国家，判例法（而非议会立法）是合同法和责任法的基础。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COMMON_LAW_STRATEGY</Tag>
+    <English>Huge culture bonuses, penalty for players without Common Law</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>巨额文化奖金，对没有普通法的玩家的惩罚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COMMON_LAW_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Constitutional Monarchy, Merchant Republic, Free Labor[NEWLINE][ICON_BULLET]Unstable with Serfdom, Theocracy</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：君主立宪, 商业共和, 自由劳工[NEWLINE][ICON_BULLET]与下列政策组合减少稳定度：农奴制度, 神权政治</Chinese>
+  </TEXT>
+  <!-- Civic Category Legal -->
+  <!-- Civic Category Labor -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVICOPTION_LABOR</Tag>
+    <English>Labor</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>劳工制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRIBALISM</Tag>
+    <English>Tribalism</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>部落分工</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRIBALISM_PEDIA</Tag>
+    <English>[TAB]Tribalism is a form of organization which emphasizes the tribe as the sole unit of importance. Individuals have no rights; each man, woman and child exists only to support the tribe. Tribalism is a fairly useful form of government for a small group of people who exist on the edge of catastrophe. In a tribe everyone knows everybody else; who is strong and who is weak, who is intelligent and who is not, who is skilled and who is unskilled. [PARAGRAPH:2]Leadership in the tribe is usually determined by merit, according to the tribe's needs: if the tribe is hungry, the best hunter becomes the leader. If the tribe is surrounded by enemies, the best warrior is chosen. And so forth. A tribe must quickly learn how to pick successful leaders; otherwise it will perish. [PARAGRAPH:2]Tribalism tends to break down when the tribe becomes overly large. People no longer know everyone in their tribe. Groups (or factions) appear, and everyone no longer share the same objectives. The tribe must find a more sophisticated system of government or fracture into smaller squabbling units.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+      <Chinese>部落主义是一种强调部落作为唯一重要单位的组织形式。个人没有权利；每个男人、女人和孩子的存在只是为了支持部落。部落主义对于一小部分生活在灾难边缘的人来说是一种相当有用的政府形式。在一个支派里，人人都认识别人，谁强谁弱，谁聪明谁不聪明，谁有本事，谁不熟练。[第2段]部落的领导权通常由功绩决定，根据部落的需要：如果部落饿了，最好的猎人就会成为首领。如果部落被敌人包围，最好的战士就会被选中。等等。一个部落必须很快学会如何挑选成功的领袖，否则就会灭亡。部落主义倾向于在部落变得过大时瓦解。人们不再认识部落里的每一个人。群体（或派系）出现，每个人不再有相同的目标。部落必须找到一个更复杂的政府系统，否则分裂成更小的争吵单位。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRIBALISM_STRATEGY</Tag>
+    <English>The most primitive Labor civic</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>最原始的劳动公民</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SERFDOM</Tag>
+    <English>Serfdom</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>农奴制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SERFDOM_PEDIA</Tag>
+    <English>[TAB]Serfdom is a more "enlightened" form of slavery in that the power of the master is not absolute and the serfs are accorded a certain number of rights. The specific rights and obligations of masters and serfs vary significantly over time and from place to place. In some societies, the master had the right to control every aspect of a serf's life except that he couldn't kill the serf without just cause; in others, the serfs had the rights to marry and to inherit wealth and to a certain amount of self-government, but they could not leave the land without their lord's permission. [PARAGRAPH:2]The basic premise of serfdom is that one group of people are superior to another, and that they have the political and god-given right to control the other group's destiny. Thus serfdom only makes sense if one agrees with the group currently in power about who is superior to whom. </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>农奴制是一种更加“开明”的奴役形式，因为主人的权力不是绝对的，农奴被赋予一定数量的权利。主人和农奴的具体权利和义务随着时间和地点的不同而大不相同。在一些社会里，主人有权控制农奴生活的方方面面，除了他没有正当理由不能杀死农奴；在另一些社会里，农奴有权结婚、继承财富和一定程度的自治，但是没有主人的允许，他们不能离开土地。[第二款]农奴制的基本前提是，一个民族高于另一个民族，他们有控制另一个民族命运的政治权利和上帝赋予的权利。因此，农奴制只有在与目前掌权的集团就谁优于谁达成一致时才有意义。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SERFDOM_STRATEGY</Tag>
+    <English>+1 [ICON_PRODUCTION] from farms, slower growth for cottages and great people</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>农田+1 [ICON_PRODUCTION] , 农舍和伟人增长缓慢</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SERFDOM_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Feudal Law, Manorialism[NEWLINE][ICON_BULLET]Unstable with Common Law</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：封建法典, 庄园制度[NEWLINE][ICON_BULLET]与下列政策组合减少稳定度：普通法系</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_PEASANTRY</Tag>
+    <English>Free Peasantry</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>自由农户</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_PEASANTRY_PEDIA</Tag>
+    <English>[TAB]Even when feudalism prevailed throughout Europe, there were subtle differences among the national systems. In countries like England, many or all peasants enjoyed great freedoms compared to their villein or serf counterparts. Certain taxes paid by the serfs were waived for the free peasants.[PARAGRAPH:2]Instead of owing labour services or the output of land, the free peasant paid a fixed rent to his lord. This allowed much greater freedom of action, for instance, in choosing which crops to grow or in alienating the land from his family. The existence of a free peasantry created social mobility which did not exist in other societies.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]即使在整个欧洲封建制度盛行的时候，国家制度之间也存在着微妙的差异。在像英国这样的国家，许多或所有的农民与他们的农奴相比享有很大的自由。农奴为自由农民免缴了某些税。[第2款]自由农民没有欠下劳务或土地的产出，而是向他的主人支付固定的租金。这就允许了更大的行动自由，例如，选择种植哪种作物，或将土地与家人疏远。自由农民的存在创造了其他社会不存在的社会流动性。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_PEASANTRY_STRATEGY</Tag>
+    <English>+100% growth to cottages, hamlets, and villages; workers complete improvements faster</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>+100% 村舍、小村庄和村庄增长；工人完成改善更快</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_PEASANTRY_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Constitutional Monarchy, Merchant Republic[NEWLINE][ICON_BULLET]Unstable with Feudal Law</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：君主立宪, 商业共和[NEWLINE][ICON_BULLET]与下列政策组合减少稳定度：封建法典</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_APPRENTICESHIP</Tag>
+    <English>Apprenticeship</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>学徒制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_APPRENTICESHIP_PEDIA</Tag>
+    <English>[TAB]The guild system which developed in the late Middle Ages involved strict controls on employment in trades, so that the guild would enjoy monopoly market power. The apprenticeship system allowed control of numbers by requiring that a trainee craftsman associate himself with a "master" (the owner of a workshop) during and after his training, which could last for between five and ten years.[PARAGRAPH:2]Traders were prevented by law from working in a trade if they had not completed an apprenticeship. By requiring a master, commitment and cheap labour, the system successfully limited participation in industry, and delayed Europe's change from the traditional agricultural economy.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]中世纪晚期发展起来的行会制度，严格控制行业用工，使行会享有垄断市场的权力。学徒制允许通过要求实习工匠在培训期间和培训之后与“师傅”（车间老板）建立联系来控制数量，这种联系可以持续5到10年。[第2款]法律禁止贸易商在没有完成学徒制的情况下从事某一行业。通过要求掌握、承诺和廉价劳动力，该体系成功地限制了对工业的参与，并推迟了欧洲从传统农业经济的转变。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_APPRENTICESHIP_STRATEGY</Tag>
+    <English>Unlimited artists, scholars, and merchants; workshops, windmills and watermills give extra production</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>无限的艺术家、学者和商人；作坊、风车和水车提供额外的生产</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_APPRENTICESHIP_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Guilds</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：行会制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_LABOR</Tag>
+    <English>Free Labor</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>自由劳工</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_LABOR_PEDIA</Tag>
+    <English>[TAB]Free labor is a system in which people do not owe a statutory duty to their employer to provide work. Work, pay, terms and conditions are determined by agreement or contract. Free labor excludes slavery, serfdom and other systems in which workers cannot end their employment.[PARAGRAPH:2]When workers can choose what they want to do every day, they can enjoy better wages and a better quality of life. Society as a whole is better-off when workers and employers match up freely rather than under coercion or by tradition. In modern Western societies, only military conscription survives as a legacy of the days of unfree labor.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]自由劳动是指人们不应向雇主承担提供工作的法定义务的制度。工作、工资、条款和条件由协议或合同决定。自由劳动不包括奴隶制、农奴制和其他工人不能结束其就业的制度。[第2段]当工人可以选择他们每天想做的事情时，他们可以享受更好的工资和更好的生活质量。当工人和雇主自由地匹配，而不是在强迫或传统的情况下，整个社会会更好。在现代西方社会，只有征兵作为不自由劳动时代的遗产而存在。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_LABOR_STRATEGY</Tag>
+    <English>+2 free specialists in your cities</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>+2 免费专家在每个城市</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_LABOR_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Constitutional Monarchy, Merchant Republic, Common Law</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：君主立宪, 商业共和, 普通法系</Chinese>
+  </TEXT>
+  <!-- Civic Category Labor -->
+  <!-- Civic Category Economy -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVICOPTION_ECONOMY</Tag>
+    <English>Economy</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>经济制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DECENTRALIZATION</Tag>
+    <English>Decentralization</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>分散经济</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DECENTRALIZATION_PEDIA</Tag>
+    <English>[TAB]Decentralization describes an economy in which the central government doesn't attempt to manage every aspect of a nation's production. The government doesn't set quotas, doesn't determine exactly what the nation's farms, factories, theatres and schools will output. Each farmer determines what his or her farm will produce; each factory owner decides what to build, whether to modernize or not, and so forth. [PARAGRAPH:2]This kind of a totally freewheeling economy may seriously increase a nation's productivity. However, it may also lead to disaster - if all of the farmers decide to produce cotton then the nation's people will be very hungry - well-dressed, perhaps, but still very hungry. </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+      <Chinese>[表]权力下放是指中央政府不试图管理国家生产的各个方面的经济。政府不设定配额，也不确定国家的农场、工厂、剧院和学校的具体产出。每个农民决定他或她的农场将生产什么；每个工厂主决定建设什么，是否现代化，等等。[第2段]这种完全自由的经济可能会严重提高一个国家的生产力。然而，这也可能导致灾难——如果所有农民都决定生产棉花，那么全国人民将非常饥饿——也许衣冠楚楚，但仍然非常饥饿。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DECENTRALIZATION_STRATEGY</Tag>
+    <English>The most primitive Economy civic</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>最原始的经济市民</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MANORIALISM</Tag>
+    <English>Manorialism</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>庄园制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MANORIALISM_PEDIA</Tag>
+    <English>[TAB]Manorialism is the organization of rural economy and society in medieval western and parts of central Europe, characterised by the vesting of legal and economic power in a lord supported economically from his own direct landholding and from the obligatory contributions of a legally subject part of the peasant population under his jurisdiction. These obligations could be payable in labour, produce ("in kind") or rarely money.[PARAGRAPH:2]The word derives from traditional inherited divisions of the countryside reassigned as local jurisdictions known as manors; each manor being subject to a lord, usually holding his position in return for undertakings offered to a higher lord. The lord held a manor court governed by public law and local custom. Not all territorial seigneurs were secular: bishops and abbots held lands that entailed similar obligations.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]庄园主义是中世纪西欧和中欧部分地区农村经济和社会的组织，其特点是将法律和经济权力授予领主，由他自己直接拥有的土地和在他管辖下的农民人口中受法律约束的一部分的义务贡献提供经济支持。这些债务可以用劳动、生产（“实物”）或很少用金钱支付。[第2款]这个词来源于农村传统的继承划分，被重新分配为地方管辖权，称为庄园；每个庄园都受一个领主的管辖，通常担任其职务，以换取向一个更高的领主提供的事业。上帝设立了一个由公法和当地习俗管辖的庄园法院。并非所有的领土君主都是世俗的：主教和方丈拥有的土地也有类似的义务。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MANORIALISM_STRATEGY</Tag>
+    <English>-1 trade route in your cities, gold from farms, small income from manor houses</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>每个城市贸易路线-1 ,农田-1 金币, 庄园获得额外收入</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MANORIALISM_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Feudal Law, Serfdom</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：封建法典, 农奴制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRADE_ECONOMY</Tag>
+    <English>Trade Economy</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>贸易经济</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRADE_ECONOMY_PEDIA</Tag>
+    <English>[TAB]The diversity of natural environments in Europe led to strong medieval trade. Western and southern cities demanded the raw materials of the Baltic region, in order to furnish their own customers with refined goods. Some European cities became specialised centres of this trade.[PARAGRAPH:2]A merchant marine fleet could circumvent the multitude of laws, customs and tolls that frustrated trade by land. Trading cities formed military alliances and lobbied other cities to reduce tolls. The Hanseatic League is an example of an international trade federation that wielded significant power.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]欧洲自然环境的多样性导致了中世纪贸易的繁荣。西部和南部城市需要波罗的海地区的原材料，以便为自己的客户提供精炼产品。一些欧洲城市成为这一贸易的专门中心。[第2段]商船舰队可以绕过阻碍陆上贸易的众多法律、海关和通行费。贸易城市结成军事联盟，游说其他城市降低通行费。汉萨同盟是一个拥有重要权力的国际贸易联盟的例子。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRADE_ECONOMY_STRATEGY</Tag>
+    <English>An additional trade route in all your cities</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在你们所有的城市都有一条额外的贸易路线</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRADE_ECONOMY_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Merchant Republic</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：商业共和</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_GUILDS</Tag>
+    <English>Guilds</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>行会制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_GUILDS_PEDIA</Tag>
+    <English>[TAB]A guild is an association of people who practice the same trade. The guilds seek to protect their members' incomes, maintain standards of performance, and train new workers in the trade. Guilds have often built hospitals, orphanages and schools to serve their members. Guilds seek to expand their membership to include all who practice their profession. Such monopolies allow guilds greater control over the fees their members can charge for their services. [PARAGRAPH:2]Many of the earliest guilds - Roman professional organizations, for instance - had strong religious components. One of the earliest known Muslim guilds were formed by the "warraqeen," or "those who work with knowledge." In the ninth century these professional writers and printers worked together to ensure the quality of published material and to stop other printers from making illegal copies of the material. [PARAGRAPH:2]The European guilds came into being around 1000 AD. They included a rigid hierarchy of skilled workers - apprentice, craftsman, journeyman, master and sometimes grandmaster. The higher in the hierarchy a member was, the more the payment he could demand. This structure greatly increased the guilds' memberships, since one could not attain the higher statuses without belonging to a guild.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[标签]行会是由从事同一行业的人组成的协会。工会寻求保护其成员的收入，保持绩效标准，并在行业中培训新工人。公会经常建造医院、孤儿院和学校为会员服务。公会寻求扩大其成员，包括所有从事其职业的人。这样的垄断使行会能够更大程度地控制其会员可以收取的服务费。[第2段]许多最早的行会，例如罗马的专业组织，都有很强的宗教成分。已知最早的穆斯林行会之一是由“warraqeen”或“知识工作者”组成的。在9世纪，这些专业的作家和印刷者共同努力，以确保出版材料的质量，并阻止其他印刷者非法复制材料。[第2段]欧洲行会形成于公元1000年左右，包括严格的技术工人等级制度——学徒、工匠、熟练工、大师，有时还有大师。一个成员的等级越高，他能要求的报酬就越多。这种结构极大地增加了公会的成员资格，因为没有公会就无法获得更高的地位。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_GUILDS_STRATEGY</Tag>
+    <English>All your specialists contribute more to your scientific advancement</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你们所有的专家都为你们的科学进步做出了更大的贡献</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_GUILDS_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Apprenticeship</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：学徒制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCANTILISM</Tag>
+    <English>Mercantilism</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>重商主义</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCANTILISM_PEDIA</Tag>
+    <English>[TAB]Mercantilism refers to government policy that strictly manages the nation's production. The government determines which farmers produce which crops, decides who will be allowed to sew pants and who will have a monopoly on shirts, and so on. The nation may ban all foreign imports. [PARAGRAPH:2]The advantages of mercantilism are that it ensures that a nation's wealth remains within the nation itself, and that its people are not put out of business by cheap foreign imports. On the other hand, the success or the failure of the entire economy is in the hands of just a few men or even one, and if they make foolish or unlucky decisions, the nation as a whole suffers. Further, the ban on foreign imports limits the nation's exposure to new products and new ideas. And if someone has a monopoly on an item, there is little pressure for that person to improve the item or make it cheaper.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+      <Chinese>重商主义是指严格管理国家生产的政府政策。政府决定哪些农民生产哪些作物，决定谁可以缝裤子，谁可以垄断衬衫等等。这个国家可能禁止所有外国进口。[第2段]重商主义的好处是，它确保一个国家的财富留在国家内部，并确保其人民不会因廉价的外国进口而失业。另一方面，整个经济的成败只掌握在少数人甚至一个人的手中，如果他们做出愚蠢或不吉利的决定，整个国家就会遭殃。此外，禁止外国进口限制了该国接触新产品和新思想。如果有人垄断了某个商品，那么这个人就没有什么压力去改进或者降低价格。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCANTILISM_STRATEGY</Tag>
+    <English>With disallowing foreign trade and corporations, your local markets and towns can thrive. Mercantilism can be very strong when your relations are not good enough with your neighbours.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>有了不允许的外贸和公司，你们当地的市场和城镇就能兴旺发达。当你和邻居们的关系不够好时，重商主义可能会非常强烈。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCANTILISM_HELP</Tag>
+    <English>[ICON_BULLET]Companies have less chance to spread</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]公司传播的机会更少</Chinese>
+  </TEXT>
+  <!-- Civic Category Economy -->
+  <!-- Civic Category Religion -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVICOPTION_RELIGION</Tag>
+    <English>Religion</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>宗教制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_PAGANISM</Tag>
+    <English>Paganism</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>多神信仰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_PAGANISM_PEDIA</Tag>
+    <English>[TAB]"Paganism" describes religions that believe in the holiness of all things around them - rocks, trees, animals, clouds and so forth - rather than in specific concepts or beings. Pagans believe in multitudes of gods, that the gods are all around them, causing the sunset, the rising of bread, and the success of the hunt. [PARAGRAPH:2]A pagan seeks to remain in harmony with the natural world around him or her. The pagan doesn't look to appease a distant deity or hierarchy of deities who control his or her destiny. To a pagan, the gods are all around him or her, in plain sight every day. </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+      <Chinese>“异教徒”描述的是相信周围一切事物神圣的宗教，如岩石、树木、动物、云彩等等，而不是特定的概念或存在。异教徒相信众多的神，认为神就在他们周围，导致日落，面包升起，狩猎成功。异教徒寻求与周围的自然世界保持和谐。异教徒并不希望安抚一个遥远的神或控制他或她的命运的神的等级。对一个异教徒来说，神就在他或她的周围，每天都在他或她的眼前。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_PAGANISM_STRATEGY</Tag>
+    <English>You cannot have a state religion under Paganism, but you get a happiness bonus for Pagan Shrines</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你不可能在异教统治下有国教，但你可以得到异教圣地的幸福奖励</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_PAGANISM_HELP</Tag>
+    <English>[ICON_BULLET]Unstable with Divine Monarchy, Religious Law[NEWLINE][ICON_BULLET]Enables [LINK=literal]Pagan Shrine[\LINK], [LINK=literal]The Shrine of Uppsala[\LINK]</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合减少稳定度：神权君主, 教法体制[NEWLINE][ICON_BULLET]允许[LINK=literal]异教圣地[\LINK], [LINK=literal]乌普萨拉神殿[\LINK]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_STATE_RELIGION</Tag>
+    <English>State Religion</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>国家宗教</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_STATE_RELIGION_PEDIA</Tag>
+    <English>[TAB]Most medieval states practiced some form of state religion. Though a state may have been ruled by a king rather than a cleric, it was clear that the authority of the monarch derived from God. To deviate from the state religion was at best a faux pas, at worst a crime punishable by death.[PARAGRAPH:2]Christian Kings were crowned and anointed in a ceremony similar to the investiture of clergy with holy orders. Those same clergy sat in the medieval European parliaments and enjoyed the same official position as the highest ranks of nobility. In the early Islamic world, religious gatherings performed many functions of government.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]大多数中世纪国家实行某种形式的国家宗教。虽然一个国家可能是由国王而不是神职人员统治的，但很明显，君主的权威来自上帝。背离国教充其量是一种失礼，充其量是一种可判处死刑的罪行。[第2段]基督教国王在一个类似于神职人员受圣职的仪式中加冕和受膏。这些神职人员都是中世纪欧洲议会的成员，享有与最高等级贵族相同的官职。在早期的伊斯兰世界，宗教集会履行着政府的许多职能。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_STATE_RELIGION_STRATEGY</Tag>
+    <English>Improved production for buildings in cities where your state religion is present</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在有你的国家宗教信仰的城市改善建筑生产</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_STATE_RELIGION_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Divine Monarchy</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：神权君主</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_THEOCRACY</Tag>
+    <English>Theocracy</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>神权政治</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_THEOCRACY_PEDIA</Tag>
+    <English>[TAB]A theocracy is a form of government where priests or holy men are in charge of the government. The government is run to benefit the people, but, more importantly, in accord with the wishes of the almighty, as interpreted by the holy men and priests. According to the theory, it is the will of God that such men be in charge of running things, and political dissent is sinful and wrong-headed, if not outright heresy. [PARAGRAPH:2]In the modern world, theocracies tend to be backward-looking, seeking to return their country to some usually mythical past state of grace and away from the evil and corrupt modern world. Diplomacy tends to be extremely difficult for such countries, since countries who act against their interests are doing so at the urging of the devil, rather than because the other countries have their own points of view and objectives. How can a holy leader compromise with an imp of Satan?</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>神权政体是牧师或圣人掌管政府的一种政体。政府的运作是为了造福人民，但更重要的是，它符合全能者的意愿，正如圣人和祭司所解释的那样。根据这一理论，这是上帝的意愿，这些人负责管理事情，政治异议是有罪和错误的，如果不是完全异端。[第2段]在现代世界，神权政体倾向于向后看，试图使自己的国家回到一些通常是神话般的过去的优雅状态，远离邪恶和腐败的现代世界。对这些国家来说，外交往往是极其困难的，因为那些违背其利益的国家是在魔鬼的敦促下这样做的，而不是因为其他国家有自己的观点和目标。一个神圣的领袖怎么能和撒旦的小鬼妥协呢？</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_THEOCRACY_STRATEGY</Tag>
+    <English>Improved production and free XP for units in cities where your state religion is present</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>提高生产和免费经验单位在城市，你的国家宗教存在</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_THEOCRACY_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Divine Monarchy, Religious Law[NEWLINE][ICON_BULLET]Unstable with Common Law</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：神权君主, 教法体制[NEWLINE][ICON_BULLET]与下列政策组合减少稳定度：普通法系</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_ORGANIZED_RELIGION</Tag>
+    <English>Organized Religion</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>宗教组织</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_ORGANIZED_RELIGION_PEDIA</Tag>
+    <English>[TAB]An organized religion is one in which there is a central authority which interprets or determines theology, which decides which ceremonies are to be performed at which times, and which appoints priests or holy men to keep worshipers on the correct path. The central authority may be a rigid and powerful hierarchy with great religious and secular power, or it may be a group of elders who meet periodically to discuss matters of importance to their members. [PARAGRAPH:2]An organized religion can be a mighty thing, more powerful than kings or despots. Its followers may provide it with great wealth, and may construct mighty edifices in their gods' honor. Usually, however, organized religions are less powerful than that and must live in uneasy harmony with the local secular governments.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[TAB]有组织的宗教是指有一个中央权威机构来解释或决定神学，决定在什么时候举行哪些仪式，并任命牧师或圣人使崇拜者走上正确的道路。中央权力机构可能是一个具有强大宗教和世俗权力的僵化和强大的等级制度，也可能是一个定期开会讨论对其成员重要事项的长老团体。[第2段]有组织的宗教可以是一种强大的东西，比国王或暴君更强大。它的追随者可以为它提供巨大的财富，也可以为他们的神建造宏伟的建筑物。然而，通常情况下，有组织的宗教没有那么强大，必须与当地世俗政府和睦相处。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_ORGANIZED_RELIGION_STRATEGY</Tag>
+    <English>Unlimited priests and huge bonus to Great Person birth rate in cities where your state religion is present</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在你的国家宗教存在的城市里，无限制的牧师和对大人物出生率的巨额奖金</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_ORGANIZED_RELIGION_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Divine Monarchy</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：神权君主</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_RELIGION</Tag>
+    <English>Religious Tolerance</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>宗教容忍</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_RELIGION_PEDIA</Tag>
+    <English>[TAB]Religious Tolerance refers to a society in which there is still a dominant religion - what is maintained as "state religion" - but people are free to worship or not worship as they please.[PARAGRAPH:2]Such states allow all to express their religious beliefs. This encourages immigration by people whose religions are suppressed elsewhere, and the general society benefits from the multitude of experiences and beliefs of its members. However, such freedom and tolerance of religions may weaken a nation's people's beliefs in any religion, which could cause the people to become morally lax and decadent. Further, members of the more militant and expansionist religions may seek to destroy the competition, causing a good deal of stress and conflict within a country. A good deal of maturity is required on the part of a government and its people to successfully sustain free religion.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>宗教宽容指的是一个社会，在这个社会中，仍然有一种占主导地位的宗教，这种宗教被称为“国家宗教”，但人们可以自由地信仰或不信仰他们所希望的宗教。[第2款]这种国家允许所有人表达他们的宗教信仰。这鼓励那些宗教在其他地方受到压制的人移民，普通社会从其成员的众多经验和信仰中受益。然而，这种宗教的自由和宽容可能削弱一个国家人民对任何宗教的信仰，从而使人民在道德上变得松懈和颓废。此外，激进和扩张主义宗教的成员可能会试图破坏竞争，在一个国家内造成很大的压力和冲突。一个政府及其人民要想成功地维持自由宗教，就需要有相当的成熟度。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_RELIGION_STRATEGY</Tag>
+    <English>Bonus happiness in cities where your state religion is present; allows construction of non-state religion buildings; +10% science</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在你的国家宗教存在的城市里，额外的快乐；允许建造非国家宗教建筑；10%的科学</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_RELIGION_HELP</Tag>
+    <English>[ICON_BULLET]Unstable with Divine Monarchy, Religious Law</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合减少稳定度：神权君主, 教法体制</Chinese>
+  </TEXT>
+  <!-- Civic Category Religion -->
+  <!-- Civic Category Expansion -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVICOPTION_EXPANSION</Tag>
+    <English>Expansion</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>扩张制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SUBJUGATION</Tag>
+    <English>Subjugation</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>强力压迫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SUBJUGATION_PEDIA</Tag>
+    <English>[TAB]The term "subjugation" is used to describe the policy of a nation's dominance over other lands. This doctrine has been frequently employed for economic exploitation in which an imperialist power makes use of other countries as sources of raw materials and cheap labor, shaping their economies to suit its own interests and keeping their people in poverty.[PARAGRAPH:2]Sometimes subjugation even refers to the acceptance, by the colonised, of the culture or doctrines of the coloniser as intrinsically more worthy or superior.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]术语“征服”用来描述一个国家对其他土地的统治政策。这一学说经常被用来进行经济剥削，帝国主义国家利用其他国家作为原材料和廉价劳动力的来源，塑造自己的经济以符合自己的利益，并使自己的人民处于贫困之中殖民者的文化或学说，本质上更有价值或更优越。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SUBJUGATION_STRATEGY</Tag>
+    <English>The most primitive Expansion civic</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>最原始的扩张型思域</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SUBJUGATION_HELP</Tag>
+    <English>[ICON_BULLET]Less instability from foreign culture</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]外国文化的不稳定性减少了</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_VASSALAGE</Tag>
+    <English>Vassalage</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>封臣制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_VASSALAGE_PEDIA</Tag>
+    <English>[TAB]Vassalage is a feudal term referring to a person who enters a contract with his or her lord, agreeing to serve and protect the lord in return for monetary rewards or ownership or sovereignty over a parcel of land. The contract is often of both political and religious significance binding both parties by the rules of man and of God. [PARAGRAPH:2]Vassalage is often tribal in nature. One tribe conquers another, and rather than killing the conquered tribe or taking over its direct management, the conquering ruler makes the conquered his vassal: the lower ruler continues to maintain control over his people and territory, while paying tribute to his or her lord in the form of money, goods, soldiers or slaves.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+      <Chinese>“封臣”是一个封建术语，指与君主签订合同，同意为君主服务和保护君主，以换取金钱回报或对一块土地的所有权或主权的人。合同通常具有政治和宗教意义，根据人和上帝的规则约束双方。[第2段]封臣制度通常是部落性质的。一个部落征服另一个部落，而不是杀死被征服的部落或接管其直接管理，征服的统治者使被征服的附庸：较低的统治者继续保持对他的人民和领土的控制，同时以金钱、货物、士兵或奴隶的形式向他或她的主人致敬。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_VASSALAGE_STRATEGY</Tag>
+    <English>Grants you extra stability for each vassal</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>为每一个附庸提供额外的稳定性</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_VASSALAGE_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Feudal Law</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与下列政策组合增加稳定度：封建法典</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_IMPERIALISM</Tag>
+    <English>Imperialism</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>帝国主义</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_IMPERIALISM_PEDIA</Tag>
+    <English>[TAB]Kings often challenged the legitimacy of their neighbours to rule certain plots of land. Wars of conquest were common in Europe during the Middle Ages. But under the feudal system, conquest inevitably meant the destruction of the old government as the losing barons were punished. Some states managed to overcome this problem and created great empires.[PARAGRAPH:2]Successful imperialism required leaders to rapidly export systems of law and commerce to their non-national territories, so that anarchy would not prevail. It often took a long time for new subjects to overcome their loyalty to the old king and nation, and instead embrace the winner of war, so patience was a leading virtue of an asiprant emperor.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>国王经常挑战邻国统治某些土地的合法性。征服战争在中世纪的欧洲很常见。但是在封建制度下，征服不可避免地意味着旧政府的毁灭，因为失败的男爵们受到了惩罚。一些国家设法克服了这个问题，建立了伟大的帝国主义。[第2段]成功的帝国主义要求领导人迅速向其非国家领土出口法律和商业制度，这样无政府主义就不会盛行。新臣民往往要花很长时间才能克服对旧国王和国家的忠诚，转而拥抱战争的胜利者，因此耐心是亚洲人皇帝的主要美德。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_IMPERIALISM_STRATEGY</Tag>
+    <English>Grants you extra stability for each city outside the core area</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>对于每个非核心区的城市，你会获得额外的稳定</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_IMPERIALISM_HELP</Tag>
+    <English>[ICON_BULLET]Unstable with Merchant Republic</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]与商业共和国同时实施时产生稳定惩罚 对于每个非核心区的城市，你会获得额外的稳定</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_OCCUPATION</Tag>
+    <English>Militarism</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>军国主义</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_OCCUPATION_PEDIA</Tag>
+    <English>[TAB]Belligerent military occupation occurs when one nation's military occupies all or part of the territory of another nation or recognized belligerent.[PARAGRAPH:2]In most wars some territory of the losing side is placed under the authority of the hostile army. Most military occupations end with the cessation of hostilities. In some cases the occupied territory is returned and in others the land remains under the control of the occupying power but usually not as militarily occupied territory. The latter was the case of Germany after WWII, which ended up being split into two different nations.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>交战国军事占领是指一个国家的军队占领另一个国家或公认的交战国的全部或部分领土。[第2款]在大多数战争中，输方的某些领土置于敌对军队的管辖之下。大多数军事占领随着敌对行动的停止而结束。在某些情况下，被占领土被归还，而在另一些情况下，土地仍在占领国的控制之下，但通常不是军事占领领土。后者是二战后的德国，最终被分裂成两个不同的国家。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_OCCUPATION_STRATEGY</Tag>
+    <English>Grants you extra stability on city conquest; no negative stability from cities under foreign occupation (in your core areas)</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在征服城市时给予你额外的稳定性；不受外国占领城市（在你的核心地区）的负面影响</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COLONIALISM</Tag>
+    <English>Colonialism</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>殖民主义</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COLONIALISM_PEDIA</Tag>
+    <English>[TAB]Advances in naval technology allowed Europe to begin colonising the world around them in the late 15th century. Colonial adventures brought European rulers and technology to weak states. At the same time, colonialism introduced Europeans to the powerful states beyond the Islamic world.[PARAGRAPH:2]A colonial disposition manifested itself in dynamism of settlement and trade and a concentration on naval technology and investment. The change from an inward-looking to an outward-looking perspective created a new hierarchy of states based on colonial success and allowed Western Europe, with its access to the Atlantic, to surge ahead of the East.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]海军技术的进步使欧洲在15世纪末开始在他们周围的世界殖民。殖民冒险给弱国带来了欧洲统治者和技术。同时，殖民主义把欧洲人引入了伊斯兰世界以外的强大国家。[第2段]殖民主义倾向表现为定居和贸易的活力以及对海军技术和投资的专注。从内向到外向的转变，在殖民地成功的基础上创造了一个新的国家等级制度，并使进入大西洋的西欧在东方之前迅速崛起。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COLONIALISM_STRATEGY</Tag>
+    <English>Grants you extra stability for each colony founded</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>为每个建立的殖民地提供额外的稳定性</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COLONIALISM_HELP</Tag>
+    <English>[ICON_BULLET]+1 stability for each colony founded.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]每建立一个殖民地+1稳定。</Chinese>
+  </TEXT>
+  <!-- Civic Category Expansion -->
+  <!-- Used in the dll -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_VASSAL_BONUS</Tag>
+    <English>[ICON_BULLET]+3 Stability Points for each vassal</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]每收纳一个附庸国+3稳定点</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_IMPERIALISM_BONUS</Tag>
+    <English>[ICON_BULLET]+1 stability point for each city in a less than Solid Province</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]城市数量少于核心省份+1稳定点</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_OCCUPATION_BONUS</Tag>
+    <English>[ICON_BULLET]No negative Stability Points from cities under occupation</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]城市被占领不降低稳定度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_CONQUEST_BONUS</Tag>
+    <English>[ICON_BULLET]+1 additional Stability Points on city conquest</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]征服城市+1额外的稳定点</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_ALLOW_NON_STATE_RELIGION_BUILDINGS</Tag>
+    <English>[ICON_BULLET]Allows contruction of non-State Religion Buildings and Wonders</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]允许建造非国教建筑和奇观</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUILDING_COMBO_CIVIC_INFO1</Tag>
+    <English>[ICON_BULLET]%D1_Mod [ICON_GOLD] </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]%D1_Mod [ICON_GOLD] </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUILDING_COMBO_CIVIC_INFO2</Tag>
+    <English>for [LINK=literal]%s1_Building[\LINK]</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>来自[LINK=literal]%s1_Building[\LINK]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_UNIT_PRODUCTION_MODIFIER</Tag>
+    <English>[ICON_BULLET]%D1_Mod% Unit Production</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]%D1_Mod% 军事单位生产费用</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_UNIT_PRODUCTION_MODIFIER_INCITY_HELP</Tag>
+    <English>[ICON_BULLET]%D1_Mod% from Civics</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]%D1_Mod% 来自城市</Chinese>
+  </TEXT>
+  <!-- Used in the dll -->
+  <!-- Currently unused in RFCE
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_VASSAL_BONUS_VANILLA</Tag>
+		<English>[ICON_BULLET]+3 Stability Points for each civilization starting point controlled</English>
+		<French>[ICON_BULLET]+3 points de stabilit&#233; par point de d&#233;part de civilisation contr&#244;l&#233;</French>
+		<German>[ICON_BULLET]+3 Stabilit&#228;tspunkte f&#252;r jeden kontrollierten Zivilisationsstartpunkt</German>
+		<Italian>[ICON_BULLET]+3 punti stabilit&#224; per ogni punto di avvio di civilt&#224; controllato.</Italian>
+		<Spanish>[ICON_BULLET]+3 puntos de estabilidad por cada punto de inicio de civilizaci&#243;n controlado</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_VASSALAGE_VANILLA_STRATEGY</Tag>
+		<English>Adds a Stability Points bonus for each civilization starting point controlled</English>
+		<French>Ajoute un bonus de points de stabilit&#233; par point de d&#233;part de civilisation contr&#244;l&#233;</French>
+		<German>Stabilit&#228;tspunktbonus f&#252;r jeden kontrollierten Zivilisationsstartpunkt</German>
+		<Italian>Aggiunge un punto stabilit&#224; per ogni punto di avvio di civilt&#224; controllato.</Italian>
+		<Spanish>A&#241;ade una bonificaci&#243;n de puntos de estabilidad por cada punto de inicio de civilizaci&#243;n controlado</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_RESETTLEMENT_STRATEGY</Tag>
+		<English>Adds a Stability Points bonus for each city founded at least 15 tiles from the capital</English>
+		<French>Ajoute un bonus de points de stabilit&#233; par ville fond&#233;e &#224; 15 cases ou plus de la capitale</French>
+		<German>Stabilit&#228;tspunktbonus f&#252;r jede Stadt, die mindestens 15 Gel&#228;ndefelder von der Hauptstadt entfernt gegr&#252;ndet wurde</German>
+		<Italian>Aggiunge un bonus di punti stabilit&#224; per ogni citt&#224; fondata ad almeno 15 caselle dalla capitale.</Italian>
+		<Spanish>A&#241;ade una bonificaci&#243;n de puntos de estabilidad por cada ciudad fundada al menos a 15 casillas de la capital</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_COMMONWEALTH_STRATEGY</Tag>
+		<English>No negative Stability Points for low amount of traded resources; no negative Stability Points for poor economy</English>
+		<French>Pas de points de stabilit&#233; n&#233;gatifs pour un faible niveau de ressources &#233;chang&#233;es ; pas de points de stabilit&#233; n&#233;gatifs pour une &#233;conomie pauvre</French>
+		<German>Keine Stabilit&#228;tspunktabz&#252;ge durch geringf&#252;gig gehandelte Ressourcen; keine Stabilit&#228;tspunktabz&#252;ge durch schlechte Wirtschaftslage</German>
+		<Italian>Nessun punto stabilit&#224; negativo in caso di scarso commercio di risorse; nessun punto stabilit&#224; negativo in caso di scarsa economia.</Italian>
+		<Spanish>No hay puntos de estabilidad negativos por baja cantidad de recursos intercambiados; no hay puntos de estabilidad negativos por econom&#237;a d&#233;bil</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_REPUBLIC</Tag>
+		<English>Republic</English>
+		<French>R&#233;publique</French>
+		<German>Republik</German>
+		<Italian>Repubblica</Italian>
+		<Spanish>Rep鷅lica</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_REPUBLIC_PEDIA</Tag>
+		<English>[TAB]In a republic, the head of state is not a monarch and there are no legal privileges for the nobility. The exact form of government can vary widely, from absolute despotism to direct democracy, but the most important difference between a republic and any form of monarchy is the much-diminished role of family and lineage in government.[PARAGRAPH:2]Before the French Revolution, a republic in Europe was an aberration. The state enjoyed none of the external security provided by royal family ties. Internally, the succession was decided to some extent by merit, even if this often meant merely that the man with the best ability to take power would do so.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+ 	</TEXT>
+	-->
+</Civ4GameText>

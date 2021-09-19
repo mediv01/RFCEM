@@ -1,0 +1,2357 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Great People -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_GREAT_THEOLOGIAN</Tag>
+    <English>Great Theologian</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>大预言家</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_SPECIALIST_GREAT_THEOLOGIAN</Tag>
+    <English>Great Theologian</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>大预言家</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_SPECIALIST_SCHOLAR</Tag>
+    <English>Scholar</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>学者</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_SPECIALIST_GREAT_SCHOLAR</Tag>
+    <English>Great Scholar</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>大学者</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ROBERT_THE_PIOUS</Tag>
+    <English>Robert the Pious</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>虔诚者罗伯特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_THOMAS_MAGISTER</Tag>
+    <English>Thomas Magister</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>博学者托马斯</Chinese>
+  </TEXT>
+  <!-- currently a leader -->
+  <!--<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JEANNE_D'ARC</Tag>
+		<English>Jeanne d'Arc</English>
+		<French>Jeanne d'Arc</French>
+		<German>Jeanne d'Arc</German>
+		<Italian>Jeanne d'Arc</Italian>
+		<Spanish>Jeanne d'Arc</Spanish>
+ 	</TEXT>-->
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ABD_ALLAH_IBN_SENA</Tag>
+    <English>Abd Allah Ibn Sena</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿卜杜拉·伊本·塞纳</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_CLEMENT_OF_OHRID</Tag>
+    <English>Clement of Ohrid</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥赫里德的圣克莱门特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_AL_MAIMONIDES</Tag>
+    <English>Al Maimonides</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>摩西·本·迈蒙</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IGNATIUS_LOYOLA</Tag>
+    <English>Ignatius Loyola</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>圣依纳爵·罗耀拉</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GISBERTUS_VOETIS</Tag>
+    <English>Gisbertus Voetis</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>佛依地</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_FRANCESCO_PETRARCA</Tag>
+    <English>Francesco Petrarca</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>弗朗切斯科·彼特拉克</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_VLADIMIR_SVIATOSLAVICH</Tag>
+    <English>Vladimir Sviatoslavich</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>圣弗拉基米尔·斯维亚托斯拉维奇</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_BARUCH_SPINOZA</Tag>
+    <English>Baruch Spinoza</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>巴鲁赫·斯宾诺莎</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ST_AUGUSTINE</Tag>
+    <English>St. Augustine</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>坎特伯雷的奥古斯丁</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MARTIN_LUTHER</Tag>
+    <English>Martin Luther</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>马丁·路德</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOHN_CANTIUS</Tag>
+    <English>John Cantius</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>甘迪·圣若望</Chinese>
+  </TEXT>
+  <!-- currently a leader -->
+  <!--<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALEXANDER_NEVSKY</Tag>
+		<English>Alexander Nevsky</English>
+		<French>Alexander Nevsky</French>
+		<German>Alexander Nevsky</German>
+		<Italian>Alexander Nevsky</Italian>
+		<Spanish>Alexander Nevsky</Spanish>
+ 	</TEXT>-->
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ST_THOMAS_BECKETT</Tag>
+    <English>St. Thomas Beckett</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>圣托马斯·贝克特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_URIEL_DA_COSTA</Tag>
+    <English>Uriel Da Costa</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>加布里埃尔·达科斯塔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ST_THOMAS_AQUINAS</Tag>
+    <English>St. Thomas Aquinas</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>圣托马斯·阿奎纳</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ST_WENCESLAUS</Tag>
+    <English>St. Wenceslaus</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>圣文策老</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_BORIS_GODUNOV</Tag>
+    <English>Boris Godunov</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>鲍里斯·戈杜诺夫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_EMMANUEL_SWEDENBORG</Tag>
+    <English>Emmanuel Swedenborg</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伊曼纽·斯威登堡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_DESIDERIUS_ERASMUS</Tag>
+    <English>Desiderius Erasmus</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>德西德里乌斯·伊拉斯谟</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_VOLTAIRE</Tag>
+    <English>Voltaire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伏尔泰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IBN_AL_HATHAM</Tag>
+    <English>Ibn Al Hatham</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>本·哈桑</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IMMANUEL_KANT</Tag>
+    <English>Immanuel Kant</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伊曼努尔·康德</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_SIR_THOMAS_MORE</Tag>
+    <English>Sir Thomas More</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>托马斯·莫尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JAN_VAN_EYCK</Tag>
+    <English>Jan Van Eyck</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>扬·范·艾克</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_THEOPHANES</Tag>
+    <English>Theophanes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>圣狄奥法内斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_FRANCOIS_RABELAIS</Tag>
+    <English>Francois Rabelais</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>弗朗索瓦·拉伯雷</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_OMAR_KHAYYAM</Tag>
+    <English>Omar Khayyam</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莪默·伽亚谟</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_NAUM_OF_PRESLAV</Tag>
+    <English>Naum of Preslav</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>普雷斯拉夫的瑙姆</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ABU_IBN_TUFAIL</Tag>
+    <English>Abu Ibn Tufail</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伊本·图费勒</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MIGUEL_DE_CERVANTES</Tag>
+    <English>Miguel De Cervantes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>米格尔·德·塞万提斯·萨维德拉</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GUSTAVE_VIGELAND</Tag>
+    <English>Gustave Vigeland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>古斯塔夫·维格兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JACOBO_TINTORETTO</Tag>
+    <English>Jacobo Tintoretto</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>雅各布·丁托列托</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MAXIM_BEREZOVSKY</Tag>
+    <English>Maxim Berezovsky</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>马克西姆·别列佐夫斯基</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_DANTE_ALIGHIERI</Tag>
+    <English>Dante Alighieri</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>但丁·阿利吉耶里</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ALBRECHT_DURER</Tag>
+    <English>Albrecht Durer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿尔布雷希特·丢勒</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_HIERONIMUS_BOSCH</Tag>
+    <English>Hieronimus Bosch</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>耶罗尼米斯·博斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ANDREI_RUBLEV</Tag>
+    <English>Andrei Rublev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安德烈·鲁布烈夫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MICHAELANGELO</Tag>
+    <English>Michaelangelo</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>米开朗基罗</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GEOFFREY_CHAUCER</Tag>
+    <English>Geoffrey Chaucer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>杰弗里·乔叟</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_PETER_PAUL_RUBENS</Tag>
+    <English>Peter Paul Rubens</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>彼得·保罗·鲁本斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOSEPH_HAYDN</Tag>
+    <English>Joseph Haydn</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>约瑟夫·海顿</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_WILLIAM_SHAKESPEARE</Tag>
+    <English>William Shakespeare</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威廉·莎士比亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOHANNES_VERMEER</Tag>
+    <English>Johannes Vermeer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>扬·弗美尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JACOBUS_VIDE</Tag>
+    <English>Jacobus Vide</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>雅克布斯·韦迪</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ZAMAN_AL_HAMADHANI</Tag>
+    <English>Zaman Al Hamadhani</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>扎曼·哈曼丹尼</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IVAN_ALEXANDER</Tag>
+    <English>Ivan Alexander</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伊凡·亚历山大</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ABU_IBN_GUARSIYA</Tag>
+    <English>Abu Ibn Guarsiya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿布·本·古拉西亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_DIEGO_VELASQUEZ</Tag>
+    <English>Diego Velasquez</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>蒂埃哥·委拉士开兹</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_TIZIANO_VERCELLI</Tag>
+    <English>Tiziano Vercelli</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>提齐安诺·维伽略</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_HANS_HOLBEIN</Tag>
+    <English>Hans Holbein</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>小汉斯·霍尔拜因</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOHANN_SEBASTIAN_BACH</Tag>
+    <English>Johann Sebastian Bach</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>约翰·塞巴斯蒂安·巴赫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JAN_KOCHANOWSKI</Tag>
+    <English>Jan Kochanowski</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>扬·科哈诺夫斯基</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOHN_MILTON</Tag>
+    <English>John Milton</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>约翰·弥尔顿</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_FRANCISCO_ZUBARAN</Tag>
+    <English>Francisco Zubaran</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Francisco Zubaran</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ALEXANDRE_DUMAS</Tag>
+    <English>Alexandre Dumas</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Alexandre Dumas</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_VASILY_TEDIAKOVSKY</Tag>
+    <English>Vasily Tediakovsky</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Vasily Tediakovsky</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_FRANS_HALS</Tag>
+    <English>Frans Hals</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Frans Hals</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_WOLFGANG_AMADEUS_MOZART</Tag>
+    <English>Wolfgang Amadeus Mozart</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Wolfgang Amadeus Mozart</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GREGORY_CHONIADES</Tag>
+    <English>Gregory Choniades</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Gregory Choniades</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_RENE_DESCARTES</Tag>
+    <English>Rene Descartes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Rene Descartes</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IBN_AL_KHARIZMI</Tag>
+    <English>Ibn Al Kharizmi</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ibn Al Kharizmi</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOHN_EXARCH</Tag>
+    <English>John Exarch</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>John Exarch</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ABU_AL_QASIM</Tag>
+    <English>Abu Al Qasim</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Abu Al Qasim</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOSE_DE_ACOSTA</Tag>
+    <English>Jose De Acosta</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jose De Acosta</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_TYCHO_BRAHE</Tag>
+    <English>Tycho Brahe</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Tycho Brahe</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_LEONARDO_DA_VINCI</Tag>
+    <English>Leonardo Da Vinci</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Leonardo Da Vinci</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IVAN_SHUVALOV</Tag>
+    <English>Ivan Shuvalov</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ivan Shuvalov</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOHANNES_KEPLER</Tag>
+    <English>Johannes Kepler</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Johannes Kepler</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOHANNES_GUTENBERG</Tag>
+    <English>Johannes Gutenberg</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Johannes Gutenberg</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_NICOLAUS_COPERNICUS</Tag>
+    <English>Nicolaus Copernicus</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Nicolaus Copernicus</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GALILEO_GALILEI</Tag>
+    <English>Galileo Galilei</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Galileo Galilei</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ABU_AL_BIRUNI</Tag>
+    <English>Abu Al Biruni</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Abu Al Biruni</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MIKHAIL_LOMONOSOV</Tag>
+    <English>Mikhail Lomonosov</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mikhail Lomonosov</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ISSAC_NEWTON</Tag>
+    <English>Issac Newton</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Issac Newton</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GARCIA_DE_ORTA</Tag>
+    <English>Garcia De Orta</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Garcia De Orta</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_WOLFGANG_LAZIUS</Tag>
+    <English>Wolfgang Lazius</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Wolfgang Lazius</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_QAZI_ZEDAH</Tag>
+    <English>Qazi Zedah</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Qazi Zedah</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ANDERS_CELSIUS</Tag>
+    <English>Anders Celsius</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Anders Celsius</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_CHRISTIAN_HUYGENS</Tag>
+    <English>Christian Huygens</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Christian Huygens</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GEORGIUS_GEMISTUS</Tag>
+    <English>Georgius Gemistus</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Georgius Gemistus</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ANTOINE_LEVOISIER</Tag>
+    <English>Antoine Levoisier</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Antoine Levoisier</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IBRAHIM_AL_ZARQALI</Tag>
+    <English>Ibrahim Al Zarqali</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ibrahim Al Zarqali</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GREGOR_TSAMBLAK</Tag>
+    <English>Gregor Tsamblak</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Gregor Tsamblak</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_BLASCO_DE_GARAY</Tag>
+    <English>Blasco De Garay</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Blasco De Garay</Chinese>
+  </TEXT>
+  <!-- currently a leader -->
+  <!--<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GUSTAV_VASA</Tag>
+		<English>Gustav Vasa</English>
+		<French>Gustav Vasa</French>
+		<German>Gustav Vasa</German>
+		<Italian>Gustav Vasa</Italian>
+		<Spanish>Gustav Vasa</Spanish>
+ 	</TEXT>-->
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_FILIPPO_BRUNNELLESCHI</Tag>
+    <English>Filippo Brunnelleschi</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Filippo Brunnelleschi</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GOTTFRIED_LEIBNITZ</Tag>
+    <English>Gottfried Leibnitz</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Gottfried Leibnitz</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MICHAEL_SEDZIWJ</Tag>
+    <English>Michael Sedziwj</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Michael Sedziwj</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_LOUIS_PASTEUR</Tag>
+    <English>Louis Pasteur</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Louis Pasteur</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_FRANCESCO_GRIMALDI</Tag>
+    <English>Francesco Grimaldi</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Francesco Grimaldi</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MICHAEL_FARADAY</Tag>
+    <English>Michael Faraday</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Michael Faraday</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_PEDRO_NUNES</Tag>
+    <English>Pedro Nunes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Pedro Nunes</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GEORG_TANNSTETTER</Tag>
+    <English>Georg Tannstetter</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Georg Tannstetter</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_OKTAY_SANANOGLU</Tag>
+    <English>Oktay Sananoglu</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Oktay Sananoglu</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_CHRISTOPHER_POLHEM</Tag>
+    <English>Christopher Polhem</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Christopher Polhem</Chinese>
+  </TEXT>
+  <!-- currently a leader -->
+  <!--<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHAN_DE_WITT</Tag>
+		<English>Johan De Witt</English>
+		<French>Johan De Witt</French>
+		<German>Johan De Witt</German>
+		<Italian>Johan De Witt</Italian>
+		<Spanish>Johan De Witt</Spanish>
+ 	</TEXT>-->
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_SERGEI_STROGANOFF</Tag>
+    <English>Sergei Stroganoff</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Sergei Stroganoff</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOSEPH_PRIESTLEY</Tag>
+    <English>Joseph Priestley</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Joseph Priestley</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_BERTRAND_DE_LA_BROQUIRE</Tag>
+    <English>Bertrand De La Broquire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Bertrand De La Broquire</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_HIEROCLES_OF_ATHENS</Tag>
+    <English>Hierocles of Athens</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hierocles of Athens</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JACQUES_CARTIER</Tag>
+    <English>Jacques Cartier</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jacques Cartier</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_AHMAD_IBN_FADLAN</Tag>
+    <English>Ahmad Ibn Fadlan</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ahmad Ibn Fadlan</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ANDREY_DAMYANOV</Tag>
+    <English>Andrey Damyanov</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Andrey Damyanov</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MOHAMMED_IBN_BATTUTA</Tag>
+    <English>Mohammed Ibn Battuta</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mohammed Ibn Battuta</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_FERNANDO_DE_SOTO</Tag>
+    <English>Fernando De Soto</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Fernando De Soto</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_LEIF_ERICKSON</Tag>
+    <English>Leif Erickson</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Leif Erickson</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MARCO_POLO</Tag>
+    <English>Marco Polo</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>马可·波罗</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_AFANASIJ_NIKITIN</Tag>
+    <English>Afanasij Nikitin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Afanasij Nikitin</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_SANDOR_KOROSI_CSOMA</Tag>
+    <English>Sandor Korosi Csoma</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Sandor Korosi Csoma</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JACOB_FUGGER</Tag>
+    <English>Jacob Fugger</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jacob Fugger</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JANUSZ_RADZIWILL</Tag>
+    <English>Janusz Radziwill</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Janusz Radziwill</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_VITUS_BERING</Tag>
+    <English>Vitus Bering</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Vitus Bering</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_CHRISTOBAL_COLON</Tag>
+    <English>Christobal Colon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Christobal Colon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_FRANCIS_DRAKE</Tag>
+    <English>Francis Drake</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Francis Drake</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_VASCO_DA_GAMA</Tag>
+    <English>Vasco Da Gama</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Vasco Da Gama</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JUSTUS_PERTHES</Tag>
+    <English>Justus Perthes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Justus Perthes</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_AYDIN_DOGAN</Tag>
+    <English>Aydin Dogan</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Aydin Dogan</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ARVID_HORN</Tag>
+    <English>Arvid Horn</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Arvid Horn</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ANTONIE_VAN_DIEMAN</Tag>
+    <English>Antonie Van Dieman</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Antonie Van Dieman</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_SAMUEL_DE_CHAMPLAIN</Tag>
+    <English>Samuel De Champlain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Samuel De Champlain</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_AHMAD_IBN_RUSTAH</Tag>
+    <English>Ahmad Ibn Rustah</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ahmad Ibn Rustah</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_PONCE_DE_LEON</Tag>
+    <English>Ponce De Leon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ponce De Leon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ANTONIO_GRIMALDI</Tag>
+    <English>Antonio Grimaldi</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Antonio Grimaldi</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_HENRY_HUDSON</Tag>
+    <English>Henry Hudson</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Henry Hudson</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_BARTHOLOMEW_DIAZ</Tag>
+    <English>Bartholomew Diaz</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Bartholomew Diaz</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MEHMET_ASIF_ERSOY</Tag>
+    <English>Mehmet Asif Ersoy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mehmet Asif Ersoy</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GRIGORIJ_STROGANOFF</Tag>
+    <English>Grigorij Stroganoff</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Grigorij Stroganoff</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ABEL_TASMAN</Tag>
+    <English>Abel Tasman</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Abel Tasman</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_SIMON_STEVIN</Tag>
+    <English>Simon Stevin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Simon Stevin</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ANTHEMIUS_OF_TRALLES</Tag>
+    <English>Anthemius of Tralles</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Anthemius of Tralles</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MAURICE_DE_SULLY</Tag>
+    <English>Maurice De Sully</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Maurice De Sully</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JABIR_IBN_HAYYAM</Tag>
+    <English>Jabir Ibn Hayyam</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jabir Ibn Hayyam</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_KOLYU_FICHETO</Tag>
+    <English>Kolyu Ficheto</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kolyu Ficheto</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_QASIM_IBN_FIRNAS</Tag>
+    <English>Qasim Ibn Firnas</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Qasim Ibn Firnas</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_FELIZ_DE_AZARA</Tag>
+    <English>Feliz De Azara</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Feliz De Azara</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IVAR_GIAVER</Tag>
+    <English>Ivar Giaver</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ivar Giaver</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ANDREA_PALLADIO</Tag>
+    <English>Andrea Palladio</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Andrea Palladio</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_VASILY_STASOV</Tag>
+    <English>Vasily Stasov</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Vasily Stasov</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOZSEF_HILD</Tag>
+    <English>Jozsef Hild</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jozsef Hild</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_PETER_VISCHER</Tag>
+    <English>Peter Vischer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Peter Vischer</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_STANISLAV_STASZIC</Tag>
+    <English>Stanislav Staszic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Stanislav Staszic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_POSTNIAK_YAKOVLEV</Tag>
+    <English>Postniak Yakovlev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Postniak Yakovlev</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GIOVANNI_CASSINI</Tag>
+    <English>Giovanni Cassini</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Giovanni Cassini</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_CHRISTOPHER_WREN</Tag>
+    <English>Christopher Wren</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Christopher Wren</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MATEUS_FERNANDES</Tag>
+    <English>Mateus Fernandes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mateus Fernandes</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOHAN_VON_HILDEBRANDT</Tag>
+    <English>Johan Von Hildebrandt</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Johan Von Hildebrandt</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_TEKEN_DERECI</Tag>
+    <English>Teken Dereci</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Teken Dereci</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_NICOMEDUS_TESSIN</Tag>
+    <English>Nicomedus Tessin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Nicomedus Tessin</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_HUGO_GROTIUS</Tag>
+    <English>Hugo Grotius</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hugo Grotius</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MARQUIS_DE_VAUBAN</Tag>
+    <English>Marquis De Vauban</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Marquis De Vauban</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_TAQI_AL_DIN</Tag>
+    <English>Taqi Al Din</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Taqi Al Din</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GIACOMO_LEONE</Tag>
+    <English>Giacomo Leone</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Giacomo Leone</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IMRE_STEINDL</Tag>
+    <English>Imre Steindl</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Imre Steindl</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ADAM_KOCHANSKI</Tag>
+    <English>Adam Kochanski</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Adam Kochanski</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GALLEAZO_ALLESSI</Tag>
+    <English>Galleazo Allessi</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Galleazo Allessi</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_DIOGO_DA_BOITACA</Tag>
+    <English>Diogo Da Boitaca</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Diogo Da Boitaca</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JAKOB_PRANDTAUER</Tag>
+    <English>Jakob Prandtauer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jakob Prandtauer</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ERWIN_VON_STEINBACH</Tag>
+    <English>Erwin Von Steinbach</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Erwin Von Steinbach</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_SVEN_HEDIN</Tag>
+    <English>Sven Hedin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Sven Hedin</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_CORNELIUS_DREBBEL</Tag>
+    <English>Cornelius Drebbel</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Cornelius Drebbel</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_BELISARIUS</Tag>
+    <English>Belisarius</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Belisarius</Chinese>
+  </TEXT>
+  <!-- currently a leader -->
+  <!--<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BASIL_II</Tag>
+		<English>Basil II</English>
+		<French>Basil II</French>
+		<German>Basil II</German>
+		<Italian>Basil II</Italian>
+		<Spanish>Basil II</Spanish>
+ 	</TEXT>-->
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_BALDWIN_OF_JERUSALEM</Tag>
+    <English>Baldwin of Jerusalem</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Baldwin of Jerusalem</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_PHILIP_THE_GOOD</Tag>
+    <English>Philip the Good</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Philip the Good</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_CHARLES_MARTEL</Tag>
+    <English>Charles Martel</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Charles Martel</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_KHALID_IBN_AL_WALID</Tag>
+    <English>Khalid Ibn Al Walid</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Khalid Ibn Al Walid</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IVAN_ASEN</Tag>
+    <English>Ivan Asen</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ivan Asen</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_TARIK_IBN_ZIHAD</Tag>
+    <English>Tarik Ibn Zihad</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Tarik Ibn Zihad</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_HERNAN_CORTES</Tag>
+    <English>Hernan Cortes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hernan Cortes</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ERIC_BLOODAXE</Tag>
+    <English>Eric Bloodaxe</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eric Bloodaxe</Chinese>
+  </TEXT>
+  <!-- currently a leader -->
+  <!--<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANDREA_GRITTI</Tag>
+		<English>Andrea Gritti</English>
+		<French>Andrea Gritti</French>
+		<German>Andrea Gritti</German>
+		<Italian>Andrea Gritti</Italian>
+		<Spanish>Andrea Gritti</Spanish>
+ 	</TEXT>-->
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_SVIATOSLAV_I</Tag>
+    <English>Sviatoslav I</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Sviatoslav I</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JANOS_HUNYADI</Tag>
+    <English>Janos Hunyadi</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Janos Hunyadi</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GEORGE_FREDERICK_WALDECK</Tag>
+    <English>George Frederick Waldeck</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>George Frederick Waldeck</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ISTVAN_BATHORY</Tag>
+    <English>Istvan Bathory</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Istvan Bathory</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_VLADIMIR_THE_BOLD</Tag>
+    <English>Vladimir the Bold</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Vladimir the Bold</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ANDREA_DORIA</Tag>
+    <English>Andrea Doria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Andrea Doria</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_EDWARD_LONGSHANKS</Tag>
+    <English>Edward Longshanks</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Edward Longshanks</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_AFONSO_DE_ALBUQUERQUE</Tag>
+    <English>Afonso de Albuquerque</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Afonso de Albuquerque</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_EUGENE_VON_SAVOYEN</Tag>
+    <English>Eugene Von Savoyen</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eugene Von Savoyen</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ORHAN_GHAZI</Tag>
+    <English>Orhan Ghazi</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Orhan Ghazi</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_RICHARD_COEUR_DE_LION</Tag>
+    <English>Richard Coeur de Lion</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Richard Coeur de Lion</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MICHIEL_DE_RUYTER</Tag>
+    <English>Michiel De Ruyter</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Michiel De Ruyter</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_CHARLES_THE_BALD</Tag>
+    <English>Charles the Bald</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Charles the Bald</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_CHARLES_THE_BOLD</Tag>
+    <English>Charles the Bold</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Charles the Bold</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_HERACLIUS</Tag>
+    <English>Heraclius</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Heraclius</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_HENRI_TURENNE</Tag>
+    <English>Henri Turenne</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Henri Turenne</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_AMIR_IBN_AL_AS</Tag>
+    <English>Amir Ibn Al As</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Amir Ibn Al As</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MAURICE_OF_NASSAU</Tag>
+    <English>Maurice of Nassau</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Maurice of Nassau</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_YUSUF_IBN_TASHFIN</Tag>
+    <English>Yusuf Ibn Tashfin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Yusuf Ibn Tashfin</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GONZALO_DE_CORDOBA</Tag>
+    <English>Gonzalo De Cordoba</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Gonzalo De Cordoba</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_SWEYN_FORKBEARD</Tag>
+    <English>Sweyn Forkbeard</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Sweyn Forkbeard</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_SEBASTIANO_VENIER</Tag>
+    <English>Sebastiano Venier</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Sebastiano Venier</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ROMAN_MSTISLAVICH</Tag>
+    <English>Roman Mstislavich</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Roman Mstislavich</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_PAL_KINIZSI</Tag>
+    <English>Pal Kinizsi</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Pal Kinizsi</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GEBHARD_VON_BLUCHER</Tag>
+    <English>Gebhard Von Blucher</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Gebhard Von Blucher</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_SELIM_I</Tag>
+    <English>Selim I</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Selim I</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MIKHAIL_KUTUZOV</Tag>
+    <English>Mikhail Kutuzov</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mikhail Kutuzov</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_AMBROGIO_SPINOLA</Tag>
+    <English>Ambrogio Spinola</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ambrogio Spinola</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_OLIVER_CROMWELL</Tag>
+    <English>Oliver Cromwell</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Oliver Cromwell</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ALBRECHT_VON_WALLENSTEIN</Tag>
+    <English>Albrecht Von Wallenstein</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Albrecht Von Wallenstein</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_LENNART_TORSTENSON</Tag>
+    <English>Lennart Torstenson</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Lennart Torstenson</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_MAARTEN_TROMP</Tag>
+    <English>Maarten Tromp</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Maarten Tromp</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JAN_BREYDAL</Tag>
+    <English>Jan Breydal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jan Breydal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOHN_KINNAMOS</Tag>
+    <English>John Kinnamos</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>John Kinnamos</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_CHEVALIER_D'EON</Tag>
+    <English>Chevalier D'eon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Chevalier D'eon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_HASSAN_IBN_SABAH</Tag>
+    <English>Hassan Ibn Sabah</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hassan Ibn Sabah</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IVANKO_OF_PRESLAV</Tag>
+    <English>Ivanko of Preslav</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ivanko of Preslav</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_AHMAD_AL_TIFASHI</Tag>
+    <English>Ahmad Al Tifashi</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ahmad Al Tifashi</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_TORQUEMADA</Tag>
+    <English>Torquemada</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Torquemada</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IVAR_THE_BONELESS</Tag>
+    <English>Ivar the Boneless</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ivar the Boneless</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GIOVANNI_MANUCCI</Tag>
+    <English>Giovanni Manucci</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Giovanni Manucci</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_COUNT_RAZUMOVSKY</Tag>
+    <English>Count Razumovsky</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Count Razumovsky</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GASPAR_GRAZIANI</Tag>
+    <English>Gaspar Graziani</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Gaspar Graziani</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_PHILIP_OF_SWABIA</Tag>
+    <English>Philip of Swabia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Philip of Swabia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JERZY_KULCZYCKI</Tag>
+    <English>Jerzy Kulczycki</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jerzy Kulczycki</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_VASILY_DOLGORUKOV</Tag>
+    <English>Vasily Dolgorukov</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Vasily Dolgorukov</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_SINBALDO_FIESCHI</Tag>
+    <English>Sinbaldo Fieschi</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Sinbaldo Fieschi</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_FRANCIS_BACON</Tag>
+    <English>Francis Bacon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Francis Bacon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_PERO_DA_COVILHA</Tag>
+    <English>Pero Da Covilha</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Pero Da Covilha</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JAN_ZIZKA</Tag>
+    <English>Jan Zizka</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jan Zizka</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_HAYREDDIN</Tag>
+    <English>Hayreddin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Hayreddin</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_PER_BRAHE</Tag>
+    <English>Per Brahe</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Per Brahe</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JAN_COEN</Tag>
+    <English>Jan Coen</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jan Coen</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_PIETER_DE_CONNICK</Tag>
+    <English>Pieter De Connick</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Pieter De Connick</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_THEODOSIUS_OF_NICEA</Tag>
+    <English>Theodosius of Nicea</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Theodosius of Nicea</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_RASHID_AD_DIN_SINAN</Tag>
+    <English>Rashid Ad Din Sinan</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Rashid Ad Din Sinan</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ENRICO_DE_CANDIA</Tag>
+    <English>Enrico De Candia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Enrico De Candia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_SIMON_CAROCHE</Tag>
+    <English>Simon Caroche</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Simon Caroche</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_COUNT_RAZUMOVSKY</Tag>
+    <English>Count Razumovsky</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Count Razumovsky</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IBRAHIM_AYA</Tag>
+    <English>Ibrahim Aya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ibrahim Aya</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ALONSO_DE_CONTRERAS</Tag>
+    <English>Alonso De Contreras</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Alonso De Contreras</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_BRITA_TOTT</Tag>
+    <English>Brita Tott</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Brita Tott</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GIACOMO_CASANOVA</Tag>
+    <English>Giacomo Casanova</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Giacomo Casanova</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_IVAN_SUSHANIN</Tag>
+    <English>Ivan Sushanin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Ivan Sushanin</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ZRINYI_PETER</Tag>
+    <English>Zrinyi Peter</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Zrinyi Peter</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_BUVAR_KUND</Tag>
+    <English>Buvar Kund</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Buvar Kund</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_KONRAD_OF_MASOVIA</Tag>
+    <English>Konrad of Masovia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Konrad of Masovia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JAN_DLUGOSZ</Tag>
+    <English>Jan Dlugosz</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jan Dlugosz</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ALEXANDER_BEZBORODKO</Tag>
+    <English>Alexander Bezborodko</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Alexander Bezborodko</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GIOVANNI_GUISTIANI</Tag>
+    <English>Giovanni Guistiani</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Giovanni Guistiani</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_FRANCIS_WALSINGHAM</Tag>
+    <English>Francis Walsingham</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Francis Walsingham</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_JOAO_ESTEVES</Tag>
+    <English>Joao Esteves</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Joao Esteves</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_GEORGE_VON_FRUNDSBERG</Tag>
+    <English>George Von Frundsberg</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>George Von Frundsberg</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_TURGUT_REIS</Tag>
+    <English>Turgut Reis</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Turgut Reis</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_CORNELIUS_JOL</Tag>
+    <English>Cornelius Jol</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Cornelius Jol</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_OMURTAG</Tag>
+    <English>Omurtag</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Omurtag</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_KRUM</Tag>
+    <English>Krum</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Krum</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_KALOYAN</Tag>
+    <English>Kaloyan</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kaloyan</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_TELERIG</Tag>
+    <English>Telerig</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Telerig</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ST_KIRIL</Tag>
+    <English>St. Kiril</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>St. Kiril</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ST_KLIMENT</Tag>
+    <English>St. Kliment</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>St. Kliment</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_PERSON_ANREI_RUBLEV</Tag>
+    <English>Anrei Rublev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Anrei Rublev</Chinese>
+  </TEXT>
+  <!-- currently a leader -->
+  <!--<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AFONSO_HENRIQUES</Tag>
+		<English>Afonso Henriques</English>
+		<French>Afonso Henriques</French>
+		<German>Afonso Henriques</German>
+		<Italian>Afonso Henriques</Italian>
+		<Spanish>Afonso Henriques</Spanish>
+ 	</TEXT>-->
+</Civ4GameText>

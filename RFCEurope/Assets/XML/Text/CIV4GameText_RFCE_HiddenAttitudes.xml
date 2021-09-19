@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Hidden Attitudes -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_MISC_ATTITUDE_FIRST_IMPRESSION</Tag>
+    <English>%D1: "A first impression is a lasting one."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%D1:“第一印象就是最终印象。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_ATTITUDE_TEAM_SIZE</Tag>
+    <English>%D1: "You have too many allies."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%D1: “你的同盟太多了。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_ATTITUDE_BETTER_RANK</Tag>
+    <English>%D1: "Your small state is no threat to us."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%D1: “你的小国不足以构成对我们的威胁。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_ATTITUDE_WORSE_RANK</Tag>
+    <English>%D1: "We feel threatened by your growing empire."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%D1: “你不断壮大的帝国让我们感到忧虑。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_ATTITUDE_LOW_RANK</Tag>
+    <English>%D1: "Small nations should work together."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%D1: “小国应该共同努力。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_ATTITUDE_LOST_WAR</Tag>
+    <English>%D1: "The war is going badly for us."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%D1: “这场战争让我们的关系变得很糟糕。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_ATTITUDE_EXTRA_GOOD</Tag>
+    <English>%D1: "Past events have brought our people together."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%D1: “过去的事件使我们的人民联系更加紧密。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_ATTITUDE_EXTRA_BAD</Tag>
+    <English>%D1: "Past events have drawn our people apart."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%D1: “过去发生的事件让我们的人民更疏远。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_ATTITUDE_PERSECUTION</Tag>
+    <English>%D1: "We cannot forget the persecution of our brothers in faith!"</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%D1: "我们不能忘记你对信奉我们宗教兄弟的迫害!"</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_ATTITUDE_FREEDOM</Tag>
+    <English>%D1: "You have granted us our independence!"</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%D1: “您已允许我们独立！”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MEMORY_RAZED_CITY</Tag>
+    <English>"You razed our cities!"</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>“我们的城市被你夷为平地！”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MEMORY_TRADED_TECH_TO_US</Tag>
+    <English>"You have shared technological discoveries with us."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>“你与我们分享你对科学技术的新发现。”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MEMORY_RECEIVED_TECH_FROM_ANY</Tag>
+    <English>"You received too many techs from other civilizations."</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>“你从其他文明收到了太多的科学技术。”</Chinese>
+  </TEXT>
+</Civ4GameText>

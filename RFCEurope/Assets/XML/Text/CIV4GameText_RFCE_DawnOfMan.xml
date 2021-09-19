@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Dawn of Man -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_RHYES_DAWN_OF_MAN_TEXT</Tag>
+    <English>The sun rises on the year %s1_year. The %s2_civ people are ready to settle down and found your first city.[NEWLINE][NEWLINE]%s3_leader, your people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>%s1_year年第一天的太阳已经升起。%s2_civ人民决定结束游牧生活，并为你建造一座城市。[NEWLINE][NEWLINE]%s3_leader，你的人民愿意赋予你最高的权力。并坚信你能开创一个历久弥新的文明！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DAWN_OF_MAN_SCREEN_TITLE</Tag>
+    <English>RHYE'S AND FALL OF CIVILIZATIONS: EUROPE</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>RHYE'S文明的兴衰: 欧洲</Chinese>
+  </TEXT>
+  <!-- Civ Specific Dawn of Man - 500 AD -->
+  <!-- DAWN_OF_MAN_TEXT_0 numbers are the iCivs in Consts.py -->
+  <!-- 0 is Byzantium, 1 is France, 2 is Arabia, etc. -->
+  <TEXT>
+    <!-- Byzantium -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_0</Tag>
+    <English>After many glorious centuries under Rome, the great Constantine saw fit to split the mighty empire into two parts.[NEWLINE]It is now the year 500 AD, and the Western Roman Empire has fallen. While Rome will always have a place in your people's hearts, Constantinople is now the heart of the most glorious nation on Earth![NEWLINE][NEWLINE]Justinian, you are now the sole ruler, THE Roman Emperor. Your nation is rich and strong, but be aware: vast riches attract many enemies, and some of the barbarians may be even stronger than we are.[NEWLINE]Your people have faith that you can lead their mighty nation through the coming storm. Will you prevail and lead the Byzantine Empire through another 1,000 years of glory?</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>在罗马统治了许多辉煌的世纪之后，伟大的君士坦丁认为将这个强大的帝国分裂成两部分是合适的。[新线]现在是公元500年，西罗马帝国已经衰落。虽然罗马将永远在你们人民心中占有一席之地，但君士坦丁堡现在是世界上最光荣国家的心脏！贾斯汀，你现在是唯一的统治者，罗马皇帝。你的国家富强，但你要知道：巨大的财富会招来许多敌人，有些野蛮人甚至比我们还要强大。[新线]你的人民相信你能带领他们强大的国家渡过即将来临的风暴。你会战胜并带领拜占庭帝国再经历1000年的辉煌吗？</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- France -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_1</Tag>
+    <English>It is the year 500 AD. As king of the Frankish people, you have lead their way in becoming the first barbarian tribe to embrace Catholicism instead of Arianism, which will be our guiding principle in building a glorious civilization.[NEWLINE][NEWLINE]Your lands are vast and fertile, but the Burgundians in the Rh鬾e valley will not always stay subdued, and the coasts may provide access to dangerous raiders from the north. Will you bear through these struggles, unify the realm, and establish the most powerful kingdom in Europe for generations to come?</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>这是公元500年，作为法兰克人的国王，你带领他们成为第一个信奉天主教而不是阿里亚斯教的野蛮部落，这将是我们建设光荣文明的指导原则，但是，罗谢河谷的勃艮第人不会一直保持克制，海岸可能会提供从北部进入危险袭击者的通道。你能忍受这些斗争，统一王国，建立欧洲最强大的王国，直到世世代代吗？</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Arabia -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_2</Tag>
+    <English>It is the year 632 CE. The prophet Muhammed, peace be upon him, accomplished what no one thought was possible - uniting the tribes of Arabia. You, Abu Bakr, has been chosen to succeed him as Caliph and expand the House of Islam.[NEWLINE][NEWLINE]After a devastating war with Sassanid Persia and raging religious controversies between Chalcedonians and Monophysities, the lands of the Byzantine Empire are ripe for conquest. You know you cannot miss this opportunity, and there will be many centuries to build up your forces before the western crusaders cast their gaze towards the holy city of al-Quds.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>这是公元632年。先知穆罕默德，愿他平安，成就了无人能想到的事——团结阿拉伯各部落。你，阿布·巴克尔，已经被选中接替他成为哈里发，并扩大伊斯兰之家。[新线][新线]在与萨珊王朝波斯的毁灭性战争和迦勒底人与单一民族之间激烈的宗教争论之后，拜占庭帝国的土地已经成熟，可以征服了。你知道你不能错过这个机会，在西方十字军将他们的目光投向圣城圣城之前，你将有许多世纪来建立你的军队。</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Bulgaria -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_3</Tag>
+    <English>Many years ago, your father had finally managed to unite the warring Bulgar clans and form the powerful state of Great Bulgaria north of the Black Sea. Following his death, however, pushed by the Khazar hordes, you and your brothers had to divide the Bulgarians once more and leave your old home, migrating in different directions.[NEWLINE][NEWLINE]It is now the year 680 AD. After years of travel across the steppe braving snow and heat, across mountains and through swamps, you and your followers have finally reached the northern borders of the Eastern Roman Empire. Tired of traveling with no home, you gather your people for one last push, to cross the Danube river and to challenge the mighty Empire itself; to claim this lustful land as yours forever.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>许多年前，你父亲终于成功地团结了交战的保加利亚部族，在黑海以北形成了强大的大保加利亚国。然而，在他死后，在卡扎尔部落的推动下，你和你的兄弟们不得不再次分裂保加利亚人，离开你原来的家，向不同的方向迁徙。[新线][新线]现在是公元680年。经过多年的跋涉，冒着雪和热，穿越高山和沼泽，你和你的追随者终于到达了东罗马帝国的北部边界。厌倦了在没有家的情况下旅行，你召集你的人民进行最后一次推动，穿越多瑙河，挑战强大的帝国本身；声称这片色欲之地永远属于你。</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Cordoba -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_4</Tag>
+    <English>It is the year 711 CE. After the long struggle, the seemingly endless flight from the upstart Abbasids in the east, many thought your Umayyad line to be extinct.[NEWLINE]Not so! You, Abd-ar-Rahman III, have led your people to a new place you now call "Al-Andalus", where you and your people may finally find a new home.[NEWLINE][NEWLINE]These new lands may easily be the richest you have ever seen, so with Allah's will you might be able to build a rich and happy Caliphate - full of poetry, art and religious tolerance - to rival even that of the prophet Muhammed![NEWLINE]You only have to worry about those fanatical Christians to the north...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>这是公元711年。经过长期的斗争，从东部新兴的阿巴斯人那里似乎无休止的逃亡，许多人认为你的倭玛亚线已经灭绝了！你，阿布德·拉赫曼三世，带领你的人民来到了一个你现在称之为“安达卢斯”的新地方，在那里你和你的人民可能最终会找到一个新的家。[新线][新线]这些新的土地很容易成为你见过的最富有的地方，所以有了真主的意志，你也许能够建立一个富有和幸福的哈里发国家——充满诗意，艺术和宗教宽容-甚至可以与先知穆罕默德相媲美！你只需要担心北方那些狂热的基督徒。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Venice -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_5</Tag>
+    <English>It is the year 810 AD. Fleeing the onslaught of the barbarian Lombards, your people and the remnants of the Byzantine Exarchate of Ravenna have settled on the inaccessible islands in the lagoon. The recent agreement between Charlemagne of the Franks and emperor Nicephorus in Constantinople means that you will be left alone for the time being. There has never been a better opportunity to build a rich trading empire that will dominate the seas!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>现在是公元810年。Fleeing the onslaught of the barbarian Lombards, your people and the remnants of the Byzantine Exarchate of Ravenna have settled on the inaccessible islands in the lagoon. The recent agreement between Charlemagne of the Franks and emperor Nicephorus in Constantinople means that you will be left alone for the time being. There has never been a better opportunity to build a rich trading empire that will dominate the seas!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Burgundy -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_6</Tag>
+    <English>It is the year 843 AD. After your defeat at the hands of your brothers, you have signed the treaty of Verdun, accepting that the inheritance of Charlemagne's great empire will be split into three, with you taking the middle portion. Your exposed position - wedged between the powerful French and German kingdoms - will require great diplomatic skill, but your knights shall be the envy of all of Europe!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>这是公元843年，在你被兄弟们打败后，你签署了《凡尔登条约》，接受查理曼大帝的继承权将被分成三份，中间部分由你承担。你暴露在强大的法德王国之间的地位需要高超的外交技巧，但你的骑士们将是整个欧洲羡慕的对象！</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Germany -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_7</Tag>
+    <English>It is the year 856 AD. The great Frankish inheritance has irrevocably been split into three, with the eastern portion going to you. As the Byzantine Empress Irene rejected Charlemagne's marriage proposal, you should instead build a Holy Roman Empire for yourself!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>这是公元856年。伟大的法兰克遗产已不可逆转地分成三份，东部归你。拜占庭女王艾琳拒绝了查理曼的求婚，你应该为自己建立一个神圣的罗马帝国！</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Novgorod -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_8</Tag>
+    <English>It is the year 864 AD. You, Rurik, have been invited by the warring local tribes to reestablish order; to rule over them. Novgorod the Great has the potential to grow into a fabulously wealthy city, the envy of both West and East.[NEWLINE]But can you hold the fledgling principality together when both West and East come for you?</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>这是公元864年。你，鲁里克，被交战的当地部落邀请重建秩序，统治他们。诺夫哥罗德大帝有潜力成长为一个富庶的城市，东西方都很羡慕。[新线]但是当东西方都来找你的时候，你能把这个初出茅庐的公国团结在一起吗？</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Norway -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_9</Tag>
+    <English>It is the year 872 AD. The various petty kingdoms of Norway have been united by Harald Fairhair, who once vowed not to cut his hair until he was king of all of Norway.[NEWLINE][NEWLINE]Norway is, given its location, a surprisingly wealthy land with a large population of skilled seafarers. Skills you will have to utilize in order to keep ahead of your neighbors!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>这是公元872年，挪威的各个小王国都被哈拉尔德·费尔黑尔联合起来，他曾经发誓在他成为挪威国王之前不剪头发。为了保持领先于你的邻居，你必须运用这些技能！</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Kiev -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_10</Tag>
+    <English>It is the year 882 AD. After the mighty walls of Constantinople foiled your brazen attack in 866, you have decided to settle down with some of your loyal Varangians. This rich land you have just set foot on seems perfect.[NEWLINE][NEWLINE]The local Slavic people accept you as their leader, while your fellow Swedes, the feared Viking warriors establish themselves as the local elite. Life is good, the land is fertile, you and your descendants will surely lead your new nation, the Kievan Rus, into glory.[NEWLINE]If only you weren't having those dreams about savage hordes rising in the east...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>公元882年，君士坦丁堡雄伟的城墙在866年挫败了你无耻的进攻，你决定和一些忠诚的瓦兰吉安人定居下来。你刚刚踏上的这片富饶的土地看起来很完美。[新线][新线]当地斯拉夫人接受你为他们的领袖，而你的瑞典同胞，令人畏惧的维京勇士则将自己确立为当地的精英。生活是美好的，土地是肥沃的，你和你的后代一定会带领你的新国家基辅罗斯走向辉煌。[新线]如果你没有那些关于野蛮部落在东方崛起的梦想。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Hungary -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_11</Tag>
+    <English>It is the year 895 AD. While your glorious armies warred with the Byzantines and Bulgarians, the traitorous Pechenegs attacked your families and the remaining tribes in the homeland, Etelk鰖. Without defences they had to flee, and you know you cannot lead them back to their previous home.[NEWLINE][NEWLINE]After taking your nation further to the west you finally reach the Carpathian Basin, which is everything your people have ever needed: wealthy, fertile, and most importantly, easily defendable. Immediately falling in love with it, you claim these lands as yours forever.[NEWLINE][NEWLINE]One thing is clear to you though: all the previous empires and civilizations that once held these lands have faded away throughout the centuries. You will have to accept some of the more developed Western European ways if you are to establish a long-living and successful nation in the middle of Europe.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>这是公元895年，当你们光荣的军队与拜占庭人和保加利亚人打仗时，叛国的佩切涅格人袭击了你们的家庭和家园里剩下的部落，埃泰克。没有防御，他们不得不逃离，你知道你不能带他们回到以前的家。[新线][新线]在把你的国家带到西部之后，你终于到达喀尔巴阡盆地，这是你的人民所需要的一切：富有、肥沃，最重要的是，容易防御。你一爱上它，就把这些土地永远归你所有。[新线][新线]但有一件事对你来说是清楚的：所有以前拥有这些土地的帝国和文明在几个世纪里都已经消失了。如果你想在欧洲中部建立一个长寿和成功的国家，你就必须接受一些更发达的西欧方式。</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Spain -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_12</Tag>
+    <English>It is the year 910 AD. While the Moors never really held sway over your northern parts of Spain, the Caliphate of Cordoba under Abd-ar-Rahman III is stronger than ever. Christians are tolerated there, but lower taxes drive them towards conversion and eternal damnation. You must launch the Reconquista and liberate them before it is too late!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>这是公元910年，虽然摩尔人从未真正控制过西班牙北部地区，但阿布德·拉赫曼三世统治下的科尔多瓦哈里发比以往任何时候都要强大。基督徒在那里是被容忍的，但较低的税收驱使他们走向皈依和永恒的诅咒。你必须发动收复战，在为时已晚之前解放他们！</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Denmark -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_13</Tag>
+    <English>It is the year 936 AD. Denmark, once a collection of petty kingdoms, has been united under Gorm the Old, and forged into a centralized state.[NEWLINE][NEWLINE]Your country now stands at a crossroads of sorts, with Viking influences and craftmanship from the North and Christian influences and statesmanship from the South. Take advantage of both for as long as you can, but eventually you will have to choose!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>这是公元936年，丹麦，曾经是一个小王国的集合体，在古老的戈尔姆统治下联合起来，形成了一个中央集权的国家。[新线][新线]你的国家现在处于各种各样的十字路口，有来自北方的北欧海盗影响和手工艺，也有来自南方的基督教影响和政治家风范。尽你所能地利用两者，但最终你将不得不做出选择！</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Scotland -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_14</Tag>
+    <English>It is the year 960 AD. While you are the sole ruler over some loyal subjects, most Scottish men still remember the shadows of the past. Your goal is to unite all the tribes and clans of Scotland and establish the "last free kingdom".[NEWLINE][NEWLINE]You can choose to pass the old walls of Hadrian or stay behind it, but it would be wise to gather some mighty allies on the Continent. Whatever path you choose, it is clear to you: your nation is destined to survive the storms of centuries to come, and be bright forever. Make the Highlanders proud and show the world: Scotland, be foe or ally, solid as a rock!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>这是公元960年。虽然你是一些忠诚臣民的唯一统治者，但大多数苏格兰人仍然记得过去的阴影。你的目标是团结苏格兰的所有部落和宗族，建立“最后的自由王国”【NEWLINE】【NEWLINE】你可以选择越过哈德良的旧城墙，或者留在它后面，但是在大陆上聚集一些强大的盟友是明智的。无论你选择哪条道路，你都清楚：你的国家注定要在未来几个世纪的风暴中生存下来，永远保持光明。让高地人骄傲，向全世界展示：苏格兰，无论是敌人还是盟友，都要坚如磐石！</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Poland -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_15</Tag>
+    <English>It is the year 966 AD. Worried by the threat of a unified German Empire, you have accepted Christianity to protect your land against foreign aggression. With knowing your people are safe - at least for now - you can start to strengthen your position in Central Europe.[NEWLINE][NEWLINE]If all your plans goes well, your nation will be a shining example of liberty and toleration for the rest of Europe - no inquisition will be needed, and the Szlactha will curb any autocratic tendencies!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>这是公元966年。由于担心统一的德意志帝国的威胁，你接受了基督教来保护你的土地免受外来侵略。知道你的人民是安全的——至少现在是安全的——你可以开始加强你在中欧的地位。[新线][新线]如果你所有的计划都顺利，你的国家将成为欧洲其他地区自由和宽容的光辉典范——不需要宗教裁判所，什拉塔会遏制任何专制倾向！</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Genoa -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_16</Tag>
+    <English>It is the year 1016 AD. Together with the Pisans, you have just defeated the Muslim pirates, assuring Christian dominance of Sardinia and blocking Muslim expansion. The need for security forces the republic you serve to assert an ever greater responsibility: the protection of the whole Italian peninsula.[NEWLINE]This is your chance to build a magnificent merchant republic! With enough resources, even the fabled cities of the eastern Mediterranean will lay at your hands.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>这是公元1016年，你和比萨人一起，刚刚打败了穆斯林海盗，保证了撒丁岛的基督教统治地位，阻止了穆斯林的扩张。你所服务的共和国需要安全部队来承担更大的责任：保护整个意大利半岛！有了足够的资源，即使是东地中海的传说中的城市也将掌握在你手中。</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Morocco -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_17</Tag>
+    <English>It is the year 1041 CE, and the Almoravid dynasty is on the rise. You are the rightful ruler of the Berbers, destined to establish a great, long-lasting empire in the Maghreb. With Allah's help, you will follow the path of the Idrisids, and the great cities of Morocco are waiting to be filled with art and faith.[NEWLINE][NEWLINE]The rich, fertile coastline is also yours to claim, though it will not be easy. You will have to deal not only with the Spanish and the Portuguese, for the whole Christian world will come to their aid. Are you up to the task, with the help of your loyal Black Guards? Will you be able to protect your brothers in Al-Andalus? The Christian filth shall pay dearly for their atrocities; make your ancestors proud!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>这是公元1041年，阿尔莫拉维王朝正在崛起。你是柏柏尔人的合法统治者，注定要在马格里布建立一个伟大、持久的帝国。在真主的帮助下，你将沿着伊德里希人的道路前进，摩洛哥的大城市正等待着充满艺术和信仰。[新线][新线]富饶、肥沃的海岸线也属于你，尽管这并不容易。你不仅要对付西班牙人和葡萄牙人，因为整个基督教世界都会帮助他们。你能在忠诚的黑人警卫的帮助下完成任务吗？你能保护你在安达卢斯的兄弟吗？基督徒的污秽要为他们的暴行付出沉重的代价，使你们的祖先感到骄傲！</Chinese>    
+    </TEXT>
+  <TEXT>
+    <!-- England -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_18</Tag>
+    <English>It is the year 1066 AD. The battlefield of Hastings lays quiet. Harold Godwinson is dead, but not before he took care of the Norwegians for you. Though Scotland may be the source of trouble sometimes, the rich estates of England will fund the defense of your ancestral possessions back in France. No longer William the Bastard, henceforth you will be known as William the Conqueror!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>这是公元1066年，黑斯廷斯的战场上静悄悄的。哈罗德·戈德温森死了，但在他替你照顾挪威人之前。虽然苏格兰有时可能是麻烦的来源，但英格兰的富庶地产将为你在法国的祖传财产提供保护。不再是那个混蛋威廉，从此你将被称为征服者威廉！</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Portugal -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_19</Tag>
+    <English>Your small county of Portugal has just decided to break its familial ties with the Kingdom of Le髇 and declare its independence, creating the Kingdom of Portugal. It is 1139 AD, and you, Afonso Henriques, are the king of this newly formed kingdom.[NEWLINE][NEWLINE]It is time to strengthen your position by advancing to the south and continuing the Reconquista, but you should also prepare for your ultimate goal: to expand beyond the Iberian Peninsula. Your position makes it ideal to claim the riches of North Africa and the Atlantic islands - and who knows, maybe even much further lands than those.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你的葡萄牙小县城刚刚决定打破与勒阿尔王国的家族关系，宣布独立，建立葡萄牙王国。现在是公元1139年，你，阿丰索·亨利克斯，是这个新王国的国王。[新线][新线]现在是时候通过向南推进和继续收复来加强你的地位，但你也应该为你的最终目标做好准备：扩展到伊比利亚半岛以外。你的地位使它成为拥有北非和大西洋岛屿财富的理想选择——谁知道呢，也许比这些岛屿更远的土地。</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Aragon -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_20</Tag>
+    <English>Greetings, my lord! It is the blessed year of 1164 AD, under your new rule these lands will finally have the possibility for strong, centralized rule. And the people of Aragon are in dire need of our guidance, as the situation is very tense; the various Principalities, Duchies and Kingdoms in the region have many diverse interests pulling in every which way, putting a heavy toll on the local populace. Religious differences are also leading to harsh tensions and conflict with the Muslims to the south.[NEWLINE][NEWLINE]The Crown of Aragon shall rule over many dominions, but your hands are also tied by the Aragonese Law. You must decide where and how to expand to make your people calm and happy.[NEWLINE][NEWLINE]Surrounded by stronger and more united states, you must fight with both sword and pen. You can choose to expand by joining the Reconquista, but the power vacuum in the vast Mediterranean is also very tempting. Small but rich kingdoms could be yours if you play your cards well, an empire to span across the sea.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你好，大人！今天是公元1164年，在你的新统治下，这些土地将最终有可能成为强大的中央集权统治。阿拉贡人民急需我们的指导，因为局势非常紧张；该地区的各个公国、公国和王国都有许多不同的利益集团在各行各业，给当地民众造成了沉重的损失。宗教分歧也导致了与南方穆斯林的紧张和冲突。[新线][新线]阿拉贡王冠将统治许多领土，但你的手也受阿拉贡法律的约束。你必须决定在哪里以及如何扩张，以使你的人民平静和快乐。[新线][新线]被更强大和更多的美国包围，你必须用剑和笔战斗。你可以选择加入收复国来扩张，但广阔的地中海地区的权力真空也非常诱人。如果你玩牌玩得好，一个横跨海洋的帝国，小而富的王国可能是你的。</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Sweden -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_21</Tag>
+    <English>For the last few hundred years, Sweden has in some ways been the least developed of the Scandinavian nations. Though several rulers at Uppsala have claimed kingship over Sweden, few have had any power outside Uppland. Christianisation has been slow as well. Southern Sweden was even the target of a crusade less than a century ago, yet pagan beliefs are still important in much of the country.[NEWLINE][NEWLINE]It is now the year 1210 AD, and this year things are to change. Eric the Survivor has managed to destroy his rivals in a bloody civil war and become the first ever Swedish King to be crowned by the Church. The separatists are rapidly losing power and the people of Uppland are about to lose their ancient privileges. The stage is set for the consolidation of Sweden.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在过去的几百年里，瑞典在某些方面是斯堪的纳维亚国家中最不发达的。尽管乌普萨拉的几位统治者声称对瑞典拥有王权，但在乌普兰以外几乎没有人拥有任何权力。基督教化也很缓慢。瑞典南部甚至在不到一个世纪前就成为了十字军东征的目标，但是异教徒的信仰在这个国家的大部分地区仍然很重要。埃里克生还者在一场血腥的内战中成功地摧毁了他的对手，成为有史以来第一位被教会加冕的瑞典国王。分离主义者正在迅速失去权力，乌普兰人民将要失去他们古老的特权。瑞典的巩固已经准备好了。</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Prussia -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_22</Tag>
+    <English>It is the year 1224 AD. The Northern Crusades have been raging since 1193 and the Livonian Brothers of the Sword - the Sword Brethren - are making slow progress in Livonia. Konrad I of Masovia, a Polish Duke, has now invited the Teutonic Order to conquer and Christianise the pagan Prussian tribes.[NEWLINE][NEWLINE]The Teutonic Order has experience from defending both the Holy Land and the borderlands of Hungary, and is able to call on the finest knights of Europe. A speedy subjugation of Prussia might not only decide the war in the Crusaders' favor, but provide the foundations of an empire.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>这是公元1224年，北方十字军东征自1193年以来一直在肆虐，利沃尼亚的剑兄弟-剑兄弟-在利沃尼亚进展缓慢。波兰公爵马索维亚的康拉德一世现在邀请日耳曼骑士团征服异教徒普鲁士部落，并将其基督教化。[新线][新线]日耳曼骑士团既有捍卫匈牙利圣地和边境的经验，又能召唤欧洲最优秀的骑士。对普鲁士的迅速征服，不仅可以决定战争对十字军有利，而且可以为帝国奠定基础。</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Lithuania -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_23</Tag>
+    <English>It is the year 1236 AD. Strange invaders - calling themselves Teutonic Knights and worshiping a man on a cross - have disturbed the tranquility of the land. However, they are not invincible. You, Mindaugas, have shown that they bleed and die, just like other men.[NEWLINE]It is high time to drive them out, as the ancient religion of your ancestors is surely also the best for you. Make them proud!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>这是公元1236年。奇怪的入侵者自称日耳曼骑士，崇拜十字架上的人，扰乱了这片土地的宁静。然而，他们并不是不可战胜的。你，明达格斯，已经证明他们流血而死，就像其他人一样。[新闻]是时候把他们赶出去了，因为你祖先的古老宗教对你来说无疑也是最好的。让他们骄傲！</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Austria -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_24</Tag>
+    <English>It is the year 1282 AD. In the last few decades your dynasty, the Habsburgs, have been quickly gaining strength in the Holy Roman Empire through your ever-growing estates.[NEWLINE]Now King of the Romans and having just acquired the rich Duchy of Austria, you are much more powerful than you had ever dreamt of. Still, your ambitions are forcing you to climb much higher, and who knows where will be the end?[NEWLINE][NEWLINE]Leave the waging of wars to others! You, happy Austria, marry; for the realms which Mars awards to others, Venus transfers to you. Navigate carefully through the intricate diplomacy of central Europe, and your dynasty will still stand proudly many hundreds of years from now!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>这是公元1282年。在过去的几十年里，你的王朝哈布斯堡王朝通过你不断增长的地产在神圣罗马帝国迅速壮大。[新线]现在是罗马人的国王，刚刚获得了奥地利富庶的公爵领地，你比你想象的要强大得多。尽管如此，你的雄心壮志迫使你爬得更高，谁知道终点在哪里？把发动战争的事留给别人！你，快乐的奥地利，结婚吧；对于火星奖励给别人的领域，金星会转移给你。小心地通过复杂的中欧外交，你的王朝仍将自豪地站在数百年后！</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Ottomans -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_25</Tag>
+    <English>It is the year 1356 CE. Allah has truly shown his favour towards you. Firstly, the Black Death decimated the Byzantines in the cities, but largely spared the countryside of the Turks. Secondly, the earthquake in 1354 leveled all the walls of Gallipoli, leaving the strategic fortress ripe for conquest. The way to Europe is open, and you only need to reach out and grasp it![NEWLINE]If you play your cards right, your Ottoman Empire will surely be unstoppable!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>这是公元1356年。真主确实对你表示了他的恩惠。首先，黑死病在城市中摧毁了拜占庭人，但在很大程度上保留了土耳其人的乡村。其次，1354年的地震夷平了加利波利的所有城墙，使得这座战略要塞的征服时机已经成熟。通往欧洲的道路是开放的，你只需要伸手去抓住它！[新线]如果你把牌打对了，你的奥斯曼帝国一定会势不可挡！</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Moscow -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_26</Tag>
+    <English>It is the year 1380 AD. The shadow of the Mongol Golden Horde has loomed over the land for more than a hundred years. With the people chafing under their oppression, fear has prevented effective resistance.[NEWLINE]All has changed now on the fields of Kulikovo, where you led your coalition to victory. The road ahead is long and arduous, but in the end, Mother Russia will prevail!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>这是公元1380年，蒙古金色部落的影子在这片土地上隐约出现了一百多年。由于人民在他们的压迫下感到愤怒，恐惧阻止了有效的抵抗。[新闻]现在在库利科沃的土地上一切都变了，在那里你领导你的联盟取得了胜利。前面的道路是漫长而艰辛的，但最终，俄罗斯之母将获胜！</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Dutch -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_27</Tag>
+    <English>It is the year 1581 AD. The Low Countries have been under foreign rule - German, Burgundian, Austrian, and now Spanish - for a long time.[NEWLINE]This is your chance, though! The Act of Abjuration was signed on July 22nd of this year, absolving the provinces of the Union of Utrecht of their oath of allegiance to Philip II of Spain and finally declaring the independence of your beloved Dutch nation.[NEWLINE][NEWLINE]While it will be many years before our independence is finally accepted, this will be the start of an empire that will become one of the wealthiest civilizations in the world!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>这是公元1581年，在很长一段时间里，低收入国家一直处于外国统治之下，包括德国、勃艮第、奥地利和现在的西班牙！《放弃法》于今年7月22日签署，免除乌得勒支联邦各省对西班牙菲利普二世的效忠誓言，并最终宣布你所热爱的荷兰国家独立。[新线][新线]虽然我们的独立最终被接受还需要很多年，这将是一个帝国的开始，它将成为世界上最富有的文明之一！</Chinese>
+  </TEXT>
+  <!-- Civ Specific Dawn of Man - 500 AD -->
+  <!-- Civ Specific Dawn of Man - 1200 AD -->
+  <!-- For civs spawning later than 1200 AD we use the 500 AD texts by default -->
+  <TEXT>
+    <!-- Byzantium -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_0_1200</Tag>
+    <English>Basileus. Though we have endured many hardships over the last several centuries, the Roman Empire still stands strong, and Constantinople, the Queen of Cities, remains the crown jewel of Europe. However, we are but a shell of our former glory. Much of the work of the Komnenian Restoration has already been undone; corruption plagues the empire, usurpers rise left and right, the Bulgarians have revolted once more, and the dream of recovering Anatolia is now more distant than ever.[NEWLINE][NEWLINE]Now we fear we may have our greatest challenge yet. It appears that the schismatic Catholics are preparing for yet another Crusade. But we fear this one will be different. Our former vassals, the Venetians, are still furious over the Massacre of the Latins several years ago. Should the Venetians choose to give the order, rather than attacking the infidels in the Holy Land, the Crusaders may instead set sail for our beating heart, the great city of Constantinople.[NEWLINE][NEWLINE]Our walls have never been breached, though many have tried. But this may prove too much. And if the Venetians can bring them down, how will we fend off invasions from the heathens in Anatolia in the years to come?</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>巴西勒斯。尽管在过去的几个世纪里，我们经历了许多艰难困苦，但罗马帝国依然强大，城市女王君士坦丁堡仍然是欧洲的王冠之宝。然而，我们只是昔日荣耀的一层外壳。科姆尼安王朝的大部分重建工作已经失败；腐败困扰着帝国，篡夺者左右崛起，保加利亚人再次造反，恢复安纳托利亚的梦想现在比以往任何时候都要遥远。[新线][新线]现在我们担心我们可能面临着迄今为止最大的挑战。看来分裂的天主教徒正在为另一次十字军东征做准备。但我们担心这次会不同。我们以前的封臣，威尼斯人，仍然对几年前对拉丁人的屠杀感到愤怒。如果威尼斯人选择发出命令，而不是攻击圣地的异教徒，十字军就可以启航前往我们跳动的心脏君士坦丁堡大城市。[新线][新线]我们的城墙从未被攻破，尽管许多人已经尝试过。但这可能证明太多了。如果威尼斯人能把他们打倒，在未来的岁月里，我们将如何抵御安纳托利亚异教徒的入侵？</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Arabia -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_2_1200</Tag>
+    <English>The great Saladin has gone to Paradise, after rolling back a century of Christian gains in the Blessed Land. The holy city of al-Quds is now back in Arabian hands, and the infidel "Crusader States" that butchered Muslims by the thousands have been all but eradicated.[NEWLINE][NEWLINE]You have been chosen as the new ruler of the Ayyubid Sultanate, and it is your duty to finish off the last of the Frankish invaders. There may be more Crusades to come, though we have reason to believe that we will be spared, at least for now. With the Christians nearly finished off and stability restored to Egypt and the Levant for the first time in centuries, it is time for a great flourishing of culture and science in the Arab World once more. We should not become too complacent, however; while we may be dominant in the Middle East for now, we should recall the example of the Abbasids and be wary of the Turks to the north...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>伟大的撒拉丁人在这片神圣的土地上回溯了一个世纪的基督教成果，现在已经到了天堂。圣城圣城现在又回到阿拉伯手中，屠杀穆斯林数千人的异教徒“十字军国”几乎被消灭。[新线][新线]你被选为阿尤布苏丹国的新统治者，你有责任消灭最后一个法兰克入侵者。可能还会有更多的十字军东征，尽管我们有理由相信，我们会幸免于难，至少现在是这样。随着基督教徒几近灭绝，埃及和黎凡特几个世纪以来首次恢复稳定，现在是阿拉伯世界文化和科学再次大繁荣的时候了。然而，我们不应该太自满；虽然我们现在可能在中东占主导地位，但我们应该回顾阿巴斯的例子，警惕北部的土耳其人。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Venice -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_5_1200</Tag>
+    <English>Enrico Dandolo, you are poised on the doorstep of a pivotal moment in the history of your Republic. For centuries, your Venetians have used maritime skill and control of trade routes to become the richest nation in Europe. They continued to build on this as three great Crusades left for the Holy Land, largely sailing on fleets that you provided. Now a Fourth Crusade is gathering- but this time, they aren't able to pay their way.[NEWLINE][NEWLINE]Now is your chance to become the greatest Doge in Venetian history. The Crusaders have agreed to buy their passage by doing Venice a small favor. They can return rebellious Zara to Venetian control- but your plans are much grander than that. The former colony is about to triumph over their master...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>恩里科·丹多洛，你正站在共和国历史上一个关键时刻的门口。几个世纪以来，威尼斯人利用航海技术和对贸易路线的控制，成为欧洲最富有的国家。他们继续在此基础上，作为三个伟大的十字军东征离开圣地，主要是航行船队，你提供。现在第四次十字军东征开始了，但这次，他们付不起钱了。十字军同意通过帮威尼斯一个小忙来购买他们的通道。他们可以让叛逆的扎拉回到威尼斯人的控制之下，但你的计划远不止这些。前殖民地即将战胜他们的主人。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- England -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_18_1200</Tag>
+    <English>The 13th Century dawns over an England in turmoil. The great Lionheart lies dead, and his soldiers returning from the Third Crusade are dejected that they never reached the Holy City despite the Crusade's general success. The once-mighty Angevin Empire now faces growing threats from a rebellious Scotland in the north, a resurgent France keen to reclaim its western lands, and dissension amongst the English barons who resent the king's despotic rule.[NEWLINE][NEWLINE]You must lead the English people through the looming civil wars and foreign invasions and emerge stronger than ever. The French will soon be looking to conquer your ancestral lands on the continent, but if you play your cards correctly you may be able to turn the tables and claim the French crown for yourself. With technological prowess, industrial might, and your strong leadership, you will turn this island nation into an empire on which the sun never sets!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>13世纪的曙光笼罩着一个动荡的英国。伟大的狮心王死了，他的士兵从第三次十字军东征归来，沮丧地说，尽管十字军东征取得了普遍的成功，但他们从未到达圣城。曾经强大的安格文帝国现在面临来自北部叛逆的苏格兰的日益增长的威胁，一个复兴的法国渴望收回其西部土地，以及那些憎恨国王专制统治的英国男爵之间的纷争。[NEWLINE][NEWLINE]你必须带领英国人民通过迫在眉睫的内战和外国入侵，变得比以往任何时候都更加强大。法国人很快就会想征服你在欧洲大陆上的祖传土地，但如果你正确地玩牌，你也许能够扭转局面，为自己赢得法国王冠。凭借科技实力、工业实力和你强有力的领导，你将把这个岛国变成一个太阳永不落山的帝国！</Chinese>
+  </TEXT>
+  <!-- Civ Specific Dawn of Man - 1200 AD -->
+  <!-- Civ Specific Dawn of Man - currently unused -->
+  <!-- Norse -->
+  <!--<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_NORSE</Tag>
+		<English>It is the year 780 AD. The winters in Scandinavia are harsh, but have bred a sturdy people and your longships are the envy of any sailor. Harald Hardrada, your loyal vikings are eager to show their strength to the whole world![NEWLINE][NEWLINE]Far away Vinland, the coast of Normandy and the rich monastery of Lindisfarne beckons. Which path will you follow? Explore? Conquer? Trade? Maybe all three combined? The choice is yours, only one thing is certain: Be bold, be swift, be strong, and the halls of Valhalla will await you!</English>
+		<French>.</French>
+		<German>Es ist das Jahr 780 n.Chr., die Winter in Skandinavien sind streng, haben aber ein robustes Volk hervorgebracht um deren Langboote jeder Seemann sie beneidet. Harald Hardrada, eure loyalen Wikinger brennen voller Ungeduld darauf der ganzen Welt ihre wahre St鋜ke zu zeigen.[NEWLINE][NEWLINE]Das ferne Vinland, die K黶te der Normandie und das reiche Kloster Lindisfarne winken!		Welchem Pfad wollt ihr folgen? Entdecken? Erobern? Handeln? Oder alles zusammen? Ihr habt die Wahl, nur eines ist sicher: Seid mutig, seid flink, seid stark und die Hallen der Walhalla warten auf euch!</German>
+		<Italian>E' l'anno 780 AD. Gli inverni in Scandinavia sono rigidi, ma hai addestrato un popolo robusto e le tue drakkar suscitano l'invidia di qualunque marinaio. Ora, la lontanissima Terranova, la costa della Normandia e il ricco monastero di Lindisfarne chiamano. Sii audace, sii veloce, sii forte, i portali del Vahlalla ti aspettano!</Italian>
+		<Spanish>.</Spanish>
+ 	</TEXT>-->
+  <!-- Sweden old -->
+  <!--<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_SWEDEN</Tag>
+		<English>It is 1523 AD, a couple years after the outrages of the Stockholm Bloodbath, commited by the Danish king Kristian the Tyrant. You, Gustav Vasa, have lead a rebellion since to restore independence, succesfully uniting Sweden under a hereditary monarchy.[NEWLINE][NEWLINE]Now it's time to claim your rightful place as ruler over the Baltic sea. Contested in this by mighty rivals, success can only be achieved by superior military and tactics. One way is to break the ties with Rome and build a great nation based on the true Lutheran faith!</English>
+		<French>.</French>
+		<German>Es ist das Jahr 1523 n.Chr., einige Jahre sind nach der Freveltat des Stockholmer Blutbades, vom D鋘ischen K鰊ig Christian dem Tyrannen ver黚t, vergangen. Ihr, Gustaf Wasa, habt seitdem eine Rebellion zur Wiedererlangung der Unabh鋘gigkeit angef黨rt, und Schweden in einer Erbmonarchie vereint.[NEWLINE][NEWLINE]Jetzt ist es an der Zeit euren rechtm溥igen Platz als Herrscher 黚er die Baltische See zu beanspruchen. Angefochten durch m鋍htige Rivalen kann der Erfolg nur durch 躡erlegenheit in Milit鋜 und Taktik erreicht werden. Ein Weg ist es die Bande mit Rom zu brechen und eine gro遝 Nation auf dem wahren lutheranischen Glauben aufzubauen.</German>
+		<Italian>E' il 1523 AD, un paio di anni dopo gli oltraggi del Bagno di sangue di Stoccolma, commessi dal re Danese Cristiano II il Tiranno. Tu, Gustavo Vasa, hai guidato una rivolta per ottenere l'indipendenza, e hai unito con successo la Svezia sotto una monarchia ereditaria.[NEWLINE][NEWLINE]Ora ?il momento di reclamare il posto che ti spetta di diritto come dominatore del Mar Baltico. Essendo in contrasto con potenti rivali, il successo pu?essere ottenuto solo con la superiorit?militare e tattica. Una strada da seguire pu?essere quella di spezzare i legami con Roma e costruire una grande nazione basata sul vero credo Luterano!</Italian>
+		<Spanish>.</Spanish>
+ 	</TEXT>-->
+</Civ4GameText>

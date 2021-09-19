@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Unique Powers -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_UNIQUE_POWER</Tag>
+    <English>Unique Power</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>特殊能力</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_BYZ</Tag>
+    <English>The Power of the Emperor:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>皇权至上:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_BYZ2</Tag>
+    <English>The core of the Empire cannot collapse due to instability.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>帝国核心区永远不会崩溃.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_BUL</Tag>
+    <English>The Power of the Khan:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>可汗征服:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_BUL2</Tag>
+    <English>No resistance in conquered cities.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>征服城市无抵抗时间.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_FRA</Tag>
+    <English>The Power of Stability:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>朕即国家:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_FRA2</Tag>
+    <English>Reduced penalty for expanding into foreign land.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>减少扩张到外国领土的稳定惩罚。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_BUR</Tag>
+    <English>The Power of Culture:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>文化传统:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_BUR2</Tag>
+    <English>+2[ICON_CULTURE] and +1[ICON_HAPPY] in every city.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>每座城市+2[ICON_CULTURE] 和 +1[ICON_HAPPY].</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_ARA</Tag>
+    <English>The Power of Faith:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>安拉胡阿克巴:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_ARA2</Tag>
+    <English>If your State Religion is a major religion, it spreads to each newly acquired (founded, conquered, flipped) city and a free Temple is built there.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果国教是你的主要宗教,它将会自动传播到每座新获得的城市（包括建立，征服和叛逃（原文flipped），同时赠送免费的temple.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_COR</Tag>
+    <English>The Power of Medicine:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>全民医疗:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_COR2</Tag>
+    <English>All units start with Medic I promotion, excess health in your cities contribute to their growth.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>所有单位获得医疗一级晋升,城市富余的健康可作为粮食积累.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_SPN</Tag>
+    <English>The Power of the Inquisition:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>宗教裁决:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_SPN2</Tag>
+    <English>Less stability penalty from Religious Persecution and +2 Espionage Points per city.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>宗教迫害带来的稳定惩罚降低,并每座城市获得+2间谍点数</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_NOR</Tag>
+    <English>The Power of the Vikings:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>维京入侵:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_NOR2</Tag>
+    <English>All naval units can enter ocean tiles and trade is possible through them, less stability penalty for razing cities.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>所有海军单位都能进入海洋地块并带来新的贸易,屠城稳定惩罚降低.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_VEN</Tag>
+    <English>The Power of Trade:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>商业帝国:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_VEN2</Tag>
+    <English>Starts with Merchant Republic, less stability penalty for having too many cities in a Merchant Republic.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>从商业共和开局，实行商业共和时拥有太多城市带来稳定性惩罚减半.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_KIE</Tag>
+    <English>The Power of Growth:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>农业帝国:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_KIE2</Tag>
+    <English>Your cities yield 2 extra [ICON_FOOD].</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>城市会增加额外两单位 [ICON_FOOD].</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_LIT</Tag>
+    <English>The Power of the Pagans:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>多神信仰:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_LIT2</Tag>
+    <English>+2[ICON_CULTURE] and +1[ICON_HAPPY] in cities without state religion.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>无国教的城市+2[ICON_CULTURE] 和 +1[ICON_HAPPY] .</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_HUN</Tag>
+    <English>The Power of Tolerance:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>海纳百川:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_HUN2</Tag>
+    <English>No unhappiness or instability from foreign culture, and +1[ICON_HAPPY] in all cities.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>外国文化不会造成不快乐和不稳定, 并 +1[ICON_HAPPY] 在所有城市.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_GER</Tag>
+    <English>The Power of Industry:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>工业帝国:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_GER2</Tag>
+    <English>25% faster unit production after the discovery of Gunpowder.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>发现火药后单位生产速度+25%。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_POL</Tag>
+    <English>The Power of Golden Liberty:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>贵族联盟:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_POL2</Tag>
+    <English>No unhappiness or instability from non-state religions.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>非国教不会造成任何不满或稳定惩罚。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_MOS</Tag>
+    <English>The Power of the Endless Land:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>莫非王土:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_MOS2</Tag>
+    <English>50% decrease in all maintenance cost associated with the number of your cities.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>城市数量维护费降低50%.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_GEN</Tag>
+    <English>The Power of Banking:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>佣兵天下:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_GEN2</Tag>
+    <English>All Mercenary costs are halved.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>佣兵维护费减半.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_ENG</Tag>
+    <English>The Power of Cottage Economy:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>村舍经济:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_ENG2</Tag>
+    <English>Workshops give +1[ICON_PRODUCTION] and +1[ICON_COMMERCE].</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>工场给予 +1[ICON_PRODUCTION] 和 +1[ICON_COMMERCE].</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_POR</Tag>
+    <English>The Power of Discovery:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>探索世界:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_POR2</Tag>
+    <English>Colonial Projects are 40% cheaper to build, free Feitoria in your newly founded cities after the discovery of Astronomy.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>殖民地造价降低40%,发现天文学后你的城市获得免费的商站.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_AUS</Tag>
+    <English>The Power of Alliances:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>帝国同盟:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_AUS2</Tag>
+    <English>Foreign nations are generally friendlier.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>外交关系更友善。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_TUR</Tag>
+    <English>The Power of Janissaries:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>帝国禁卫:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_TUR2</Tag>
+    <English>Your cities have less stability penalties and generate Janissary units with foreign religions in them.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>城市稳定度惩罚降低,在有异教的城市中产生土耳其近卫军.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_SWE</Tag>
+    <English>The Power of Military Formation:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>线式战术:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_SWE2</Tag>
+    <English>All units start with Formation promotion.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>所有新建单位免费晋升列阵一级。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_DUT</Tag>
+    <English>The Power of Commerce:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>贸易开拓:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_DUT2</Tag>
+    <English>+2 Trade Routes in your cities.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>所有城市+2商路.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_DEN</Tag>
+    <English>The Power of Sound Dues:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>海峡税费:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_DEN2</Tag>
+    <English>You get 2 gold per turn for every foreign coastal city in the Baltic.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在波罗的海的每一个外国沿海城市都会使你每回合获得2金币.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_PRU</Tag>
+    <English>The Power of Cameralism:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>官房主义:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_PRU2</Tag>
+    <English>Starts with Theocracy and no stability penalties from anarchy.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>使用神权政治开局,无政府状态无稳定度惩罚.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_NOV</Tag>
+    <English>The Power of the Lord City:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>官僚主义:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_NOV2</Tag>
+    <English>Starts with Bureaucracy, less stability penalty for having too many cities in a bureaucratic government.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>使用官僚制度开局，实行官僚制度时城市数量带来的稳定性惩罚降低.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_SCO</Tag>
+    <English>The Power of Defiance:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>勇敢的心:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_SCO2</Tag>
+    <English>When one of your cities is conquered by a non-barbarian civilization, all your other cities get free defenders. Lower stability hit from losing a city.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>当你的一个城市被一个非野蛮文明征服的时候,你所有的其他城市都会得到自由捍卫者.失去城市带来的稳定性惩罚降低.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_ARG</Tag>
+    <English>The Power of Confederation:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>邦联商业:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_ARG2</Tag>
+    <English>Extra commerce in your capital for every province you have a city in.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>每个省份都有城市时，你的首都会获得额外的商业.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_MOR</Tag>
+    <English>The Power of Saharan Trade:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>黑非洲贸易:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_MOR2</Tag>
+    <English>Deserts and particularly oases have improved yield.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>沙漠，特别是绿洲产能增加.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_POP</Tag>
+    <English>The Power of Infallibility</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>神的使者</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_POP2</Tag>
+    <English>
+    </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+      <Chinese>
+    </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_TERROR1</Tag>
+    <English>Citizens of</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>的居民</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_TERROR2</Tag>
+    <English>fear the same fate of their neighbour inhabitants and surrender!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>担心遭到与周围城市相同的命运，居民决定开城投降!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UP_SOUND_TOLL</Tag>
+    <English>You got %d1_Gold gold income from the Sound Toll.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>您收到 %d1_Gold 的黄金收入.</Chinese>
+  </TEXT>
+</Civ4GameText>

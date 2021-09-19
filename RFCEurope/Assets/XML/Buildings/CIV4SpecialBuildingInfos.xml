@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Special Building -->
+<Civ4SpecialBuildingInfos xmlns="x-schema:CIV4BuildingsSchema.xml">
+	<SpecialBuildingInfos>
+		<SpecialBuildingInfo>
+			<Type>SPECIALBUILDING_TEMPLE</Type>
+			<Description>TXT_KEY_SPECIALBUILDING_TEMPLE</Description>
+			<ObsoleteTech>NONE</ObsoleteTech>
+			<TechPrereq>TECH_ART</TechPrereq>
+			<TechPrereqAnyone>NONE</TechPrereqAnyone>
+			<bValid>1</bValid>
+			<ProductionTraits/>
+			<Button>Art/Interface/Buttons/Buildings/Temple.dds</Button>
+		</SpecialBuildingInfo>
+		<SpecialBuildingInfo>
+			<Type>SPECIALBUILDING_CATHEDRAL</Type>
+			<Description>TXT_KEY_SPECIALBUILDING_CATHEDRAL</Description>
+			<ObsoleteTech>NONE</ObsoleteTech>
+			<TechPrereq>TECH_GOTHIC_ARCHITECTURE</TechPrereq>
+			<TechPrereqAnyone>NONE</TechPrereqAnyone>
+			<bValid>1</bValid>
+			<ProductionTraits/>
+			<Button>Art/Interface/Buttons/Buildings/Cathedral.dds</Button>
+		</SpecialBuildingInfo>
+		<SpecialBuildingInfo>
+			<Type>SPECIALBUILDING_MONASTERY</Type> <!-- Madrassa is the Islamic Monastery -->
+			<Description>TXT_KEY_SPECIALBUILDING_MONASTERY</Description>
+			<ObsoleteTech>TECH_SCIENTIFIC_METHOD</ObsoleteTech>
+			<TechPrereq>TECH_MONASTICISM</TechPrereq>
+			<TechPrereqAnyone>NONE</TechPrereqAnyone>
+			<bValid>1</bValid>
+			<ProductionTraits/>
+			<Button>Art/Interface/Buttons/Buildings/Monastery_Christian.dds</Button>
+		</SpecialBuildingInfo>
+		<SpecialBuildingInfo>
+			<Type>SPECIALBUILDING_SEMINARY</Type>
+			<Description>TXT_KEY_SPECIALBUILDING_SEMINARY</Description>
+			<ObsoleteTech>NONE</ObsoleteTech>
+			<TechPrereq>TECH_PRINTING_PRESS</TechPrereq>
+			<TechPrereqAnyone>NONE</TechPrereqAnyone>
+			<bValid>1</bValid>
+			<ProductionTraits/>
+			<Button>,-,Art/Interface/Buttons/rfce_atlas_buildings.dds,7,6</Button>
+		</SpecialBuildingInfo>
+		<SpecialBuildingInfo> <!-- "Prereq" for House of Wisdom and Protestant Church School -->
+			<Type>SPECIALBUILDING_SCHOOL</Type>
+			<Description>TXT_KEY_SPECIALBUILDING_SCHOOL</Description>
+			<ObsoleteTech>NONE</ObsoleteTech>
+			<TechPrereq>NONE</TechPrereq>
+			<TechPrereqAnyone>NONE</TechPrereqAnyone>
+			<bValid>1</bValid>
+			<ProductionTraits/>
+			<Button>,-,Art/Interface/Buttons/rfce_atlas_buildings.dds,6,6</Button>
+		</SpecialBuildingInfo>
+		<SpecialBuildingInfo> <!-- Minaret also counts as a Chapel -->
+			<Type>SPECIALBUILDING_CHAPEL</Type>
+			<Description>TXT_KEY_SPECIALBUILDING_CHAPEL</Description>
+			<ObsoleteTech>NONE</ObsoleteTech>
+			<TechPrereq>TECH_MUSIC</TechPrereq>
+			<TechPrereqAnyone>NONE</TechPrereqAnyone>
+			<bValid>1</bValid>
+			<ProductionTraits/>
+			<Button>,-,Art/Interface/Buttons/rfce_atlas_buildings.dds,2,2</Button>
+		</SpecialBuildingInfo>
+		<SpecialBuildingInfo>
+			<Type>SPECIALBUILDING_RELIQUARY</Type>
+			<Description>TXT_KEY_SPECIALBUILDING_RELIQUARY</Description>
+			<ObsoleteTech>NONE</ObsoleteTech>
+			<TechPrereq>TECH_MONUMENT_BUILDING</TechPrereq>
+			<TechPrereqAnyone>NONE</TechPrereqAnyone>
+			<bValid>1</bValid>
+			<ProductionTraits/>
+			<Button>,-,Art/Interface/Buttons/rfce_atlas_buildings.dds,5,6</Button>
+		</SpecialBuildingInfo>
+	</SpecialBuildingInfos>
+</Civ4SpecialBuildingInfos>

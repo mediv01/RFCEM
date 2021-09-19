@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Religions -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_RELIGION_CATHOLICISM</Tag>
+    <English>Catholicism</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>天主教</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_RELIGION_CATHOLICISM_ADJECTIVE</Tag>
+    <English>Catholic</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>天主教</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_RELIGION_CATHOLICISM_PEDIA</Tag>
+    <English>[TAB]Catholicism is one of the three major divisions (Catholicism, Orthodoxy, and Protestantism) within Christianity. Catholicism and Orthodoxy got officially separated after many years of debates and arguments in the Great Schism in 1054[PARAGRAPH:2]Catholicism is a broad term for the body of the Catholic faith, its theologies and doctrines, its liturgical, ethical, spiritual, and behavioral characteristics, as well as a religious people as a whole.[PARAGRAPH:2]For many the term usually refers to Christians and churches belonging to the Roman Catholic Church in full communion with the Holy See. For others it refers to the churches of the first millennium, including, besides the Roman Catholic Church, the Eastern Orthodox Church, the Oriental Orthodox Church, and the Assyrian Church of the East. And for others again it refers to "adhering to the catholic faith as it has been inherited from the earliest Christians ... seeking to restore the faith and order of the primitive church", as claimed by the Anglican Communion and the Reformation and post-Reformation churches.[PARAGRAPH:2]The Catholic claim of continuity is based on, among other factors, Apostolic succession, especially in conjunction with adherence to the Nicene Creed. In the sense of indicating historical continuity of faith and practice, the term "catholicism" is at times employed to mark a contrast to Protestantism, which tends to look solely to the Bible as interpreted on the principles of the 16th-century Protestant Reformation as its ultimate standard.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]天主教是基督教的三大分支之一（天主教、正统派和新教）。在1054年的大分裂中，经过多年的争论和争论，天主教和正统派正式分离[第2段]天主教是一个广义的术语，指天主教的主体、神学和教义、礼拜、伦理、精神和行为特征，以及作为一个整体的宗教民族。[第2段]对许多人来说，这个词通常指的是基督徒和与罗马教廷完全圣餐的罗马天主教教堂的教堂。对其他人来说，它指的是第一个千年的教堂，除了罗马天主教教堂，还包括东正教教堂、东正教教堂和东亚述教堂。对其他人来说，它再次提到“坚持天主教信仰，因为它是从最早的基督徒那里继承来的。。。寻求恢复原始教会的信仰和秩序”，如英国圣公会、宗教改革和宗教改革后教会所宣称的。[第2段]天主教声称的连续性，除其他因素外，是建立在使徒继承的基础上，特别是与遵守尼西亚教义相结合的。在表明信仰和实践的历史连续性的意义上，“天主教”一词有时被用来与新教形成对比，新教倾向于只看《圣经》，因为它是以16世纪新教改革的原则解释为其最终标准的。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_RELIGION_ORTHODOXY</Tag>
+    <English>Orthodoxy</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>东正教</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_RELIGION_ORTHODOXY_ADJECTIVE</Tag>
+    <English>Orthodox</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>东正教</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_RELIGION_ORTHODOXY_PEDIA</Tag>
+    <English>[TAB]Orthodoxy is one of the three major divisions (Catholicism, Orthodoxy, and Protestantism) within Christianity. Catholicism and Orthodoxy got officially separated after many years of debates and arguments in the Great Schism in 1054[PARAGRAPH:2]In classical Christian usage, the term orthodox refers to a set of doctrines which gained prominence in the 4th century AD. The Roman Emperor Constantine I initiated a series of ecumenical councils to try to standardize what was by then, not a necessarily homogeneous religion in terms of theology. The most significant of these early debates was that between the Homoousian doctrine of Athanasius and Eustathius (Trinitarianism) and the Heteroousian doctrine of Arius and Eusebius (Arianism).[PARAGRAPH:2]The Homoousian doctrine gradually won out in the Roman Church and came to be referred to as orthodoxy in most Christian contexts, since this became the viewpoint of the majority (although, of course, many non-Trinitarian Christians still object to this terminology). Following the Great Schism, both the Western and Eastern churches continued to consider themselves uniquely orthodox and catholic. Over time the Western church gradually identified itself more with the "Catholic" label and Westerners gradually associated the "Orthodox" label more with the Eastern church (in some other languages the "Catholic" label is not necessarily identified with the Western church). In addition to the Eastern Orthodox Church, there also exists a separate Oriental Orthodox communion, as well as other smaller communions that are commonly associated with the "Orthodox" label.[PARAGRAPH:2]The Eastern Orthodox Church uses the original form of the Nicene Creed created at the First Council of Constantinople in 381, in contrast to the Roman Catholic church, which uses the Nicene creed with the addition of the phrase 'and the Son' (see Filioque clause). This change is one of many causes for the Great Schism formalized in 1054 by simultaneous proclamations of "Anathema" from the leadership of the Orthodox Churches in the East and the Bishop of Rome (Pope) in the West. This emphasis on the use of the original "creed" is shared today by all Eastern Orthodox Christians.[PARAGRAPH:2]The Orthodox Church is composed of several self-governing ecclesial bodies, each geographically and nationally distinct but theologically unified. Each self-governing (or autocephalous) body, often but not always encompassing a nation, is shepherded by a synod of bishops whose duty, among other things, is to preserve and teach the Apostolic and patristic traditions and related church practices. As in the Roman Catholic Church, Anglican Church, Assyrian Church of the East, Oriental Orthodoxy and some other churches, Orthodox bishops trace their lineage back to the Apostles through the process of Apostolic Succession.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>正统派是基督教的三大分支之一（天主教、正统派和新教）。天主教和正统派在1054年的大分裂中经过多年的争论和争论后正式分离[第2段]在基督教的经典用法中，东正教一词是指在公元4世纪获得突出地位的一套教义。罗马皇帝君士坦丁一世（Constantine I）发起了一系列普世理事会，试图规范当时的宗教，而不是神学上的必然同质宗教。这些早期争论中最重要的是阿塔那修斯和尤斯塔修斯的异教教义（三位一体主义）和阿里乌和尤西比斯的异教教义（阿里亚主义）之间的争论。[第2段]异教教义逐渐在罗马教会中胜出，并在大多数基督教语境中被称为正统主义，因为这成为大多数人的观点（当然，许多非三位一体的基督徒仍然反对这个术语）。在大分裂之后，西方和东方教会都继续认为自己是独特的东正教和天主教。随着时间的推移，西方教会越来越认同“天主教”的标签，西方人也逐渐将“东正教”的标签与东方教会联系在一起（在其他一些语言中，“天主教”的标签不一定与西方教会联系在一起）。除了东正教以外，还有一个单独的东正教圣餐会，以及其他通常与“东正教”标签联系在一起的较小的圣餐会。[第2段]东正教使用的是381年君士坦丁堡第一届议会创建的尼西亚信条的原始形式，与罗马天主教堂不同，罗马天主教堂使用了尼西亚信条，并增加了“和儿子”一词（见filoque条款）。这一变化是1054年东正教和西方罗马主教（教皇）同时宣布“诅咒”而形成大分裂的众多原因之一。今天，所有东正教基督徒都强调使用最初的“信条”。[第2段]东正教由几个自治的教会机构组成，每个机构在地理和国家上都是不同的，但在神学上是统一的。每一个自治（或独裁者）机构，通常但并不总是包括一个国家，由主教会议指导，其职责之一是保存和教导使徒和爱国传统及相关的教会惯例。与罗马天主教、圣公会、东亚述教会、东方正统派等教会一样，东正教主教通过使徒继承的过程，将自己的血统追溯到使徒身上。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_RELIGION_PROTESTANTISM</Tag>
+    <English>Protestantism</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>新教</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_RELIGION_PROTESTANTISM_ADJECTIVE</Tag>
+    <English>Protestant</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>新教</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_RELIGION_PROTESTANTISM_PEDIA</Tag>
+    <English>[TAB]Protestantism is one of the three major divisions (Catholicism, Orthodoxy, and Protestantism) within Christianity. It is a movement that began in northern Europe in the early 16th century as a reaction against medieval Roman Catholic doctrines and practices.[PARAGRAPH:2]The doctrines of the various Protestant denominations and non-denominations vary, but most non-denominational doctrines include justification by grace through faith and not through works, known as Sola Fide, the priesthood of all believers, and the Bible as the ultimate authority in matters of faith and order, known as Sola Scriptura, which is Latin for 'by scripture alone'.[PARAGRAPH:2]In the 16th century the followers of Martin Luther established the evangelical churches of Germany and Scandinavia. Reformed churches in Switzerland were established by John Calvin and more radical reformers such as Huldrych Zwingli. Thomas Cranmer reformed the Church of England and later John Knox established a more radical Calvinist communion in the Church of Scotland.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>新教是基督教的三大分支之一（天主教、正统派和新教）。这是一场始于16世纪早期北欧的运动，是对中世纪罗马天主教教义和实践的一种反应。[第2段]各种新教教派和非教派的教义各不相同，但大多数非教派的教义包括通过信仰而不是通过工作来获得恩典，这是众所周知的作为所有信徒的祭司，作为信仰和秩序的终极权威，圣经被称为《圣经》，拉丁语是“单凭圣经”。[第2段]在16世纪，马丁路德的追随者建立了德国和斯堪的纳维亚的福音教会。瑞士的改革教会是由约翰·卡尔文和更激进的改革者如赫尔德里奇·茨温利建立的。托马斯·克兰默改革了英格兰教会，后来约翰·诺克斯在苏格兰教会建立了一个更激进的加尔文圣餐会。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REFORMATION_TITLE</Tag>
+    <English>The Reformation!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>宗教改革！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REFORMATION_MESSAGE</Tag>
+    <English>The invention of the Printing Press has sparked a wave of new doctrines. Protestant churches are opposing the power of the Pope over Christian affairs. Shall we embrace the Reformation? (More of our Catholic cities and buildings will be converted to the new religion, Protestantism will be your new State Religion)</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>印刷机的发明引发了一波新的教义争论。 新教教会反对教宗对基督教事务的权力。 我们是否拥抱改革？ （更多的我们的天主教城市和建筑将被转化为新的宗教，新教将成为你新的国家宗教）</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REFORMATION_RELIGION_STILL_SPREAD</Tag>
+    <English>Despite our pro-Catholic policies, [COLOR_HIGHLIGHT_TEXT]Protestantism[COLOR_REVERT] has spread in %s1!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>尽管我们持亲天主教立场, [COLOR_HIGHLIGHT_TEXT]新教[COLOR_REVERT] 已经蔓延 %s1!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REFORMATION_PEOPLE_ABANDON_CATHOLICISM_1</Tag>
+    <English>The vast majority of Catholic people in %s1 chose to follow Protestantism, Catholicism is no longer significant in the city!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>绝大多数的天主教徒在%s1选择了跟随新教，天主教在这个城市已经没有意义了！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REFORMATION_PEOPLE_ABANDON_CATHOLICISM_2</Tag>
+    <English>Not that we care too much about those infidels, but the vast majority of the Catholic population in %s1 is now Protestant. Catholicism is no longer significant in the city!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>并不是说我们太在意那些异教徒，但是在1%的天主教人口中，绝大多数现在是新教徒。天主教在这个城市已不再重要了！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_REFORMATION_PEOPLE_ABANDON_CATHOLICISM_3</Tag>
+    <English>It seems that the Reformation among the schismatics has spread to %s1. Not that it matters to us, but the vast majority of the Catholic population there is now Protestant, Catholicism is no longer significant in the city!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>似乎分裂派的改革已经蔓延到了%s1。这对我们来说并不重要，但是那里绝大多数的天主教人口现在都是新教徒，天主教在这个城市已经不重要了！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_COUNTER_REFORMATION_TITLE</Tag>
+    <English>The Counter-Reformation!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>反宗教改革！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_COUNTER_REFORMATION_MESSAGE</Tag>
+    <English>The Pope has declared his interpretation of the Christian Bible to be final and had declared the Reformation a heresy.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>教宗宣布对基督教圣经的解读是最终的，并宣布改革为异端邪教.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_COUNTER_REFORMATION_MESSAGE_YES_1</Tag>
+    <English>We should help our Holy Father expel the heretics and restore unity to the Church. (get </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>我们应该帮助我们的圣父驱逐异教徒并恢复统一的教会。 (获得 </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_COUNTER_REFORMATION_MESSAGE_YES_2</Tag>
+    <English> Prosecutors)</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese> 宗教裁判官)</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_COUNTER_REFORMATION_MESSAGE_NO_1</Tag>
+    <English>We should be tolerant to our brothers and sisters as misguided as they can be. (get </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>我们应该宽恕我们的兄弟姐妹因为他们只是误入歧途。 (获得 </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_COUNTER_REFORMATION_MESSAGE_NO_2</Tag>
+    <English> Stability)</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese> 稳定度)</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GREAT_SCHISM</Tag>
+    <English>The Great Schism: Following many years of political and dogmatic struggle, Catholic and Orthodox Christians have finally split into two distinct rival religions.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>大分裂:许多年来政治与教义的分歧，使得天主教基督徒与东正教基督徒分裂成两个不同的敌对宗教。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_POINTS</Tag>
+    <English>Faith Points</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>信仰点数</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_PERSECUTION</Tag>
+    <English>Persecution</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>迫害</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_PROSECUTION_COUNT</Tag>
+    <English>Persecution Instability Cooldown</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>迫害不稳定冷却</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_PROSECUTION_INSTABILITY</Tag>
+    <English>Persecution Instability:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>迫害不稳定:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_STABILITY</Tag>
+    <English>Stability:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>稳定点数:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_CIVIC</Tag>
+    <English>Civic Upkeep:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>市民维护费:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_GROWTH</Tag>
+    <English>City Growth:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>城市增长:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_UNITS</Tag>
+    <English>Unit Production Cost:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>单位生产花费:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_SCIENCE</Tag>
+    <English>Tech Breaker Cost:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>科技研究花费:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_PRODUCTION</Tag>
+    <English>Wonder and Project Production Cost:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>奇迹与项目建造花费:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_DIPLOMACY</Tag>
+    <English>Diplomacy Boost:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>提高策略:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_GOLD_GIFT</Tag>
+    <English>You have received a gift of gold from the Pope, worth %d1!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你收到了教皇的黄金礼物，价值%d1！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_TECH_GIFT</Tag>
+    <English>The Pope has honoured your commitment in the one true faith with a free technology, %s1!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>教皇以一种真正的信仰和一种免费的技术来履行你的承诺，%s1！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_BUILDING1</Tag>
+    <English>The Pope has built a </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>教宗已经建立了一个</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_BUILDING2</Tag>
+    <English> in your city of </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在你的城市</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_FAITH_SAINT</Tag>
+    <English>Write a Great work of Theology to strengthen the Faith of your nation.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>一个来自神学的著作，增加了你国家的信仰点数。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MESSAGE_INQUISITION</Tag>
+    <English>Your inquisitor has successfully purged %s2_religion from %s1_city and confiscated %d3_gold[ICON_GOLD] from the victims.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+      <Chinese>您的裁决官已经成功从%s1_city清除了一切%s2_religion信徒并从被迫害者没收%d3_gold[ICON_GOLD] .</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MESSAGE_INQUISITION_FAIL</Tag>
+    <English>Your inquisitor in %s1_city was unsuccessful.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+      <Chinese>你在%s1_city 的裁决官裁决异端失败了.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MESSAGE_JEWISH_MOVE</Tag>
+    <English>The Jews from %s1_city established a new home in a distant city!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+      <Chinese>来自%s1_city的犹太人在一个遥远的城市建立了一个新的社区!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MESSAGE_JEWISH_MOVE_OWN_CITY</Tag>
+    <English>The Jews from %s1_city established a new home in %s2_city!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+      <Chinese>来自%s1_city 的犹太人在%s2_city建立了新的家园!</Chinese>
+  </TEXT>
+</Civ4GameText>

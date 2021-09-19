@@ -1,0 +1,7409 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Dynamic Civ Names -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <!-- Arabia -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA00</Tag>
+    <English>Bedouin Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>贝都因部落</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA01</Tag>
+    <English>Abbasid State of Arabia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉伯阿拔斯家族</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA02</Tag>
+    <English>Rashidun Caliphate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>正统哈里发王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA03</Tag>
+    <English>Umayyad Caliphate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>倭马亚哈里发王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA04</Tag>
+    <English>Abbasid Caliphate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拔斯哈里发王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA05</Tag>
+    <English>Arab Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉伯共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA06</Tag>
+    <English>Arabian Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉伯帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA07</Tag>
+    <English>Arabian Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉伯帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA08</Tag>
+    <English>Caliphate of Arabia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉伯哈里发王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA09</Tag>
+    <English>Arab Islamic Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉伯伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA10</Tag>
+    <English>Exarchate of Arabia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉伯总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA11</Tag>
+    <English>French Levant</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法属累范特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA12</Tag>
+    <English>Emirate of Arabia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉伯埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA13</Tag>
+    <English>Spanish Levant</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西属累范特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA14</Tag>
+    <English>Norse Arabia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉伯诺曼王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA15</Tag>
+    <English>Venetian Levant</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯累范特行政区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA16</Tag>
+    <English>Russian Levant</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>罗斯属累范特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA17</Tag>
+    <English>German Levant</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>德属累范特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA18</Tag>
+    <English>Counties of the Levant</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>累范特邦国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA19</Tag>
+    <English>Habsburg Levant</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>累范特哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA20</Tag>
+    <English>Sharifate of Mekke</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>麦加谢里夫酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA21</Tag>
+    <English>Province of Arabia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉伯行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA31</Tag>
+    <English>Mamluk Sultanate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>马穆鲁克苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA32</Tag>
+    <English>Ayyubid Sultanate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿尤布苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARA33</Tag>
+    <English>Fatimid Caliphate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法蒂玛哈里发王朝</Chinese>
+  </TEXT>
+  <!-- Arabia -->
+  <!-- Austria -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS00</Tag>
+    <English>South German Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>日耳曼南方诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS01</Tag>
+    <English>Archduchy of Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥地利大公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS02</Tag>
+    <English>Habsburg Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>哈布斯堡帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS03</Tag>
+    <English>Archduchy of Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥地利大公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS04</Tag>
+    <English>Habsburg Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>哈布斯堡帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS05</Tag>
+    <English>Republic of Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥地利共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS06</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS07</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS08</Tag>
+    <English>Islamic Habsburg Sultanate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伊斯兰哈布斯堡苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS09</Tag>
+    <English>Islamic Republic of Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥地利伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS10</Tag>
+    <English>Exarchate of Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥地利总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS11</Tag>
+    <English>French Archduchy of Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西奥地利大公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS12</Tag>
+    <English>Emirate of Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥地利埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS13</Tag>
+    <English>Junior Habsburg Lands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>哈布斯堡家族初期领地</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS14</Tag>
+    <English>Norse Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥地利诺曼王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS15</Tag>
+    <English>Venetian Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯奥地利行政区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS16</Tag>
+    <English>Russian Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>罗斯属奥地利</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS17</Tag>
+    <English>German Ostmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>German Ostmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS18</Tag>
+    <English>Counties of Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥地利诸邦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS19</Tag>
+    <English>Upper and Lower Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>上奥地利与下奥地利</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS20</Tag>
+    <English>Principality of Avusturya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥地利亲王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_AUS21</Tag>
+    <English>Province of Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥地利行省</Chinese>
+  </TEXT>
+  <!-- Austria -->
+  <!-- Bulgaria -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL00</Tag>
+    <English>Bulgar Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加尔诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL01</Tag>
+    <English>Bulgarian Khanate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚汗国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL02</Tag>
+    <English>Bulgarian Kingdom</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL03</Tag>
+    <English>Bulgarian Tsardom</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚沙皇国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL04</Tag>
+    <English>Bulgarian Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL05</Tag>
+    <English>Republic of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL06</Tag>
+    <English>Second Bulgarian Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚第二帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL07</Tag>
+    <English>Sultanate of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL08</Tag>
+    <English>Guberniya of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL09</Tag>
+    <English>Islamic Republic of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL10</Tag>
+    <English>Theme of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚军区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL11</Tag>
+    <English>Duchy of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL12</Tag>
+    <English>Emirate of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL13</Tag>
+    <English>Viceroyalty of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚总督府</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL14</Tag>
+    <English>Varangian Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瓦兰吉保加利亚区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL15</Tag>
+    <English>Colony of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚殖民地</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL16</Tag>
+    <English>Principality of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚亲王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL17</Tag>
+    <English>Bulgarian March</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚三月政府</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL18</Tag>
+    <English>Counties of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚邦国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL_VASSAL_OF_ENGLAND</Tag>
+    <English>Earldom of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚伯爵国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL_VASSAL_OF_SCOTLAND</Tag>
+    <English>Mormaerdom of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莫斯科属保加利亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL_VASSAL_OF_HUNGARY</Tag>
+    <English>Banate of Vidin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚维丁王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL19</Tag>
+    <English>Habsburg Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL20</Tag>
+    <English>Eyalet of Silistra</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>锡利斯特拉省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL21</Tag>
+    <English>Province of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>保加利亚行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL22</Tag>
+    <English>Theme of Paristrion</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Theme of Paristrion</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUL23</Tag>
+    <English>Voivodeship of Bulgaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Voivodeship of Bulgaria</Chinese>
+  </TEXT>
+  <!-- Bulgaria -->
+  <!-- Burgundy -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR00</Tag>
+    <English>Burgundian Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR01</Tag>
+    <English>Kingdom of Middle Francia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdom of Middle Francia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR02</Tag>
+    <English>Duchy of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR03</Tag>
+    <English>Kingdom of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR04</Tag>
+    <English>Burgundian Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR05</Tag>
+    <English>Burgundian Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR06</Tag>
+    <English>Principality of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR07</Tag>
+    <English>County of Provence</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>普罗旺斯省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR08</Tag>
+    <English>Sultanate of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR09</Tag>
+    <English>Islamic Republic of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR10</Tag>
+    <English>Exarchate of Burgundia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第总督辖区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR11</Tag>
+    <English>Duchy of Bourgogne</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第公爵领</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR12</Tag>
+    <English>Emirate of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR13</Tag>
+    <English>Viceroyalty of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第总督府</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR14</Tag>
+    <English>Jarldom of Burgundaholmr</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第伯爵领</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR15</Tag>
+    <English>Colony of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第殖民地</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR16</Tag>
+    <English>Guberniya of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR17</Tag>
+    <English>Duchy of Lothringen</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>洛林公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR18</Tag>
+    <English>County of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第郡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR_VASSAL_OF_ENGLAND</Tag>
+    <English>Earldom of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第伯爵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR_VASSAL_OF_SCOTLAND</Tag>
+    <English>Mormaerdom of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mormaerdom of Burgundy</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR_VASSAL_OF_HUNGARY</Tag>
+    <English>Banate of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Banate of Burgundy</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR19</Tag>
+    <English>Free County of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Free County of Burgundy</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR20</Tag>
+    <English>Eyalet of Burgonya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Burgonya</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR21</Tag>
+    <English>Province of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR22</Tag>
+    <English>Burgundian Circle</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Burgundian Circle</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR23</Tag>
+    <English>Kingdom of Arles</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdom of Arles</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR24</Tag>
+    <English>Voivodeship of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Voivodeship of Burgundy</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BUR25</Tag>
+    <English>Zhupa of Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Zhupa of Burgundy</Chinese>
+  </TEXT>
+  <!-- Burgundy -->
+  <!-- Byzantium -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ00</Tag>
+    <English>Byzantine Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>拜占庭帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ01</Tag>
+    <English>Eastern Roman States</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>东罗马帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ02</Tag>
+    <English>Latin Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>拉丁帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ03</Tag>
+    <English>Venetokratia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Venetokratia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ04</Tag>
+    <English>Varangian Roman States</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瓦蓝吉亚罗马</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ05</Tag>
+    <English>Second Roman Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>罗马第二共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ06</Tag>
+    <English>Duchies of Athens and Neopatria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>雅典公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ07</Tag>
+    <English>Emirate of Rumiyah</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>鲁米耶酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ08</Tag>
+    <English>Islamic Byzantine Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>拜占庭伊斯兰帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ09</Tag>
+    <English>Islamic Roman Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>罗马伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ10</Tag>
+    <English>Duchy of Constantinople</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>君士坦丁堡公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ11</Tag>
+    <English>Frankokratia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Frankokratia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ12</Tag>
+    <English>Emirate of Constantinople</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>君士坦丁堡埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ13</Tag>
+    <English>Duchy of Neopatria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>诺曼底公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ14</Tag>
+    <English>Varangian Roman Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瓦兰吉亚罗马帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ15</Tag>
+    <English>Kingdom of Morea</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdom of Morea</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ16</Tag>
+    <English>Guberniya of Tsargrad</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Guberniya of Tsargrad</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ17</Tag>
+    <English>Eastern Roman Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>东罗马帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ18</Tag>
+    <English>Earldom of Greece</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Earldom of Greece</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ19</Tag>
+    <English>Habsburg Greek States</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Habsburg Greek States</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ20</Tag>
+    <English>Eyalet of Thrace</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Thrace</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ21</Tag>
+    <English>Province of Byzantium</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>拜占庭行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ22</Tag>
+    <English>Varangian Tsargrad</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Varangian Tsargrad</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ23</Tag>
+    <English>Principality of Greece</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Principality of Greece</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ24</Tag>
+    <English>Greek Governorate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Greek Governorate</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ25</Tag>
+    <English>Eyalet of Constantinople</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Constantinople</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ26</Tag>
+    <English>Eyalet of Rumelia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Rumelia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ27</Tag>
+    <English>Province of Greece</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Province of Greece</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ_VASSAL_OF_SCOTLAND</Tag>
+    <English>Mormaerdom of Greece</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mormaerdom of Greece</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ_VASSAL_OF_HUNGARY</Tag>
+    <English>Banate of Greece</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Banate of Greece</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ_VASSAL_OF_BURGUNDY</Tag>
+    <English>Duchy of Greece</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>希腊公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ_VASSAL_OF_GERMANY_WITH_CONSTANTINOPLE</Tag>
+    <English>Empire of the Greeks</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Empire of the Greeks</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ28</Tag>
+    <English>Colony of Greece</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Colony of Greece</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ29</Tag>
+    <English>Voivodeship of Greece</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Voivodeship of Greece</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_BYZ30</Tag>
+    <English>Zhupa of Greece</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Zhupa of Greece</Chinese>
+  </TEXT>
+  <!-- Byzantium -->
+  <!-- Cordoba -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR00</Tag>
+    <English>Andalusian Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安达卢西亚诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR01</Tag>
+    <English>Duchy of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安达卢西亚公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR02</Tag>
+    <English>Kingdom of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安达卢西亚王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR03</Tag>
+    <English>Emirate of Cordoba</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>科尔多瓦埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR04</Tag>
+    <English>Sultanate of Al-Andalus</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安达卢西亚苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR05</Tag>
+    <English>Andalusian Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安达卢西亚共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR06</Tag>
+    <English>Principality of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安达鲁西亚公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR07</Tag>
+    <English>Emirate of Granada</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>格兰纳达酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR08</Tag>
+    <English>Caliphate of Cordoba</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>科尔多瓦哈里发国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR09</Tag>
+    <English>Taifa of Cordoba</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>科尔多瓦泰法</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR10</Tag>
+    <English>Exarchate of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安达卢西亚总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR11</Tag>
+    <English>Duchy of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安达卢西亚公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR12</Tag>
+    <English>Emirate of Cordoba</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>科尔多瓦埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR13</Tag>
+    <English>Kingdom of Granada</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdom of Granada</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR14</Tag>
+    <English>Jarldom of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jarldom of Andalusia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR15</Tag>
+    <English>Colony of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Colony of Andalusia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR16</Tag>
+    <English>Guberniya of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Guberniya of Andalusia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR17</Tag>
+    <English>March of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>March of Andalusia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR18</Tag>
+    <English>County of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安达卢西亚郡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR_VASSAL_OF_ENGLAND</Tag>
+    <English>Earldom of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Earldom of Andalusia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR_VASSAL_OF_SCOTLAND</Tag>
+    <English>Mormaerdom of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mormaerdom of Andalusia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR_VASSAL_OF_HUNGARY</Tag>
+    <English>Banate of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Banate of Andalusia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR19</Tag>
+    <English>Habsburg Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安达卢西亚哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR20</Tag>
+    <English>Eyalet of Endulus</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Endulus</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR21</Tag>
+    <English>Province of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安达卢西亚行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR22</Tag>
+    <English>Voivodeship of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Voivodeship of Andalusia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_COR23</Tag>
+    <English>Zhupa of Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Zhupa of Andalusia</Chinese>
+  </TEXT>
+  <!-- Cordoba -->
+  <!-- Tunesia -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN00</Tag>
+    <English>Tunisian Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>突尼斯诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN01</Tag>
+    <English>Duchy of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>突尼斯公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN02</Tag>
+    <English>Hafsid Caliphate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>哈夫斯哈里发王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN03</Tag>
+    <English>Kingdom of Africa</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>非洲王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN04</Tag>
+    <English>Islamic Republic of Tunis</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>突尼斯伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN05</Tag>
+    <English>Republic of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>突尼斯共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN06</Tag>
+    <English>Emirate of Oran</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉伯酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN07</Tag>
+    <English>Principality of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>突尼斯亲王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN08</Tag>
+    <English>Hafsid Emirate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>哈菲德酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN10</Tag>
+    <English>Exarchate of Africa</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>非洲总督</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN11</Tag>
+    <English>Duchy of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>突尼斯公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN12</Tag>
+    <English>Emirate of Ifriqiya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伊夫里奇亚酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN13</Tag>
+    <English>Kingdom of Oran</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥兰王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN14</Tag>
+    <English>Jarldom of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jarldom of Tunisia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN15</Tag>
+    <English>Colony of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Colony of Tunisia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN16</Tag>
+    <English>Guberniya of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Guberniya of Tunisia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN17</Tag>
+    <English>March of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>March of Tunisia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN18</Tag>
+    <English>Protectorate of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Protectorate of Tunisia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN_VASSAL_OF_HUNGARY</Tag>
+    <English>Banate of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Banate of Tunisia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN19</Tag>
+    <English>Habsburg Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>突尼斯哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN20</Tag>
+    <English>Eyalet of Tunis</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Tunis</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN21</Tag>
+    <English>Province of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>突尼斯行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN22</Tag>
+    <English>Voivodeship of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Voivodeship of Tunisia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUN23</Tag>
+    <English>Zhupa of Tunisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Zhupa of Tunisia</Chinese>
+  </TEXT>
+  <!-- Tunesia -->
+  <!-- Dutch -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT00</Tag>
+    <English>Batavian Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>巴达维亚诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT01</Tag>
+    <English>Kingdom of the Netherlands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>尼德兰王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT02</Tag>
+    <English>United Kingdom of the Netherlands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>尼德兰联合王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT03</Tag>
+    <English>Kingdom of the Netherlands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>尼德兰王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT04</Tag>
+    <English>Dutch Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>荷兰帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT05</Tag>
+    <English>Republic of the Seven United Netherlands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>尼德兰联省共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT06</Tag>
+    <English>Republic of the Seventeen United Netherlands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Republic of the Seventeen United Netherlands</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT07</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT08</Tag>
+    <English>Sultanate of the Netherlands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>尼德兰苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT09</Tag>
+    <English>Islamic Republic of the Netherlands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>尼德兰伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT10</Tag>
+    <English>Exarchate of Batavia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>巴达维亚总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT11</Tag>
+    <English>County of Flanders</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>County of Flanders</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT12</Tag>
+    <English>Emirate of Hulanda</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of Hulanda</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT13</Tag>
+    <English>Seventeen Provinces</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Seventeen Provinces</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT14</Tag>
+    <English>Jarldom of Frisia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jarldom of Frisia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT15</Tag>
+    <English>Colony of Holland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Colony of Holland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT16</Tag>
+    <English>Guberniya of Holland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Guberniya of Holland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT17</Tag>
+    <English>County of Holland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>County of Holland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT18</Tag>
+    <English>Earldom of the Netherlands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Earldom of the Netherlands</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT19</Tag>
+    <English>Habsburg Netherlands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>尼德兰哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT20</Tag>
+    <English>Eyalet of Hollanda</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Hollanda</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT21</Tag>
+    <English>Province of Holland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>荷兰行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT22</Tag>
+    <English>Principality of Holland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Principality of Holland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT23</Tag>
+    <English>Mormaerdom of the Netherlands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Mormaerdom of the Netherlands</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT24</Tag>
+    <English>Banate of Holland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Banate of Holland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT25</Tag>
+    <English>Voivodeship of Holland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Voivodeship of Holland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT26</Tag>
+    <English>Zhupa of Holland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Zhupa of Holland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT27</Tag>
+    <English>Burgundian Netherlands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Burgundian Netherlands</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DUT28</Tag>
+    <English>Viceroyalty of the Netherlands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Viceroyalty of the Netherlands</Chinese>
+  </TEXT>
+  <!-- Dutch -->
+  <!-- England -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG00</Tag>
+    <English>Anglo-Saxon Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>盎格鲁-撒克逊诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG01</Tag>
+    <English>Kingdom of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>英格兰王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG02</Tag>
+    <English>Kingdom of Great Britain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>大不列颠王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG03</Tag>
+    <English>United Kingdom of Great Britain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>大不列颠联合王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG04</Tag>
+    <English>British Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>大英帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG05</Tag>
+    <English>Commonwealth of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Commonwealth of England</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG06</Tag>
+    <English>Great Britain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Great Britain</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG07</Tag>
+    <English>Jarldom of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jarldom of England</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG08</Tag>
+    <English>Sultanate of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>英格兰苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG09</Tag>
+    <English>Islamic Republic of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>英格兰伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG10</Tag>
+    <English>Exarchate of Britannia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>大不列颠总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG11</Tag>
+    <English>Duchy of La Manche</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>英吉利公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG12</Tag>
+    <English>Emirate of Ingeltra</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of Ingeltra</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG13</Tag>
+    <English>Viceroyalty of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Viceroyalty of England</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG14</Tag>
+    <English>Jarldom of the Danelaw</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jarldom of the Danelaw</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG15</Tag>
+    <English>Colony of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Colony of England</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG16</Tag>
+    <English>Guberniya of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Guberniya of England</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG17</Tag>
+    <English>March of British Saxony</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>March of British Saxony</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG18</Tag>
+    <English>Mormaerdom of Cumberland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mormaerdom of Cumberland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG19</Tag>
+    <English>Habsburg England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>英格兰哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG20</Tag>
+    <English>Eyalet of Britanya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Britanya</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG21</Tag>
+    <English>Province of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>英格兰行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG22</Tag>
+    <English>Principality of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Principality of England</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG23</Tag>
+    <English>Banate of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Banate of England</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG24</Tag>
+    <English>Voivodeship of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Voivodeship of England</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG25</Tag>
+    <English>Zhupa of England</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Zhupa of England</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG26</Tag>
+    <English>Islamic Republic of Great Britain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Islamic Republic of Great Britain</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG27</Tag>
+    <English>Commonwealth of Great Britain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Commonwealth of Great Britain</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG28</Tag>
+    <English>Sultanate of Great Britain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Sultanate of Great Britain</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ENG29</Tag>
+    <English>Jarldom of J髍v韐</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jarldom of J髍v韐</Chinese>
+  </TEXT>
+  <!-- England -->
+  <!-- France -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA00</Tag>
+    <English>Frankish Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰克诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA01</Tag>
+    <English>Kingdom of West Francia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdom of West Francia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA02</Tag>
+    <English>Frankish Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰克帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA03</Tag>
+    <English>Kingdom of France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA04</Tag>
+    <English>French Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA05</Tag>
+    <English>French Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA06</Tag>
+    <English>Western Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Western Republic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA07</Tag>
+    <English>Western Islamic Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Western Islamic Republic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA08</Tag>
+    <English>Sultanate of France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA09</Tag>
+    <English>French Islamic Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA10</Tag>
+    <English>Exarchate of Gallia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>高卢总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA12</Tag>
+    <English>Emirate of Frangistan</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西斯坦埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA13</Tag>
+    <English>Viceroyalty of France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西总督辖区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA14</Tag>
+    <English>Duchy of Normandy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>诺曼底公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA15</Tag>
+    <English>Colony of France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Colony of France</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA16</Tag>
+    <English>Guberniya of France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Guberniya of France</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA17</Tag>
+    <English>Western Francia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西西部王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA18</Tag>
+    <English>Duchy of Aquitaine</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Duchy of Aquitaine</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA19</Tag>
+    <English>Habsburg France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA20</Tag>
+    <English>Eyalet of Frangistan</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Frangistan</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA21</Tag>
+    <English>Emirate of Arbuna</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of Arbuna</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA_VASSAL_OF_ENGLAND</Tag>
+    <English>Earldom of France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Earldom of France</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA_VASSAL_OF_SCOTLAND</Tag>
+    <English>Mormaerdom of France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mormaerdom of France</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA_VASSAL_OF_HUNGARY</Tag>
+    <English>Banate of France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Banate of France</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA23</Tag>
+    <English>Province of France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA24</Tag>
+    <English>Western Sultanate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Western Sultanate</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA25</Tag>
+    <English>Western Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Western Empire</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA26</Tag>
+    <English>Kingdom of the Franks</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdom of the Franks</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA27</Tag>
+    <English>Principality of France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Principality of France</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA28</Tag>
+    <English>County of Toulouse</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>County of Toulouse</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA29</Tag>
+    <English>Voivodeship of France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Voivodeship of France</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_FRA30</Tag>
+    <English>Zhupa of France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Zhupa of France</Chinese>
+  </TEXT>
+  <!-- France -->
+  <!-- Genoa -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN00</Tag>
+    <English>Genoese Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>热那亚诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN01</Tag>
+    <English>Duchy of Genoa</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>热那亚公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN02</Tag>
+    <English>Most Serene Duchy of Genoa</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>热那亚公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN03</Tag>
+    <English>Duchy of Genoa</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>热那亚公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN04</Tag>
+    <English>Genoese Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>热那亚帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN05</Tag>
+    <English>Most Serene Republic of Genoa</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>热那亚共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN06</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN07</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN08</Tag>
+    <English>Sultanate of Genoa</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>热那亚苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN09</Tag>
+    <English>Genoese Islamic Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>热那亚伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN10</Tag>
+    <English>Exarchate of West Italy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西意大利总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN11</Tag>
+    <English>Duchy of Savoie</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>萨瓦公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN12</Tag>
+    <English>Emirate of Genoa</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>热那亚埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN13</Tag>
+    <English>Spanish Mediterranean</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西属地中海</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN14</Tag>
+    <English>Norse West Lombardy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西伦巴第诺曼王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN15</Tag>
+    <English>Venetian West Italy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯西意大利行政区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN16</Tag>
+    <English>Russian Genoa</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>罗斯属热那亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN17</Tag>
+    <English>German Genoa</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>德属热那亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN18</Tag>
+    <English>County of Liguria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>利古里亚郡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN19</Tag>
+    <English>Habsburg Genoa</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>热那亚哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN20</Tag>
+    <English>Principality of Ligurya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>利古里亚亲王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GEN21</Tag>
+    <English>Province of Liguria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>利古里亚行省</Chinese>
+  </TEXT>
+  <!-- Genoa -->
+  <!-- Germany -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER00</Tag>
+    <English>Germanic Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>日耳曼诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER01</Tag>
+    <English>Kingdom of Germany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>德意志王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER02</Tag>
+    <English>Kingdom of Germany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>德意志王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER03</Tag>
+    <English>Holy Roman Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>神圣罗马帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER04</Tag>
+    <English>Holy Roman Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>神圣罗马帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER05</Tag>
+    <English>Republic of Germany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>德意志共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER06</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER07</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER08</Tag>
+    <English>Sultanate of Germany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>德意志苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER09</Tag>
+    <English>Islamic Republic of Germany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>德意志伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER10</Tag>
+    <English>Exarchate of Germania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>日耳曼总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER11</Tag>
+    <English>Duchy of the Rhine</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莱茵公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER12</Tag>
+    <English>Emirate of Germany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>日耳曼埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER13</Tag>
+    <English>Spanish Kingdom of Germany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西班牙王国日耳曼区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER14</Tag>
+    <English>Greater Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>大丹麦区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER15</Tag>
+    <English>Venetian Germany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯日耳曼区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER16</Tag>
+    <English>Russian Germany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>罗斯属日耳曼</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER18</Tag>
+    <English>German Counties</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>德意志诸邦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER19</Tag>
+    <English>Northern Great Germany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>大德意志北部诸邦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER20</Tag>
+    <English>Principality of Almanya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿曼尼亚亲王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_GER21</Tag>
+    <English>Province of Germany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>日耳曼行省</Chinese>
+  </TEXT>
+  <!-- Germany -->
+  <!-- Hungary -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN00</Tag>
+    <English>Magyar Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>马扎尔诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN01</Tag>
+    <English>Kingdom of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>匈牙利王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN02</Tag>
+    <English>Hungarian Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>匈牙利帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN03</Tag>
+    <English>Eyalet of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Hungary</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN04</Tag>
+    <English>Eyalet of Budin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Budin</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN05</Tag>
+    <English>Republic of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>匈牙利共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN06</Tag>
+    <English>Principality of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Principality of Hungary</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN07</Tag>
+    <English>Exarchate of Pannonia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Exarchate of Pannonia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN08</Tag>
+    <English>Sultanate of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>匈牙利苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN09</Tag>
+    <English>Islamic Republic of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>匈牙利伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN10</Tag>
+    <English>Exarchate of Sirmium</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西锡尔米乌姆总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN11</Tag>
+    <English>Duchy of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>匈牙利公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN12</Tag>
+    <English>Emirate of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>匈牙利埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN13</Tag>
+    <English>Viceroyalty of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Viceroyalty of Hungary</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN14</Tag>
+    <English>Jarldom of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jarldom of Hungary</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN15</Tag>
+    <English>Colony of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Colony of Hungary</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN16</Tag>
+    <English>Guberniya of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Guberniya of Hungary</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN17</Tag>
+    <English>March of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>March of Hungary</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN_VASSAL_OF_ENGLAND</Tag>
+    <English>County of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>匈牙利郡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN_VASSAL_OF_AUSTRIA</Tag>
+    <English>Royal Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Royal Hungary</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN20</Tag>
+    <English>Principality of Transylvania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>特兰西瓦尼亚亲王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN21</Tag>
+    <English>Province of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>匈牙利行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN_VASSAL_OF_SCOTLAND</Tag>
+    <English>Mormaerdom of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mormaerdom of Hungary</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN22</Tag>
+    <English>Voivodeship of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Voivodeship of Hungary</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_HUN23</Tag>
+    <English>Zhupa of Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Zhupa of Hungary</Chinese>
+  </TEXT>
+  <!-- Hungary -->
+  <!-- Kievan Rus -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE00</Tag>
+    <English>Kievan Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>基辅诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE01</Tag>
+    <English>Kievan Rus'</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>基辅罗斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE02</Tag>
+    <English>Kievan Rus'</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>基辅罗斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE03</Tag>
+    <English>Principality of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Principality of Kiev</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE04</Tag>
+    <English>Kievan Russia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>基辅俄罗斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE05</Tag>
+    <English>Republic of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Republic of Kiev</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE06</Tag>
+    <English>Kingdom of Rus'</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdom of Rus'</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE07</Tag>
+    <English>Rurikid Sultanate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Rurikid Sultanate</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE08</Tag>
+    <English>Sultanate of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>基辅苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE09</Tag>
+    <English>Islamic Republic of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Islamic Republic of Kiev</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE10</Tag>
+    <English>Exarchate of Ruthenia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Exarchate of Ruthenia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE11</Tag>
+    <English>Duchy of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>基辅公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE12</Tag>
+    <English>Emirate of Kuyavia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of Kuyavia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE13</Tag>
+    <English>Viceroyalty of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Viceroyalty of Kiev</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE14</Tag>
+    <English>Jarldom of Konugar餽</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jarldom of Konugar餽</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE15</Tag>
+    <English>Colony of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Colony of Kiev</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE16</Tag>
+    <English>Guberniya of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Guberniya of Kiev</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE17</Tag>
+    <English>March of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>March of Kiev</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE18</Tag>
+    <English>Earldom of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Earldom of Kiev</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE19</Tag>
+    <English>Habsburg Galicia and Lodomeria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Habsburg Galicia and Lodomeria</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE20</Tag>
+    <English>Eyalet of Podolia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Podolia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE21</Tag>
+    <English>Province of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>基辅行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE22</Tag>
+    <English>Kiev Volost'</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kiev Volost'</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE23</Tag>
+    <English>Cossack Hetmanate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Cossack Hetmanate</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE24</Tag>
+    <English>Mormaerdom of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Mormaerdom of Kiev</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE25</Tag>
+    <English>Principality of Galicia-Volhynia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Principality of Galicia-Volhynia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE26</Tag>
+    <English>Kijow Voivodeship</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kijow Voivodeship</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE27</Tag>
+    <English>Comitatus of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Comitatus of Kiev</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_KIE28</Tag>
+    <English>Zhupa of Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Zhupa of Kiev</Chinese>
+  </TEXT>
+  <!-- Kievan Rus -->
+  <!-- Lithuania -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT00</Tag>
+    <English>Lithuanian People</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT01</Tag>
+    <English>Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT02</Tag>
+    <English>Grand Duchy of Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛大公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT03</Tag>
+    <English>Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT04</Tag>
+    <English>Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT05</Tag>
+    <English>Lithuanian Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT06</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT07</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT08</Tag>
+    <English>Sultanate of Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT09</Tag>
+    <English>Islamic Republic of Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT10</Tag>
+    <English>Exarchate of Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT11</Tag>
+    <English>Duchy of Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT12</Tag>
+    <English>Emirate of Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT13</Tag>
+    <English>Spanish Baltics</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西属波罗的海诸国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT14</Tag>
+    <English>Norse Baltics</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波罗的海诸国诺曼王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT15</Tag>
+    <English>Venetian Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯立陶宛行政区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT16</Tag>
+    <English>Russian Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>罗斯属立陶宛</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT17</Tag>
+    <English>German Baltics</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>德属波罗的海诸国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT18</Tag>
+    <English>County of Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛郡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT19</Tag>
+    <English>Habsburg Baltics</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波罗的海诸国哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT20</Tag>
+    <English>Principality of Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛亲王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_LIT21</Tag>
+    <English>Province of Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛行省</Chinese>
+  </TEXT>
+  <!-- Lithuania -->
+  <!-- Muscovy -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS00</Tag>
+    <English>Muscovite Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莫斯科诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS01</Tag>
+    <English>Principality of Moscow</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莫斯科亲王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS02</Tag>
+    <English>Grand Duchy of Moscow</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莫斯科大公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS03</Tag>
+    <English>Tsardom of Russia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>沙皇俄国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS04</Tag>
+    <English>Tsardom of Russia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>沙皇俄国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS05</Tag>
+    <English>Republic of Moscow</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Republic of Moscow</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS06</Tag>
+    <English>Russian Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Russian Empire</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS07</Tag>
+    <English>Kingdom of Russia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdom of Russia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS08</Tag>
+    <English>Sultanate of Moscow</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Sultanate of Moscow</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS09</Tag>
+    <English>Islamic Republic of Moscow</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Islamic Republic of Moscow</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS10</Tag>
+    <English>Exarchate of Moscovia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莫斯科总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS11</Tag>
+    <English>Duchy of Muscovy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莫斯科公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS12</Tag>
+    <English>Emirate of Artaniya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of Artaniya</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS13</Tag>
+    <English>Viceroyalty of Moscow</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Viceroyalty of Moscow</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS14</Tag>
+    <English>Jarldom of M髍amar</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jarldom of M髍amar</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS15</Tag>
+    <English>Colony of Moscow</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Colony of Moscow</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS16</Tag>
+    <English>Muscovy Volost'</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Muscovy Volost'</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS17</Tag>
+    <English>March of Moscow</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>March of Moscow</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS18</Tag>
+    <English>Earldom of Muscovy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Earldom of Muscovy</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS19</Tag>
+    <English>Habsburg Muscovy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莫斯科哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS20</Tag>
+    <English>Eyalet of Moskova</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Moskova</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS21</Tag>
+    <English>Province of Muscovy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莫斯科行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS22</Tag>
+    <English>Mormaerdom of Muscovy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mormaerdom of Muscovy</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS23</Tag>
+    <English>Banate of Muscovy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Banate of Muscovy</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS24</Tag>
+    <English>Moscow Voivodeship</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Moscow Voivodeship</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOS25</Tag>
+    <English>Zhupa of Muscovy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Zhupa of Muscovy</Chinese>
+  </TEXT>
+  <!-- Muscovy -->
+  <!-- Norse -->
+  <!--<TEXT>
+		<Tag>TXT_KEY_DN_NORSE00</Tag>
+		<English>Scandinavian Peoples</English>
+		<French>Peuplade Scandinave</French>
+		<German>Skandinavische V鰈ker</German>
+		<Italian>Popoli Scandinavi</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE06</Tag>
+		<English>Viking Kingdoms</English>
+		<French>.</French>
+		<German>K鰊igreich der Wikinger</German>
+		<Italian>Regni Vichinghi</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE07</Tag>
+		<English>Viking Republic</English>
+		<French>.</French>
+		<German>Wikingerrepublik</German>
+		<Italian>Regni Vichinghi</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE08</Tag>
+		<English>Islamic Nordic Sultanates</English>
+		<French>Sultanat Nordique</French>
+		<German>Islamisch-Nordische Sultanate</German>
+		<Italian>Sultanati Islamici del Nord</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE09</Tag>
+		<English>Nordic Islamic Republic</English>
+		<French>R&#233;publique Islamique Nordique</French>
+		<German>Nordisch-Islamische Republik</German>
+		<Italian>Repubblica Islamica del Nord</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE10</Tag>
+		<English>Exarchate of Scandinavia</English>
+		<French>Exarchat de Scandinavie</French>
+		<German>Exarchat Skandinavia</German>
+		<Italian>Esarcato di Scandinavia</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE12</Tag>
+		<English>Scandinavian Emirate</English>
+		<French>Emirat Scandinave</French>
+		<German>Skandinavisches Emirat</German>
+		<Italian>Emirato della Scandinavia</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE13</Tag>
+		<English>Spanish Kingdom of Scandinavia</English>
+		<French>Royaume Espagnol de Scandinavie</French>
+		<German>Spanisches K鰊igreich Skandinavien</German>
+		<Italian>Regno Spagnolo di Scandinavia</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE15</Tag>
+		<English>Venetian Scandinavia</English>
+		<French>Scandinavie V&#233;nitienne</French>
+		<German>Venezianisch-Skandinavien</German>
+		<Italian>Scandinavia Veneziana</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE16</Tag>
+		<English>Russian Scandinavia</English>
+		<French>Scandinavie Russe</French>
+		<German>Russisch-Skandinavien</German>
+		<Italian>Scandinavia Russa</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE17</Tag>
+		<English>German Scandinavia</English>
+		<French>Scandinavie Allemande</French>
+		<German>Deutsch-Skandinavien</German>
+		<Italian>Scandinavia Tedesca</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE18</Tag>
+		<English>Counties of Scandinavia</English>
+		<French>Comt&#233;es de Scandinavie</French>
+		<German>Grafschaften Skandinaviens</German>
+		<Italian>Contee di Scandinavia</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE19</Tag>
+		<English>Habsburg Scandinavia</English>
+		<French>Scandinavie Habsbourg</French>
+		<German>Habsburger Skandinavien</German>
+		<Italian>Scandinavia Asburgica</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE20</Tag>
+		<English>Principality of Iskandinavya</English>
+		<French>Principaut&#233; de Iskandinavya</French>
+		<German>F黵stentum Iskandinavya</German>
+		<Italian>Principato di Iskandinavya</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NORSE21</Tag>
+		<English>Province of Scandinavia</English>
+		<French>Province de Scandinavie</French>
+		<German>Provinz Skandinavien</German>
+		<Italian>Provincia di Scandinavia</Italian>
+		<Spanish></Spanish>
+ 	</TEXT>-->
+  <!-- Norse -->
+  <!-- Poland -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL00</Tag>
+    <English>Polan Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Polan Peoples</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL01</Tag>
+    <English>Kingdom of Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL02</Tag>
+    <English>Polish Commonwealth</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰联邦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL03</Tag>
+    <English>Kingdom of Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL04</Tag>
+    <English>Polish Commonwealth</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰联邦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL05</Tag>
+    <English>Republic of Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL06</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL07</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL08</Tag>
+    <English>Sultanate of Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL09</Tag>
+    <English>Islamic Republic of Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL10</Tag>
+    <English>Exarchate of Polonia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL11</Tag>
+    <English>Duchy of Warsaw</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>华沙公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL12</Tag>
+    <English>Emirate of Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL13</Tag>
+    <English>Spanish Kingdom of Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰西班牙王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL14</Tag>
+    <English>South Baltic State</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>南波罗的海邦国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL15</Tag>
+    <English>Venetian Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯波兰行政区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL16</Tag>
+    <English>Congress Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰会议王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL17</Tag>
+    <English>Grand Duchy of Posen</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波森大公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL18</Tag>
+    <English>Counties of Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰诸邦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL19</Tag>
+    <English>Habsburg Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL20</Tag>
+    <English>Principality of Polonya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰亲王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POL21</Tag>
+    <English>Province of Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰行省</Chinese>
+  </TEXT>
+  <!-- Poland -->
+  <!-- Portugal -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR00</Tag>
+    <English>Lusitanian Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卢西塔尼亚诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR01</Tag>
+    <English>Kingdom of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>葡萄牙王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR02</Tag>
+    <English>Kingdom of Spain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西班牙王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR03</Tag>
+    <English>Iberian Union</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西葡帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR04</Tag>
+    <English>Portuguese Empire</English>
+     <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>葡萄牙帝国</Chinese>
+    </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR05</Tag>
+    <English>Portuguese Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>葡萄牙共和国</Chinese>
+    </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR06</Tag>
+    <English>Principality of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Principality of Portugal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR07</Tag>
+    <English>Emirate of al-Tagr al-Adna</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of al-Tagr al-Adna</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR08</Tag>
+    <English>Sultanate of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>葡萄牙苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR09</Tag>
+    <English>Portuguese Islamic Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>葡萄牙伊斯兰共和国</Chinese>
+   </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR10</Tag>
+    <English>Exarchate of Lusitania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卢西塔尼亚总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR11</Tag>
+    <English>Duchy of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>葡萄牙公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR12</Tag>
+    <English>Emirate of Burtughal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of Burtughal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR13</Tag>
+    <English>Council of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Council of Portugal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR14</Tag>
+    <English>Jarldom of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jarldom of Portugal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR15</Tag>
+    <English>Colony of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Colony of Portugal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR16</Tag>
+    <English>Guberniya of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Guberniya of Portugal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR17</Tag>
+    <English>March of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>March of Portugal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR18</Tag>
+    <English>County of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>葡萄牙郡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR_VASSAL_OF_ENGLAND</Tag>
+    <English>Earldom of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Earldom of Portugal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR_VASSAL_OF_SCOTLAND</Tag>
+    <English>Mormaerdom of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mormaerdom of Portugal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR_VASSAL_OF_HUNGARY</Tag>
+    <English>Banate of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Banate of Portugal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR19</Tag>
+    <English>Habsburg Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>葡萄牙哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR20</Tag>
+    <English>Eyalet of Portekiz</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Portekiz</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR21</Tag>
+    <English>Province of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>葡萄牙行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR22</Tag>
+    <English>Voivodeship of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Voivodeship of Portugal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_POR23</Tag>
+    <English>Zhupa of Portugal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Zhupa of Portugal</Chinese>
+  </TEXT>
+  <!-- Portugal -->
+  <!-- Spain -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN00</Tag>
+    <English>Asturian Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿斯图里亚斯诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN_DEFAULT</Tag>
+    <English>Kingdom of Asturias</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdom of Asturias</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN01</Tag>
+    <English>Kingdom of Le髇</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdom of Le髇</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN02</Tag>
+    <English>Kingdom of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdom of Castile</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN03</Tag>
+    <English>Crown of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卡斯提尔王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN04</Tag>
+    <English>Kingdom of Spain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西班牙王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN05</Tag>
+    <English>Spanish Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西班牙共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN06</Tag>
+    <English>Emirate of al-Tagr al-Awsat</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of al-Tagr al-Awsat</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN07</Tag>
+    <English>Emirate of Tulaytulah</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of Tulaytulah</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN08</Tag>
+    <English>Sultanate of Spain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Sultanate of Spain</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN09</Tag>
+    <English>Islamic Republic of Spain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Islamic Republic of Spain</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN10</Tag>
+    <English>Exarchate of Hispania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西斯班尼亚总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN11</Tag>
+    <English>Duchy of Leon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莱昂公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN12</Tag>
+    <English>Emirate of al-Ispanya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of al-Ispanya</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN13</Tag>
+    <English>County of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>County of Castile</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN14</Tag>
+    <English>Jarldom of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jarldom of Castile</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN15</Tag>
+    <English>Colony of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Colony of Castile</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN16</Tag>
+    <English>Guberniya of Castilia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Guberniya of Castilia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN17</Tag>
+    <English>March of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>March of Castile</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN18</Tag>
+    <English>Counties of Spain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西班牙邦国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN_VASSAL_OF_ENGLAND</Tag>
+    <English>Earldom of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Earldom of Castile</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN_VASSAL_OF_SCOTLAND</Tag>
+    <English>Mormaerdom of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Mormaerdom of Castile</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN_VASSAL_OF_HUNGARY</Tag>
+    <English>Banate of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Banate of Castile</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN19</Tag>
+    <English>Habsburg Spain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西班牙哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN20</Tag>
+    <English>Eyalet of Ispanya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Ispanya</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN21</Tag>
+    <English>Province of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Province of Castile</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN22</Tag>
+    <English>Principality of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Principality of Castile</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN23</Tag>
+    <English>Iberian Union</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西葡帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN23</Tag>
+    <English>Voivodeship of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Voivodeship of Castile</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SPN24</Tag>
+    <English>Zhupa of Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Zhupa of Castile</Chinese>
+  </TEXT>
+  <!-- Spain -->
+  <!-- Sweden -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE00</Tag>
+    <English>Swedish Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE01</Tag>
+    <English>Kingdom of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE02</Tag>
+    <English>Swedish Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE03</Tag>
+    <English>Kingdom of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE04</Tag>
+    <English>Swedish Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE05</Tag>
+    <English>Republic of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE06</Tag>
+    <English>Kalmar Union</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kalmar Union</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE07</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE08</Tag>
+    <English>Sultanate of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE09</Tag>
+    <English>Islamic Republic of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE10</Tag>
+    <English>Exarchate of Suedia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE11</Tag>
+    <English>Duchy of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE12</Tag>
+    <English>Emirate of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE13</Tag>
+    <English>Viceroyalty of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Viceroyalty of Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE14</Tag>
+    <English>Jarldom of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Jarldom of Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE15</Tag>
+    <English>Colony of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Colony of Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE16</Tag>
+    <English>Principality of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Principality of Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE17</Tag>
+    <English>March of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>March of Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE18</Tag>
+    <English>Earldom of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Earldom of Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE19</Tag>
+    <English>Habsburg Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE20</Tag>
+    <English>Eyalet of Isves</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Eyalet of Isves</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE21</Tag>
+    <English>Province of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典行省</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE22</Tag>
+    <English>Guberniya of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Guberniya of Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE23</Tag>
+    <English>Mormaerdom of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Mormaerdom of Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE24</Tag>
+    <English>Banate of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Banate of Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE25</Tag>
+    <English>Kingdoms of Sweden and Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdoms of Sweden and Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE26</Tag>
+    <English>Kingdom of Sweden-Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Sweden-Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE27</Tag>
+    <English>Kingdoms of Sweden and Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdoms of Sweden and Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE28</Tag>
+    <English>Kingdom of Sweden-Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Sweden-Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE29</Tag>
+    <English>Voivodeship of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Voivodeship of Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SWE30</Tag>
+    <English>Zhupa of Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Zhupa of Sweden</Chinese>
+  </TEXT>
+  <!-- Sweden -->
+  <!-- Turkey -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR00</Tag>
+    <English>Turkish Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>突厥诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR01</Tag>
+    <English>Turkish Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>突厥帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR02</Tag>
+    <English>Turkish Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>突厥帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR03</Tag>
+    <English>Sublime Ottoman State</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥斯曼家族</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR04</Tag>
+    <English>Sublime Ottoman State</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥斯曼家族</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR05</Tag>
+    <English>Republic of Turkey</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>土耳其共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR06</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR07</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR08</Tag>
+    <English>Ottoman Caliphate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥斯曼哈里发王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR09</Tag>
+    <English>Islamic Republic of Turkey</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>土耳其伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR10</Tag>
+    <English>Theme of the Anatolics</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安纳托利亚军区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR11</Tag>
+    <English>French Turkey</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法属土耳其</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR12</Tag>
+    <English>Ottoman Beylik</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥斯曼贝伊</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR13</Tag>
+    <English>Spanish Kingdom of Turkey</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>土耳其西班牙王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR14</Tag>
+    <English>Norse Turkey</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>土耳其诺曼王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR15</Tag>
+    <English>Venetian Turkey</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯土耳其行政区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR16</Tag>
+    <English>Russian Turkey</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>罗斯属土耳其</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR17</Tag>
+    <English>German Turkey</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>德属土耳其</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR18</Tag>
+    <English>Counties of Turkey</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>土耳其诸邦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR19</Tag>
+    <English>Austrian Turkey</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥属土耳其</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR20</Tag>
+    <English>Principality of Anadolu</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿纳杜鲁亲王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_TUR21</Tag>
+    <English>Province of Turkey</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>土耳其行省</Chinese>
+  </TEXT>
+  <!-- Turkey -->
+  <!-- Venezia -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN00</Tag>
+    <English>Venetian Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯诸部</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN01</Tag>
+    <English>Most Serene Republic of Venice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN02</Tag>
+    <English>Most Serene Republic of Venice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN03</Tag>
+    <English>Most Serene Republic of Venice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN04</Tag>
+    <English>Most Serene Republic of Venice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN05</Tag>
+    <English>Most Serene Republic of Venice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN06</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN07</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN08</Tag>
+    <English>Sultanate of Venice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯苏丹国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN09</Tag>
+    <English>Venetian Islamic Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯伊斯兰共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN10</Tag>
+    <English>Exarchate of Ravenna</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>拉韦纳总督区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN11</Tag>
+    <English>French Kingdom of Italy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西王国意大利区</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN12</Tag>
+    <English>Emirate of Venice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯埃米尔酋长国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN13</Tag>
+    <English>Spanish Protectorate of Venice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Spanish Protectorate of Venice</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN14</Tag>
+    <English>Norse East Lombardy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>东伦巴第诺曼王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN15</Tag>
+    <English>Dogado of Venice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯大公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN16</Tag>
+    <English>Russian Venice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>罗斯属威尼斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN17</Tag>
+    <English>German Venice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>德属威尼斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN18</Tag>
+    <English>Counties of Venice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯城邦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN19</Tag>
+    <English>Habsburg Venezia-Lombardy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯-伦巴第哈布斯堡王朝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN20</Tag>
+    <English>Principality of Venedik</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>韦内迪克亲王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_VEN21</Tag>
+    <English>Province of Veneto</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼托行省</Chinese>
+  </TEXT>
+  <!-- Venezia -->
+  <!-- Norway -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR00</Tag>
+    <English>Norwegian Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Norwegian Peoples</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR01</Tag>
+    <English>Kingdom of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR02</Tag>
+    <English>Jarldom of Lade</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Jarldom of Lade</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR03</Tag>
+    <English>Kingdoms of Norway and Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdoms of Norway and Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR04</Tag>
+    <English>Kingdom of Norway-Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Norway-Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR05</Tag>
+    <English>Norwegian Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Norwegian Republic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR06</Tag>
+    <English>Kingdom of Norway-Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Norway-Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR07</Tag>
+    <English>Kingdoms of Norway and Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdoms of Norway and Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR08</Tag>
+    <English>Sultanate of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Sultanate of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR09</Tag>
+    <English>Norwegian Islamic Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Norwegian Islamic Republic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR10</Tag>
+    <English>Exarchate of Thule</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Exarchate of Thule</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR11</Tag>
+    <English>Duchy of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Duchy of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR12</Tag>
+    <English>Emirate of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Emirate of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR13</Tag>
+    <English>Viceroyalty of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Viceroyalty of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR14</Tag>
+    <English>Jarldom of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Jarldom of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR15</Tag>
+    <English>Colony of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Colony of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR16</Tag>
+    <English>Principality of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Principality of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR17</Tag>
+    <English>March of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>March of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR18</Tag>
+    <English>Earldom of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Earldom of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR19</Tag>
+    <English>Habsburg Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Habsburg Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR20</Tag>
+    <English>Eyalet of Norvec</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Eyalet of Norvec</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR21</Tag>
+    <English>Province of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Province of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR22</Tag>
+    <English>Guberniya of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Guberniya of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR23</Tag>
+    <English>Mormaerdom of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Mormaerdom of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR24</Tag>
+    <English>Banate of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Banate of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR25</Tag>
+    <English>Kalmar Union</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kalmar Union</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR26</Tag>
+    <English>Jarldom of Trondelag</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Jarldom of Trondelag</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR27</Tag>
+    <English>Voivodeship of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Voivodeship of Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOR28</Tag>
+    <English>Zhupa of Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Zhupa of Norway</Chinese>
+  </TEXT>
+  <!-- Norway -->
+  <!-- Denmark -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN00</Tag>
+    <English>Danish Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Danish Peoples</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN01</Tag>
+    <English>Kingdom of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>丹麦王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN02</Tag>
+    <English>North Sea Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>North Sea Empire</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN03</Tag>
+    <English>Kingdoms of Denmark and Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>丹麦挪威联合王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN04</Tag>
+    <English>Kingdom of Denmark-Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Denmark-Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN05</Tag>
+    <English>Danish Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>丹麦共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN05_2</Tag>
+    <English>Republic of Denmark-Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Republic of Denmark-Norway</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN06</Tag>
+    <English>Kalmar Union</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卡尔马联盟</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN06_2</Tag>
+    <English>Kalmar Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卡尔马共和国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN07</Tag>
+    <English>Empire of Denmark and Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>丹麦挪威帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN08</Tag>
+    <English>Sultanate of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Sultanate of Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN09</Tag>
+    <English>Danish Islamic Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Danish Islamic Republic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN10</Tag>
+    <English>Exarchate of Cimbria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Exarchate of Cimbria</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN11</Tag>
+    <English>Duchy of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>丹麦公国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN12</Tag>
+    <English>Emirate of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Emirate of Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN13</Tag>
+    <English>Viceroyalty of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Viceroyalty of Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN14</Tag>
+    <English>Jarldom of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Jarldom of Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN15</Tag>
+    <English>Colony of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Colony of Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN16</Tag>
+    <English>Principality of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Principality of Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN17</Tag>
+    <English>March of Schleswig</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>March of Schleswig</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN18</Tag>
+    <English>Earldom of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Earldom of Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN19</Tag>
+    <English>Habsburg Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Habsburg Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN20</Tag>
+    <English>Eyalet of Danimarka</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Eyalet of Danimarka</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN21</Tag>
+    <English>Province of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Province of Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN22</Tag>
+    <English>Guberniya of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Guberniya of Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN23</Tag>
+    <English>Mormaerdom of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Mormaerdom of Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN24</Tag>
+    <English>Banate of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Banate of Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN25</Tag>
+    <English>Kingdoms of Denmark and Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdoms of Denmark and Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN26</Tag>
+    <English>Kingdom of Denmark-Sweden</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Denmark-Sweden</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN27</Tag>
+    <English>Jarldom of Scania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Jarldom of Scania</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN28</Tag>
+    <English>Voivodeship of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Voivodeship of Denmark</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_DEN29</Tag>
+    <English>Zhupa of Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Zhupa of Denmark</Chinese>
+  </TEXT>
+  <!-- Denmark -->
+  <!-- Prussia -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU00</Tag>
+    <English>Prussian Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Prussian Peoples</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU01</Tag>
+    <English>Duchy of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Duchy of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU02</Tag>
+    <English>Duchy of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Duchy of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU03</Tag>
+    <English>Duchy of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Duchy of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU04</Tag>
+    <English>Duchy of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Duchy of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU05</Tag>
+    <English>Republic of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Republic of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU06</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU07</Tag>
+    <English>Placeholder Error</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Placeholder Error</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU08</Tag>
+    <English>Sultanate of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Sultanate of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU09</Tag>
+    <English>Islamic Republic of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Islamic Republic of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU10</Tag>
+    <English>Exarchate of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Exarchate of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU11</Tag>
+    <English>Royal Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Royal Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU12</Tag>
+    <English>Emirate of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Emirate of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU13</Tag>
+    <English>Spanish Kingdom of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 /> 
+    <Chinese>Spanish Kingdom of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU14</Tag>
+    <English>Province of Livonia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Province of Livonia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU15</Tag>
+    <English>Venetian Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Venetian Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU16</Tag>
+    <English>Baltic Governorate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Baltic Governorate</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU17</Tag>
+    <English>Royal Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Royal Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU18</Tag>
+    <English>Counties of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Counties of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU19</Tag>
+    <English>Eastern Great Germany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Eastern Great Germany</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU20</Tag>
+    <English>Principality of Prusya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Principality of Prusya</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU21</Tag>
+    <English>Province of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Province of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU22</Tag>
+    <English>Teutonic Order</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Teutonic Order</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU23</Tag>
+    <English>Brandenburg-Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Brandenburg-Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU24</Tag>
+    <English>Kingdom of Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Prussia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_PRU25</Tag>
+    <English>Livonian Order</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Livonian Order</Chinese>
+  </TEXT>
+  <!-- Prussia -->
+  <!-- Aragon -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG00</Tag>
+    <English>Aragonese Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Aragonese Peoples</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG01</Tag>
+    <English>Kingdom of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG02</Tag>
+    <English>Crown of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Crown of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG03</Tag>
+    <English>Crown of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Crown of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG04</Tag>
+    <English>Kingdom of Spain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>西班牙王国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG05</Tag>
+    <English>Aragonese Commonwealth</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Aragonese Commonwealth</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG06</Tag>
+    <English>Iberian Union</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>西葡帝国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG07</Tag>
+    <English>Emirate of al-Tagr al-A'la</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of al-Tagr al-A'la</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG08</Tag>
+    <English>Sultanate of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Sultanate of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG09</Tag>
+    <English>Aragonese Islamic Commonwealth</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Aragonese Islamic Commonwealth</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG10</Tag>
+    <English>Exarchate of Tarraconensis</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Exarchate of Tarraconensis</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG11</Tag>
+    <English>Spanish March</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Spanish March</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG12</Tag>
+    <English>Emirate of Aragu'un</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of Aragu'un</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG13</Tag>
+    <English>County of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>County of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG14</Tag>
+    <English>Jarldom of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Jarldom of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG15</Tag>
+    <English>Colony of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Colony of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG16</Tag>
+    <English>Guberniya of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Guberniya of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG17</Tag>
+    <English>March of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>March of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG18</Tag>
+    <English>Principality of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Principality of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG_VASSAL_OF_ENGLAND</Tag>
+    <English>Earldom of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Earldom of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG_VASSAL_OF_SCOTLAND</Tag>
+    <English>Mormaerdom of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Mormaerdom of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG_VASSAL_OF_HUNGARY</Tag>
+    <English>Banate of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Banate of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG19</Tag>
+    <English>Habsburg Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Habsburg Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG20</Tag>
+    <English>Eyalet of Aragona</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Eyalet of Aragona</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG21</Tag>
+    <English>Province of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Province of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG22</Tag>
+    <English>Voivodeship of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Voivodeship of Aragon</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_ARG23</Tag>
+    <English>Zhupa of Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Zhupa of Aragon</Chinese>
+  </TEXT>
+  <!-- Aragon -->
+  <!-- Sicily -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC00</Tag>
+    <English>Sicilian Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Sicilian Peoples</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC01</Tag>
+    <English>Kingdom of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC04</Tag>
+    <English>Emirate of Bari</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Emirate of Bari</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC05</Tag>
+    <English>Republic of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Republic of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC06</Tag>
+    <English>Principality of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Principality of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC07</Tag>
+    <English>County of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>County of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC08</Tag>
+    <English>Sultanate of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Sultanate of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC09</Tag>
+    <English>Islamic Republic of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Islamic Republic of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC10</Tag>
+    <English>Catepanate of Italy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Catepanate of Italy</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC11</Tag>
+    <English>Duchy of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Duchy of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC12</Tag>
+    <English>Emirate of Siqilliyya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Emirate of Siqilliyya</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC13</Tag>
+    <English>Council of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Council of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC14</Tag>
+    <English>Jarldom of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Jarldom of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC15</Tag>
+    <English>Colony of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Colony of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC16</Tag>
+    <English>Guberniya of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Guberniya of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC17</Tag>
+    <English>March of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>March of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC_VASSAL_OF_ENGLAND</Tag>
+    <English>Earldom of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Earldom of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC_VASSAL_OF_SCOTLAND</Tag>
+    <English>Mormaerdom of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Mormaerdom of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC_VASSAL_OF_HUNGARY</Tag>
+    <English>Banate of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Banate of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC19</Tag>
+    <English>Habsburg Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Habsburg Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC20</Tag>
+    <English>Eyalet of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Eyalet of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC21</Tag>
+    <English>Province of Sicilya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Province of Sicilya</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC22</Tag>
+    <English>Voivodeship of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Voivodeship of Sicily</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SIC23</Tag>
+    <English>Zhupa of Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Zhupa of Sicily</Chinese>
+  </TEXT>
+  <!-- Sicily -->
+  <!-- Morocco -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR00</Tag>
+    <English>Maghrebi Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Maghrebi Peoples</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR01</Tag>
+    <English>Almoravid Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Almoravid Empire</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR02</Tag>
+    <English>Almohad Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Almohad Empire</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR03</Tag>
+    <English>Marinid Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Marinid Empire</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR04</Tag>
+    <English>Wattasid Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Wattasid Empire</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR05</Tag>
+    <English>Saadi Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Saadi Empire</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR06</Tag>
+    <English>Alaouite Empire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Alaouite Empire</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR07</Tag>
+    <English>Moroccan Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Moroccan Republic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR08</Tag>
+    <English>Caliphate of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Caliphate of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR09</Tag>
+    <English>Islamic Republic of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Islamic Republic of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR10</Tag>
+    <English>Exarchate of Mauretania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Exarchate of Mauretania</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR11</Tag>
+    <English>Duchy of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Duchy of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR12</Tag>
+    <English>Emirate of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Emirate of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR13</Tag>
+    <English>Viceroyalty of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Viceroyalty of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR14</Tag>
+    <English>Jarldom of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Jarldom of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR15</Tag>
+    <English>Colony of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Colony of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR16</Tag>
+    <English>Guberniya of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Guberniya of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR17</Tag>
+    <English>Maghreb March</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Maghreb March</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR18</Tag>
+    <English>Protectorate of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Protectorate of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR_VASSAL_OF_HUNGARY</Tag>
+    <English>Banate of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Banate of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR19</Tag>
+    <English>Habsburg Maghreb</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Habsburg Maghreb</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR20</Tag>
+    <English>Eyalet of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Eyalet of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR21</Tag>
+    <English>Province of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Province of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR22</Tag>
+    <English>Principality of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Principality of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR23</Tag>
+    <English>Kingdom of Mauretania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kingdom of Mauretania</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR24</Tag>
+    <English>Voivodeship of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Voivodeship of Morocco</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_MOR25</Tag>
+    <English>Zhupa of Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Zhupa of Morocco</Chinese>
+  </TEXT>
+  <!-- Morocco -->
+  <!-- Novgorod -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV00</Tag>
+    <English>Novgorodian Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Novgorodian Peoples</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV01</Tag>
+    <English>Principality of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Principality of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV02</Tag>
+    <English>Republic of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Republic of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV03</Tag>
+    <English>Republic of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Republic of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV04</Tag>
+    <English>Tsardom of Russia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>沙皇俄国</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV05</Tag>
+    <English>Novgorod Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Novgorod Republic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV06</Tag>
+    <English>Ilmen Slavs</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Ilmen Slavs</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV07</Tag>
+    <English>Kingdom of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV08</Tag>
+    <English>Sultanate of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Sultanate of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV09</Tag>
+    <English>Islamic Republic of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Islamic Republic of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV10</Tag>
+    <English>Exarchate of Nemogardas</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Exarchate of Nemogardas</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV11</Tag>
+    <English>Duchy of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Duchy of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV12</Tag>
+    <English>Emirate of Salawiya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Emirate of Salawiya</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV13</Tag>
+    <English>Viceroyalty of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Viceroyalty of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV14</Tag>
+    <English>Jarldom of Ingria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Jarldom of Ingria</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV15</Tag>
+    <English>Colony of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Colony of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV16</Tag>
+    <English>Novgorod Lands</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Novgorod Lands</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV17</Tag>
+    <English>Free State of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Free State of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV18</Tag>
+    <English>Earldom of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Earldom of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV19</Tag>
+    <English>Habsburg Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Habsburg Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV20</Tag>
+    <English>Eyalet of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Eyalet of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV21</Tag>
+    <English>Province of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Province of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV22</Tag>
+    <English>Jarldom of Gar餫r韐i</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Jarldom of Gar餫r韐i</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV23</Tag>
+    <English>Jarldom of Holmgar餽</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Jarldom of Holmgar餽</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV24</Tag>
+    <English>Novgorod Volost'</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Novgorod Volost'</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV25</Tag>
+    <English>Bailiwick of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Bailiwick of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV26</Tag>
+    <English>Mormaerdom of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Mormaerdom of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV27</Tag>
+    <English>Banate of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Banate of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV28</Tag>
+    <English>Novgorod Voivodeship</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Novgorod Voivodeship</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV29</Tag>
+    <English>Comitatus of Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Comitatus of Novgorod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_NOV30</Tag>
+    <English>Zhupa of Volkhov</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Zhupa of Volkhov</Chinese>
+  </TEXT>
+  <!-- Novgorod -->
+  <!-- Scotland -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO00</Tag>
+    <English>Scottish Peoples</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Scottish Peoples</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO01</Tag>
+    <English>Kingdom of Alba</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Alba</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO02</Tag>
+    <English>Kingdom of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO03</Tag>
+    <English>Kinrick o Great Breetain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kinrick o Great Breetain</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO04</Tag>
+    <English>Celtic Union</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Celtic Union</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO05</Tag>
+    <English>Commonwealth of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Commonwealth of Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO06</Tag>
+    <English>Kingdom of Great Britain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Great Britain</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO07</Tag>
+    <English>Kingdom of Britain</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Kingdom of Britain</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO08</Tag>
+    <English>Sultanate of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Sultanate of Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO09</Tag>
+    <English>Islamic Republic of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Islamic Republic of Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO10</Tag>
+    <English>Exarchate of Caledonia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Exarchate of Caledonia</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO11</Tag>
+    <English>Duchy of Ecosse</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Duchy of Ecosse</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO12</Tag>
+    <English>Emirate of Asktalanda</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Emirate of Asktalanda</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO13</Tag>
+    <English>Viceroyalty of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Viceroyalty of Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO14</Tag>
+    <English>Jarldom of the Isles</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Jarldom of the Isles</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO15</Tag>
+    <English>Colony of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Colony of Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO16</Tag>
+    <English>Guberniya of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Guberniya of Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO17</Tag>
+    <English>March of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>March of Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO18</Tag>
+    <English>Earldom of Lothian</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Earldom of Lothian</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO19</Tag>
+    <English>Habsburg Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Habsburg Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO20</Tag>
+    <English>Eyalet of Iskocya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Eyalet of Iskocya</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO21</Tag>
+    <English>Province of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Province of Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO22</Tag>
+    <English>Principality of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Principality of Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO23</Tag>
+    <English>Banate of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Banate of Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO24</Tag>
+    <English>Voivodeship of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Voivodeship of Scotland</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DN_SCO25</Tag>
+    <English>Zhupa of Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>Zhupa of Scotland</Chinese>
+  </TEXT>
+  <!-- Scotland -->
+  <!-- Pope -->
+  <TEXT>
+    <Tag>TXT_KEY_DN_POP00</Tag>
+    <English>Papal States</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>教宗国</Chinese>
+  </TEXT>
+  <!-- Pope -->
+</Civ4GameText>

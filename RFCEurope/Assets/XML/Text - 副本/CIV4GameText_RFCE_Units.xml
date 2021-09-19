@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_CATHOLIC_MISSIONARY</Tag>
+    <English>Catholic Missionary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>天主教神父</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ORTHODOX_MISSIONARY</Tag>
+    <English>Orthodox Missionary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>东正教司祭</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_PROTESTANT_MISSIONARY</Tag>
+    <English>Protestant Missionary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>新教牧师</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ISLAMIC_MISSIONARY</Tag>
+    <English>Islamic Missionary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>穆斯林阿訇</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SPEARMAN</Tag>
+    <English>Spearman</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>矛兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SPEARMAN_PEDIA</Tag>
+    <English>[TAB]Since a Medieval spear required only a small amount of steel along the sharpened edges, it was an economical weapon. Quick to manufacture, and needing less smithing skill than a sword, it became the common weapon of the peasantry in many parts of the world. With the rise of heavy cavalry, spear shafts began to be planted against the ground to deter charging cavalry. Spears morphed into different pole-arms as mounted knights became more important on the battlefields of Europe and a means to counter them was needed.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Since a Medieval spear required only a small amount of steel along the sharpened edges, it was an economical weapon. Quick to manufacture, and needing less smithing skill than a sword, it became the common weapon of the peasantry in many parts of the world. With the rise of heavy cavalry, spear shafts began to be planted against the ground to deter charging cavalry. Spears morphed into different pole-arms as mounted knights became more important on the battlefields of Europe and a means to counter them was needed.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_GUISARME</Tag>
+    <English>Guisarmier</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>长柄刀兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_GUISARME_PEDIA</Tag>
+    <English>[TAB]A guisarme was a pole weapon used in Europe to dismount knights and horsemen, primarily between 1000-1400. Like most polearms it was developed by peasants by combining hand tools with long poles: in this case by putting a pruning hook onto a spear shaft. Later designs implemented a small reverse spike on the back of the blade, increasing the weapon's stopping power. Eventually hooks were incorporated into a variety of different polearms and guisarme became a catch-all for any weapon that included a hook on the blade.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A guisarme was a pole weapon used in Europe to dismount knights and horsemen, primarily between 1000-1400. Like most polearms it was developed by peasants by combining hand tools with long poles: in this case by putting a pruning hook onto a spear shaft. Later designs implemented a small reverse spike on the back of the blade, increasing the weapon's stopping power. Eventually hooks were incorporated into a variety of different polearms and guisarme became a catch-all for any weapon that included a hook on the blade.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_PIKEMAN</Tag>
+    <English>Pikeman</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>长枪兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_PIKEMAN_PEDIA</Tag>
+    <English>[TAB]Early in the middle ages, the pike was only useful on defense; its length made it difficult for untrained soldiers to use in formation. The Swiss brought a renaissance to pike warfare in the 15th century, with strong training regimens and drummers to aid coordination. Now pike blocks could both rise to the attack and go into an impenetrable defensive formation when attacked by cavalry. The deep pike attack column remained an essential part of infantry combat for several hundred years.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Early in the middle ages, the pike was only useful on defense; its length made it difficult for untrained soldiers to use in formation. The Swiss brought a renaissance to pike warfare in the 15th century, with strong training regimens and drummers to aid coordination. Now pike blocks could both rise to the attack and go into an impenetrable defensive formation when attacked by cavalry. The deep pike attack column remained an essential part of infantry combat for several hundred years.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ARBALEST</Tag>
+    <English>Arbalestier</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>钢弩手</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ARBALEST_PEDIA</Tag>
+    <English>[TAB]The arbalest was a late variation of the medieval European crossbow. A larger weapon, the arbalest had a steel prod ("bow"). Since an arbalest was much larger than earlier crossbows, and because of the greater tensile strength of steel, it had a greater force and range. A skilled arbalestier could shoot two bolts per minute. Arbalests were sometimes considered inhumane or unfair weapons, since an inexperienced arbalestier could use one to kill a knight who had a lifetime of training.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The arbalest was a late variation of the medieval European crossbow. A larger weapon, the arbalest had a steel prod ("bow"). Since an arbalest was much larger than earlier crossbows, and because of the greater tensile strength of steel, it had a greater force and range. A skilled arbalestier could shoot two bolts per minute. Arbalests were sometimes considered inhumane or unfair weapons, since an inexperienced arbalestier could use one to kill a knight who had a lifetime of training.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HORSE_ARCHER</Tag>
+    <English>Horse Archer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>弓骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HORSE_ARCHER_PEDIA</Tag>
+    <English>[TAB]A horse archer is a cavalryman armed with a bow. Because using a bow requires a horseman to let go of the reins with both hands, horse archers need superb equestrian skills and horse archery is typically associated with steppe nomads. The weapon of choice for horse archers was the recurve bow, which is compact enough to shoot from a horse yet retained sufficient range and penetrating power. Mounted archers needed little or no armor and could ride light, fast mounts.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A horse archer is a cavalryman armed with a bow. Because using a bow requires a horseman to let go of the reins with both hands, horse archers need superb equestrian skills and horse archery is typically associated with steppe nomads. The weapon of choice for horse archers was the recurve bow, which is compact enough to shoot from a horse yet retained sufficient range and penetrating power. Mounted archers needed little or no armor and could ride light, fast mounts.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_MOUNTED_SERGEANT</Tag>
+    <English>Mounted Sergeant</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>骑马军士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_MOUNTED_SERGEANT_PEDIA</Tag>
+    <English>[TAB]A sergeant, or rather serjeant in medieval Europe, was a man of lesser rank and wealth to a knight, but with comparable equipment and training. Serjeants could fight either as heavy or light cavalry, and here fulfill that secondary role. Serjeants ranked above the common man-at-arms on the social scale. Although the social structure of the Norman society of England was generally static, the easiest manner for a man to attain social rank and improve his standing was through military service, as the Norman states, unlike the Germanic ones, believed in knighting men of common birth who demonstrated nobility and courage on the field.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A sergeant, or rather serjeant in medieval Europe, was a man of lesser rank and wealth to a knight, but with comparable equipment and training. Serjeants could fight either as heavy or light cavalry, and here fulfill that secondary role. Serjeants ranked above the common man-at-arms on the social scale. Although the social structure of the Norman society of England was generally static, the easiest manner for a man to attain social rank and improve his standing was through military service, as the Norman states, unlike the Germanic ones, believed in knighting men of common birth who demonstrated nobility and courage on the field.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_MOUNTED_INFANTRY</Tag>
+    <English>Mounted Infantry</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>骑马步兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_MOUNTED_INFANTRY_PEDIA</Tag>
+    <English>[TAB]Mounted Infantry soldiers use horses to get to the battlefield, but once there they dismount and fight on foot. They rarely take part in charges or other horseback maneuvers, and they tend to suffer badly when engaged in such against trained cavalry units. On the other hand, when fortified on a hill, Mounted Infantry can do serious damage to an attacking Horse Archer or Light Cavalry unit.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Mounted Infantry soldiers use horses to get to the battlefield, but once there they dismount and fight on foot. They rarely take part in charges or other horseback maneuvers, and they tend to suffer badly when engaged in such against trained cavalry units. On the other hand, when fortified on a hill, Mounted Infantry can do serious damage to an attacking Horse Archer or Light Cavalry unit.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_LANCER</Tag>
+    <English>Lancer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>枪骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_LANCER_PEDIA</Tag>
+    <English>[TAB]The Carolingians of early medieval France relied heavily on mounted warriors in their conquests. Inventions such as the stirrup and high-backed saddle are sometimes identified as the key element driving the shift from infantry to cavalry. Although these technologies were certainly useful in fighting from horseback, strategic considerations are just as likely to have driven the shift; the extended Carolingian empire required a mobile army. These early cavalry were protected with a byrnie (probably long scale armor) and fought primarily with lance and sword.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The Carolingians of early medieval France relied heavily on mounted warriors in their conquests. Inventions such as the stirrup and high-backed saddle are sometimes identified as the key element driving the shift from infantry to cavalry. Although these technologies were certainly useful in fighting from horseback, strategic considerations are just as likely to have driven the shift; the extended Carolingian empire required a mobile army. These early cavalry were protected with a byrnie (probably long scale armor) and fought primarily with lance and sword.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HEAVY_LANCER</Tag>
+    <English>Armored Lancer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>重装枪骑</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HEAVY_LANCER_PEDIA</Tag>
+    <English>[TAB]Increasing armor weight required new breeds of heavier horses to carry mounted warriors. The most highly prized type of war-horse was the destrier, bred specifically for battles or jousts. In the wet climates of Europe, these new breeds required horseshoes to protect their hoofs. All of these developments required a fairly wealthy and advanced civilization, but the price was well worth it: few lighter units could hope to stand against the determined charge of a fully armored lancer.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Increasing armor weight required new breeds of heavier horses to carry mounted warriors. The most highly prized type of war-horse was the destrier, bred specifically for battles or jousts. In the wet climates of Europe, these new breeds required horseshoes to protect their hoofs. All of these developments required a fairly wealthy and advanced civilization, but the price was well worth it: few lighter units could hope to stand against the determined charge of a fully armored lancer.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_TREBUCHET</Tag>
+    <English>Trebuchet</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>抛石机</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_TREBUCHET_PEDIA</Tag>
+    <English>[TAB]The trebuchet was a medieval siege weapon designed to throw a projectile a great distance through the air. The trebuchet originated in China sometime between the fifth and third centuries BC. From there it spread to the west, reaching Europe around 500 AD. [PARAGRAPH:2:1]Although it is usually thought of as a type of catapult, the trebuchet is in fact a gigantic sling attached to a lever. The shorter arm of the lever carries a counterweight, while the longer arm carries the sling that throws the projectile. In operation the sling end is pulled towards the ground (lifting the counterweight in the process) and held in place by a trigger while a projectile is loaded into the sling. When the trigger is released, the counterweight falls and the sling flies up and above the machine, releasing the projectile at the top of its arc. [PARAGRAPH:2:1]Constructed properly, trebuchets could fire very heavy loads. In modern reconstructions using trebuchets built with the original tools and materials, trebuchets have been able to throw projectiles weighing as much as 300 kilograms. Aiming the trebuchet was difficult and required some practice and knowledge of engineering - both of which were usually in short supply for medieval operators. Trebuchets were also extremely heavy and almost immobile; this, combined with their slow rate of their fire, made them impractical for anything except siege operations. [PARAGRAPH:2:1]Although the Chinese were the first to develop the trebuchet, by the time of the Mongol invasions the Chinese had fallen behind other parts of the world in siege technology. This was due to the fact that China had been politically united for long periods of time, preventing the formation of strong fortresses across the country, and the traditional enemies of the Chinese were nomadic warriors - not fortified city-dwellers. Nevertheless, the Chinese were still far more advanced in siege warfare than the Mongols, and it was not until the Mongols adopted Chinese practices that they began to have success capturing enemy fortifications. [PARAGRAPH:2:1]Late in the conquest of Song China, Mongol leader Kublai Khan brought in Arab engineers from the Mongol holdings in Persia to build hinged counterweight trebuchets, which were more advanced than anything yet seen in China. With the aid of these powerful weapons, Kublai was able to take the previously-impenetrable fortress of Xiangyang in 1273, and from there rapidly take the rest of Song China's cities, completing his conquest of the Song Empire in 1279. [PARAGRAPH:2:1]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The trebuchet was a medieval siege weapon designed to throw a projectile a great distance through the air. The trebuchet originated in China sometime between the fifth and third centuries BC. From there it spread to the west, reaching Europe around 500 AD. [PARAGRAPH:2:1]Although it is usually thought of as a type of catapult, the trebuchet is in fact a gigantic sling attached to a lever. The shorter arm of the lever carries a counterweight, while the longer arm carries the sling that throws the projectile. In operation the sling end is pulled towards the ground (lifting the counterweight in the process) and held in place by a trigger while a projectile is loaded into the sling. When the trigger is released, the counterweight falls and the sling flies up and above the machine, releasing the projectile at the top of its arc. [PARAGRAPH:2:1]Constructed properly, trebuchets could fire very heavy loads. In modern reconstructions using trebuchets built with the original tools and materials, trebuchets have been able to throw projectiles weighing as much as 300 kilograms. Aiming the trebuchet was difficult and required some practice and knowledge of engineering - both of which were usually in short supply for medieval operators. Trebuchets were also extremely heavy and almost immobile; this, combined with their slow rate of their fire, made them impractical for anything except siege operations. [PARAGRAPH:2:1]Although the Chinese were the first to develop the trebuchet, by the time of the Mongol invasions the Chinese had fallen behind other parts of the world in siege technology. This was due to the fact that China had been politically united for long periods of time, preventing the formation of strong fortresses across the country, and the traditional enemies of the Chinese were nomadic warriors - not fortified city-dwellers. Nevertheless, the Chinese were still far more advanced in siege warfare than the Mongols, and it was not until the Mongols adopted Chinese practices that they began to have success capturing enemy fortifications. [PARAGRAPH:2:1]Late in the conquest of Song China, Mongol leader Kublai Khan brought in Arab engineers from the Mongol holdings in Persia to build hinged counterweight trebuchets, which were more advanced than anything yet seen in China. With the aid of these powerful weapons, Kublai was able to take the previously-impenetrable fortress of Xiangyang in 1273, and from there rapidly take the rest of Song China's cities, completing his conquest of the Song Empire in 1279. [PARAGRAPH:2:1]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_BOMBARD</Tag>
+    <English>Bombard</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>臼炮</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_BOMBARD_PEDIA</Tag>
+    <English>[TAB]A bombard is a medieval cannon or mortar, used chiefly in sieges for throwing heavy stone balls. This weapon was usually used during sieges to hurl various forms of missile into enemy fortifications. Projectiles such as stone or metal balls, burning materials and weighted cloth soaked in quicklime or Greek fire are documented.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A bombard is a medieval cannon or mortar, used chiefly in sieges for throwing heavy stone balls. This weapon was usually used during sieges to hurl various forms of missile into enemy fortifications. Projectiles such as stone or metal balls, burning materials and weighted cloth soaked in quicklime or Greek fire are documented.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_FIELD_ARTILLERY</Tag>
+    <English>Field Artillery</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>野战炮</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_FIELD_ARTILLERY_PEDIA</Tag>
+    <English>[TAB]Field artillery is a type of mobile artillery used to suppport armies in the field, offering mobility, tactical proficiency and specializing in long or short range bombardment. Until the 19th century they were known as foot artillery, for while the guns were pulled by beasts of burden (often horses), their crews marched on foot providing fire support for the infantry, unlike the later horse artillery, with their emphasis on speed. who supported cavalry units with their lighter guns and their crews travelling on horseback. Early artillery were unsuited to the battlefield, as the extremely massive pieces could not be easily moved except in areas under friendly control. Thus their principal role was limited to functions like breaking seiges.[PARAGRAPH:2]The first field artillery were developed with advances in metallurgy which allowed thinner barrels able to withstand explosive forces without bursting, thus making them considerably lighter. But there was always the risk that constant changes on the battlefield would leave slow-moving artillery units behind. making them vulnerable to enemy cavalry who often specialized in seeking them out and destroying them. It was only with invention of the limber, pulled by horses hitched to a wheeled artillery piece, in the 18th century, that the concept of field artillery become truly established.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Field artillery is a type of mobile artillery used to suppport armies in the field, offering mobility, tactical proficiency and specializing in long or short range bombardment. Until the 19th century they were known as foot artillery, for while the guns were pulled by beasts of burden (often horses), their crews marched on foot providing fire support for the infantry, unlike the later horse artillery, with their emphasis on speed. who supported cavalry units with their lighter guns and their crews travelling on horseback. Early artillery were unsuited to the battlefield, as the extremely massive pieces could not be easily moved except in areas under friendly control. Thus their principal role was limited to functions like breaking seiges.[PARAGRAPH:2]The first field artillery were developed with advances in metallurgy which allowed thinner barrels able to withstand explosive forces without bursting, thus making them considerably lighter. But there was always the risk that constant changes on the battlefield would leave slow-moving artillery units behind. making them vulnerable to enemy cavalry who often specialized in seeking them out and destroying them. It was only with invention of the limber, pulled by horses hitched to a wheeled artillery piece, in the 18th century, that the concept of field artillery become truly established.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HUSSAR</Tag>
+    <English>Hussar</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>轻骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HUSSAR_PEDIA</Tag>
+    <English>[TAB]Frederick the Great was instrumental in spreading the irregular light cavalry of Hungary (huszars) to the battlefields of Europe. By dropping metal body armor, these light hussars became ideal for reconnaissance and raiding. In battle, they were used in such light cavalry roles as harassing enemy skirmishers, overrunning artillery positions, and pursuing fleeing troops. Following the Prussian example, hussar regiments were introduced across Europe, often maintaining the colorful uniforms a reputation for recklessness in battle of Frederick's original hussars.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Frederick the Great was instrumental in spreading the irregular light cavalry of Hungary (huszars) to the battlefields of Europe. By dropping metal body armor, these light hussars became ideal for reconnaissance and raiding. In battle, they were used in such light cavalry roles as harassing enemy skirmishers, overrunning artillery positions, and pursuing fleeing troops. Following the Prussian example, hussar regiments were introduced across Europe, often maintaining the colorful uniforms a reputation for recklessness in battle of Frederick's original hussars.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_PISTOLIER</Tag>
+    <English>Pistolier</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>手枪骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_PISTOLIER_PEDIA</Tag>
+    <English>[TAB]Pistols were the first gunpowder weapons developed for cavalry, and the pistoliers was one of the new cavalry types to develop which signaled the end of the lance-charging heavy cavalry. Pistoliers were expected to be able to engage their opponents both with firearms and sword; they formed up in deep blocks and used their firearms in a caracole attack to disrupt enemy infantry formations before charging home and engaging in hand-to-hand combat. German mercenary cavalry called Reiters or "Black Riders" were some of the most prominent pistoliers.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Pistols were the first gunpowder weapons developed for cavalry, and the pistoliers was one of the new cavalry types to develop which signaled the end of the lance-charging heavy cavalry. Pistoliers were expected to be able to engage their opponents both with firearms and sword; they formed up in deep blocks and used their firearms in a caracole attack to disrupt enemy infantry formations before charging home and engaging in hand-to-hand combat. German mercenary cavalry called Reiters or "Black Riders" were some of the most prominent pistoliers.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_DRAGOON</Tag>
+    <English>Dragoon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>龙骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_DRAGOON_PEDIA</Tag>
+    <English>[TAB]The word "dragoon" is derived from the French Army designation dragon which was originally the name of a type of firearm (whose name means dragon) carried by French dragoons. In French, Portuguese and Spanish there is no distinction between the words dragoon and dragon.[PARAGRAPH:2]Dragoons were originally infantrymen deployed by horse, but later became cavalry. They were therefore trained in horse riding as well as infantry fighting skills. Dragoon regiments were established in most European armies during the late 17th and early 18th centuries. Originally dragoons were considered as separate from regular cavalry, but during the 18th century they evolved into conventional mounted troops trained to fight from horseback.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>[TAB]The word "dragoon" is derived from the French Army designation dragon which was originally the name of a type of firearm (whose name means dragon) carried by French dragoons. In French, Portuguese and Spanish there is no distinction between the words dragoon and dragon.[PARAGRAPH:2]Dragoons were originally infantrymen deployed by horse, but later became cavalry. They were therefore trained in horse riding as well as infantry fighting skills. Dragoon regiments were established in most European armies during the late 17th and early 18th centuries. Originally dragoons were considered as separate from regular cavalry, but during the 18th century they evolved into conventional mounted troops trained to fight from horseback.</Chinese>   
+    </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ARQUEBUSIER</Tag>
+    <English>Arquebusier</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>火绳枪兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ARQUEBUSIER_PEDIA</Tag>
+    <English>[TAB]The arquebus is an early muzzle-loaded firearm. They were used against enemies that were often protected by steel-plate armor, which a bullet could pierce only at close range. The arquebus was unable to match the accuracy of a bow in the hands of a highly-skilled archer. However, it had a faster rate of fire than the most powerful crossbow, and a much shorter learning curve than a longbow. Once the methods were developed, powder and shot were relatively easy to mass-produce, while arrow making was a genuine craft requiring highly skilled labor.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The arquebus is an early muzzle-loaded firearm. They were used against enemies that were often protected by steel-plate armor, which a bullet could pierce only at close range. The arquebus was unable to match the accuracy of a bow in the hands of a highly-skilled archer. However, it had a faster rate of fire than the most powerful crossbow, and a much shorter learning curve than a longbow. Once the methods were developed, powder and shot were relatively easy to mass-produce, while arrow making was a genuine craft requiring highly skilled labor.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_LINE_INFANTRY</Tag>
+    <English>Line Infantry</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>线列步兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_LINE_INFANTRY_PEDIA</Tag>
+    <English>[TAB]Line infantry refers to those regiments that historically fought in linear formations, unlike light troops who fought in loose order. Generally speaking, line infantry were so named because they made up the line of battle rather than because they necessarily fought in lines. The 17th.C saw the expansion of the roles of the infantry as the improvement of gunpowder weapons made the mixed pike and shot formations like the Spanish Tercios increasingly effective. Fighting in close order squares these disciplined combined arms units were feared on the battlefield throughout Europe.[PARAGRAPH:2]Increasingly in the 18th century line infantry units became wholly equiped with accurate long-range firearms and were deployed as integrated units. Typically, specialist companies were deployed on the flanks of the main body of musket-armed infantry with a company of light infantry trained as skirmishers to operate independently on the battlefield and a company of grenadiers, who were usually the biggest and strongest men in the regiment, deployed in advance as the lead assault troops. Regiments of these line infantry remained the mainstay of all European armies until the beginning of the 20th century.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Line infantry refers to those regiments that historically fought in linear formations, unlike light troops who fought in loose order. Generally speaking, line infantry were so named because they made up the line of battle rather than because they necessarily fought in lines. The 17th.C saw the expansion of the roles of the infantry as the improvement of gunpowder weapons made the mixed pike and shot formations like the Spanish Tercios increasingly effective. Fighting in close order squares these disciplined combined arms units were feared on the battlefield throughout Europe.[PARAGRAPH:2]Increasingly in the 18th century line infantry units became wholly equiped with accurate long-range firearms and were deployed as integrated units. Typically, specialist companies were deployed on the flanks of the main body of musket-armed infantry with a company of light infantry trained as skirmishers to operate independently on the battlefield and a company of grenadiers, who were usually the biggest and strongest men in the regiment, deployed in advance as the lead assault troops. Regiments of these line infantry remained the mainstay of all European armies until the beginning of the 20th century.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SWORDSMAN</Tag>
+    <English>Swordsman</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>剑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SWORDSMAN_PEDIA</Tag>
+    <English>[TAB]Swords in antiquity and classical times tended to be relatively short, at first because they were made of bronze and later because they were rarely called upon to penetrate armor. The blade of the classic Roman stabbing sword, the gladius, was only some two feet long, though in the twilight years of the empire the gladius gave way to the spatha, the long slashing sword of the barbarians and forerunner of the great broadswords of medieval Europe. During the Early Middle Ages, European swords tended to be long and straight, with no crossguard to protect the wielder's hand.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Swords in antiquity and classical times tended to be relatively short, at first because they were made of bronze and later because they were rarely called upon to penetrate armor. The blade of the classic Roman stabbing sword, the gladius, was only some two feet long, though in the twilight years of the empire the gladius gave way to the spatha, the long slashing sword of the barbarians and forerunner of the great broadswords of medieval Europe. During the Early Middle Ages, European swords tended to be long and straight, with no crossguard to protect the wielder's hand.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_LONG_SWORDSMAN</Tag>
+    <English>Longswordsman</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>长剑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_LONG_SWORDSMAN_PEDIA</Tag>
+    <English>[TAB]The Longsword is a type of European sword used during the late medieval period. Made to counter the increasingly strong armor of the time, the longsword was commonly held in combat with both hands, though some may be used single-handed. A man-at-arms or dismounted knight fighting with a longsword would also have worn substantial other armor, such as a mail hauberk and helm. The terms "hand-and-a-half sword", "greatsword", and "bastard sword" are used colloquially to refer to longswords in general.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The Longsword is a type of European sword used during the late medieval period. Made to counter the increasingly strong armor of the time, the longsword was commonly held in combat with both hands, though some may be used single-handed. A man-at-arms or dismounted knight fighting with a longsword would also have worn substantial other armor, such as a mail hauberk and helm. The terms "hand-and-a-half sword", "greatsword", and "bastard sword" are used colloquially to refer to longswords in general.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SCOUT</Tag>
+    <English>Skirmisher</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>散兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SCOUT_PEDIA</Tag>
+    <English>[TAB]Light cavalry have been employed as scouts and skirmisher from ancient times. The only real requirement for these units is that they be able to cover great distances and escape from situations in which they would be killed. Specially trained or bred horses are not required, and the unit needs to be only minimally armored. Before the development of the stirrup and other equestrian technology, it took years to learn to fight from horseback effectively, not a worthwhile investment for scouting units.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Light cavalry have been employed as scouts and skirmisher from ancient times. The only real requirement for these units is that they be able to cover great distances and escape from situations in which they would be killed. Specially trained or bred horses are not required, and the unit needs to be only minimally armored. Before the development of the stirrup and other equestrian technology, it took years to learn to fight from horseback effectively, not a worthwhile investment for scouting units.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_COGGE</Tag>
+    <English>Cog</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>柯克战船</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_COGGE_PEDIA</Tag>
+    <English>[TAB]The cog (or cogge) was a type of ship which first appeared in Northern Europe and was widely used from the 12th century onwards. Cogs were generally made of oak, an abundant timber in the Baltic region, and were fitted with a single mast and square-rigged sail. Even though this rigging prevented them sailing into the wind, cogs between associated with sea going trade in the northern waters of Medieval Europe. They were generally flat-bottomed and employed a stern-mounted rudder with fore and stern castles as defense against pirates, enabling them to often used as warships. By the late 15th century they were replaced by the carrack which was more sea-worthy and suitable for sailing in the open ocean over longer distances.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The cog (or cogge) was a type of ship which first appeared in Northern Europe and was widely used from the 12th century onwards. Cogs were generally made of oak, an abundant timber in the Baltic region, and were fitted with a single mast and square-rigged sail. Even though this rigging prevented them sailing into the wind, cogs between associated with sea going trade in the northern waters of Medieval Europe. They were generally flat-bottomed and employed a stern-mounted rudder with fore and stern castles as defense against pirates, enabling them to often used as warships. By the late 15th century they were replaced by the carrack which was more sea-worthy and suitable for sailing in the open ocean over longer distances.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_GUN_GALLEY</Tag>
+    <English>Gun Galley</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>帆桨舰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_GUN_GALLEY_PEDIA</Tag>
+    <English>[TAB]A galley is a type of ship that can be propelled entirely by human oarsmen and used for warfare and trade, but usually had masts and sails for use when the wind was favourable. Various types of galleys dominated naval warfare in the Meditteranean Sea from the 8th century BC to the 16th century. Many medieval states, notably Venice, Genoa, the Byzantines, Arabs and the Ottoman Turks depended largely on heavily-armed galleys until the introduction of the ocean-going "man-of-war". The Battle of Lepanto, in 1571, was one of the largest and last sea battles in which galleys played the principal part.[PARAGRAPH:2]Galleys remained in regular use in the Meditteranean until the introduction of broadside sailing ships in the 17th century. While war galleys originally carried archers and slingers for offensive operations and defence, the advent of gunpowder weapons saw the development of early cannons mounted on ships. In fact, medieval war galleys pioneered the use of naval guns, with the typical Venetian gun galley or "laterna" mounting high calibe guns in the bow and stern with various lighter swivel guns deployed throughout the ship. However, with the development of the high-sided carrack and galleass capable of powerful broadside cannonfire, the usefulness of these gun galleys eventually came to an end.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A galley is a type of ship that can be propelled entirely by human oarsmen and used for warfare and trade, but usually had masts and sails for use when the wind was favourable. Various types of galleys dominated naval warfare in the Meditteranean Sea from the 8th century BC to the 16th century. Many medieval states, notably Venice, Genoa, the Byzantines, Arabs and the Ottoman Turks depended largely on heavily-armed galleys until the introduction of the ocean-going "man-of-war". The Battle of Lepanto, in 1571, was one of the largest and last sea battles in which galleys played the principal part.[PARAGRAPH:2]Galleys remained in regular use in the Meditteranean until the introduction of broadside sailing ships in the 17th century. While war galleys originally carried archers and slingers for offensive operations and defence, the advent of gunpowder weapons saw the development of early cannons mounted on ships. In fact, medieval war galleys pioneered the use of naval guns, with the typical Venetian gun galley or "laterna" mounting high calibe guns in the bow and stern with various lighter swivel guns deployed throughout the ship. However, with the development of the high-sided carrack and galleass capable of powerful broadside cannonfire, the usefulness of these gun galleys eventually came to an end.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HOLK</Tag>
+    <English>Holk</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>霍克战船</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HOLK_PEDIA</Tag>
+    <English>[TAB]A holk (or hulk) was a type of sea craft similiar to the cog and was one of the technological forerunners of the carrack and caravel. Like cogs, they were generally flat-bottomed and square-sailed with overlapping "strakes" or planks at each end and full lapstrakes covering the sides. Their keels were shallow and their sternpost straight and long with a stern-mounted central rudder similiar to those in the cog. Improvements in wood-working techniques allowed a transition from smaller cogs to holks of greater capacity until both were overtaken by the development of the carrack and caravel in the late 14th century.[PARAGRAPH:2]The holk was probably a fairly minor type of boat and largely confined to the Low Countries and the Baltic where it was used originally as a river or canal boat with a limited potential for sea cruising. Even so, for a period in the 14th century holks began to evolve into larger examples which exceeded the cog in both size and capacity, if not in ocean-going sea-worthiness and the holk remained a major load carrier in the medieval economy well into the 16th century.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A holk (or hulk) was a type of sea craft similiar to the cog and was one of the technological forerunners of the carrack and caravel. Like cogs, they were generally flat-bottomed and square-sailed with overlapping "strakes" or planks at each end and full lapstrakes covering the sides. Their keels were shallow and their sternpost straight and long with a stern-mounted central rudder similiar to those in the cog. Improvements in wood-working techniques allowed a transition from smaller cogs to holks of greater capacity until both were overtaken by the development of the carrack and caravel in the late 14th century.[PARAGRAPH:2]The holk was probably a fairly minor type of boat and largely confined to the Low Countries and the Baltic where it was used originally as a river or canal boat with a limited potential for sea cruising. Even so, for a period in the 14th century holks began to evolve into larger examples which exceeded the cog in both size and capacity, if not in ocean-going sea-worthiness and the holk remained a major load carrier in the medieval economy well into the 16th century.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_WAR_GALLEY</Tag>
+    <English>War Galley</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>军用帆桨舰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_WAR_GALLEY_PEDIA</Tag>
+    <English>[TAB]Galleys, propelled by banks of oarsmen and equiped with masts and sails, have been employed in warfare throughout history since the ancient Greeks and Phoenicians. While the use of war galleys was largely confined to the Meditteranean, the early Norsemen developed the longship, a clinker-built narrow, sleek galley of shallow draught capable of travelling on inland rivers as well as being extremely seaworthy on the open ocean under sail. Longships became the epitome of Norse naval power and remained dominant in Northern Europe until the introduction of the cog and the carrack in the 14th century.[PARAGRAPH:2]War galleys, as employed in the Meditteranean, were less capable of ocean voyages but ideal for shallow waters and near-shore navigation and soon grew considerably in size and firepower. The largest examples were rowed by nearly 300 men and carried a further 400 crew and fighting soldiers as well as dozens of cannons of all sizes. By the late 16th century the large war galleys became mostly obsolete by the man-of-war although they remained the mainstay of the North African "corsair" pirate fleets and continue to play a significant role in the Meditteranean until the beginning of the 19th century.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Galleys, propelled by banks of oarsmen and equiped with masts and sails, have been employed in warfare throughout history since the ancient Greeks and Phoenicians. While the use of war galleys was largely confined to the Meditteranean, the early Norsemen developed the longship, a clinker-built narrow, sleek galley of shallow draught capable of travelling on inland rivers as well as being extremely seaworthy on the open ocean under sail. Longships became the epitome of Norse naval power and remained dominant in Northern Europe until the introduction of the cog and the carrack in the 14th century.[PARAGRAPH:2]War galleys, as employed in the Meditteranean, were less capable of ocean voyages but ideal for shallow waters and near-shore navigation and soon grew considerably in size and firepower. The largest examples were rowed by nearly 300 men and carried a further 400 crew and fighting soldiers as well as dozens of cannons of all sizes. By the late 16th century the large war galleys became mostly obsolete by the man-of-war although they remained the mainstay of the North African "corsair" pirate fleets and continue to play a significant role in the Meditteranean until the beginning of the 19th century.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_PROSECUTOR</Tag>
+    <English>Religious Prosecutor</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>宗教裁判官</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_PROSECUTOR_PEDIA</Tag>
+    <English>[TAB]While Missionaries often focus on extolling the glories of their respective gods to spread their religion, the Prosecutors focuses instead on pointing out the fallacies of all religions but his own. Ardent in the belief that all other religions are wrong, the Prosecutor lives to destroy the beliefs of others. If the Prosecution convicted a person of heresy, the personal property of a condemned person was confiscated and places of worship were destroyed; based on medieval and feudal laws. Usually the confiscated property was divided three ways: by the Prosecution members, the church officials, and the state treasury. The Church and state kept strict accounts of the prisoner's incarceration, trial and execution costs. If the value of his confiscated property was not enough to cover these costs, then his heirs had to pay the difference. Records show many women and children were left penniless from such confiscation. You may expend a Prosecutor inside a city to remove all religions from that city except your own.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]While Missionaries often focus on extolling the glories of their respective gods to spread their religion, the Prosecutors focuses instead on pointing out the fallacies of all religions but his own. Ardent in the belief that all other religions are wrong, the Prosecutor lives to destroy the beliefs of others. If the Prosecution convicted a person of heresy, the personal property of a condemned person was confiscated and places of worship were destroyed; based on medieval and feudal laws. Usually the confiscated property was divided three ways: by the Prosecution members, the church officials, and the state treasury. The Church and state kept strict accounts of the prisoner's incarceration, trial and execution costs. If the value of his confiscated property was not enough to cover these costs, then his heirs had to pay the difference. Records show many women and children were left penniless from such confiscation. You may expend a Prosecutor inside a city to remove all religions from that city except your own.</Chinese>
+  </TEXT>
+  <!-- Unique Units -->
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ARABIA_GHAZI</Tag>
+    <English>Ghazi</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>加齐战士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ARABIA_GHAZI_PEDIA</Tag>
+    <English>[TAB]Ghazi warriors were fierce Arabic light/medium cavalry armed with sword and lance, who raided deep into enemy territory to make war on unbelievers. Depending largely on plunder for their livelihood they were organized in bands similiar to mercenary companies which attracted religious zealots and adventurers of every kind. Within the context of Islamic jihad warfare, they struck fast and hard inside enemy borders to destroy war materials and morale, then withdrawing with all the loot they could carry. As flexible and highly mobile border defenders and raiders they often preceeded the deployment of much larger armies during the early Arab invasions of Persia, Egypt and North Africa.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Ghazi warriors were fierce Arabic light/medium cavalry armed with sword and lance, who raided deep into enemy territory to make war on unbelievers. Depending largely on plunder for their livelihood they were organized in bands similiar to mercenary companies which attracted religious zealots and adventurers of every kind. Within the context of Islamic jihad warfare, they struck fast and hard inside enemy borders to destroy war materials and morale, then withdrawing with all the loot they could carry. As flexible and highly mobile border defenders and raiders they often preceeded the deployment of much larger armies during the early Arab invasions of Persia, Egypt and North Africa.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_BURGUNDIAN_PALADIN</Tag>
+    <English>Paladin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>帕拉丁圣骑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_BURGUNDIAN_PALADIN_PEDIA</Tag>
+    <English>[TAB]The Paladins (often called Chevaliers) were Medieval knights who followed the code of chivalry or knightly conduct, which emphasized courage, honour and service. The Paladin was adept at the art of war, trained in fighting in armour on horses with lances, swords and shields. They were expected to show courage, be gallant to women, defend the Church and swear off cowardice and baseness. Their origins lie with the first mounted infantry in the armies of the Emperor Charlemagne as some elite warriors who wore armour and fought on horseback were rewarded with grants of land called "benefices" and became powerful captains with feudal fiefs that soon became hereditary and powerful, both in political influence and economic wealth.[PARAGRAPH:2]These knights became the mainstay of governing power under the King, raising their own armies in time of war and often rivalled the Church in wealth and influence. But chivalry and the Church remained closely entwined and the Crusades helped to reinforce the moral code of chivalry as it related to religion. Thus Christian armies were encouraged to devote their efforts to sacred purposes and the Paladins were expected to use their weapons for the protection of the weak and defenceless, to women and children, and above all to the defence of churches and pilgrims, giving rise to the religious military orders like the Templars, the Hospitallers and the Teutonic Knights. Some knightly orders, like the English "Order of the Bath" or the "Order of the Garter" remain day as honorary associations whose membership is granted by the Monarch for meritorious achievement.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The Paladins (often called Chevaliers) were Medieval knights who followed the code of chivalry or knightly conduct, which emphasized courage, honour and service. The Paladin was adept at the art of war, trained in fighting in armour on horses with lances, swords and shields. They were expected to show courage, be gallant to women, defend the Church and swear off cowardice and baseness. Their origins lie with the first mounted infantry in the armies of the Emperor Charlemagne as some elite warriors who wore armour and fought on horseback were rewarded with grants of land called "benefices" and became powerful captains with feudal fiefs that soon became hereditary and powerful, both in political influence and economic wealth.[PARAGRAPH:2]These knights became the mainstay of governing power under the King, raising their own armies in time of war and often rivalled the Church in wealth and influence. But chivalry and the Church remained closely entwined and the Crusades helped to reinforce the moral code of chivalry as it related to religion. Thus Christian armies were encouraged to devote their efforts to sacred purposes and the Paladins were expected to use their weapons for the protection of the weak and defenceless, to women and children, and above all to the defence of churches and pilgrims, giving rise to the religious military orders like the Templars, the Hospitallers and the Teutonic Knights. Some knightly orders, like the English "Order of the Bath" or the "Order of the Garter" remain day as honorary associations whose membership is granted by the Monarch for meritorious achievement.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_BULGARIAN_KONNIK</Tag>
+    <English>Konnik</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>骁骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_BULGARIA_KONNIK_PEDIA</Tag>
+    <English>[TAB]The Bulgars were highly skilled in the equestrian arts. Their army mainly consisted of horseman because of their high skill. Every Bulgar horseman had high discipline and had several horses. However, only a single horse could be used for wartime matters, and it was forbidden to do anything else with it. It is believed that the Bulgars were the first who brought the stirrups to Europe. This gave them advantages above the other European armies of this time. The Bulgars could use bows still mounted on horses. Swords and spears were also used in war. The stirrups also increased the stability and speed of the rider.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The Bulgars were highly skilled in the equestrian arts. Their army mainly consisted of horseman because of their high skill. Every Bulgar horseman had high discipline and had several horses. However, only a single horse could be used for wartime matters, and it was forbidden to do anything else with it. It is believed that the Bulgars were the first who brought the stirrups to Europe. This gave them advantages above the other European armies of this time. The Bulgars could use bows still mounted on horses. Swords and spears were also used in war. The stirrups also increased the stability and speed of the rider.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_CORDOBAN_BERBER_CAVALRY</Tag>
+    <English>Berber Cavalry</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>柏柏尔骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_CORDOBAN_BERBER_CAVALRY_PEDIA</Tag>
+    <English>[TAB]Following the Muslim conquest of North Africa in the 7th century, the Berber peoples of the Maghreb and Morocco largely adopted Islam and became the mainstay of Arab armies in the West. Skilled with bow and javelin and mounted on camels, they soon mastered the horse and became adept as scouting and raiding light cavalry. The Arab conquest of Iberia initiated by the Berber general, Tarik ibn-Zihad consisted of about 300 elite Arabian cavalry and a mixed Berber army of about 1800-2000 bowmen, spearmen and light cavalry. Later Andalusian armies were largely comprised of a core of Arabian noble horsemen and a majority of Berber voluteers and mercenaries who fought both on foot and on horseback.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Following the Muslim conquest of North Africa in the 7th century, the Berber peoples of the Maghreb and Morocco largely adopted Islam and became the mainstay of Arab armies in the West. Skilled with bow and javelin and mounted on camels, they soon mastered the horse and became adept as scouting and raiding light cavalry. The Arab conquest of Iberia initiated by the Berber general, Tarik ibn-Zihad consisted of about 300 elite Arabian cavalry and a mixed Berber army of about 1800-2000 bowmen, spearmen and light cavalry. Later Andalusian armies were largely comprised of a core of Arabian noble horsemen and a majority of Berber voluteers and mercenaries who fought both on foot and on horseback.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SPANISH_TERCIO</Tag>
+    <English>Tercio</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>大方阵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SPANISH_TERCIO_PEDIA</Tag>
+    <English>[TAB]The Tercio ("one third"), also known as Tercio Espa駉l, was a Renaissance era military formation similar to and derivative of the Swiss pike square and was a term used to describe a mixed infantry formation of about 3,000 pikemen, swordsmen and arquebusiers in a mutually supportive formation; it was also sometimes referred to by other nations as a Spanish Square after its introduction by the Spanish army, and was widely adopted across international lines and dominated formalized field warfare for more than a century.[PARAGRAPH:2]The Tercio Espa駉l was the product of the Italian Wars in which the Spanish general, Gonzalo Fern醤dez de C髍doba, would reorganize the Spanish army throughout a series of conflicts at the end of the 15th and early 16th centuries, into a tactically unique combination of modern and medieval combined arms centered around armored infantry. This emphasis on the infantry was the result of Spain's great dependence on mules in daily life, which in turn resulted in an inability to raise large cavalry forces. It marked the transformation of medieval military institutions into the early modern combined-arms army. (See: Pike and Shot for an excellent description of the eventual formation.) Gonzalo Fern醤dez, developed the Tercio to further increase the effectiveness of Spanish infantry against every manner of opposing infantry while remaining impervious to the dangers of a cavalry charge.[PARAGRAPH:2]At first the army consisted of units of around 6000 men, called coronelias, which by 1534 had been reduced into the Tercios of 3000 for increased mobility on the offensive.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The Tercio ("one third"), also known as Tercio Espa駉l, was a Renaissance era military formation similar to and derivative of the Swiss pike square and was a term used to describe a mixed infantry formation of about 3,000 pikemen, swordsmen and arquebusiers in a mutually supportive formation; it was also sometimes referred to by other nations as a Spanish Square after its introduction by the Spanish army, and was widely adopted across international lines and dominated formalized field warfare for more than a century.[PARAGRAPH:2]The Tercio Espa駉l was the product of the Italian Wars in which the Spanish general, Gonzalo Fern醤dez de C髍doba, would reorganize the Spanish army throughout a series of conflicts at the end of the 15th and early 16th centuries, into a tactically unique combination of modern and medieval combined arms centered around armored infantry. This emphasis on the infantry was the result of Spain's great dependence on mules in daily life, which in turn resulted in an inability to raise large cavalry forces. It marked the transformation of medieval military institutions into the early modern combined-arms army. (See: Pike and Shot for an excellent description of the eventual formation.) Gonzalo Fern醤dez, developed the Tercio to further increase the effectiveness of Spanish infantry against every manner of opposing infantry while remaining impervious to the dangers of a cavalry charge.[PARAGRAPH:2]At first the army consisted of units of around 6000 men, called coronelias, which by 1534 had been reduced into the Tercios of 3000 for increased mobility on the offensive.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_VENICE_GALLEAS</Tag>
+    <English>Galleass</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尼斯炮舰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_VENICE_GALLEAS_PEDIA</Tag>
+    <English>[TAB]The galleass or "galliass" developed from large merchant galleys converted for military use they were higher and larger than regular ("light") galleys. They had up to 32 oars, each worked by up to 5 men. They usually had three masts and a forecastle and aftcastle. Much effort was made in Venice to make these galleasses as fast as possible to compete with regular galleys. The gun-deck usually ran over the rowers' heads, but there are also pictures showing the opposite arrangement.[PARAGRAPH:2]Galleasses usually carried more sails than true galleys, and were far deadlier; a galley caught broadside lay all but helpless, but coming broadside to a galleass, as with a ship of the line, exposed an attacker to her gunfire. The galleass exemplified an intermediate type between the galley and the true man-of-war. Relatively few galleasses were built - one disadvantage was that, being more reliant on sails, their position at the front of the galley line at the start of a battle could not be guaranteed - but they were used at the Battle of Lepanto (7 October 1571), their firepower helping to win victory for the Christian fleet, and some sufficiently seaworthy galleasses accompanied the Spanish Armada in 1588 (e.g. La Girona). In the 15th century a type of light galleass, called the frigate, was built in southern European countries to answer the increasing challenge posed by the north African based Barbary pirates in their fast galleys.[PARAGRAPH:2]In the Mediterranean, with its shallower waters, less dangerous weather and fickle winds, both galleasses and galleys continued in use, particularly in Venice and Turkey, long after they became obsolete elsewhere. Later, "round ships" and galleasses were replaced by galleons and ships of the line which originated in Atlantic Europe. The first Venetian ship of the line was built in 1660.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The galleass or "galliass" developed from large merchant galleys converted for military use they were higher and larger than regular ("light") galleys. They had up to 32 oars, each worked by up to 5 men. They usually had three masts and a forecastle and aftcastle. Much effort was made in Venice to make these galleasses as fast as possible to compete with regular galleys. The gun-deck usually ran over the rowers' heads, but there are also pictures showing the opposite arrangement.[PARAGRAPH:2]Galleasses usually carried more sails than true galleys, and were far deadlier; a galley caught broadside lay all but helpless, but coming broadside to a galleass, as with a ship of the line, exposed an attacker to her gunfire. The galleass exemplified an intermediate type between the galley and the true man-of-war. Relatively few galleasses were built - one disadvantage was that, being more reliant on sails, their position at the front of the galley line at the start of a battle could not be guaranteed - but they were used at the Battle of Lepanto (7 October 1571), their firepower helping to win victory for the Christian fleet, and some sufficiently seaworthy galleasses accompanied the Spanish Armada in 1588 (e.g. La Girona). In the 15th century a type of light galleass, called the frigate, was built in southern European countries to answer the increasing challenge posed by the north African based Barbary pirates in their fast galleys.[PARAGRAPH:2]In the Mediterranean, with its shallower waters, less dangerous weather and fickle winds, both galleasses and galleys continued in use, particularly in Venice and Turkey, long after they became obsolete elsewhere. Later, "round ships" and galleasses were replaced by galleons and ships of the line which originated in Atlantic Europe. The first Venetian ship of the line was built in 1660.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HUNGARIAN_HUSZAR</Tag>
+    <English>Husz醨</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>胡萨尔轻骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_HUNGARIAN_HUSZAR_PEDIA</Tag>
+    <English>[TAB]A type of irregular light horsemen was already well established by the 15th century in medieval Hungary. Etymologists are divided over the derivation of the word 'hussar'. Many scholars believe the word that was passed into Hungarian by way of the Croatians originates from the Latin word 'cursus' meaning 'raid'. According to Webster's the word hussar stems from the Hungarian husz醨, which in turn originates from the Serbian husar or gusar, meaning pirate, from the Medieval Latin cursarius (cf. the English word corsair). A variant of this theory is offered by Byzantinist scholars, who argue the term originated in Roman military practice, and the cursarius--a group of fast moving horsemen used for scouting or raiding-came to be called tsanarioi in Greek or the Armenian Chosarioi. Through Byzantine Army operations in the Balkans in the 10th and 11th centuries, the word was thus reintroduced to Western European military practice after its original usage had been lost with the collapse of Rome in the west. According to another theory, the word is derived from the Hungarian word of h鷖z meaning twenty, suggesting that hussar regiments were originally composed of twenty men. Or the term husz醨 probably signified 'one in twenty' as selected for service by ballot.[PARAGRAPH:2]The hussars reportedly originated in bands of Hungarian and Serbian warriors crossing into southern Hungary after the Turkish invasion of Serbia at the end of the 14th century. The Governor of Hungary, Hunyadi J醤os - John Hunyadi, created mounted units inspired by his enemy the Ottoman Turks. His son, Hunyadi M醫y醩 Matthias Corvinus, later king of Hungary, is unanimously accepted as the creator of these troops. Initially they fought in small bands, but were reorganized into larger, trained, formations during the reign of King Matthias I Corvinus of Hungary. So the first Hussar regiments were the light cavalry of the Black Army of Hungary. Under his command the hussars took part in the war against the Ottoman Empire in 1485 and proved successful against the Turkish Spahis as well as against Bohemians and Poles. After the king's death in 1490, hussars remained the preferred form of cavalry in Hungary. The Habsburg emperors hired Hungarian hussars as mercenaries to serve against the Ottoman Empire and on various battlefields throughout Europe. The "father" of the US cavalry in 1777 was a Hungarian hussar named Kov醫s Mih醠y - Michael de Kovats.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A type of irregular light horsemen was already well established by the 15th century in medieval Hungary. Etymologists are divided over the derivation of the word 'hussar'. Many scholars believe the word that was passed into Hungarian by way of the Croatians originates from the Latin word 'cursus' meaning 'raid'. According to Webster's the word hussar stems from the Hungarian husz醨, which in turn originates from the Serbian husar or gusar, meaning pirate, from the Medieval Latin cursarius (cf. the English word corsair). A variant of this theory is offered by Byzantinist scholars, who argue the term originated in Roman military practice, and the cursarius--a group of fast moving horsemen used for scouting or raiding-came to be called tsanarioi in Greek or the Armenian Chosarioi. Through Byzantine Army operations in the Balkans in the 10th and 11th centuries, the word was thus reintroduced to Western European military practice after its original usage had been lost with the collapse of Rome in the west. According to another theory, the word is derived from the Hungarian word of h鷖z meaning twenty, suggesting that hussar regiments were originally composed of twenty men. Or the term husz醨 probably signified 'one in twenty' as selected for service by ballot.[PARAGRAPH:2]The hussars reportedly originated in bands of Hungarian and Serbian warriors crossing into southern Hungary after the Turkish invasion of Serbia at the end of the 14th century. The Governor of Hungary, Hunyadi J醤os - John Hunyadi, created mounted units inspired by his enemy the Ottoman Turks. His son, Hunyadi M醫y醩 Matthias Corvinus, later king of Hungary, is unanimously accepted as the creator of these troops. Initially they fought in small bands, but were reorganized into larger, trained, formations during the reign of King Matthias I Corvinus of Hungary. So the first Hussar regiments were the light cavalry of the Black Army of Hungary. Under his command the hussars took part in the war against the Ottoman Empire in 1485 and proved successful against the Turkish Spahis as well as against Bohemians and Poles. After the king's death in 1490, hussars remained the preferred form of cavalry in Hungary. The Habsburg emperors hired Hungarian hussars as mercenaries to serve against the Ottoman Empire and on various battlefields throughout Europe. The "father" of the US cavalry in 1777 was a Hungarian hussar named Kov醫s Mih醠y - Michael de Kovats.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_POLISH_WINGED_HUSSAR</Tag>
+    <English>Winged Hussar</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波兰翼骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_POLISH_WINGED_HUSSAR_PEDIA</Tag>
+    <English>[TAB]The first hussar units in the Kingdom of Poland were formed by the Sejm, the Polish Parliament, in 1503 which hired three banners of Hungarian mercenaries. Soon, recruitment also began among Polish and Lithuanian citizens. The Hussars proved vital to Poland because they were more maneuverable than the previously used lancers. But the reign of King Stefan Batory, the hussars formed the bulk of the Polish and Lithuanian cavalry. Over many years, hussars in Hungary became heavier. When Stefan Batory was elected king of Poland, he reorganized the Polish-Lithuanian hussars of his Royal Guard making them a heavy formation, and equipping lancers as their main weapon. These Polish 'heavy' hussars were known in their homeland as "husaria"[PARAGRAPH:2]With the Battle of Lubiszew in 1577, the "Golden Age" of the hussar began. Until the Battle of Vienna, Polish-Lithuanian hussars rarely lost in battle. Throughout many battles the Polish-Lithuanian hussars would prove to be an important factor against overwhelming odds.[PARAGRAPH:2]The primary battle tactic of the Polish-Lithuanian hussars was the charge. They also tended to repeat the charge until the enemy formation broke. The hussars fought with a long lance, a szabla, one or two pistols, and a carbine or arquebus, known in Polish as a "bandolet". Polish hussars were also famous for the wings they wore on their backs. According to some theories, they were designed to foil attacks by Tatar lassos, another theory being that the vibrating of feathers made a strange sound that frightened enemy horses. However, experiments carried out by re-enactors and movie-makers since the 1970s and more recently by Polish historians in 2001 contradict such ideas. Possibly the wings were worn only during parades and not during combat, but this explanation is also disputed.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The first hussar units in the Kingdom of Poland were formed by the Sejm, the Polish Parliament, in 1503 which hired three banners of Hungarian mercenaries. Soon, recruitment also began among Polish and Lithuanian citizens. The Hussars proved vital to Poland because they were more maneuverable than the previously used lancers. But the reign of King Stefan Batory, the hussars formed the bulk of the Polish and Lithuanian cavalry. Over many years, hussars in Hungary became heavier. When Stefan Batory was elected king of Poland, he reorganized the Polish-Lithuanian hussars of his Royal Guard making them a heavy formation, and equipping lancers as their main weapon. These Polish 'heavy' hussars were known in their homeland as "husaria"[PARAGRAPH:2]With the Battle of Lubiszew in 1577, the "Golden Age" of the hussar began. Until the Battle of Vienna, Polish-Lithuanian hussars rarely lost in battle. Throughout many battles the Polish-Lithuanian hussars would prove to be an important factor against overwhelming odds.[PARAGRAPH:2]The primary battle tactic of the Polish-Lithuanian hussars was the charge. They also tended to repeat the charge until the enemy formation broke. The hussars fought with a long lance, a szabla, one or two pistols, and a carbine or arquebus, known in Polish as a "bandolet". Polish hussars were also famous for the wings they wore on their backs. According to some theories, they were designed to foil attacks by Tatar lassos, another theory being that the vibrating of feathers made a strange sound that frightened enemy horses. However, experiments carried out by re-enactors and movie-makers since the 1970s and more recently by Polish historians in 2001 contradict such ideas. Possibly the wings were worn only during parades and not during combat, but this explanation is also disputed.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_MOSCOW_BOYAR</Tag>
+    <English>Boyar</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>贵族骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_MOSCOW_BOYAR_PEDIA</Tag>
+    <English>[TAB]A boyar was a member of the highest rank of the feudal Bulgarian, Kievan Rus and Moscovian aristocracies, second only to the ruling dukes. Boyars weilded considerable power through their military support of the Moscovian princes and state, their traditions of family service and their ownership of land. Very similiar to Western knights, they were armed with swords and bows and equiped with chain or plate armour, and commanded their own personal armies of peasant levies and mercenaries. They continued to occupy the highest state offices, after repelling the Mongol invasions of the 13th century, throughout the 14th and 15th centuries until their power was eroded by the Czars, chiefly Ivan IV, during the 16th century.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A boyar was a member of the highest rank of the feudal Bulgarian, Kievan Rus and Moscovian aristocracies, second only to the ruling dukes. Boyars weilded considerable power through their military support of the Moscovian princes and state, their traditions of family service and their ownership of land. Very similiar to Western knights, they were armed with swords and bows and equiped with chain or plate armour, and commanded their own personal armies of peasant levies and mercenaries. They continued to occupy the highest state offices, after repelling the Mongol invasions of the 13th century, throughout the 14th and 15th centuries until their power was eroded by the Czars, chiefly Ivan IV, during the 16th century.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_GENOA_BALESTRIERI</Tag>
+    <English>Balestrieri</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>热那亚弩手</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_GENOA_BALESTRIERI_PEDIA</Tag>
+    <English>[TAB]The Genoese crossbowmen were a famous military formation both in the defence of Genoa and as mercenaries for other Italian and European powers during the Middle Ages. Fighting on both land and in naval battles, they were outfitted with a dagger, light metal helmet, gorget and a large shield called a "pavese" which protected them while loading the crossbow. The presence of balestieri companies on the battlefield was highly feared due to the efficiency of their weapons and their organization, and even often enough to lead an opponent to alter his battle plans. The balestrieri remained feared and respected military formations into the late 16th century even after the introduction of black powder weapons into Europe.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The Genoese crossbowmen were a famous military formation both in the defence of Genoa and as mercenaries for other Italian and European powers during the Middle Ages. Fighting on both land and in naval battles, they were outfitted with a dagger, light metal helmet, gorget and a large shield called a "pavese" which protected them while loading the crossbow. The presence of balestieri companies on the battlefield was highly feared due to the efficiency of their weapons and their organization, and even often enough to lead an opponent to alter his battle plans. The balestrieri remained feared and respected military formations into the late 16th century even after the introduction of black powder weapons into Europe.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ENGLISH_LONGBOWMAN</Tag>
+    <English>English Longbowman</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>英格兰长弓手</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ENGLISH_LONGBOWMAN_PEDIA</Tag>
+    <English>[TAB]Longbows were tall, powerful bows employed to penetrate all but the best of Medieval armour. Their use by English armies reached a peak during the Hundred Years War when the use of massed longbowmen was highly effective against the French at the battles of Crecy (1346), Poitiers (1356) and at Agincourt in 1415. The longbow combined long range and high accuracy but not both at the same time. Most longbow shooting involved launching volleys of arrows at enemy armies at long range from protected positions. The longbow was the machine gun of the Middle Ages, accurate, deadly and more rapid-firing than the crossbow or even early firearms though with the development of the latter the longbow gradually fell into disuse.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Longbows were tall, powerful bows employed to penetrate all but the best of Medieval armour. Their use by English armies reached a peak during the Hundred Years War when the use of massed longbowmen was highly effective against the French at the battles of Crecy (1346), Poitiers (1356) and at Agincourt in 1415. The longbow combined long range and high accuracy but not both at the same time. Most longbow shooting involved launching volleys of arrows at enemy armies at long range from protected positions. The longbow was the machine gun of the Middle Ages, accurate, deadly and more rapid-firing than the crossbow or even early firearms though with the development of the latter the longbow gradually fell into disuse.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_AUSTRIAN_KURASSIER</Tag>
+    <English>Kurassier</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥地利胸甲骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_AUSTRIAN_KURASSIER_PEDIA</Tag>
+    <English>[TAB]Curassiers were mounted cavalry with armour and firearms which first appeared on the battlefields of late 15th century as the successors to the medieval armoured knights. The first curassiers wore three-quarter armour which covered the upper body and a close helm or "lobster-tail" pot helmet with the torso protected by breast and back plates, worn above long riding boots. Weapons included a pair of pistols in saddle holsters, a short sword or sabre and often a light mace or war hammer.[PARAGRAPH:2]The first curassiers were formed as a regiment of Austrian kurassiers (or "kyrissers") recruited from Croatia in 1484 to serve the future Holy Roman Emperor, Maximilian. Austrian Kurassiers also fought the Swedes and their allies at Lutzen in 1632, killing their king Gustavus Adolphus during the battle. The armour worn by the Kurassiers gradually decreased throughout the 18th century until the Napoleonic Wars so that the Kurassiers, like other curassiers, wore little more than helmets and breast plates. Kurassiers played a prominent role in the armies of Austria during the campaigns of Frederick the Great and remained the senior members of the mounted branch of the army, retaining their status as "big men on horses" throughout the 19th century and beyond.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Curassiers were mounted cavalry with armour and firearms which first appeared on the battlefields of late 15th century as the successors to the medieval armoured knights. The first curassiers wore three-quarter armour which covered the upper body and a close helm or "lobster-tail" pot helmet with the torso protected by breast and back plates, worn above long riding boots. Weapons included a pair of pistols in saddle holsters, a short sword or sabre and often a light mace or war hammer.[PARAGRAPH:2]The first curassiers were formed as a regiment of Austrian kurassiers (or "kyrissers") recruited from Croatia in 1484 to serve the future Holy Roman Emperor, Maximilian. Austrian Kurassiers also fought the Swedes and their allies at Lutzen in 1632, killing their king Gustavus Adolphus during the battle. The armour worn by the Kurassiers gradually decreased throughout the 18th century until the Napoleonic Wars so that the Kurassiers, like other curassiers, wore little more than helmets and breast plates. Kurassiers played a prominent role in the armies of Austria during the campaigns of Frederick the Great and remained the senior members of the mounted branch of the army, retaining their status as "big men on horses" throughout the 19th century and beyond.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_OTTOMAN_GREAT_BOMBARD</Tag>
+    <English>Great Bombard</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>巨型臼炮</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_OTTOMAN_GREAT_BOMBARD_PEDIA</Tag>
+    <English>[TAB]Although gunpowder weapons were used in China in the early 10th century, the Arabs first acquired gunpwder about 1240AD and it is believed that the first cannon in history was used by the Mamluks against the Mongols in 1260. The Ottoman Empire became the first in Europe to put gunpowder into widespread use in both hand weaponry and seige cannons. The army of Mehmet I which conquered Constantinople in 1453 included foot soldiers armed with matchlock muskets and bombard artillery of various sizes. The barrage of Ottoman cannon fire, from 69 guns firing over 19,000 times, is said to have lasted for at least 40 days.[PARAGRAPH:2]Amongst these were a number of extremely large and powerful seige bombards. Bombards had been deployed by many European armies since the late 1300's but the Ottoman siege guns were especially massive and powerful "superguns", like the "Dardanelles Gun" or Great Turkish Bombard, weighing over 18 tons and firing huge stone or iron projectiles of over 2 feet in diameter. This famous gun along with many others, remained in use by the Ottomans until the early 19th century, even causing serious damage to British naval operations against the Ottomans in 1807.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Although gunpowder weapons were used in China in the early 10th century, the Arabs first acquired gunpwder about 1240AD and it is believed that the first cannon in history was used by the Mamluks against the Mongols in 1260. The Ottoman Empire became the first in Europe to put gunpowder into widespread use in both hand weaponry and seige cannons. The army of Mehmet I which conquered Constantinople in 1453 included foot soldiers armed with matchlock muskets and bombard artillery of various sizes. The barrage of Ottoman cannon fire, from 69 guns firing over 19,000 times, is said to have lasted for at least 40 days.[PARAGRAPH:2]Amongst these were a number of extremely large and powerful seige bombards. Bombards had been deployed by many European armies since the late 1300's but the Ottoman siege guns were especially massive and powerful "superguns", like the "Dardanelles Gun" or Great Turkish Bombard, weighing over 18 tons and firing huge stone or iron projectiles of over 2 feet in diameter. This famous gun along with many others, remained in use by the Ottomans until the early 19th century, even causing serious damage to British naval operations against the Ottomans in 1807.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SWEDISH_KAROLIN</Tag>
+    <English>Karolin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卡洛林火枪手</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SWEDISH_KAROLIN_PEDIA</Tag>
+    <English>[TAB]The Karolins were soldiers of the Swedish kings Charles XI and Charles XII. They were part of the yearly Swedish allotment system. The Karolins' tactics were to attack fiercely and remain unafraid. The soldiers also sustained stern discipline, which over the extensive course of a twenty-year-long war would prove vital. The Swedish army tactics of the time did not teach retreat, so the soldiers were known to never withdraw from battle.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The Karolins were soldiers of the Swedish kings Charles XI and Charles XII. They were part of the yearly Swedish allotment system. The Karolins' tactics were to attack fiercely and remain unafraid. The soldiers also sustained stern discipline, which over the extensive course of a twenty-year-long war would prove vital. The Swedish army tactics of the time did not teach retreat, so the soldiers were known to never withdraw from battle.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_NETHERLANDS_GRENADIER</Tag>
+    <English>Gardist</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>精英掷弹兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_NETHERLANDS_GRENADIER_PEDIA</Tag>
+    <English>[TAB]A grenadier (from the word "grenade") was originally a specialized soldier who threw explosive grenades and sometimes took part in assault operations on the field of battle. From the 17th century grenadiers were chosen from the largest and strongest soldiers and often led the storming of breaches in seige warfare, a role later performed by sappers and pioneers. Grenades were small iron spheres, the size of a baseball or cricket ball, filled with gunpowder and fused by a slow match. The wide hats worn by grenadiers were gradually replaced by tall caps shaped like a bishop's mitre which permitted the grenadier greater ease in throwing the grenade overhand.[PARAGRAPH:2]Grenade usage declined in the late 18th century although the need for elite assault troops remained and grenadiers were retained for this purpose and specially selected for their strength, experience and steadiness under fire. All the major European armies continued to employ elite grenadier companies until the early 19th century. Their use was particularly marked in the battles of the Dutch Republic from 1648 to the 1790s as Dutch grenadiers wearing their distinctive guilded "bishop's mitres" saw action in numerous battles during the Anglo-Dutch wars. Grenadiers remained prominent on the battlefield until the invasion and occupation of the Netherlands by Revolutionary France in 1795.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A grenadier (from the word "grenade") was originally a specialized soldier who threw explosive grenades and sometimes took part in assault operations on the field of battle. From the 17th century grenadiers were chosen from the largest and strongest soldiers and often led the storming of breaches in seige warfare, a role later performed by sappers and pioneers. Grenades were small iron spheres, the size of a baseball or cricket ball, filled with gunpowder and fused by a slow match. The wide hats worn by grenadiers were gradually replaced by tall caps shaped like a bishop's mitre which permitted the grenadier greater ease in throwing the grenade overhand.[PARAGRAPH:2]Grenade usage declined in the late 18th century although the need for elite assault troops remained and grenadiers were retained for this purpose and specially selected for their strength, experience and steadiness under fire. All the major European armies continued to employ elite grenadier companies until the early 19th century. Their use was particularly marked in the battles of the Dutch Republic from 1648 to the 1790s as Dutch grenadiers wearing their distinctive guilded "bishop's mitres" saw action in numerous battles during the Anglo-Dutch wars. Grenadiers remained prominent on the battlefield until the invasion and occupation of the Netherlands by Revolutionary France in 1795.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_PORTUGAL_FOOT_KNIGHT</Tag>
+    <English>Knight of Aviz</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿维什骑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_PORTUGAL_FOOT_KNIGHT_PEDIA</Tag>
+    <English>[TAB]The Military Order of Aviz, originally the "Knights of St. Benedict of Aviz" was a Catholic military order formed during the early 14th century which gave their name and arms to the Aviz Dynasty which ruled Portugal between 1385 and 1580. The Kingdom of Portugal, founded in 1128, not only participated in the Crusades but conducted one of its own against the Moors of Iberia and North Africa with the help of existing military orders like the Templars. A native order of this kind was established in Portugal in 1146 and Afonso Henriques gave it the town of Evora captured from the Moors in 1166. After the conquest of Aviz a castle was erected there and the order became known as the Knights of St. Benedict of Aviz. Like the Knights of Calatrava in Castille, these Portugese Knights were indebted to the Cistercian abbots for their rule and their habit, a white mantle with a green fleur-de-lysed cross. Although nominally remaining as a branch of the Calatravan Order, they never ceased to have a Portugese Grand Master and be subject to the Kings of Portugal.[PARAGRAPH:2]The mission of the Knights of Aviz did not end with the overthrow of Muslim domination as Portugese expeditions across the sea opened new opportunities for them. The first landings of Europeans in Africa, the conquest of Ceuta by King Joao I in 1415 and the Portugese attacks on Tangier in 1437 were seen as crusades, in which the Knights of Aviz and the Knights of Christ (local successors to the disbanded Templars) played a leading part. By the 16th century however, their crusades in Africa had lost their religious zeal and their efforts were reduced to vulgar money-making enterprises. The Order of the Knights of Aviz became increasingly secular and commercial and after the institution of liberal government in the 19th century it evolved into the largely charitable foundation and symbolic order of merit it remains to this day.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The Military Order of Aviz, originally the "Knights of St. Benedict of Aviz" was a Catholic military order formed during the early 14th century which gave their name and arms to the Aviz Dynasty which ruled Portugal between 1385 and 1580. The Kingdom of Portugal, founded in 1128, not only participated in the Crusades but conducted one of its own against the Moors of Iberia and North Africa with the help of existing military orders like the Templars. A native order of this kind was established in Portugal in 1146 and Afonso Henriques gave it the town of Evora captured from the Moors in 1166. After the conquest of Aviz a castle was erected there and the order became known as the Knights of St. Benedict of Aviz. Like the Knights of Calatrava in Castille, these Portugese Knights were indebted to the Cistercian abbots for their rule and their habit, a white mantle with a green fleur-de-lysed cross. Although nominally remaining as a branch of the Calatravan Order, they never ceased to have a Portugese Grand Master and be subject to the Kings of Portugal.[PARAGRAPH:2]The mission of the Knights of Aviz did not end with the overthrow of Muslim domination as Portugese expeditions across the sea opened new opportunities for them. The first landings of Europeans in Africa, the conquest of Ceuta by King Joao I in 1415 and the Portugese attacks on Tangier in 1437 were seen as crusades, in which the Knights of Aviz and the Knights of Christ (local successors to the disbanded Templars) played a leading part. By the 16th century however, their crusades in Africa had lost their religious zeal and their efforts were reduced to vulgar money-making enterprises. The Order of the Knights of Aviz became increasingly secular and commercial and after the institution of liberal government in the 19th century it evolved into the largely charitable foundation and symbolic order of merit it remains to this day.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_KIEV_DRUZHINA</Tag>
+    <English>Druzhina</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>俄罗斯公国卫队</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_KIEV_DRUZHINA_PEDIA</Tag>
+    <English>[TAB]The name is derived from the Slavic word drug with the meaning of "companion, friend". It is a cognate of the Germanic drottin meaning "war band".[PARAGRAPH:2]Druzhina was in the history of early East Slavs a detachment of select troops in personal service of a Knyaz (A Slavic title). It's main functions were bodyguarding, raising tribute from conquered territories and serving as the core of the army during war campaigns. Equipped as heavy cavalry wearing padded and mail armour and armed with lance and sword, the "Druzinniks" served freely and could leave one knyaz and join another. Druzyna varied in size, but usually numbered several hundred. They served as the nucleus of the army which was otherwise largely recruited as peasant levies. Druznya were paid by the knyaz and were able to share a portion of any military loot while on campaign.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The name is derived from the Slavic word drug with the meaning of "companion, friend". It is a cognate of the Germanic drottin meaning "war band".[PARAGRAPH:2]Druzhina was in the history of early East Slavs a detachment of select troops in personal service of a Knyaz (A Slavic title). It's main functions were bodyguarding, raising tribute from conquered territories and serving as the core of the army during war campaigns. Equipped as heavy cavalry wearing padded and mail armour and armed with lance and sword, the "Druzinniks" served freely and could leave one knyaz and join another. Druzyna varied in size, but usually numbered several hundred. They served as the nucleus of the army which was otherwise largely recruited as peasant levies. Druznya were paid by the knyaz and were able to share a portion of any military loot while on campaign.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_LITHUANIA_BAJORAS</Tag>
+    <English>Bajoras</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>贵族卫队</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_LITHUANIA_BAJORAS_PEDIA</Tag>
+    <English>[TAB]Prior to the creation of the Lithuanian state by Mindaugas, lesser members of the nobility were called bajorai (singular - bajoras). They evolved from tribal leaders, and were chiefly responsible for waging wars and organizing raids operations into enemy's territory. After the establishment of a unified state they gradually became subordinates to greater Dukes, and later to the King of Lithuania. After Mindaugas death all Lithuanian rulers held the title Grand Duke, or king. In the late 14th century Grand Dukes Jogaila and Skirgaila began forming professional forces. Instead of calling all men to war, a class of professional warriors - bajorai (future nobles) - was formed. In the early 15th century, Vytautas the Great reformed the army of the Grand Duchy of Lithuania further: as there were not enough warriors, Vytautas relieved soldiers from taxes and labour on the land by granting them veldamai, dependent peasants. At first the land was given to the serving men until death (benefice), but during the 14th and 15th centuries most of it became patrimony, granted by privileges of the monarch. Whilst during the 14th century the Grand Duke owned about 2/3 of the Duchy's land, by 1569 he was a direct owner of only 1/3.[PARAGRAPH:2]In the 15th century, the noble social class was already formed in Lithuania; for quite a long time it remained open and anyone could be ennobled for services to the Grand Duke. In time, the influence of lesser nobles decreased and greater nobles acquired increasingly more power, especially during the interregnum fights following Vytautas' death.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Prior to the creation of the Lithuanian state by Mindaugas, lesser members of the nobility were called bajorai (singular - bajoras). They evolved from tribal leaders, and were chiefly responsible for waging wars and organizing raids operations into enemy's territory. After the establishment of a unified state they gradually became subordinates to greater Dukes, and later to the King of Lithuania. After Mindaugas death all Lithuanian rulers held the title Grand Duke, or king. In the late 14th century Grand Dukes Jogaila and Skirgaila began forming professional forces. Instead of calling all men to war, a class of professional warriors - bajorai (future nobles) - was formed. In the early 15th century, Vytautas the Great reformed the army of the Grand Duchy of Lithuania further: as there were not enough warriors, Vytautas relieved soldiers from taxes and labour on the land by granting them veldamai, dependent peasants. At first the land was given to the serving men until death (benefice), but during the 14th and 15th centuries most of it became patrimony, granted by privileges of the monarch. Whilst during the 14th century the Grand Duke owned about 2/3 of the Duchy's land, by 1569 he was a direct owner of only 1/3.[PARAGRAPH:2]In the 15th century, the noble social class was already formed in Lithuania; for quite a long time it remained open and anyone could be ennobled for services to the Grand Duke. In time, the influence of lesser nobles decreased and greater nobles acquired increasingly more power, especially during the interregnum fights following Vytautas' death.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_VIKING_BERSERKER</Tag>
+    <English>Berserker</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>狂暴战士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_VIKING_BERSERKER_PEDIA</Tag>
+    <English>[TAB]Berserks (or berserkers) were Viking warriors who worked themselves up into terribles rage before going into battle. The word berserker comes from the Norse words "bjorn" (meaning bear) or "bare" (meaning naked) and "serkr" (meaning shirt); a berserk was either someone who went into battle wearing the "shirt" of a bear (i.e. someone who was bear-like in rage and strength) or someone who went into battle naked. Berserks thought that by wearing the fur of a bear they would be possessed by the spirit of the animal and possibly even shift into its form. Berserks were also known to have sworn allegiance to the Norse sky god Odin, and they believed that he would protect them and give them superhuman strength. The Vikings also believed that if death came while fighting as a berserk, the deceased would travel straight to the warrior paradise of Valhalla. [PARAGRAPH:2]No one is exactly sure how berserks induced the crazed state of violence described by contemporaries. Some theories speculate that the wild behavior was prompted by the taking of various hallucinogenic drugs, or was caused by mild epilepsy, or even a genetic disorder that caused overly large skull growth. Perhaps the most likely explanation is that before going into battle the berserks simply worked themselves into frenzies by painting their faces, howling like animals, beating helmets and drums - and drinking large quantities of alcohol. [PARAGRAPH:2]All stories about berserks agree that they fought with crazed strength and were immune to pain until battle was ended. Berserks were often portrayed as villains, slaying anything that moved - including their own family members. In battle even the Berserks' allies usually chose to keep them at arm's length and were never comfortable in their presence. Scandinavian kings refused to employ them as bodyguards for fear that they would forget who to protect in the fighting. [PARAGRAPH:2]In 1015, Berserks were outlawed in Norway, and Gr醙醩, the medieval Icelandic law code, sentenced berserk warriors to exile. After the widespread adoption of Christianity across Scandinavia, in 1100 AD the organization of berserk warbands disappeared. [PARAGRAPH:2]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Berserks (or berserkers) were Viking warriors who worked themselves up into terribles rage before going into battle. The word berserker comes from the Norse words "bjorn" (meaning bear) or "bare" (meaning naked) and "serkr" (meaning shirt); a berserk was either someone who went into battle wearing the "shirt" of a bear (i.e. someone who was bear-like in rage and strength) or someone who went into battle naked. Berserks thought that by wearing the fur of a bear they would be possessed by the spirit of the animal and possibly even shift into its form. Berserks were also known to have sworn allegiance to the Norse sky god Odin, and they believed that he would protect them and give them superhuman strength. The Vikings also believed that if death came while fighting as a berserk, the deceased would travel straight to the warrior paradise of Valhalla. [PARAGRAPH:2]No one is exactly sure how berserks induced the crazed state of violence described by contemporaries. Some theories speculate that the wild behavior was prompted by the taking of various hallucinogenic drugs, or was caused by mild epilepsy, or even a genetic disorder that caused overly large skull growth. Perhaps the most likely explanation is that before going into battle the berserks simply worked themselves into frenzies by painting their faces, howling like animals, beating helmets and drums - and drinking large quantities of alcohol. [PARAGRAPH:2]All stories about berserks agree that they fought with crazed strength and were immune to pain until battle was ended. Berserks were often portrayed as villains, slaying anything that moved - including their own family members. In battle even the Berserks' allies usually chose to keep them at arm's length and were never comfortable in their presence. Scandinavian kings refused to employ them as bodyguards for fear that they would forget who to protect in the fighting. [PARAGRAPH:2]In 1015, Berserks were outlawed in Norway, and Gr醙醩, the medieval Icelandic law code, sentenced berserk warriors to exile. After the widespread adoption of Christianity across Scandinavia, in 1100 AD the organization of berserk warbands disappeared. [PARAGRAPH:2]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_DENMARK_HUSKARL</Tag>
+    <English>Huskarl</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>近卫军</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_DENMARK_HUSKARL_PEDIA</Tag>
+    <English>[TAB]Housecarls were household troops, personal warriors and equivalent to a royal bodyguard to Scandinavian kings. The anglicized term comes from the Old Norse term huskarl or huscarl (literally, 'house man', i.e., armed man in the service of a specific house.) They were also called hirth ('household') that referred to household troops. The term later came to cover armed soldiers of the household. They were often the only professional soldiers in the kingdom, the rest of the army being made up of militia, peasant levy, and occasionally mercenaries. They were usually armed with long Danish axe. A kingdom would have fewer than 2000 Housecarls.[PARAGRAPH:2]The term entered the English language when Canute the Great conquered and occupied Anglo-Saxon England.[PARAGRAPH:2]In England, there may have been as many as 3000 royal housecarls, and a special tax was levied to provide pay in coin. They were housed and fed at the king's expense. They formed a standing army of professional soldiers, and also had some administrative duties in peacetime as the Kings representatives. The term was often used in contrast to the non-professional fyrd.[PARAGRAPH:2]Certainly the vast majority of English housecarls died at the Battle of Hastings. Survivors, along with King Harold's thegns, crossed to Continental Europe as mercenary troops. Some of these reached Byzantium and along with other Saxons joined the Varangian Guard. By the 12th century, the Varangian Guard contained so many Saxons that the entire unit was sometimes called "the English Guard."</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Housecarls were household troops, personal warriors and equivalent to a royal bodyguard to Scandinavian kings. The anglicized term comes from the Old Norse term huskarl or huscarl (literally, 'house man', i.e., armed man in the service of a specific house.) They were also called hirth ('household') that referred to household troops. The term later came to cover armed soldiers of the household. They were often the only professional soldiers in the kingdom, the rest of the army being made up of militia, peasant levy, and occasionally mercenaries. They were usually armed with long Danish axe. A kingdom would have fewer than 2000 Housecarls.[PARAGRAPH:2]The term entered the English language when Canute the Great conquered and occupied Anglo-Saxon England.[PARAGRAPH:2]In England, there may have been as many as 3000 royal housecarls, and a special tax was levied to provide pay in coin. They were housed and fed at the king's expense. They formed a standing army of professional soldiers, and also had some administrative duties in peacetime as the Kings representatives. The term was often used in contrast to the non-professional fyrd.[PARAGRAPH:2]Certainly the vast majority of English housecarls died at the Battle of Hastings. Survivors, along with King Harold's thegns, crossed to Continental Europe as mercenary troops. Some of these reached Byzantium and along with other Saxons joined the Varangian Guard. By the 12th century, the Varangian Guard contained so many Saxons that the entire unit was sometimes called "the English Guard."</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ARAGON_ALMOGAVAR</Tag>
+    <English>Almogavar</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>重装民兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_ARAGON_ALMOGAVAR_PEDIA</Tag>
+    <English>[TAB]The Almogavars were a class of soldiers from the Crown of Aragon, well-known during the Christian Reconquista (reconquest) of the Iberian Peninsula. They were much employed as mercenaries in Italy, Latin Greece and the Levant during the 13th and 14th centuries.[PARAGRAPH:2]The Almogavars came mainly from the mountain regions of Aragon, Catalonia and, to a lesser extent, from Navarre. They were frontiersmen and foot-soldiers who wore no armour, dressed in skins, were shod with brogues (abarcas), and carried the arms similar to those of Roman legionaries: two heavy javelins, or azconas in Spanish language, and a short stabbing sword.[PARAGRAPH:2]They were professional soldiers, and served kings, the Roman Catholic Church, nobles, or towns for pay; eventually they also hired themselves out to the Byzantine Empire. When Peter III of Aragon made war on Charles of Anjou after the Sicilian Vespers of March 30, 1282 for the possession of Naples and Sicily, the Almogavars formed the most effective element of his army. Their discipline and ferocity, the force with which they hurled their javelins, and their activity, made them very formidable to the heavy cavalry of the Angevin armies. They fought against cavalry by attacking firstly horses instead of knights. Once the knight was on the ground he was an easy victim for the Almogavar.[PARAGRAPH:2]When the Peace of Caltabellotta in 1302 ended the war in southern Italy, the Almogavars, under the leadership of Roger de Flor ("Roger Blum", a former Knight Templar), formed the Catalan Company in the service of the emperor of the East, Andronicus II Palaeologus, to fight against the Turks. Both kings of Aragon and Sicily agreed with the idea since peace had been reached and it was viable alternative to having the Almogavar standing army unemployed in their realms.[PARAGRAPH:2]Their campaign in Asia Minor during 1303 and 1304 was a series of military victories, but alongside widespread looting of Byzantine civilians, so when they insisted in receiving the agreed payment, the Emperor refused. Thereafter the Almogavars turned to violence, making their presence intolerable to the Byzantine population. Roger de Flor and his lieutenants were assassinated by orders of the Emperor in 1305 while meeting to discuss terms on their compensation, presumably on the instigation of Genoese merchants, who were conspiring to keep their own position of influence and power and keep the Catalans out of the loop. This betrayal resulted in the Almogavars ravaging the neighbourhood of Constantinople.[PARAGRAPH:2]Subsequently they marched against the Duchy of Athens, under the rule of the French House of Brienne. Duke Walter V of Brienne was defeated and slain by the Almogavars with all his knights at the Battle of the Cephissus, or Orchomenus, in Boeotia in March 1310. They then divided the wives and possessions of the Frenchmen by lot, and summoned a prince of the house of Aragon to rule over them.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The Almogavars were a class of soldiers from the Crown of Aragon, well-known during the Christian Reconquista (reconquest) of the Iberian Peninsula. They were much employed as mercenaries in Italy, Latin Greece and the Levant during the 13th and 14th centuries.[PARAGRAPH:2]The Almogavars came mainly from the mountain regions of Aragon, Catalonia and, to a lesser extent, from Navarre. They were frontiersmen and foot-soldiers who wore no armour, dressed in skins, were shod with brogues (abarcas), and carried the arms similar to those of Roman legionaries: two heavy javelins, or azconas in Spanish language, and a short stabbing sword.[PARAGRAPH:2]They were professional soldiers, and served kings, the Roman Catholic Church, nobles, or towns for pay; eventually they also hired themselves out to the Byzantine Empire. When Peter III of Aragon made war on Charles of Anjou after the Sicilian Vespers of March 30, 1282 for the possession of Naples and Sicily, the Almogavars formed the most effective element of his army. Their discipline and ferocity, the force with which they hurled their javelins, and their activity, made them very formidable to the heavy cavalry of the Angevin armies. They fought against cavalry by attacking firstly horses instead of knights. Once the knight was on the ground he was an easy victim for the Almogavar.[PARAGRAPH:2]When the Peace of Caltabellotta in 1302 ended the war in southern Italy, the Almogavars, under the leadership of Roger de Flor ("Roger Blum", a former Knight Templar), formed the Catalan Company in the service of the emperor of the East, Andronicus II Palaeologus, to fight against the Turks. Both kings of Aragon and Sicily agreed with the idea since peace had been reached and it was viable alternative to having the Almogavar standing army unemployed in their realms.[PARAGRAPH:2]Their campaign in Asia Minor during 1303 and 1304 was a series of military victories, but alongside widespread looting of Byzantine civilians, so when they insisted in receiving the agreed payment, the Emperor refused. Thereafter the Almogavars turned to violence, making their presence intolerable to the Byzantine population. Roger de Flor and his lieutenants were assassinated by orders of the Emperor in 1305 while meeting to discuss terms on their compensation, presumably on the instigation of Genoese merchants, who were conspiring to keep their own position of influence and power and keep the Catalans out of the loop. This betrayal resulted in the Almogavars ravaging the neighbourhood of Constantinople.[PARAGRAPH:2]Subsequently they marched against the Duchy of Athens, under the rule of the French House of Brienne. Duke Walter V of Brienne was defeated and slain by the Almogavars with all his knights at the Battle of the Cephissus, or Orchomenus, in Boeotia in March 1310. They then divided the wives and possessions of the Frenchmen by lot, and summoned a prince of the house of Aragon to rule over them.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_MOROCCO_BLACK_GUARD</Tag>
+    <English>Black Guard</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>黑近卫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_MOROCCO_BLACK_GUARD_PEDIA</Tag>
+    <English>[TAB]The Black Guard were the corps of African slave-soldiers assembled by sultan Moulay Ismail of Morocco. The Black Guard descended from black captives brought to Morocco from sub-Saharan Africa, who were settled in a special colony and given wives; their male offspring would be pressed into military careers at the age of sixteen. Considered more reliable than Arab or Berber warriors because of their lack of tribal loyalties, Ismail's black soldiers formed the bulk of his standing army and numbered 150,000 at their peak.[PARAGRAPH:2]The Black Guard were charged with fighting Ismail's campaigns against the European-controlled fortress enclaves dotting his empire's coast and with patrolling Morocco's unstable countryside: They crushed rebellions against Ismail's rule not only by Moroccan Berber clans but also by Ismail's seditious sons, who defected from service as his provincial governors to insurrection as would-be usurpers of his throne.[PARAGRAPH:2]Moulay Ismail always went about his court surrounded by a bodyguard of eighty black slave-soldiers, with muskets and scimitars at the ready in case of any attempt on the sultan's life. At his throne, Ismail was attended by a slave charged with twirling a parasol above the sultan at all times (a legend says that on at least one occasion, Ismail pulled out his sword and murdered an attendant who had allowed the sun to briefly fall upon his skin). Two more slaves fanned the flies away from his face, while a third held a napkin beneath his chin to collect his spittle. Though the Black Guard were fiercely loyal, they remained just as vulnerable to their commander's fits of rage as his European slaves and Moorish subjects.[PARAGRAPH:2]Despite endless civil wars and civil slaughter, the Black Guard remained brutally loyal and disciplined through the turmoil of Ismail's reign. More than any other factor did they enable the sultan to remain on Morocco's throne for half a century.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The Black Guard were the corps of African slave-soldiers assembled by sultan Moulay Ismail of Morocco. The Black Guard descended from black captives brought to Morocco from sub-Saharan Africa, who were settled in a special colony and given wives; their male offspring would be pressed into military careers at the age of sixteen. Considered more reliable than Arab or Berber warriors because of their lack of tribal loyalties, Ismail's black soldiers formed the bulk of his standing army and numbered 150,000 at their peak.[PARAGRAPH:2]The Black Guard were charged with fighting Ismail's campaigns against the European-controlled fortress enclaves dotting his empire's coast and with patrolling Morocco's unstable countryside: They crushed rebellions against Ismail's rule not only by Moroccan Berber clans but also by Ismail's seditious sons, who defected from service as his provincial governors to insurrection as would-be usurpers of his throne.[PARAGRAPH:2]Moulay Ismail always went about his court surrounded by a bodyguard of eighty black slave-soldiers, with muskets and scimitars at the ready in case of any attempt on the sultan's life. At his throne, Ismail was attended by a slave charged with twirling a parasol above the sultan at all times (a legend says that on at least one occasion, Ismail pulled out his sword and murdered an attendant who had allowed the sun to briefly fall upon his skin). Two more slaves fanned the flies away from his face, while a third held a napkin beneath his chin to collect his spittle. Though the Black Guard were fiercely loyal, they remained just as vulnerable to their commander's fits of rage as his European slaves and Moorish subjects.[PARAGRAPH:2]Despite endless civil wars and civil slaughter, the Black Guard remained brutally loyal and disciplined through the turmoil of Ismail's reign. More than any other factor did they enable the sultan to remain on Morocco's throne for half a century.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SCOTLAND_SHELTRON</Tag>
+    <English>Sheltron</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>高地贵族方阵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SCOTLAND_SHELTRON_PEDIA</Tag>
+    <English>[TAB]A sheltron (also sceld-trome, schiltrom or shiltron) is a compact body of troops forming a battle array, shield wall or phalanx. The term is most often associated with Scottish pike formations during the Wars of Scottish Independence in the late 13th and early 14th centuries.[PARAGRAPH:2]The term dates from at least 1000 AD and derives from Old English roots expressing the idea of a "shield-troop". Some researchers have also posited this etymological relation may show the schiltron is directly descended from the Anglo-Saxon shield wall, and still others give evidence "schiltron" is a name derived from a Viking circular formation (generally no less than a thousand fighters) in extremely close formation, intended to present an enemy's cavalry charge with an "infinite" obstacle (that is, a perimeter horses refuse to breach). Matters are confused by the fact that the term in Middle English could clearly refer to a body of soldiers without reference to formation, including cavalry and archers. The first mention of the schiltron as a specific formation of spearmen appears to be at the Battle of Falkirk in 1297. There is, however, no reason to believe this is the first time such a formation was used and, indeed, may have had a long previous history in Scotland, as the Picts used to employ spears in block formation as the backbone of their armies.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A sheltron (also sceld-trome, schiltrom or shiltron) is a compact body of troops forming a battle array, shield wall or phalanx. The term is most often associated with Scottish pike formations during the Wars of Scottish Independence in the late 13th and early 14th centuries.[PARAGRAPH:2]The term dates from at least 1000 AD and derives from Old English roots expressing the idea of a "shield-troop". Some researchers have also posited this etymological relation may show the schiltron is directly descended from the Anglo-Saxon shield wall, and still others give evidence "schiltron" is a name derived from a Viking circular formation (generally no less than a thousand fighters) in extremely close formation, intended to present an enemy's cavalry charge with an "infinite" obstacle (that is, a perimeter horses refuse to breach). Matters are confused by the fact that the term in Middle English could clearly refer to a body of soldiers without reference to formation, including cavalry and archers. The first mention of the schiltron as a specific formation of spearmen appears to be at the Battle of Falkirk in 1297. There is, however, no reason to believe this is the first time such a formation was used and, indeed, may have had a long previous history in Scotland, as the Picts used to employ spears in block formation as the backbone of their armies.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_PRUSSIA_DEATHS_HEAD_HUSSAR</Tag>
+    <English>Totenkopfhusar</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>黑骷髅轻骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_PRUSSIA_DEATHS_HEAD_HUSSAR_PEDIA</Tag>
+    <English>[TAB]Use of the symbol as a military insignia began with the cavalry of the Prussian army under Frederick the Great. Frederick formed Husaren-Regiment Nr. 5 (von Ruesch), a Hussar regiment commanded by Colonel von Ruesch. These Hussars adopted a black uniform with a Totenkopf emblazoned on the front of their mirlitons and wore it on the field in the War of Austrian Succession and in the Seven Years' War.[PARAGRAPH:2]In 1808, when the regiment was reformed into Leib-Husaren Regiments Nr.1 and Nr.2, the Totenkopf remained a part of the uniform. During the Napoleonic Wars, when Frederick William, Duke of Brunswick-Wolfenb黷tel, was killed in battle, his troops changed the colour of their uniforms to black or apple green, with a Totenkopf on their shakos in mourning their dead leader. Other sources claim that the "Black Brunswickers" were so equipped while Friedrich Wilhelm of Brunswick lived, as a sign of revenge on the French.[PARAGRAPH:2]The skull continued to be used throughout the Prussian and Brunswick Armed forces until 1918, and some of the stormtroopers that led the last German offensives on the Western Front in 1918 used skull badges.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Use of the symbol as a military insignia began with the cavalry of the Prussian army under Frederick the Great. Frederick formed Husaren-Regiment Nr. 5 (von Ruesch), a Hussar regiment commanded by Colonel von Ruesch. These Hussars adopted a black uniform with a Totenkopf emblazoned on the front of their mirlitons and wore it on the field in the War of Austrian Succession and in the Seven Years' War.[PARAGRAPH:2]In 1808, when the regiment was reformed into Leib-Husaren Regiments Nr.1 and Nr.2, the Totenkopf remained a part of the uniform. During the Napoleonic Wars, when Frederick William, Duke of Brunswick-Wolfenb黷tel, was killed in battle, his troops changed the colour of their uniforms to black or apple green, with a Totenkopf on their shakos in mourning their dead leader. Other sources claim that the "Black Brunswickers" were so equipped while Friedrich Wilhelm of Brunswick lived, as a sign of revenge on the French.[PARAGRAPH:2]The skull continued to be used throughout the Prussian and Brunswick Armed forces until 1918, and some of the stormtroopers that led the last German offensives on the Western Front in 1918 used skull badges.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_NOVGOROD_USHKUINIK</Tag>
+    <English>Ushkuinik</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>维京劫掠者</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_NOVGOROD_USHKUINIK_PEDIA</Tag>
+    <English>[TAB]The ushkuiniks were medieval Novgorodian pirates who led the Viking-like life of fighting, killing, and robbery. Their name derives from "ushkui", a type of flat-bottom medieval Finnic ship uisk (literally a 'snake'), which could be easily transported over portages between the rivers.[PARAGRAPH:2]Although the Novgorodians took part in the Tsargrad expeditions of the 10th century and mounted pillaging raids to Finland in the 12th century, the ushkuiniks first appear as an organized force in the 1320s. Arranged in squadrons which could number several thousand, the ushkuiniks enjoyed the patronage of influential boyar families of Novgorod, who used them to demonstrate Novgorod's military clout to its neighbours and to advance its trade interests in the Volga region.[PARAGRAPH:2]During the famous campaign of 1360, the ushkuiniks sailed from Novgorod by the portages to the Volga river. Under command of boyar Anfal Nikitin, they gained possession of Zhukotin, a trade emporium in Volga Bulgaria. A ruler of the Golden Horde, which controlled Zhukotin, was furious and ordered Grand Prince Dmitry Konstantinovich to capture the ushkuiniks and to bring them to the Horde for trial, but Dmitry's punitive expedition failed.[PARAGRAPH:2]In 1363 the pirates launched the first Novgorodian raid along the Ob River in western Siberia. Three years later, without consulting their superiors in Novgorod, they approached Nizhny Novgorod and, wishing to punish Dmitry for his hostile action, massacred Armenian and Tatar merchants trading there. This led to a diplomatic row, when Dmitry demanded apologies from Novgorod Republic.[PARAGRAPH:2]In 1371, the ushkuiniks sacked Yaroslavl, Kostroma and other Upper Volga cities. Three years later, they sailed with upwards of ninety ships to pillage the Vyatka region. In 1375, they defeated the militia of Kostroma and burnt the city to the ground. The destruction was so severe that Kostroma had to be rebuilt elsewhere. After that, they looted Nizhny Novgorod and sailed down the Volga to Astrakhan, where they were annihilated by a Tatar general.[PARAGRAPH:2]By 1391, the ushkuiniks had recovered from this reverse and felt strong enough to resume their activities. At that period their patrons included Narimantas and Patrikas, the overlords of the Korela district that later became known as Ingria. In 1391 the pirates sacked both Zhukotin and Kazan. With Muscovy's power on the ascendant, however, Novgorod Republic was pressed into putting down their filibustering activities in the first decades of the 15th century.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+
+    <Chinese>[TAB]The ushkuiniks were medieval Novgorodian pirates who led the Viking-like life of fighting, killing, and robbery. Their name derives from "ushkui", a type of flat-bottom medieval Finnic ship uisk (literally a 'snake'), which could be easily transported over portages between the rivers.[PARAGRAPH:2]Although the Novgorodians took part in the Tsargrad expeditions of the 10th century and mounted pillaging raids to Finland in the 12th century, the ushkuiniks first appear as an organized force in the 1320s. Arranged in squadrons which could number several thousand, the ushkuiniks enjoyed the patronage of influential boyar families of Novgorod, who used them to demonstrate Novgorod's military clout to its neighbours and to advance its trade interests in the Volga region.[PARAGRAPH:2]During the famous campaign of 1360, the ushkuiniks sailed from Novgorod by the portages to the Volga river. Under command of boyar Anfal Nikitin, they gained possession of Zhukotin, a trade emporium in Volga Bulgaria. A ruler of the Golden Horde, which controlled Zhukotin, was furious and ordered Grand Prince Dmitry Konstantinovich to capture the ushkuiniks and to bring them to the Horde for trial, but Dmitry's punitive expedition failed.[PARAGRAPH:2]In 1363 the pirates launched the first Novgorodian raid along the Ob River in western Siberia. Three years later, without consulting their superiors in Novgorod, they approached Nizhny Novgorod and, wishing to punish Dmitry for his hostile action, massacred Armenian and Tatar merchants trading there. This led to a diplomatic row, when Dmitry demanded apologies from Novgorod Republic.[PARAGRAPH:2]In 1371, the ushkuiniks sacked Yaroslavl, Kostroma and other Upper Volga cities. Three years later, they sailed with upwards of ninety ships to pillage the Vyatka region. In 1375, they defeated the militia of Kostroma and burnt the city to the ground. The destruction was so severe that Kostroma had to be rebuilt elsewhere. After that, they looted Nizhny Novgorod and sailed down the Volga to Astrakhan, where they were annihilated by a Tatar general.[PARAGRAPH:2]By 1391, the ushkuiniks had recovered from this reverse and felt strong enough to resume their activities. At that period their patrons included Narimantas and Patrikas, the overlords of the Korela district that later became known as Ingria. In 1391 the pirates sacked both Zhukotin and Kazan. With Muscovy's power on the ascendant, however, Novgorod Republic was pressed into putting down their filibustering activities in the first decades of the 15th century.</Chinese>
+  </TEXT>
+  <!-- Unique Units -->
+  <!-- Company Units -->
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_KNIGHT_OF_ST_JOHNS</Tag>
+    <English>Knight of St. John's</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>圣约翰骑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_TEMPLAR_KNIGHT</Tag>
+    <English>Templar Knight</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>圣殿骑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_TEUTONIC_KNIGHT</Tag>
+    <English>Teutonic Knight</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>条顿骑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_DRAGON_KNIGHT</Tag>
+    <English>Knight of the Dragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>龙骑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_CALATRAVA_KNIGHT</Tag>
+    <English>Calatrava Knight</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卡拉特拉瓦骑士</Chinese>
+  </TEXT>
+  <!-- Company Units -->
+  <!-- Barbarian Units -->
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_MONGOL_KESHIK</Tag>
+    <English>Keshik</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>怯薛</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_MONGOL_KESHIK_PEDIA</Tag>
+    <English>[TAB]The equestrian skill of a Mongol was notoriously keen. Having been taught to ride on horseback from the age of three, and by five given bow and arrows to use from horseback for hunting and war, it was a natural way for the Mongols to conduct war. The Mongol's harsh, nomadic lifestyle prepared them well for the rigors of war; they often thrived in conditions that would be considered intolerable by any other troops of its time. When the need arose, Mongol horsemen could go up to ten days at a time without cooking food, during which they would sustain themselves by drinking the blood and milk of their horses.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The equestrian skill of a Mongol was notoriously keen. Having been taught to ride on horseback from the age of three, and by five given bow and arrows to use from horseback for hunting and war, it was a natural way for the Mongols to conduct war. The Mongol's harsh, nomadic lifestyle prepared them well for the rigors of war; they often thrived in conditions that would be considered intolerable by any other troops of its time. When the need arose, Mongol horsemen could go up to ten days at a time without cooking food, during which they would sustain themselves by drinking the blood and milk of their horses.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SELJUK_LANCER</Tag>
+    <English>Seljuk Lancer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>塞尔柱枪骑兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SELJUK_CROSSBOWMAN</Tag>
+    <English>Seljuk Crossbowman</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>塞尔柱弩手</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SELJUK_SWORDSMAN</Tag>
+    <English>Seljuk Swordsman</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>塞尔柱剑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SELJUK_HEAVY_FOOTMAN</Tag>
+    <English>Seljuk Heavy Footman</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>塞尔柱重步兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SELJUK_GUISARME</Tag>
+    <English>Seljuk Heavy Spearman</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>塞尔柱重枪兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_SELJUK_PEDIA</Tag>
+    <English>[TAB]The Seljuk Turks were a Turco-Persian tribe with its origins in the Turcoman clans of Central Asia who migrated into Persia in the 10th century, adopting Sunni Islam and Persian culture and language and are considered to be the cultural ancestors of today's modern Turks of Central Asia and Anatolia. By the mid 11th century they built up a vast nomadic empire including most of Western Asia and Persia and the Caucasus. During the 1060's, The Seljuk hordes, along with their Turkic and Kurdish allies, invaded Armenia, Georgia and Asia Minor, conquering the Armenian capitol in 1064 and Caesarea in 1067.[PARAGRAPH:2]Their victory at Manzikert in 1071 was a decisive defeat for the Byzantine Empire and soon all of Syria and Anatolia came under Seljuk control. Seljuk petty kingdoms were set up throughout the region, notably the Sultanate of Rum in eastern Anatolia which remained in existence until the 14th century. Their fractured states, however, were more concerned with consolidating their territories and conquering their neighbours than cooperating against the First Crusade. Although they easily defeated the untrained "Peoples Crusade" in 1096 they could not prevent the main Crusader army from seizing important cities like Nicaea, Iconium and Antioch, capturing the Holy Land in 1099 and setting up the first of the Crusader kingdoms.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The Seljuk Turks were a Turco-Persian tribe with its origins in the Turcoman clans of Central Asia who migrated into Persia in the 10th century, adopting Sunni Islam and Persian culture and language and are considered to be the cultural ancestors of today's modern Turks of Central Asia and Anatolia. By the mid 11th century they built up a vast nomadic empire including most of Western Asia and Persia and the Caucasus. During the 1060's, The Seljuk hordes, along with their Turkic and Kurdish allies, invaded Armenia, Georgia and Asia Minor, conquering the Armenian capitol in 1064 and Caesarea in 1067.[PARAGRAPH:2]Their victory at Manzikert in 1071 was a decisive defeat for the Byzantine Empire and soon all of Syria and Anatolia came under Seljuk control. Seljuk petty kingdoms were set up throughout the region, notably the Sultanate of Rum in eastern Anatolia which remained in existence until the 14th century. Their fractured states, however, were more concerned with consolidating their territories and conquering their neighbours than cooperating against the First Crusade. Although they easily defeated the untrained "Peoples Crusade" in 1096 they could not prevent the main Crusader army from seizing important cities like Nicaea, Iconium and Antioch, capturing the Holy Land in 1099 and setting up the first of the Crusader kingdoms.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_TURCOMAN_HORSE_ARCHER</Tag>
+    <English>Turcoman Horse Archer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>土库曼骑射手</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_TURCOMAN_HORSE_ARCHER_PEDIA</Tag>
+    <English>[TAB]Horse archers may be either light, such as Scythian, Hun, Parthian, Cuman or Pecheneg horsemen, or heavy, such as Byzantine kavallarioi, Turkish timariots, Russian druzhina and Japanese samurai. Heavy horse archers typically fought as disciplined units. Instead of harassing without ever making contact, they shot in volleys, weakening the enemy before they charged. In addition to bows, they often also carried close combat weapons, such as lances or spears. Some nations, like medieval Mongols, Hungarians and Cumans fielded both light and heavy mounted archers. In some armies, such as those of the Parthians, Palmyrans, and the Teutonic Order of Knights, the mounted troops consisted of both super-heavy troops (cataphracts, knights) without bows, and light mounted archers.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Horse archers may be either light, such as Scythian, Hun, Parthian, Cuman or Pecheneg horsemen, or heavy, such as Byzantine kavallarioi, Turkish timariots, Russian druzhina and Japanese samurai. Heavy horse archers typically fought as disciplined units. Instead of harassing without ever making contact, they shot in volleys, weakening the enemy before they charged. In addition to bows, they often also carried close combat weapons, such as lances or spears. Some nations, like medieval Mongols, Hungarians and Cumans fielded both light and heavy mounted archers. In some armies, such as those of the Parthians, Palmyrans, and the Teutonic Order of Knights, the mounted troops consisted of both super-heavy troops (cataphracts, knights) without bows, and light mounted archers.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_STEPPE_HORSE_ARCHER</Tag>
+    <English>Steppe Horse Archer</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>草原骑射手</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_STEPPE_HORSE_ARCHER_PEDIA</Tag>
+    <English>[TAB]Horse archers may be either light, such as Scythian, Hun, Parthian, Cuman or Pecheneg horsemen, or heavy, such as Byzantine kavallarioi, Turkish timariots, Russian druzhina and Japanese samurai. Heavy horse archers typically fought as disciplined units. Instead of harassing without ever making contact, they shot in volleys, weakening the enemy before they charged. In addition to bows, they often also carried close combat weapons, such as lances or spears. Some nations, like medieval Mongols, Hungarians and Cumans fielded both light and heavy mounted archers. In some armies, such as those of the Parthians, Palmyrans, and the Teutonic Order of Knights, the mounted troops consisted of both super-heavy troops (cataphracts, knights) without bows, and light mounted archers.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Horse archers may be either light, such as Scythian, Hun, Parthian, Cuman or Pecheneg horsemen, or heavy, such as Byzantine kavallarioi, Turkish timariots, Russian druzhina and Japanese samurai. Heavy horse archers typically fought as disciplined units. Instead of harassing without ever making contact, they shot in volleys, weakening the enemy before they charged. In addition to bows, they often also carried close combat weapons, such as lances or spears. Some nations, like medieval Mongols, Hungarians and Cumans fielded both light and heavy mounted archers. In some armies, such as those of the Parthians, Palmyrans, and the Teutonic Order of Knights, the mounted troops consisted of both super-heavy troops (cataphracts, knights) without bows, and light mounted archers.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_BEDOUIN</Tag>
+    <English>Bedouin</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>骆驼骑射手</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_BEDOUIN_PEDIA</Tag>
+    <English>[TAB]Historically, the Bedouin engaged in nomadic herding, agriculture and sometimes fishing. A major source of income was the taxation of caravans, and tributes collected from non-Bedouin settlements. They also earned income by transporting goods and people in caravans across the desert. Scarcity of water and of permanent pastoral land required them to move constantly.[PARAGRAPH:2]The Moroccan traveller, Ibn Battuta, reported that in 1326 on the route to Gaza, the Egyptian authorities had a customs post at Qatya on the north coast of Sinai. Here bedouin were being used to guard the road and track down those trying to cross the border without permission.[PARAGRAPH:2]The Early Medieval grammarians and scholars seeking to develop a system of standardizing the contemporary Classical Arabic for maximal intelligibility across the Arabophone areas, believed that the Bedouin spoke the purest, most conservative variety of the language. To solve irregularities of pronunciation, the Bedouin were asked to recite certain poems, whereafter consensus was relied on to decide the pronunciation and spelling of a given word.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Historically, the Bedouin engaged in nomadic herding, agriculture and sometimes fishing. A major source of income was the taxation of caravans, and tributes collected from non-Bedouin settlements. They also earned income by transporting goods and people in caravans across the desert. Scarcity of water and of permanent pastoral land required them to move constantly.[PARAGRAPH:2]The Moroccan traveller, Ibn Battuta, reported that in 1326 on the route to Gaza, the Egyptian authorities had a customs post at Qatya on the north coast of Sinai. Here bedouin were being used to guard the road and track down those trying to cross the border without permission.[PARAGRAPH:2]The Early Medieval grammarians and scholars seeking to develop a system of standardizing the contemporary Classical Arabic for maximal intelligibility across the Arabophone areas, believed that the Bedouin spoke the purest, most conservative variety of the language. To solve irregularities of pronunciation, the Bedouin were asked to recite certain poems, whereafter consensus was relied on to decide the pronunciation and spelling of a given word.</Chinese>
+  </TEXT>
+  <!-- Barbarian Units -->
+  <TEXT>
+    <Tag>TXT_KEY_BARBONLY_HELP</Tag>
+    <English>Barbarian only</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>野蛮人</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_OTTOMAN_JANISSARY</Tag>
+    <English>Janissary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>苏丹亲兵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_OTTOMAN_JANISSARY_PEDIA</Tag>
+    <English>[TAB]The Janissaries were an elite fighting force of infantry raised by the Ottoman sultans. They formed the sultan's household troops and bodyguard, eventually rising to a position of enormous influence before being disbanded in the nineteenth century. Murad I founded the Janissary corps around 1330; the troops were made up of non-Muslim boys who were captured in battle or bought as slaves and brought up as warriors. This was very similar to the Mameluk slave soldiers of Egypt, who may have been the inspiration for the Janissaries. Janissaries became the first infantry units in the Ottoman military forces, because at the time no free man would consent to fighting on foot. [PARAGRAPH:2]After 1380 the system for recruiting new soldiers into the Janissaries became standardized through a process called the "devshirmeh:" this was basically a "human tax" where each community had to contribute a certain number of young boys to the state. In practice these were almost always Christian slaves. [PARAGRAPH:2]The boys were sequestered in special barracks, where they would be converted to Islam and trained to become elite soldiers (a process very similar to that practiced by the Spartans of ancient Greece). Although slaves, the Janissaries received special privileges, including the right to bear weapons and higher pay than other soldiers. Although the Janissaries began their existence as a small bodyguard for the sultan, in time they came to comprise much of the Ottoman army, topping out at over 200,000 men at some points. [PARAGRAPH:2]The Janissaries originally were trained to be expert archers, but once firearms were invented they quickly adopted the new weapons, becoming fiercely proficient with muskets. They usually used axes or sabres for melee combat. Janissaries were present at all of the major battles in the early history of the Ottoman Empire, including the Siege of Constantinople in 1453. [PARAGRAPH:2]The very success of the Janissaries would eventually destroy them. Realizing their importance, they began demanding higher pay, threatening rebellion if their demands were refused. Their first rebellion took place in 1449, and it was followed by many more. By the eighteenth century, the Janissaries dominated the government. Through frequent palace coups they changed sultans as they wished, and they blocked much-needed modernization reforms in the Ottoman army. Many of the Janissaries became corrupted, no longer training for battle but instead pursuing commercial ventures or political office, and the weakness of the Ottomans in the face of Russian and Austrian expansion soon became obvious to all. Desperate to regain control of their country, the Ottoman rulers made determined efforts to eradicate them. [PARAGRAPH:2]Finally, in 1826 Mahmud II was able to form a non-Janissary army strong enough to challenge the Janissaries. The Janissaries did not go down peacefully, and Mahmud II had to use artillery to shell the Janissaries' barracks and batter them into submission. This event - known as the "Auspicious Incident," ended the Janissaries. Their characteristic marching music is the only trace of them that remains today.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The Janissaries were an elite fighting force of infantry raised by the Ottoman sultans. They formed the sultan's household troops and bodyguard, eventually rising to a position of enormous influence before being disbanded in the nineteenth century. Murad I founded the Janissary corps around 1330; the troops were made up of non-Muslim boys who were captured in battle or bought as slaves and brought up as warriors. This was very similar to the Mameluk slave soldiers of Egypt, who may have been the inspiration for the Janissaries. Janissaries became the first infantry units in the Ottoman military forces, because at the time no free man would consent to fighting on foot. [PARAGRAPH:2]After 1380 the system for recruiting new soldiers into the Janissaries became standardized through a process called the "devshirmeh:" this was basically a "human tax" where each community had to contribute a certain number of young boys to the state. In practice these were almost always Christian slaves. [PARAGRAPH:2]The boys were sequestered in special barracks, where they would be converted to Islam and trained to become elite soldiers (a process very similar to that practiced by the Spartans of ancient Greece). Although slaves, the Janissaries received special privileges, including the right to bear weapons and higher pay than other soldiers. Although the Janissaries began their existence as a small bodyguard for the sultan, in time they came to comprise much of the Ottoman army, topping out at over 200,000 men at some points. [PARAGRAPH:2]The Janissaries originally were trained to be expert archers, but once firearms were invented they quickly adopted the new weapons, becoming fiercely proficient with muskets. They usually used axes or sabres for melee combat. Janissaries were present at all of the major battles in the early history of the Ottoman Empire, including the Siege of Constantinople in 1453. [PARAGRAPH:2]The very success of the Janissaries would eventually destroy them. Realizing their importance, they began demanding higher pay, threatening rebellion if their demands were refused. Their first rebellion took place in 1449, and it was followed by many more. By the eighteenth century, the Janissaries dominated the government. Through frequent palace coups they changed sultans as they wished, and they blocked much-needed modernization reforms in the Ottoman army. Many of the Janissaries became corrupted, no longer training for battle but instead pursuing commercial ventures or political office, and the weakness of the Ottomans in the face of Russian and Austrian expansion soon became obvious to all. Desperate to regain control of their country, the Ottoman rulers made determined efforts to eradicate them. [PARAGRAPH:2]Finally, in 1826 Mahmud II was able to form a non-Janissary army strong enough to challenge the Janissaries. The Janissaries did not go down peacefully, and Mahmud II had to use artillery to shell the Janissaries' barracks and batter them into submission. This event - known as the "Auspicious Incident," ended the Janissaries. Their characteristic marching music is the only trace of them that remains today.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_NEW_JANISSARY</Tag>
+    <English>A new Janissary unit reports for service in</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>A new Janissary unit reports for service in</Chinese>
+  </TEXT>
+</Civ4GameText>

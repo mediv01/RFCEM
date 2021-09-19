@@ -1,0 +1,1313 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Hints -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_1</Tag>
+    <English>To hire a mercenary, click on the "axe" icon in the upper left hand side of the screen.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>要雇佣佣兵，请单击屏幕左上角的“斧头”图标。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_2</Tag>
+    <English>If you can read any of French, German, Italian, Spanish or Portuguese, you could help us translate this mod into that language.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>如果你能读到法语、德语、意大利语、西班牙语或葡萄牙语，你可以帮助我们把这个模组翻译成那种语言。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_3</Tag>
+    <English>Combining more oppressive civics with more liberal ones will result in a stability penalty.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>把更多压迫性的公民和更自由的公民结合起来，将导致一个稳定的惩罚。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_4</Tag>
+    <English>You can check the parameters influencing your stability in the Financial Advisor.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>您可以在财务顾问中检查影响您稳定性的参数。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_5</Tag>
+    <English>RFC Europe is based on Rhye's and Fall of Civilization. You can visit the official site for the original mod at http://rhye.civfanatics.net</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>RFC欧洲是基于Rhye和文明的衰落。您可以访问官方网站http://rhye.civfanatics.net获取原始mod</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_6</Tag>
+    <English>In RFC Europe plagues are often fatal, and nothing can keep you safe from them.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在RFC欧洲瘟疫通常是致命的，没有什么能让你远离它们。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_7</Tag>
+    <English>For RFC Europe discussions and lots of additional information about RFCE visit the mod forum at Civfanatics: http://forums.civfanatics.com/forumdisplay.php?f=386</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>有关RFC欧洲讨论和RFCE的更多信息，请访问位于Civfanatics的mod论坛：http://forums.Civfanatics.com/forumdisplay.php？f=386</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_8</Tag>
+    <English>In RFC Europe contacts are permanent and all nations establish contact with the Pope when Catholicism first spread to their cities.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在RFC中，欧洲的联系是永久的，当天主教第一次传播到他们的城市时，所有国家都与教皇建立联系。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_9</Tag>
+    <English>Embassies have been removed from RFC Europe, all contacts are permanent in the mod.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>大使馆已经从欧洲自由贸易委员会撤走，所有的联系都是在国防部永久性的。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_10</Tag>
+    <English>Every now and then the Pope would call upon the Catholic nations to go on a Crusade. This may provide either danger or opportunity for you.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>教皇时不时地会号召天主教国家进行十字军东征。这可能会给你带来危险或机遇。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_11</Tag>
+    <English>The Hungarian V間v醨 is an excellent defensive building, damaging all enemy units within 2 tiles of the city.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>匈牙利城堡是一座出色的防御建筑，摧毁了城市2个地砖范围内的所有敌军单位。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_12</Tag>
+    <English>Janissaries were the elite guards of the Ottoman Sultans and were drafted from the conquered Christian population in the Empire.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>Janissaries是奥斯曼苏丹的精锐卫队，是从帝国被征服的基督教人口中招募来的。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_13</Tag>
+    <English>The only way in and out of the Black Sea is via the Bosporus near Constantinople (Istanbul).</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>进出黑海的唯一途径是通过靠近君士坦丁堡（伊斯坦布尔）的博斯普鲁斯海峡。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_14</Tag>
+    <English>If you get a skull over your cities, it means they have the plague! The population and units in the city and in the surrounding region will probably decrease dramatically. To reduce the effects and the duration of plague, keep your cities healthy.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果你在你的城市得到一个骷髅，这意味着瘟疫袭击了你的城市！城市人口和周边地区的单位生命可能会急剧下降。为了降低瘟疫的影响，请保持城市在健康状态。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_15</Tag>
+    <English>Plague can spread in many ways - through trade routes, along roads and between neighbouring cities.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>瘟疫可以通过多种途径传播——通过贸易路线、公路和邻近城市之间传播。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_16</Tag>
+    <English>The civilization you choose to play affects your difficulty every bit as much as the difficulty level you choose. Make sure to pick a civ that suits your playing style and your level of expertise.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你选择玩的文明会影响你的难度和你选择的难度等级。一定要选择一个适合你的比赛风格和你的专业水平的公民。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_17</Tag>
+    <English>Every civ has hidden modifiers that influence their growth. This way, modern civs are not disadvantaged by their late start.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>每个文明都有一些影响其发展的隐藏属性。通过这种设置，后起的文明将不至于在竞争中处于劣势。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_18</Tag>
+    <English>You can declare war on independent states and minor civs simply by moving your units into their territory.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你可以向独立国家和小型公民宣战，只要把你的部队转移到他们的领土上。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_19</Tag>
+    <English>You can become a colonial power by building colonial projects and establishing monopoly over exotic goods.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你可以通过建造殖民地成为一个殖民大国，确立贸易商品的垄断地位。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_20</Tag>
+    <English>Merchant Republic is a great Civic, for a peaceful commercial Empire.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>商业共和国是一个伟大的公民，为一个和平的商业帝国。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_21</Tag>
+    <English>Combining certain civics will improve or harm the stability of your empire.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>某些内政法令组合可能提升或降低国家稳定度。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_22</Tag>
+    <English>Keep track of the current year, this mod spans from 500 AD to 1800 AD in 500 turns.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>保持当前年份的记录，这个模组在500转中从公元500年到公元1800年。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_23</Tag>
+    <English>Remember that you can always take control of a newborn civ if you don't like the civilization you started with. You can also use this feature to play from 500AD even when you want to pick a civ that starts later on.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果你不喜欢开局时选择的文明，可以在新文明诞生时接手该文明。因此即使你想要控制的文明诞生时间较晚，仍然可以在公元500年开始游戏。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_24</Tag>
+    <English>Combining Religious Law and Religious Tolerance is not a good idea.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>把宗教法律和宗教宽容结合起来不是一个好主意。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_25</Tag>
+    <English>In Rhye's and Fall of Civilization and RFC Europe, vassals can declare war.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在“Rhye's文明的兴衰欧洲”中，附庸国可以宣战。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_26</Tag>
+    <English>In Rhye's and Fall of Civilization and RFC Europe, movement through ocean tiles costs ?a movement point.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在Rhye的《文明的沦陷》和RFC的《欧洲》，通过海洋瓷砖的移动要付出代价吗？一个移动点。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_27</Tag>
+    <English>In Rhye's and Fall of Civilization and RFC Europe, the max income from a shrine is 20 gold per turn.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在“Rhye's文明的兴衰欧洲”中，圣城每回合的最高收入为20金币。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_28</Tag>
+    <English>RFC Europe introduces many wonders which correspond to the time period and the nations not included in standard Civilization.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>RFC欧洲介绍了许多奇迹，这些奇迹与时代和未被纳入标准文明的国家相对应。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_29</Tag>
+    <English>In RFC Europe, vassal states are enabled by the discovery of the Vassalage tech.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在“RFC欧洲”中，附庸国通过发现分封制度科技启用。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_30</Tag>
+    <English>While in RFC you can hire out one of your units as a Mercenary and another civ may hire it, this feature is disabled in RFCE. In our mod all potential mercenaries come from a global mercenary pool instead.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在RFC中，你可以雇佣你的一个单位作为雇佣兵，而另一个civ可以雇佣它，这个功能在RFCE中被禁用。在我们的国防部，所有潜在的雇佣军都来自一个全球雇佣军池。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_31</Tag>
+    <English>If you have have a bug to report, have any ideas how to improve the mod, or just simply like RFCE, make sure to check out the development forum at CivFanatics.com.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果你有一个bug要报告，有任何改进mod的想法，或者只是像RFCE一样，确保查看CivFanatics.com上的开发论坛。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_32</Tag>
+    <English>If it's been a while since the last time you got an updated version of the mod, make sure to check CivFanatics.com for a new version. The mod is in active development, and updates are uploaded often. Every update is full of fixes and new features.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>请访问CivFanatics.com网站的专题论坛查看本模组更新情况，及时下载最新版本。本模组的更新相当频繁的，新版本会修正原有错误并增加特色内容。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_33</Tag>
+    <English>Creating an enormous empire may seem tempting, but you have to be very careful not to let your expansion destabilize your empire! The Expansion Civics can help with that.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>建立一个巨大的帝国是很有诱惑力的目标，但请注意过度扩张会导致国家的不稳定！实行扩张主义法令有助于保持大帝国的稳定。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_34</Tag>
+    <English>Check the files in the Reference folder for details on some of the new features in RFCE.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>查看参考文件夹中的文件，以获取有关RFCE中某些新功能的详细信息。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_35</Tag>
+    <English>In Rhye's and Fall of Civilization and RFC Europe, camera flying mode hotkey has changed to [CTRL + F].</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在Rhye's and Fall of Civilization和RFC Europe中，相机飞行模式热键已更改为[CTRL+F]。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_36</Tag>
+    <English>RFC Europe has many new terrain types and resources, to be able to better represent medieval Europe in the mod.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>RFC欧洲有许多新的地形类型和资源，能够更好地代表中世纪欧洲的国防部。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_37</Tag>
+    <English>RFC Europe has a completely reworked mod-specific technology tree, with lots of new techs from the Middle Ages.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>RFC欧洲有一个完全重新设计的特定于国防部的技术树，有许多来自中世纪的新技术。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_38</Tag>
+    <English>If you attempt to stop the growth of newborn civs, some of your units will flip to their side.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果你决定镇压新诞生的文明，你的部分单位可能叛离。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_39</Tag>
+    <English>RFC Europe has several new unit types which significantly change the combat mechanics.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>RFC欧洲有几个新的单位类型，这大大改变了战斗机制。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_40</Tag>
+    <English>You can do religious persecutions with the Prosecutor unit. Having many foreign religions in your cities will hurt your stability severely, so use them!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你可以和检察官一起做宗教迫害。在你的城市里有许多外国宗教会严重损害你的稳定，所以使用它们吧！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_41</Tag>
+    <English>Moorland is a new type of terrain with limited ability to be worked.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>沼泽地是限制工作能力的新地块类型。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_42</Tag>
+    <English>Light cavalry are fast and have high withdrawal rates; use them to pillage land and to harass the enemy.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>轻骑兵速度快且具有较高的撤退几率；用他们来掠夺设施和骚扰敌人是一个不错的选择。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_43</Tag>
+    <English>If you feel you are too tired to keep playing, there's always coffee...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果你觉得太累了不能继续玩，总会有咖啡。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_44</Tag>
+    <English>Keep in mind that snacks are only good in moderation.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>记住，零食只有适量才是好的。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_45</Tag>
+    <English>In RFC Europe, the map is divided into historical provinces, which determine AI wars, your stability and historical goals. To see the name of a province, just hover your pointer over a map tile.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在“RFC欧洲”中地图被划分成了若干历史地区，AI的战争范围、扩张对稳定的影响以及历史胜利的目标都由其决定。要查询一个地区的名字，只需将鼠标指针移动到这个地区。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_46</Tag>
+    <English>If you hold down the "Ctrl" key while hovering over the map, you can highlight the provinces' borders.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果在地图上悬停时按住“Ctrl”键，可以突出显示各省的边界。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_47</Tag>
+    <English>In order to qualify for "controlling" a province for your historical goals, you need to make sure that all cities in the province are yours, or you own all tiles (by cultural expansion) in the province.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>为了有资格“控制”一个省以实现您的历史目标，您需要确保该省的所有城市都是您的，或者您拥有该省的所有瓷砖（通过文化扩展）。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_48</Tag>
+    <English>Press the "Ctrl" key and hover over a tile to see which Province it is in.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按“Ctrl”键并将鼠标悬停在某个互动程序上，以查看它位于哪个省。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_49</Tag>
+    <English>You can easily keep track of the progress of your UHVs in the Victory Screen (F8).</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>您可以在Victory屏幕（F8）中轻松跟踪UHV的进度。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_50</Tag>
+    <English>Don't let another civilization keep cities in your core territory. It will seriously hurt your stability!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>不要让另一个文明把城市留在你的核心领地。这会严重损害你的稳定性！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_51</Tag>
+    <English>Watch out for minor civs. Their national identity is very high, so you can expect revolts if conquering them!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>小心小公民。他们的民族认同感很高，如果征服了他们，你可以期待反抗！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_52</Tag>
+    <English>Golden Ages have an additional benefit in RFCE (compared to vanilla RFC): there is no anarchy when you change your civics.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>黄金时代在RFCE中有一个额外的好处（与香草RFC相比）：当你改变你的公民身份时，就不会有无政府状态。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_53</Tag>
+    <English>Watch out for changing civics. Combining the right ones have huge advantages, but do not switch too often. Every turn you spend in anarchy can permanently cause stability points loss!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>注意更换公民。把正确的组合在一起有巨大的优势，但不要经常转换。你在无政府状态下的每一个回合都会永久性地造成稳定点的损失！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_54</Tag>
+    <English>You cannot proclaim a state religion while you are at Paganism. You have to change your civics first, then declare your state religion.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你在异教时不能宣扬国家宗教。你必须先改变你的公民身份，然后宣布你的国家宗教。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_55</Tag>
+    <English>You cannot prosecute a religion from cities where this religion is tied to one or more wonders/shrines. So if you play with Spain and want to win by UHVs, don't feel bad if you raze cities with such wonders.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果一个宗教与一个或多个奇迹/神龛有关，则不能从这些城市起诉该宗教。所以，如果你和西班牙队一起踢球，想用超高压车赢得比赛，如果你用这样的奇迹把城市夷为平地，不要感到难过。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_56</Tag>
+    <English>Check out the progress on the colonies as the game advances in the new Colony Information Screen. You can easily find out which colonies are already completed, and what parts of the world is still waiting for you. It's under the 5th tab in the Info Screen (F9).</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>查看在新的殖民地信息屏幕上游戏进行时殖民地的进度。你可以很容易地找出哪些殖民地已经建成，世界上还有哪些地方还在等着你。它在信息屏幕（F9）的第5个标签下。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_57</Tag>
+    <English>In RFC Europe, some unique mercenaries can only be hired if you have a city in or near their native province.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在RFC欧洲，一些独特的雇佣兵只能被雇用，如果你有一个城市在或接近他们的本地省。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_58</Tag>
+    <English>Stability can ruin your games if you overexpand. Make sure you build as many stability boosting buildings (Manor House, Courthouse, Castle and Night Watch) as possible in all your cities.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果你过度运动，稳定性会毁掉你的比赛。确保你在你的所有城市建造尽可能多的稳定促进建筑（庄园，法院，城堡和夜班）。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_59</Tag>
+    <English>You cannot trade techs you didn't discover yourself, also your newly discovered techs cannot be traded for 10 turns.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你不能交易你没有发现自己的技术，也不能交易你新发现的技术10回合。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_60</Tag>
+    <English>Don't be surprised if the AI of small civs value techs surprisingly high: One of the factors modifying your tech costs is the size of your empire.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果小型civ的人工智能对技术的价值出奇的高，不要惊讶：改变你的技术成本的因素之一是你的帝国的规模。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_61</Tag>
+    <English>In RFC Europe you cannot declare war on newly spawned civs for 5 turns.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在RFC欧洲，你不能对新产生的文明宣战5回合。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_62</Tag>
+    <English>You won't get a huge diplo boost just for sharing a religion with another civ. You have to earn faith points in the common religion to be recognized.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你不会因为和其他公民分享宗教信仰而得到巨大的提振。你必须在共同的宗教中获得信仰点才能被认可。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_63</Tag>
+    <English>The scrolling image in the loading screen of RFCE is the Bayeux Tapestry, a nearly 70 metres long and 50 centimetres tall embroidered cloth made in the 1070s, which depicts the events leading up to the Norman conquest of England.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>RFCE加载屏幕上的滚动图像是Bayeux挂毯，这是一种大约70米长、50厘米高的刺绣布，制作于10世纪70年代，描绘了诺曼人征服英国之前的事件。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_64</Tag>
+    <English>Be sure to check out the Colony Screen - you can find it in the Info Screen (F9) - and follow the progress of European dominance throughout the World!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>一定要查看殖民地屏幕-你可以在信息屏幕（F9）找到它-并跟踪欧洲在全世界的统治的进展！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_65</Tag>
+    <English>Open the victory screen to view more detailed information about your civ's Unique Historical Victory.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>打开victory（胜利）屏幕，查看有关您的civ独特历史胜利的更多详细信息。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_66</Tag>
+    <English>In RFCE the following straits are passable by both naval and land units: Oresund, Bosporus, Dardanelles</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在RFCE中，海军和陆军部队都可以通过下列海峡：奥雷松海峡、博斯普鲁斯海峡、达达尼尔海峡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_67</Tag>
+    <English>In RFCE diagonally connected land tiles are passable for naval units too. The narrow straits of Bosporus, Dardanelles, Oresund are represented this way, also this makes naval movement more realistic between small groups of islands.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在RFCE中，对角连接的地砖也可用于海军部队。博斯普鲁斯海峡、达达尼尔海峡、奥雷松德海峡的狭长海峡就是这样的，这也使得海军在小群岛屿之间的运动更加现实。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_68</Tag>
+    <English>Naval units can pass foreign territory without signing open borders with the owner or declaring war on them!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>海军部队可以通过外国领土，而无需与拥有者签署开放边界或向他们宣战！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_69</Tag>
+    <English>Sleep is for the weak! RFCE is for the bold!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>睡觉是为了弱者！RFCE是为勇敢的人准备的！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_70</Tag>
+    <English>Yeah, I can get behind this. Just load back your game, it's not that late. You will get some sleep tomorrow. Or next week.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>是的，我可以支持。把你的游戏装回去，还没那么晚。你明天可以睡一觉。或者下周。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_71</Tag>
+    <English>Your nation needs you more than ever, don't you dare to leave your people alone until you reach that UHV!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你的国家比以往任何时候都更需要你，在你到达超高压之前，你不敢让你的人民一个人呆着！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_72</Tag>
+    <English>You know you shouldn't continue playing. Yeah, I'm talking to you, no more "just one more turn". Seriously, stop... you have work to do!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>你知道你不应该继续玩。是的，我在和你说话，不要再“再转一圈”。说真的，停下。。。你还有工作要做！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_73</Tag>
+    <English>RNG can be a b*tch... Get over it quickly, it will come back. Theoretically :P</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>RNG可以是一个b*tch。。。快点过去，它会回来的。理论上：P</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_74</Tag>
+    <English>The opening image of the mod is depicting the fall of Acre in 1291: "Guillaume de Clermont defending the walls at the Siege of Acre, 1291", by Dominique Papety.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>国防部的头像描绘的是1291年阿克里的沦陷：多米尼克·帕佩蒂（Dominique Papety）在1291年的阿克里攻城时保卫城墙的纪尧姆·德·克莱蒙特（Guillaume de Clermont）。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_75</Tag>
+    <English>Under most religious civics your nation's stability highly depends on your religious unity. So try not to keep multiple religions in your cities unless you run Religious Tolerance; use those Prosecutors!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在大多数宗教公民的统治下，你们国家的稳定在很大程度上取决于你们的宗教团结。所以，除非你有宗教宽容，否则不要在你的城市里保留多种宗教；利用那些检察官！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_76</Tag>
+    <English>If you hold down the "Shift" key while hovering over the map, you can check all civilizations' spawn zones. Same with the "Alt" key and respawn zones. Take a look before you decide where to expand!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果在地图上悬停时按住“Shift”键，则可以检查所有文明的繁殖区域。与“Alt”键和重生区相同。在决定扩展到哪里之前，先看一看！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_77</Tag>
+    <English>"To eat your fill but not apply your mind to anything all day is a problem. Are there no games to play? Even that would be smarter than doing nothing." - Confucius</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“吃饱了，却一整天都不专心做任何事，这是个问题。没有游戏可玩吗？即使这样也比什么都不做更聪明</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_78</Tag>
+    <English>"The essence of strategy is choosing what not to do." - Michael Porter</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“战略的本质是选择不做什么。”—迈克尔·波特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_79</Tag>
+    <English>"Never interrupt your enemy when he is making a mistake." - Napoleon Bonaparte</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“当敌人犯错时，千万不要打断他。”—拿破仑·波拿巴</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_80</Tag>
+    <English>"I speak Spanish to God, Italian to women, French to men, and German to my horse." - Charles V</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“我对上帝说西班牙语，对女人说意大利语，对男人说法语，对我的马说德语。”—查尔斯五世</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_81</Tag>
+    <English>"All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved." - Sun Tzu</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“所有的人都能看到我征服的策略，但没有人能看到胜利的策略。”—孙子</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_RFCE_82</Tag>
+    <English>"Onward, Christian soldiers, marching as to war, with the cross of Jesus going on before. Christ, the royal Master, leads against the foe; forward into battle see His banners go!" - Sabine Baring-Gould</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>“前进吧，基督徒的士兵们，像在打仗一样前进，前面还有耶稣的十字架。王上的主基督，率领仇敌，你们要上战场，看他的旗帜飘扬-沙宾巴林古尔德</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_1</Tag>
+    <English>Use your mouse wheel to zoom.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>使用鼠标滚轮缩放。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_2</Tag>
+    <English>Press [CTRL + I] to play with a minimized interface. Press [ALT-I] to play with no interface.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+I]以播放最小化的界面。按[ALT-I]可在没有界面的情况下播放。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_3</Tag>
+    <English>You can use the mouse wheel or [PAGE UP] and [PAGE DOWN] to zoom the camera in and out...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>您可以使用鼠标滚轮或[向上翻页]和[向下翻页]来放大和缩小相机。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_4</Tag>
+    <English>Press [CTRL + S] to Save the Game and [CTRL + L] to Load a saved game...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+S]保存游戏，按[CTRL+L]加载保存的游戏。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_5</Tag>
+    <English>Press [CTRL + (LEFT ARROW)] or [CTRL + (RIGHT ARROW)] to rotate and set the camera by 45 degrees...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+（左箭头）或[CTRL+（右箭头）旋转并将相机设置45度。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_6</Tag>
+    <English>Double clicking on a stack of units will group them together...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>双击一堆单位将它们组合在一起。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_7</Tag>
+    <English>Hold down ALT and click on a stack to select all units...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按住ALT键并单击堆栈以选择所有单位。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_8</Tag>
+    <English>Hold down CTRL and click on a stack to select all units of the same type...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按住CTRL键并单击堆栈以选择同一类型的所有单位。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_9</Tag>
+    <English>With multiple units selected, you can give the group orders that they will conduct together.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>选择多个单位后，您可以向组下达它们将一起执行的命令。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_10</Tag>
+    <English>Right clicking on a transport will automatically load the units onto it...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>右键单击传输将自动将单元加载到它上。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_11</Tag>
+    <English>With a transport selected, right clicking on an adjacent land square will automatically unload the units...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>选择运输工具后，右键单击相邻的土地广场将自动卸载设备。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_12</Tag>
+    <English>Press [F12] to access the Civilopedia...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[F12]访问Civilopedia。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_13</Tag>
+    <English>Press [PRINT SCREEN] to take a screenshot (It will be saved in your Civ4\Screenshots folder)...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[打印屏幕]截图（它将保存在Civ4\Screenshots文件夹中）。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_14</Tag>
+    <English>Press [ESC] to bring up the in-game Options Menu...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[ESC]打开游戏中的选项菜单。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_15</Tag>
+    <English>Press [CTRL + O] to bring up the Options Menu...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+O]打开“选项”菜单。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_16</Tag>
+    <English>Press the middle mouse button to center the camera on the active unit...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按鼠标中键将相机置于活动单元的中心。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_17</Tag>
+    <English>Press [SHIFT + F5] (Single Player Only) to Quick Save...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[SHIFT+F5]（仅限单人）快速保存。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_18</Tag>
+    <English>Press [SHIFT + F8] (Single Player Only) to Quick Load...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[SHIFT+F8]（仅限单人）快速加载。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_20</Tag>
+    <English>Press [CTRL + # key] to bind the selected unit to that # key. For example: [CTRL + 3] would make it so anytime 3 is pressed, that unit is automatically selected...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+#键]将所选设备绑定到该键。例如：[CTRL+3]将使其成为每当按下3时，该单位将自动选择。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_21</Tag>
+    <English>While in the city screen, press [CTRL + # key] to save the production queue. This queue can be loaded in any other city by pressing the # key...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在“城市”屏幕中，按[CTRL+#键]保存生产队列。按#键可在任何其他城市加载此队列。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_22</Tag>
+    <English>Press [F11] to quickly switch in and out of Globe View...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[F11]可快速切换全局视图和全局视图。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_23</Tag>
+    <English>While in the city screen, you can use [LEFT ARROW] and [RIGHT ARROW] to cycle between cities...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>在城市屏幕中，您可以使用[左箭头]和[右箭头]在城市之间循环。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_24</Tag>
+    <English>Press [CTRL + B] to toggle Bare Map view...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+B]两列火车只是地图视图。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_25</Tag>
+    <English>Press [CTRL + R] to toggle Flag Resources view...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+R]切换标记资源视图。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_26</Tag>
+    <English>Press [CTRL + Y] to toggle Show Yields view...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+Y]切换“显示收益率”视图。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_27</Tag>
+    <English>Press [CTRL + A] to force all units with queued orders to move...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+A]以强制所有已排队的订单单元移动。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_28</Tag>
+    <English>Press [CTRL + T] to toggle the Tile Grid.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+T]切换平铺网格。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_29</Tag>
+    <English>Press [ALT + Q] to retire from the game...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[ALT+Q]退出游戏。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_33</Tag>
+    <English>Press [CTRL + W] to access the Worldbuilder...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+W]访问Worldbuilder。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_34</Tag>
+    <English>Press [W] or [ENTER] to cycle through your active units...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[W]或[ENTER]在当前单位中循环。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_35</Tag>
+    <English>Press [/] to scroll through active workers...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[/]在活动工作进程中滚动。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_36</Tag>
+    <English>Press [COMMA] and [PERIOD] to scroll through units on the same square...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[逗号]和[句点]滚动同一正方形上的单位。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_37</Tag>
+    <English>Press [SHIFT + ENTER] to force the turn to end...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[SHIFT+ENTER]强制结束转弯。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_38</Tag>
+    <English>Hold down the ALT key while mousing-over a plot to view the combat odds for an attack...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按住ALT键，同时在一个情节上鼠标移动以查看攻击的战斗几率。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_39</Tag>
+    <English>To view combat odds, hold down the right mouse button on the target tile...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>要查看战斗几率，请按住目标牌上的鼠标右键。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_40</Tag>
+    <English>Press [HOME] and [END] to cycle through your cities...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[主页]和[结束]在您的城市中循环。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_41</Tag>
+    <English>Press [INSERT] to open up the nearest friendly city...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[插入]打开最近的友好城市。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_42</Tag>
+    <English>Hold down the [SHIFT] key to add items to the end of your city's build queue...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按住[SHIFT]键将项目添加到城市生成队列的末尾。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_43</Tag>
+    <English>Hold down the [CTRL] key to insert items at the beginning of your city's build queue...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按住[CTRL]键在城市生成队列的开头插入项。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_44</Tag>
+    <English>Hold down the [ALT] key to have a city build an item indefinitely...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按住[ALT]键可以让城市无限期地构建项目。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_45</Tag>
+    <English>Press the forward and back buttons on your mouse to cycle through units on the same plot...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按鼠标上的“前进”和“后退”按钮在同一绘图上循环显示单位。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_46</Tag>
+    <English>Hold down the [CTRL] key and spin the mouse-wheel to cycle through units on the same plot...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按住[CTRL]键并旋转鼠标滚轮以循环浏览同一绘图上的单位。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_47</Tag>
+    <English>Press [CTRL + M] to toggle the music on and off...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+M]可打开和关闭音乐。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_48</Tag>
+    <English>Move units to a distant tile by right-clicking on it...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>通过右键单击将单位移动到远处的平铺。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_49</Tag>
+    <English>You can group move all units of the same type by a [CTRL + RIGHT-CLICK] on the destination...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>您可以通过在目标上按[CTRL+右键单击]组合移动同一类型的所有单位。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_50</Tag>
+    <English>You can group move all units on the same tile by a [ALT + RIGHT-CLICK] on the destination...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>您可以通过在目标上按[ALT+右键单击]组合移动同一磁贴上的所有单位。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_51</Tag>
+    <English>Enter "Go-To" Mode by pressing [G]...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[G]进入“转到”模式。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_52</Tag>
+    <English>Enter "Go-To (Same Unit Type)" Mode by pressing [CTRL + G]...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+G]进入“转到（同一单位类型）”模式。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_53</Tag>
+    <English>Enter "Go-To (All Units)" Mode by pressing [ALT + G]...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[ALT+G]进入“转到（所有单位）”模式。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_54</Tag>
+    <English>Press [C] to center the camera on the active unit...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[C]将相机置于活动单元的中心。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_55</Tag>
+    <English>Press [CTRL + C] to select all units of the same type as the active unit...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+C]选择与当前单位类型相同的所有单位。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_56</Tag>
+    <English>Press [ALT + C] to select all units on the same tile as the active unit...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[ALT+C]选择与活动单元位于同一磁贴上的所有单元。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_57</Tag>
+    <English>If you hold down the [SHIFT] key while clicking on the city bar, you can "select" multiple cities - allowing you to change production in multiple cities. You can also [SHIFT + RIGHT-CLICK] to set a rally point.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果在点击城市栏的同时按住[SHIFT]键，您可以“选择”多个城市-允许您在多个城市更改生产。你也可以[SHIFT+右击]来设置一个集结点。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_58</Tag>
+    <English>If you hold down the [CTRL] key while clicking on the city bar, you will "select" all of your cities on that continent.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果在点击城市栏的同时按住[CTRL]键，您将“选择”该大陆上的所有城市。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_59</Tag>
+    <English>If you hold down the [ALT] key while clicking on the city bar, you will "select" all of your cities in the world.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>如果在单击城市栏的同时按住[ALT]键，则将“选择”世界上所有的城市。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_60</Tag>
+    <English>Press the middle mouse button to exit the city screen...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按鼠标中键退出城市屏幕。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_61</Tag>
+    <English>You can give a unit consecutive orders by pressing the SHIFT key. For example, you could tell a worker to build a road and then a mine by clicking on both buttons while holding down SHIFT...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按SHIFT键可以连续下一个单位的命令。例如，你可以让一个工人在按住SHIFT键的同时点击两个按钮来修建一条道路和一座矿井。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_62</Tag>
+    <English>Hold down SHIFT and click on a tile to open a context menu...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按住SHIFT键并单击互动程序以打开上下文菜单。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_63</Tag>
+    <English>The NUMPAD arrow keys can be used to jump between cities when the city screen is up...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>当城市屏幕打开时，NUMPAD箭头键可用于在城市之间跳转。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_64</Tag>
+    <English>Press [\] to jump back to the last selected unit...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[\]键跳回最后选定的单位。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_65</Tag>
+    <English>Press [CTRL + TAB] to view the turn event log...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+TAB]查看转弯事件日志。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_66</Tag>
+    <English>Press [ALT + S] to add a sign to the map...</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[ALT+S]将符号添加到地图。。。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HINT_INTERFACE_67</Tag>
+    <English>Press [CTRL + H] to select all wounded units in a tile.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>按[CTRL+H]选择平铺中的所有受伤单位。</Chinese>
+  </TEXT>
+</Civ4GameText>

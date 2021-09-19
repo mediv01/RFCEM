@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Dawn of Man -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_RHYES_DAWN_OF_MAN_TEXT</Tag>
+    <English>The sun rises on the year %s1_year. The %s2_civ people are ready to settle down and found your first city.[NEWLINE][NEWLINE]%s3_leader, your people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>%s1_year年第一天的太阳已经升起。%s2_civ人民决定结束游牧生活，并为你建造一座城市。[NEWLINE][NEWLINE]%s3_leader，你的人民愿意赋予你最高的权力。并坚信你能开创一个历久弥新的文明！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DAWN_OF_MAN_SCREEN_TITLE</Tag>
+    <English>RHYE'S AND FALL OF CIVILIZATIONS: EUROPE</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>RHYE'S文明的兴衰: 欧洲</Chinese>
+  </TEXT>
+  <!-- Civ Specific Dawn of Man - 500 AD -->
+  <!-- DAWN_OF_MAN_TEXT_0 numbers are the iCivs in Consts.py -->
+  <!-- 0 is Byzantium, 1 is France, 2 is Arabia, etc. -->
+  <TEXT>
+    <!-- Byzantium -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_0</Tag>
+    <English>After many glorious centuries under Rome, the great Constantine saw fit to split the mighty empire into two parts.[NEWLINE]It is now the year 500 AD, and the Western Roman Empire has fallen. While Rome will always have a place in your people's hearts, Constantinople is now the heart of the most glorious nation on Earth![NEWLINE][NEWLINE]Justinian, you are now the sole ruler, THE Roman Emperor. Your nation is rich and strong, but be aware: vast riches attract many enemies, and some of the barbarians may be even stronger than we are.[NEWLINE]Your people have faith that you can lead their mighty nation through the coming storm. Will you prevail and lead the Byzantine Empire through another 1,000 years of glory?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>After many glorious centuries under Rome, the great Constantine saw fit to split the mighty empire into two parts.[NEWLINE]It is now the year 500 AD, and the Western Roman Empire has fallen. While Rome will always have a place in your people's hearts, Constantinople is now the heart of the most glorious nation on Earth![NEWLINE][NEWLINE]Justinian, you are now the sole ruler, THE Roman Emperor. Your nation is rich and strong, but be aware: vast riches attract many enemies, and some of the barbarians may be even stronger than we are.[NEWLINE]Your people have faith that you can lead their mighty nation through the coming storm. Will you prevail and lead the Byzantine Empire through another 1,000 years of glory?</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- France -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_1</Tag>
+    <English>It is the year 500 AD. As king of the Frankish people, you have lead their way in becoming the first barbarian tribe to embrace Catholicism instead of Arianism, which will be our guiding principle in building a glorious civilization.[NEWLINE][NEWLINE]Your lands are vast and fertile, but the Burgundians in the Rh鬾e valley will not always stay subdued, and the coasts may provide access to dangerous raiders from the north. Will you bear through these struggles, unify the realm, and establish the most powerful kingdom in Europe for generations to come?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>It is the year 500 AD. As king of the Frankish people, you have lead their way in becoming the first barbarian tribe to embrace Catholicism instead of Arianism, which will be our guiding principle in building a glorious civilization.[NEWLINE][NEWLINE]Your lands are vast and fertile, but the Burgundians in the Rh鬾e valley will not always stay subdued, and the coasts may provide access to dangerous raiders from the north. Will you bear through these struggles, unify the realm, and establish the most powerful kingdom in Europe for generations to come?</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Arabia -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_2</Tag>
+    <English>It is the year 632 CE. The prophet Muhammed, peace be upon him, accomplished what no one thought was possible - uniting the tribes of Arabia. You, Abu Bakr, has been chosen to succeed him as Caliph and expand the House of Islam.[NEWLINE][NEWLINE]After a devastating war with Sassanid Persia and raging religious controversies between Chalcedonians and Monophysities, the lands of the Byzantine Empire are ripe for conquest. You know you cannot miss this opportunity, and there will be many centuries to build up your forces before the western crusaders cast their gaze towards the holy city of al-Quds.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>It is the year 632 CE. The prophet Muhammed, peace be upon him, accomplished what no one thought was possible - uniting the tribes of Arabia. You, Abu Bakr, has been chosen to succeed him as Caliph and expand the House of Islam.[NEWLINE][NEWLINE]After a devastating war with Sassanid Persia and raging religious controversies between Chalcedonians and Monophysities, the lands of the Byzantine Empire are ripe for conquest. You know you cannot miss this opportunity, and there will be many centuries to build up your forces before the western crusaders cast their gaze towards the holy city of al-Quds.</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Bulgaria -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_3</Tag>
+    <English>Many years ago, your father had finally managed to unite the warring Bulgar clans and form the powerful state of Great Bulgaria north of the Black Sea. Following his death, however, pushed by the Khazar hordes, you and your brothers had to divide the Bulgarians once more and leave your old home, migrating in different directions.[NEWLINE][NEWLINE]It is now the year 680 AD. After years of travel across the steppe braving snow and heat, across mountains and through swamps, you and your followers have finally reached the northern borders of the Eastern Roman Empire. Tired of traveling with no home, you gather your people for one last push, to cross the Danube river and to challenge the mighty Empire itself; to claim this lustful land as yours forever.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>Many years ago, your father had finally managed to unite the warring Bulgar clans and form the powerful state of Great Bulgaria north of the Black Sea. Following his death, however, pushed by the Khazar hordes, you and your brothers had to divide the Bulgarians once more and leave your old home, migrating in different directions.[NEWLINE][NEWLINE]It is now the year 680 AD. After years of travel across the steppe braving snow and heat, across mountains and through swamps, you and your followers have finally reached the northern borders of the Eastern Roman Empire. Tired of traveling with no home, you gather your people for one last push, to cross the Danube river and to challenge the mighty Empire itself; to claim this lustful land as yours forever.</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Cordoba -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_4</Tag>
+    <English>It is the year 711 CE. After the long struggle, the seemingly endless flight from the upstart Abbasids in the east, many thought your Umayyad line to be extinct.[NEWLINE]Not so! You, Abd-ar-Rahman III, have led your people to a new place you now call "Al-Andalus", where you and your people may finally find a new home.[NEWLINE][NEWLINE]These new lands may easily be the richest you have ever seen, so with Allah's will you might be able to build a rich and happy Caliphate - full of poetry, art and religious tolerance - to rival even that of the prophet Muhammed![NEWLINE]You only have to worry about those fanatical Christians to the north...</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>It is the year 711 CE. After the long struggle, the seemingly endless flight from the upstart Abbasids in the east, many thought your Umayyad line to be extinct.[NEWLINE]Not so! You, Abd-ar-Rahman III, have led your people to a new place you now call "Al-Andalus", where you and your people may finally find a new home.[NEWLINE][NEWLINE]These new lands may easily be the richest you have ever seen, so with Allah's will you might be able to build a rich and happy Caliphate - full of poetry, art and religious tolerance - to rival even that of the prophet Muhammed![NEWLINE]You only have to worry about those fanatical Christians to the north...</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Venice -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_5</Tag>
+    <English>It is the year 810 AD. Fleeing the onslaught of the barbarian Lombards, your people and the remnants of the Byzantine Exarchate of Ravenna have settled on the inaccessible islands in the lagoon. The recent agreement between Charlemagne of the Franks and emperor Nicephorus in Constantinople means that you will be left alone for the time being. There has never been a better opportunity to build a rich trading empire that will dominate the seas!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>现在是公元810年。Fleeing the onslaught of the barbarian Lombards, your people and the remnants of the Byzantine Exarchate of Ravenna have settled on the inaccessible islands in the lagoon. The recent agreement between Charlemagne of the Franks and emperor Nicephorus in Constantinople means that you will be left alone for the time being. There has never been a better opportunity to build a rich trading empire that will dominate the seas!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Burgundy -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_6</Tag>
+    <English>It is the year 843 AD. After your defeat at the hands of your brothers, you have signed the treaty of Verdun, accepting that the inheritance of Charlemagne's great empire will be split into three, with you taking the middle portion. Your exposed position - wedged between the powerful French and German kingdoms - will require great diplomatic skill, but your knights shall be the envy of all of Europe!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>It is the year 843 AD. After your defeat at the hands of your brothers, you have signed the treaty of Verdun, accepting that the inheritance of Charlemagne's great empire will be split into three, with you taking the middle portion. Your exposed position - wedged between the powerful French and German kingdoms - will require great diplomatic skill, but your knights shall be the envy of all of Europe!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Germany -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_7</Tag>
+    <English>It is the year 856 AD. The great Frankish inheritance has irrevocably been split into three, with the eastern portion going to you. As the Byzantine Empress Irene rejected Charlemagne's marriage proposal, you should instead build a Holy Roman Empire for yourself!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>It is the year 856 AD. The great Frankish inheritance has irrevocably been split into three, with the eastern portion going to you. As the Byzantine Empress Irene rejected Charlemagne's marriage proposal, you should instead build a Holy Roman Empire for yourself!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Novgorod -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_8</Tag>
+    <English>It is the year 864 AD. You, Rurik, have been invited by the warring local tribes to reestablish order; to rule over them. Novgorod the Great has the potential to grow into a fabulously wealthy city, the envy of both West and East.[NEWLINE]But can you hold the fledgling principality together when both West and East come for you?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>It is the year 864 AD. You, Rurik, have been invited by the warring local tribes to reestablish order; to rule over them. Novgorod the Great has the potential to grow into a fabulously wealthy city, the envy of both West and East.[NEWLINE]But can you hold the fledgling principality together when both West and East come for you?</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Norway -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_9</Tag>
+    <English>It is the year 872 AD. The various petty kingdoms of Norway have been united by Harald Fairhair, who once vowed not to cut his hair until he was king of all of Norway.[NEWLINE][NEWLINE]Norway is, given its location, a surprisingly wealthy land with a large population of skilled seafarers. Skills you will have to utilize in order to keep ahead of your neighbors!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>It is the year 872 AD. The various petty kingdoms of Norway have been united by Harald Fairhair, who once vowed not to cut his hair until he was king of all of Norway.[NEWLINE][NEWLINE]Norway is, given its location, a surprisingly wealthy land with a large population of skilled seafarers. Skills you will have to utilize in order to keep ahead of your neighbors!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Kiev -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_10</Tag>
+    <English>It is the year 882 AD. After the mighty walls of Constantinople foiled your brazen attack in 866, you have decided to settle down with some of your loyal Varangians. This rich land you have just set foot on seems perfect.[NEWLINE][NEWLINE]The local Slavic people accept you as their leader, while your fellow Swedes, the feared Viking warriors establish themselves as the local elite. Life is good, the land is fertile, you and your descendants will surely lead your new nation, the Kievan Rus, into glory.[NEWLINE]If only you weren't having those dreams about savage hordes rising in the east...</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>It is the year 882 AD. After the mighty walls of Constantinople foiled your brazen attack in 866, you have decided to settle down with some of your loyal Varangians. This rich land you have just set foot on seems perfect.[NEWLINE][NEWLINE]The local Slavic people accept you as their leader, while your fellow Swedes, the feared Viking warriors establish themselves as the local elite. Life is good, the land is fertile, you and your descendants will surely lead your new nation, the Kievan Rus, into glory.[NEWLINE]If only you weren't having those dreams about savage hordes rising in the east...</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Hungary -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_11</Tag>
+    <English>It is the year 895 AD. While your glorious armies warred with the Byzantines and Bulgarians, the traitorous Pechenegs attacked your families and the remaining tribes in the homeland, Etelk鰖. Without defences they had to flee, and you know you cannot lead them back to their previous home.[NEWLINE][NEWLINE]After taking your nation further to the west you finally reach the Carpathian Basin, which is everything your people have ever needed: wealthy, fertile, and most importantly, easily defendable. Immediately falling in love with it, you claim these lands as yours forever.[NEWLINE][NEWLINE]One thing is clear to you though: all the previous empires and civilizations that once held these lands have faded away throughout the centuries. You will have to accept some of the more developed Western European ways if you are to establish a long-living and successful nation in the middle of Europe.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>It is the year 895 AD. While your glorious armies warred with the Byzantines and Bulgarians, the traitorous Pechenegs attacked your families and the remaining tribes in the homeland, Etelk鰖. Without defences they had to flee, and you know you cannot lead them back to their previous home.[NEWLINE][NEWLINE]After taking your nation further to the west you finally reach the Carpathian Basin, which is everything your people have ever needed: wealthy, fertile, and most importantly, easily defendable. Immediately falling in love with it, you claim these lands as yours forever.[NEWLINE][NEWLINE]One thing is clear to you though: all the previous empires and civilizations that once held these lands have faded away throughout the centuries. You will have to accept some of the more developed Western European ways if you are to establish a long-living and successful nation in the middle of Europe.</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Spain -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_12</Tag>
+    <English>It is the year 910 AD. While the Moors never really held sway over your northern parts of Spain, the Caliphate of Cordoba under Abd-ar-Rahman III is stronger than ever. Christians are tolerated there, but lower taxes drive them towards conversion and eternal damnation. You must launch the Reconquista and liberate them before it is too late!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>It is the year 910 AD. While the Moors never really held sway over your northern parts of Spain, the Caliphate of Cordoba under Abd-ar-Rahman III is stronger than ever. Christians are tolerated there, but lower taxes drive them towards conversion and eternal damnation. You must launch the Reconquista and liberate them before it is too late!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Denmark -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_13</Tag>
+    <English>It is the year 936 AD. Denmark, once a collection of petty kingdoms, has been united under Gorm the Old, and forged into a centralized state.[NEWLINE][NEWLINE]Your country now stands at a crossroads of sorts, with Viking influences and craftmanship from the North and Christian influences and statesmanship from the South. Take advantage of both for as long as you can, but eventually you will have to choose!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>It is the year 936 AD. Denmark, once a collection of petty kingdoms, has been united under Gorm the Old, and forged into a centralized state.[NEWLINE][NEWLINE]Your country now stands at a crossroads of sorts, with Viking influences and craftmanship from the North and Christian influences and statesmanship from the South. Take advantage of both for as long as you can, but eventually you will have to choose!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Scotland -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_14</Tag>
+    <English>It is the year 960 AD. While you are the sole ruler over some loyal subjects, most Scottish men still remember the shadows of the past. Your goal is to unite all the tribes and clans of Scotland and establish the "last free kingdom".[NEWLINE][NEWLINE]You can choose to pass the old walls of Hadrian or stay behind it, but it would be wise to gather some mighty allies on the Continent. Whatever path you choose, it is clear to you: your nation is destined to survive the storms of centuries to come, and be bright forever. Make the Highlanders proud and show the world: Scotland, be foe or ally, solid as a rock!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It is the year 960 AD. While you are the sole ruler over some loyal subjects, most Scottish men still remember the shadows of the past. Your goal is to unite all the tribes and clans of Scotland and establish the "last free kingdom".[NEWLINE][NEWLINE]You can choose to pass the old walls of Hadrian or stay behind it, but it would be wise to gather some mighty allies on the Continent. Whatever path you choose, it is clear to you: your nation is destined to survive the storms of centuries to come, and be bright forever. Make the Highlanders proud and show the world: Scotland, be foe or ally, solid as a rock!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Poland -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_15</Tag>
+    <English>It is the year 966 AD. Worried by the threat of a unified German Empire, you have accepted Christianity to protect your land against foreign aggression. With knowing your people are safe - at least for now - you can start to strengthen your position in Central Europe.[NEWLINE][NEWLINE]If all your plans goes well, your nation will be a shining example of liberty and toleration for the rest of Europe - no inquisition will be needed, and the Szlactha will curb any autocratic tendencies!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It is the year 966 AD. Worried by the threat of a unified German Empire, you have accepted Christianity to protect your land against foreign aggression. With knowing your people are safe - at least for now - you can start to strengthen your position in Central Europe.[NEWLINE][NEWLINE]If all your plans goes well, your nation will be a shining example of liberty and toleration for the rest of Europe - no inquisition will be needed, and the Szlactha will curb any autocratic tendencies!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Genoa -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_16</Tag>
+    <English>It is the year 1016 AD. Together with the Pisans, you have just defeated the Muslim pirates, assuring Christian dominance of Sardinia and blocking Muslim expansion. The need for security forces the republic you serve to assert an ever greater responsibility: the protection of the whole Italian peninsula.[NEWLINE]This is your chance to build a magnificent merchant republic! With enough resources, even the fabled cities of the eastern Mediterranean will lay at your hands.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It is the year 1016 AD. Together with the Pisans, you have just defeated the Muslim pirates, assuring Christian dominance of Sardinia and blocking Muslim expansion. The need for security forces the republic you serve to assert an ever greater responsibility: the protection of the whole Italian peninsula.[NEWLINE]This is your chance to build a magnificent merchant republic! With enough resources, even the fabled cities of the eastern Mediterranean will lay at your hands.</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Morocco -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_17</Tag>
+    <English>It is the year 1041 CE, and the Almoravid dynasty is on the rise. You are the rightful ruler of the Berbers, destined to establish a great, long-lasting empire in the Maghreb. With Allah's help, you will follow the path of the Idrisids, and the great cities of Morocco are waiting to be filled with art and faith.[NEWLINE][NEWLINE]The rich, fertile coastline is also yours to claim, though it will not be easy. You will have to deal not only with the Spanish and the Portuguese, for the whole Christian world will come to their aid. Are you up to the task, with the help of your loyal Black Guards? Will you be able to protect your brothers in Al-Andalus? The Christian filth shall pay dearly for their atrocities; make your ancestors proud!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>It is the year 1041 CE, and the Almoravid dynasty is on the rise. You are the rightful ruler of the Berbers, destined to establish a great, long-lasting empire in the Maghreb. With Allah's help, you will follow the path of the Idrisids, and the great cities of Morocco are waiting to be filled with art and faith.[NEWLINE][NEWLINE]The rich, fertile coastline is also yours to claim, though it will not be easy. You will have to deal not only with the Spanish and the Portuguese, for the whole Christian world will come to their aid. Are you up to the task, with the help of your loyal Black Guards? Will you be able to protect your brothers in Al-Andalus? The Christian filth shall pay dearly for their atrocities; make your ancestors proud!</Chinese>    
+    </TEXT>
+  <TEXT>
+    <!-- England -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_18</Tag>
+    <English>It is the year 1066 AD. The battlefield of Hastings lays quiet. Harold Godwinson is dead, but not before he took care of the Norwegians for you. Though Scotland may be the source of trouble sometimes, the rich estates of England will fund the defense of your ancestral possessions back in France. No longer William the Bastard, henceforth you will be known as William the Conqueror!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It is the year 1066 AD. The battlefield of Hastings lays quiet. Harold Godwinson is dead, but not before he took care of the Norwegians for you. Though Scotland may be the source of trouble sometimes, the rich estates of England will fund the defense of your ancestral possessions back in France. No longer William the Bastard, henceforth you will be known as William the Conqueror!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Portugal -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_19</Tag>
+    <English>Your small county of Portugal has just decided to break its familial ties with the Kingdom of Le髇 and declare its independence, creating the Kingdom of Portugal. It is 1139 AD, and you, Afonso Henriques, are the king of this newly formed kingdom.[NEWLINE][NEWLINE]It is time to strengthen your position by advancing to the south and continuing the Reconquista, but you should also prepare for your ultimate goal: to expand beyond the Iberian Peninsula. Your position makes it ideal to claim the riches of North Africa and the Atlantic islands - and who knows, maybe even much further lands than those.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Your small county of Portugal has just decided to break its familial ties with the Kingdom of Le髇 and declare its independence, creating the Kingdom of Portugal. It is 1139 AD, and you, Afonso Henriques, are the king of this newly formed kingdom.[NEWLINE][NEWLINE]It is time to strengthen your position by advancing to the south and continuing the Reconquista, but you should also prepare for your ultimate goal: to expand beyond the Iberian Peninsula. Your position makes it ideal to claim the riches of North Africa and the Atlantic islands - and who knows, maybe even much further lands than those.</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Aragon -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_20</Tag>
+    <English>Greetings, my lord! It is the blessed year of 1164 AD, under your new rule these lands will finally have the possibility for strong, centralized rule. And the people of Aragon are in dire need of our guidance, as the situation is very tense; the various Principalities, Duchies and Kingdoms in the region have many diverse interests pulling in every which way, putting a heavy toll on the local populace. Religious differences are also leading to harsh tensions and conflict with the Muslims to the south.[NEWLINE][NEWLINE]The Crown of Aragon shall rule over many dominions, but your hands are also tied by the Aragonese Law. You must decide where and how to expand to make your people calm and happy.[NEWLINE][NEWLINE]Surrounded by stronger and more united states, you must fight with both sword and pen. You can choose to expand by joining the Reconquista, but the power vacuum in the vast Mediterranean is also very tempting. Small but rich kingdoms could be yours if you play your cards well, an empire to span across the sea.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Greetings, my lord! It is the blessed year of 1164 AD, under your new rule these lands will finally have the possibility for strong, centralized rule. And the people of Aragon are in dire need of our guidance, as the situation is very tense; the various Principalities, Duchies and Kingdoms in the region have many diverse interests pulling in every which way, putting a heavy toll on the local populace. Religious differences are also leading to harsh tensions and conflict with the Muslims to the south.[NEWLINE][NEWLINE]The Crown of Aragon shall rule over many dominions, but your hands are also tied by the Aragonese Law. You must decide where and how to expand to make your people calm and happy.[NEWLINE][NEWLINE]Surrounded by stronger and more united states, you must fight with both sword and pen. You can choose to expand by joining the Reconquista, but the power vacuum in the vast Mediterranean is also very tempting. Small but rich kingdoms could be yours if you play your cards well, an empire to span across the sea.</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Sweden -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_21</Tag>
+    <English>For the last few hundred years, Sweden has in some ways been the least developed of the Scandinavian nations. Though several rulers at Uppsala have claimed kingship over Sweden, few have had any power outside Uppland. Christianisation has been slow as well. Southern Sweden was even the target of a crusade less than a century ago, yet pagan beliefs are still important in much of the country.[NEWLINE][NEWLINE]It is now the year 1210 AD, and this year things are to change. Eric the Survivor has managed to destroy his rivals in a bloody civil war and become the first ever Swedish King to be crowned by the Church. The separatists are rapidly losing power and the people of Uppland are about to lose their ancient privileges. The stage is set for the consolidation of Sweden.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>For the last few hundred years, Sweden has in some ways been the least developed of the Scandinavian nations. Though several rulers at Uppsala have claimed kingship over Sweden, few have had any power outside Uppland. Christianisation has been slow as well. Southern Sweden was even the target of a crusade less than a century ago, yet pagan beliefs are still important in much of the country.[NEWLINE][NEWLINE]It is now the year 1210 AD, and this year things are to change. Eric the Survivor has managed to destroy his rivals in a bloody civil war and become the first ever Swedish King to be crowned by the Church. The separatists are rapidly losing power and the people of Uppland are about to lose their ancient privileges. The stage is set for the consolidation of Sweden.</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Prussia -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_22</Tag>
+    <English>It is the year 1224 AD. The Northern Crusades have been raging since 1193 and the Livonian Brothers of the Sword - the Sword Brethren - are making slow progress in Livonia. Konrad I of Masovia, a Polish Duke, has now invited the Teutonic Order to conquer and Christianise the pagan Prussian tribes.[NEWLINE][NEWLINE]The Teutonic Order has experience from defending both the Holy Land and the borderlands of Hungary, and is able to call on the finest knights of Europe. A speedy subjugation of Prussia might not only decide the war in the Crusaders' favor, but provide the foundations of an empire.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It is the year 1224 AD. The Northern Crusades have been raging since 1193 and the Livonian Brothers of the Sword - the Sword Brethren - are making slow progress in Livonia. Konrad I of Masovia, a Polish Duke, has now invited the Teutonic Order to conquer and Christianise the pagan Prussian tribes.[NEWLINE][NEWLINE]The Teutonic Order has experience from defending both the Holy Land and the borderlands of Hungary, and is able to call on the finest knights of Europe. A speedy subjugation of Prussia might not only decide the war in the Crusaders' favor, but provide the foundations of an empire.</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Lithuania -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_23</Tag>
+    <English>It is the year 1236 AD. Strange invaders - calling themselves Teutonic Knights and worshiping a man on a cross - have disturbed the tranquility of the land. However, they are not invincible. You, Mindaugas, have shown that they bleed and die, just like other men.[NEWLINE]It is high time to drive them out, as the ancient religion of your ancestors is surely also the best for you. Make them proud!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It is the year 1236 AD. Strange invaders - calling themselves Teutonic Knights and worshiping a man on a cross - have disturbed the tranquility of the land. However, they are not invincible. You, Mindaugas, have shown that they bleed and die, just like other men.[NEWLINE]It is high time to drive them out, as the ancient religion of your ancestors is surely also the best for you. Make them proud!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Austria -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_24</Tag>
+    <English>It is the year 1282 AD. In the last few decades your dynasty, the Habsburgs, have been quickly gaining strength in the Holy Roman Empire through your ever-growing estates.[NEWLINE]Now King of the Romans and having just acquired the rich Duchy of Austria, you are much more powerful than you had ever dreamt of. Still, your ambitions are forcing you to climb much higher, and who knows where will be the end?[NEWLINE][NEWLINE]Leave the waging of wars to others! You, happy Austria, marry; for the realms which Mars awards to others, Venus transfers to you. Navigate carefully through the intricate diplomacy of central Europe, and your dynasty will still stand proudly many hundreds of years from now!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It is the year 1282 AD. In the last few decades your dynasty, the Habsburgs, have been quickly gaining strength in the Holy Roman Empire through your ever-growing estates.[NEWLINE]Now King of the Romans and having just acquired the rich Duchy of Austria, you are much more powerful than you had ever dreamt of. Still, your ambitions are forcing you to climb much higher, and who knows where will be the end?[NEWLINE][NEWLINE]Leave the waging of wars to others! You, happy Austria, marry; for the realms which Mars awards to others, Venus transfers to you. Navigate carefully through the intricate diplomacy of central Europe, and your dynasty will still stand proudly many hundreds of years from now!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Ottomans -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_25</Tag>
+    <English>It is the year 1356 CE. Allah has truly shown his favour towards you. Firstly, the Black Death decimated the Byzantines in the cities, but largely spared the countryside of the Turks. Secondly, the earthquake in 1354 leveled all the walls of Gallipoli, leaving the strategic fortress ripe for conquest. The way to Europe is open, and you only need to reach out and grasp it![NEWLINE]If you play your cards right, your Ottoman Empire will surely be unstoppable!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It is the year 1356 CE. Allah has truly shown his favour towards you. Firstly, the Black Death decimated the Byzantines in the cities, but largely spared the countryside of the Turks. Secondly, the earthquake in 1354 leveled all the walls of Gallipoli, leaving the strategic fortress ripe for conquest. The way to Europe is open, and you only need to reach out and grasp it![NEWLINE]If you play your cards right, your Ottoman Empire will surely be unstoppable!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Moscow -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_26</Tag>
+    <English>It is the year 1380 AD. The shadow of the Mongol Golden Horde has loomed over the land for more than a hundred years. With the people chafing under their oppression, fear has prevented effective resistance.[NEWLINE]All has changed now on the fields of Kulikovo, where you led your coalition to victory. The road ahead is long and arduous, but in the end, Mother Russia will prevail!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It is the year 1380 AD. The shadow of the Mongol Golden Horde has loomed over the land for more than a hundred years. With the people chafing under their oppression, fear has prevented effective resistance.[NEWLINE]All has changed now on the fields of Kulikovo, where you led your coalition to victory. The road ahead is long and arduous, but in the end, Mother Russia will prevail!</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Dutch -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_27</Tag>
+    <English>It is the year 1581 AD. The Low Countries have been under foreign rule - German, Burgundian, Austrian, and now Spanish - for a long time.[NEWLINE]This is your chance, though! The Act of Abjuration was signed on July 22nd of this year, absolving the provinces of the Union of Utrecht of their oath of allegiance to Philip II of Spain and finally declaring the independence of your beloved Dutch nation.[NEWLINE][NEWLINE]While it will be many years before our independence is finally accepted, this will be the start of an empire that will become one of the wealthiest civilizations in the world!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>It is the year 1581 AD. The Low Countries have been under foreign rule - German, Burgundian, Austrian, and now Spanish - for a long time.[NEWLINE]This is your chance, though! The Act of Abjuration was signed on July 22nd of this year, absolving the provinces of the Union of Utrecht of their oath of allegiance to Philip II of Spain and finally declaring the independence of your beloved Dutch nation.[NEWLINE][NEWLINE]While it will be many years before our independence is finally accepted, this will be the start of an empire that will become one of the wealthiest civilizations in the world!</Chinese>
+  </TEXT>
+  <!-- Civ Specific Dawn of Man - 500 AD -->
+  <!-- Civ Specific Dawn of Man - 1200 AD -->
+  <!-- For civs spawning later than 1200 AD we use the 500 AD texts by default -->
+  <TEXT>
+    <!-- Byzantium -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_0_1200</Tag>
+    <English>Basileus. Though we have endured many hardships over the last several centuries, the Roman Empire still stands strong, and Constantinople, the Queen of Cities, remains the crown jewel of Europe. However, we are but a shell of our former glory. Much of the work of the Komnenian Restoration has already been undone; corruption plagues the empire, usurpers rise left and right, the Bulgarians have revolted once more, and the dream of recovering Anatolia is now more distant than ever.[NEWLINE][NEWLINE]Now we fear we may have our greatest challenge yet. It appears that the schismatic Catholics are preparing for yet another Crusade. But we fear this one will be different. Our former vassals, the Venetians, are still furious over the Massacre of the Latins several years ago. Should the Venetians choose to give the order, rather than attacking the infidels in the Holy Land, the Crusaders may instead set sail for our beating heart, the great city of Constantinople.[NEWLINE][NEWLINE]Our walls have never been breached, though many have tried. But this may prove too much. And if the Venetians can bring them down, how will we fend off invasions from the heathens in Anatolia in the years to come?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Basileus. Though we have endured many hardships over the last several centuries, the Roman Empire still stands strong, and Constantinople, the Queen of Cities, remains the crown jewel of Europe. However, we are but a shell of our former glory. Much of the work of the Komnenian Restoration has already been undone; corruption plagues the empire, usurpers rise left and right, the Bulgarians have revolted once more, and the dream of recovering Anatolia is now more distant than ever.[NEWLINE][NEWLINE]Now we fear we may have our greatest challenge yet. It appears that the schismatic Catholics are preparing for yet another Crusade. But we fear this one will be different. Our former vassals, the Venetians, are still furious over the Massacre of the Latins several years ago. Should the Venetians choose to give the order, rather than attacking the infidels in the Holy Land, the Crusaders may instead set sail for our beating heart, the great city of Constantinople.[NEWLINE][NEWLINE]Our walls have never been breached, though many have tried. But this may prove too much. And if the Venetians can bring them down, how will we fend off invasions from the heathens in Anatolia in the years to come?</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Arabia -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_2_1200</Tag>
+    <English>The great Saladin has gone to Paradise, after rolling back a century of Christian gains in the Blessed Land. The holy city of al-Quds is now back in Arabian hands, and the infidel "Crusader States" that butchered Muslims by the thousands have been all but eradicated.[NEWLINE][NEWLINE]You have been chosen as the new ruler of the Ayyubid Sultanate, and it is your duty to finish off the last of the Frankish invaders. There may be more Crusades to come, though we have reason to believe that we will be spared, at least for now. With the Christians nearly finished off and stability restored to Egypt and the Levant for the first time in centuries, it is time for a great flourishing of culture and science in the Arab World once more. We should not become too complacent, however; while we may be dominant in the Middle East for now, we should recall the example of the Abbasids and be wary of the Turks to the north...</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>The great Saladin has gone to Paradise, after rolling back a century of Christian gains in the Blessed Land. The holy city of al-Quds is now back in Arabian hands, and the infidel "Crusader States" that butchered Muslims by the thousands have been all but eradicated.[NEWLINE][NEWLINE]You have been chosen as the new ruler of the Ayyubid Sultanate, and it is your duty to finish off the last of the Frankish invaders. There may be more Crusades to come, though we have reason to believe that we will be spared, at least for now. With the Christians nearly finished off and stability restored to Egypt and the Levant for the first time in centuries, it is time for a great flourishing of culture and science in the Arab World once more. We should not become too complacent, however; while we may be dominant in the Middle East for now, we should recall the example of the Abbasids and be wary of the Turks to the north...</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Venice -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_5_1200</Tag>
+    <English>Enrico Dandolo, you are poised on the doorstep of a pivotal moment in the history of your Republic. For centuries, your Venetians have used maritime skill and control of trade routes to become the richest nation in Europe. They continued to build on this as three great Crusades left for the Holy Land, largely sailing on fleets that you provided. Now a Fourth Crusade is gathering- but this time, they aren't able to pay their way.[NEWLINE][NEWLINE]Now is your chance to become the greatest Doge in Venetian history. The Crusaders have agreed to buy their passage by doing Venice a small favor. They can return rebellious Zara to Venetian control- but your plans are much grander than that. The former colony is about to triumph over their master...</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Enrico Dandolo, you are poised on the doorstep of a pivotal moment in the history of your Republic. For centuries, your Venetians have used maritime skill and control of trade routes to become the richest nation in Europe. They continued to build on this as three great Crusades left for the Holy Land, largely sailing on fleets that you provided. Now a Fourth Crusade is gathering- but this time, they aren't able to pay their way.[NEWLINE][NEWLINE]Now is your chance to become the greatest Doge in Venetian history. The Crusaders have agreed to buy their passage by doing Venice a small favor. They can return rebellious Zara to Venetian control- but your plans are much grander than that. The former colony is about to triumph over their master...</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- England -->
+    <Tag>TXT_KEY_DAWN_OF_MAN_TEXT_18_1200</Tag>
+    <English>The 13th Century dawns over an England in turmoil. The great Lionheart lies dead, and his soldiers returning from the Third Crusade are dejected that they never reached the Holy City despite the Crusade's general success. The once-mighty Angevin Empire now faces growing threats from a rebellious Scotland in the north, a resurgent France keen to reclaim its western lands, and dissension amongst the English barons who resent the king's despotic rule.[NEWLINE][NEWLINE]You must lead the English people through the looming civil wars and foreign invasions and emerge stronger than ever. The French will soon be looking to conquer your ancestral lands on the continent, but if you play your cards correctly you may be able to turn the tables and claim the French crown for yourself. With technological prowess, industrial might, and your strong leadership, you will turn this island nation into an empire on which the sun never sets!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>The 13th Century dawns over an England in turmoil. The great Lionheart lies dead, and his soldiers returning from the Third Crusade are dejected that they never reached the Holy City despite the Crusade's general success. The once-mighty Angevin Empire now faces growing threats from a rebellious Scotland in the north, a resurgent France keen to reclaim its western lands, and dissension amongst the English barons who resent the king's despotic rule.[NEWLINE][NEWLINE]You must lead the English people through the looming civil wars and foreign invasions and emerge stronger than ever. The French will soon be looking to conquer your ancestral lands on the continent, but if you play your cards correctly you may be able to turn the tables and claim the French crown for yourself. With technological prowess, industrial might, and your strong leadership, you will turn this island nation into an empire on which the sun never sets!</Chinese>
+  </TEXT>
+  <!-- Civ Specific Dawn of Man - 1200 AD -->
+  <!-- Civ Specific Dawn of Man - currently unused -->
+  <!-- Norse -->
+  <!--<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_NORSE</Tag>
+		<English>It is the year 780 AD. The winters in Scandinavia are harsh, but have bred a sturdy people and your longships are the envy of any sailor. Harald Hardrada, your loyal vikings are eager to show their strength to the whole world![NEWLINE][NEWLINE]Far away Vinland, the coast of Normandy and the rich monastery of Lindisfarne beckons. Which path will you follow? Explore? Conquer? Trade? Maybe all three combined? The choice is yours, only one thing is certain: Be bold, be swift, be strong, and the halls of Valhalla will await you!</English>
+		<French>.</French>
+		<German>Es ist das Jahr 780 n.Chr., die Winter in Skandinavien sind streng, haben aber ein robustes Volk hervorgebracht um deren Langboote jeder Seemann sie beneidet. Harald Hardrada, eure loyalen Wikinger brennen voller Ungeduld darauf der ganzen Welt ihre wahre St鋜ke zu zeigen.[NEWLINE][NEWLINE]Das ferne Vinland, die K黶te der Normandie und das reiche Kloster Lindisfarne winken!		Welchem Pfad wollt ihr folgen? Entdecken? Erobern? Handeln? Oder alles zusammen? Ihr habt die Wahl, nur eines ist sicher: Seid mutig, seid flink, seid stark und die Hallen der Walhalla warten auf euch!</German>
+		<Italian>E' l'anno 780 AD. Gli inverni in Scandinavia sono rigidi, ma hai addestrato un popolo robusto e le tue drakkar suscitano l'invidia di qualunque marinaio. Ora, la lontanissima Terranova, la costa della Normandia e il ricco monastero di Lindisfarne chiamano. Sii audace, sii veloce, sii forte, i portali del Vahlalla ti aspettano!</Italian>
+		<Spanish>.</Spanish>
+ 	</TEXT>-->
+  <!-- Sweden old -->
+  <!--<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_SWEDEN</Tag>
+		<English>It is 1523 AD, a couple years after the outrages of the Stockholm Bloodbath, commited by the Danish king Kristian the Tyrant. You, Gustav Vasa, have lead a rebellion since to restore independence, succesfully uniting Sweden under a hereditary monarchy.[NEWLINE][NEWLINE]Now it's time to claim your rightful place as ruler over the Baltic sea. Contested in this by mighty rivals, success can only be achieved by superior military and tactics. One way is to break the ties with Rome and build a great nation based on the true Lutheran faith!</English>
+		<French>.</French>
+		<German>Es ist das Jahr 1523 n.Chr., einige Jahre sind nach der Freveltat des Stockholmer Blutbades, vom D鋘ischen K鰊ig Christian dem Tyrannen ver黚t, vergangen. Ihr, Gustaf Wasa, habt seitdem eine Rebellion zur Wiedererlangung der Unabh鋘gigkeit angef黨rt, und Schweden in einer Erbmonarchie vereint.[NEWLINE][NEWLINE]Jetzt ist es an der Zeit euren rechtm溥igen Platz als Herrscher 黚er die Baltische See zu beanspruchen. Angefochten durch m鋍htige Rivalen kann der Erfolg nur durch 躡erlegenheit in Milit鋜 und Taktik erreicht werden. Ein Weg ist es die Bande mit Rom zu brechen und eine gro遝 Nation auf dem wahren lutheranischen Glauben aufzubauen.</German>
+		<Italian>E' il 1523 AD, un paio di anni dopo gli oltraggi del Bagno di sangue di Stoccolma, commessi dal re Danese Cristiano II il Tiranno. Tu, Gustavo Vasa, hai guidato una rivolta per ottenere l'indipendenza, e hai unito con successo la Svezia sotto una monarchia ereditaria.[NEWLINE][NEWLINE]Ora ?il momento di reclamare il posto che ti spetta di diritto come dominatore del Mar Baltico. Essendo in contrasto con potenti rivali, il successo pu?essere ottenuto solo con la superiorit?militare e tattica. Una strada da seguire pu?essere quella di spezzare i legami con Roma e costruire una grande nazione basata sul vero credo Luterano!</Italian>
+		<Spanish>.</Spanish>
+ 	</TEXT>-->
+</Civ4GameText>

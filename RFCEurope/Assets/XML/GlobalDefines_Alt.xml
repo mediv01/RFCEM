@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="GBK"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Global Defines -->
+<Civ4Defines xmlns="x-schema:CIV4GlobalDefinesSchema.xml">
+    <Define>
+        <!-- set this to 0 if you want to have autosaves during AI autoplay -->
+        <DefineName>NO_AUTOSAVE_DURING_AUTOPLAY</DefineName>
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    <Define>
+        <!-- set to 1 if you want to disable UHV goals for AI civilizations (increases speed if they are only checked for the human player) -->
+        <!-- note that this only works when starting new games, won't affect savegames neither on enabling nor on disabling the checks -->
+        <DefineName>NO_AI_UHV_CHECKS</DefineName>
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+    <Define>
+        <!-- set to 1 to enable city naming popup on city foundation -->
+        <DefineName>CITY_NAME_POPUP</DefineName>
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+    <Define>
+        <!-- set to 1 to enable plot coordinates in the plot information tooltip -->
+        <DefineName>PLOT_COORDINATES</DefineName>
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+    <Define>
+        <!-- set to 1 to enable spawn area display on the map -->
+        <DefineName>ENABLE_SPAWN_AREA_DISPLAY</DefineName>
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    <Define>
+        <!-- set to 1 to enable respawn area display on the map -->
+        <DefineName>ENABLE_RESPAWN_AREA_DISPLAY</DefineName>
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    
+    <!--mediv01 修改-->
+        <Define>
+        <DefineName>PLOT_VISIBILITY_RANGE</DefineName>
+        <iDefineIntVal>3</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>UNIT_VISIBILITY_RANGE</DefineName>
+        <iDefineIntVal>3</iDefineIntVal>
+    </Define>
+    
+    <!--mediv01 新增-->
+
+    
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_X_AND_Y_IN_MAP</DefineName>  <!--mediv01 新增，地图上显示X和Y 0为默认模式-->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_CITYNAME_IN_MAP</DefineName>  <!--mediv01 新增，地图上显示城市名字 0为默认模式-->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>        
+    
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_FLIP_ZONE_IN_MAP</DefineName>  <!--mediv01 新增，地图上显示翻转区 0为默认模式-->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_MINOR_BIRTH_IN_MAP</DefineName>  <!--mediv01 新增，地图上显示准备出生的城市位置 0为默认模式-->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    
+    
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_TRADE_GOLD_IN_MAP</DefineName>  <!--mediv01 新增，地图上显示大商业家贸易金额 0为默认模式-->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    
+    <Define>
+        <DefineName>CVUNITAI_AI_NOT_PILLAGE</DefineName>  <!--mediv01 新增，AI不会劫掠设备 0为默认模式-->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    
+    
+    <Define>
+        <DefineName>ANYFUN_ALERT_FOR_WORLD_WONDER</DefineName>  <!--mediv01 新增，建奇观会全局提醒 0为默认模式-->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    
+    
+    <Define>
+        <DefineName>PLOT_CITY_FULL_YIELD_WHEN_SETTLE</DefineName>  <!--mediv01 新增，坐资源满产出 0为默认模式-->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    
+    <Define>
+        <DefineName>PLOT_CITY_BUILDING_NO_OBSOLUTE</DefineName>  <!--mediv01 新增，奇观不过期 0为默认模式-->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+    
+    
+    <Define>
+        <DefineName>CVUNIT_CAN_HEAL_WHEN_MOVE</DefineName>  <!--mediv01 新增，行走后可以疗伤 0为默认模式-->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+    
+    
+</Civ4Defines>
+
+<!-- GC.getDefineINT("CVGAMETEXT_SHOW_CITYNAME_IN_MAP")  -->

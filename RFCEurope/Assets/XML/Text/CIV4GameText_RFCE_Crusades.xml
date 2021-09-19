@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Crusades -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_INIT_POPUP</Tag>
+    <English>Crusade!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>十字军东征!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_INIT</Tag>
+    <English>The Pope has called for a Crusade to the Holy Land to defend the Holy City of Jerusalem from the infidel pest. Would you accept your duty, take up your sword, and leave for the Holy Land?</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>教宗发起了一场从该死的异教徒手中保卫圣地耶路撒冷的十字军东征。你想履行你的义务，拿起你的剑并前往圣地？</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_ACCEPT</Tag>
+    <English>By my Honor and in the name of my God I will defend the Holy Land!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>以我的荣誉与吾主之名起誓，我将誓死捍卫圣地！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_BRIBE_OUT</Tag>
+    <English>Bribe everyone involved! Err... I mean, would a small monetary contribution (%d1) to the cause suffice?</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>贿赂所有相关人员！呃。。。我是说，对这项事业的一点小小的金钱贡献 (%d1) 够吗？</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DENY</Tag>
+    <English>No, we can't afford to participate in the Crusade in our current situation.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>不，在目前的情况下，我们不能参加十字军东征。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DENY_RUDE</Tag>
+    <English>I will never play a role in this scheme of that snake of a Pope!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>我永远不会在教皇的毒蛇计划中扮演任何角色！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DENY_FAITH</Tag>
+    <English>Seeing that God's will is not sacred to you, your people lose faith in the Catholic cause!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>看到上帝的旨意不是神圣的，你们的人民对天主教事业失去信心!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DENY_LEAVE_ANYWAY</Tag>
+    <English>The Chivalric Orders can't agree with your decision, some soldiers are even abandoning your rule! They plan to go on the Crusade anyway!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>骑士的命令不能同意你的决定，有些士兵甚至放弃你的统治！不管怎样，他们都计划进行十字军东征！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_VOTE_POPUP</Tag>
+    <English>Vote for a Leader</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>投票给一个领袖</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_VOTE</Tag>
+    <English> Who will you vote for to lead the Crusade?</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese> 这次十字军东征的领袖选举你会投票给谁?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_CALLED</Tag>
+    <English>The Pope has called for a crusade!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>教宗发起了一场十字军东征！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_LEADER_POPUP</Tag>
+    <English>Crusade Leader Chosen:</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>十字军领袖选举:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_LEAD</Tag>
+    <English>[SPACE]was chosen to lead the Crusade!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[SPACE]被选为十字军领袖!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_OK</Tag>
+    <English> OK </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>确定 </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_RICHEST</Tag>
+    <English>The Pope spreads his influence over the spiritual life of the Catholics, but there are forces more powerful than faith. You have built an empire of wealth and in many ways your political influence extends beyond that of the Pope. You have the opportunity to use that influence and take over command of the Crusade, deviating it to whatever target you find appropriate.[NEWLINE]</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>教皇将他的影响力传播到天主教徒的精神生活中，但有比信仰更强大的力量。你建立了一个富有的帝国，在许多方面你的政治影响力超越了教皇。你有机会利用这种影响力，接管十字军东征的指挥权，把它转移到任何你认为合适的目标上</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_COST</Tag>
+    <English>The cost to take over </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>接管的费用 </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_GOLD</Tag>
+    <English>gold.[NEWLINE]</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>财富.[NEWLINE]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_CURRENT_LEADER</Tag>
+    <English>is the current chosen leader. </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>是当前选择的领袖。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DEVIATE</Tag>
+    <English>Wealth or Faith</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>财富或信仰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DECIDE_WEALTH</Tag>
+    <English>Take over the Crusade, for it is wealth that moves the world and profit that rules it.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>接管十字军，得益于那个规则我们可以用财富来改变世界。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DECIDE_FAITH</Tag>
+    <English>Do not interfere with the Divine will, money is the root of all evil.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>不要干涉神的旨意，金钱是万恶之源。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_CORRUPT</Tag>
+    <English>Corrupt Crusade</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>收买十字军</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_TARGET</Tag>
+    <English>Choose a new target for the Crusade!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>选择一个新的十字军东征目标！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DEVIATED</Tag>
+    <English>[SPACE]has used financial power to take control of the Crusade.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>[SPACE]利用财政力量控制了十字军东征。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_UNDER_ATTACK</Tag>
+    <English>Under Crusade Attack</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>在十字军攻击下</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_UNDER_ATTACK1</Tag>
+    <English>The Crusaders under the %s1_civ_adjective leadership of %s2_name have chosen our beautiful city of %s3_city as their target. They will arrive in 3 Turns. </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>十字军在%s1_civ_adjective的%s2_name领导下选择了我们美丽的城市%s3_city作为他们的目标。他们将在三回合后到达。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_PREPARE</Tag>
+    <English> We have to prepare our defences! </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese> 我们必须准备防御! </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_START</Tag>
+    <English>Crusaders are leaving under the %s1_civ_adjective leadership of %s2_name to conquer the %s3_civ_adjective city of %s4_city in the name of their god.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>在%s1_civ_adjective的%s2_name领导下，十字军以他们强大的信念征服了%s3_civ_adjective的%s4_city。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_LEAVE</Tag>
+    <English>Our Unit is leaving for the Crusade: </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>我们的部队离开了十字军: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_ARRIVAL</Tag>
+    <English>Our Crusading army successfully arrived near %s1_city_name</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>我们的十字军成功的到达 %s1_city_name</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_JERUSALEM_SAFE</Tag>
+    <English>Our glorious armies ensured that the sacred city of %s1_city_name is safe for all those of the one true faith!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>我们光荣的十字军战士确保 %s1_city_name 的神圣城市对那些虔诚信徒来说是安全的!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_RETURNING_AFTER_VICTORY</Tag>
+    <English>After successfully capturing the Holy City, Crusaders are returning home: </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>十字军成功夺回圣城后，现正在回国的路上: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_CRUSADERS_RETURNING_HOME</Tag>
+    <English>After years of fighting to accomplish their mission, some of our Crusaders are returning home: </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>经过多年的奋斗完成任务, 我们的一些十字军正在回国: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_CRUSADERS_ARRIVED_HOME</Tag>
+    <English>Our Crusading units return home to their families, strengthening the faith throughout the nation and sharing their warfare experiences.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>我们的十字军部队回到他们的家庭，加强了全国各地的信仰和分享他们的战争经验。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_JERUSALEM_PILGRIMS</Tag>
+    <English>Christian pilgrims are filling the roads of Jerusalem!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>基督教朝圣者正在耶路撒冷的道路上挤满了人！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DEFENSIVE_PROPOSAL_POPUP</Tag>
+    <English>Defensive Crusade</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>十字军防御</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DEFENSIVE_PROPOSAL</Tag>
+    <English>Your Majesty, shall we ask our Holy Father to call on our Catholic brothers and sisters to help us against the infidels?</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>陛下，我们问我们的圣父呼唤我们的天主教兄弟姐妹来帮助我们对抗异教徒?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DEFENSIVE_PROPOSAL_YES</Tag>
+    <English>YES, let the infidels feel our combined wrath!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>是的，让这些异教徒们感受到我们暴怒！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DEFENSIVE_PROPOSAL_NO</Tag>
+    <English>NO, we can crush the scum ourselves!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>不，我们会自己碾碎这些渣滓!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DEFENSIVE_AI_MESSAGE</Tag>
+    <English>The Pope has called for a Crusade to aid </English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>教宗号召为十字军东征提供援助 </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CRUSADE_DEFENSIVE_HUMAN_MESSAGE</Tag>
+    <English>The Crusaders already arrived in our capital, eager to protect the realm!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>十字军已经抵达我们的首都，渴望保护王国!</Chinese>
+  </TEXT>
+</Civ4GameText>

@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Victory -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_VICTORY_HISTORICAL</Tag>
+    <English>Historical</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+    <Chinese>历史</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_GOALS</Tag>
+    <English>Historical Victory goals</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>历史胜利目标</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ICON_BULLET</Tag>
+    <English>[ICON_BULLET]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_VICTORY_SCREEN_ACCOMPLISHED</Tag>
+    <English>Goal accomplished!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>目标完成!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_VICTORY_SCREEN_FAILED</Tag>
+    <English>Goal Failed!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>目标失败!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_VICTORY_SCREEN_YES</Tag>
+    <English>YES</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>已完成</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_VICTORY_SCREEN_NO</Tag>
+    <English>NO</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>失败</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_VICTORY_SCREEN_NOTYET</Tag>
+    <English>Not yet</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>尚未</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_VICTORY_INTERMEDIATE</Tag>
+    <English>We have accomplished 2 Historical Goals out of 3. A Triumphal Arch has been built in our capital</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>我们完成了3个历史目标中的2个。一座凯旋门在我们首都落成。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_VICTORY_RIVAL_CIVS</Tag>
+    <English>Some of our rivals envy our accomplishments, and they are ganging up on us!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>我们的一些竞争对手嫉妒我们的成就,现在他们联合起来对付我们!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_VICTORY_ACCOMPLISHED</Tag>
+    <English>Historical goals accomplished:</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>已完成历史目标:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_VICTORY_UHV_GOAL_WON</Tag>
+    <English>Rejoice! The %s1 goal of your Historical Victory has been accomplished!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>恭喜! 你的历史任务 %s1 已经完成了!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_VICTORY_UHV_GOAL_LOST</Tag>
+    <English>Unfortunately you have failed the %s1 goal of your Historical Victory!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>很不幸，你的历史任务 %s1 失败了!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MIN_LATITUDE</Tag>
+    <English>[COLOR_WARNING_TEXT]Is automatically built in your capital when you achieve 2 out of your 3 Historical Goals[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WARNING_TEXT]自动建立在你的首都当你完成3个历史目标中的2个[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BYZ1</Tag>
+    <English>[COLOR_YELLOW]The Second Rome:[COLOR_REVERT] Make Constantinople the largest and most cultured city in 1025AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]第二罗马:[COLOR_REVERT]1025年时使君士坦丁堡成为人口最多文化最高的城市。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BYZ2</Tag>
+    <English>[COLOR_YELLOW]Reliving the Roman Glory:[COLOR_REVERT] Control the Balkans and Anatolia in 1282AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]重现罗马的荣耀:[COLOR_REVERT] 在1282AD控制巴尔干半岛和安那托利亚.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BYZ3</Tag>
+    <English>[COLOR_YELLOW]Crossroads of the World:[COLOR_REVERT] Be the richest empire in the world in 1453AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]世界的十字路口:[COLOR_REVERT]1453年时成为世界上最富有的帝国。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BUL1</Tag>
+    <English>[COLOR_YELLOW]Bulgaria on Three Seas:[COLOR_REVERT] Conquer Moesia, Thrace, Macedonia, Serbia, Arberia, Thessaloniki and Constantinople by 917AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]君临三海的保加利亚:[COLOR_REVERT]917年前征服默西亚,色雷斯,马其顿,塞尔维亚,阿尔巴尼亚,塞萨洛尼基和君士坦丁堡。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BUL2</Tag>
+    <English>[COLOR_YELLOW]The Beginning of the Renaissance:[COLOR_REVERT] Accumulate at least 100 Orthodox Faith Points by 1259AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]文艺复兴的开始:[COLOR_REVERT] 1259 年前积累至少100点东正教信仰点数.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BUL3</Tag>
+    <English>[COLOR_YELLOW]Not Even the Birds Can Fly Through:[COLOR_REVERT] Do not lose a city to barbarians (Mongols), Byzantines, or Ottomans before 1396AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]一只鸟也不能飞过:[COLOR_REVERT] 在1396年前不丢失任何一座给野蛮人(蒙古人),拜占庭,奥斯曼.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_FRA1</Tag>
+    <English>[COLOR_YELLOW]Empire of the West:[COLOR_REVERT] Conquer Ile-De-France, Normandy, Picardy, Aquitania, Provence, Burgundy, Orleans, Champagne, Lorraine, Catalonia, Lombardy, Tuscany, Swabia and Saxony by 840AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]西方帝国:[COLOR_REVERT]在840年征服法兰西岛,诺曼底,皮卡第,阿基坦,普罗旺斯,勃艮第,奥尔良,香槟,洛林,加泰罗尼亚,伦巴第,托斯卡纳,斯瓦比亚和萨克森.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_FRA2</Tag>
+    <English>[COLOR_YELLOW]Empire of the Holy Land:[COLOR_REVERT] Control Jerusalem in 1291AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]帝国圣地:[COLOR_REVERT]1291年时控制耶路撒冷。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_FRA3</Tag>
+    <English>[COLOR_YELLOW]Empire of the World:[COLOR_REVERT] Build 5 Colonies.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]世界帝国:[COLOR_REVERT] 建立5个殖民地.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BUR1</Tag>
+    <English>[COLOR_YELLOW]The Burgundian Way of Life:[COLOR_REVERT] Produce 10,000 culture points by 1336AD. (Great Artists don't count)</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]勃艮第人的生活方式:[COLOR_REVERT]1336年前积累10000点文化（大艺术家不计入）。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BUR2</Tag>
+    <English>[COLOR_YELLOW]Reunification:[COLOR_REVERT] Control Burgundy, Provence, Picardy, Flanders, Champagne and Lorraine in 1376AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]重新统一:[COLOR_REVERT] 在1376年控制勃艮第, 普罗旺斯, 皮卡第, 佛兰德斯, 香槟和洛林.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BUR3</Tag>
+    <English>[COLOR_YELLOW]The Western Power:[COLOR_REVERT] Have a higher score than France, England and Germany in 1473AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]西方力量:[COLOR_REVERT] 1473 年时积分超过法国英国和德国.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_ARA1</Tag>
+    <English>[COLOR_YELLOW]The Sword of Islam:[COLOR_REVERT] Control the Levant and Egypt in 955AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]伊斯兰之剑:[COLOR_REVERT] 在955控制黎凡特埃及.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_ARA2</Tag>
+    <English>[COLOR_YELLOW]The House of Islam:[COLOR_REVERT] Control the Levant, Egypt and Northern Africa in 1291AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]伊斯兰家园:[COLOR_REVERT] 在1291年控制黎凡特, 埃及和北非.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_ARA3</Tag>
+    <English>[COLOR_YELLOW]The World of Islam:[COLOR_REVERT] Spread Islam to at least 35% of the population of Europe.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]伊斯兰世界:[COLOR_REVERT] 将伊斯兰教传播至欧洲人口的至少35％.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_COR1</Tag>
+    <English>[COLOR_YELLOW]Jewel of the World:[COLOR_REVERT] Make Cordoba the largest city in the world in 961AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]世界之珠:[COLOR_REVERT]961年时使科尔多瓦成为世界上最大的城市。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_COR2</Tag>
+    <English>[COLOR_YELLOW]The Superior Moorish Architecture:[COLOR_REVERT] Build the Alhambra, the Gardens of Al-Andalus, and La Mezquita by 1309AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]高级摩尔式建筑:[COLOR_REVERT]1309年前建造阿罕布拉宫,赫内拉利费花园和科尔多瓦主教座堂。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_COR3</Tag>
+    <English>[COLOR_YELLOW]Ummah of Iberia:[COLOR_REVERT] Make sure Islam is present in every city in the Iberian peninsula in 1492AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]伊比利亚共同体:[COLOR_REVERT] 1492 年确保伊斯兰教存在于伊比利亚半岛上的任意一个城市.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_SPN1</Tag>
+    <English>[COLOR_YELLOW]The Reconquista:[COLOR_REVERT] Make sure Catholicism is the only religion present in every city in the Iberian peninsula in 1492AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]收复失地运动:[COLOR_REVERT] 1492 年时确保天主教是伊比利亚半岛上的所有城市的唯一宗教.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_SPN2</Tag>
+    <English>[COLOR_YELLOW]The Spanish Armada:[COLOR_REVERT] Have more Colonies than any other nation in 1588AD (while having at least 3).</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]西班牙无敌舰队:[COLOR_REVERT] 1588年时殖民地数量比所有国家都多(至少三个).</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_SPN3</Tag>
+    <English>[COLOR_YELLOW]Defender of Catholic Europe:[COLOR_REVERT] Ensure that the Catholic nations have more population and more land than any other religion in 1648AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]欧洲天主教的守卫者:[COLOR_REVERT]1648年时确保天主教国家拥有的人口和土地超过任何其他宗教。</Chinese>
+  </TEXT>
+  <!--
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NORSE1</Tag>
+		<English>[COLOR_YELLOW]Explorers:[COLOR_REVERT] Build Vinland by 1009AD.</English>
+		<French>[COLOR_YELLOW]Explorers:[COLOR_REVERT] Build Vinland by 1009AD.</French>
+		<German>[COLOR_YELLOW]Entdecker:[COLOR_REVERT] Errichtet bis 1009 n.Chr. Vinland (Projekt).</German>
+		<Italian>[COLOR_YELLOW]Esploratori:[COLOR_REVERT] Colonizza la Terranova entro il 1009AD.</Italian>
+		<Spanish>[COLOR_YELLOW]Explorers:[COLOR_REVERT] Build Vinland by 1009AD.</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NORSE2</Tag>
+		<English>[COLOR_YELLOW]Conquerors:[COLOR_REVERT] Conquer Scotland, Ireland, Northumbria, Normandy, Iceland, Novgorod and Sicily by 1061AD.</English>
+		<French>[COLOR_YELLOW]Conquerors:[COLOR_REVERT] Conquer Scotland, Ireland, Northumbria, Normandy, Iceland, Novgorod and Sicily by 1061AD.</French>
+		<German>[COLOR_YELLOW]Eroberer:[COLOR_REVERT] Erobert bis 1061 n.Chr. Schottland, Irland, Northumbria, Normandie, Island, Nowgorod und Sizilien.</German>
+		<Italian>[COLOR_YELLOW]Conquistatori:[COLOR_REVERT] Conquista le province di Scozia, Irlanda, Northumbria, Normandia, Islanda, Novgorod e Sicilia entro il 1061AD.</Italian>
+		<Spanish>[COLOR_YELLOW]Conquerors:[COLOR_REVERT] Conquer Scotland, Ireland, Northumbria, Normandy, Iceland, Novgorod and Sicily by 1061AD.</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NORSE3</Tag>
+		<English>[COLOR_YELLOW]Vikings:[COLOR_REVERT] Gain 50 Viking points by 1066AD. You gain points from conquering cities (+1pt per population), pillaging improvements (+1pt) and sinking ships (+2pt).</English>
+		<French>[COLOR_YELLOW]Vikings:[COLOR_REVERT] Gain 50 Viking points by 1066AD. You gain points from conquering cities (+1pt per population), pillaging improvements (+1pt) and sinking ships (+2pt).</French>
+		<German>[COLOR_YELLOW]Wikinger:[COLOR_REVERT] Erzielt bis 1066 n.Chr. 50 Wikingerpunkte. Punkte erhaltet ihr durch Stadteroberungen (+1pt pro Bev鰈kerung), Pl黱dern von Verbesserungen (+1pt) und Versenken von Schiffen (+2pt).</German>
+		<Italian>[COLOR_YELLOW]Vichinghi:[COLOR_REVERT] Ottieni 50 punti Vichinghi entro il 1066AD. Guadagni punti conquistando citt?(+1pt per abitante), distruggendo miglioramenti (+1pt) e affondando navi (+2pt).</Italian>
+		<Spanish>[COLOR_YELLOW]Vikings:[COLOR_REVERT] Gain 50 Viking points by 1066AD. You gain points from conquering cities (+1pt per population), pillaging improvements (+1pt) and sinking ships (+2pt).</Spanish>
+ 	</TEXT>-->
+  <TEXT>
+    <Tag>TXT_KEY_UHV_VEN1</Tag>
+    <English>[COLOR_YELLOW]Domination of the Adriatic Sea:[COLOR_REVERT] Conquer Verona, Dalmatia, Arberia and Epirus by 1004AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]亚得里亚海的支配者:[COLOR_REVERT]1004年前征服维罗纳,达尔马提亚,阿尔巴尼亚和伊庇鲁斯。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_VEN2</Tag>
+    <English>[COLOR_YELLOW]Domination of the Mediterranean Sea:[COLOR_REVERT] Conquer Constantinople, Thessaly, Morea, Crete and Cyprus by 1204AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]主宰地中海:[COLOR_REVERT]  1204 年前征服君士坦丁堡,色萨利,摩里亚,克里特和塞浦路斯.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_VEN3</Tag>
+    <English>[COLOR_YELLOW]Domination of the World Ocean:[COLOR_REVERT] Be the first to build a Colony from the Age of Discovery (Vinland is from the Viking Age).</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]支配全球海洋:[COLOR_REVERT] 成为发现时代第一个建立殖民地的国家 (文兰是属于维京时代).</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_KIE1</Tag>
+    <English>[COLOR_YELLOW]Lavra:[COLOR_REVERT] Build 2 Orthodox cathedrals and 8 Orthodox monasteries by 1250AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]劳拉:[COLOR_REVERT]1250年前建造2个东正教大教堂和8个东正教修道院。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_KIE2</Tag>
+    <English>[COLOR_YELLOW]Dominance of the Rus':[COLOR_REVERT] Control 10 provinces out of Kiev, Podolia, Pereyaslavl, Sloboda, Chernigov, Volhynia, Minsk, Polotsk, Smolensk, Moscow, Murom, Rostov, Novgorod and Vologda in 1288AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]俄罗斯主宰:[COLOR_REVERT] 在1288年控制以下省份中的10个基辅,波多里亚,波里亚斯拉弗尔,斯洛博达,切尔尼戈夫,沃里尼亚,明斯克,波洛茨克,斯摩棱斯克,莫斯科,穆罗姆,罗斯托夫,诺夫哥罗德和沃洛格达.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_KIE3</Tag>
+    <English>[COLOR_YELLOW]The Fertile Black Soil:[COLOR_REVERT] Produce 25000 food by 1300AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]肥沃黑土:[COLOR_REVERT] 1300年前生产25000食物.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_LIT1</Tag>
+    <English>[COLOR_YELLOW]Paganism:[COLOR_REVERT] Accumulate 2000 Culture points without declaring a state religion before 1386AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]多神信仰:[COLOR_REVERT] 在1368年前在无国教下积累2000点文化.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_LIT2</Tag>
+    <English>[COLOR_YELLOW]Lithuanian Commonwealth:[COLOR_REVERT] Have at least 18 cities in 1569AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]波兰立陶宛联邦:[COLOR_REVERT]1569年时至少拥有18个城市。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_LIT3</Tag>
+    <English>[COLOR_YELLOW]The Domination of Eastern Europe:[COLOR_REVERT] Conquer the province of Moscow or vassalize Muscovy.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]东欧主宰:[COLOR_REVERT] 征服莫斯科省份或者附庸莫斯科.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_HUN1</Tag>
+    <English>[COLOR_YELLOW]Defender of Europe:[COLOR_REVERT] Allow no Ottoman cities in mainland Europe in 1444AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]欧洲守卫:[COLOR_REVERT] 在1444年时,欧洲大陆不允许有任何奥斯曼帝国城市.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_HUN2</Tag>
+    <English>[COLOR_YELLOW]Black Army:[COLOR_REVERT] Control the most territory in Europe in 1490AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]黑军:[COLOR_REVERT]1490年时成为欧洲拥有最多领土的国家。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_HUN3</Tag>
+    <English>[COLOR_YELLOW]Edict of Torda:[COLOR_REVERT] Be the first to adopt Religious Tolerance.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]多尔达诏令:[COLOR_REVERT]第一个采用宗教宽容.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_GER1</Tag>
+    <English>[COLOR_YELLOW]The Holy Roman Empire:[COLOR_REVERT] Control Lorraine, Swabia, Saxony, Bavaria, Franconia, Brandenburg, Holstein, Lombardy and Tuscany in 1167AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]神圣罗马帝国:[COLOR_REVERT]1167年时控制洛林,斯瓦比亚,萨克森,巴伐利亚,弗兰肯尼亚,勃兰登堡,荷尔斯泰因,伦巴第和托斯卡纳.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_GER2</Tag>
+    <English>[COLOR_YELLOW]The Reformation:[COLOR_REVERT] Found Protestantism.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]宗教改革:[COLOR_REVERT]创立新教。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_GER3</Tag>
+    <English>[COLOR_YELLOW]The Thirty Years' War:[COLOR_REVERT] Control Swabia, Saxony, Bavaria, Franconia, Brandenburg, Holstein, Flanders, Pomerania, Silesia, Bohemia, Moravia and Austria in 1648AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]30十年战争:[COLOR_REVERT] 在1648年控制斯瓦比亚,萨克森,巴伐利亚,法兰克尼亚,勃兰登堡,荷尔施泰因,佛兰德斯,波美拉尼亚,西里西亚,波希米亚,摩拉维亚和奥地利.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_POL1</Tag>
+    <English>[COLOR_YELLOW]The Granary of Europe:[COLOR_REVERT] Produce the most food at least one year between 1500AD and 1520AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]欧洲粮仓:[COLOR_REVERT] 在1500-1520之间至少有一年生产最多食物.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_POL2</Tag>
+    <English>[COLOR_YELLOW]The Commonwealth:[COLOR_REVERT] Own at least 12 cities in Bohemia, Moravia, Upper Hungary, Prussia, Lithuania, Livonia, Polotsk, Minsk, Volhynia, Podolia, Moldova and Kiev provinces in 1600AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]大联邦:[COLOR_REVERT] 1600 年时拥有波斯尼亚,摩拉维亚,上匈牙利,普鲁士,立陶宛,利沃尼亚,波洛茨克,明斯克,荷兰,波多利亚,摩尔多瓦和基辅等省份至少12个城市.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_POL3</Tag>
+    <English>[COLOR_YELLOW]The Golden Liberty:[COLOR_REVERT] Construct 3 Catholic and Orthodox Cathedrals, 2 Protestant Cathedrals, and have at least 2 Jewish Quarters in your cities.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]黄金自由:[COLOR_REVERT]建造三座天主教,东正教和新教教堂,并在你的城市至少有两个犹太区。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_MOS1</Tag>
+    <English>[COLOR_YELLOW]The Homeland:[COLOR_REVERT] Make sure there are no Mongol (Barbarian) cities in Russia and Ukraine in 1482AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]家园:[COLOR_REVERT] 在1482年确保俄罗斯和乌克兰没有蒙古人(野蛮人)城市.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_MOS2</Tag>
+    <English>[COLOR_YELLOW]The Endless Land:[COLOR_REVERT] Control at least 20% of Europe.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]无尽的土地:[COLOR_REVERT] 控制欧洲20%的土地.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_MOS3</Tag>
+    <English>[COLOR_YELLOW]The Warm Seas:[COLOR_REVERT] Conquer Constantinople or control an Atlantic Access resource.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]温暖的海洋:[COLOR_REVERT] 征服君士坦丁堡或控制大西洋航线资源.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_GEN1</Tag>
+    <English>[COLOR_YELLOW]Respublica Superiorem Non Recognoscens:[COLOR_REVERT] Control Corsica, Sardinia, Crete, Rhodes and Crimea in 1566AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]最尊贵的热那亚共和国:[COLOR_REVERT]在1566年控制科西嘉,撒丁,克里特,罗兹和克里米亚。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_GEN2</Tag>
+    <English>[COLOR_YELLOW]The Bank of Europe:[COLOR_REVERT] Build 8 Banks in your cities.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]欧洲银行:[COLOR_REVERT] 在你的城市建立8间银行s.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_GEN3</Tag>
+    <English>[COLOR_YELLOW]Trade above everything else:[COLOR_REVERT] Have the largest total amount of commerce from foreign Trade Route Exports and Imports in 1640AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]贸易高于一切:[COLOR_REVERT] 1640年时对外贸易路线的出口和进口贸易总量最大.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_ENG1</Tag>
+    <English>[COLOR_YELLOW]The Crown:[COLOR_REVERT] Control London, Wessex, East Anglia, Mercia, Northumbria, Scotland, Wales, Ireland, Normandy, Picardy, Bretagne, Il-de-France, Aquitania and Orleans in 1452AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]大英王权:[COLOR_REVERT] 在1452年控制伦敦,韦塞克斯,东英吉利亚,麦西亚,诺森布里亚, 苏格兰,威尔士,爱尔兰, 诺曼底,皮卡第,布列塔尼,法兰西岛,阿基坦和奥尔良.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_ENG2</Tag>
+    <English>[COLOR_YELLOW]Jewel of the Crown:[COLOR_REVERT] Build 7 Colonies.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]王冠宝石:[COLOR_REVERT] 建立七个殖民地.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_ENG3</Tag>
+    <English>[COLOR_YELLOW]Inventors of the Crown:[COLOR_REVERT] Be the first to enter the Industrial age.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]发明之冠:[COLOR_REVERT]第一个进入工业时代。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_POR1</Tag>
+    <English>[COLOR_YELLOW]The Navigators:[COLOR_REVERT] Settle 3 cities on the Azores, Canaries and Madeira and 2 in Morocco, Tetouan and Oran.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]航海家:[COLOR_REVERT]安置三座城市在亚速尔,加纳利和马德拉,两座城市在得土安与奥兰。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_POR2</Tag>
+    <English>[COLOR_YELLOW]Defense leads to glory:[COLOR_REVERT] Do not lose a city before 1640AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]守往荣耀:[COLOR_REVERT]1640年前不丢失任何城市。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_POR3</Tag>
+    <English>[COLOR_YELLOW]Feitorias all over the world:[COLOR_REVERT] Build 5 Colonies.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]五洲四海:[COLOR_REVERT] 建立五个殖民地.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_AUS1</Tag>
+    <English>[COLOR_YELLOW]Habsburg Empire:[COLOR_REVERT] Control Hungary, Upper Hungary, Austria, Bavaria, Carinthia, Transylvania, Pannonia, Moravia, Silesia and Bohemia in 1617AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]哈布斯堡帝国:[COLOR_REVERT] 在1617年控制匈牙利,上匈牙利,奥地利,巴伐利亚,卡林西亚,特兰西瓦尼亚,潘诺尼亚, 摩拉维亚,西里西亚和波希米亚.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_AUS2</Tag>
+    <English>[COLOR_YELLOW]Habsburg Alliances:[COLOR_REVERT] Have 3 vassals in 1700AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]哈布斯堡同盟:[COLOR_REVERT]1700年时收纳3个附庸国。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_AUS3</Tag>
+    <English>[COLOR_YELLOW]Habsburg Domination:[COLOR_REVERT] Have the highest score in 1780AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]哈布斯堡王朝:[COLOR_REVERT]1780年时积分最高。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_TUR1</Tag>
+    <English>[COLOR_YELLOW]Osman's Empire:[COLOR_REVERT] Control Constantinople and the Balkans in 1453AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]奥斯曼帝国:[COLOR_REVERT] 在1453年控制君士坦丁堡省份和巴尔干半岛地区.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_TUR2</Tag>
+    <English>[COLOR_YELLOW]Osman's Dream:[COLOR_REVERT] Control Anatolia, the Levant and Egypt in 1517AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]奥斯曼之梦:[COLOR_REVERT] 1517年时控制安纳托利亚,黎凡特和埃及.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_TUR3</Tag>
+    <English>[COLOR_YELLOW]Victory over Europe:[COLOR_REVERT] Conquer Austria by 1683AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]战胜欧洲:[COLOR_REVERT]1683年前征服奥地利。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_DUT1</Tag>
+    <English>[COLOR_YELLOW]The Financial Center:[COLOR_REVERT] Settle 5 Great Merchants in Amsterdam by 1750AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]金融中心:[COLOR_REVERT]1750年前在阿姆斯特丹进驻5位大商业家。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_DUT2</Tag>
+    <English>[COLOR_YELLOW]The India Companies:[COLOR_REVERT] Build 3 Colonies and complete both Trading Companies.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]东印度公司:[COLOR_REVERT] 建立3个殖民地并完成两个贸易公司.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_DUT3</Tag>
+    <English>[COLOR_YELLOW]The Financial Domination:[COLOR_REVERT] Become the richest country in Europe.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]金融霸主:[COLOR_REVERT]成为欧洲最富有的国家。</Chinese>
+  </TEXT>
+  <!-- Old UHVs, for later starting date
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWEDEN1</Tag>
+		<English>[COLOR_YELLOW]Uniting Sweden:[COLOR_REVERT] Control Gotaland, Svealand, Norrland, Skaneland, Gotland and Osterland in 1600AD.</English>
+		<French>[COLOR_YELLOW]Uniting Sweden:[COLOR_REVERT] Control Gotaland, Svealand, Norrland, Skaneland, Gotland and Osterland in 1600AD.</French>
+		<German>[COLOR_YELLOW]Vereinigtes Schweden:[COLOR_REVERT] Erobert bis 1600 n.Chr. Gotaland, Svealand, Norrland, Skaneland, Gotland und Osterland.</German>
+		<Italian>[COLOR_YELLOW]Svezia Unita:[COLOR_REVERT] Conquista le province di Gotaland, Svealand, Norrland, Skaneland, Gotland e Osterland entro il 1600AD.</Italian>
+		<Spanish>[COLOR_YELLOW]Uniting Sweden:[COLOR_REVERT] Control Gotaland, Svealand, Norrland, Skaneland, Gotland and Osterland in 1600AD.</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWEDEN2</Tag>
+		<English>[COLOR_YELLOW]Karolins:[COLOR_REVERT] Don't lose any cities to Poland, Lithuania or Russia before 1700AD.</English>
+		<French>[COLOR_YELLOW]Karolins:[COLOR_REVERT] Ne pas perdre de ville par la Pologne, la Lithuanie ou la Russie avant 1700 ap.JC.</French>
+		<German>[COLOR_YELLOW]Karoliner:[COLOR_REVERT] Verliert vor 1700 n.Chr. keine Stadt an Polen, Litauen oder Russland.</German>
+		<Italian>[COLOR_YELLOW]Karolins:[COLOR_REVERT] Non farti conquistare nessuna citt?da Russia, Polonia o Lituania prima del 1700AD.</Italian>
+		<Spanish>[COLOR_YELLOW]Karolins:[COLOR_REVERT] Don't lose any cities to Poland, Lithuania or Russia before 1700AD.</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWEDEN3</Tag>
+		<English>[COLOR_YELLOW]Lion of the North:[COLOR_REVERT] Have 15 cities in Saxony, Brandenburg, Holstein, Pomerania, Prussia, Greater Poland, Masovia, Suvalkija, Lithuania, Livonia, Estonia, Smolensk, Polotsk, Minsk, Murom, Chernigov, Moscow, Novgorod and Rostov in 1750AD.</English>
+		<French>[COLOR_YELLOW]Lion of the North:[COLOR_REVERT] Have 15 cities in Saxony, Brandenburg, Holstein, Pomerania, Prussia, Greater Poland, Masovia, Suvalkija, Lithuania, Livonia, Estonia, Smolensk, Polotsk, Minsk, Murom, Chernigov, Moscow, Novgorod and Rostov in 1750AD.</French>
+		<German>[COLOR_YELLOW]L鰓e des Nordens:[COLOR_REVERT] Besitzt 1750 n.Chr. 15 St鋎te in Sachsen, Brandenburg, Holstein, Pommern, Prussia, Gro遬olen, Masowien, Suvalkija, Litauen, Livland, Estland, Smolensk, Polotsk, Minsk, Murom, Tschernigow, Moskau, Nowgorod und Rostov.</German>
+		<Italian>[COLOR_YELLOW]Leone del Nord:[COLOR_REVERT] Devi avere almeno 15 citt?nelle seguenti province: Sassonia, Brandeburgo, Holstein, Pomerania, Prussia, Grande Polonia, Masovia, Sudovia, Lituania, Estonia, Smolensk, Polack, Minsk, Murom, Chernigov, Mosca e Rostov nel 1750AD.</Italian>
+		<Spanish>[COLOR_YELLOW]Lion of the North:[COLOR_REVERT] Have 15 cities in Saxony, Brandenburg, Holstein, Pomerania, Prussia, Greater Poland, Masovia, Suvalkija, Lithuania, Livonia, Estonia, Smolensk, Polotsk, Minsk, Murom, Chernigov, Moscow, Novgorod and Rostov in 1750AD.</Spanish>
+ 	</TEXT>-->
+  <TEXT>
+    <Tag>TXT_KEY_UHV_SWE1</Tag>
+    <English>[COLOR_YELLOW]The Eastern Lands:[COLOR_REVERT] Have six cities in Norrland, easterland and Karelia in 1323AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]东方之地:[COLOR_REVERT] 1323年时在诺尔兰,东境和卡累利阿拥有六座城市.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_SWE2</Tag>
+    <English>[COLOR_YELLOW]Lion of the North:[COLOR_REVERT] Raze 5 Catholic cities while being Protestant by 1660AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]北欧雄狮:[COLOR_REVERT] 1660 前摧毁5座天主教城市同时皈依新教.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_SWE3</Tag>
+    <English>[COLOR_YELLOW]Dominium Maris Baltici:[COLOR_REVERT] Control every coastal city on the Baltic in 1750AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]Dominium Maris Baltici:[COLOR_REVERT] 1750年时控制波罗的海所有海边城市.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NOR1</Tag>
+    <English>[COLOR_YELLOW]Vikings:[COLOR_REVERT] Gain 100 Viking points and build Vinland by 1066AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]维京人:[COLOR_REVERT] 1066年前获得100个维京点数并建立文兰殖民地.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NOR2</Tag>
+    <English>[COLOR_YELLOW]Conquerors:[COLOR_REVERT] Conquer The Isles, Ireland, Scotland, Normandy, Sicily, Apulia, Calabria and Iceland by 1194AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]征服者:[COLOR_REVERT] 在1194年前征服群岛,爱尔兰,苏格兰,诺曼底, 西西里岛,阿普利亚, 卡拉布里亚和冰岛.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NOR3</Tag>
+    <English>[COLOR_YELLOW]Statesmen:[COLOR_REVERT] Have a higher score than Sweden, Denmark, Scotland, England, Germany and France in 1320AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]政治家:[COLOR_REVERT] 在1320年时积分超过瑞典,丹麦,苏格兰,英格兰,德国和法国.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_DEN1</Tag>
+    <English>[COLOR_YELLOW]North Sea Empire:[COLOR_REVERT] Control Denmark, Skaneland, G鰐aland, Svealand, Mercia, London, Northumbria and East Anglia in 1050AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]北海帝国:[COLOR_REVERT] 在1050年时控制丹麦,斯科讷,约塔兰,斯韦阿兰,麦西亚,伦敦,诺森布里亚,东英吉利亚.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_DEN2</Tag>
+    <English>[COLOR_YELLOW]Kalmar Union:[COLOR_REVERT] Control Denmark, Norway, Vestfold, Skaneland, G鰐aland, Svealand, Norrland, Gotland, easterland, Estonia and Iceland in 1523AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]卡尔玛联盟:[COLOR_REVERT] 在1523年时控制丹麦,挪威,西福尔,斯科讷,约塔兰,斯韦阿兰,诺尔兰,哥特兰,东境,爱沙尼亚和冰岛.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_DEN3</Tag>
+    <English>[COLOR_YELLOW]Ostindisk Kompagni:[COLOR_REVERT] Build 3 Colonies and complete both Trading Companies.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]东印度公司:[COLOR_REVERT] 建立3个殖民地,完成两家贸易公司.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NOV1</Tag>
+    <English>[COLOR_YELLOW]Defender of Rus':[COLOR_REVERT] Control Novgorod, Karelia, Estonia and Livonia in 1284AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]俄罗斯守卫者:[COLOR_REVERT] 在1284年时控制诺夫哥罗德,卡累利阿,爱沙尼亚和利沃尼亚.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NOV2</Tag>
+    <English>[COLOR_YELLOW]The Fur Trade:[COLOR_REVERT] Control eleven sources of fur by 1397AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]毛皮贸易:[COLOR_REVERT] 1397年前控制11个毛皮资源 .</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NOV3</Tag>
+    <English>[COLOR_YELLOW]The Great Hinterlands:[COLOR_REVERT] Have seven cities in Karelia and Vologda in 1478AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]辉煌内陆:[COLOR_REVERT] 1478年时在卡累利阿和沃格格达拥有7座城市.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_PRU1</Tag>
+    <English>[COLOR_YELLOW]The Northern Crusades:[COLOR_REVERT] Control Prussia, Suvalkija, Lithuania, Livonia, Estonia, and Pomerania in 1410AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]北方十字军:[COLOR_REVERT] 1410年时控制普鲁士,苏瓦基亚,立陶宛,利沃尼亚,爱沙尼亚和波美拉尼亚.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_PRU2</Tag>
+    <English>[COLOR_YELLOW]Seven Years' War:[COLOR_REVERT] Conquer two cities from each of Austria, Muscowy, Germany, Sweden, France and Spain between 1650AD and 1763AD, if they are still alive.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]七年战争:[COLOR_REVERT] 1650年到1763年间攻克奥地利,莫斯科,德国,瑞典,法国和西班牙各两座城市(如果对方已经灭亡则不计算).</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_PRU3</Tag>
+    <English>[COLOR_YELLOW]Enlightened Despotism:[COLOR_REVERT] Settle a total of 15 Great People in any combination, including Great Generals, in your capital.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]开明专制:[COLOR_REVERT] 在首都定居15个伟人(包括大军事家).</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_SCO1</Tag>
+    <English>[COLOR_YELLOW]Fortification:[COLOR_REVERT] Have 10 Forts and 4 Castles by 1296AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]要塞艺术:[COLOR_REVERT] 在1296年前完成10座城墙和4座城堡.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_SCO2</Tag>
+    <English>[COLOR_YELLOW]The Auld Alliance:[COLOR_REVERT] Have 1500 Attitude points with France by 1560AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]深情厚谊:[COLOR_REVERT] 1560年前对法国有1500态度点数.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_SCO3</Tag>
+    <English>[COLOR_YELLOW]The Celtic Union:[COLOR_REVERT] Control Scotland, the Isles, Ireland, Wales and Bretagne in 1700AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]凯尔特联盟:[COLOR_REVERT] 在1700年时控制苏格兰,群岛,爱尔兰,威尔士和布列塔尼.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_ARG1</Tag>
+    <English>[COLOR_YELLOW]The Sicilian Vespers:[COLOR_REVERT] Control Catalonia, Valencia, Balears and Sicily in 1282AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]西西里晚祷:[COLOR_REVERT] 1282年时控制加泰罗尼亚,瓦伦西亚,巴利阿里和西西里岛.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_ARG2</Tag>
+    <English>[COLOR_YELLOW]Thalassocracy:[COLOR_REVERT] Have 12 Consulates of the Sea in 1444AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]制海权:[COLOR_REVERT] 1444年拥有12海事法庭.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_ARG3</Tag>
+    <English>[COLOR_YELLOW]Realms of the Crown:[COLOR_REVERT] Control Catalonia, Valencia, Aragon, Balears, Corsica, Sardinia, Sicily, Calabria, Apulia, Provence and Thessaly in 1474AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]王权领地:[COLOR_REVERT] 在1474年时控制加泰罗尼亚,瓦伦西亚,阿拉贡,巴利阿里,科西嘉,撒丁岛,西西里,卡拉布里亚,阿普利亚,普罗旺斯,色萨利.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_MOR1</Tag>
+    <English>[COLOR_YELLOW]The Almohads:[COLOR_REVERT] Control Morocco, Marrakesh, Fez, Tetouan, Oran, Algiers, Ifriqiya, Andalusia, Valencia and the Balearic Islands in 1227AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]穆瓦希德王朝:[COLOR_REVERT] 在1227年时控制摩洛哥,马拉喀什,菲斯,得土安,奥兰,阿尔及尔,突尼斯,安达卢西亚,瓦伦西亚和巴利阿里群岛.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_MOR2</Tag>
+    <English>[COLOR_YELLOW]The Marinids:[COLOR_REVERT] Have three cities with 5000 culture each in 1465AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]马林王朝:[COLOR_REVERT] 在1465年时有3座拥有5000文化或以上的城市.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_MOR3</Tag>
+    <English>[COLOR_YELLOW]The Saadis:[COLOR_REVERT] Destroy or vassalize Portugal, Spain, and Aragon by 1578AD.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW萨瓦德王朝:[COLOR_REVERT] 1578年前摧毁或者附庸葡萄牙,西班牙,阿拉贡.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_POP1</Tag>
+    <English>[COLOR_YELLOW]Smite the infidels[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]打击异教徒[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_POP2</Tag>
+    <English>[COLOR_YELLOW]Ensure Jerusalem is Catholic[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]确保耶路撒冷是天主教[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_POPE</Tag>
+    <English>[COLOR_YELLOW]Prophet of the World[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_YELLOW]世界先知[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_CULTURE</Tag>
+    <English>Culture</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>文化</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_ISLAM</Tag>
+    <English>Islamic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伊斯兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_VIKING</Tag>
+    <English>Viking</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>维京</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_FOOD</Tag>
+    <English>Food</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>食物</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_COLONIES</Tag>
+    <English>Colonies</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>殖民地</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_CONQUERED</Tag>
+    <English>Conquered</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>征服</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BUILD</Tag>
+    <English>Build</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>建立</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NOT_YET</Tag>
+    <English>Not Yet</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>还未</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_EXPLORED</Tag>
+    <English>Explored</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>探索</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NOT_EXPLORED</Tag>
+    <English>Not Explored</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>未探索</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_CURRENTLY</Tag>
+    <English>Currently</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>当前</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_FURS</Tag>
+    <English>Furs</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>毛皮</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_FRENCH</Tag>
+    <English>French</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_SHIPS</Tag>
+    <English>Ships</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>船舶</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_GREAT_PEOPLE</Tag>
+    <English>Great People</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伟人</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_RAZED</Tag>
+    <English>Razed</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>夷平</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BALTIC_CITIES</Tag>
+    <English>foreign cities on the Baltic.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波罗的海沿岸的外国省份城市</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_MOST_POPULATION</Tag>
+    <English>Most Population: </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>人口最多: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_MOST_LAND</Tag>
+    <English>Most Land: </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>土地最多: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_PAGAN</Tag>
+    <English>Pagan</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>异教徒</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BIGGEST_TRADER</Tag>
+    <English>The Biggest Trader is: </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>贸易量最大: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_GOLD</Tag>
+    <English>Amount of gold in treasury</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>国库储备</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_CITIES_CONTROLLED</Tag>
+    <English>Cities under control: </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>控制城市: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_MOR2_HELP</Tag>
+    <English>Cities with the highest culture:</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>文化最高的城市:</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NOR1_HELP</Tag>
+    <English>You gain points from conquering cities (+1pt per population), pillaging improvements (+1pt) and sinking ships (+2pt).</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>征服城市 (每人口+1), 劫掠设施获得点数 (+1) 和海军胜利 (+2).</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_SCO2_HELP</Tag>
+    <English>You get points per turn for good relations (between -2 and 2), open borders (1), defensive pact (2), imports (1/3 per resource), exports (1/3 per resource), common wars (2 per war)</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>每回合良好关系 (在-2和2之间),开放边界 (1),防御协定(2),进口资源(1/3每个资源),出口(1/3每个资源),共同作战(2每场战争)</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_CONTROLLER_OF</Tag>
+    <English>Controller of</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>控制</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_CITY_NOT_EXIST</Tag>
+    <English> does not exist</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese> 不存在</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_JERUSALEM</Tag>
+    <English>Jerusalem</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>耶路撒冷</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_CITY_NOT_OWNED</Tag>
+    <English>You do not own </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>没有拥有 </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_IS_LARGEST</Tag>
+    <English> is the largest city</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese> 是最大的城市</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_IS_NOT_LARGEST</Tag>
+    <English> is not the largest city</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese> 不是最大的城市</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_IS_CULTURAL</Tag>
+    <English> is the most cultural city</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese> 是文化最高的城市</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_IS_NOT_CULTURAL</Tag>
+    <English> is not the most cultural city</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese> 不是文化最高的城市</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_FAITH_POINTS</Tag>
+    <English>Current faith points: </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>当前信仰点: </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NO_CITIES_LOST</Tag>
+    <English>No cities lost</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>没有城市陷落</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NO_COLONIES_YET</Tag>
+    <English>No colonies build yet</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>没有殖民地建成</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_LOWER_SCORE</Tag>
+    <English>Civs with a lower score</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>文明积分较低</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_HIGHER_SCORE</Tag>
+    <English>Civs with a higher score</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>文明积分较高</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NOT_FOUND_YET</Tag>
+    <English>is not found yet</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>尚未建立</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_PRESENT</Tag>
+    <English>is present in</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>存在于</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NOT_PRESENT</Tag>
+    <English>is not present in</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>不存在</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_CONTROL_TERRITORY</Tag>
+    <English>Controlled territory</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>控制领土</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NO_ADOPTION_YET</Tag>
+    <English>Free religion is not adopted yet</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>未采纳宗教宽容</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_MOST_COLONIES</Tag>
+    <English>You control the most colonies</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>你控制的殖民地最多</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NOT_MOST_COLONIES</Tag>
+    <English>You do not control the most colonies</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>你控制的殖民地不是最多</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_COLLAPSE_OR_VASSALIZE</Tag>
+    <English>Destroyed or vassalized</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Destroyed or vassalized</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_CONQUER_OR_VASSALIZE</Tag>
+    <English>Conquered or vassalized</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Conquered or vassalized</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_NO_INDUSTRIAL</Tag>
+    <English>No one has entered the Industrial Era yet</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>没有文明进入工业时代</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_CITIES_IN_ISLANDS</Tag>
+    <English>Cities on the Azores, Canaries and Madeira</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>亚速尔群岛,加那利群岛和马德拉群岛的城市</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_CITIES_IN_AFRICA</Tag>
+    <English>Cities in Morocco, Tetouan and Oran</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>摩洛哥,得土安和奥兰的城市</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_HIGHEST_SCORE</Tag>
+    <English>Civilization with the highest score</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>文明积分最高</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_TOO_EARLY</Tag>
+    <English>The current year is before the start of the UHV</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>今年是历史任务开始之前</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_FOOD_PRODUCTION</Tag>
+    <English>Current food production</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>目前食物生产</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_IMPORT_EXPORT</Tag>
+    <English>Current import and export</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>进出口现状</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BEST</Tag>
+    <English>Best</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>最好的</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_BEST_COMPETITOR</Tag>
+    <English>Best competitor</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>最佳竞争者</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UHV_PART</Tag>
+    <English>Subvictory</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>次胜利</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_1</Tag>
+    <English>Emperor</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>皇帝</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_2</Tag>
+    <English>King</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>国王</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_3</Tag>
+    <English>Prince</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>王子</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_4</Tag>
+    <English>Grand Duke</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>大公</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_5</Tag>
+    <English>Baron</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>男爵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_6</Tag>
+    <English>Duke</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>公爵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_7</Tag>
+    <English>Marquess</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>侯爵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_8</Tag>
+    <English>Count</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伯爵</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_9</Tag>
+    <English>Knight</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>骑士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_10</Tag>
+    <English>Guild Master</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>公会大师</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_11</Tag>
+    <English>Merchant</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>商人</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_12</Tag>
+    <English>Squire</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>乡绅</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_13</Tag>
+    <English>Village Mayor</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>村长</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_14</Tag>
+    <English>Blacksmith</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>铁匠</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_15</Tag>
+    <English>Peddler</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>小贩</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_16</Tag>
+    <English>Apprentice</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>学徒</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_17</Tag>
+    <English>Peasant</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>农民</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_18</Tag>
+    <English>Jester</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>小丑</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_19</Tag>
+    <English>Serf</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>农奴</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_LEADER_NAME_20</Tag>
+    <English>Begger</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>乞丐</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_DQ_TEXT_STRING</Tag>
+    <English>%s1_leader, during this game you achieved the rank of %s2_leader!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>%s1_leader, 在这场比赛中你达到了 %s2_leader!</Chinese>
+  </TEXT>
+</Civ4GameText>

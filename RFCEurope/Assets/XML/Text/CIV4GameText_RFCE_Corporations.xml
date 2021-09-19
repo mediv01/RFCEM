@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Corporations -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_KNIGHTS_HOSPITALLER</Tag>
+    <English>Knights Hospitaller</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>医院骑士团</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_KNIGHTS_HOSPITALLER_PEDIA</Tag>
+    <English>[TAB]The Knights Hospitaller (also known as the Sovereign Military Hospitaller, Order of St. John of Jerusalem of Rhodos and of Malta, Knights of Malta, Knights of Rhodos and Chevaliers of Malta) is a Christian organization that began as an Amalfitan hospital founded in Jerusalem in 1080 to provide care for poor and sick pilgrims to the Holy Land. After the Christian conquest of Jerusalem in 1099 during the First Crusade, it became a religious/military order under its own charter, and was charged with the care and defense of the Holy Land. Following the loss of the Holy Land by Christan forces, the Order operated from Rhodos, over which it was sovereign, and later from Malta where it administered a vassal state under the Spanish viceroy of Sicily.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]Hospitaler骑士团（又称主权军事Hospitaler、罗多斯和马耳他耶路撒冷圣约翰骑士团、马耳他骑士团、罗多斯骑士团和马耳他骑士团）是一个基督教组织，始建于1080年的一家阿马尔菲坦医院，为前往圣地的贫穷和生病的朝圣者提供护理。1099年基督教在第一次十字军东征中征服耶路撒冷后，它根据自己的宪章成为了一个宗教/军事秩序，并负责照料和保卫圣地。在基督教军队失去圣地之后，该教团从其主权所在的罗陀斯开始运作，后来又从马耳他开始，在西西里岛西班牙总督的统治下管理一个附庸国。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_KNIGHTS_TEMPLAR</Tag>
+    <English>Knights Templar</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>圣殿骑士团</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_KNIGHTS_TEMPLAR_PEDIA</Tag>
+    <English>[TAB]The Poor Fellow-Soldiers of Christ and of the Temple of Solomon (Latin: Pauperes Commilitones Christi Templique Solomonice), commonly known as the Knights Templar or the Order of the Temple, were among the most famous of the Western Christian military orders. The organizaton existed for approximately two centuries in the Middle Ages. It was founded in the aftermath of the First Crusade of 1096 to ensure the safety of the many Europeans who made the pilgrimage to Jerusalem after its conquest.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>基督和所罗门圣殿（拉丁语：paupers Commilitones Christi Templique Solomonice）的可怜战友，俗称圣殿骑士团或圣殿骑士团，是西方基督教最著名的军事命令之一。这个组织在中世纪大约存在了两个世纪。它是在1096年第一次十字军东征后建立的，目的是确保许多在耶路撒冷被征服后前往耶路撒冷朝圣的欧洲人的安全。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TEUTONIC_KNIGHTS</Tag>
+    <English>Teutonic Knights</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>条顿骑士团</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TEUTONIC_KNIGHTS_PEDIA</Tag>
+    <English>[TAB]In 1143 Pope Celestine II ordered the Knight Hospitaller to take over management of a German Hospital in Jerusalem, which, according to the chronicler Jean d'Ypres, accommodated the countless German pilgrims and crusaders who could neither speak the local tongue (i.e. French) nor Latin (patrie linguam ignorantibus atque Latinam). However, although formally an institution of the Hospitallers, the Pope commanded that the prior and the brothers of the domus Teutonicorum (house of the Germans) should always be Germans themselves, so a tradition of a German-led religious institution could develop during the 12th century in Palestine.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[注]1143年，教皇塞莱斯廷二世下令骑士医院接管耶路撒冷一家德国医院的管理权，据编年史家让·德普雷斯（Jean d'Ypres）说，这家医院收容了数不清的德国朝圣者和十字军，他们既不会说当地语言（即法语），也不会说拉丁语（即拉丁语）。然而，尽管罗马教皇在形式上是一个收容机构，但他命令，德耳曼家族（domus Teutonicorum）的前辈和兄弟应该永远是德国人自己，因此，由德国领导的宗教机构的传统可以在12世纪的巴勒斯坦发展起来。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HANSEATIC_LEAGUE</Tag>
+    <English>Hanseatic League</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>汉萨同盟</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HANSEATIC_LEAGUE_PEDIA</Tag>
+    <English>[TAB]The Hanseatic League was an alliance of trading cities, which estabilshed a trade monopoly across both the Baltic and the North Seas, as well as riverside cities in Northern Europe. The alliance was involved, apart from trading, in and political issues. It was founded at Lubeck at the 12th century, and managed to expand at Eastern Europe. Actually, it played a crucial role in the germanization of this area, founding outposts such as Reval and Elbing. Its fall is placed at the 16th century, due to internal clashes, and rise of other trading powers, such as the Netherlands, Sweden and Denmark.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]汉萨同盟是一个贸易城市联盟，在波罗的海和北海以及北欧的沿河城市建立了贸易垄断。除了贸易、投资和政治问题外，联盟也参与其中。它于12世纪在吕贝克建立，并设法在东欧扩张。实际上，它在这一地区的日耳曼化过程中起到了至关重要的作用，建立了一些前哨基地，如Reval和Elbing。由于内部冲突以及荷兰、瑞典和丹麦等其他贸易大国的崛起，它的衰落被置于16世纪。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MEDICI_BANKS</Tag>
+    <English>Medici Banks</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>美第奇银行</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MEDICI_BANKS_PEDIA</Tag>
+    <English>[TAB]The Medici Bank was the largest and most highly reputated bank in Europe, spanning from 1397 to 1494. Its founders, the Medici family, was one of the richest families in Europe, and later they used their wealth to acquire political power in their homeland, Florence. They actually became a corporation after branches of the bank were spread in other Italian cities (Venice, Milano, Rome), as well as important trading centers outside Italy (London, Avignon, Brugge). The Medici managed to control the clothing production, apart from banking duties, thus managing to make extra profit. The reasons for the banks' decline include Lorenzo Medici's disconcern for the bank and the French invasion to Italy 1497.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]美第奇银行是欧洲最大、声誉最高的银行，从1397年到1494年。它的创始人梅迪奇家族是欧洲最富有的家族之一，后来他们用自己的财富在自己的祖国佛罗伦萨获得了政权。实际上，在该银行的分行遍布意大利其他城市（威尼斯、米兰、罗马）以及意大利以外的重要贸易中心（伦敦、阿维尼翁、布鲁格）之后，它们就成了一家公司。美第奇设法控制服装生产，除了银行的职责，从而设法赚取额外利润。这些银行衰落的原因包括洛伦佐·梅迪奇（Lorenzo Medici）对银行的不安，以及1497年法国入侵意大利。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_AUGSBURG_FAMILIES</Tag>
+    <English>Augsburg Families</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>哈布斯堡家族</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_AUGSBURG_FAMILIES_PEDIA</Tag>
+    <English>[TAB]At late Medieval/early Rennaisance years, the city of Augsburg became an important economic and trading center. Thus, the conditions for the creation of a mercantile patriciate were perfect. Prominent merchant families in this era, based in Augsburg, were the Fugger, the Hoechstetter and the Welser families. Activities of these families included trading and banking. In specific, the Hoechstretters built their wealth by controlling the iron ore deposits in the eastern provinces of the Holy Roman Empire (Silesia, Bohemia), the Welsers by exploiting the German colonization of the Americas and the Fuggers by involving in the political scene of Augsburg.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]中世纪晚期/人民初年，奥格斯堡市成为一个重要的经济和贸易中心。因此，建立一个商业贵族的条件是完美的。在这个时代，以奥格斯堡为基地的著名商人家族有福格尔家族、霍奇施泰特家族和韦尔瑟家族。这些家庭的活动包括贸易和银行业。具体来说，霍奇斯特雷特家族通过控制神圣罗马帝国（西里西亚、波希米亚）东部省份的铁矿床，利用德国对美洲的殖民统治和富格尔家族参与奥格斯堡的政治舞台来积累财富。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BANK_OF_ST_GEORGE</Tag>
+    <English>Bank of St. George</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>圣乔治银行</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BANK_OF_ST_GEORGE_PEDIA</Tag>
+    <English>[TAB]The Bank of St George was a financial institution of the Genoan Republic. It was founded at 1407 and was governed by four consuls. The Bank did not only have economic power, but was involved at the politics of Genoa as well, due to the merchants' role in running the Republic of Genoa. In fact, the Bank controlled many of the Genoans' overseas territories, including Corsica. It gained reputation in 15th an 16th centuries, when prominent European Leaders (including Isabella of Spain) had accounts there. Later, it antagonized the Dutch and English East India Companies in maritime trading. It was closed by Napoleon in 1805.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]圣乔治银行是热那亚共和国的一家金融机构。它建于1407年，由四位执政官统治。由于商人在经营热那亚共和国方面的作用，该银行不仅拥有经济实力，而且还参与了热那亚的政治活动。事实上，该银行控制了包括科西嘉在内的许多热那亚海外领土。它在15至16世纪获得了声誉，当时欧洲著名领导人（包括西班牙的伊莎贝拉）在那里有帐户。后来，它与荷兰和英国的东印度公司在海上贸易方面产生了对抗。1805年拿破仑关闭了它。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ORDER_OF_DRAGON</Tag>
+    <English>Order of the Dragon</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>龙骑士团</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ORDER_OF_DRAGON_PEDIA</Tag>
+    <English>[TAB]The Order of the Dragon (Latin: Societas Draconistarum, literally "Society of the Dragonists") was a monarchical chivalric order for selected nobility, founded in 1408 by the Hungarian King, Sigismund (Zsigmond I, reigned 1387-1437), who later also became Holy Roman Emperor (r. 1433-1437). It was fashioned after the military orders of the Crusades, requiring its initiates to defend the cross and fight the enemies of Christianity, in particular the Ottoman Empire.[PARAGRAPH:2]On the other hand it was in great extent based on the Order of St George (Hungarian: Szent Gy鰎gy Vit閦ei Lovagrend), which was the first secular chivalric order in the world and was established in 1326 by King Charles I of Hungary (K醨oly I, reigned 1308-1342), flourished during Charles' reign and achieved greater success under the reign of his son Louis I of Hungary (Nagy Lajos, reigned 1342-1382), but was mostly destroyed in the civil war and unstable political situation after the death of Louis.[PARAGRAPH:2]The Order of the Dragon is also secular, the original members were mostly Sigismund's political allies and supporters. Most of these members were referred to in the statutes as barons (barones, occasionally socii). As membership grew, the Order of the Dragon came to have two degrees. There was a superior class, which between 1408 and 1418 wore both the dragon and the cross as the Order's emblem and a more elaborate version afterwards. The second degree had a large number of members, and its symbol was only the dragon.[PARAGRAPH:2]The insignia was described in length in contemporary sources, including the edict of the Order itself in 1408: "the sign or effigy of the Dragon incurved into the form of a circle, its tail winding around its neck, divided through the middle of its back along its length from the top of its head right to the tip of its tail, with blood [forming] a red cross flowing out into the interior of the cleft by a white crack, untouched by blood, just as and in the same way that those who fight under the banner of the glorious martyr St George are accustomed to bear a red cross on a white field."[PARAGRAPH:2]The Order flourished during the first half of the 15th century, primarily in Hungary, Germany and Italy. After Sigismund's death in 1437, its importance declined in Western Europe, but after the Fall of Constantinople in 1453, it continued to play a role in Hungary, Serbia, Croatia and Wallachia which bore the brunt of the Ottoman incursions.[PARAGRAPH:2]Fun fact: the name Dracula origins from the Order of the Dragon![NEWLINE]Vlad III (also known as Vlad the Impaler) was a ruthless Voivode (prince) of Wallachia in the second half of the 15th century. Diplomatic reports and popular stories referred to him as Dracula, Dracuglia, or Drakula; he himself signed some of his letters as "Dragulya" or "Drakulya" in the late 1470s. This name had its origin in the Romanian sobriquet of his father, Vlad Dracul ("Vlad the Dragon"), who received it after he became a member of the Order of the Dragon! During the following centuries his bloody deeds and the Dracula name merged together, and the modern vampire figure Dracula was born.</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[表]龙骑士团（拉丁语：Societas Draconistarum，字面意思是“龙骑士团”）是一个君主骑士团，由匈牙利国王西吉斯蒙德（Sigimond I，1387-1437年在位）于1408年建立，后来也成为神圣的罗马皇帝（r.1433-1437）。它是在十字军东征的军事命令之后形成的，要求它的启蒙者保卫十字架，与基督教的敌人作战，特别是与奥斯曼帝国作战。[第2段]另一方面，它在很大程度上是以圣乔治（匈牙利语：Szent Gy鰎Gy Vit閦ei Lovagrend）的命令为基础的，这是世界上第一个世俗骑士秩序，由匈牙利国王查理一世（K醨oly I，统治于1308-1342年）于1326年建立，在查尔斯统治期间蓬勃发展，并在其儿子匈牙利路易一世（Nagy Lajos，统治于1342-1382年）统治下取得更大成功，但在内战和路易死后政局不稳的情况下大多被摧毁。[第2段]龙的秩序也是世俗的，最初的成员大多是西吉斯蒙德的政治盟友和支持者。这些成员中的大多数在法规中被称为男爵（男爵，偶尔是社会）。随着会员人数的增加，龙的等级达到了两级。在1408年到1418年间，有一个上等阶级同时佩戴着龙和十字架作为骑士团的徽章，后来又有了一个更为精致的版本。第二级有大量的成员，其象征只有龙。[第2段]徽章在现代资料中有详细描述，包括1408年的圣旨：“龙的标志或肖像呈圆形，尾巴缠绕在脖子上，从它的头上一直到尾巴尖，从它的背部中间分成两半，血液[形成]一个红十字会，由一条白色的裂缝流入裂缝的内部，没有受到血液的影响，就像那些在光荣的圣乔治烈士的旗帜下战斗的人们习惯于承受“白色田野上的红十字会。”[第2段]该组织在15世纪上半叶蓬勃发展，主要在匈牙利、德国和意大利。1437年西吉斯蒙德死后，它在西欧的重要性下降，但在1453年君士坦丁堡沦陷后，它继续在匈牙利、塞尔维亚、克罗地亚和瓦拉基亚发挥作用，这些国家在奥斯曼帝国入侵中首当其冲！[新语]弗拉德三世（又称穿刺者弗拉德）是15世纪后半叶瓦拉基亚的一位无情的伏瓦德王子。外交报告和通俗故事称他为德古拉、德拉库利亚或德拉库拉；他本人在14世纪70年代末的一些信件上署名为“德拉古利亚”或“德拉库利亚”。这个名字来源于他的父亲弗拉德·德拉库勒（弗拉德·德拉库勒）的罗马尼亚语索布里凯，他是在成为龙骑士团成员后收到的！在接下来的几个世纪里，他的血腥行为和德古拉的名字融合在一起，现代吸血鬼形象德古拉诞生了。</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ORDER_OF_CALATRAVA</Tag>
+    <English>Order of Calatrava</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>卡拉特拉瓦骑士修道会</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ORDER_OF_CALATRAVA_PEDIA</Tag>
+    <English>[TAB]The Order of Calatrava (Spanish: Orden de Calatrava Portuguese: Ordem de Calatrava) was the first military order founded in Castile. The papal bull confirming the Order of Calatrava as a Militia was given by Pope Alexander III on September 26, 1164.[PARAGRAPH:2]The etymology of the name of this military order, Calatrava, conveys the meaning: "fortress of Rabah". In the monastic Cistercian Order (formed only a couple years earlier), there had been a large number of knights or sons of knights. In Calatrava, on the contrary, those who had been monks became knights. Monastic life has been called "a warfare", and it would be a mistake to suppose those rough medieval warriors sought in the cloister only a comfortable asylum after a troubled career. In both lives there was an heroic struggle to sustain, whether against one's passions or against the Muslims, and the austerities of an ascetic life could not have been more dreadful to them than the privations of camp life and the wounds of battle.[PARAGRAPH:2]The Order of Calatrava was a very significant force in the battles with the Muslims in the early times of the Reconquista: Even the first military services of the Knights of Calatrava were highly successful, and in return for the exceptional services they had rendered they received from the King of Castile new grants of land, which formed their first commanderies. They had also been called into the neighbouring Kingdom of Aragon, and been rewarded by new encomiendas (landed estates). But these successes were followed by a series of misfortunes, due in the first instance to the unfortunate partition which Alfonso had made of his possessions, and the consequent rivalry which ensued between the Castilian and Leonese branches of his dynasty. At the same time the first successes of the Reconquista in the 12th century soon met up with a new wave of Islamic warriors, the invasion of the Almohads from Morocco.[PARAGRAPH:2]Nevertheless the Order of Calatrava remained one of the most powerful Military Orders during the Reconquista, taking part in many campaigns against the Cordobans and Moors of the Iberian peninsula. Most of the political and military power of the order dissipated by the end of the 15th century, but the last dissolution of the order's property did not occur until 1838.</English>
+     <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>卡拉特拉瓦教团（西班牙语：Orden de Calatrava葡萄牙语：Orden de Calatrava）是在卡斯蒂利亚建立的第一个军事教团。教皇亚历山大三世于1164年9月26日下令确认卡拉特拉瓦为民兵的教宗公牛。[第2段]这一军事命令的名称卡拉特拉瓦的词源传达了“拉巴堡垒”的意思。在修道院西多会秩序（成立仅几年前），有大量的骑士或骑士之子。相反，在卡拉特拉瓦，那些曾经是僧侣的人变成了骑士。僧侣的生活被称为“战争”，如果认为那些粗鲁的中世纪战士在经历了一段艰难的职业生涯后，只在修道院寻求一个舒适的避难所，那就大错特错了。在这两种生活中，无论是对抗自己的激情还是对抗穆斯林，都存在着一场英勇的斗争，苦行僧生活中的艰苦生活对他们来说，最可怕的莫过于营区生活的贫困和战争的创伤收复的早期：即使是卡拉特拉瓦骑士的第一次军事服役也非常成功，作为回报，他们从卡斯蒂利亚国王那里获得了新的土地，这是他们的第一个突击队。他们也被召入邻近的阿拉贡王国，并得到新的奖励（土地产业）。但是，这些成功之后又发生了一系列的不幸，首先是由于阿方索对自己的财产进行了不幸的分割，随后在其王朝的卡斯蒂利亚支系和里昂支系之间发生了竞争。同时，在12世纪的第一次收复成功很快遇到了新一波的伊斯兰战士，来自摩洛哥的阿尔摩哈德的入侵，参加了许多反对伊比利亚半岛科尔多瓦人和摩尔人的运动。骑士团的大部分政治和军事力量在15世纪末消失，但直到1838年，骑士团的最后一次财产解体才发生。</Chinese>
+    </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_HANSEATIC_LEAGUE_HELP</Tag>
+    <English>[ICON_BULLET]Can only spread to coastal and riverside towns[NEWLINE][ICON_BULLET]Cannot be built, functions in the city while the company is present</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]只能传播到沿海和沿江的城镇[[NEWLINE][ICON_BULLET]无法建造，在公司存在时在城市中发挥作用</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_COMPANY_HELP</Tag>
+    <English>[ICON_BULLET]Cannot be built, functions in the city while the company is present</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[ICON_BULLET]不可建造, 当公司传入城市时自动生效</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_CORPORATION_SPREAD</Tag>
+    <English>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] has expanded into %s2_CityName!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] 已经拓展到 %s2_CityName!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_CORPORATION_REMOVED</Tag>
+    <English>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] has left %s2_CityName!</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] 已经离开 %s2_CityName!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_EXECUTIVE_1</Tag>
+    <English>Hospitaller Master</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>医院骑士团长</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_EXECUTIVE_2</Tag>
+    <English>Templar Master</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>圣殿骑士团长</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_EXECUTIVE_3</Tag>
+    <English>Teutonic Master</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>条顿骑士团长</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_EXECUTIVE_4</Tag>
+    <English>Hanseatic Executive</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>汉萨同盟商队</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_EXECUTIVE_5</Tag>
+    <English>Medici Executive</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>美第奇经理</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_EXECUTIVE_6</Tag>
+    <English>Augsburg Executive</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>哈布斯堡外交使节</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_UNIT_EXECUTIVE_7</Tag>
+    <English>Bank of St. George Executive</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+     <Chinese>圣乔治银行经理</Chinese>
+  </TEXT>
+</Civ4GameText>

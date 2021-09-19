@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Civics -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_WE_LOVE_DESPOT</Tag>
+    <English>"We Love the Despot Day"</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>“我们热爱暴君日”</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_WE_LOVE_KING</Tag>
+    <English>"We Love the King Day"</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>“我们热爱国王日”</Chinese>
+  </TEXT>
+  <!-- Civic Category Government -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVICOPTION_GOVERNMENT</Tag>
+    <English>Government</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>统治类型</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DESPOTISM</Tag>
+    <English>Despotism</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>独裁统治</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DESPOTISM_PEDIA</Tag>
+    <English>[TAB]Despotism is a form of government characterized by a ruler who wields absolute power over his people. Despite the word's negative connotations, a leader doesn't necessarily have to be a corrupt, evil megalomaniac to be a despot; it is possible to be a benevolent despot, though history records few cases of such. [PARAGRAPH:2]The strength of this form of government is that the ruler can easily implement his decisions; he does not need to compromise, cajole, or bribe anyone to get the job done. The weakness of this form of government is that the ruler can implement bad decisions just as easily as good ones; with no checks and balances, how can he be stopped? Also, there is a lot of truth in the old saying, "Power corrupts; absolute power corrupts absolutely." And though as said before, despots don't need to be corrupt, evil megalomaniacs, many of them end up that way.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>[TAB]Despotism is a form of government characterized by a ruler who wields absolute power over his people. Despite the word's negative connotations, a leader doesn't necessarily have to be a corrupt, evil megalomaniac to be a despot; it is possible to be a benevolent despot, though history records few cases of such. [PARAGRAPH:2]The strength of this form of government is that the ruler can easily implement his decisions; he does not need to compromise, cajole, or bribe anyone to get the job done. The weakness of this form of government is that the ruler can implement bad decisions just as easily as good ones; with no checks and balances, how can he be stopped? Also, there is a lot of truth in the old saying, "Power corrupts; absolute power corrupts absolutely." And though as said before, despots don't need to be corrupt, evil megalomaniacs, many of them end up that way.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DESPOTISM_STRATEGY</Tag>
+    <English>The most primitive Government civic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>The most primitive Government civic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_MONARCHY</Tag>
+    <English>Feudal Monarchy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>封建君主</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_MONARCHY_PEDIA</Tag>
+    <English>[TAB]Feudal monarchy spread across Europe in the wake of Charlemagne's empire. Kings and lesser lords were bound to each other by agreements to provide mutual assistance. The monarch guaranteed his authority to the execution of government functions by his vassals; in exchange, they agreed to provide the soldiers for the king's military adventures.[PARAGRAPH:2]In practice, feudal monarchies were quite diverse in the amount of authority given to vassals. The Kingdom of England was strong, but the weak Kingdom of France could not exert its power over its nominal vassals, like the Duchy of Burgundy. As kings centralised government authority, the traditional feudal monarchy declined. The last feudal government in Europe was on the island of Sark, which became a democracy only in 2008.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Feudal monarchy spread across Europe in the wake of Charlemagne's empire. Kings and lesser lords were bound to each other by agreements to provide mutual assistance. The monarch guaranteed his authority to the execution of government functions by his vassals; in exchange, they agreed to provide the soldiers for the king's military adventures.[PARAGRAPH:2]In practice, feudal monarchies were quite diverse in the amount of authority given to vassals. The Kingdom of England was strong, but the weak Kingdom of France could not exert its power over its nominal vassals, like the Duchy of Burgundy. As kings centralised government authority, the traditional feudal monarchy declined. The last feudal government in Europe was on the island of Sark, which became a democracy only in 2008.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_MONARCHY_STRATEGY</Tag>
+    <English>Your first couple units don't have a maintenance cost and you get a minor happiness boost from barracks</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Your first couple units don't have a maintenance cost and you get a minor happiness boost from barracks</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_MONARCHY_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Feudal Law</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Feudal Law</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DIVINE_MONARCHY</Tag>
+    <English>Divine Monarchy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>神权君主</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DIVINE_MONARCHY_PEDIA</Tag>
+    <English>[TAB]The theory of divine monarchy, or the divine right of kings, holds that monarchs derive their legitimacy from the will of God, and that any limitation of the king's power is therefore against the will of God. This provided a justification for absolute monarchs of Western Europe to overrule other social groups, including the nobility and the church itself.[PARAGRAPH:2]The doctrine was popular among both Protestant and Catholic kings, and similar concepts existed elsewhere. The common thread was simply that they sought to govern without regard to the will of the established and often powerful elite classes.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The theory of divine monarchy, or the divine right of kings, holds that monarchs derive their legitimacy from the will of God, and that any limitation of the king's power is therefore against the will of God. This provided a justification for absolute monarchs of Western Europe to overrule other social groups, including the nobility and the church itself.[PARAGRAPH:2]The doctrine was popular among both Protestant and Catholic kings, and similar concepts existed elsewhere. The common thread was simply that they sought to govern without regard to the will of the established and often powerful elite classes.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DIVINE_MONARCHY_STRATEGY</Tag>
+    <English>Happiness from military units in cities; happiness from castle; improved espionage</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Happiness from military units in cities; happiness from castle; improved espionage</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DIVINE_MONARCHY_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Theocracy, State Religion, Organized Religion, Religious Law[NEWLINE][ICON_BULLET]Unstable with Paganism, Religious Tolerance</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Theocracy, State Religion, Organized Religion, Religious Law[NEWLINE][ICON_BULLET]Unstable with Paganism, Religious Tolerance</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_LIMITED_MONARCHY</Tag>
+    <English>Constitutional Mon.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>君主立宪.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_LIMITED_MONARCHY_PEDIA</Tag>
+    <English>[TAB]A constitutional monarchy is a form of government in which a king or queen reigns with limits to their power along with a governing body (i.e. Parliament), giving rise to the modern adage "the Queen reigns but does not rule". In constitutional monarchies the position of monarch may be hereditary, hence the need for a royal family, or elected.[PARAGRAPH:2]The English monarchy is considered the oldest of modern constitutional monarchies, and the model for this form of government in the English-speaking world. A constitutional monarchy was able to form in England across different periods of history for a complex combination of reasons: sometimes due to a lack of strong leadership, and at other times due to strong leaders short of funding, who needed to raise money to prosecute wars, and needed to address public grievances to ensure this money was forthcoming.[PARAGRAPH:2]Historically, the English were divided on the question of the origins and justification for monarchy, but the Continental and Scottish belief in the "Divine Right of Kings" gradually gave ground to modern social-contract philosophy. The Magna Carta in 1215 is considered the first codification of the monarchy as a contract among territorial chiefs.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A constitutional monarchy is a form of government in which a king or queen reigns with limits to their power along with a governing body (i.e. Parliament), giving rise to the modern adage "the Queen reigns but does not rule". In constitutional monarchies the position of monarch may be hereditary, hence the need for a royal family, or elected.[PARAGRAPH:2]The English monarchy is considered the oldest of modern constitutional monarchies, and the model for this form of government in the English-speaking world. A constitutional monarchy was able to form in England across different periods of history for a complex combination of reasons: sometimes due to a lack of strong leadership, and at other times due to strong leaders short of funding, who needed to raise money to prosecute wars, and needed to address public grievances to ensure this money was forthcoming.[PARAGRAPH:2]Historically, the English were divided on the question of the origins and justification for monarchy, but the Continental and Scottish belief in the "Divine Right of Kings" gradually gave ground to modern social-contract philosophy. The Magna Carta in 1215 is considered the first codification of the monarchy as a contract among territorial chiefs.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_LIMITED_MONARCHY_STRATEGY</Tag>
+    <English>Can use gold to rush production; +1[ICON_PRODUCTION] from towns</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Can use gold to rush production; +1[ICON_PRODUCTION] from towns</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_LIMITED_MONARCHY_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Common Law, Free Peasantry, Free Labor</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Common Law, Free Peasantry, Free Labor</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCHANT_REPUBLIC</Tag>
+    <English>Merchant Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>商业共和</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCHANT_REPUBLIC_PEDIA</Tag>
+    <English>[TAB]When the merchant class became powerful enough to influence public opinion by their actions, they sought to ensure the government would rule according to their interests. The landed aristocracy lost out as commercial goals often came into conflict with the desires of traditional domestic agriculture.[PARAGRAPH:2]Although this strife played itself out in many European states, it was in the republics of Venice and Genoa that mercantile oligarchies took power. Ruling councils ended feudal influence over taxation and spending. These states thrived on trade, but could not sustain the war economy common in medieval Europe without great cost to the interests of the government.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]When the merchant class became powerful enough to influence public opinion by their actions, they sought to ensure the government would rule according to their interests. The landed aristocracy lost out as commercial goals often came into conflict with the desires of traditional domestic agriculture.[PARAGRAPH:2]Although this strife played itself out in many European states, it was in the republics of Venice and Genoa that mercantile oligarchies took power. Ruling councils ended feudal influence over taxation and spending. These states thrived on trade, but could not sustain the war economy common in medieval Europe without great cost to the interests of the government.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCHANT_REPUBLIC_STRATEGY</Tag>
+    <English>This government form is good for small, peaceful nations, bad for big empires and for war</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>This government form is good for small, peaceful nations, bad for big empires and for war</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCHANT_REPUBLIC_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Common Law, Free Peasantry, Free Labor, Trade Economy[NEWLINE][ICON_BULLET]Stable when controlling less than 5 cities[NEWLINE][ICON_BULLET]Unstable with Feudal Law, Imperialism[NEWLINE][ICON_BULLET]Unstable when controlling more than 5 cities</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Common Law, Free Peasantry, Free Labor, Trade Economy[NEWLINE][ICON_BULLET]Stable when controlling less than 5 cities[NEWLINE][ICON_BULLET]Unstable with Feudal Law, Imperialism[NEWLINE][ICON_BULLET]Unstable when controlling more than 5 cities</Chinese>
+  </TEXT>
+  <!-- Civic Category Government -->
+  <!-- Civic Category Legal -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVICOPTION_LEGAL</Tag>
+    <English>Legal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法律类型</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRIBAL_LAW</Tag>
+    <English>Tribal Law</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>部族法典</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRIBAL_LAW_PEDIA</Tag>
+    <English>[TAB]After the fall of Rome, Europe reverted to local rule by local rulers. Codes of laws were applied arbitrarily where they even existed. The ordinary person had no conception of rights, and no entitlement to such rights, even in theory.[PARAGRAPH:2]The philosopher Thomas Hobbes wrote that human life without government is a "war of all against all"; much the same can be said for arbitrary government. Society cannot enact higher concepts such as justice and fairness. And without property rights, individuals have no interest in making long-term investments whose payoff they will never enjoy.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]After the fall of Rome, Europe reverted to local rule by local rulers. Codes of laws were applied arbitrarily where they even existed. The ordinary person had no conception of rights, and no entitlement to such rights, even in theory.[PARAGRAPH:2]The philosopher Thomas Hobbes wrote that human life without government is a "war of all against all"; much the same can be said for arbitrary government. Society cannot enact higher concepts such as justice and fairness. And without property rights, individuals have no interest in making long-term investments whose payoff they will never enjoy.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRIBAL_LAW_STRATEGY</Tag>
+    <English>The most primitive Legal civic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>The most primitive Legal civic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_LAW</Tag>
+    <English>Feudal Law</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>封建法典</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_LAW_PEDIA</Tag>
+    <English>[TAB]Feudal law is the framework within which most medieval European societies operated. Under feudalism, the individual's position in society depended on his family and his family's land, and these would stay the same from generation to generation.[PARAGRAPH:2]Each man, from peasant to king, owes certain basic duties to those above and below him in the chain. The vassal must swear fealty to his lord, and the lord must protect his vassal from others. Government power of every sort is highly decentralised. Though far from a system of equal rights under one law, feudalism did create a balance of power among the classes in which Europe operated until the rise of free cities and merchants in the High Middle Ages.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Feudal law is the framework within which most medieval European societies operated. Under feudalism, the individual's position in society depended on his family and his family's land, and these would stay the same from generation to generation.[PARAGRAPH:2]Each man, from peasant to king, owes certain basic duties to those above and below him in the chain. The vassal must swear fealty to his lord, and the lord must protect his vassal from others. Government power of every sort is highly decentralised. Though far from a system of equal rights under one law, feudalism did create a balance of power among the classes in which Europe operated until the rise of free cities and merchants in the High Middle Ages.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_LAW_STRATEGY</Tag>
+    <English>Bonus for unit production, and reduced maintenance for city distance</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Bonus for unit production, and reduced maintenance for city distance</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FEUDAL_LAW_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Feudal Monarchy, Serfdom, Manorialism, Vassalage[NEWLINE][ICON_BULLET]Unstable with Merchant Republic, Free Peasantry</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Feudal Monarchy, Serfdom, Manorialism, Vassalage[NEWLINE][ICON_BULLET]Unstable with Merchant Republic, Free Peasantry</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUREAUCRACY</Tag>
+    <English>Bureaucracy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>官僚制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUREAUCRACY_PEDIA</Tag>
+    <English>[TAB]Bureaucracy is a form of government in which a professional class manages the day to day operations of the government. They collect the taxes. They build the roads. They turn the ruler's wishes into actuality. The Chinese mandarins are an early example of a bureaucracy; the motor vehicle agency of your local government is a later example. [PARAGRAPH:2]Bureaucracies provide a certain amount of stability and competence to a government, ensuring that the government will continue to operate efficiently even if the old ruler is thrown out and a new and totally inexperienced ruler takes his or her place. Over time, though, a bureaucracy may become "entrenched" - growing in size and inefficiency to the point where it is extremely difficult for a leader to accomplish anything - good or ill.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Bureaucracy is a form of government in which a professional class manages the day to day operations of the government. They collect the taxes. They build the roads. They turn the ruler's wishes into actuality. The Chinese mandarins are an early example of a bureaucracy; the motor vehicle agency of your local government is a later example. [PARAGRAPH:2]Bureaucracies provide a certain amount of stability and competence to a government, ensuring that the government will continue to operate efficiently even if the old ruler is thrown out and a new and totally inexperienced ruler takes his or her place. Over time, though, a bureaucracy may become "entrenched" - growing in size and inefficiency to the point where it is extremely difficult for a leader to accomplish anything - good or ill.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUREAUCRACY_STRATEGY</Tag>
+    <English>Increases production and commerce in your capital city</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Increases production and commerce in your capital city</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUREAUCRACY_HELP</Tag>
+    <English>[ICON_BULLET]Stable when controlling less than 6 cities[NEWLINE][ICON_BULLET]Unstable when controlling more than 6 cities</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable when controlling less than 6 cities[NEWLINE][ICON_BULLET]Unstable when controlling more than 6 cities</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_RELIGIOUS_LAW</Tag>
+    <English>Religious Law</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>教法体制</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_RELIGIOUS_LAW_PEDIA</Tag>
+    <English>[TAB]Many organised religions have extensive codes or bodies of law to govern their internal affairs. In some societies, these legal systems are accepted as the principles which will govern the nation as a whole. A legal system in which religious principles determine secular law tends to mean an intermingling of the affairs of church and state.[PARAGRAPH:2]Canon law exists in those Christian churches with a centralised hierarchy, like Catholicism and Anglicanism. Though not widespread in Christendom, it did apply in religious communities instead of secular laws. The Islamic jurisprudence, or fiqh, has produced a body of work that lasts continuously from the time just after the Qur'an to the present day.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Many organised religions have extensive codes or bodies of law to govern their internal affairs. In some societies, these legal systems are accepted as the principles which will govern the nation as a whole. A legal system in which religious principles determine secular law tends to mean an intermingling of the affairs of church and state.[PARAGRAPH:2]Canon law exists in those Christian churches with a centralised hierarchy, like Catholicism and Anglicanism. Though not widespread in Christendom, it did apply in religious communities instead of secular laws. The Islamic jurisprudence, or fiqh, has produced a body of work that lasts continuously from the time just after the Qur'an to the present day.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_RELIGIOUS_LAW_STRATEGY</Tag>
+    <English>Can train missionaries without monastery; unhappiness with non-state religions; reduced war weariness</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Can train missionaries without monastery; unhappiness with non-state religions; reduced war weariness</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_RELIGIOUS_LAW_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Divine Monarchy, Theocracy[NEWLINE][ICON_BULLET]Unstable with Paganism, Religious Tolerance</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Divine Monarchy, Theocracy[NEWLINE][ICON_BULLET]Unstable with Paganism, Religious Tolerance</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COMMON_LAW</Tag>
+    <English>Common Law</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>普通法系</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COMMON_LAW_PEDIA</Tag>
+    <English>[TAB]Common law was developed by the English judiciary following the Norman conquest of 1066. Judges themselves were given great scope to develop the law beyond that set out by the legislature or executive. The term "common law" itself refers to legal precedent, the body of past decisions which are binding upon future cases.[PARAGRAPH:2]Common law allowed for reliable outcomes from the legal system even without a formal code of laws. This was of great use in early commercial economies, and the qualities of the system are shown in its resilience. To this day, in many countries which were once part of the British Empire, case law precedent (not parliamentary legislation) is the basis for the laws of contract and liability.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Common law was developed by the English judiciary following the Norman conquest of 1066. Judges themselves were given great scope to develop the law beyond that set out by the legislature or executive. The term "common law" itself refers to legal precedent, the body of past decisions which are binding upon future cases.[PARAGRAPH:2]Common law allowed for reliable outcomes from the legal system even without a formal code of laws. This was of great use in early commercial economies, and the qualities of the system are shown in its resilience. To this day, in many countries which were once part of the British Empire, case law precedent (not parliamentary legislation) is the basis for the laws of contract and liability.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COMMON_LAW_STRATEGY</Tag>
+    <English>Huge culture bonuses, penalty for players without Common Law</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Huge culture bonuses, penalty for players without Common Law</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COMMON_LAW_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Constitutional Monarchy, Merchant Republic, Free Labor[NEWLINE][ICON_BULLET]Unstable with Serfdom, Theocracy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Constitutional Monarchy, Merchant Republic, Free Labor[NEWLINE][ICON_BULLET]Unstable with Serfdom, Theocracy</Chinese>
+  </TEXT>
+  <!-- Civic Category Legal -->
+  <!-- Civic Category Labor -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVICOPTION_LABOR</Tag>
+    <English>Labor</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>劳工制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRIBALISM</Tag>
+    <English>Tribalism</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>部落分工</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRIBALISM_PEDIA</Tag>
+    <English>[TAB]Tribalism is a form of organization which emphasizes the tribe as the sole unit of importance. Individuals have no rights; each man, woman and child exists only to support the tribe. Tribalism is a fairly useful form of government for a small group of people who exist on the edge of catastrophe. In a tribe everyone knows everybody else; who is strong and who is weak, who is intelligent and who is not, who is skilled and who is unskilled. [PARAGRAPH:2]Leadership in the tribe is usually determined by merit, according to the tribe's needs: if the tribe is hungry, the best hunter becomes the leader. If the tribe is surrounded by enemies, the best warrior is chosen. And so forth. A tribe must quickly learn how to pick successful leaders; otherwise it will perish. [PARAGRAPH:2]Tribalism tends to break down when the tribe becomes overly large. People no longer know everyone in their tribe. Groups (or factions) appear, and everyone no longer share the same objectives. The tribe must find a more sophisticated system of government or fracture into smaller squabbling units.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>[TAB]Tribalism is a form of organization which emphasizes the tribe as the sole unit of importance. Individuals have no rights; each man, woman and child exists only to support the tribe. Tribalism is a fairly useful form of government for a small group of people who exist on the edge of catastrophe. In a tribe everyone knows everybody else; who is strong and who is weak, who is intelligent and who is not, who is skilled and who is unskilled. [PARAGRAPH:2]Leadership in the tribe is usually determined by merit, according to the tribe's needs: if the tribe is hungry, the best hunter becomes the leader. If the tribe is surrounded by enemies, the best warrior is chosen. And so forth. A tribe must quickly learn how to pick successful leaders; otherwise it will perish. [PARAGRAPH:2]Tribalism tends to break down when the tribe becomes overly large. People no longer know everyone in their tribe. Groups (or factions) appear, and everyone no longer share the same objectives. The tribe must find a more sophisticated system of government or fracture into smaller squabbling units.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRIBALISM_STRATEGY</Tag>
+    <English>The most primitive Labor civic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>The most primitive Labor civic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SERFDOM</Tag>
+    <English>Serfdom</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>农奴制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SERFDOM_PEDIA</Tag>
+    <English>[TAB]Serfdom is a more "enlightened" form of slavery in that the power of the master is not absolute and the serfs are accorded a certain number of rights. The specific rights and obligations of masters and serfs vary significantly over time and from place to place. In some societies, the master had the right to control every aspect of a serf's life except that he couldn't kill the serf without just cause; in others, the serfs had the rights to marry and to inherit wealth and to a certain amount of self-government, but they could not leave the land without their lord's permission. [PARAGRAPH:2]The basic premise of serfdom is that one group of people are superior to another, and that they have the political and god-given right to control the other group's destiny. Thus serfdom only makes sense if one agrees with the group currently in power about who is superior to whom. </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Serfdom is a more "enlightened" form of slavery in that the power of the master is not absolute and the serfs are accorded a certain number of rights. The specific rights and obligations of masters and serfs vary significantly over time and from place to place. In some societies, the master had the right to control every aspect of a serf's life except that he couldn't kill the serf without just cause; in others, the serfs had the rights to marry and to inherit wealth and to a certain amount of self-government, but they could not leave the land without their lord's permission. [PARAGRAPH:2]The basic premise of serfdom is that one group of people are superior to another, and that they have the political and god-given right to control the other group's destiny. Thus serfdom only makes sense if one agrees with the group currently in power about who is superior to whom. </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SERFDOM_STRATEGY</Tag>
+    <English>+1 [ICON_PRODUCTION] from farms, slower growth for cottages and great people</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>+1 [ICON_PRODUCTION] from farms, slower growth for cottages and great people</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SERFDOM_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Feudal Law, Manorialism[NEWLINE][ICON_BULLET]Unstable with Common Law</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Feudal Law, Manorialism[NEWLINE][ICON_BULLET]Unstable with Common Law</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_PEASANTRY</Tag>
+    <English>Free Peasantry</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>自由农户</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_PEASANTRY_PEDIA</Tag>
+    <English>[TAB]Even when feudalism prevailed throughout Europe, there were subtle differences among the national systems. In countries like England, many or all peasants enjoyed great freedoms compared to their villein or serf counterparts. Certain taxes paid by the serfs were waived for the free peasants.[PARAGRAPH:2]Instead of owing labour services or the output of land, the free peasant paid a fixed rent to his lord. This allowed much greater freedom of action, for instance, in choosing which crops to grow or in alienating the land from his family. The existence of a free peasantry created social mobility which did not exist in other societies.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Even when feudalism prevailed throughout Europe, there were subtle differences among the national systems. In countries like England, many or all peasants enjoyed great freedoms compared to their villein or serf counterparts. Certain taxes paid by the serfs were waived for the free peasants.[PARAGRAPH:2]Instead of owing labour services or the output of land, the free peasant paid a fixed rent to his lord. This allowed much greater freedom of action, for instance, in choosing which crops to grow or in alienating the land from his family. The existence of a free peasantry created social mobility which did not exist in other societies.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_PEASANTRY_STRATEGY</Tag>
+    <English>+100% growth to cottages, hamlets, and villages; workers complete improvements faster</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>+100% growth to cottages, hamlets, and villages; workers complete improvements faster</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_PEASANTRY_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Constitutional Monarchy, Merchant Republic[NEWLINE][ICON_BULLET]Unstable with Feudal Law</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Constitutional Monarchy, Merchant Republic[NEWLINE][ICON_BULLET]Unstable with Feudal Law</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_APPRENTICESHIP</Tag>
+    <English>Apprenticeship</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>学徒制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_APPRENTICESHIP_PEDIA</Tag>
+    <English>[TAB]The guild system which developed in the late Middle Ages involved strict controls on employment in trades, so that the guild would enjoy monopoly market power. The apprenticeship system allowed control of numbers by requiring that a trainee craftsman associate himself with a "master" (the owner of a workshop) during and after his training, which could last for between five and ten years.[PARAGRAPH:2]Traders were prevented by law from working in a trade if they had not completed an apprenticeship. By requiring a master, commitment and cheap labour, the system successfully limited participation in industry, and delayed Europe's change from the traditional agricultural economy.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The guild system which developed in the late Middle Ages involved strict controls on employment in trades, so that the guild would enjoy monopoly market power. The apprenticeship system allowed control of numbers by requiring that a trainee craftsman associate himself with a "master" (the owner of a workshop) during and after his training, which could last for between five and ten years.[PARAGRAPH:2]Traders were prevented by law from working in a trade if they had not completed an apprenticeship. By requiring a master, commitment and cheap labour, the system successfully limited participation in industry, and delayed Europe's change from the traditional agricultural economy.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_APPRENTICESHIP_STRATEGY</Tag>
+    <English>Unlimited artists, scholars, and merchants; workshops, windmills and watermills give extra production</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Unlimited artists, scholars, and merchants; workshops, windmills and watermills give extra production</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_APPRENTICESHIP_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Guilds</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Guilds</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_LABOR</Tag>
+    <English>Free Labor</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>自由劳工</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_LABOR_PEDIA</Tag>
+    <English>[TAB]Free labor is a system in which people do not owe a statutory duty to their employer to provide work. Work, pay, terms and conditions are determined by agreement or contract. Free labor excludes slavery, serfdom and other systems in which workers cannot end their employment.[PARAGRAPH:2]When workers can choose what they want to do every day, they can enjoy better wages and a better quality of life. Society as a whole is better-off when workers and employers match up freely rather than under coercion or by tradition. In modern Western societies, only military conscription survives as a legacy of the days of unfree labor.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Free labor is a system in which people do not owe a statutory duty to their employer to provide work. Work, pay, terms and conditions are determined by agreement or contract. Free labor excludes slavery, serfdom and other systems in which workers cannot end their employment.[PARAGRAPH:2]When workers can choose what they want to do every day, they can enjoy better wages and a better quality of life. Society as a whole is better-off when workers and employers match up freely rather than under coercion or by tradition. In modern Western societies, only military conscription survives as a legacy of the days of unfree labor.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_LABOR_STRATEGY</Tag>
+    <English>+2 free specialists in your cities</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>+2 free specialists in your cities</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_LABOR_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Constitutional Monarchy, Merchant Republic, Common Law</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Constitutional Monarchy, Merchant Republic, Common Law</Chinese>
+  </TEXT>
+  <!-- Civic Category Labor -->
+  <!-- Civic Category Economy -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVICOPTION_ECONOMY</Tag>
+    <English>Economy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>经济制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DECENTRALIZATION</Tag>
+    <English>Decentralization</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>分散经济</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DECENTRALIZATION_PEDIA</Tag>
+    <English>[TAB]Decentralization describes an economy in which the central government doesn't attempt to manage every aspect of a nation's production. The government doesn't set quotas, doesn't determine exactly what the nation's farms, factories, theatres and schools will output. Each farmer determines what his or her farm will produce; each factory owner decides what to build, whether to modernize or not, and so forth. [PARAGRAPH:2]This kind of a totally freewheeling economy may seriously increase a nation's productivity. However, it may also lead to disaster - if all of the farmers decide to produce cotton then the nation's people will be very hungry - well-dressed, perhaps, but still very hungry. </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>[TAB]Decentralization describes an economy in which the central government doesn't attempt to manage every aspect of a nation's production. The government doesn't set quotas, doesn't determine exactly what the nation's farms, factories, theatres and schools will output. Each farmer determines what his or her farm will produce; each factory owner decides what to build, whether to modernize or not, and so forth. [PARAGRAPH:2]This kind of a totally freewheeling economy may seriously increase a nation's productivity. However, it may also lead to disaster - if all of the farmers decide to produce cotton then the nation's people will be very hungry - well-dressed, perhaps, but still very hungry. </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_DECENTRALIZATION_STRATEGY</Tag>
+    <English>The most primitive Economy civic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>The most primitive Economy civic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MANORIALISM</Tag>
+    <English>Manorialism</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>庄园制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MANORIALISM_PEDIA</Tag>
+    <English>[TAB]Manorialism is the organization of rural economy and society in medieval western and parts of central Europe, characterised by the vesting of legal and economic power in a lord supported economically from his own direct landholding and from the obligatory contributions of a legally subject part of the peasant population under his jurisdiction. These obligations could be payable in labour, produce ("in kind") or rarely money.[PARAGRAPH:2]The word derives from traditional inherited divisions of the countryside reassigned as local jurisdictions known as manors; each manor being subject to a lord, usually holding his position in return for undertakings offered to a higher lord. The lord held a manor court governed by public law and local custom. Not all territorial seigneurs were secular: bishops and abbots held lands that entailed similar obligations.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Manorialism is the organization of rural economy and society in medieval western and parts of central Europe, characterised by the vesting of legal and economic power in a lord supported economically from his own direct landholding and from the obligatory contributions of a legally subject part of the peasant population under his jurisdiction. These obligations could be payable in labour, produce ("in kind") or rarely money.[PARAGRAPH:2]The word derives from traditional inherited divisions of the countryside reassigned as local jurisdictions known as manors; each manor being subject to a lord, usually holding his position in return for undertakings offered to a higher lord. The lord held a manor court governed by public law and local custom. Not all territorial seigneurs were secular: bishops and abbots held lands that entailed similar obligations.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MANORIALISM_STRATEGY</Tag>
+    <English>-1 trade route in your cities, gold from farms, small income from manor houses</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>-1 trade route in your cities, gold from farms, small income from manor houses</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MANORIALISM_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Feudal Law, Serfdom</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Feudal Law, Serfdom</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRADE_ECONOMY</Tag>
+    <English>Trade Economy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>贸易经济</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRADE_ECONOMY_PEDIA</Tag>
+    <English>[TAB]The diversity of natural environments in Europe led to strong medieval trade. Western and southern cities demanded the raw materials of the Baltic region, in order to furnish their own customers with refined goods. Some European cities became specialised centres of this trade.[PARAGRAPH:2]A merchant marine fleet could circumvent the multitude of laws, customs and tolls that frustrated trade by land. Trading cities formed military alliances and lobbied other cities to reduce tolls. The Hanseatic League is an example of an international trade federation that wielded significant power.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The diversity of natural environments in Europe led to strong medieval trade. Western and southern cities demanded the raw materials of the Baltic region, in order to furnish their own customers with refined goods. Some European cities became specialised centres of this trade.[PARAGRAPH:2]A merchant marine fleet could circumvent the multitude of laws, customs and tolls that frustrated trade by land. Trading cities formed military alliances and lobbied other cities to reduce tolls. The Hanseatic League is an example of an international trade federation that wielded significant power.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRADE_ECONOMY_STRATEGY</Tag>
+    <English>An additional trade route in all your cities</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>An additional trade route in all your cities</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_TRADE_ECONOMY_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Merchant Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Merchant Republic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_GUILDS</Tag>
+    <English>Guilds</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>行会制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_GUILDS_PEDIA</Tag>
+    <English>[TAB]A guild is an association of people who practice the same trade. The guilds seek to protect their members' incomes, maintain standards of performance, and train new workers in the trade. Guilds have often built hospitals, orphanages and schools to serve their members. Guilds seek to expand their membership to include all who practice their profession. Such monopolies allow guilds greater control over the fees their members can charge for their services. [PARAGRAPH:2]Many of the earliest guilds - Roman professional organizations, for instance - had strong religious components. One of the earliest known Muslim guilds were formed by the "warraqeen," or "those who work with knowledge." In the ninth century these professional writers and printers worked together to ensure the quality of published material and to stop other printers from making illegal copies of the material. [PARAGRAPH:2]The European guilds came into being around 1000 AD. They included a rigid hierarchy of skilled workers - apprentice, craftsman, journeyman, master and sometimes grandmaster. The higher in the hierarchy a member was, the more the payment he could demand. This structure greatly increased the guilds' memberships, since one could not attain the higher statuses without belonging to a guild.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A guild is an association of people who practice the same trade. The guilds seek to protect their members' incomes, maintain standards of performance, and train new workers in the trade. Guilds have often built hospitals, orphanages and schools to serve their members. Guilds seek to expand their membership to include all who practice their profession. Such monopolies allow guilds greater control over the fees their members can charge for their services. [PARAGRAPH:2]Many of the earliest guilds - Roman professional organizations, for instance - had strong religious components. One of the earliest known Muslim guilds were formed by the "warraqeen," or "those who work with knowledge." In the ninth century these professional writers and printers worked together to ensure the quality of published material and to stop other printers from making illegal copies of the material. [PARAGRAPH:2]The European guilds came into being around 1000 AD. They included a rigid hierarchy of skilled workers - apprentice, craftsman, journeyman, master and sometimes grandmaster. The higher in the hierarchy a member was, the more the payment he could demand. This structure greatly increased the guilds' memberships, since one could not attain the higher statuses without belonging to a guild.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_GUILDS_STRATEGY</Tag>
+    <English>All your specialists contribute more to your scientific advancement</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>All your specialists contribute more to your scientific advancement</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_GUILDS_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Apprenticeship</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Apprenticeship</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCANTILISM</Tag>
+    <English>Mercantilism</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>重商主义</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCANTILISM_PEDIA</Tag>
+    <English>[TAB]Mercantilism refers to government policy that strictly manages the nation's production. The government determines which farmers produce which crops, decides who will be allowed to sew pants and who will have a monopoly on shirts, and so on. The nation may ban all foreign imports. [PARAGRAPH:2]The advantages of mercantilism are that it ensures that a nation's wealth remains within the nation itself, and that its people are not put out of business by cheap foreign imports. On the other hand, the success or the failure of the entire economy is in the hands of just a few men or even one, and if they make foolish or unlucky decisions, the nation as a whole suffers. Further, the ban on foreign imports limits the nation's exposure to new products and new ideas. And if someone has a monopoly on an item, there is little pressure for that person to improve the item or make it cheaper.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>[TAB]Mercantilism refers to government policy that strictly manages the nation's production. The government determines which farmers produce which crops, decides who will be allowed to sew pants and who will have a monopoly on shirts, and so on. The nation may ban all foreign imports. [PARAGRAPH:2]The advantages of mercantilism are that it ensures that a nation's wealth remains within the nation itself, and that its people are not put out of business by cheap foreign imports. On the other hand, the success or the failure of the entire economy is in the hands of just a few men or even one, and if they make foolish or unlucky decisions, the nation as a whole suffers. Further, the ban on foreign imports limits the nation's exposure to new products and new ideas. And if someone has a monopoly on an item, there is little pressure for that person to improve the item or make it cheaper.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCANTILISM_STRATEGY</Tag>
+    <English>With disallowing foreign trade and corporations, your local markets and towns can thrive. Mercantilism can be very strong when your relations are not good enough with your neighbours.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>With disallowing foreign trade and corporations, your local markets and towns can thrive. Mercantilism can be very strong when your relations are not good enough with your neighbours.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_MERCANTILISM_HELP</Tag>
+    <English>[ICON_BULLET]Companies have less chance to spread</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Companies have less chance to spread</Chinese>
+  </TEXT>
+  <!-- Civic Category Economy -->
+  <!-- Civic Category Religion -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVICOPTION_RELIGION</Tag>
+    <English>Religion</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>宗教制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_PAGANISM</Tag>
+    <English>Paganism</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>多神信仰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_PAGANISM_PEDIA</Tag>
+    <English>[TAB]"Paganism" describes religions that believe in the holiness of all things around them - rocks, trees, animals, clouds and so forth - rather than in specific concepts or beings. Pagans believe in multitudes of gods, that the gods are all around them, causing the sunset, the rising of bread, and the success of the hunt. [PARAGRAPH:2]A pagan seeks to remain in harmony with the natural world around him or her. The pagan doesn't look to appease a distant deity or hierarchy of deities who control his or her destiny. To a pagan, the gods are all around him or her, in plain sight every day. </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>[TAB]"Paganism" describes religions that believe in the holiness of all things around them - rocks, trees, animals, clouds and so forth - rather than in specific concepts or beings. Pagans believe in multitudes of gods, that the gods are all around them, causing the sunset, the rising of bread, and the success of the hunt. [PARAGRAPH:2]A pagan seeks to remain in harmony with the natural world around him or her. The pagan doesn't look to appease a distant deity or hierarchy of deities who control his or her destiny. To a pagan, the gods are all around him or her, in plain sight every day. </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_PAGANISM_STRATEGY</Tag>
+    <English>You cannot have a state religion under Paganism, but you get a happiness bonus for Pagan Shrines</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>You cannot have a state religion under Paganism, but you get a happiness bonus for Pagan Shrines</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_PAGANISM_HELP</Tag>
+    <English>[ICON_BULLET]Unstable with Divine Monarchy, Religious Law[NEWLINE][ICON_BULLET]Enables [LINK=literal]Pagan Shrine[\LINK], [LINK=literal]The Shrine of Uppsala[\LINK]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Unstable with Divine Monarchy, Religious Law[NEWLINE][ICON_BULLET]Enables [LINK=literal]Pagan Shrine[\LINK], [LINK=literal]The Shrine of Uppsala[\LINK]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_STATE_RELIGION</Tag>
+    <English>State Religion</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>国家宗教</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_STATE_RELIGION_PEDIA</Tag>
+    <English>[TAB]Most medieval states practiced some form of state religion. Though a state may have been ruled by a king rather than a cleric, it was clear that the authority of the monarch derived from God. To deviate from the state religion was at best a faux pas, at worst a crime punishable by death.[PARAGRAPH:2]Christian Kings were crowned and anointed in a ceremony similar to the investiture of clergy with holy orders. Those same clergy sat in the medieval European parliaments and enjoyed the same official position as the highest ranks of nobility. In the early Islamic world, religious gatherings performed many functions of government.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Most medieval states practiced some form of state religion. Though a state may have been ruled by a king rather than a cleric, it was clear that the authority of the monarch derived from God. To deviate from the state religion was at best a faux pas, at worst a crime punishable by death.[PARAGRAPH:2]Christian Kings were crowned and anointed in a ceremony similar to the investiture of clergy with holy orders. Those same clergy sat in the medieval European parliaments and enjoyed the same official position as the highest ranks of nobility. In the early Islamic world, religious gatherings performed many functions of government.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_STATE_RELIGION_STRATEGY</Tag>
+    <English>Improved production for buildings in cities where your state religion is present</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Improved production for buildings in cities where your state religion is present</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_STATE_RELIGION_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Divine Monarchy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Divine Monarchy</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_THEOCRACY</Tag>
+    <English>Theocracy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>神权政治</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_THEOCRACY_PEDIA</Tag>
+    <English>[TAB]A theocracy is a form of government where priests or holy men are in charge of the government. The government is run to benefit the people, but, more importantly, in accord with the wishes of the almighty, as interpreted by the holy men and priests. According to the theory, it is the will of God that such men be in charge of running things, and political dissent is sinful and wrong-headed, if not outright heresy. [PARAGRAPH:2]In the modern world, theocracies tend to be backward-looking, seeking to return their country to some usually mythical past state of grace and away from the evil and corrupt modern world. Diplomacy tends to be extremely difficult for such countries, since countries who act against their interests are doing so at the urging of the devil, rather than because the other countries have their own points of view and objectives. How can a holy leader compromise with an imp of Satan?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]A theocracy is a form of government where priests or holy men are in charge of the government. The government is run to benefit the people, but, more importantly, in accord with the wishes of the almighty, as interpreted by the holy men and priests. According to the theory, it is the will of God that such men be in charge of running things, and political dissent is sinful and wrong-headed, if not outright heresy. [PARAGRAPH:2]In the modern world, theocracies tend to be backward-looking, seeking to return their country to some usually mythical past state of grace and away from the evil and corrupt modern world. Diplomacy tends to be extremely difficult for such countries, since countries who act against their interests are doing so at the urging of the devil, rather than because the other countries have their own points of view and objectives. How can a holy leader compromise with an imp of Satan?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_THEOCRACY_STRATEGY</Tag>
+    <English>Improved production and free XP for units in cities where your state religion is present</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Improved production and free XP for units in cities where your state religion is present</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_THEOCRACY_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Divine Monarchy, Religious Law[NEWLINE][ICON_BULLET]Unstable with Common Law</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Divine Monarchy, Religious Law[NEWLINE][ICON_BULLET]Unstable with Common Law</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_ORGANIZED_RELIGION</Tag>
+    <English>Organized Religion</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>教会组织</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_ORGANIZED_RELIGION_PEDIA</Tag>
+    <English>[TAB]An organized religion is one in which there is a central authority which interprets or determines theology, which decides which ceremonies are to be performed at which times, and which appoints priests or holy men to keep worshipers on the correct path. The central authority may be a rigid and powerful hierarchy with great religious and secular power, or it may be a group of elders who meet periodically to discuss matters of importance to their members. [PARAGRAPH:2]An organized religion can be a mighty thing, more powerful than kings or despots. Its followers may provide it with great wealth, and may construct mighty edifices in their gods' honor. Usually, however, organized religions are less powerful than that and must live in uneasy harmony with the local secular governments.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]An organized religion is one in which there is a central authority which interprets or determines theology, which decides which ceremonies are to be performed at which times, and which appoints priests or holy men to keep worshipers on the correct path. The central authority may be a rigid and powerful hierarchy with great religious and secular power, or it may be a group of elders who meet periodically to discuss matters of importance to their members. [PARAGRAPH:2]An organized religion can be a mighty thing, more powerful than kings or despots. Its followers may provide it with great wealth, and may construct mighty edifices in their gods' honor. Usually, however, organized religions are less powerful than that and must live in uneasy harmony with the local secular governments.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_ORGANIZED_RELIGION_STRATEGY</Tag>
+    <English>Unlimited priests and huge bonus to Great Person birth rate in cities where your state religion is present</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Unlimited priests and huge bonus to Great Person birth rate in cities where your state religion is present</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_ORGANIZED_RELIGION_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Divine Monarchy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Divine Monarchy</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_RELIGION</Tag>
+    <English>Religious Tolerance</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>宗教宽容</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_RELIGION_PEDIA</Tag>
+    <English>[TAB]Religious Tolerance refers to a society in which there is still a dominant religion - what is maintained as "state religion" - but people are free to worship or not worship as they please.[PARAGRAPH:2]Such states allow all to express their religious beliefs. This encourages immigration by people whose religions are suppressed elsewhere, and the general society benefits from the multitude of experiences and beliefs of its members. However, such freedom and tolerance of religions may weaken a nation's people's beliefs in any religion, which could cause the people to become morally lax and decadent. Further, members of the more militant and expansionist religions may seek to destroy the competition, causing a good deal of stress and conflict within a country. A good deal of maturity is required on the part of a government and its people to successfully sustain free religion.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Religious Tolerance refers to a society in which there is still a dominant religion - what is maintained as "state religion" - but people are free to worship or not worship as they please.[PARAGRAPH:2]Such states allow all to express their religious beliefs. This encourages immigration by people whose religions are suppressed elsewhere, and the general society benefits from the multitude of experiences and beliefs of its members. However, such freedom and tolerance of religions may weaken a nation's people's beliefs in any religion, which could cause the people to become morally lax and decadent. Further, members of the more militant and expansionist religions may seek to destroy the competition, causing a good deal of stress and conflict within a country. A good deal of maturity is required on the part of a government and its people to successfully sustain free religion.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_RELIGION_STRATEGY</Tag>
+    <English>Bonus happiness in cities where your state religion is present; allows construction of non-state religion buildings; +10% science</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Bonus happiness in cities where your state religion is present; allows construction of non-state religion buildings; +10% science</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_FREE_RELIGION_HELP</Tag>
+    <English>[ICON_BULLET]Unstable with Divine Monarchy, Religious Law</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Unstable with Divine Monarchy, Religious Law</Chinese>
+  </TEXT>
+  <!-- Civic Category Religion -->
+  <!-- Civic Category Expansion -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVICOPTION_EXPANSION</Tag>
+    <English>Expansion</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>扩张制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SUBJUGATION</Tag>
+    <English>Subjugation</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>强力压迫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SUBJUGATION_PEDIA</Tag>
+    <English>[TAB]The term "subjugation" is used to describe the policy of a nation's dominance over other lands. This doctrine has been frequently employed for economic exploitation in which an imperialist power makes use of other countries as sources of raw materials and cheap labor, shaping their economies to suit its own interests and keeping their people in poverty.[PARAGRAPH:2]Sometimes subjugation even refers to the acceptance, by the colonised, of the culture or doctrines of the coloniser as intrinsically more worthy or superior.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]The term "subjugation" is used to describe the policy of a nation's dominance over other lands. This doctrine has been frequently employed for economic exploitation in which an imperialist power makes use of other countries as sources of raw materials and cheap labor, shaping their economies to suit its own interests and keeping their people in poverty.[PARAGRAPH:2]Sometimes subjugation even refers to the acceptance, by the colonised, of the culture or doctrines of the coloniser as intrinsically more worthy or superior.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SUBJUGATION_STRATEGY</Tag>
+    <English>The most primitive Expansion civic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>The most primitive Expansion civic</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SUBJUGATION_HELP</Tag>
+    <English>[ICON_BULLET]Less instability from foreign culture</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Less instability from foreign culture</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_VASSALAGE</Tag>
+    <English>Vassalage</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>封臣制度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_VASSALAGE_PEDIA</Tag>
+    <English>[TAB]Vassalage is a feudal term referring to a person who enters a contract with his or her lord, agreeing to serve and protect the lord in return for monetary rewards or ownership or sovereignty over a parcel of land. The contract is often of both political and religious significance binding both parties by the rules of man and of God. [PARAGRAPH:2]Vassalage is often tribal in nature. One tribe conquers another, and rather than killing the conquered tribe or taking over its direct management, the conquering ruler makes the conquered his vassal: the lower ruler continues to maintain control over his people and territory, while paying tribute to his or her lord in the form of money, goods, soldiers or slaves.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+      <Chinese>[TAB]Vassalage is a feudal term referring to a person who enters a contract with his or her lord, agreeing to serve and protect the lord in return for monetary rewards or ownership or sovereignty over a parcel of land. The contract is often of both political and religious significance binding both parties by the rules of man and of God. [PARAGRAPH:2]Vassalage is often tribal in nature. One tribe conquers another, and rather than killing the conquered tribe or taking over its direct management, the conquering ruler makes the conquered his vassal: the lower ruler continues to maintain control over his people and territory, while paying tribute to his or her lord in the form of money, goods, soldiers or slaves.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_VASSALAGE_STRATEGY</Tag>
+    <English>Grants you extra stability for each vassal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Grants you extra stability for each vassal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_VASSALAGE_HELP</Tag>
+    <English>[ICON_BULLET]Stable with Feudal Law</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]Stable with Feudal Law</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_IMPERIALISM</Tag>
+    <English>Imperialism</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>帝国主义</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_IMPERIALISM_PEDIA</Tag>
+    <English>[TAB]Kings often challenged the legitimacy of their neighbours to rule certain plots of land. Wars of conquest were common in Europe during the Middle Ages. But under the feudal system, conquest inevitably meant the destruction of the old government as the losing barons were punished. Some states managed to overcome this problem and created great empires.[PARAGRAPH:2]Successful imperialism required leaders to rapidly export systems of law and commerce to their non-national territories, so that anarchy would not prevail. It often took a long time for new subjects to overcome their loyalty to the old king and nation, and instead embrace the winner of war, so patience was a leading virtue of an asiprant emperor.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Kings often challenged the legitimacy of their neighbours to rule certain plots of land. Wars of conquest were common in Europe during the Middle Ages. But under the feudal system, conquest inevitably meant the destruction of the old government as the losing barons were punished. Some states managed to overcome this problem and created great empires.[PARAGRAPH:2]Successful imperialism required leaders to rapidly export systems of law and commerce to their non-national territories, so that anarchy would not prevail. It often took a long time for new subjects to overcome their loyalty to the old king and nation, and instead embrace the winner of war, so patience was a leading virtue of an asiprant emperor.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_IMPERIALISM_STRATEGY</Tag>
+    <English>Grants you extra stability for each city outside the core area</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>对于每个非核心区的城市，你会获得额外的稳定</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_IMPERIALISM_HELP</Tag>
+    <English>[ICON_BULLET]Unstable with Merchant Republic</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]与商业共和国同时实施时产生稳定惩罚 对于每个非核心区的城市，你会获得额外的稳定</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_OCCUPATION</Tag>
+    <English>Militarism</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>军国主义</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_OCCUPATION_PEDIA</Tag>
+    <English>[TAB]Belligerent military occupation occurs when one nation's military occupies all or part of the territory of another nation or recognized belligerent.[PARAGRAPH:2]In most wars some territory of the losing side is placed under the authority of the hostile army. Most military occupations end with the cessation of hostilities. In some cases the occupied territory is returned and in others the land remains under the control of the occupying power but usually not as militarily occupied territory. The latter was the case of Germany after WWII, which ended up being split into two different nations.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Belligerent military occupation occurs when one nation's military occupies all or part of the territory of another nation or recognized belligerent.[PARAGRAPH:2]In most wars some territory of the losing side is placed under the authority of the hostile army. Most military occupations end with the cessation of hostilities. In some cases the occupied territory is returned and in others the land remains under the control of the occupying power but usually not as militarily occupied territory. The latter was the case of Germany after WWII, which ended up being split into two different nations.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_OCCUPATION_STRATEGY</Tag>
+    <English>Grants you extra stability on city conquest; no negative stability from cities under foreign occupation (in your core areas)</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Grants you extra stability on city conquest; no negative stability from cities under foreign occupation (in your core areas)</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COLONIALISM</Tag>
+    <English>Colonialism</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>殖民主义</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COLONIALISM_PEDIA</Tag>
+    <English>[TAB]Advances in naval technology allowed Europe to begin colonising the world around them in the late 15th century. Colonial adventures brought European rulers and technology to weak states. At the same time, colonialism introduced Europeans to the powerful states beyond the Islamic world.[PARAGRAPH:2]A colonial disposition manifested itself in dynamism of settlement and trade and a concentration on naval technology and investment. The change from an inward-looking to an outward-looking perspective created a new hierarchy of states based on colonial success and allowed Western Europe, with its access to the Atlantic, to surge ahead of the East.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[TAB]Advances in naval technology allowed Europe to begin colonising the world around them in the late 15th century. Colonial adventures brought European rulers and technology to weak states. At the same time, colonialism introduced Europeans to the powerful states beyond the Islamic world.[PARAGRAPH:2]A colonial disposition manifested itself in dynamism of settlement and trade and a concentration on naval technology and investment. The change from an inward-looking to an outward-looking perspective created a new hierarchy of states based on colonial success and allowed Western Europe, with its access to the Atlantic, to surge ahead of the East.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COLONIALISM_STRATEGY</Tag>
+    <English>Grants you extra stability for each colony founded</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Grants you extra stability for each colony founded</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_COLONIALISM_HELP</Tag>
+    <English>[ICON_BULLET]+1 stability for each colony founded.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]每建立一个殖民地+1稳定。</Chinese>
+  </TEXT>
+  <!-- Civic Category Expansion -->
+  <!-- Used in the dll -->
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_VASSAL_BONUS</Tag>
+    <English>[ICON_BULLET]+3 Stability Points for each vassal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]每收纳一个附庸国+3稳定点</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_IMPERIALISM_BONUS</Tag>
+    <English>[ICON_BULLET]+1 stability point for each city in a less than Solid Province</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]城市数量少于核心省份+1稳定点</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_OCCUPATION_BONUS</Tag>
+    <English>[ICON_BULLET]No negative Stability Points from cities under occupation</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]城市被占领不降低稳定度</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_CONQUEST_BONUS</Tag>
+    <English>[ICON_BULLET]+1 additional Stability Points on city conquest</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]征服城市+1额外的稳定点</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_ALLOW_NON_STATE_RELIGION_BUILDINGS</Tag>
+    <English>[ICON_BULLET]Allows contruction of non-State Religion Buildings and Wonders</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]允许建造非国教建筑和奇观</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUILDING_COMBO_CIVIC_INFO1</Tag>
+    <English>[ICON_BULLET]%D1_Mod [ICON_GOLD] </English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]%D1_Mod [ICON_GOLD] </Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUILDING_COMBO_CIVIC_INFO2</Tag>
+    <English>for [LINK=literal]%s1_Building[\LINK]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>来自[LINK=literal]%s1_Building[\LINK]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_UNIT_PRODUCTION_MODIFIER</Tag>
+    <English>[ICON_BULLET]%D1_Mod% Unit Production</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]%D1_Mod% 军事单位生产费用</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_UNIT_PRODUCTION_MODIFIER_INCITY_HELP</Tag>
+    <English>[ICON_BULLET]%D1_Mod% from Civics</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[ICON_BULLET]%D1_Mod% 来自城市</Chinese>
+  </TEXT>
+  <!-- Used in the dll -->
+  <!-- Currently unused in RFCE
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_VASSAL_BONUS_VANILLA</Tag>
+		<English>[ICON_BULLET]+3 Stability Points for each civilization starting point controlled</English>
+		<French>[ICON_BULLET]+3 points de stabilit&#233; par point de d&#233;part de civilisation contr&#244;l&#233;</French>
+		<German>[ICON_BULLET]+3 Stabilit&#228;tspunkte f&#252;r jeden kontrollierten Zivilisationsstartpunkt</German>
+		<Italian>[ICON_BULLET]+3 punti stabilit&#224; per ogni punto di avvio di civilt&#224; controllato.</Italian>
+		<Spanish>[ICON_BULLET]+3 puntos de estabilidad por cada punto de inicio de civilizaci&#243;n controlado</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_VASSALAGE_VANILLA_STRATEGY</Tag>
+		<English>Adds a Stability Points bonus for each civilization starting point controlled</English>
+		<French>Ajoute un bonus de points de stabilit&#233; par point de d&#233;part de civilisation contr&#244;l&#233;</French>
+		<German>Stabilit&#228;tspunktbonus f&#252;r jeden kontrollierten Zivilisationsstartpunkt</German>
+		<Italian>Aggiunge un punto stabilit&#224; per ogni punto di avvio di civilt&#224; controllato.</Italian>
+		<Spanish>A&#241;ade una bonificaci&#243;n de puntos de estabilidad por cada punto de inicio de civilizaci&#243;n controlado</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_RESETTLEMENT_STRATEGY</Tag>
+		<English>Adds a Stability Points bonus for each city founded at least 15 tiles from the capital</English>
+		<French>Ajoute un bonus de points de stabilit&#233; par ville fond&#233;e &#224; 15 cases ou plus de la capitale</French>
+		<German>Stabilit&#228;tspunktbonus f&#252;r jede Stadt, die mindestens 15 Gel&#228;ndefelder von der Hauptstadt entfernt gegr&#252;ndet wurde</German>
+		<Italian>Aggiunge un bonus di punti stabilit&#224; per ogni citt&#224; fondata ad almeno 15 caselle dalla capitale.</Italian>
+		<Spanish>A&#241;ade una bonificaci&#243;n de puntos de estabilidad por cada ciudad fundada al menos a 15 casillas de la capital</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_COMMONWEALTH_STRATEGY</Tag>
+		<English>No negative Stability Points for low amount of traded resources; no negative Stability Points for poor economy</English>
+		<French>Pas de points de stabilit&#233; n&#233;gatifs pour un faible niveau de ressources &#233;chang&#233;es ; pas de points de stabilit&#233; n&#233;gatifs pour une &#233;conomie pauvre</French>
+		<German>Keine Stabilit&#228;tspunktabz&#252;ge durch geringf&#252;gig gehandelte Ressourcen; keine Stabilit&#228;tspunktabz&#252;ge durch schlechte Wirtschaftslage</German>
+		<Italian>Nessun punto stabilit&#224; negativo in caso di scarso commercio di risorse; nessun punto stabilit&#224; negativo in caso di scarsa economia.</Italian>
+		<Spanish>No hay puntos de estabilidad negativos por baja cantidad de recursos intercambiados; no hay puntos de estabilidad negativos por econom&#237;a d&#233;bil</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_REPUBLIC</Tag>
+		<English>Republic</English>
+		<French>R&#233;publique</French>
+		<German>Republik</German>
+		<Italian>Repubblica</Italian>
+		<Spanish>Rep鷅lica</Spanish>
+ 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_REPUBLIC_PEDIA</Tag>
+		<English>[TAB]In a republic, the head of state is not a monarch and there are no legal privileges for the nobility. The exact form of government can vary widely, from absolute despotism to direct democracy, but the most important difference between a republic and any form of monarchy is the much-diminished role of family and lineage in government.[PARAGRAPH:2]Before the French Revolution, a republic in Europe was an aberration. The state enjoyed none of the external security provided by royal family ties. Internally, the succession was decided to some extent by merit, even if this often meant merely that the man with the best ability to take power would do so.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+ 	</TEXT>
+	-->
+</Civ4GameText>

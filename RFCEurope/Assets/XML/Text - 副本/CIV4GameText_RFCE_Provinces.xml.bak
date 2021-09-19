@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Provinces -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_CITY_NAME_TILE_HELP</Tag>
+    <English>[COLOR_PLAYER_DARK_GRAY_TEXT]City name:[SPACE][COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_PLAYER_DARK_GRAY_TEXT]City name:[SPACE][COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_COORDINATES_TILE_HELP</Tag>
+    <English>[COLOR_PLAYER_DARK_GRAY_TEXT]Coordinates:[SPACE][COLOR_REVERT]%d1_X_coordinate, %d2_Y_coordinate</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_PLAYER_DARK_GRAY_TEXT]Coordinates:[SPACE][COLOR_REVERT]%d1_X_coordinate, %d2_Y_coordinate</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_0</Tag>
+    <English>[COLOR_WATER_TEXT]Lough Neagh[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]內伊湖[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_1</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Balaton[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]巴拉顿湖[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_2</Tag>
+    <English>[COLOR_WATER_TEXT]Dead Sea[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]死海[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_3</Tag>
+    <English>[COLOR_WATER_TEXT]Sea of Galilee[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]加利利海[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_4</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Tuz[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]图兹湖[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_5</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Egirdir[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]埃尔迪尔湖[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_6</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Beysehir[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Beysehir[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_7</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Garda[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Garda[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_8</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Geneva[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]日内瓦湖[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_9</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Constance[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]博登湖/康斯坦茨湖[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_10</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Scutari[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]斯库台湖[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_11</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Ohrid[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]奥赫里德湖[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_12</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Sniardwy[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Sniardwy[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_13</Tag>
+    <English>[COLOR_WATER_TEXT]Lake V鋞tern[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake V鋞tern[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_14</Tag>
+    <English>[COLOR_WATER_TEXT]Lake V鋘ern[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake V鋘ern[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_15</Tag>
+    <English>[COLOR_WATER_TEXT]Lake M鋖aren[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake M鋖aren[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_16</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Storsj鰊[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Storsj鰊[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_17</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Peipus[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Peipus[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_18</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Ilmen[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Ilmen[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_19</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Ladoga[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Ladoga[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_20</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Onega[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Onega[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_21</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Beloye[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Beloye[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_22</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Saimaa[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Saimaa[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_23</Tag>
+    <English>[COLOR_WATER_TEXT]Lake P鋓j鋘ne[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake P鋓j鋘ne[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_24</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Vygozero[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Vygozero[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_25</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Segozero[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Segozero[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_26</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Kallavesi[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Kallavesi[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_27</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Keitele[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Keitele[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_28</Tag>
+    <English>[COLOR_WATER_TEXT]Lake Pielinen[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake Pielinen[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_29</Tag>
+    <English>[COLOR_WATER_TEXT]Lake N鋝ij鋜vi[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]Lake N鋝ij鋜vi[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_30</Tag>
+    <English>[COLOR_WATER_TEXT]Limfjorden[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]利姆海峡[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_LAKE_NAME_31</Tag>
+    <English>[COLOR_WATER_TEXT]Trondheimsfjorden[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_WATER_TEXT]特隆赫姆峡湾[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_STABILITY_HELP</Tag>
+    <English>[COLOR_PLAYER_DARK_GRAY_TEXT]Stability:[SPACE][COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_PLAYER_DARK_GRAY_TEXT]稳定:[SPACE][COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_TYPE_0</Tag>
+    <English>[COLOR_HIGHLIGHT_FOREIGN]Foreign area[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_HIGHLIGHT_FOREIGN]外国省份[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_TYPE_1</Tag>
+    <English>[COLOR_HIGHLIGHT_BORDER]Contested area[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_HIGHLIGHT_BORDER]争议争议[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_TYPE_2</Tag>
+    <English>[COLOR_HIGHLIGHT_POTENTIAL]Potentially stable area[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_HIGHLIGHT_POTENTIAL]可能稳定省份[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_TYPE_3</Tag>
+    <English>[COLOR_HIGHLIGHT_NATURAL]Historically stable area[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_HIGHLIGHT_NATURAL]历史省份[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_TYPE_4</Tag>
+    <English>[COLOR_HIGHLIGHT_CORE]Core area[COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_HIGHLIGHT_CORE]核心省份[COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_TILE_HELP</Tag>
+    <English>[COLOR_PLAYER_DARK_GRAY_TEXT]Province:[SPACE][COLOR_REVERT]</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[COLOR_PLAYER_DARK_GRAY_TEXT]省份:[SPACE][COLOR_REVERT]</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_0</Tag>
+    <English>Galicia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>加利西亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_1</Tag>
+    <English>Castile</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卡斯提尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_2</Tag>
+    <English>Navarre</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>纳瓦拉</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_3</Tag>
+    <English>Leon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莱昂</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_4</Tag>
+    <English>Lusitania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卢西塔尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_5</Tag>
+    <English>La Mancha</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>拉曼恰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_6</Tag>
+    <English>Catalonia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>加泰罗尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_7</Tag>
+    <English>Aragon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉贡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_8</Tag>
+    <English>Valencia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瓦伦西亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_9</Tag>
+    <English>Andalusia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安达卢西亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_10</Tag>
+    <English>Bretagne</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>布列塔尼</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_11</Tag>
+    <English>Normandy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>诺曼底</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_12</Tag>
+    <English>Aquitania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿基坦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_13</Tag>
+    <English>Ile-de-France</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰西岛</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_14</Tag>
+    <English>Provence</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>普罗旺斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_15</Tag>
+    <English>Burgundy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃艮第</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_16</Tag>
+    <English>Orleans</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥尔良</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_17</Tag>
+    <English>Champagne</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>香槟</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_18</Tag>
+    <English>Flanders</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>佛兰德斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_19</Tag>
+    <English>Holland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>荷兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_20</Tag>
+    <English>London</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伦敦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_21</Tag>
+    <English>Wessex</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>韦塞克斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_22</Tag>
+    <English>Wales</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尔士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_23</Tag>
+    <English>Scotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>苏格兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_24</Tag>
+    <English>Ireland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>爱尔兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_25</Tag>
+    <English>Mercia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>麦西亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_26</Tag>
+    <English>East Anglia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>东英吉利亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_27</Tag>
+    <English>Northumbria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>诺森布里亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_28</Tag>
+    <English>The Isles</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>群岛</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_29</Tag>
+    <English>Iceland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>冰岛</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_30</Tag>
+    <English>Denmark</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>丹麦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_31</Tag>
+    <English>謘terland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>东境</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_32</Tag>
+    <English>Norway</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>挪威</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_33</Tag>
+    <English>Vestfold</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西福尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_34</Tag>
+    <English>G鰐aland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>约塔兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_35</Tag>
+    <English>Svealand</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>斯韦阿兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_36</Tag>
+    <English>Norrland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>诺尔兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_37</Tag>
+    <English>J鋗tland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>耶姆特兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_38</Tag>
+    <English>Skaneland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>斯科讷</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_39</Tag>
+    <English>Gotland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>哥特兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_40</Tag>
+    <English>Swabia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>斯瓦比亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_41</Tag>
+    <English>Bavaria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>巴伐利亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_42</Tag>
+    <English>Bohemia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波希米亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_43</Tag>
+    <English>Saxony</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>萨克森</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_44</Tag>
+    <English>Lorraine</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>洛林</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_45</Tag>
+    <English>Franconia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>法兰克尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_46</Tag>
+    <English>Brandenburg</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>勃兰登堡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_47</Tag>
+    <English>Holstein</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>荷尔斯泰因</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_48</Tag>
+    <English>Prussia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>普鲁士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_49</Tag>
+    <English>Province_49</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Province_49</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_50</Tag>
+    <English>Pomerania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波美拉尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_51</Tag>
+    <English>Galicia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>加利西亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_52</Tag>
+    <English>Greater Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>大波兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_53</Tag>
+    <English>Masovia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>马素比亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_54</Tag>
+    <English>Lesser Poland</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>小波兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_55</Tag>
+    <English>Suvalkija</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>苏瓦基亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_56</Tag>
+    <English>Lithuania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>立陶宛</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_57</Tag>
+    <English>Livonia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>利沃尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_58</Tag>
+    <English>Estonia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>爱沙尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_59</Tag>
+    <English>Province_59</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Province_59</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_60</Tag>
+    <English>Carinthia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卡林西亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_61</Tag>
+    <English>Austria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥地利</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_62</Tag>
+    <English>Slavonia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>斯拉沃尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_63</Tag>
+    <English>Province_63</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Province_63</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Currently unused -->
+    <Tag>TXT_KEY_PROVINCE_NAME_63_2</Tag>
+    <English>Tyrol</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>蒂罗尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Currently unused -->
+    <Tag>TXT_KEY_PROVINCE_NAME_63_3</Tag>
+    <English>Salzburg</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>萨尔茨堡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_64</Tag>
+    <English>Transylvania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>特兰西瓦尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_65</Tag>
+    <English>Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>匈牙利</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_66</Tag>
+    <English>Moravia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>摩拉维亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_67</Tag>
+    <English>Silesia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西里西亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_68</Tag>
+    <English>Pannonia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>潘诺尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_69</Tag>
+    <English>Upper Hungary</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>上匈牙利</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_70</Tag>
+    <English>Lombardy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伦巴第</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_71</Tag>
+    <English>Verona</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>维罗纳</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_72</Tag>
+    <English>Tuscany</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>托斯卡纳</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_73</Tag>
+    <English>Latium</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>拉丁姆</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_74</Tag>
+    <English>Calabria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卡拉布里亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_75</Tag>
+    <English>Apulia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿普利亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_76</Tag>
+    <English>Liguria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>利古里亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_77</Tag>
+    <English>Arberia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿尔巴尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_78</Tag>
+    <English>Dalmatia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>达尔马提亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_79</Tag>
+    <English>Banat</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>巴纳特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_80</Tag>
+    <English>Moesia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>默西亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_81</Tag>
+    <English>Constantinople</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>君士坦丁堡</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_82</Tag>
+    <English>Thrace</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>色雷斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_83</Tag>
+    <English>Thessaly</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>色萨利</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_84</Tag>
+    <English>Macedonia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>马其顿</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_85</Tag>
+    <English>Serbia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>塞尔维亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_86</Tag>
+    <English>Bosnia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波斯尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <!-- Currently unused -->
+    <Tag>TXT_KEY_PROVINCE_NAME_86_2</Tag>
+    <English>Croatia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>克罗地亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_87</Tag>
+    <English>Epirus</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伊庇鲁斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_88</Tag>
+    <English>Morea</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>摩里亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_89</Tag>
+    <English>Wallachia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瓦拉几亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_90</Tag>
+    <English>Jerusalem</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>耶路撒冷</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_91</Tag>
+    <English>Paphlagonia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>帕夫拉戈尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_92</Tag>
+    <English>Opsikion</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥普希金</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_93</Tag>
+    <English>Thrakesion</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>色雷斯恩</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_94</Tag>
+    <English>Cilicia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奇里乞亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_95</Tag>
+    <English>Anatolikon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安纳托利亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_96</Tag>
+    <English>Armeniakon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>亚美尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_97</Tag>
+    <English>Charsianon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>沙尔安南</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_98</Tag>
+    <English>Colonea</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>科洛尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_99</Tag>
+    <English>Antiochia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>安提阿</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_100</Tag>
+    <English>Syria</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>叙利亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_101</Tag>
+    <English>Lebanon</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>黎巴嫩</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_102</Tag>
+    <English>Arabia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿拉伯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_103</Tag>
+    <English>Egypt</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>埃及</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_104</Tag>
+    <English>Cyrenaica</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>昔兰尼加</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_105</Tag>
+    <English>Tripolitania</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>的黎波里塔尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_106</Tag>
+    <English>Ifriqiya</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伊弗里基亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_107</Tag>
+    <English>Algiers</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿尔及尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_108</Tag>
+    <English>Tetouan</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>得土安</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_109</Tag>
+    <English>Oran</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>奥兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_110</Tag>
+    <English>Sicily</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>西西里</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_111</Tag>
+    <English>Crete</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>克里特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_112</Tag>
+    <English>Cyprus</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>塞浦路斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_113</Tag>
+    <English>Rhodes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>罗兹</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_114</Tag>
+    <English>Corsica</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>科西嘉</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_115</Tag>
+    <English>Sardinia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>撒丁</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_116</Tag>
+    <English>Balears</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>巴利阿里</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_117</Tag>
+    <English>Canaries</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>加那利</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_118</Tag>
+    <English>Azores</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>亚速尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_119</Tag>
+    <English>Morocco</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>摩洛哥</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_120</Tag>
+    <English>Moldova</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>摩尔多瓦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_121</Tag>
+    <English>Crimea</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>克里米亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_122</Tag>
+    <English>Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>诺夫哥罗德</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_123</Tag>
+    <English>Kuban</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>库班</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_124</Tag>
+    <English>Zaporizhia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>扎波罗热</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_125</Tag>
+    <English>Rostov</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>罗斯托夫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_126</Tag>
+    <English>Moscow</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>莫斯科</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_127</Tag>
+    <English>Vologda</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>沃洛格达</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_128</Tag>
+    <English>Smolensk</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>斯摩棱斯克</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_129</Tag>
+    <English>Polotsk</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波洛茨克</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_130</Tag>
+    <English>Murom</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>穆罗姆</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_131</Tag>
+    <English>Chernigov</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>切尔尼戈夫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_132</Tag>
+    <English>Pereyaslavl</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波里亚斯拉弗尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_133</Tag>
+    <English>Sloboda</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>斯洛博达</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_134</Tag>
+    <English>Donets</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>顿涅茨</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_135</Tag>
+    <English>Kiev</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>基辅</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_136</Tag>
+    <English>Podolia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>波多里亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_137</Tag>
+    <English>Minsk</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>明斯克</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_138</Tag>
+    <English>Brest</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>布列斯特</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_139</Tag>
+    <English>Simbirsk</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>辛比尔斯克</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_140</Tag>
+    <English>Nizhny Novgorod</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>下诺夫哥罗德</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_141</Tag>
+    <English>Karelia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卡累利阿</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_142</Tag>
+    <English>Volhynia</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>沃里尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_143</Tag>
+    <English>Sahara</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>撒哈拉</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_144</Tag>
+    <English>Thessaloniki</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>塞萨洛尼基</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_145</Tag>
+    <English>Marrakesh</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>马拉喀什</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_146</Tag>
+    <English>Madeira</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>马德拉</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_147</Tag>
+    <English>Malta</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>马耳他</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_148</Tag>
+    <English>Fez</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>菲斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_PROVINCE_NAME_149</Tag>
+    <English>Picardy</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>皮卡第</Chinese>
+  </TEXT>
+</Civ4GameText>

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - RFCE Minor Nations -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+  <TEXT>
+    <Tag>TXT_KEY_MINOR_REBELLION_TITLE</Tag>
+    <English>%s1_CivName are revolting!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>%s1_CivName发生叛乱！</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MINOR_REBELLION_DESC</Tag>
+    <English>%s1_CivName are trying to form their own country. What shall we do?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>%s1_CivName正在试图建立自己的国家。我们应该怎么办?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MINOR_REBELLION_DO_NOTHING</Tag>
+    <English>[BOLD]Just ignore them, nobody would want to leave our mighty Empire.[\BOLD][NEWLINE]Do nothing; only rely on your stability and the passive military presence in the city: %d1_RawOdds % chance to stop the rebels.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[BOLD]Just ignore them, nobody would want to leave our mighty Empire.[\BOLD][NEWLINE]Do nothing; only rely on your stability and the passive military presence in the city: %d1_RawOdds % chance to stop the rebels.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MINOR_REBELLION_CRACK</Tag>
+    <English>[BOLD]Form a crackdown of the rebellion and subjugate those rebels.[\BOLD][NEWLINE]Suppress with force; your military might and the number of units in the city also greatly contributes to your chances, but this action will anger the general population: %d1_Odds % chance to stop the rebels, but it will generate unhappiness and causes 1 turn of revolt if succeeds.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[BOLD]Form a crackdown of the rebellion and subjugate those rebels.[\BOLD][NEWLINE]Suppress with force; your military might and the number of units in the city also greatly contributes to your chances, but this action will anger the general population: %d1_Odds % chance to stop the rebels, but it will generate unhappiness and causes 1 turn of revolt if succeeds.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MINOR_REBELLION_BRIBE</Tag>
+    <English>[BOLD]Bribe the local Lords, the rebels have less chance to take your city without their support.[\BOLD][NEWLINE]Send in your envoys; your financial contribution adjusted by your government form also contributes to your chances, but it will anger the rebel militia further: %d3_Odds % chance to stop the rebels, but it costs you %d1_Gold [ICON_GOLD] (full bribe = %d2_Bribe), and more attacking rebel units appear if succeeds.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[BOLD]Bribe the local Lords, the rebels have less chance to take your city without their support.[\BOLD][NEWLINE]Send in your envoys; your financial contribution adjusted by your government form also contributes to your chances, but it will anger the rebel militia further: %d3_Odds % chance to stop the rebels, but it costs you %d1_Gold [ICON_GOLD] (full bribe = %d2_Bribe), and more attacking rebel units appear if succeeds.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MINOR_REBELLION_ALL</Tag>
+    <English>[BOLD]Do whatever it takes to keep them.[\BOLD][NEWLINE]Apply both military and financial measures: %d1_Odds % chance to stop the rebels, with the combined effects of the 2 options above.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>[BOLD]Do whatever it takes to keep them.[\BOLD][NEWLINE]Apply both military and financial measures: %d1_Odds % chance to stop the rebels, with the combined effects of the 2 options above.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MINOR_NATION_REVOLT_SUPRESSED</Tag>
+    <English>Thanks to god the revolt was unsuccessful, the city of %s1 remained in our hands. Now we only need to get rid of those barbaric rebels!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Thanks to god the revolt was unsuccessful, the city of %s1 remained in our hands. Now we only need to get rid of those barbaric rebels!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MINOR_NATION_REVOLT_SUCCEEDED</Tag>
+    <English>The %s1 revolt was successful, the city of %s2 has declared it's independence!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>The %s1 revolt was successful, the city of %s2 has declared it's independence!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_THE_SERBS</Tag>
+    <English>The Serbs</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>塞尔维亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_SERBIAN</Tag>
+    <English>Serbian</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>塞尔维亚人</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_THE_SCOTS</Tag>
+    <English>The Scots</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>苏格兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_SCOTTISH</Tag>
+    <English>Scottish</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>苏格兰人</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_THE_CATALANS</Tag>
+    <English>The Catalans</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>加泰罗尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CATALAN</Tag>
+    <English>Catalan</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>加泰罗尼亚</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_THE_MUSLIMS</Tag>
+    <English>The Muslims</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>穆斯林</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MUSLIM</Tag>
+    <English>Muslim</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Muslim</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_THE_ZIYYANIDS</Tag>
+    <English>The Ziyyanids</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>扎亚尼德</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ZIYYANID</Tag>
+    <English>Ziyyanid</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>扎亚尼德</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_THE_WATTASIDS</Tag>
+    <English>The Wattasids</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瓦塔斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_WATTASID</Tag>
+    <English>Wattasid</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瓦塔斯</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_INVASION_START</Tag>
+    <English>Rumours arrived at your palace that massive barbarian hordes had emerged in the east, and they are already closing to your neighbours.[NEWLINE][NEWLINE]It is said that their first raging armies will probably arrive near your borders in a couple years (5-10 turns).[NEWLINE][NEWLINE]While you are quite sure that those stories must be exaggerated, maybe it would be wise to strengthen your defences, just in case?</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Rumours arrived at your palace that massive barbarian hordes had emerged in the east, and they are already closing to your neighbours.[NEWLINE][NEWLINE]It is said that their first raging armies will probably arrive near your borders in a couple years (5-10 turns).[NEWLINE][NEWLINE]While you are quite sure that those stories must be exaggerated, maybe it would be wise to strengthen your defences, just in case?</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_TIMURID_INVASION_START</Tag>
+    <English>Your spies report that a dangerous warlord called Tamerlane gathers a mighty force in the east, planning huge conquests.[NEWLINE][NEWLINE]It might even bring danger to you too, possibly arriving at your borders in a couple years (5-10 turns). Make sure that your nation is prepared!</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Your spies report that a dangerous warlord called Tamerlane gathers a mighty force in the east, planning huge conquests.[NEWLINE][NEWLINE]It might even bring danger to you too, possibly arriving at your borders in a couple years (5-10 turns). Make sure that your nation is prepared!</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_INVASION_END</Tag>
+    <English>Good news! It seems that the worst part of the %s1 invasions are finally over.</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Good news! It seems that the worst part of the %s1 invasions are finally over.</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_KHAZARS</Tag>
+    <English>Khazars</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>可萨</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_PECHENEGS</Tag>
+    <English>Pechenegs</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>佩切涅格</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_CUMANS</Tag>
+    <English>Cumans</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>库曼</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_SOUTHERN_SLAVS</Tag>
+    <English>Southern Slavs</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>南斯拉夫</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_GERMANIC_TRIBES</Tag>
+    <English>Germanic Tribes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>日耳曼部落</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_VIKINGS</Tag>
+    <English>Vikings</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>维京</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_SCOTS</Tag>
+    <English>Scots</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>苏格兰</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_WELSH</Tag>
+    <English>Welsh</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>威尔士</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_MAGYARS</Tag>
+    <English>Magyars</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>马札尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_MONGOLS</Tag>
+    <English>Mongols</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>蒙古</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_TIMURIDS</Tag>
+    <English>Timurids</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Timurids</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_SELJUKS</Tag>
+    <English>Seljuks</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>塞尔柱</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_SASSANIDS</Tag>
+    <English>Sassanids</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>萨珊</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_BEDUINS</Tag>
+    <English>Beduin Tribes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>贝都因部落</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_BERBERS</Tag>
+    <English>Berbers</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>柏柏尔</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_VISIGOTHS</Tag>
+    <English>Visigoths</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Visigoths</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_BARBARY_PIRATES</Tag>
+    <English>Barbary Pirates</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>巴巴里海盗</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_LONGOBARDS</Tag>
+    <English>Longobards</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>伦巴</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_AVARS</Tag>
+    <English>Avars</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>阿瓦</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_SWEDES</Tag>
+    <English>Swedes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>瑞典</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_CHUDES</Tag>
+    <English>Chudes</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>出德</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_NOGAIS</Tag>
+    <English>Nogais</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>诺盖</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_KALMYKS</Tag>
+    <English>Kalmyks</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>卡尔梅克</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_WENDS</Tag>
+    <English>Wends</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Wends</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_SERBS</Tag>
+    <English>Serbs</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Serbs</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_BALTICS</Tag>
+    <English>Baltic Heathens</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Baltic Heathens</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_SWORD_BRETHEN</Tag>
+    <English>Sword Brethren</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Sword Brethren</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_ANGLO_SAXONS</Tag>
+    <English>Anglo-Saxons</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Anglo-Saxons</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_IRISH</Tag>
+    <English>Irish Warriors</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Irish Warriors</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_BANU_HILAL</Tag>
+    <English>Banu Hilal</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Banu Hilal</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_BANI_HASSAN</Tag>
+    <English>Bani Hassan</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Bani Hassan</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_DANISHMENDS</Tag>
+    <English>Danishmends</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Danishmends</Chinese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARBARIAN_NAMES_KIPCHAKS</Tag>
+    <English>Kipchaks</English>
+    <L1 />
+    <L2 />
+    <L3 />
+    <L4 />
+     <Chinese>Kipchaks</Chinese>
+  </TEXT>
+</Civ4GameText>
