@@ -4,6 +4,7 @@ from CvPythonExtensions import *
 import Consts as con
 import XMLConsts as xml
 import RFCEMaps as rfcemaps
+ 
 
 gc = CyGlobalContext()	# LOQ
 
@@ -108,7 +109,7 @@ class RFCEBalance:
 		gc.setGrowthModifiersAI(iBurgundy,     100, 100, 100, 100, 100, 1 )
 		gc.setGrowthModifiersHu(iBurgundy,     100, 100, 100, 100, 100, 1 )
 		gc.setGrowthModifiersAI(iByzantium,    200, 100, 200, 100, 100, 2 )
-		gc.setGrowthModifiersHu(iByzantium,    150, 100, 200, 100, 100, 2 )
+		gc.setGrowthModifiersHu(iByzantium,    100, 100, 100, 100, 100, 2 ) # mediv01修改 used to be 150, 100, 200, 100, 100, 2 )
 		gc.setGrowthModifiersAI(iFrankia,      110, 100, 110, 100, 100, 1 )
 		gc.setGrowthModifiersHu(iFrankia,      110, 100, 110, 100, 100, 1 )
 		gc.setGrowthModifiersAI(iArabia,       150, 100, 150, 100, 100, 1 )
@@ -175,7 +176,7 @@ class RFCEBalance:
 		gc.setProductionModifiersAI(iBurgundy,     130, 120, 120, 150 )
 		gc.setProductionModifiersHu(iBurgundy,     150, 120, 120, 150 )
 		gc.setProductionModifiersAI(iByzantium,    200, 200, 200, 350 )
-		gc.setProductionModifiersHu(iByzantium,    200, 150, 200, 350 )
+		gc.setProductionModifiersHu(iByzantium,    100, 100, 100, 100 )  # mediv01修改 used to be 200, 150, 200, 350 )
 		gc.setProductionModifiersAI(iFrankia,      140, 120, 125, 150 )
 		gc.setProductionModifiersHu(iFrankia,      150, 120, 125, 130 )
 		gc.setProductionModifiersAI(iArabia,       130, 125, 150, 280 )
@@ -240,7 +241,7 @@ class RFCEBalance:
 		gc.setSupportModifiersAI(iBurgundy,      10, 150,  60,  40, 100 )
 		gc.setSupportModifiersHu(iBurgundy,      10, 150,  60,  40, 100 )
 		gc.setSupportModifiersAI(iByzantium,     60, 150, 100,  75, 120 )
-		gc.setSupportModifiersHu(iByzantium,     60, 150,  80,  50, 120 )
+		gc.setSupportModifiersHu(iByzantium,     60, 100,  80,  50, 100 ) # mediv01修改 used to be 60, 150,  80,  50, 120 )
 		gc.setSupportModifiersAI(iFrankia,       30, 120,  80,  35, 100 )
 		gc.setSupportModifiersHu(iFrankia,       30, 120,  80,  35, 100 )
 		gc.setSupportModifiersAI(iArabia,        30, 150,  70,  15, 120 )
@@ -865,7 +866,18 @@ class RFCEBalance:
 		self.postAreas()
 
 	def setTechTimeline( self ):
-		gc.setTimelineTechModifiers( 9, 25, -50, 1, 100, 50 ) # go between 10 times slower and 4 times faster
+
+#void CyGlobalContext::setTimelineTechModifiers( int iTPTop, int iTPBottom, int iTPCap, int iTBTop, int iTBBottom, int iTBCap ){
+#	timelineTechPenaltyTop = iTPTop;
+#	timelineTechPenaltyBottom = iTPBottom;
+#	timelineTechPenaltyCap = iTPCap;
+#	timelineTechBuffTop = iTBTop;
+#	timelineTechBuffBottom = iTBBottom;
+#	timelineTechBuffCap = iTBCap;
+#};    
+#		gc.setTimelineTechModifiers( 9, 25, -50, 1, 100, 50 ) # go between 10 times slower and 4 times faster
+		gc.setTimelineTechModifiers( xml.PY_BALANCE_MAX_RESERACH_PUNISH, xml.PY_BALANCE_MAX_RESERACH_BONUS, -50, 1, 100, 50 ) 
+		# mediv01修改 类似于a/d e/b c和f表示最大回合，go between 1 times slower and 2 times faster
 		# formula is: iAhistoric = iCurrentTurn - iHistoricTurn, capped at ( iTPCap, iTBCap )
 		# iCost *= 100 + topPenalty * iHistoric * iAhistoric / BotPenalty, iCost /= 100
 		# iCost *= 100 - topBuff * iHistoric * iAhistoric / BotBuff, iCost /= 100

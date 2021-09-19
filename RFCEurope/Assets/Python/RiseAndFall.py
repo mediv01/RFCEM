@@ -1086,6 +1086,7 @@ class RiseAndFall:
 
 
 	def resurrection(self, iGameTurn, iDeadCiv):
+    	# 文明复活的总入口  mediv01
 		if iDeadCiv == -1:
 			iDeadCiv = self.findCivToResurect(iGameTurn , 0, -1)
 		else:
@@ -1199,7 +1200,11 @@ class RiseAndFall:
 		self.setRebelSuppress( lSuppressList )
 
 		if lCityCount[iHuman] > 0:
-			self.rebellionPopup( iDeadCiv, lCityCount[iHuman] )
+    		#mediv01
+			if (xml.PY_RISEANDFALL_HUMAN_NO_REBEL==1):
+				pass
+			else:
+				self.rebellionPopup( iDeadCiv, lCityCount[iHuman] )
 		else:
 			self.resurectCiv( iDeadCiv )
 
@@ -2051,8 +2056,9 @@ class RiseAndFall:
 						if rndNum >= iBetrayalThreshold:
 							if unit.getDomainType() == DomainTypes.DOMAIN_LAND: #land unit
 								iUnitType = unit.getUnitType()
-								unit.kill(False, iNewOwner)
-								utils.makeUnit(iUnitType, iNewOwner, tPlot, 1)
+								if (xml.PY_UNIT_CAN_BE_FLIP==1):#mediv01
+									unit.kill(False, iNewOwner)
+									utils.makeUnit(iUnitType, iNewOwner, tPlot, 1)
 								i = i - 1
 
 

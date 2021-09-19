@@ -157,12 +157,18 @@ class Plague:
 		if iWorstCiv == -1:
 			for iPlayer in range(iNumMajorPlayers):
 				pPlayer = gc.getPlayer(iPlayer)
+
 				if pPlayer.isAlive():
 					if self.isVulnerable(iPlayer):
 						iHealth = self.calcHealth(iPlayer) - gc.getGame().getSorenRandNum(10, 'random modifier')
 						if iHealth < iWorstHealth:
-							iWorstCiv = iPlayer
-							iWorstHealth = iHealth
+							if xml.PY_PLAGUE_HUMAN_NO_INFECT==1 and iPlayer==utils.getHumanID(): #mediv01
+								pass
+							elif xml.PY_PLAGUE_POPE_NO_INFECT==1 and iPlayer==con.iPope: #mediv01
+								pass
+							else:
+								iWorstCiv = iPlayer
+								iWorstHealth = iHealth
 
 		# choose a random civ if we didn't find it
 		if iWorstCiv == -1:
@@ -193,6 +199,7 @@ class Plague:
 
 	def isVulnerable(self, iPlayer):
 		# Absinthe: based on recent infections and the average city healthiness (also tech immunity should go here if it's ever added to the mod)
+
 		if iPlayer >= iNumMajorPlayers:
 			if self.getPlagueCountdown(iPlayer) == 0:
 				return True
@@ -213,7 +220,7 @@ class Plague:
 	def spreadPlague( self, iPlayer, city ):
 		# Absinthe: the Plague of Justinian shouldn't spread to Italy and France, even if it was as deadly as the Black Death
 		if iPlayer in [con.iFrankia, con.iPope] and gc.getGame().getGameTurn() <= xml.i632AD: return
-
+		if xml.PY_PLAGUE_HUMAN_NO_INFECT==1 and iPlayer==utils.getHumanID(): return #mediv01
 		# Absinthe: message about the spread
 		iHuman = utils.getHumanID()
 		if gc.getPlayer(iHuman).canContact(iPlayer) and iHuman != iPlayer:
@@ -244,7 +251,10 @@ class Plague:
 	def infectCity( self, city ):
 		# Absinthe: the Plague of Justinian shouldn't spread to Italy and France, even if it was as deadly as the Black Death
 		if city.getOwner() in [con.iFrankia, con.iPope] and gc.getGame().getGameTurn() <= xml.i632AD: return
-
+		if xml.PY_PLAGUE_HUMAN_NO_INFECT==1 and city.getOwner()==utils.getHumanID(): 
+			#CyInterface().addMessage(city.getOwner(), True, con.iDuration/2, CyTranslator().getText("TXT_KEY_PLAGUE_SPREAD_CITY", ()) + " " + city.getName() + "!mediv01", "AS2D_PLAGUE", 0, gc.getBuildingInfo(iPlague).getButton(), ColorTypes(con.iLime), x, y, True, True)
+			return
+			# mediv01
 		x = city.getX()
 		y = city.getY()
 
@@ -325,9 +335,10 @@ class Plague:
 							iUnitDamage = max( iUnitDamage, unit.getDamage() + iCivilDamage)
 						# kill the unit if necessary
 						if iUnitDamage >= 100:
-							unit.kill( False, iBarbarian )
-							if unit.getOwner() == iHuman:
-								CyInterface().addMessage(iHuman, False, con.iDuration/2, CyTranslator().getText("TXT_KEY_PLAGUE_PROCESS_UNIT", (unit.getName(), )) + " " + city.getName() + "!", "AS2D_PLAGUE", 0, gc.getBuildingInfo(iPlague).getButton(), ColorTypes(con.iLime), plot.getX(), plot.getY(), True, True)
+							if (xml.PY_PLAGUE_KILL_PEOPLE==1):  #mediv01
+								unit.kill( False, iBarbarian )
+								if unit.getOwner() == iHuman:
+									CyInterface().addMessage(iHuman, False, con.iDuration/2, CyTranslator().getText("TXT_KEY_PLAGUE_PROCESS_UNIT", (unit.getName(), )) + " " + city.getName() + "!", "AS2D_PLAGUE", 0, gc.getBuildingInfo(iPlague).getButton(), ColorTypes(con.iLime), plot.getX(), plot.getY(), True, True)
 						else:
 							unit.setDamage( iUnitDamage, iBarbarian )
 						# if we have many units in the same plot, decrease the damage for every other unit

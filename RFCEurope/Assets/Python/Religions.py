@@ -752,7 +752,8 @@ class Religions:
 
 	def onTechAcquired(self, iTech, iPlayer):
 		if iTech == xml.iPrintingPress:
-			if gc.getPlayer(iPlayer).getStateReligion() == xml.iCatholicism:
+			biOrthodoxy=xml.PY_Orthodoxy_CAN_TRIGGLER_REFORM and (gc.getPlayer(iPlayer).getStateReligion() == xml.iOrthodoxy)
+			if gc.getPlayer(iPlayer).getStateReligion() == xml.iCatholicism or biOrthodoxy:
 				if not gc.getGame().isReligionFounded(xml.iProtestantism):
 					gc.getPlayer(iPlayer).foundReligion(xml.iProtestantism, xml.iProtestantism, False)
 					gc.getGame().getHolyCity(xml.iProtestantism).setNumRealBuilding(xml.iProtestantShrine, 1)

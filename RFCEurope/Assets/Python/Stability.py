@@ -12,6 +12,7 @@ import RFCEMaps as rfcemaps
 import RiseAndFall
 import ProvinceManager
 
+
 utils = RFCUtils.RFCUtils()
 rnf = RiseAndFall.RiseAndFall()
 pm = ProvinceManager.ProvinceManager()
@@ -32,7 +33,11 @@ iCathegoryCivics = con.iCathegoryCivics
 iCathegoryEconomy = con.iCathegoryEconomy
 iCathegoryExpansion = con.iCathegoryExpansion
 tCapitals = con.tCapitals
-tStabilityPenalty = ( -5, -2, 0, 0, 0 ) # province type: unstable, border, potential, historic, core
+
+if xml.PY_tStabilityPenalty_ENABLE>0:
+	tStabilityPenalty = xml.PY_tStabilityPenalty
+else:
+	tStabilityPenalty = ( -5, -2, 0, 0, 0 ) # province type: unstable, border, potential, historic, core
 
 class Stability:
 
@@ -46,9 +51,9 @@ class Stability:
 		# Absinthe: bonus stability for the human player based on difficulty level
 		iHandicap = gc.getGame().getHandicapType()
 		if iHandicap == 0:
-			gc.getPlayer( utils.getHumanID() ).changeStabilityBase( iCathegoryExpansion, 6 )
+			gc.getPlayer( utils.getHumanID() ).changeStabilityBase( iCathegoryExpansion, xml.PY_STABILITY_BONOUS_FOR_H1 )
 		elif iHandicap == 1:
-			gc.getPlayer( utils.getHumanID() ).changeStabilityBase( iCathegoryExpansion, 2 )
+			gc.getPlayer( utils.getHumanID() ).changeStabilityBase( iCathegoryExpansion, xml.PY_STABILITY_BONOUS_FOR_H2 )
 
 		# Absinthe: Stability is accounted properly for stuff preplaced in the scenario file - from RFCE++
 		for iPlayer in range(iNumMajorPlayers):
@@ -462,8 +467,12 @@ class Stability:
 		elif pPlayer.getNumCities() > 1:
 			print ("COLLAPSE: CIVIL WAR", gc.getPlayer(iPlayer).getCivilizationAdjective(0), "Stability:", iStability)
 			CyInterface().addMessage(iPlayer, True, con.iDuration, CyTranslator().getText("TXT_KEY_STABILITY_CIVILWAR_HUMAN", ()), "", 0, "", ColorTypes(con.iRed), -1, -1, True, True)
-			utils.killAndFragmentCiv(iPlayer, False, True)
-			self.zeroStability( iPlayer )
+			#mediv01 人类玩家的崩溃
+			if (xml.PY_STABILITY_HUMAN_NO_COLLAPSE==1 and iPlayer == utils.getHumanID()):
+				pass
+			else:
+				utils.killAndFragmentCiv(iPlayer, False, True)
+				self.zeroStability( iPlayer )
 
 
 	def printStability(self, iGameTurn, iPlayer ):

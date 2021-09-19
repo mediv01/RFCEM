@@ -19,6 +19,29 @@ from CvPythonExtensions import *
 gc = CyGlobalContext()
 normalGameUtils = CvGameInterfaceFile.GameUtils
 
+
+
+import RFCEMapShowInDll
+def CheckCoreInDll(argsList):
+	
+	#tlist=RFCEMapShowInDll.SearchCore(x,y)
+	x=argsList[0]
+	y=argsList[1]
+	tList=RFCEMapShowInDll.SearchCore(x,y)
+	return tList
+
+def CheckMinorInDll(argsList):
+	#tlist=RFCEMapShowInDll.SearchCore(x,y)
+	x=argsList[0]
+	y=argsList[1]	
+	tList=[]
+	tList=RFCEMapShowInDll.SearchMinorCityBirth(x,y)
+	return tList
+
+
+
+
+
 def gameUtils():
 	' replace normalGameUtils with your mod version'
 	return normalGameUtils
