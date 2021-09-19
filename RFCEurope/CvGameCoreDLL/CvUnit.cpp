@@ -770,7 +770,7 @@ void CvUnit::doTurn()
 
 	if (hasMoved())
 	{
-		if (isAlwaysHeal())
+		if (isAlwaysHeal() || GC.getDefineINT("CVUNIT_CAN_HEAL_WHEN_MOVE") == 1)//mediv01 行走后可以疗伤
 		{
 			doHeal();
 		}
@@ -789,6 +789,7 @@ void CvUnit::doTurn()
 	}
 
 	changeImmobileTimer(-1);
+
 
 	setMadeAttack(false);
 	setMadeInterception(false);

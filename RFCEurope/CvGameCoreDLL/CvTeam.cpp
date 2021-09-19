@@ -4987,6 +4987,9 @@ int CvTeam::getObsoleteBuildingCount(BuildingTypes eIndex) const
 {
 	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
 	FAssertMsg(eIndex < GC.getNumBuildingInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
+	if (GC.getDefineINT("PLOT_CITY_BUILDING_NO_OBSOLUTE") == 1) {
+		return 0;    //mediv01 奇观永不过期
+	}
 	return m_paiObsoleteBuildingCount[eIndex];
 }
 

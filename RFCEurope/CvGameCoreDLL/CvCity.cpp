@@ -12169,6 +12169,79 @@ void CvCity::doProduction(bool bAllowNoProduction)
 	}
 	//GC.getGameINLINE().logMsg("   city doTurn - doProduction if4 "); //Rhye and 3Miro
 
+	// add PLAYEROPTION_ALERT_BUILD_WORLD_WR   //mediv01 from anyfun 城市建造奇观会提醒
+	if (GC.getDefineINT("ANYFUN_ALERT_FOR_WORLD_WONDER") == 1 || GC.getDefineINT("ANYFUN_ALERT_FOR_ANY_BUILDING") == 1)
+	{
+		if (!isBarbarian())
+		{
+			CLLNode<OrderData>* pOrderNode = headOrderQueueNode();
+			if (pOrderNode != NULL)
+			{
+				CvWString szBuffer;
+				if (pOrderNode->m_data.eOrderType == ORDER_CONSTRUCT)
+				{
+					BuildingTypes eBuilding = (BuildingTypes)pOrderNode->m_data.iData1;
+					if (isLimitedWonderClass((BuildingClassTypes)GC.getBuildingInfo(eBuilding).getBuildingClassType()) || GC.getDefineINT("ANYFUN_ALERT_FOR_ANY_BUILDING") == 1)
+						//if (isWorldWonderClass((BuildingClassTypes)GC.getBuildingInfo(eBuilding).getBuildingClassType())) //mediv01 这个isWorldWonderClass是BTS原版里的，在DOC里不起作用，要使用isLimitedWonderClass
+					{
+						if (getBuildingProduction(eBuilding) == 0)
+						{
+							for (int iI = 0; iI < MAX_CIV_PLAYERS; iI++)
+							{
+								if (GET_PLAYER((PlayerTypes)iI).isAlive())
+								{
+									if (isRevealed(GET_PLAYER((PlayerTypes)iI).getTeam(), false))
+									{
+										szBuffer = gDLL->getText("TXT_KEY_ANYFUNMOD_WORLD_WR_BEGIN", GET_PLAYER(getOwnerINLINE()).getCivilizationAdjectiveKey(), GC.getBuildingInfo(eBuilding).getTextKeyWide());
+
+										gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_WONDER_BUILDING_BUILD", MESSAGE_TYPE_MAJOR_EVENT, GC.getBuildingInfo(eBuilding).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
+									}
+									else
+									{
+										szBuffer = gDLL->getText("TXT_KEY_ANYFUNMOD_WORLD_WR_BEGIN_UNKNOWN", GC.getBuildingInfo(eBuilding).getTextKeyWide());
+										gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_WONDER_BUILDING_BUILD", MESSAGE_TYPE_MAJOR_EVENT, GC.getBuildingInfo(eBuilding).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"));
+									}
+								}
+							}
+						}
+					}
+				}
+				else if (pOrderNode->m_data.eOrderType == ORDER_CREATE)
+				{
+					ProjectTypes eProject = (ProjectTypes)pOrderNode->m_data.iData1;
+					if (isWorldProject(eProject))
+					{
+						if (getProjectProduction(eProject) == 0)
+						{
+							for (int iI = 0; iI < MAX_CIV_PLAYERS; iI++)
+							{
+								if (GET_PLAYER((PlayerTypes)iI).isAlive())
+								{
+									if (isRevealed(GET_PLAYER((PlayerTypes)iI).getTeam(), false))
+									{
+										szBuffer = gDLL->getText("TXT_KEY_ANYFUNMOD_WORLD_WR_BEGIN", GET_PLAYER(getOwnerINLINE()).getNameKey(), GC.getProjectInfo(eProject).getTextKeyWide());
+										gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_WONDER_BUILDING_BUILD", MESSAGE_TYPE_MAJOR_EVENT, GC.getProjectInfo(eProject).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
+									}
+									else
+									{
+										szBuffer = gDLL->getText("TXT_KEY_ANYFUNMOD_WORLD_WR_BEGIN_UNKNOWN", GC.getProjectInfo(eProject).getTextKeyWide());
+										gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_WONDER_BUILDING_BUILD", MESSAGE_TYPE_MAJOR_EVENT, GC.getProjectInfo(eProject).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"));
+									}
+								}
+							}
+						}
+					}
+				}
+				pOrderNode = NULL;
+			}
+		}
+	}
+	// end add
+
+
+
+
+
 	if (isProduction())
 	{
 		//GC.getGameINLINE().logMsg("   city doTurn - doProduction if "); //Rhye and 3Miro

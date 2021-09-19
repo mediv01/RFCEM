@@ -13116,7 +13116,7 @@ bool CvUnitAI::AI_found_map(int modifier)
 										{
 											iValue *= 1000;
 
-											iValue /= (iPathTurns + 2); //Rhye - più aumenta il valore (default +1) più preferisce fondare lontano
+											iValue /= (iPathTurns + 2); //Rhye - pi?aumenta il valore (default +1) pi?preferisce fondare lontano
 
 											if (iValue > iBestValue)
 											{
@@ -17708,7 +17708,10 @@ int CvUnitAI::AI_pillageValue(CvPlot* pPlot, int iBonusValueThreshold)
 			}
 		}
 	}
-
+	//mediv01   ²»»á×Ô¶¯½ÙÂÓ
+	if (GC.getDefineINT("CVUNITAI_AI_NOT_PILLAGE") == 1) {
+		iValue = 0;
+	}
 	return iValue;
 }
 

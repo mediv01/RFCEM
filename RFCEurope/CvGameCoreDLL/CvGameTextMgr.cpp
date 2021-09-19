@@ -2221,8 +2221,71 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 	//szBuffer.append( gDLL->getText("TXT_KEY_PROJECT_FREE_BONUS_RESOURCE1", kProject.getFreeBonus( (BonusTypes) iI ) ) );
 	//szBuffer.append( gDLL->getText("TXT_KEY_PROJECT_FREE_BONUS_RESOURCE2", GC.getBonusInfo((BonusTypes) iI).getTextKeyWide() ));
 	int iProvince = provinceMap[ pPlot ->getY() * EARTH_X + pPlot ->getX() ];
+	//mediv01 地块详细信息显示
 	if ( (iProvince >-1) && (iProvince<MAX_NUM_PROVINCES) ){
+		
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_X_AND_Y_IN_MAP") == 1) {
+			szTempBuffer.Format(L"X: %d  ,Y: %d", pPlot->getX(), pPlot->getY());//mediv01 显示地块坐标
+			szString.append(szTempBuffer);
+		}
+		
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_FLIP_ZONE_IN_MAP") == 1) {//mediv01 显示地块是否为翻转区
+			//long lResult = 0;
+			std::vector<int> pIntList1;
+			CyArgsList argsList;
+			argsList.add(pPlot->getX());
+			argsList.add(pPlot->getY());
+			gDLL->getPythonIFace()->callFunction(PYGameModule, "CheckCoreInDll", argsList.makeFunctionArgs(), &pIntList1);
+			if (pIntList1.size() > 0) { 
+				szString.append(NEWLINE);
+				//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
+				szTempBuffer.Format(SETCOLR L"核心翻转区：" ENDCOLR, TEXT_COLOR("COLOR_ALT_HIGHLIGHT_TEXT"));//绿色
+				szString.append(szTempBuffer);
+				for (int i = 1; i <= pIntList1.size(); i++) {
+					int PlayerNum = pIntList1[i - 1];
+					szTempBuffer.Format(L"%s   ", GET_PLAYER((PlayerTypes)PlayerNum).getCivilizationShortDescription());
+					szString.append(szTempBuffer);
+				}
+			}
+		}
+		
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_MINOR_BIRTH_IN_MAP") == 1) {//mediv01 显示地块是否为独立城邦铺城点
+			//long lResult = 0;
+			std::vector<int> pIntList1;
+			CyArgsList argsList;
+			argsList.add(pPlot->getX());
+			argsList.add(pPlot->getY());
+			gDLL->getPythonIFace()->callFunction(PYGameModule, "CheckMinorInDll", argsList.makeFunctionArgs(), &pIntList1);
+			if (pIntList1.size() > 0) {
+				szString.append(NEWLINE);
+				//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
+				szTempBuffer.Format(SETCOLR L"独立城邦诞生回合：" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"));
+				szString.append(szTempBuffer);
+				for (int i = 1; i <= pIntList1.size(); i++) {
+					int PlayerNum = pIntList1[i - 1];
+					szTempBuffer.Format(L"%d   ", PlayerNum);
+					szString.append(szTempBuffer);
+				}
+			}
+		}
+
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_TRADE_GOLD_IN_MAP") == 1) {//mediv01 显示地块大商业家贸易金额
+			CvUnit* pHeadSelectedUnit = gDLL->getInterfaceIFace()->getHeadSelectedUnit();
+			//CvPlot* pMissionPlot = pHeadSelectedUnit->plot();
+			CvPlot* pMissionPlot = pPlot;
+			int TradeGold = pHeadSelectedUnit->getTradeGold(pMissionPlot);
+			if (TradeGold > 0) {
+				szTempBuffer.Format(SETCOLR L"大商业家贸易金额：" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"));
+				szString.append(szTempBuffer);
+				szTempBuffer.Format(L"%d   ", TradeGold);
+				szString.append(szTempBuffer);
+			}
+		}
+		
+		
+		szString.append(NEWLINE);
 		szString.append( gDLL->getText("TXT_KEY_PROVINCE_TILE_HELP") );
+		
 		szTempBuffer.Format(L"TXT_KEY_PROVINCE_NAME_%d",iProvince);
 		szString.append( gDLL->getText(szTempBuffer.GetCString() ) );
 		szString.append( NEWLINE );
@@ -2249,7 +2312,7 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 	{
 		if (pHeadSelectedUnit != NULL)
 		{
-			if (pHeadSelectedUnit->isFound())
+			if (pHeadSelectedUnit->isFound()|| GC.getDefineINT("CVGAMETEXT_SHOW_CITYNAME_IN_MAP")  ==1)  //mediv01 显示地块城市名称
 			{
 				if (szName[0] != '-' || szName[1] != '1') // -1 is the base value for city name maps
 				{
@@ -2334,7 +2397,7 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 			int iCityDefenders = pPlot->plotCount(PUF_canDefendGroupHead, -1, -1, ePlayer, NO_TEAM, PUF_isCityAIType);
 			int iAttackGroups = pPlot->plotCount(PUF_isUnitAIType, UNITAI_ATTACK, -1, ePlayer);
 			szString.append(CvWString::format(L"\nDefenders [D+A]/N ([%d + %d] / %d)", iCityDefenders, iAttackGroups, pPlotCity->AI_neededDefenders()));
-
+			
 			szString.append(CvWString::format(L"\nFloating Defenders H/N (%d / %d)", kPlayer.AI_getTotalFloatingDefenders(pPlotCity->area()), kPlayer.AI_getTotalFloatingDefendersNeeded(pPlotCity->area())));
 			szString.append(CvWString::format(L"\nAir Defenders H/N (%d / %d)", pPlotCity->plot()->plotCount(PUF_canAirDefend, -1, -1, pPlotCity->getOwnerINLINE(), NO_TEAM, PUF_isDomainType, DOMAIN_AIR), pPlotCity->AI_neededAirDefenders()));
 //			int iHostileUnits = kPlayer.AI_countNumAreaHostileUnits(pPlotCity->area());

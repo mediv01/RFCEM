@@ -6923,7 +6923,39 @@ int CvPlot::calculateYield(YieldTypes eYield, bool bDisplay) const
 	if (bCity)
 	{
 		iYield = std::max(iYield, GC.getYieldInfo(eYield).getMinCity());
+		if (GC.getDefineINT("PLOT_CITY_FULL_YIELD_WHEN_SETTLE") == 1) {//mediv01 
+			int iAppliedImprovement = -1;
+			if (GC.getMap().getArea(getArea())->getNumTiles() <= 5 || 1 == 1)
+			{
+				if (getBonusType(GET_PLAYER(ePlayer).getTeam()) != NO_BONUS && eYield != (YieldTypes)0 || 1 == 1)
+				{
+					for (int iImprovement = 0; iImprovement < GC.getNumImprovementInfos(); iImprovement++)
+					{
+						if (GC.getImprovementInfo((ImprovementTypes)iImprovement).isImprovementBonusMakesValid(getBonusType(GET_PLAYER(ePlayer).getTeam())))
+						{
+							for (int iBuild = 0; iBuild < GC.getNumBuildInfos(); iBuild++)
+							{
+								if (GC.getBuildInfo((BuildTypes)iBuild).getImprovement() == iImprovement && GET_TEAM((TeamTypes)ePlayer).isHasTech((TechTypes)GC.getBuildInfo((BuildTypes)iBuild).getTechPrereq()))
+								{
+									if (!GC.getBuildInfo((BuildTypes)iBuild).isKill())
+									{
+										iAppliedImprovement = iImprovement;
+										break;
+										break;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 
+			if (iAppliedImprovement != -1)
+			{
+				iYield += calculateImprovementYieldChange((ImprovementTypes)iAppliedImprovement, eYield, ePlayer);
+			}
+
+		}
 		// Absinthe: Kiev: UP_CITY_TILE_YIELD
 		int iUPY = UniquePowers[pCity->getOwner() * UP_TOTAL_NUM + UP_CITY_TILE_YIELD];
 		if ( iUPY / 1000 == 1 )
