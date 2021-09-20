@@ -957,7 +957,6 @@ enum EraTypes							// Exposed to Python
 {
 	NO_ERA = -1,
 };
-
 enum CivilizationTypes		// Exposed to Python
 {
 	NO_CIVILIZATION = -1,
@@ -1031,6 +1030,18 @@ enum PlayerTypes				// Exposed to Python
 {
 	NO_PLAYER = -1,
 };
+
+
+
+// mediv01
+enum OperationType {
+	MIN,
+	MAX,
+	AVERAGE
+};
+
+
+
 
 enum TraitTypes					// Exposed to Python
 {

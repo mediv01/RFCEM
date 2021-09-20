@@ -1789,6 +1789,31 @@ bool CvCity::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible, bool b
 		return false;
 	}
 
+
+	// mediv01 增加最大城市和最大单位数限制
+	// add PLAYEROPTION_MAX_NUM_UNIT
+	if (GC.getDefineINT("ANYFUN_MAX_UNIT") > 0)
+	{
+		if (GET_PLAYER(getOwnerINLINE()).getNumUnits() >= GC.getDefineINT("ANYFUN_MAX_UNIT"))
+		{
+			return false;
+		}
+	}
+	// end add
+
+	// add PLAYEROPTION_MAX_NUM_CITY
+	if (GC.getUnitInfo(eUnit).isFound())
+	{
+		if (GC.getDefineINT("ANYFUN_MAX_CITY") > 0)
+		{
+			if (GET_PLAYER(getOwnerINLINE()).getNumCities() >= GC.getDefineINT("ANYFUN_MAX_CITY"))
+			{
+				return false;
+			}
+		}
+	}
+	// end add
+
 	// Absinthe: new code for AI persecution - Prosecutors can only be built in cities with state religion
 	if ( eUnit == UNIT_PROSECUTOR )
 	{

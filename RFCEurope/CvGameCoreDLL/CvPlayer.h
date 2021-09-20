@@ -1062,6 +1062,42 @@ public:
 	virtual int AI_maxGoldPerTurnTrade(PlayerTypes ePlayer) const = 0;
 	virtual int AI_maxGoldTrade(PlayerTypes ePlayer) const = 0;
 
+	// mediv01
+	//// add PLAYEROPTION_CONQUESTINCENTIVE  // mediv01
+	void doConquestIncentive(const PlayerTypes& eOldOwner);
+	PlayerTypes m_eCILastKillMe;
+	PlayerTypes getCILastKillMe() const { return m_eCILastKillMe; }
+	void setCILastKillMe(PlayerTypes eWho = NO_PLAYER) { m_eCILastKillMe = eWho; }
+
+
+	bool* m_pbPlayerTrait;
+	int* m_piUniqueBuildings;
+	int* m_piUniqueUnits;
+	// add PLAYEROPTION_MASTER_VASSAL_UB
+	int* m_piVassalUniqueBuildings;
+	// add PLAYEROPTION_MASTER_VASSAL_UU
+	int* m_piVassalUniqueUnits;
+
+	int getUniqueBuildings(int i) const;
+	int getUniqueUnits(int i) const;
+	void setUniqueBuildings(int i, int iB);
+	void setUniqueUnits(int i, int iU);
+
+	int getVassalUniqueBuildings(int i) const;
+	void setVassalUniqueBuildings(int i, int iP);
+	int getVassalUniqueUnits(int i) const;
+	void setVassalUniqueUnits(int i, int iP);
+
+
+	//// end add
+
+
+
+
+
+
+
+
 	int verifySettlersHalt(int threshold); //Rhye
 	DllExport int getSettlersMaps(int y, int x) const; //Rhye
 	DllExport int getWarsMaps(int y, int x) const; //Absinthe

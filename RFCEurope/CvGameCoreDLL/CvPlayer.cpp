@@ -87,6 +87,9 @@ CvPlayer::CvPlayer()
 	m_ppaaiSpecialistExtraYield = NULL;
 	m_ppaaiImprovementYieldChange = NULL;
 
+	m_eCILastKillMe = NO_PLAYER;  // mediv01
+
+
 	//Rhye (jdog) - start ---------------------
 	CvWString m_szName;
 	CvWString m_szCivDesc;
@@ -150,6 +153,92 @@ CvPlayer::~CvPlayer()
 	SAFE_DELETE_ARRAY(m_abFeatAccomplished);
 	SAFE_DELETE_ARRAY(m_abOptions);
 }
+
+
+// add PLAYEROPTION_CONQUESTINCENTIVE  //mediv01
+void CvPlayer::doConquestIncentive(const PlayerTypes& eOldOwner)
+{
+	if (isBarbarian() || getID() == eOldOwner)
+	{
+		return;
+	}
+
+
+	//CvWString log_CWstring;
+	CvPlayer& kTragePlayer = GET_PLAYER(eOldOwner);
+
+	CvWString szBuffer;
+	//CvCity* pLoopCity;
+	int iI = 0;
+	int iLoop = 0;
+
+
+	PlayerTypes PlayerKilled = eOldOwner;
+	PlayerTypes PlayerWinner = GET_PLAYER(PlayerKilled).getCILastKillMe();
+
+
+	if (PlayerKilled == NULL || PlayerWinner == NULL) {
+		return;
+	}
+	if (PlayerKilled == NO_PLAYER || PlayerWinner == NO_PLAYER) {
+		return;
+	}
+
+	if (GC.getDefineINT("ANYFUN_CONQUEST_GET_GOLD") == 1)
+	{
+		const int year = GC.getGame().getGameTurnYear();
+
+
+
+
+
+		int old_player_gold = GET_PLAYER(PlayerKilled).getGold();
+		GET_PLAYER(PlayerWinner).changeGold(old_player_gold);
+
+		if (GC.getDefineINT("CVGAMECORE_LOG_AI_CONQUEST_TECH_AND_GOLD") > 0) {
+			log_CWstring.Format(L"%s 征服了 %s", GET_PLAYER(PlayerWinner).getCivilizationDescription(), GET_PLAYER(PlayerKilled).getCivilizationDescription());
+			GC.logswithid(PlayerWinner, log_CWstring, "DoC_SmallMap_DLL_Log_Conquest.log");
+			log_CWstring.Format(L"%s 征服文明获得金币: %d ", GET_PLAYER(PlayerWinner).getCivilizationDescription(), old_player_gold);
+			GC.logswithid(PlayerWinner, log_CWstring, "DoC_SmallMap_DLL_Log_Conquest.log");
+		}
+		gDLL->getInterfaceIFace()->addMessage(getID(), true, GC.getEVENT_MESSAGE_TIME(), log_CWstring, NULL, MESSAGE_TYPE_MAJOR_EVENT);
+
+
+
+
+	}
+
+
+	// add PLAYEROPTION_CONQUEST_TECH  //mediv01 征服获得科技
+	if (GC.getDefineINT("ANYFUN_CONQUEST_GET_TECH") == 1)
+	{
+		for (iI = 0; iI < GC.getNumTechInfos(); ++iI)
+		{
+			if (GET_TEAM(GET_PLAYER(PlayerKilled).getTeam()).isHasTech((TechTypes)iI))
+			{
+
+				if (!GET_TEAM(GET_PLAYER(PlayerWinner).getTeam()).isHasTech((TechTypes)iI))
+				{
+
+					if (GC.getDefineINT("CVGAMECORE_LOG_AI_CONQUEST_TECH_AND_GOLD") > 0) {
+						log_CWstring.Format(L"%s 征服文明获得科技: %s", GET_PLAYER(PlayerWinner).getCivilizationDescription(), GC.getTechInfo((TechTypes)iI).getDescription());
+						GC.logswithid(PlayerWinner, log_CWstring, "DoC_SmallMap_DLL_Log_Conquest.log");
+					}
+
+
+					GET_TEAM(GET_PLAYER(PlayerWinner).getTeam()).setHasTech((TechTypes)iI, true, NO_PLAYER, false, false);
+
+
+					szBuffer.Format(L"%s" SETCOLR L"%s" ENDCOLR, gDLL->getText("TXT_KEY_ANYFUNMOD_GAME_OPTION_CONQUEST_TECH_MSG").GetCString(), TEXT_COLOR("COLOR_YELLOW"), GC.getTechInfo((TechTypes)iI).getDescription());
+					gDLL->getInterfaceIFace()->addMessage(getID(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, NULL, MESSAGE_TYPE_MAJOR_EVENT);
+				}
+			}
+		}
+	}
+
+}
+// end add
+
 
 
 void CvPlayer::init(PlayerTypes eID)
@@ -6965,6 +7054,11 @@ int CvPlayer::calculateUnitSupply(int& iPaidUnits, int& iBaseSupplyCost) const
 
 	FAssert(iSupply >= 0);
 
+	if (GC.getDefineINT("ANYFUN_ENABLES_FREE_OUTSIDE_UNIT"))// mediv01 在外单位没有远距离维护费选项
+	{
+		iSupply = 0;
+	}
+
 	return iSupply;
 }
 
@@ -10637,8 +10731,6 @@ void CvPlayer::setAlive(bool bNewValue)
 		GC.getGameINLINE().setScoreDirty(true);
 	}
 }
-
-
 void CvPlayer::verifyAlive()
 {
 	bool bKill;

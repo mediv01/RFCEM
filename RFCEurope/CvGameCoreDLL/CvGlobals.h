@@ -129,6 +129,34 @@ class CvUnitArtStyleTypeInfo;
 class CvVoteSourceInfo;
 class CvMainMenuInfo;
 
+//第一阶段修复使用的参数
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG1 = 1; //mediv01 主要是PLOT空指针错误
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG2 = 1; //mediv01 主要是内存泄露错误
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG3 = 1; //mediv01 IF条件里重复判断的BUG
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG4 = 1; //mediv01 不太有把握的空指针
+
+//第二阶段修复使用的参数
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG5 = 1; //mediv01 主要是PLOT空指针错误
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG6 = 1; //mediv01 主要是内存泄露错误
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG7 = 1; //mediv01 不太有把握的空指针
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG8 = 1; //mediv01 预留
+
+//引入Wunshare Performance UP中的内容
+static const int CVGAMECORE_FIX_BUG_PERFORMANCE_UP01 = 1; //mediv01 修正Cyplayer中的部分性能问题
+static const int CVGAMECORE_FIX_BUG_PERFORMANCE_UP02 = 1; //mediv01 预留
+static const int CVGAMECORE_FIX_BUG_PERFORMANCE_UP03 = 1; //mediv01 预留
+static const int CVGAMECORE_FIX_BUG_PERFORMANCE_UP04 = 1; //mediv01 预留
+
+static const int CVGAMECORE_NEW_AUTOSAVE_FEATURE = 1;
+// 启用新的AutoSave机制，在游戏回合结束时保存游戏，而不是游戏回合开始时
+//mediv01  游戏BUG修复参数结束
+
+//全局变量区
+static CvWString log_CWstring;
+static CvString log_CvString;
+
+
+
 
 class CvGlobals
 {
@@ -679,6 +707,36 @@ public:
 
 	DllExport FVariableSystem* getDefinesVarSystem();
 	DllExport void cacheGlobals();
+
+	// mediv01
+
+	DllExport int AI_foundValue(int PlayerID, int iX, int iY, int iMinRivalRange, bool bStartingLoc) const;
+
+	//mediv01
+	int AItradeTechValList(PlayerTypes eWhoTo, PlayerTypes eMyPlayer, TechTypes iTech, OperationType Operation) const;
+	bool AIcantradeTech(PlayerTypes eWhoTo, PlayerTypes eMyPlayer, TechTypes iTech) const;
+
+	DllExport void logswithid(PlayerTypes PlayerID, CvWString& buf, CvString filename) const;
+	DllExport void logs(CvWString& buf, CvString filename) const;
+	//DllExport void logs(CvString buf, CvString filename) const;
+	DllExport void logs(wchar* buf, CvString filename) const;
+	DllExport void logs(char* buf, CvString filename) const;
+	DllExport void logs(const CvWString& buf, CvString filename) const;
+	//DllExport void logs(const CvString buf, CvString filename) const;
+	DllExport void logs(const wchar* buf, CvString filename) const;
+	DllExport void logs(const char* buf, CvString filename) const;
+	DllExport void debug() const;
+	DllExport int showAIstrategy(int iPlayer) const;
+
+	DllExport bool isHuman(PlayerTypes PlayerID) const;
+	PlayerTypes getHumanID() const;
+	int getGameTurn() const;
+	int getGameTurnYear() const;
+
+
+
+
+
 
 	// ***** EXPOSED TO PYTHON *****
 	DllExport int getDefineINT( const char * szName ) const;

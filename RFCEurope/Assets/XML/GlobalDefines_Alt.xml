@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="GBK"?>
+<?xml version="1.0" ?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) -->
 <!-- Sid Meier's Civilization 4 -->
-<!-- -->
+<!-- encoding="GBK"  -->
 <!-- Global Defines -->
 <Civ4Defines xmlns="x-schema:CIV4GlobalDefinesSchema.xml">
     <Define>
@@ -36,7 +36,7 @@
         <iDefineIntVal>1</iDefineIntVal>
     </Define>
     
-    <!--mediv01 修改-->
+s    <!--mediv01 修改-->
         <Define>
         <DefineName>PLOT_VISIBILITY_RANGE</DefineName>
         <iDefineIntVal>3</iDefineIntVal>
@@ -46,13 +46,64 @@
         <iDefineIntVal>3</iDefineIntVal>
     </Define>
     
+	
+	
+	
+	
     <!--mediv01 新增-->
 
-    
+       <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  ANYFUN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+    <Define>
+        <DefineName>ANYFUN_ALERT_FOR_WORLD_WONDER</DefineName>  <!--mediv01 新增，建奇观会全局提醒 0为默认模式-->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+    <Define>
+        <DefineName>ANYFUN_ALERT_FOR_ANY_BUILDING</DefineName>        <!-- 1为AI新建任何建筑时在屏幕显示提示信息，0为默认模式 mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>ANYFUN_CONQUEST_GET_TECH</DefineName>        <!-- 1为征服其他文明获得该文明的科技，0为默认模式 mediv01  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>ANYFUN_CONQUEST_GET_GOLD</DefineName>        <!-- 1为彻底征服文明可以获得该文明的所有金币 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+   <Define>
+        <DefineName>ANYFUN_MAX_UNIT</DefineName>        <!-- 大于0的数字，为每个玩家最大的单位数 -1为默认模式  mediv01  -->
+        <iDefineIntVal>-1</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>ANYFUN_MAX_CITY</DefineName>        <!-- 大于0的数字，为每个玩家最大的城市数  -1为默认模式  mediv01  -->
+        <iDefineIntVal>-1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>ANYFUN_ENABLES_FREE_OUTSIDE_UNIT</DefineName>        <!-- 为1时在外单位没有维护费  0为默认模式  mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>ANYFUN_DISABLE_COMBAT_LIMIT</DefineName>        <!-- 为1时取消单位伤害上限，例如投石车等攻城武器不再有75%的伤害上限  0为默认模式  mediv01  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+
+    <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  CVGAMETEXT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+
     <Define>
         <DefineName>CVGAMETEXT_SHOW_X_AND_Y_IN_MAP</DefineName>  <!--mediv01 新增，地图上显示X和Y 0为默认模式-->
         <iDefineIntVal>1</iDefineIntVal>
     </Define>
+
 
     <Define>
         <DefineName>CVGAMETEXT_SHOW_CITYNAME_IN_MAP</DefineName>  <!--mediv01 新增，地图上显示城市名字 0为默认模式-->
@@ -68,12 +119,134 @@
         <DefineName>CVGAMETEXT_SHOW_MINOR_BIRTH_IN_MAP</DefineName>  <!--mediv01 新增，地图上显示准备出生的城市位置 0为默认模式-->
         <iDefineIntVal>1</iDefineIntVal>
     </Define>
+		
     
-    
+  <Define>
+        <DefineName>CVGAMETEXT_SHOW_TRADE_GOLD_IN_MAP</DefineName>  <!--mediv01 新增，地图上显示大商业家贸易金额 0为默认模式 此参数在RFCE无用，且会报错，应当设置为0-->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+
     <Define>
-        <DefineName>CVGAMETEXT_SHOW_TRADE_GOLD_IN_MAP</DefineName>  <!--mediv01 新增，地图上显示大商业家贸易金额 0为默认模式-->
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY1</DefineName>        <!-- 1为显示科技树科技是否首发 0为默认模式 mediv01 -->
         <iDefineIntVal>1</iDefineIntVal>
     </Define>
+
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY2</DefineName>        <!-- 1为显示科技树科技被哪些国家研究 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY2_SHOW_DEAD</DefineName>        <!-- 1为显示科技树科技研究列表是否显示已经崩溃的国家 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY2_MAX</DefineName>        <!-- 1为显示科技树科技被哪些国家研究列表的最大数量 999为默认模式 mediv01 -->
+        <iDefineIntVal>5</iDefineIntVal>
+    </Define>
+
+     <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY3</DefineName>        <!-- 1为显示科技树科技尚未被哪些国家研究 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY3_MAX</DefineName>        <!-- 1为显示科技树科技尚未被哪些国家研究列表的最大数量 999为默认模式 mediv01 -->
+        <iDefineIntVal>999</iDefineIntVal>
+    </Define>
+	
+	    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY3_MINVALUE</DefineName>        <!-- 大于0的数字为显示可出售的科技的值 999为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+  
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_BEING_RESEARCH</DefineName>        <!-- 1为显示科技树科技正在被哪些国家研究 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+	
+	<Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY3_HIGHLIGHT_MINVALUE</DefineName>        <!-- 大于0的数字为高亮显示科技交易的价值比例 80代表是80% 0为默认模式 mediv01 -->
+        <iDefineIntVal>80</iDefineIntVal>
+    </Define>
+
+		<Define>
+        <DefineName>CVTEAM_TECH_COST_BY_ERA</DefineName>        <!-- 大于0的数字为显示科技组当前年份 无惩罚 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY_INFO</DefineName>        <!-- 1为显示伟人点科技的科技值 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+	    <Define>
+        <DefineName>CVGAMETEXT_TRADE_SHOW_VALUE</DefineName>        <!-- 1为显示交易价值 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>   
+
+
+    <Define>
+        <DefineName>CVGAMETEXT_TRADE_SHOW_ASK_VALUE</DefineName>        <!-- 1为显示交勒索价值 感觉没什么用，建议关闭，0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+	
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_ENERMY_AREA</DefineName>        <!-- 1为显示敌人区域 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     <Define>
         <DefineName>CVUNITAI_AI_NOT_PILLAGE</DefineName>  <!--mediv01 新增，AI不会劫掠设备 0为默认模式-->
@@ -81,10 +254,7 @@
     </Define>
     
     
-    <Define>
-        <DefineName>ANYFUN_ALERT_FOR_WORLD_WONDER</DefineName>  <!--mediv01 新增，建奇观会全局提醒 0为默认模式-->
-        <iDefineIntVal>1</iDefineIntVal>
-    </Define>
+
     
     
     <Define>

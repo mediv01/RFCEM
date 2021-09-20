@@ -3322,6 +3322,13 @@ void CvUnitInfo::setCombat(int iNum)
 
 int CvUnitInfo::getCombatLimit() const
 {
+	// add PLAYEROPTION_DISABLE_COMBAT_LIMIT
+    // mediv01 取消单位伤害上限
+	if (GC.getDefineINT("ANYFUN_DISABLE_COMBAT_LIMIT") == 1)
+	{
+		return 100;
+	}
+	// end add
 	return m_iCombatLimit;
 }
 

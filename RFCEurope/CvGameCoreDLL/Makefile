@@ -36,7 +36,8 @@ GLOBALPYTHON = $(INSTALLDIR)\CvGameCoreDLL\Python24
 
 #### MOD Info ####
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
-OUTPUT = $(INSTALLDIR)\dll
+#OUTPUT = $(INSTALLDIR)\dll
+OUTPUT = D:\GIT\CIV4_MOD\RFCEM\RFCEurope\Assets
 Debug_MOD_CFLAGS =
 Release_MOD_CFLAGS =
 Final_Release_MOD_CFLAGS =
