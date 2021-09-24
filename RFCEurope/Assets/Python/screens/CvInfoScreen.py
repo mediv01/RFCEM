@@ -2033,8 +2033,8 @@ class CvInfoScreen:
 
 								# Absinthe: world wonder display
 								if (pCity.getNumBuilding(iBuildingLoop) > 0):
-									if (iPlayerTeam == gc.getPlayer(self.iActivePlayer).getTeam() or gc.getTeam(gc.getPlayer(self.iActivePlayer).getTeam()).isHasMet(iPlayerTeam)):
-										if (pCity.isRevealed(gc.getGame().getActiveTeam())):
+									if (iPlayerTeam == gc.getPlayer(self.iActivePlayer).getTeam() or gc.getTeam(gc.getPlayer(self.iActivePlayer).getTeam()).isHasMet(iPlayerTeam)  or gc.getDefineINT("PYTHON_ALWAYS_SHOW_WONDER_BEING_BUILD") == 1):
+										if (pCity.isRevealed(gc.getGame().getActiveTeam())  or gc.getDefineINT("PYTHON_ALWAYS_SHOW_WONDER_BEING_BUILD") == 1):
 											self.aaWondersBuilt.append([pCity.getBuildingOriginalTime(iBuildingLoop),iBuildingLoop,pPlayer.getCivilizationShortDescription(0),localText.getText("TXT_KEY_INFO_WONDER_CITY_NAME", (pCity.getName(),))])
 										else:
 											self.aaWondersBuilt.append([pCity.getBuildingOriginalTime(iBuildingLoop),iBuildingLoop,pPlayer.getCivilizationShortDescription(0),localText.getText("TXT_KEY_INFO_UNKNOWN_CITY", ())])
@@ -2058,8 +2058,8 @@ class CvInfoScreen:
 
 								# Absinthe: national wonder display - added code, but note that RFCE only shows own national wonders ATM
 								if (pCity.getNumBuilding(iBuildingLoop) > 0):
-									if (iPlayerTeam == gc.getPlayer(self.iActivePlayer).getTeam() or gc.getTeam(gc.getPlayer(self.iActivePlayer).getTeam()).isHasMet(iPlayerTeam)):
-										if (pCity.isRevealed(gc.getGame().getActiveTeam())):
+									if (iPlayerTeam == gc.getPlayer(self.iActivePlayer).getTeam() or gc.getTeam(gc.getPlayer(self.iActivePlayer).getTeam()).isHasMet(iPlayerTeam)  or gc.getDefineINT("PYTHON_ALWAYS_SHOW_WONDER_BEING_BUILD") == 1):
+										if (pCity.isRevealed(gc.getGame().getActiveTeam())  or gc.getDefineINT("PYTHON_ALWAYS_SHOW_WONDER_BEING_BUILD") == 1):
 											self.aaWondersBuilt.append([pCity.getBuildingOriginalTime(iBuildingLoop),iBuildingLoop,pPlayer.getCivilizationShortDescription(0),localText.getText("TXT_KEY_INFO_WONDER_CITY_NAME", (pCity.getName(),))])
 										else:
 											self.aaWondersBuilt.append([pCity.getBuildingOriginalTime(iBuildingLoop),iBuildingLoop,pPlayer.getCivilizationShortDescription(0),localText.getText("TXT_KEY_INFO_UNKNOWN_CITY", ())])

@@ -523,6 +523,9 @@ class CvVictoryScreen:
 		screen.setTableColumnHeader(szTable, 5, "", self.TABLE_WIDTH_5)
 		screen.appendTableRow(szTable)
 
+
+
+
 		for iLoopVC in range(gc.getNumVictoryInfos()):
 			victory = gc.getVictoryInfo(iLoopVC)
 			if (gc.getGame().isVictoryValid(iLoopVC) and (iLoopVC != 7) and (iLoopVC != 6)): # 3Miro: Changes to the Victory screen
@@ -821,6 +824,20 @@ class CvVictoryScreen:
 			for j in range(gc.getMAX_PLAYERS()):
 				if (gc.getPlayer(j).isAlive()):
 					screen.addPullDownString(self.szDropdownName, gc.getPlayer(j).getName(), j, j, False )
+
+		# mediv01
+		if (xml.PYTHON_SCREEN_VICTORY_TIPS == 1):
+			iRow = screen.appendTableRow(szTable)
+			screen.setTableText(szTable, 0, iRow, localText.getText("TXT_KEY_VICTORY_TIPS_IN_SCREEN", ()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+
+			import ScreenTips
+			aHelpStrings=ScreenTips.getScreenHelp()
+			if len(aHelpStrings) > 0:
+				for szHelp in aHelpStrings:
+					iRow = screen.appendTableRow(szTable)
+					szHelp = '    ' + szHelp
+					screen.setTableText(szTable, 0, iRow, szHelp, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+
 
 		self.drawTabs()
 

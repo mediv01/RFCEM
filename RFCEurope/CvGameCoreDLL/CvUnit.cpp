@@ -680,6 +680,46 @@ void CvUnit::kill(bool bDelay, PlayerTypes ePlayer)
 
 	GET_PLAYER(getOwnerINLINE()).deleteUnit(getID());
 
+	//mediv01 可以抓敌方的伟人
+	if (GC.getDefineINT("CVUNIT_CAN_CAPTURE_GREAT_PEOPLE") > 0) {
+		UnitTypes eCapturedUnitType = getUnitType();
+		enum GreatPeopleTypes				// Exposed to Python
+		{
+			NO_GREATEOPLE = -1,
+			iGreatProphet = 190,
+			iGreatArtist = 191,
+			iGreatScientist = 192,
+			iGreatMerchant = 193,
+			iGreatEngineer = 194,
+			iGreatStatesman = 195,
+
+		};
+		if (eCapturingPlayer != NO_PLAYER && eCapturedUnitType != NO_UNIT) {
+			int eCapturedUnitTypeID = (int)eCapturedUnitType;
+			std::vector<int> greatpeople_list;
+			greatpeople_list.push_back(iGreatProphet);
+			greatpeople_list.push_back(iGreatArtist);
+			greatpeople_list.push_back(iGreatScientist);
+			greatpeople_list.push_back(iGreatMerchant);
+			greatpeople_list.push_back(iGreatEngineer);
+			greatpeople_list.push_back(iGreatStatesman);
+
+			if (std::count(greatpeople_list.begin(), greatpeople_list.end(), eCapturedUnitTypeID)) {
+				UnitTypes eGreatPersonUnit = eCapturedUnitType;
+				CvUnit* pGreatPeopleUnit = GET_PLAYER(eCapturingPlayer).initUnit(eGreatPersonUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE());
+				if (pGreatPeopleUnit != NULL) {
+					szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_CAPTURED_UNIT", GC.getUnitInfo(eGreatPersonUnit).getTextKeyWide());
+					gDLL->getInterfaceIFace()->addMessage(eCapturingPlayer, true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_UNITCAPTURE", MESSAGE_TYPE_INFO, pGreatPeopleUnit->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+				}
+			}
+
+
+		}
+
+	}
+
+
+
 	if ((eCapturingPlayer != NO_PLAYER) && (eCaptureUnitType != NO_UNIT) && !(GET_PLAYER(eCapturingPlayer).isBarbarian()))
 	{
 		if (GET_PLAYER(eCapturingPlayer).isHuman() || GET_PLAYER(eCapturingPlayer).AI_captureUnit(eCaptureUnitType, pPlot) || 0 == GC.getDefineINT("AI_CAN_DISBAND_UNITS"))
@@ -2208,6 +2248,21 @@ bool CvUnit::generatePath(const CvPlot* pToPlot, int iFlags, bool bReuse, int* p
 bool CvUnit::canEnterTerritory(TeamTypes eTeam, bool bIgnoreRightOfPassage) const
 {
 	//GC.getGame().logMsg("  Enter Territory called " );
+
+
+	//mediv01 所有单位是否能进入领土
+	if (GC.getDefineINT("CVUNIT_CAN_ALWAYS_ENTER_TERRITORY") == 1) {
+		if (isHuman()) {
+			return true;
+		}
+	}
+	//mediv01 海上单位是否能进入领土
+	if (GC.getDefineINT("CVUNIT_SHIP_CAN_ALWAYS_ENTER_TERRITORY") == 1 && DOMAIN_SEA == getDomainType()) {
+		if (isHuman()) {
+			return true;
+		}
+	}
+
 	if (GET_TEAM(getTeam()).isFriendlyTerritory(eTeam))
 	{
 		//GC.getGame().logMsg("  Friendly Territory " );
@@ -2276,6 +2331,12 @@ bool CvUnit::canEnterTerritory(TeamTypes eTeam, bool bIgnoreRightOfPassage) cons
 bool CvUnit::canEnterArea(TeamTypes eTeam, const CvArea* pArea, bool bIgnoreRightOfPassage) const
 {
 	if (!canEnterTerritory(eTeam, bIgnoreRightOfPassage))
+	{
+		return false;
+	}
+
+
+	if (isBarbarian() && GET_PLAYER(getOwnerINLINE()).isMinorCiv() && DOMAIN_LAND == getDomainType() && GC.getDefineINT("CVUNIT_BARBARIAN_CANNOT_ENTER") == 1)//mediv01 设置参数，野蛮人不进入国境
 	{
 		return false;
 	}
@@ -2367,7 +2428,23 @@ bool CvUnit::canMoveInto(const CvPlot* pPlot, bool bAttack, bool bDeclareWar, bo
 		if ( (getOwner() == BARBARIAN) && (pPlot ->getPlotCity() ->getOwner() == PAPAL_PLAYER) ){
 			return false;
 		};
-	};
+	}
+	
+	// mediv01
+	if (GC.getDefineINT("CVUNIT_AI_NOT_TAKE_GOODY") > 0) {
+		if (!isHuman() && pPlot->isGoody()) {
+			return false;
+		}
+	}
+
+
+	//mediv01 限制单元格最大单位数
+	if (GC.getDefineINT("CVUNIT_MAX_UNIT_PER_PLOT") > 0) {
+		if (pPlot->getNumUnits() >= GC.getDefineINT("CVUNIT_MAX_UNIT_PER_PLOT") && !pPlot->isCity()) {
+			return false;
+		}
+	}
+	;
 
 	if (atPlot(pPlot))
 	{
@@ -2544,7 +2621,8 @@ bool CvUnit::canMoveInto(const CvPlot* pPlot, bool bAttack, bool bDeclareWar, bo
 
 	if (isAnimal())
 	{
-		if (pPlot->isOwned())
+		if (pPlot->isOwned() && (!GC.getDefineINT("CVUNIT_ANIMAL_CAN_ENTER_COUNTRY") == 1))
+			//mediv01 动物不能进入国界内
 		{
 			return false;
 		}
@@ -3088,7 +3166,24 @@ void CvUnit::scrap()
 		return;
 	}
 
+	if (GC.getDefineINT("CVUNIT_DISBAND_CAN_GIVE_GOLD") == 1) {//mediv01 解散单位获得收入
+
+		int money = getUnitInfo().getProductionCost() * GC.getDefineINT("CVUNIT_DISBAND_GIVE_GOLD_PERCENT") / 100;
+
+
+		if (GC.getDefineINT("CVUNIT_DISBAND_GIVE_GOLD") > 0) {
+			money = GC.getDefineINT("CVUNIT_DISBAND_GIVE_GOLD");
+		}
+
+		GET_PLAYER(getOwnerINLINE()).changeGold(money);
+
+	}
+
+
 	kill(true);
+
+
+
 }
 
 
@@ -3096,6 +3191,10 @@ bool CvUnit::canGift(bool bTestVisible, bool bTestTransport)
 {
 	CvPlot* pPlot = plot();
 	CvUnit* pTransport = getTransportUnit();
+
+	if (GC.getDefineINT("CVUNIT_CAN_GIFT_UNIT_TO_OTHER") == 1) {//mediv01 可以将单位任意赠送
+		return true;
+	}
 
 	if (!(pPlot->isOwned()))
 	{
@@ -3589,6 +3688,20 @@ bool CvUnit::canHeal(const CvPlot* pPlot) const
 	{
 		return false;
 	}
+
+	// Leoreth: hidden nationality units can enter cities with open borders but don't let them heal there because it's an easy area to retreat to
+	//mediv01 私掠单位可以在中立领土疗伤
+	if (GC.getDefineINT("CVUNIT_CAN_HEAL_FOR_SACK") == 1) {
+
+	}
+	else {
+		if (m_pUnitInfo->isHiddenNationality() && pPlot->isCity() && pPlot->getPlotCity()->getOwnerINLINE() != getOwnerINLINE())
+		{
+			return false;
+		}
+	}
+
+
 
 	return true;
 }
@@ -5698,6 +5811,10 @@ bool CvUnit::canJoin(const CvPlot* pPlot, SpecialistTypes eSpecialist) const
 {
 	CvCity* pCity;
 
+	if (workRate(true) >0 && GC.getDefineINT("CVUNIT_WORKER_CAN_JOIN_CITY") != 1) {//mediv01 工人能够加入城市
+		return false;
+	}
+
 	if (eSpecialist == NO_SPECIALIST)
 	{
 		return false;
@@ -5939,7 +6056,36 @@ int CvUnit::getHurryProduction(const CvPlot* pPlot) const
 
 	iProduction = getMaxHurryProduction(pCity);
 
-	iProduction = std::min(pCity->productionLeft(), iProduction);
+	if (GC.getDefineINT("CVUNIT_GREAT_ENGINEER_ACCELERATE_USE_MODIFIER") > 0) {
+		//加速锤子数和修正系数有关
+
+
+		BuildingTypes eBuilding = pCity->getProductionBuilding();
+		//这里需要做判断 如果城市处于反抗状态，返回的值是-1，会报错
+		if (eBuilding == NULL || eBuilding == NO_BUILDING || (int)eBuilding == -1) {
+		}
+		else {
+
+			int iProductionModifier = pCity->getProductionModifier(eBuilding);
+			iProduction = iProduction * (1 + iProductionModifier / 100);
+		}
+
+		/*
+		CvString log_CvString;
+		int playerid = (int)GC.getGameINLINE().getActivePlayer();
+		log_CvString = log_CvString.format("当前修正量为 %d ", iProductionModifier);
+		GC.logs(log_CvString, (CvString)"TEST.log");
+		*/
+
+
+	}
+
+	if (GC.getDefineINT("CVUNIT_GREAT_ENGINEER_ACCELERATE_UNLIMITED") > 0) {
+
+	}
+	else {
+		iProduction = std::min(pCity->productionLeft(), iProduction);
+	}
 
 	return std::max(0, iProduction);
 }
@@ -6386,6 +6532,13 @@ bool CvUnit::testSpyIntercepted(PlayerTypes eTargetPlayer, int iModifier)
 		return false;
 	}
 
+	// mediv01 人类玩家间谍暴露不会被杀害
+	if (GC.getDefineINT("CVUNIT_HUMAN_SPY_CANNOT_REVEAL") > 0) {
+		if (getID() == GC.getGame().getActivePlayer()) {
+			return false;
+		}
+	}
+
 	CvString szFormatNoReveal;
 	CvString szFormatReveal;
 
@@ -6575,7 +6728,13 @@ bool CvUnit::build(BuildTypes eBuild)
 	{
 		if (GC.getBuildInfo(eBuild).isKill())
 		{
-			kill(true);
+			//mediv01 渔船建造后可以重复利用
+			if (GC.getDefineINT("CVUNIT_FISHING_BOAT_CAN_BE_REUSED") == 1) {
+
+			}
+			else {
+				kill(true);
+			}
 		}
 	}
 
@@ -7399,7 +7558,13 @@ int CvUnit::visibilityRange() const
 
 int CvUnit::baseMoves() const
 {
-	return (m_pUnitInfo->getMoves() + getExtraMoves() + GET_TEAM(getTeam()).getExtraMoves(getDomainType()));
+	int iMove = (m_pUnitInfo->getMoves() + getExtraMoves() + GET_TEAM(getTeam()).getExtraMoves(getDomainType()));
+	//mediv01 多倍移动力选项
+	if (GC.getDefineINT("CVUNIT_MOVE_MULTIPILIER") > 0) {
+		iMove = iMove * GC.getDefineINT("CVUNIT_MOVE_MULTIPILIER");
+	}
+
+	return iMove;
 }
 
 

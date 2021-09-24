@@ -3938,14 +3938,17 @@ bool CvPlayer::canContact(PlayerTypes ePlayer) const
 		return false;
 	}
 
-	if (isBarbarian() || GET_PLAYER(ePlayer).isBarbarian())
-	{
-		return false;
-	}
+	//mediv01 测试能联系野蛮人和独立城邦
+	if (!GC.getDefineINT("CVPLAYER_CAN_CONTACT_BARBARIAN") == 1) {
+		if (isBarbarian() || GET_PLAYER(ePlayer).isBarbarian())
+		{
+			return false;
+		}
 
-	if (isMinorCiv() || GET_PLAYER(ePlayer).isMinorCiv())
-	{
-		return false;
+		if (isMinorCiv() || GET_PLAYER(ePlayer).isMinorCiv())
+		{
+			return false;
+		}
 	}
 
 	// 3MiroPapal: (not Working) I got it and I think this should stay as is
@@ -4330,6 +4333,12 @@ bool CvPlayer::canTradeItem(PlayerTypes eWhoTo, TradeData item, bool bTestDenial
 						return true;
 					}
 
+					if (GC.getDefineINT("CVPLAYER_CAN_ALWAYS_TRADE_CITY") > 0) {
+						if (GET_PLAYER(eWhoTo).isHuman()) {
+							return true;
+						}
+					}
+
 					if (GET_PLAYER(eWhoTo).canReceiveTradeCity())
 					{
 						if (0 == GC.getGameINLINE().getMaxCityElimination())
@@ -4382,7 +4391,7 @@ bool CvPlayer::canTradeItem(PlayerTypes eWhoTo, TradeData item, bool bTestDenial
 
 	case TRADE_VASSAL:
 	case TRADE_SURRENDER:
-		if (!isHuman() || GET_PLAYER(eWhoTo).isHuman()) //  human can't be vassal of AI
+		if (!isHuman() || GET_PLAYER(eWhoTo).isHuman() || GC.getDefineINT("CVGAME_HUMAN_CAN_VASSAL_TO_AI") == 1) //  human can't be vassal of AI  //mediv01 人类可以向AI附庸
 		{
 			// 3MiroPapal: Pope cannot surrender, cannot surrender to the Pope
 			if ( getID() != PAPAL_PLAYER && eWhoTo != PAPAL_PLAYER )
@@ -6967,7 +6976,15 @@ int CvPlayer::calculateUnitCost(int& iFreeUnits, int& iFreeMilitaryUnits, int& i
 
 	iBaseUnitCost = iPaidUnits * getGoldPerUnit();
 	iMilitaryCost = iPaidMilitaryUnits * getGoldPerMilitaryUnit();
-	iExtraCost = getExtraUnitCost();
+
+
+	//加速军事单位产生的费用
+	if (GC.getDefineINT("CVPLAYER_NO_EXTRA_COST_FOR_HURRY") > 0) {
+		iExtraCost = 0;
+	}
+	else {
+		iExtraCost = getExtraUnitCost();
+	}
 
 	iSupport = iMilitaryCost + iBaseUnitCost + iExtraCost;
 
@@ -8434,6 +8451,11 @@ int CvPlayer::getReligionAnarchyLength() const
 
 int CvPlayer::unitsRequiredForGoldenAge() const
 {
+	//mediv01 黄金时代消耗的伟人数量
+	if (GC.getDefineINT("CVPLAYER_GOLEN_AGE_UNIT_REQUIRED") > 0) {
+		return GC.getDefineINT("CVPLAYER_GOLEN_AGE_UNIT_REQUIRED");
+	}
+
 	return (GC.getDefineINT("BASE_GOLDEN_AGE_UNITS") + (getNumUnitGoldenAges() * GC.getDefineINT("GOLDEN_AGE_UNITS_MULTIPLIER")));
 }
 
@@ -10451,7 +10473,29 @@ int CvPlayer::getLandScore(bool bCheckVassal) const
 		}
 	}
 
-	return (m_iLandScore + iVassalScore  / std::max(1, GET_TEAM(getTeam()).getNumMembers()));
+
+	//MEDIV01
+	//计算分数时带上金币数量
+	int iMoneyScore = 0;
+	int iPowerScore = 0;
+	if (GC.getDefineINT("CVPLAYER_NEW_GAMESCORE_METHOD_MONEY_SCORE") > 0) {
+		iMoneyScore += (int)(getGold() * GC.getDefineINT("CVPLAYER_NEW_GAMESCORE_METHOD_MONEY_SCORE") / 10000);
+
+	}
+
+
+	//计算分数时带上回合金币数量
+	if (GC.getDefineINT("CVPLAYER_NEW_GAMESCORE_METHOD_MONEY_SCORE_PER_TURN") > 0) {
+		iMoneyScore += getGoldPerTurn() * GC.getDefineINT("CVPLAYER_NEW_GAMESCORE_METHOD_MONEY_SCORE_PER_TURN");
+	}
+
+	//计算分数带上军队分数
+	if (GC.getDefineINT("CVPLAYER_NEW_GAMESCORE_METHOD_ARMY_SCORE") > 0) {
+		iPowerScore += (int)(getPower() * GC.getDefineINT("CVPLAYER_NEW_GAMESCORE_METHOD_ARMY_SCORE") / 100);
+	}
+
+
+	return (m_iLandScore  +iMoneyScore + iPowerScore + iVassalScore / std::max(1, GET_TEAM(getTeam()).getNumMembers()));
 }
 
 
@@ -14178,6 +14222,18 @@ int CvPlayer::getEspionageSpending(TeamTypes eAgainstTeam) const
 
 bool CvPlayer::canDoEspionageMission(EspionageMissionTypes eMission, PlayerTypes eTargetPlayer, const CvPlot* pPlot, int iExtraData, const CvUnit* pUnit) const
 {
+	//mediv01 可以永远查看谍报
+	if (isHuman()) {
+		if (GC.getDefineINT("CVPLYER_CAN_ALWAYS_DO_ESPIONAGE_HUMAN") == 1) {
+			return true;
+		}
+	}
+	else {
+		if (GC.getDefineINT("CVPLYER_CAN_ALWAYS_DO_ESPIONAGE_AI") == 1) {
+			return true;
+		}
+	}
+
 	if (getID() == eTargetPlayer || NO_PLAYER == eTargetPlayer)
 	{
 		return false;
@@ -14221,6 +14277,18 @@ bool CvPlayer::canDoEspionageMission(EspionageMissionTypes eMission, PlayerTypes
 	if (NO_PLAYER != eTargetPlayer)
 	{
 		int iEspionagePoints = GET_TEAM(getTeam()).getEspionagePointsAgainstTeam(GET_PLAYER(eTargetPlayer).getTeam());
+
+		//mediv01 谍报点加成
+		if (GC.getDefineINT("CVPLYER_CAN_DO_ESPIONAGE_POINT_BONUS") != 0) {
+			if (isHuman()) {
+				iEspionagePoints += GC.getDefineINT("CVPLYER_CAN_DO_ESPIONAGE_POINT_BONUS");
+			}
+			else {
+				if (GC.getDefineINT("CVPLYER_CAN_DO_ESPIONAGE_POINT_BONUS_FOR_AI") == 1) {
+					iEspionagePoints += GC.getDefineINT("CVPLYER_CAN_DO_ESPIONAGE_POINT_BONUS");
+				}
+			}
+		}
 
 		if (iEspionagePoints < iCost)
 		{

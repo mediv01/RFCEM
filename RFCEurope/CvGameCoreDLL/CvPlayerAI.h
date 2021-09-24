@@ -33,6 +33,15 @@ public:
 	static void freeStatics();
 	DllExport static bool areStaticsInitialized();
 
+	// mediv01
+	DllExport int AI_considerOffer_Threshold(int ePlayer, int myPlayer)const;
+	DllExport int AI_considerOffer_Threshold_Map(int ePlayer, int myPlayer)const;
+	DllExport int getAIdealValuetoMoney(int ePlayerID, int myPlayerID, int tradetypeID, int tradeitemID) const;
+	bool AIcantradeTech(PlayerTypes eWhoTo, TechTypes iTech) const;
+
+
+
+
 	void AI_init();
 	void AI_uninit();
 	void AI_reset(bool bConstructor);

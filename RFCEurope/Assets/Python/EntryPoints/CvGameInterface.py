@@ -22,6 +22,22 @@ normalGameUtils = CvGameInterfaceFile.GameUtils
 
 
 import RFCEMapShowInDll
+
+def CheckBirthFallDateInDll(argsList):
+	# tlist=RFCEMapShowInDll.SearchCore(x,y)
+	x = argsList[0]  #birth
+	y = argsList[1]	 #fall
+	tList = RFCEMapShowInDll.getBirthDate(x, y)
+	return tList
+
+def CheckBirthPlaceInDll(argsList):
+	# tlist=RFCEMapShowInDll.SearchCore(x,y)
+	x = argsList[0]
+	y = argsList[1]
+	tList = RFCEMapShowInDll.SearchBirthPlace(x, y)
+	return tList
+
+
 def CheckCoreInDll(argsList):
 	
 	#tlist=RFCEMapShowInDll.SearchCore(x,y)

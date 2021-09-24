@@ -10711,6 +10711,50 @@ int CvHandicapInfo::getResearchPercentByID(PlayerTypes pl) const
 	researchPercent *= ( GET_PLAYER(pl).isHuman() ) ? researchModifierHu[pl] : researchModifierAI[pl];
 	researchPercent /= 100;
 
+	// 科研费用整体加成
+	if (GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_TO_ALL") > 0) {
+		researchPercent = researchPercent * GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_TO_ALL") / 100;
+	}
+
+	// 人类玩家的科研加成
+	if (GET_PLAYER((PlayerTypes)pl).isHuman()) {
+		if ((GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H1_HUMAN") > 0) && (GC.getGameINLINE().getHandicapType() == 0)) {
+			researchPercent = researchPercent * GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H1_HUMAN") / 100;
+		}
+
+		if ((GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H2_HUMAN") > 0) && (GC.getGameINLINE().getHandicapType() == 1)) {
+			researchPercent = researchPercent * GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H2_HUMAN") / 100;
+		}
+
+		if ((GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H3_HUMAN") > 0) && (GC.getGameINLINE().getHandicapType() == 2)) {
+			researchPercent = researchPercent * GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H3_HUMAN") / 100;
+		}
+
+
+	}
+
+
+	// AI玩家的科研加成
+	else {
+
+		if ((GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H1_AI") > 0) && (GC.getGameINLINE().getHandicapType() == 0)) {
+			researchPercent = researchPercent * GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H1_AI") / 100;
+		}
+
+		if ((GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H2_AI") > 0) && (GC.getGameINLINE().getHandicapType() == 1)) {
+			researchPercent = researchPercent * GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H2_AI") / 100;
+		}
+
+		if ((GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H3_AI") > 0) && (GC.getGameINLINE().getHandicapType() == 2)) {
+			researchPercent = researchPercent * GC.getDefineINT("CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H3_AI") / 100;
+		}
+
+
+
+	}
+
+
+
 	// 3MiroFaith
 	/*if ( GET_PLAYER((PlayerTypes)pl).getStateReligion() != NO_RELIGION ){
 		int iFP = FaithPowers[ (GET_PLAYER((PlayerTypes)pl).getStateReligion()) * FP_TOTAL_NUM + FP_SCIENCE ];

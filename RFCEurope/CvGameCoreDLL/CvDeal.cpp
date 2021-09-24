@@ -443,6 +443,15 @@ bool CvDeal::isUncancelableVassalDeal(PlayerTypes eByPlayer, CvWString* pszReaso
 	CLLNode<TradeData>* pNode;
 	CvWStringBuffer szBuffer;
 
+	// mediv01
+	// 多用GC.getDefineINT(),getDefineFloat和getDefineString() by wunshare
+	if (GC.getDefineINT("DIPLO_ALLOW_TO_CANCEL_VASSAL") == 1) {
+		return false;//检测DIPLO_ALLOW_TO_CANCEL_VASSAL，如果值为1允许主动取消附庸
+	}
+
+	//mediv01
+
+
 	for (pNode = headFirstTradesNode(); (pNode != NULL); pNode = nextFirstTradesNode(pNode))
 	{
 		if (isVassal(pNode->m_data.m_eItemType))

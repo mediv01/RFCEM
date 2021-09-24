@@ -25,6 +25,12 @@ iBarbarian = con.iBarbarian
 iSettler = xml.iSettler
 iNumBuildingsPlague = xml.iNumBuildingsPlague
 
+
+from GlobalDefinesAlt import *
+
+
+
+
 tCol = (
 '255,255,255',
 '200,200,200',
@@ -1531,3 +1537,259 @@ class RFCUtils:
 			if iTemp >= iRand:
 				return iPlayer
 		return -1
+
+
+# mediv01
+
+
+	def getCivName(self, iPlayer):
+		return gc.getCivilizationInfo(iPlayer).getShortDescription(0)
+
+	def getCivChineseName(self, iPlayer):
+		return gc.getPlayer(iPlayer).getCivilizationDescription(0)
+
+	def getTechNameEn(self, iTech):
+		text_tag = gc.getTechInfo(iTech).getTextKey()
+		text = text_tag
+		if (text_tag[0:13] == 'TXT_KEY_TECH_'):
+			text = text_tag[13:len(text_tag)]
+			text = text
+			pass
+		return str(text).lower().capitalize()
+
+	def getTechNameCn(self, iTech):
+		text = gc.getTechInfo(iTech).getDescription() + '( ' + self.getTechNameEn(iTech) + ' )'
+		return text
+
+
+	def getText(self, TextKey):
+		return CyTranslator().getText(TextKey, ())
+
+
+	# RiseAndFall
+	# 新增输出日志的功能
+	def log_path(self):
+		# filepath='D:\\DoC_Log\\'
+		# filepath = BugPath.join(BugPath.getRootDir(), 'Saves', 'logs', '')
+		filepath = gc.getDefineSTRING("CVGAMECORE_LOG_PATH")
+		return filepath
+
+
+	def log_gettime(self):
+		import time
+		curtime1 = str(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
+		# curtime1 = str(time.strftime('%Y-%m-%d %H:%M:%S', time.time()))
+		strturn = u' [' + str(gc.getGame().getGameTurnYear()) + ']  T[' + str(gc.getGame().getGameTurn()) + ']  '
+		log_gettime = curtime1 + strturn
+		return log_gettime
+
+
+	def log(self, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_Main.log", 'a')
+			import HTMLParser
+			strText = HTMLParser.HTMLParser().unescape(strText)
+			f.write((self.log_gettime() + strText.decode('utf-8') + u''))
+			f.write('\n')
+			f.close
+
+
+	def log2(self, strText, LogName):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + LogName + ".log", 'a')
+			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def debug_manual(self, strText, LogName):
+		if (PYTHON_USE_LOG== 1):  # output the debug info
+			f = open(self.log_path() + LogName + ".log", 'a')
+			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def log_congress(self, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_Congress.log", 'a')
+			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def log_congress_prob(self, strText):
+		# 模拟计算统一不进行日志IO
+		return 0
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+
+			f = open(self.log_path() + "RFCEM_Log_Congress_Prob.log", 'a')
+			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def log_AI_Action(self, strText):  # 可能会报错
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+
+			f = open(self.log_path() + "RFCEM_Log_AI.log", 'a')
+			f.write((self.log_gettime() + strText.encode('utf8', 'xmlcharrefreplace')).encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def log_reset(self):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			PythonLogList = ['RFCEM_Log_Main.log',
+							 'RFCEM_Log_AI.log',
+							 "RFCEM_Log_Stability.log",
+							 "RFCEM_Log_Congress.log",
+							 "RFCEM_Log_Great_People.log",
+							 "RFCEM_Log_Wonder.log",
+							 "RFCEM_Log_Building.log",
+							 "RFCEM_Log_Unit.log",
+							 "RFCEM_Log_Tech.log",
+							 "RFCEM_Log_City_Build.log",
+							 "RFCEM_Log_City_Conquest.log",
+							 "RFCEM_Log_City_Religion.log",
+							 "RFCEM_Log_TechScore.log",
+							 "RFCEM_Log_PowerScore.log",
+							 "RFCEM_Log_RandomEvent.log",
+							 "RFCEM_Log_AIWar.log",
+							 "RFCEM_Log_Congress_Prob.log",
+							 'RFCEM_Log_ModifiersChange.log'
+							 ]
+
+			DLLLogList = [
+				"RFCEM_DLL_Log_ALL.log",
+				"RFCEM_DLL_Log_TEST.log",
+				'RFCEM_DLL_Log_Conquest.log',
+				'RFCEM_DLL_Log_AI_TradeCityVal.log',
+				'RFCEM_DLL_Log_AI_BuildCity.log',
+				'RFCEM_DLL_Log_Building_Damage.log'
+			]
+
+			for filename in PythonLogList:
+				f = open(self.log_path() + filename, 'w')
+				f.write('')
+				f.close
+
+			for filename in DLLLogList:
+				f = open(self.log_path() + filename, 'w')
+				f.write('')
+				f.close
+
+
+	def logwithid(self, id, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_Main.log", 'a')
+			f.write(
+				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode('utf8',
+																													'xmlcharrefreplace'))
+			f.write(str(u'' + strText))
+			f.write('\n')
+			f.close
+
+
+	def logwithid_stability(self, id, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_Stability.log", 'a')
+			f.write(
+				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode('utf8',
+																													'xmlcharrefreplace'))
+			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def logwithid_great_people(self, id, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_Great_People.log", 'a')
+			f.write(
+				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode('utf8',
+																													'xmlcharrefreplace'))
+			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def logwithid_wonder(self, id, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_Wonder.log", 'a')
+			f.write(
+				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode('utf8',
+																													'xmlcharrefreplace'))
+			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def logwithid_building(self, id, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_Building.log", 'a')
+			f.write(
+				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode('utf8',
+																													'xmlcharrefreplace'))
+			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def logwithid_unit(self, id, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_Unit.log", 'a')
+			f.write(
+				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode('utf8',
+																													'xmlcharrefreplace'))
+			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def logwithid_tech(self, id, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_Tech.log", 'a')
+			f.write(
+				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode('utf8',
+																													'xmlcharrefreplace'))
+			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def logwithid_city_build(self, id, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_City_Build.log", 'a')
+			f.write(
+				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode('utf8',
+																													'xmlcharrefreplace'))
+			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def logwithid_city_conquest(self, id, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_City_Conquest.log", 'a')
+			f.write(
+				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode('utf8',
+																													'xmlcharrefreplace'))
+			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+	def logwithid_religion(self, id, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_City_Religion.log", 'a')
+			f.write(
+				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode('utf8',
+																													'xmlcharrefreplace'))
+			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+
+
+
+
+	# 日志输出增加结束

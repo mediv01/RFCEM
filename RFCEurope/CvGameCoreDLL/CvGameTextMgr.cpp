@@ -34,9 +34,24 @@
 #include "CvDLLPythonIFaceBase.h"
 #include "CvRhyes.h" //Rhye
 
+
+#include <stdio.h>
+
+
 int shortenID(int iId)
 {
 	return iId;
+}
+
+// 二维数组 从大到小
+bool VectorComparator_Max_to_Min(const std::vector<int>& u, const std::vector<int>& v) {
+	return u[1] > v[1];
+}
+
+
+// 二维数组 从小到大
+bool VectorComparator_Min_to_Max(const std::vector<int>& u, const std::vector<int>& v) {
+	return u[1] < v[1];
 }
 
 // For displaying Asserts and error messages
@@ -2224,10 +2239,40 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 	//mediv01 地块详细信息显示
 	if ( (iProvince >-1) && (iProvince<MAX_NUM_PROVINCES) ){
 		
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_ENERMY_AREA") == 1) {
+			TeamTypes eTeam = pPlot->getTeam();
+			bool enermy = (atWar(GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getTeam(), eTeam));
+			if (enermy) {
+				szTempBuffer.Format(SETCOLR L"【 敌人区域 】" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_RED_TEXT"));
+				szString.append(szTempBuffer);
+				szString.append(NEWLINE);
+			}
+		}
+
+
 		if (GC.getDefineINT("CVGAMETEXT_SHOW_X_AND_Y_IN_MAP") == 1) {
 			szTempBuffer.Format(L"X: %d  ,Y: %d", pPlot->getX(), pPlot->getY());//mediv01 显示地块坐标
 			szString.append(szTempBuffer);
 		}
+
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_CONNECT_TO_CAPITAL") == 1) {
+
+			//plot()->isConnectedToCapital()
+			//pPlot->isConnectedTo(GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getCapitalCity())
+			if (pPlot->isConnectedToCapital()) {
+				szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW")));
+				szString.append(CvWString::format(L"     [已连接] "));//mediv01  是否与首都相连
+				szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
+			}
+			else {
+				szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_RED")));
+				szString.append(CvWString::format(L"     [未连接] "));//mediv01  是否与首都相连
+				szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
+			}
+
+			//szString.append(NEWLINE);
+		}
+		
 		
 		if (GC.getDefineINT("CVGAMETEXT_SHOW_FLIP_ZONE_IN_MAP") == 1) {//mediv01 显示地块是否为翻转区
 			//long lResult = 0;
@@ -2241,13 +2286,56 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 				//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
 				szTempBuffer.Format(SETCOLR L"核心翻转区：" ENDCOLR, TEXT_COLOR("COLOR_ALT_HIGHLIGHT_TEXT"));//绿色
 				szString.append(szTempBuffer);
-				for (int i = 1; i <= pIntList1.size(); i++) {
+				for (int i = 1; i <= (int)(pIntList1.size()); i++) {
 					int PlayerNum = pIntList1[i - 1];
 					szTempBuffer.Format(L"%s   ", GET_PLAYER((PlayerTypes)PlayerNum).getCivilizationShortDescription());
 					szString.append(szTempBuffer);
 				}
 			}
 		}
+
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_BIRTH_PLACE_IN_RFCE") == 1) {//mediv01 显示地块是否为出生区
+	//long lResult = 0;
+
+
+
+			std::vector<int> pIntList1;
+			CyArgsList argsList;
+			argsList.add(pPlot->getX());
+			argsList.add(pPlot->getY());
+			gDLL->getPythonIFace()->callFunction(PYGameModule, "CheckBirthPlaceInDll", argsList.makeFunctionArgs(), &pIntList1);
+			if (pIntList1.size() > 0) {
+				szString.append(NEWLINE);
+				//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
+				szTempBuffer.Format(SETCOLR L"文明出生区：" ENDCOLR, TEXT_COLOR("COLOR_ALT_HIGHLIGHT_TEXT"));//绿色
+				szString.append(szTempBuffer);
+				for (int i = 1; i <= (int)(pIntList1.size()); i++) {
+					int PlayerNum = pIntList1[i - 1];
+
+					std::vector<int> pIntList2;
+					CyArgsList argsList2;
+					argsList2.add(PlayerNum);
+					argsList2.add(PlayerNum);
+					int BirthDate = 500;
+					int FallDate = 1800;
+
+					gDLL->getPythonIFace()->callFunction(PYGameModule, "CheckBirthFallDateInDll", argsList2.makeFunctionArgs(), &pIntList2);
+					if (pIntList2.size() > 0) {
+
+						BirthDate = pIntList2[0];
+						FallDate = pIntList2[1];
+
+
+					}
+
+
+
+					szTempBuffer.Format(L"%s ( %d - %d ) ", GET_PLAYER((PlayerTypes)PlayerNum).getCivilizationShortDescription(), BirthDate, FallDate);
+					szString.append(szTempBuffer);
+				}
+			}
+		}
+
 		
 		if (GC.getDefineINT("CVGAMETEXT_SHOW_MINOR_BIRTH_IN_MAP") == 1) {//mediv01 显示地块是否为独立城邦铺城点
 			//long lResult = 0;
@@ -2261,7 +2349,7 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 				//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
 				szTempBuffer.Format(SETCOLR L"独立城邦诞生回合：" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"));
 				szString.append(szTempBuffer);
-				for (int i = 1; i <= pIntList1.size(); i++) {
+				for (int i = 1; i <= (int)(pIntList1.size()); i++) {
 					int PlayerNum = pIntList1[i - 1];
 					szTempBuffer.Format(L"%d   ", PlayerNum);
 					szString.append(szTempBuffer);
@@ -2303,6 +2391,10 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 		szString.append(NEWLINE);
 	}
 	// Absinthe: end
+
+
+
+
 
 	// Absinthe: City Name text for settler units
 	CvWString szName;
@@ -5458,6 +5550,353 @@ void CvGameTextMgr::setTechHelp(CvWStringBuffer &szBuffer, TechTypes eTech, bool
 		}
 	}
 
+	if ( GC.getGameINLINE().getGameTurn() > 0) {
+
+		// 提示科技是否超前
+		if (GC.getDefineINT("CVTEAM_TECH_COST_BY_ERA") > 0) {
+
+			int iModifer = 100;
+			bool bTechPunished = false;
+			int iGameTurnYear = GC.getGameTurnYear();
+			int iTechCol = GC.getTechInfo(eTech).getGridX() - 1;
+
+
+			int iTechYearThresholdStart = 500;
+			int iTechYearThresholdEnd = 500;
+
+
+			// 每列科技对应的真实年份
+			const int SIZE_OF_TECH_COL_YEAR = 14;
+			const int TechColYear1[SIZE_OF_TECH_COL_YEAR] = { 500 ,700,800,    900,  1100, 1200,    1300,1400,1500,   1500,1600,1650,   1700,1750 };
+			const int TechColYear2[SIZE_OF_TECH_COL_YEAR] = { 700 ,800,900,    1100, 1200, 1300,    1400,1500,1600,   1600,1650,1700,   1750,1800 };
+
+
+			int TechEra = 0;
+			TechEra = GC.getTechInfo(eTech).getEra();
+			CvWString era_text = L"未知时代";
+			if (TechEra == 0) {
+				era_text = L"早期中世纪";
+			}
+			else if (TechEra == 1) {
+				era_text = L"中世纪中期";
+			}
+			else if (TechEra == 2) {
+				era_text = L"中世纪后期";
+			}
+			else if (TechEra == 3) {
+				era_text = L"文艺复兴";
+			}
+
+			if (iTechCol <= SIZE_OF_TECH_COL_YEAR) {
+				iTechYearThresholdStart = TechColYear1[iTechCol];
+				iTechYearThresholdEnd = TechColYear2[iTechCol];
+
+			}
+
+
+
+			int iPlayerCol = 0;
+			int iPlayerTechDiff = 0;
+
+			
+
+			szBuffer.append(NEWLINE);
+			szBuffer.append(CvWString::format(SETCOLR L"科技组年份：" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"), iTechYearThresholdStart));
+			szBuffer.append(CvWString::format(SETCOLR L"AD%d - AD%d" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN"), iTechYearThresholdStart,iTechYearThresholdEnd));
+			szBuffer.append(CvWString::format(SETCOLR L" 科技组时代：" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW") ));
+			szBuffer.append(CvWString::format(SETCOLR L" %s " ENDCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN"), era_text.c_str()));
+
+		}
+
+
+		int iTechShowPlayer = NUM_MAJOR_PLAYERS + 2;
+		//mediv01 是否首发科技
+		bool bTechFirst = (GC.getGameINLINE().countKnownTechNumTeams(eTech) == 0);
+		if (GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY1") == 1) {
+
+			if (bTechFirst) {
+				szBuffer.append(NEWLINE);
+				szBuffer.append(CvWString::format(SETCOLR L"这个科技尚未被发现！" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN")));
+				// 
+			}
+			else {
+				szBuffer.append(NEWLINE);
+				szBuffer.append(CvWString::format(SETCOLR L"这个科技已经被 %d 个文明发现！" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN"), GC.getGameINLINE().countKnownTechNumTeams(eTech)));
+				// 
+			}
+		}
+
+		//mdiv01 科技正在被哪些国家研究
+		if (GC.getDefineINT("CVTECH_SHOW_TECH_BEING_RESEARCH") > 0) {
+			CvWString szBuffer1;
+			szBuffer1.append(NEWLINE);
+			szBuffer1.append(CvWString::format(SETCOLR L"下列文明正在研究这个科技：" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN")));
+			bool isshow = false;
+
+
+
+			for (int iI = 0; iI < iTechShowPlayer; iI++)//包含独立城邦
+			{
+
+				TechTypes iTech = GET_PLAYER((PlayerTypes)iI).getCurrentResearch();
+				bool isSameTech = (iTech == eTech);
+
+				if (GET_PLAYER((PlayerTypes)iI).isAlive() && isSameTech) {
+					PlayerTypes PlayerHuman = GC.getGame().getActivePlayer();
+					int iValue = 0;
+					int iTechValuePercent = 100;
+					int iActualTradeValue = 0;
+					isshow = true;
+					if (iI != (int)(PlayerHuman)) {
+						iValue = CvPlayerAI().getAIdealValuetoMoney((int)(PlayerHuman), iI, (int)TRADE_TECHNOLOGIES, (int)iTech);
+						int iMaxMoney = GET_PLAYER((PlayerTypes)iI).AI_maxGoldTrade(PlayerHuman);
+						iActualTradeValue = std::min(iValue, iMaxMoney);
+						iTechValuePercent = 0;
+						if (iValue > 0) {
+							iTechValuePercent = (int)(iActualTradeValue * 100 / iValue);
+						}
+					}
+					CvString textColor = "COLOR_PLAYER_GREEN";
+					if (iTechValuePercent >= GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY3_HIGHLIGHT_MINVALUE") && (iI != (int)(PlayerHuman))) {
+						textColor = "COLOR_PLAYER_YELLOW";
+					}
+					if (iValue > 0) {
+						szBuffer1.append(CvWString::format(SETCOLR L" %s (%d , %d )" ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER((PlayerTypes)iI).getCivilizationDescription(), iValue, iActualTradeValue));
+					}
+					else {
+						szBuffer1.append(CvWString::format(SETCOLR L" %s " ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER((PlayerTypes)iI).getCivilizationDescription()));
+					}
+				}
+				else {
+					//break;
+				}
+
+			}
+			if (isshow) {
+				szBuffer.append(szBuffer1);
+			}
+		}
+
+		//mediv01 科技尚未被哪些国家拥有 
+		if (GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY3") == 1) {
+			if (bTechFirst) {
+				//szBuffer.append(NEWLINE);
+				//szBuffer.append(CvWString::format(SETCOLR L"所有文明尚未发现这个科技：" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN")));
+			}
+			else {
+				CvWString szBuffer1;
+				szBuffer1.append(NEWLINE);
+				szBuffer1.append(CvWString::format(SETCOLR L"下列文明尚未发现这个科技：" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN")));
+				int show_num2 = 0;
+				PlayerTypes PlayerHuman = GC.getGame().getActivePlayer();
+				//int iMaxVal = GC.AItradeTechValList((PlayerTypes)-1, PlayerHuman,eTech, MAX);
+
+				int iMaxCountry = iTechShowPlayer;
+				int iCols = 3;  //三维数组 第一列存放国家ID，第二列存放科技可交易值，第三列存放潜在科技交易值
+				std::vector<std::vector<int> > iValueVector(iMaxCountry, std::vector<int>(iCols)); //定义二维动态数组
+
+
+
+
+
+				for (int iI = 0; iI < iTechShowPlayer; iI++)//包含独立城邦
+				{
+					iValueVector[iI][0] = -1; //国家
+					iValueVector[iI][1] = -1; //可交易值
+					iValueVector[iI][2] = -1; //潜在价值
+
+					bool CivHasTech = GET_TEAM(GET_PLAYER((PlayerTypes)iI).getTeam()).isHasTech(eTech);
+
+					if (!CivHasTech && GET_PLAYER((PlayerTypes)iI).isAlive()) {
+
+
+
+						int iValue = 0;
+						int iTechValuePercent = 100;
+						int iActualTradeValue = 0;
+						if (iI != (int)(PlayerHuman)) {
+							iValue = CvPlayerAI().getAIdealValuetoMoney((int)(PlayerHuman), iI, (int)TRADE_TECHNOLOGIES, (int)eTech);
+							int iMaxMoney = GET_PLAYER((PlayerTypes)iI).AI_maxGoldTrade(PlayerHuman);
+							iActualTradeValue = std::min(iValue, iMaxMoney);
+							iTechValuePercent = 0;
+							if (iValue > 0) {
+								iTechValuePercent = (int)(iActualTradeValue * 100 / iValue);
+							}
+						}
+
+						iValueVector[iI][0] = iI; //国家
+						iValueVector[iI][1] = iActualTradeValue; //可交易值
+						iValueVector[iI][2] = iValue; //潜在价值
+
+
+					}
+
+
+				}
+
+
+				std::sort(iValueVector.begin(), iValueVector.end(), VectorComparator_Max_to_Min);
+
+				for (int iI = 0; iI < iTechShowPlayer; iI++)//不包含独立城邦
+				{
+					if (iValueVector[iI][0] >= 0) {
+						PlayerTypes AIPlayer = (PlayerTypes)iValueVector[iI][0]; //国家
+						int iActualTradeValue = iValueVector[iI][1]; //可交易值
+						int iValue = iValueVector[iI][2]; //潜在价值
+						int iTechValuePercent = 0;
+						if (iValue > 0) {
+							iTechValuePercent = (int)(iActualTradeValue * 100 / iValue);
+						}
+
+						if (show_num2 < GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY3_MAX") || iActualTradeValue > GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY3_MINVALUE")) {
+							show_num2 += 1;
+
+							CvString textColor = "COLOR_PLAYER_GREEN";
+							if (iTechValuePercent >= GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY3_HIGHLIGHT_MINVALUE") && (AIPlayer != (PlayerHuman))) {
+								textColor = "COLOR_PLAYER_YELLOW";
+							}
+							//if (iValue == iMaxVal && iValue>0) {
+								//textColor = "COLOR_PLAYER_YELLOW";
+							//}
+
+
+
+							if (iValue > 0) {
+								szBuffer1.append(CvWString::format(SETCOLR L" %s (%d [%d] )" ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER(AIPlayer).getCivilizationDescription(), iActualTradeValue, iValue));
+							}
+							else {
+								textColor = "COLOR_PLAYER_GREEN";
+								szBuffer1.append(CvWString::format(SETCOLR L" %s " ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER(AIPlayer).getCivilizationDescription()));
+							}
+						}
+					}
+
+				}
+
+				if (show_num2 > 0) {
+					szBuffer.append(szBuffer1);
+				}
+			}
+		}
+
+
+
+		//mediv01 科技被哪些国家拥有
+		if (GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY2") == 1) {
+			if (bTechFirst) {
+			}
+			else {
+				szBuffer.append(NEWLINE);
+				szBuffer.append(CvWString::format(SETCOLR L"下列文明发现了这个科技：" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
+				int show_num = 0;
+				PlayerTypes PlayerHuman = GC.getGame().getActivePlayer();
+				int iMaxMoney = GET_PLAYER((PlayerTypes)PlayerHuman).getGold();
+				int iMaxCountry = iTechShowPlayer;
+				int iCols = 3;  //三维数组 第一列存放国家ID，第二列存放科技可交易值，第三列存放潜在科技交易值
+				std::vector<std::vector<int> > iValueVector(iMaxCountry, std::vector<int>(iCols)); //定义二维动态数组
+
+				//int iMinVal = GC.AItradeTechValList(PlayerHuman,(PlayerTypes)-1, eTech, MIN);
+
+				for (int iI = 0; iI < iTechShowPlayer; iI++)//包含独立城邦
+				{
+					bool CivHasTech = GET_TEAM(GET_PLAYER((PlayerTypes)iI).getTeam()).isHasTech(eTech);
+					iValueVector[iI][0] = -1; //国家
+					iValueVector[iI][1] = -1; //可交易值
+					iValueVector[iI][2] = -1; //潜在价值
+					if (CivHasTech) {
+						bool isalive = GET_PLAYER((PlayerTypes)iI).isAlive();
+						if (isalive) {
+
+
+							int iValue = 0;
+							int iTechValuePercent = 100;
+							int iActualTradeValue = 0;
+
+							if (iI != (int)(PlayerHuman)) {
+								iValue = CvPlayerAI().getAIdealValuetoMoney(iI, (int)(PlayerHuman), (int)TRADE_TECHNOLOGIES, (int)eTech);
+
+								iActualTradeValue = std::min(iValue, iMaxMoney);
+								iTechValuePercent = 0;
+								if (iValue > 0) {
+									iTechValuePercent = (int)(iActualTradeValue * 100 / iValue);
+								}
+							}
+							iValueVector[iI][0] = iI; //国家
+							iValueVector[iI][1] = iActualTradeValue; //可交易值
+							iValueVector[iI][2] = iValue; //潜在价值
+
+
+
+
+
+
+						}
+					}
+				}
+
+				std::sort(iValueVector.begin(), iValueVector.end(), VectorComparator_Min_to_Max);
+
+				bool HumanHasTech = GET_TEAM(GET_PLAYER((PlayerTypes)PlayerHuman).getTeam()).isHasTech(eTech);
+
+				for (int iI = 0; iI < iTechShowPlayer; iI++) {
+					PlayerTypes AIPlayer = (PlayerTypes)iValueVector[iI][0]; //国家
+					int iActualTradeValue = iValueVector[iI][1]; //可交易值
+					int iValue = iValueVector[iI][2]; //潜在价值
+
+					if (iValueVector[iI][0] >= 0) {
+
+
+						if (HumanHasTech) {
+							iValue = 0;
+							iActualTradeValue = 0;
+
+						}
+
+						if (show_num < GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY2_MAX") || iActualTradeValue > GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY3_MAX")) {
+							show_num += 1;
+
+
+
+
+
+							CvString textColor = "COLOR_PLAYER_GREEN";
+							if (iMaxMoney >= iValue && (iI != (int)(PlayerHuman))) {
+								textColor = "COLOR_PLAYER_YELLOW";
+							}
+							//if (iValue == iMinVal) {
+								//textColor = "COLOR_PLAYER_YELLOW";
+							//}
+
+
+							if (iValue > 0) {
+								szBuffer.append(CvWString::format(SETCOLR L" %s (%d)" ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER(AIPlayer).getCivilizationDescription(), iValue));
+							}
+							else {
+								textColor = "COLOR_PLAYER_GREEN";
+								szBuffer.append(CvWString::format(SETCOLR L" %s " ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER(AIPlayer).getCivilizationDescription()));
+							}
+						}
+
+
+						else {
+
+							if (GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY2_SHOW_DEAD")) {
+								show_num += 1;
+								szBuffer.append(CvWString::format(SETCOLR L" %s" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_RED"), GET_PLAYER((PlayerTypes)iI).getCivilizationDescription()));
+								//szBuffer.append(CvWString::format(SETCOLR L" " ENDCOLR, TEXT_COLOR("COLOR_PLAYER_GREEN")));
+
+							}
+						}
+					}
+				}
+			}
+
+
+
+		}
+
+	}
+
 	//	Route movement change...
 	buildMoveString(szBuffer, eTech, true, bPlayerContext);
 
@@ -6952,6 +7391,71 @@ void CvGameTextMgr::setBuildingHelp(CvWStringBuffer &szBuffer, BuildingTypes eBu
 	{
 		szTempBuffer.Format( SETCOLR L"<link=literal>%s</link>" ENDCOLR , TEXT_COLOR("COLOR_BUILDING_TEXT"), kBuilding.getDescription());
 		szBuffer.append(szTempBuffer);
+
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_BUILDING_CAN_BE_BUILD_BY_SETTLER") >= 1) {
+
+			//设置移民可以建造的提示
+			int free_area = kBuilding.getFreeStartEra();
+			int iEra = 0;
+			if (GC.getGameINLINE().getGameTurn() > 0) {
+				iEra = GET_PLAYER(ePlayer).getCurrentEra();
+			}
+
+			enum DoCEras
+			{
+				ERA_ANCIENT,
+				ERA_CLASSICAL,
+				ERA_MEDIEVAL,
+				ERA_RENAISSANCE
+			};
+			if (free_area != NO_ERA)
+			{
+				CvWString era_text = L"未知时代";
+				if (free_area == ERA_ANCIENT) {
+					era_text = L"早期中世纪";
+				}
+				else if (free_area == ERA_CLASSICAL) {
+					era_text = L"中世纪中期";
+				}
+				else if (free_area == ERA_MEDIEVAL) {
+					era_text = L"中世纪后期";
+				}
+				else if (free_area == ERA_RENAISSANCE) {
+					era_text = L"文艺复兴";
+				}
+				if (iEra >= free_area) {
+					szBuffer.append(NEWLINE);
+					szTempBuffer.Format(SETCOLR L"<link=literal>（当前可被移民重建，%s 的免费建筑）</link>" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"), era_text.c_str());
+					szBuffer.append(szTempBuffer);
+				}
+				else {
+
+					szBuffer.append(NEWLINE);
+					szTempBuffer.Format(SETCOLR L"<link=literal>（可在 %s 被移民重建）</link>" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"), era_text.c_str());
+					szBuffer.append(szTempBuffer);
+
+				}
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		int iHappiness;
 		if (NULL != pCity)
@@ -9644,6 +10148,107 @@ void CvGameTextMgr::setBonusHelp(CvWStringBuffer &szBuffer, BonusTypes eBonus, b
 		szBuffer.append(NEWLINE);
 		szBuffer.append(GC.getBonusInfo(eBonus).getHelp());
 	}
+
+
+	if ((GC.getGameINLINE().getGameTurn() > 0)) {
+		// mediv01
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_BONUS_TRADE_VALUE") > 0) {
+			TradeableItems TradeItem = (TradeableItems)(TRADE_RESOURCES);
+			//BonusTypes eBonus = (BonusTypes)eBonus;
+			PlayerTypes PlayerHuman = GC.getGame().getActivePlayer();
+			PlayerTypes pBuyResourcePlayer;
+
+			PlayerTypes pSellResourcePlayer = PlayerHuman;
+
+			CLinkList<TradeData> pSellingResourceList;
+			TradeData item;
+			setTradeItem(&item, ((TradeableItems)(TradeItem)), eBonus);;
+			pSellingResourceList.insertAtEnd(item);
+
+			if (TradeItem == TRADE_RESOURCES) {
+				int iValue = 0;
+
+
+				//CLinkList<TradeData> pOurList2;
+				//TradeData item;
+				//setTradeItem(&item, ((TradeableItems)(widgetDataStruct.m_iData1)), widgetDataStruct.m_iData2);;
+				//pOurList2.insertAtEnd(item);
+				//pHuman = PlayerHuman;
+				int iMaxGoldPerTurn = 0;
+				int Tradegold = 0;
+
+
+				int iMaxCountry = MAX_CIV_PLAYERS;
+				int iCols = 3;  //三维数组 第一列存放国家ID，第二列存放可交易回合金，第三列存放潜在最大可交易回合金
+				std::vector<std::vector<int> > iValueVector(iMaxCountry, std::vector<int>(iCols)); //定义二维动态数组
+
+
+
+
+
+				for (int iI = 0; iI < NUM_MAJOR_PLAYERS; iI++)//不包含独立城邦 
+				{
+					iValueVector[iI][0] = -1; //国家
+					iValueVector[iI][1] = -1; //可交易回合金
+					iValueVector[iI][2] = -1; //潜在价值
+					PlayerTypes pLoopAI = (PlayerTypes)iI;
+					if (GET_PLAYER(pLoopAI).isAlive()) {
+						if (iI != PlayerHuman) {
+							//int myeTradePlayer = iI;
+							//iValue = CvPlayerAI().getAIdealValuetoMoney((int)(PlayerHuman), (int)myeTradePlayer, (int)TRADE_RESOURCES, (int)eBonus) / 10;
+
+							//int iOurValue = GET_PLAYER(pHuman).AI_dealVal(pAI, &pOurList, false, -1) / GET_PLAYER(pHuman).AI_goldTradeValuePercent(pAI) * 100;
+							int iOurValue = 0;
+
+
+
+
+							pBuyResourcePlayer = pLoopAI;
+							//iOurValue = GET_PLAYER(pBuyResourcePlayer).AI_dealVal(pSellResourcePlayer, &pSellingResourceList, false, -1) / GET_PLAYER(pBuyResourcePlayer).AI_goldTradeValuePercent(pSellResourcePlayer) * 100;
+							iOurValue = GET_PLAYER(pBuyResourcePlayer).AI_dealVal(pSellResourcePlayer, &pSellingResourceList, false, -1) / GET_PLAYER(pSellResourcePlayer).AI_goldTradeValuePercent() * 100;
+
+							//CvWString log_CWstring;
+							//log_CWstring.Format(L"%s 对 %s 的交易价值： %d", GET_PLAYER(pLoopAI).getCivilizationDescription(),GC.getBonusInfo(eBonus).getDescription() ,iOurValue);
+							//GC.logs(log_CWstring, "testrade.log");
+
+							iValue = (int)(iOurValue / 10); //换算回合金
+
+							iMaxGoldPerTurn = GET_PLAYER(pBuyResourcePlayer).AI_maxGoldPerTurnTrade(pSellResourcePlayer);
+							Tradegold = std::min(iMaxGoldPerTurn, iValue);
+							iValueVector[iI][0] = iI; //国家
+							iValueVector[iI][1] = Tradegold; //可交易回合金
+							iValueVector[iI][2] = iValue; //潜在价值
+
+						}
+					}
+				}
+
+				std::sort(iValueVector.begin(), iValueVector.end(), VectorComparator_Max_to_Min);
+
+				for (int iI = 0; iI < (int)(iValueVector.size()); iI++) {
+					if (iValueVector[iI][0] >= 0) {
+						pBuyResourcePlayer = (PlayerTypes)iValueVector[iI][0];
+						Tradegold = iValueVector[iI][1];
+						iValue = iValueVector[iI][2];
+						if (iValue >= GC.getDefineINT("CVGAMETEXT_SHOW_BONUS_TRADE_VALUE")) {
+							szBuffer.append(NEWLINE);
+							szBuffer.append(CvWString::format(SETCOLR L"与 %s 交易回合金： %d (%d)" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), GET_PLAYER(pBuyResourcePlayer).getCivilizationDescription(), Tradegold, iValue));
+						}
+					}
+				}
+			}
+
+
+			//iValue = CvPlayerAI().getAIdealValuetoMoney((int)(PlayerHuman), (int)eTradePlayer, (int)TRADE_RESOURCES, (int)eBonus);
+			//szBuffer.append(NEWLINE);
+			//szBuffer.append(CvWString::format(SETCOLR L"交易价值： %d" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), iValue));
+		}
+	}
+
+
+
+
+
 }
 
 void CvGameTextMgr::setReligionHelp(CvWStringBuffer &szBuffer, ReligionTypes eReligion, bool bCivilopedia)

@@ -1593,6 +1593,11 @@ DenialTypes CvTeamAI::AI_techTrade(TechTypes eTech, TeamTypes eTeam) const
 	FAssertMsg(eTeam != getID(), "shouldn't call this function on ourselves");
 	
 	
+	if (GC.getDefineINT("CVPLAYERAI_CAN_ALWAYS_TRADE_TECH") == 1 && GET_TEAM(eTeam).isHuman()) {
+		return NO_DENIAL;
+	}
+	//Rhye
+
 	if (GC.getGameINLINE().isOption(GAMEOPTION_NO_TECH_BROKERING))
 	{
 		CvTeam& kTeam = GET_TEAM(eTeam);
@@ -1839,6 +1844,16 @@ DenialTypes CvTeamAI::AI_mapTrade(TeamTypes eTeam) const
 
 	FAssertMsg(eTeam != getID(), "shouldn't call this function on ourselves");
 
+	if (GC.getDefineINT("CVPLAYERAI_AI_DONNOT_TRADE_MAP_EACH_OTHER") == 1) {
+		if (GET_TEAM(eTeam).isHuman() || isHuman()) {
+
+		}
+		else {
+			return DENIAL_WORST_ENEMY;
+		}
+
+	}
+
 	if (isHuman())
 	{
 		return NO_DENIAL;
@@ -1919,6 +1934,35 @@ DenialTypes CvTeamAI::AI_vassalTrade(TeamTypes eTeam) const
 	FAssertMsg(eTeam != getID(), "shouldn't call this function on ourselves");
 
 	CvTeamAI& kMasterTeam = GET_TEAM(eTeam);
+
+	if (GC.getDefineINT("CVTEAMAI_AI_CANNOT_VASSAL_TO_OTHER_WHEN_AT_WAR") >= 1) {
+		//mediv01 
+		PlayerTypes human_id = GC.getGame().getActivePlayer();
+		TeamTypes human_team_id = GET_PLAYER((PlayerTypes)human_id).getTeam();
+		bool bAtwarwithHuman = isAtWar(human_team_id);
+		if (bAtwarwithHuman) {
+			if (GET_TEAM((TeamTypes)eTeam).isHuman()) {
+
+			}
+			else {
+				return DENIAL_WAR_NOT_POSSIBLE_YOU;
+			}
+		}
+	}
+
+	if (GC.getDefineINT("CVTEAMAI_AI_CAN_VASSAL_TO_HUMAN_WHEN_PLEASED_TIMES100") > 0) {
+		if (kMasterTeam.isHuman()) {
+			if (AI_getAttitude(eTeam) >= ATTITUDE_PLEASED) {
+				int HumanPower = GET_TEAM(GET_PLAYER(GC.getGame().getActivePlayer()).getTeam()).getPower(false);
+				int AIPower = getPower(false);
+				if (HumanPower >= AIPower * GC.getDefineINT("CVTEAMAI_AI_CAN_VASSAL_TO_HUMAN_WHEN_PLEASED_TIMES100") / 100) {
+					return NO_DENIAL;
+				}
+			}
+		}
+	}
+
+
 
 	for (int iLoopTeam = 0; iLoopTeam < MAX_TEAMS; iLoopTeam++)
 	{
@@ -2375,6 +2419,9 @@ int CvTeamAI::AI_makePeaceTradeVal(TeamTypes ePeaceTeam, TeamTypes eTeam) const
 
 	if (isHuman())
 	{
+		if (GC.getDefineINT("CVTEAMAI_PEACE_TRADEVAL_MULTIPLIERTIMES10000") > 0) {
+			return iValue * GC.getDefineINT("CVTEAMAI_PEACE_TRADEVAL_MULTIPLIERTIMES10000") / 10000;
+		}
 		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
 	}
 	else
@@ -2552,6 +2599,9 @@ int CvTeamAI::AI_declareWarTradeVal(TeamTypes eWarTeam, TeamTypes eTeam) const
 
 	if (isHuman())
 	{
+		if (GC.getDefineINT("CVTEAMAI_WARTRADEVAL_MULTIPLIERTIMES10000") > 0) {
+			return iValue * GC.getDefineINT("CVTEAMAI_WARTRADEVAL_MULTIPLIERTIMES10000") / 10000;
+		}
 		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
 	}
 	else
@@ -2574,6 +2624,12 @@ DenialTypes CvTeamAI::AI_declareWarTrade(TeamTypes eWarTeam, TeamTypes eTeam, bo
 	FAssertMsg(eWarTeam != getID(), "shouldn't call this function on ourselves");
 	FAssertMsg(GET_TEAM(eWarTeam).isAlive(), "GET_TEAM(eWarTeam).isAlive is expected to be true");
 	FAssertMsg(!isAtWar(eWarTeam), "should be at peace with eWarTeam");
+
+	if (GC.getDefineINT("CVTEAMAI_CAN_ALWAYS_TRADE_WAR_WITH_HUMAN") == 1) {
+		if (GET_TEAM(eTeam).isHuman()) {
+			return NO_DENIAL;
+		}
+	}
 
 	if (GET_TEAM(eWarTeam).isVassal(eTeam) || GET_TEAM(eWarTeam).isDefensivePact(eTeam))
 	{
@@ -2749,6 +2805,25 @@ DenialTypes CvTeamAI::AI_openBordersTrade(TeamTypes eTeam) const
 
 	// Absinthe: won't deny open borders with worst enemy with good enough relations
 	eAttitude = AI_getAttitude(eTeam);
+
+	if (GC.getDefineINT("PLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS") != 0) { //¿ª±ßÌ¬¶È¸£Àû
+		int AttitudeBonus = GC.getDefineINT("PLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS");
+		if (GET_TEAM(eTeam).isHuman()) {
+			if (AttitudeBonus >= 5) {
+				AttitudeBonus = 5;
+			}
+			if (AttitudeBonus <= -5) {
+				AttitudeBonus = -5;
+			}
+		}
+		else {
+			AttitudeBonus = 0;
+		}
+
+		eAttitude = (AttitudeTypes)((int)eAttitude + AttitudeBonus);
+	}
+
+
 	if (AI_getWorstEnemy() == eTeam)
 	{
 		if (eAttitude < ATTITUDE_PLEASED)

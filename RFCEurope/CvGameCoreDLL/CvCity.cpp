@@ -244,6 +244,36 @@ void CvCity::init(int iID, PlayerTypes eOwner, int iX, int iY, bool bBumpUnits, 
 
 	if (lResult == 1)
 	{
+
+		// mediv01 城市地块有森林，建城免费获得90锤子
+		if (GC.getDefineINT("CVCITY_FOUND_CITY_CAN_USE_FOREST") > 0) {
+			enum FeatureTypes1					// Exposed to Python
+			{
+				NO_FEATURE = -1,
+				FEATURE_ICE,
+				FEATURE_JUNGLE,
+				FEATURE_OASIS,
+				FEATURE_FLOOD_PLAINS,
+				FEATURE_FOREST,
+				FEATURE_MARSH,
+				FEATURE_CAPE,
+				FEATURE_ISLANDS,
+				FEATURE_RAINFOREST,
+				FEATURE_FALLOUT,
+				NUM_FEATURES
+			};
+
+			if (pPlot->getFeatureType() == FEATURE_FOREST) {
+				CvCity* pCity = pPlot->getPlotCity();
+				int iProduction = GC.getDefineINT("CVCITY_FOUND_CITY_CAN_USE_FOREST") * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getConstructPercent() / 100;;
+				pCity->changeFeatureProduction(iProduction);
+				//CvWString log_CWstring;
+				//log_CWstring.Format(L"地块有森林！ ");
+				//GC.logs(log_CWstring, "test.log");
+			}
+		}
+
+
 		if (pPlot->getFeatureType() != NO_FEATURE)
 		{
 			pPlot->setFeatureType(NO_FEATURE);
@@ -1708,6 +1738,23 @@ bool CvCity::isWorldWondersMaxed() const
 		return false;
 	}
 
+	int iWonderLimit = 999;
+
+	// mediv01  no limit for wonder 奇观无限制
+	if (GC.getDefineINT("MAX_WORLD_WONDERS_PER_CITY_MEDIV01") == -1)
+	{
+		return false;
+	}
+	// mediv01  no limit for wonder 奇观固定数量限制
+	if (GC.getDefineINT("MAX_WORLD_WONDERS_PER_CITY_MEDIV01") >= 1)
+	{
+		iWonderLimit = GC.getDefineINT("MAX_WORLD_WONDERS_PER_CITY_MEDIV01");
+		if (getNumWorldWonders() >= iWonderLimit) {
+			return true;
+		}
+	}
+
+
 	if (GC.getDefineINT("MAX_WORLD_WONDERS_PER_CITY") == -1)
 	{
 		return false;
@@ -2028,6 +2075,16 @@ bool CvCity::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestVis
 		}
 	}
 
+
+	//mediv01  AI不能建造奇观，奇观控的福音
+	if (GC.getDefineINT("CVCITY_AI_CANNOT_BUILD_WONDER") > 0) {
+		if (!GC.isHuman(getOwner())) {
+			if (isWorldWonderClass((BuildingClassTypes)(GC.getBuildingInfo(eBuilding).getBuildingClassType()))) {
+				return false;
+			}
+		}
+
+	}
 	//Rhye - start (embassy)
 	// 3Miro: when can build embassy
 	/*if (eBuilding >= NUM_BUILDINGS_PLAGUE)
@@ -3326,6 +3383,12 @@ int CvCity::getExtraProductionDifference(int iExtra, int iModifier) const
 
 bool CvCity::canHurry(HurryTypes eHurry, bool bTestVisible) const
 {
+
+	if (GC.getDefineINT("CVCITY_CAN_ALWAYS_HURRY") == 1) {
+		return true;
+	}
+
+
 	if (!(GET_PLAYER(getOwnerINLINE()).canHurry(eHurry)))
 	{
 		return false;
@@ -5023,7 +5086,18 @@ int CvCity::hurryAngerLength(HurryTypes eHurry) const
 
 int CvCity::maxHurryPopulation() const
 {
-	return (getPopulation() / 2);
+	if (GC.getDefineINT("CVCITY_MAX_HURRY_POPULATION") == -1) {
+		return (getPopulation() - 1);
+	}
+	else if (GC.getDefineINT("CVCITY_MAX_HURRY_POPULATION") == 0) {
+		return (getPopulation() / 2);//mediv01 最大能加速的人口
+	}
+	else if (GC.getDefineINT("CVCITY_MAX_HURRY_POPULATION") > 0) {
+		return std::min((getPopulation() - 1), GC.getDefineINT("CVCITY_MAX_HURRY_POPULATION"));
+	}
+	else {
+		return (getPopulation() / 2);//mediv01 最大能加速的人口
+	}
 }
 
 
@@ -5743,6 +5817,16 @@ int CvCity::calculateDistanceMaintenanceTimes100() const
 	}
 
 	iTempMaintenance = std::min(iWorstCityMaintenance, iBestCapitalMaintenance);
+
+
+	// mediv01 最大维护费
+	if (GC.getDefineINT("CVCITY_MAX_CITY_MAINTENANCE_OF_DISTANCE") > 0) {
+		if (getOwner() == getOwnerINLINE()) {
+			iTempMaintenance = std::min(GC.getDefineINT("CVCITY_MAX_CITY_MAINTENANCE_OF_DISTANCE") * 100, iTempMaintenance);
+		}
+	}
+
+
 	FAssert(iTempMaintenance >= 0);
 
 	return iTempMaintenance;
@@ -5790,6 +5874,13 @@ int CvCity::calculateNumCitiesMaintenanceTimes100() const
 	iNumCitiesMaintenance /= 100;
 
 	FAssert(iNumCitiesMaintenance >= 0);
+
+
+	if (GC.getDefineINT("CVCITY_MAX_CITY_MAINTENANCE_OF_NUMBER") > 0) {
+		if (getOwner() == getOwnerINLINE()) {
+			iNumCitiesMaintenance = std::min(GC.getDefineINT("CVCITY_MAX_CITY_MAINTENANCE_OF_NUMBER") * 100, iNumCitiesMaintenance);
+		}
+	}
 
 	return iNumCitiesMaintenance;
 }
@@ -5910,7 +6001,19 @@ int CvCity::calculateCorporationMaintenanceTimes100(CorporationTypes eCorporatio
 
 int CvCity::calculateBaseMaintenanceTimes100() const
 {
-	return (calculateDistanceMaintenanceTimes100() + calculateNumCitiesMaintenanceTimes100() + calculateColonyMaintenanceTimes100() + calculateCorporationMaintenanceTimes100());
+	int BaseMaintenance = (calculateDistanceMaintenanceTimes100() + calculateNumCitiesMaintenanceTimes100() + calculateColonyMaintenanceTimes100() + calculateCorporationMaintenanceTimes100());
+	if (GC.getDefineINT("CVCITY_MAX_CITY_MAINTENANCE_TOTAL") > 0) {
+		if (getOwner() == getOwnerINLINE()) {
+			BaseMaintenance = std::min(BaseMaintenance, GC.getDefineINT("CVCITY_MAX_CITY_MAINTENANCE_TOTAL") * 100);
+		}
+
+	}
+	else {
+
+	}
+	return BaseMaintenance;
+	
+	//return (calculateDistanceMaintenanceTimes100() + calculateNumCitiesMaintenanceTimes100() + calculateColonyMaintenanceTimes100() + calculateCorporationMaintenanceTimes100());
 }
 
 
@@ -6738,6 +6841,9 @@ void CvCity::changeExtraHealth(int iChange)
 
 int CvCity::getHurryAngerTimer() const
 {
+	if (GC.getDefineINT("CVCITY_NOT_HURRY_ANGRY_PUNISHMENT") == 1) {
+		return 0;
+	}
 	return m_iHurryAngerTimer;
 }
 
@@ -8668,11 +8774,17 @@ int CvCity::getBuildingCommerceByBuilding(CommerceTypes eIndex, BuildingTypes eB
 					}
 				}
 
+				int iShrineLimit = MAX_COM_SHRINE; //默认是20
+				// 圣殿收入 手工配置 mediv01
+				if (GC.getDefineINT("CVCITY_MAX_SHRINE_LIMIT") > 0) {
+					iShrineLimit = GC.getDefineINT("CVCITY_MAX_SHRINE_LIMIT");
+				}
+
 				if (GC.getBuildingInfo(eBuilding).getGlobalReligionCommerce() != NO_RELIGION)
 				{
 				//Rhye - start (max commerce from a shrine)
 				//iCommerce += (GC.getReligionInfo((ReligionTypes)(GC.getBuildingInfo(eBuilding).getGlobalReligionCommerce())).getGlobalReligionCommerce(eIndex) * GC.getGameINLINE().countReligionLevels((ReligionTypes)(GC.getBuildingInfo(eBuilding).getGlobalReligionCommerce())));
-				iCommerce += std::min(MAX_COM_SHRINE, (GC.getReligionInfo((ReligionTypes)(GC.getBuildingInfo(eBuilding).getGlobalReligionCommerce())).getGlobalReligionCommerce(eIndex) * GC.getGameINLINE().countReligionLevels((ReligionTypes)(GC.getBuildingInfo(eBuilding).getGlobalReligionCommerce()))));
+				iCommerce += std::min(iShrineLimit, (GC.getReligionInfo((ReligionTypes)(GC.getBuildingInfo(eBuilding).getGlobalReligionCommerce())).getGlobalReligionCommerce(eIndex) * GC.getGameINLINE().countReligionLevels((ReligionTypes)(GC.getBuildingInfo(eBuilding).getGlobalReligionCommerce()))));
 				//Rhye - end
 				}
 
@@ -9333,6 +9445,20 @@ int CvCity::getRevoltTestProbability() const
 	if (isCapital() && getOwnerINLINE() < NUM_MAJOR_PLAYERS)
 	{
 		result /= 4;
+	}
+
+	//mediv01 文化叛乱的概率
+	int rebelt_prob;
+	if (GC.getDefineINT("CVCITY_PROB_REBELT_MULTIPLIER_WHEN_CULTURE_IN_LOW") > 0) {
+		rebelt_prob = result;
+		rebelt_prob = rebelt_prob * GC.getDefineINT("CVCITY_PROB_REBELT_MULTIPLIER_WHEN_CULTURE_IN_LOW");
+		rebelt_prob = std::min(rebelt_prob, 100);
+		return rebelt_prob; // Leoreth
+	}
+	else if (GC.getDefineINT("CVCITY_PROB_REBELT_MULTIPLIER_WHEN_CULTURE_IN_LOW") == -1) {
+		rebelt_prob = 0;
+		rebelt_prob = std::min(rebelt_prob, 100);
+		return rebelt_prob; // Leoreth
 	}
 
 	return (result);
@@ -11408,7 +11534,14 @@ void CvCity::popOrder(int iNum, bool bFinish, bool bChoose)
 			iOverflow = getUnitProduction(eTrainUnit) - iProductionNeeded;
 			int iMaxOverflow = std::max(iProductionNeeded, getCurrentProductionDifference(false, false));
 			int iMaxOverflowForGold = std::max(iProductionNeeded, getProductionDifference(getProductionNeeded(), getProduction(), 0, isFoodProduction(), false));
-			iOverflow = std::min(iMaxOverflow, iOverflow);
+			
+			if (GC.getDefineINT("CVCITY_BUILDING_NO_MAXOVERFLOW_LIMIT") > 0) {
+
+			}
+
+			else {
+				iOverflow = std::min(iMaxOverflow, iOverflow);
+			}
 			//GC.getGameINLINE().logMsg("   city doTurn - doProduction - popOrder Order Train 5"); //Rhye and 3Miro
 			if (iOverflow > 0)
 			{
@@ -12474,6 +12607,46 @@ void CvCity::doGreatPeople()
 			{
 				iGreatPeopleUnitRand -= getGreatPeopleUnitProgress((UnitTypes)iI);
 			}
+		}
+
+		// mediv01 固定伟人点
+		enum GreatPeopleTypes				// Exposed to Python
+		{
+			NO_GREATEOPLE = -1,
+			iGreatProphet = 190,
+			iGreatArtist = 191,
+			iGreatScientist = 192,
+			iGreatMerchant = 193,
+			iGreatEngineer = 194,
+			iGreatStatesman = 195,
+
+		};
+		const int mediv01 = GC.getDefineINT("CVCITY_FIX_GENERATE_GREAT_PEOPLE");
+		if (mediv01 > 0 && isHuman()) {
+			if (mediv01 == 1) {  // 大预言家
+				eGreatPeopleUnit = ((UnitTypes)iGreatProphet);
+			}
+			else if (mediv01 == 2) {  // 大艺术家
+				eGreatPeopleUnit = ((UnitTypes)iGreatArtist);
+			}
+			else if (mediv01 == 3) {  // 大科学家
+				eGreatPeopleUnit = ((UnitTypes)iGreatScientist);
+			}
+			else if (mediv01 == 4) {  // 大商业家
+				eGreatPeopleUnit = ((UnitTypes)iGreatMerchant);
+			}
+			else if (mediv01 == 5) {  // 大工程师
+				eGreatPeopleUnit = ((UnitTypes)iGreatEngineer);
+			}
+			else if (mediv01 == 6) {  // 大政治家
+				eGreatPeopleUnit = ((UnitTypes)iGreatStatesman);
+			}
+			else {
+
+			}
+
+
+
 		}
 
 		if (eGreatPeopleUnit != NO_UNIT)
@@ -14220,6 +14393,14 @@ void CvCity::liberate(bool bConquest)
 
 PlayerTypes CvCity::getLiberationPlayer(bool bConquest) const
 {
+
+	if (GC.getDefineINT("CITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER") == 1) {
+		return NO_PLAYER;
+		//mediv01            
+		//检测CITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER，解放城市是否一定给独立城邦
+	}
+
+
 	if (isCapital())
 	{
 		return NO_PLAYER;
@@ -14400,7 +14581,9 @@ bool CvCity::isAutoRaze() const
 		{
 			if (GC.getGameINLINE().getSorenRandNum(100," Shall we autoraze") < 60)
 			{
-				return true;
+				if (!GC.getDefineINT("CVCITY_NOT_AUTO_RAZE_CITY") == 1) { //不自动摧毁城市
+					return true;
+				}
 			}
 		}
 		else

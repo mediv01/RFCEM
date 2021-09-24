@@ -149,6 +149,230 @@ CvPlayerAI::~CvPlayerAI()
 }
 
 
+int CvPlayerAI::getAIdealValuetoMoney(int ePlayerID, int myPlayerID, int tradetypeID, int tradeitemID) const {
+	// 实现人类卖东西给AI的函数
+
+	PlayerTypes ePlayer = (PlayerTypes)ePlayerID;    //Human
+	PlayerTypes myPlayer = (PlayerTypes)myPlayerID;  //AI
+	TradeableItems tradetype = (TradeableItems)tradetypeID;
+	int iValue = 0;
+	int iMoney = 0;
+
+	if (myPlayer >= NUM_MAJOR_PLAYERS) {
+		return 0;
+	}
+
+	if (tradetype == TRADE_TECHNOLOGIES) {
+		TechTypes tradeTech = (TechTypes)tradeitemID;
+
+
+
+		bool cantrade = false;
+
+		//TradeData item;
+		//setTradeItem(&item, TRADE_TECHNOLOGIES, tradeitemID);
+		//cantrade = canTradeItem(ePlayer, item);
+
+		cantrade = GC.AIcantradeTech(myPlayer, ePlayer, tradeTech);
+		cantrade = true;
+		if (cantrade) {
+			iValue = GET_TEAM(GET_PLAYER(myPlayer).getTeam()).AI_techTradeVal((TechTypes)(tradeTech), GET_PLAYER(ePlayer).getTeam());
+			iMoney = iValue / GET_PLAYER(ePlayer).AI_goldTradeValuePercent() * 100;
+
+		}
+	}
+	/*
+	if (tradetype == TRADE_RESOURCES) {
+		// 不成熟的代码
+		BonusTypes tradeBonus = (BonusTypes)(tradeitemID);
+
+
+		int iChange = -1;
+		iValue = 1000;
+		iValue = GET_PLAYER(myPlayer).AI_bonusTradeVal(tradeBonus, ePlayer, iChange);
+		iMoney = iValue / GET_PLAYER(ePlayer).AI_goldTradeValuePercent(myPlayer) * 100;
+
+		iMoney = iValue;
+
+		CvWString log_CWstring;
+		log_CWstring.Format(L"玩家ID %d ，资源ID： %d  资源价值： %d", (int)ePlayer, tradetypeID, 0);
+		GC.logs(log_CWstring, "TESTBonusTrade.log");
+
+	}
+	*/
+
+
+
+	return iMoney;
+}
+
+bool CvGlobals::AIcantradeTech(PlayerTypes eWhoTo, PlayerTypes eMyPlayer, TechTypes iTech) const {
+	//eMyPlayer 是 拥有科技的一方，卖科技
+	//eWhoTo 是买科技的一方，没有科技
+	if (!(GC.getGameINLINE().isOption(GAMEOPTION_NO_TECH_TRADING)))
+	{
+		if (GC.getTechInfo((TechTypes)(iTech)).isTrade() && (GET_PLAYER(eMyPlayer).canTradeNetworkWith(eWhoTo) || atWar(GET_PLAYER(eMyPlayer).getTeam(), GET_PLAYER(eWhoTo).getTeam())))
+		{
+			if (GET_TEAM(GET_PLAYER(eMyPlayer).getTeam()).isHasTech((TechTypes)(iTech)) && !(GET_TEAM(GET_PLAYER(eMyPlayer).getTeam()).isNoTradeTech((TechTypes)(iTech))))
+			{
+				if (!GET_TEAM(GET_PLAYER(eWhoTo).getTeam()).isHasTech((TechTypes)(iTech)))
+				{
+					if (GC.getDefineINT("CVPLAYER_CAN_TRADE_TECH_WITH_NOT_RESEARCH") == 1) { //mediv01 
+						return true;
+					}
+					//if (GET_PLAYER(eWhoTo).isHuman() || (GET_PLAYER(eWhoTo).getCurrentResearch() != item.m_iData))
+					{
+						if (GET_TEAM(GET_PLAYER(eMyPlayer).getTeam()).isTechTrading() || GET_TEAM(GET_PLAYER(eWhoTo).getTeam()).isTechTrading()) //mediv01
+						{
+							FAssertMsg(iTech >= 0, "item.m_iData is expected to be non-negative (invalid Index)");
+
+							if (GET_PLAYER(eWhoTo).canResearch(((TechTypes)iTech), true))
+							{
+								return true;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	return false;
+}
+
+//mediv01 by 20200723 可以勒索金币数量的接口
+int CvPlayerAI::AI_considerOffer_Threshold(int ePlayer1, int myPlayer1) const
+{
+	//CLLNode<TradeData>* pNode;
+	//return 0;
+	PlayerTypes ePlayer = ((PlayerTypes)ePlayer1);//human 
+	PlayerTypes myPlayer = ((PlayerTypes)myPlayer1);//AI
+	int iThreshold;
+	if (GC.getDefineINT("PLAYER_AI_ALLOW_TO_USE_CONSIDEROFFER_THRESHOLD") == 0) {
+		return 0;//mediv01
+	}
+
+	//FAssertMsg(ePlayer != getID(), "shouldn't call this function on ourselves");
+
+	if (GET_PLAYER(myPlayer).AI_getAttitude(ePlayer) < ATTITUDE_PLEASED)
+	{
+
+		if (GET_TEAM(GET_PLAYER(myPlayer).getTeam()).getPower(false) > ((GET_TEAM(GET_PLAYER(ePlayer).getTeam()).getPower(false) * 4) / 3))
+		{
+			return 0;
+		}
+
+	}
+
+	if (GET_PLAYER(myPlayer).AI_getMemoryCount(ePlayer, MEMORY_MADE_DEMAND_RECENT) > 0)
+	{
+		return 0;
+	}
+
+
+
+	iThreshold = (GET_TEAM(GET_PLAYER(myPlayer).getTeam()).AI_getHasMetCounter(GET_PLAYER(ePlayer).getTeam()) + 50);
+
+	iThreshold *= 2;
+
+	if (GET_TEAM(GET_PLAYER(ePlayer).getTeam()).AI_isLandTarget(GET_PLAYER(myPlayer).getTeam()))
+	{
+		iThreshold *= 3;
+	}
+
+	iThreshold *= (GET_TEAM(GET_PLAYER(ePlayer).getTeam()).getPower(false) + 100);
+	iThreshold /= (GET_TEAM(GET_PLAYER(myPlayer).getTeam()).getPower(false) + 100);
+
+
+	iThreshold -= GET_PLAYER(ePlayer).AI_getPeacetimeGrantValue(myPlayer);
+
+	//int iOurValue = GET_PLAYER(ePlayer).AI_dealVal(getID(), pOurList, false, iChange);
+	//iTheirValue=0
+	//int AI_dealVal = AI_goldTradeValuePercent(myPlayer);
+	iThreshold = iThreshold / GET_PLAYER(ePlayer).AI_goldTradeValuePercent() * 100;
+	return iThreshold;
+
+	//iThreshold = 100;
+
+
+
+
+}
+
+int CvPlayerAI::AI_considerOffer_Threshold_Map(int ePlayer1, int myPlayer1) const
+{
+	//CLLNode<TradeData>* pNode;
+	//return 0;
+	PlayerTypes ePlayer = ((PlayerTypes)ePlayer1);//human 
+	PlayerTypes myPlayer = ((PlayerTypes)myPlayer1);//AI
+	int iThreshold = 0;
+	if (GC.getDefineINT("PLAYER_AI_ALLOW_TO_USE_CONSIDEROFFER_THRESHOLD_MAP") == 0) {
+		return 0;//mediv01
+	}
+
+	CLinkList<TradeData> pOurList;
+	TradeData item;
+	setTradeItem(&item, TRADE_MAPS, 0);
+	pOurList.insertAtEnd(item);
+
+	int iChange = -1;
+	int iOurValue = GET_PLAYER(ePlayer).AI_dealVal(getID(), &pOurList, false, iChange);
+	iThreshold = iOurValue;
+
+
+	//int iOurValue = GET_PLAYER(ePlayer).AI_dealVal(getID(), pOurList, false, iChange);
+	//int iTheirValue = AI_dealVal(ePlayer, pTheirList, false, iChange);
+
+	/* //mediv01 以下代码为勒索的代码
+	//FAssertMsg(ePlayer != getID(), "shouldn't call this function on ourselves");
+
+	if (GET_PLAYER(myPlayer).AI_getAttitude(ePlayer) < ATTITUDE_PLEASED)
+	{
+
+		if (GET_TEAM(GET_PLAYER(myPlayer).getTeam()).getPower(false) > ((GET_TEAM(GET_PLAYER(ePlayer).getTeam()).getPower(false) * 4) / 3))
+		{
+			return 0;
+		}
+
+	}
+
+	if (GET_PLAYER(myPlayer).AI_getMemoryCount(ePlayer, MEMORY_MADE_DEMAND_RECENT) > 0)
+	{
+		return 0;
+	}
+
+
+
+	iThreshold = (GET_TEAM(GET_PLAYER(myPlayer).getTeam()).AI_getHasMetCounter(GET_PLAYER(ePlayer).getTeam()) + 50);
+
+	iThreshold *= 2;
+
+	if (GET_TEAM(GET_PLAYER(ePlayer).getTeam()).AI_isLandTarget(GET_PLAYER(myPlayer).getTeam()))
+	{
+		iThreshold *= 3;
+	}
+
+	iThreshold *= (GET_TEAM(GET_PLAYER(ePlayer).getTeam()).getPower(false) + 100);
+	iThreshold /= (GET_TEAM(GET_PLAYER(myPlayer).getTeam()).getPower(false) + 100);
+
+
+	iThreshold -= GET_PLAYER(ePlayer).AI_getPeacetimeGrantValue(myPlayer);
+	*/
+
+	//int iOurValue = GET_PLAYER(ePlayer).AI_dealVal(getID(), pOurList, false, iChange);
+	//iTheirValue=0
+	//int AI_dealVal = AI_goldTradeValuePercent(myPlayer);
+	iThreshold = iThreshold / GET_PLAYER(ePlayer).AI_goldTradeValuePercent() * 100;
+	return iThreshold;
+
+	//iThreshold = 100;
+
+
+
+
+}
+
+
+
 void CvPlayerAI::AI_init()
 {
 	AI_reset(false);
@@ -5849,11 +6073,15 @@ int CvPlayerAI::AI_getWarAttitude(PlayerTypes ePlayer) const
 
 int CvPlayerAI::AI_getPeaceAttitude(PlayerTypes ePlayer) const
 {
-	int iAttitudeChange;
+	int iAttitudeChange = 0;
+	if ((GET_PLAYER(ePlayer).isHuman()) && GC.getDefineINT("CVPLAYERAI_ATTITUDE_BONUS") != 0)
+	{
+		iAttitudeChange += GC.getDefineINT("CVPLAYERAI_ATTITUDE_BONUS"); //mediv01 外交态度红利
+	}
 
 	if (GC.getLeaderHeadInfo(getPersonalityType()).getAtPeaceAttitudeDivisor() != 0)
 	{
-		iAttitudeChange = (GET_TEAM(getTeam()).AI_getAtPeaceCounter(GET_PLAYER(ePlayer).getTeam()) / GC.getLeaderHeadInfo(getPersonalityType()).getAtPeaceAttitudeDivisor());
+		iAttitudeChange += (GET_TEAM(getTeam()).AI_getAtPeaceCounter(GET_PLAYER(ePlayer).getTeam()) / GC.getLeaderHeadInfo(getPersonalityType()).getAtPeaceAttitudeDivisor());
 		return range(iAttitudeChange, -(abs(GC.getLeaderHeadInfo(getPersonalityType()).getAtPeaceAttitudeChangeLimit())), abs(GC.getLeaderHeadInfo(getPersonalityType()).getAtPeaceAttitudeChangeLimit()));
 	}
 
@@ -6617,6 +6845,13 @@ int CvPlayerAI::AI_dealVal(PlayerTypes ePlayer, const CLinkList<TradeData>* pLis
 			{
 				iValue += AI_cityTradeVal(pCity);
 			}
+
+			if (GC.getDefineINT("CVTEAMAI_CITY_TRADEVAL_FOR_VASSAL_MULTIPLIERTIMES10000") >= 0) {
+				if (GET_TEAM(getTeam()).isVassal(GET_PLAYER(ePlayer).getTeam()) || GET_TEAM(GET_PLAYER(ePlayer).getTeam()).isVassal(getTeam())) {
+					iValue = (int)(iValue * GC.getDefineINT("CVTEAMAI_CITY_TRADEVAL_FOR_VASSAL_MULTIPLIERTIMES10000") / 10000);
+				}
+			}
+
 			break;
 		case TRADE_GOLD:
 			iValue += (pNode->m_data.m_iData * AI_goldTradeValuePercent()) / 100;
@@ -6755,7 +6990,12 @@ bool CvPlayerAI::AI_considerOffer(PlayerTypes ePlayer, const CLinkList<TradeData
 
 			if (AI_getMemoryCount(ePlayer, MEMORY_MADE_DEMAND_RECENT) > 0)
 			{
-				return false;
+				if (GC.getDefineINT("PLAYER_AI_ALLOW_TO_TRADE_MORE_IN_ONE_TURN") == 1) {
+					//mediv01  可以连续交易
+				}
+				else {
+					return false;//mediv01
+				}
 			}
 		}
 
@@ -7370,6 +7610,10 @@ int CvPlayerAI::AI_maxGoldTrade(PlayerTypes ePlayer) const
 		iMaxGold -= (iMaxGold % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
 	}
 
+	if (GC.getDefineINT("CVPLAYERAI_CAN_TRADE_GOLD_UNLIMITED") == 1) {  //无限制交易金币
+		iMaxGold = getGold();
+	}
+
 	return std::max(0, iMaxGold);
 }
 
@@ -7393,6 +7637,14 @@ int CvPlayerAI::AI_maxGoldPerTurnTrade(PlayerTypes ePlayer) const
 
 		iMaxGoldPerTurn += std::min(0, getGoldPerTurnByPlayer(ePlayer));
 	}
+
+	int goldrate = calculateGoldRate() + 0;
+	if (GC.getDefineINT("CVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI") > 0) {  //无限制交易金币
+		iMaxGoldPerTurn = getTotalPopulation() * GC.getDefineINT("CVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI");
+		goldrate = (calculateGoldRate() + 1) * GC.getDefineINT("CVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI") + 0;
+		return std::max(0, std::min(iMaxGoldPerTurn, goldrate));
+	}
+
 
 	return std::max(0, std::min(iMaxGoldPerTurn, calculateGoldRate()));
 }
@@ -7839,6 +8091,12 @@ DenialTypes CvPlayerAI::AI_bonusTrade(BonusTypes eBonus, PlayerTypes ePlayer) co
 	bool bStrategic;
 	int iI, iJ;
 
+	if (GC.getDefineINT("CVPLAYERAI_CAN_ALWAYS_TRADE_RESOURCE") == 1) {//mediv01 
+		if (GET_PLAYER(ePlayer).isHuman()) {
+			return NO_DENIAL;
+		}
+	}
+
 	FAssertMsg(ePlayer != getID(), "shouldn't call this function on ourselves");
 
 	if (isHuman() && GET_PLAYER(ePlayer).isHuman())
@@ -7999,14 +8257,40 @@ int CvPlayerAI::AI_cityTradeVal(CvCity* pCity) const
 
 	iValue -= (iValue % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
 
+
+
+
+	int returnVal = 0;
 	if (isHuman())
 	{
-		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+		returnVal = std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
 	}
 	else
 	{
-		return iValue;
+		returnVal = iValue;
 	}
+	if (GC.getDefineINT("CVTEAMAI_CITY_TRADEVAL_MULTIPLIERTIMES10000") > 0) {
+		returnVal = (int)(returnVal * GC.getDefineINT("CVTEAMAI_CITY_TRADEVAL_MULTIPLIERTIMES10000") / 10000);
+	}
+	return returnVal;
+
+
+
+
+
+
+
+
+
+
+	//if (isHuman())
+	//{
+	//	return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+	//}
+	//else
+	//{
+	//	return iValue;
+	//}
 }
 
 
@@ -8015,6 +8299,20 @@ DenialTypes CvPlayerAI::AI_cityTrade(CvCity* pCity, PlayerTypes ePlayer) const
 	CvCity* pNearestCity;
 
 	FAssert(pCity->getOwnerINLINE() == getID());
+
+	if (GC.getDefineINT("CVPLAYERAI_CAN_ALWAYS_TRADE_CITY") == 1) {//mediv01 
+		if (GET_PLAYER(ePlayer).isHuman()) {
+			//这里需要加上对手是人类方，否则会出现闪退
+
+
+			return NO_DENIAL;
+		}
+
+		if (isHuman()) {
+			return NO_DENIAL;
+		}
+	}
+
 
 	//Rhye - start
 	if (isHuman() && GET_PLAYER(ePlayer).getNumCities() == 0)
@@ -12452,6 +12750,9 @@ void CvPlayerAI::AI_doDiplo()
 
 													if (pLoopDeal->isVassalDeal())
 													{
+														if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+															continue;
+														}
 														pDiplo->setDiploComment((DiploCommentTypes)GC.getInfoTypeForString("AI_DIPLOCOMMENT_NO_VASSAL"));
 														pDiplo->setAIContact(true);
 														gDLL->beginDiplomacy(pDiplo, ((PlayerTypes)iI));
@@ -12459,6 +12760,9 @@ void CvPlayerAI::AI_doDiplo()
 													}
 													else
 													{
+														if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+															continue;
+														}
 														pDiplo->setDiploComment((DiploCommentTypes)GC.getInfoTypeForString("AI_DIPLOCOMMENT_CANCEL_DEAL"));
 														pDiplo->setAIContact(true);
 														pDiplo->setOurOfferList(theirList);
@@ -12724,6 +13028,10 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																continue;
+															}
+
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_PERMANENT_ALLIANCE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_PERMANENT_ALLIANCE));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -12758,6 +13066,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_PERMANENT_ALLIANCE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_PERMANENT_ALLIANCE));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -12810,6 +13121,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_RELIGION_PRESSURE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_RELIGION_PRESSURE));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -12842,6 +13156,9 @@ void CvPlayerAI::AI_doDiplo()
 															{
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																		continue;
+																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_CIVIC_PRESSURE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_CIVIC_PRESSURE));
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -12897,6 +13214,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_JOIN_WAR, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_JOIN_WAR));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -12929,6 +13249,9 @@ void CvPlayerAI::AI_doDiplo()
 
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_STOP_TRADING, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_STOP_TRADING));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -12984,6 +13307,9 @@ void CvPlayerAI::AI_doDiplo()
 
 															if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 															{
+																if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																	continue;
+																}
 																AI_changeContactTimer(((PlayerTypes)iI), CONTACT_GIVE_HELP, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_GIVE_HELP));
 																pDiplo = new CvDiploParameters(getID());
 																FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13036,6 +13362,9 @@ void CvPlayerAI::AI_doDiplo()
 
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_ASK_FOR_HELP, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_ASK_FOR_HELP));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13089,6 +13418,9 @@ void CvPlayerAI::AI_doDiplo()
 
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																		continue;
+																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEMAND_TRIBUTE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEMAND_TRIBUTE));
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13140,6 +13472,9 @@ void CvPlayerAI::AI_doDiplo()
 
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																		continue;
+																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEMAND_TRIBUTE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEMAND_TRIBUTE));
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13213,6 +13548,9 @@ void CvPlayerAI::AI_doDiplo()
 
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																		continue;
+																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEMAND_TRIBUTE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEMAND_TRIBUTE));
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13289,6 +13627,9 @@ void CvPlayerAI::AI_doDiplo()
 
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																		continue;
+																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEMAND_TRIBUTE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEMAND_TRIBUTE));
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13326,6 +13667,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_OPEN_BORDERS, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_OPEN_BORDERS));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13366,6 +13710,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEFENSIVE_PACT, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEFENSIVE_PACT));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13517,6 +13864,9 @@ void CvPlayerAI::AI_doDiplo()
 															{
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																		continue;
+																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_TRADE_TECH, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_TRADE_TECH));
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13618,6 +13968,9 @@ void CvPlayerAI::AI_doDiplo()
 														{
 															if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 															{
+																if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																	continue;
+																}
 																AI_changeContactTimer(((PlayerTypes)iI), CONTACT_TRADE_BONUS, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_TRADE_BONUS));
 																pDiplo = new CvDiploParameters(getID());
 																FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13662,6 +14015,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_TRADE_MAP, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_TRADE_MAP));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");

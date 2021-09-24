@@ -9477,6 +9477,59 @@ void CvPlot::doCulture()
 		}
 	}
 
+	// add PLAYEROPTION_FORT_CULTURE
+//mediv01 要塞驻军产生文化
+	if (GC.getDefineINT("CVGAME_FORT_CAN_CULTURE") == 1) {
+		if (getImprovementType() != NO_IMPROVEMENT)
+		{
+			if (GC.getImprovementInfo(getImprovementType()).isActsAsCity())
+			{
+				if (getNumUnits() > 0)
+				{
+					CLLNode<IDInfo>* pUnitNode;
+					CvUnit* pLoopUnit;
+					PlayerTypes ePlayer = NO_PLAYER;
+
+					pUnitNode = headUnitNode();
+					while (pUnitNode != NULL)
+					{
+						pLoopUnit = ::getUnit(pUnitNode->m_data);
+						pUnitNode = nextUnitNode(pUnitNode);
+
+						if (!pLoopUnit->getUnitInfo().isHiddenNationality() && !pLoopUnit->getUnitInfo().isSpy() && pLoopUnit->getUnitInfo().isMilitaryProduction())
+						{
+							ePlayer = (PlayerTypes)pLoopUnit->getOwnerINLINE();
+							break;
+						}
+					}
+
+					if (ePlayer != NO_PLAYER)
+					{
+						if (getOwnerINLINE() == NO_PLAYER)
+						{
+							setOwner(ePlayer, true, true);
+						}
+
+						CvPlot* pAdjacentPlot;
+						for (int iI = 0; iI < NUM_DIRECTION_TYPES; ++iI)
+						{
+							pAdjacentPlot = plotDirection(getX_INLINE(), getY_INLINE(), ((DirectionTypes)iI));
+							if (pAdjacentPlot != NULL)
+							{
+								if (pAdjacentPlot->getOwnerINLINE() == NO_PLAYER)
+								{
+									pAdjacentPlot->setOwner(ePlayer, true, true);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	// end add
+
+
 	updateCulture(true, true);
 }
 

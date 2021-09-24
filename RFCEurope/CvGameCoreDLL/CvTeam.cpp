@@ -6454,7 +6454,22 @@ int CvTeam::getEspionagePointsAgainstTeam(TeamTypes eIndex) const
 {
 	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
 	FAssertMsg(eIndex < MAX_TEAMS, "eIndex is expected to be within maximum bounds (invalid Index)");
-	return m_aiEspionagePointsAgainstTeam[eIndex];
+
+	int iEspionagePoints = m_aiEspionagePointsAgainstTeam[eIndex];
+	//mediv01 谍报点加成
+	if (GC.getDefineINT("CVPLYER_GET_ESPIONAGE_POINT_BONUS") != 0) {
+		if (isHuman()) {
+			iEspionagePoints += GC.getDefineINT("CVPLYER_GET_ESPIONAGE_POINT_BONUS");
+		}
+		else {
+			if (GC.getDefineINT("CVPLYER_GET_ESPIONAGE_POINT_BONUS_FOR_AI") == 1) {
+				iEspionagePoints += GC.getDefineINT("CVPLYER_GET_ESPIONAGE_POINT_BONUS");
+			}
+		}
+	}
+	return iEspionagePoints;
+
+	// return m_aiEspionagePointsAgainstTeam[eIndex];
 }
 
 void CvTeam::setEspionagePointsAgainstTeam(TeamTypes eIndex, int iValue)
