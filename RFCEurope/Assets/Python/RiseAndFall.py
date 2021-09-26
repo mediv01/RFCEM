@@ -1,5 +1,5 @@
 # Rhye's and Fall of Civilization: Europe - Main RFC mechanics
-
+from GlobalDefinesAlt import *
 from CvPythonExtensions import *
 import CvUtil
 import PyHelpers	# LOQ
@@ -416,10 +416,17 @@ class RiseAndFall:
 			print ("Flip agreed")
 			CyInterface().addMessage(iHuman, True, con.iDuration, CyTranslator().getText("TXT_KEY_FLIP_AGREED", ()), "", 0, "", ColorTypes(con.iGreen), -1, -1, True, True)
 
+			infotext = '在AD' + str(getYear()) + "， 玩家同意翻转 "
+			utils.log_riseandfall(infotext, utils.getHumanID())
+
 			if humanCityList:
 				for city in humanCityList:
 					tCity = (city.getX(),city.getY())
 					print ("flipping ", city.getName())
+
+					infotext =  "翻转城市：" + city.getName()
+					utils.log_riseandfall(infotext, utils.getHumanID())
+
 					utils.cultureManager(tCity, 100, iNewCivFlip, iHuman, False, False, False)
 					utils.flipUnitsInCityBefore(tCity, iNewCivFlip, iHuman)
 					self.setTempFlippingCity(tCity)
@@ -456,7 +463,8 @@ class RiseAndFall:
 		elif popupReturn.getButtonClicked() == 1: # 2nd button
 			print ("Flip disagreed")
 			CyInterface().addMessage(iHuman, True, con.iDuration, CyTranslator().getText("TXT_KEY_FLIP_REFUSED", ()), "", 0, "", ColorTypes(con.iGreen), -1, -1, True, True)
-
+			infotext = '在AD' + str(getYear()) + "， 玩家拒绝翻转 "
+			utils.log_riseandfall(infotext, utils.getHumanID())
 
 			if humanCityList:
 				for city in humanCityList:
@@ -579,6 +587,8 @@ class RiseAndFall:
 			cru.do1200ADCrusades()
 
 		self.assignGold(utils.getScenario())
+		import RFCUtils
+		RFCUtils.RFCUtils().log_reset()
 
 
 	def assignGold(self, iScenario):
@@ -699,6 +709,16 @@ class RiseAndFall:
 
 		# Absinthe: checking the spawn dates
 		for iLoopCiv in range( iNumMajorPlayers ):
+
+			if con.tBirth[iLoopCiv] != 0 and iGameTurn == con.tBirth[iLoopCiv] - 2:
+				infotext = '在AD' + str(getYear()) + "， 文明 "+ utils.getCivChineseName(iLoopCiv) + "即将诞生！"
+				utils.info(infotext,iLoopCiv)
+
+
+			if con.tBirth[iLoopCiv] != 0 and iGameTurn == con.tBirth[iLoopCiv]:
+				infotext = '在AD' + str(getYear()) + "， 文明 "+ utils.getCivChineseName(iLoopCiv) + "已经诞生！"
+				utils.info(infotext,iLoopCiv)
+				utils.log_riseandfall(infotext, iLoopCiv)
 			if con.tBirth[iLoopCiv] != 0 and iGameTurn >= con.tBirth[iLoopCiv] - 2 and iGameTurn <= con.tBirth[iLoopCiv] + 4:
 				self.initBirth(iGameTurn, con.tBirth[iLoopCiv], iLoopCiv)
 
@@ -920,6 +940,9 @@ class RiseAndFall:
 					# Absinthe: if more than one third is captured, the civ collapses
 					if iLostCities*2 > iNumCities+1 and iNumCities > 0:
 						print ("COLLAPSE BARBS", gc.getPlayer(iCiv).getCivilizationAdjective(0))
+						infotext = '在AD' + str(getYear()) + "， 文明 " + utils.getCivChineseName(iCiv) + "被野蛮人毁灭！"
+						utils.info(infotext, iCiv)
+						utils.log_riseandfall(infotext, iCiv)
 						if not pCiv.isHuman():
 							utils.killAndFragmentCiv(iCiv, False, False)
 						elif pCiv.getNumCities() > 1:
@@ -955,6 +978,9 @@ class RiseAndFall:
 				if iGameTurn >= con.tBirth[iCiv] + 20 and iGameTurn >= iRespawnTurn + 10 and not utils.collapseImmune(iCiv):
 					# Absinthe: pass for small civs, we have bad stability collapses and collapseMotherland anyway, which is better suited for the collapse of those
 					if lNumCitiesLastTime[iCiv] > 2 and iNumCitiesCurrently * 2 <= lNumCitiesLastTime[iCiv]:
+						infotext = '在AD' + str(getYear()) + "， 文明 " + utils.getCivChineseName(iCiv) + " 已经崩溃！"
+						utils.info(infotext, iCiv)
+						utils.log_riseandfall(infotext, iCiv)
 						print ("COLLAPSE GENERIC", pCiv.getCivilizationAdjective(0), iNumCitiesCurrently * 2, "<=", lNumCitiesLastTime[iCiv])
 						if not pCiv.isHuman():
 							utils.killAndFragmentCiv(iCiv, False, False)
@@ -975,6 +1001,9 @@ class RiseAndFall:
 					if iCiv in [con.iCordoba, con.iAragon] and pCiv.getRespawnedAlive():
 						continue
 					if not gc.safeMotherland( iCiv ):
+						infotext = '在AD' + str(getYear()) + "， 文明 " + utils.getCivChineseName(iCiv) + "因核心全部丢失崩溃！"
+						utils.info(infotext, iCiv)
+						utils.log_riseandfall(infotext, iCiv)
 						print ("COLLAPSE MOTHERLAND", gc.getPlayer(iCiv).getCivilizationAdjective(0))
 						if not pCiv.isHuman():
 							utils.killAndFragmentCiv(iCiv, False, False)
@@ -1078,6 +1107,10 @@ class RiseAndFall:
 			utils.flipUnitsInCityAfter(tCity, iNewCiv)
 
 			print ("SECESSION", gc.getPlayer(iPlayer).getCivilizationAdjective(0), sCityName, "Stability:", iStability)
+
+			infotext = '在AD' + str(getYear()) + "， 玩家城市 " + sCityName +' 因稳定度不足而叛变！ 稳定度： ' + str(iStability)
+			utils.log_riseandfall(infotext,iPlayer)
+
 			# Absinthe: loosing a city to secession/revolt gives a small boost to stability, to avoid a city-revolting chain reaction
 			pPlayer.changeStabilityBase( con.iCathegoryExpansion, 2 )
 			# Absinthe: AI declares war on the indy city right away
@@ -1296,6 +1329,9 @@ class RiseAndFall:
 		self.setLatestRebellionTurn(iDeadCiv, gc.getGame().getGameTurn() )
 
 		print ("RESURRECTION", gc.getPlayer(iDeadCiv).getCivilizationAdjective(0))
+		infotext = '在AD' + str(getYear()) + "， 文明 " + utils.getCivChineseName(iDeadCiv) + "复活！"
+		utils.info(infotext, iDeadCiv)
+		utils.log_riseandfall(infotext, iDeadCiv)
 
 		bHuman = False
 		for (x, y) in lCityList:
@@ -2432,6 +2468,10 @@ class RiseAndFall:
 
 	def ottomanInvasion(self,iCiv,tPlot):
 		print("I made Ottomans on Gallipoli")
+
+		infotext = '在AD' + str(getYear()) + "， 奥斯曼开始入侵 "
+		utils.log_riseandfall(infotext, iCiv)
+
 		utils.makeUnit(xml.iLongbowman, iCiv, tPlot, 2)
 		utils.makeUnit(xml.iMaceman, iCiv, tPlot, 2)
 		utils.makeUnit(xml.iKnight, iCiv, tPlot, 3)

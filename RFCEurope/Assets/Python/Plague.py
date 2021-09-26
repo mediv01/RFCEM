@@ -1,5 +1,5 @@
 # Rhye's and Fall of Civilization: Europe - Plague
-
+from GlobalDefinesAlt import *
 from CvPythonExtensions import *
 import CvUtil
 import PyHelpers
@@ -115,6 +115,12 @@ class Plague:
 			if iGameTurn == self.getGenericPlagueDates(iPlague):
 				self.startPlague(iPlague)
 
+
+
+				infotext = '在AD' + str(getYear()) + "， " + global_plaguenamelist[iPlague] +"开始爆发！ "
+				utils.info(infotext)
+				utils.log_plague(infotext)
+
 			# if the plague has stopped too quickly, restart
 			if iGameTurn == self.getGenericPlagueDates(iPlague) + 4:
 				# not on the first one, that's mostly for one civ anyway
@@ -226,12 +232,15 @@ class Plague:
 		if gc.getPlayer(iHuman).canContact(iPlayer) and iHuman != iPlayer:
 			if city != -1 and city.isRevealed(iHuman, False):
 				CyInterface().addMessage(iHuman, True, con.iDuration/2, CyTranslator().getText("TXT_KEY_PLAGUE_SPREAD_CITY", ()) + " " + city.getName() + " (" + gc.getPlayer(city.getOwner()).getCivilizationAdjective(0) + ")!", "AS2D_PLAGUE", 0, gc.getBuildingInfo(iPlague).getButton(), ColorTypes(con.iLime), city.getX(), city.getY(), True, True)
+				infotext = '在AD' + str(getYear()) + "， 瘟疫开始传入 " + city.getName()
+				utils.log_plague(infotext,city.getOwner())
 			elif city != -1:
 				pCiv = gc.getPlayer(city.getOwner())
 				#print ("pCiv.getCivilizationDescriptionKey()", pCiv.getCivilizationDescriptionKey())
 				#print ("pCiv.getCivilizationDescription(0)", pCiv.getCivilizationDescription(0))
 				CyInterface().addMessage(iHuman, True, con.iDuration/2, CyTranslator().getText("TXT_KEY_PLAGUE_SPREAD_CIV", ()) + " " + pCiv.getCivilizationDescription(0) + "!", "AS2D_PLAGUE", 0, "", ColorTypes(con.iLime), -1, -1, True, True)
-
+				infotext = '在AD' + str(getYear()) + "， 瘟疫开始传入 " + city.getName()
+				utils.log_plague(infotext,city.getOwner())
 		# Absinthe: this is where the duration is handled for each civ
 		#			number of cities should be a significant factor, so plague isn't way more deadly for smaller civs
 		iHealth = self.calcHealth( iPlayer )
@@ -261,28 +270,42 @@ class Plague:
 		city.setHasRealBuilding(iPlague, True)
 		if gc.getPlayer(city.getOwner()).isHuman():
 			CyInterface().addMessage(city.getOwner(), True, con.iDuration/2, CyTranslator().getText("TXT_KEY_PLAGUE_SPREAD_CITY", ()) + " " + city.getName() + "!", "AS2D_PLAGUE", 0, gc.getBuildingInfo(iPlague).getButton(), ColorTypes(con.iLime), x, y, True, True)
+			infotext = '在AD' + str(getYear()) + "， 瘟疫开始感染 " + city.getName()
+			utils.log_plague(infotext,city.getOwner())
 		for (i, j) in utils.surroundingPlots((x, y), 2):
 			pPlot = gc.getMap().plot(i, j)
 			iImprovement = pPlot.getImprovementType()
 			# Absinthe: chance for reducing the improvement vs. only resetting the process towards the next level to 0
 			if iImprovement == xml.iImprovementTown: # 100% chance to reduce towns
 				pPlot.setImprovementType(xml.iImprovementVillage)
+				infotext =  '在AD' + str(getYear()) + "， 城市 " + city.getName() + '的小镇被瘟疫摧毁！'
+				utils.info(infotext, city.getOwner())
+				utils.log_plague(infotext, city.getOwner())
 			elif iImprovement == xml.iImprovementVillage:
 				iRand = gc.getGame().getSorenRandNum(100, 'roll')
 				if iRand < 75: # 75% for reducing, 25% for resetting
 					pPlot.setImprovementType(xml.iImprovementHamlet)
+					infotext ='在AD' + str(getYear()) + "， 城市 " + city.getName() + '的大村被瘟疫摧毁！'
+					utils.info(infotext, city.getOwner())
+					utils.log_plague(infotext, city.getOwner())
 				else:
 					pPlot.setUpgradeProgress(0)
 			elif iImprovement == xml.iImprovementHamlet:
 				iRand = gc.getGame().getSorenRandNum(100, 'roll')
 				if iRand < 50: # 50% for reducing, 50% for resetting
 					pPlot.setImprovementType(xml.iImprovementCottage)
+					infotext ='在AD' + str(getYear()) + "， 城市 " + city.getName() + '的小村被瘟疫摧毁！'
+					utils.info(infotext, city.getOwner())
+					utils.log_plague(infotext, city.getOwner())
 				else:
 					pPlot.setUpgradeProgress(0)
 			elif iImprovement == xml.iImprovementCottage:
 				iRand = gc.getGame().getSorenRandNum(100, 'roll')
 				if iRand < 25: # 25% for reducing, 75% for resetting
 					pPlot.setImprovementType(-1)
+					infotext = '在AD' + str(getYear()) + "， 城市 " + city.getName() + '的农舍被瘟疫摧毁！'
+					utils.info(infotext, city.getOwner())
+					utils.log_plague(infotext, city.getOwner())
 				else:
 					pPlot.setUpgradeProgress(0)
 
@@ -338,9 +361,13 @@ class Plague:
 							if (xml.PY_PLAGUE_KILL_PEOPLE==1):  #mediv01
 								unit.kill( False, iBarbarian )
 								if unit.getOwner() == iHuman:
+									infotext = '在AD' + str(getYear()) + "， 瘟疫在 " + city.getName() + '杀死了我们的单位' + unit.getName()
+									utils.log_plague(infotext, city.getOwner())
 									CyInterface().addMessage(iHuman, False, con.iDuration/2, CyTranslator().getText("TXT_KEY_PLAGUE_PROCESS_UNIT", (unit.getName(), )) + " " + city.getName() + "!", "AS2D_PLAGUE", 0, gc.getBuildingInfo(iPlague).getButton(), ColorTypes(con.iLime), plot.getX(), plot.getY(), True, True)
 						else:
 							unit.setDamage( iUnitDamage, iBarbarian )
+							infotext ='在AD' + str(getYear()) + "， 瘟疫在 " + city.getName() + '伤害了我们的单位' + unit.getName() + '伤害值: ' + str(iUnitDamage)
+							utils.log_plague(infotext, city.getOwner())
 						# if we have many units in the same plot, decrease the damage for every other unit
 						iDamage *= 7
 						iDamage /= 8
@@ -378,6 +405,8 @@ class Plague:
 					city.changePopulation(-1)
 					if iPlayer == iHuman:
 						CyInterface().addMessage(iHuman, False, con.iDuration/2, CyTranslator().getText("TXT_KEY_PLAGUE_PROCESS_CITY", (city.getName(), )) + " " + city.getName() + "!", "AS2D_PLAGUE", 0, gc.getBuildingInfo(iPlague).getButton(), ColorTypes(con.iLime), city.getX(), city.getY(), True, True)
+						infotext = '在AD' + str(getYear()) + "， 瘟疫在 " + city.getName() + '减少了我们城市的人口！'
+						utils.log_plague(infotext, city.getOwner())
 
 			# infect vassals
 			if self.getPlagueCountdown(iPlayer) > 2: # don't spread in the last turns

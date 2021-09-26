@@ -1657,7 +1657,7 @@
 	<Define>
         <!-- set this to 0 if you want to have autosaves during AI autoplay -->
         <DefineName>NO_AUTOSAVE_DURING_AUTOPLAY</DefineName>
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
     <Define>
         <!-- set to 1 if you want to disable UHV goals for AI civilizations (increases speed if they are only checked for the human player) -->

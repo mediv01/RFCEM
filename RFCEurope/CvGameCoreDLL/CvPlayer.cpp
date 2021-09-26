@@ -197,9 +197,9 @@ void CvPlayer::doConquestIncentive(const PlayerTypes& eOldOwner)
 
 		if (GC.getDefineINT("CVGAMECORE_LOG_AI_CONQUEST_TECH_AND_GOLD") > 0) {
 			log_CWstring.Format(L"%s 征服了 %s", GET_PLAYER(PlayerWinner).getCivilizationDescription(), GET_PLAYER(PlayerKilled).getCivilizationDescription());
-			GC.logswithid(PlayerWinner, log_CWstring, "DoC_SmallMap_DLL_Log_Conquest.log");
+			GC.logswithid(PlayerWinner, log_CWstring, "RFCEM_DLL_Log_Conquest.log");
 			log_CWstring.Format(L"%s 征服文明获得金币: %d ", GET_PLAYER(PlayerWinner).getCivilizationDescription(), old_player_gold);
-			GC.logswithid(PlayerWinner, log_CWstring, "DoC_SmallMap_DLL_Log_Conquest.log");
+			GC.logswithid(PlayerWinner, log_CWstring, "RFCEM_DLL_Log_Conquest.log");
 		}
 		gDLL->getInterfaceIFace()->addMessage(getID(), true, GC.getEVENT_MESSAGE_TIME(), log_CWstring, NULL, MESSAGE_TYPE_MAJOR_EVENT);
 
@@ -222,7 +222,7 @@ void CvPlayer::doConquestIncentive(const PlayerTypes& eOldOwner)
 
 					if (GC.getDefineINT("CVGAMECORE_LOG_AI_CONQUEST_TECH_AND_GOLD") > 0) {
 						log_CWstring.Format(L"%s 征服文明获得科技: %s", GET_PLAYER(PlayerWinner).getCivilizationDescription(), GC.getTechInfo((TechTypes)iI).getDescription());
-						GC.logswithid(PlayerWinner, log_CWstring, "DoC_SmallMap_DLL_Log_Conquest.log");
+						GC.logswithid(PlayerWinner, log_CWstring, "RFCEM_DLL_Log_Conquest.log");
 					}
 
 

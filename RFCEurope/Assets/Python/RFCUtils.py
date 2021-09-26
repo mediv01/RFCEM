@@ -1546,7 +1546,10 @@ class RFCUtils:
 		return gc.getCivilizationInfo(iPlayer).getShortDescription(0)
 
 	def getCivChineseName(self, iPlayer):
-		return gc.getPlayer(iPlayer).getCivilizationDescription(0)
+		#return gc.getPlayer(iPlayer).getCivilizationDescription(0)
+		return gc.getPlayer(iPlayer).getCivilizationShortDescription(0)
+
+
 
 	def getTechNameEn(self, iTech):
 		text_tag = gc.getTechInfo(iTech).getTextKey()
@@ -1564,6 +1567,18 @@ class RFCUtils:
 
 	def getText(self, TextKey):
 		return CyTranslator().getText(TextKey, ())
+
+	def show(self, message):
+		popup = Popup.PyPopup()
+		popup.setBodyString(str(message))
+		popup.launch()
+
+	def info(self , message, id=[], color = con.iWhite):
+		# CyTranslator().getText("TXT_KEY_CRUSADE_DENY_FAITH", ())
+		CyInterface().addMessage(self.getHumanID(), True, con.iDuration, str(message),
+								 "", 0, "", ColorTypes(color), -1, -1, True, True)
+		if PYTHON_LOG_ON_INFO:
+			self.log_info(message,id)
 
 
 	# RiseAndFall
@@ -1584,59 +1599,14 @@ class RFCUtils:
 		return log_gettime
 
 
-	def log(self, strText):
-		if (PYTHON_USE_LOG == 1):  # output the debug info
-			f = open(self.log_path() + "RFCEM_Log_Main.log", 'a')
-			import HTMLParser
-			strText = HTMLParser.HTMLParser().unescape(strText)
-			f.write((self.log_gettime() + strText.decode('utf-8') + u''))
-			f.write('\n')
-			f.close
+	def getTurn(self):
+		return gc.getGame().getGameTurn()
 
+	def getYear(self):
+		return gc.getGame().getGameTurnYear()
 
-	def log2(self, strText, LogName):
-		if (PYTHON_USE_LOG == 1):  # output the debug info
-			f = open(self.log_path() + LogName + ".log", 'a')
-			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
-			f.write('\n')
-			f.close
-
-
-	def debug_manual(self, strText, LogName):
-		if (PYTHON_USE_LOG== 1):  # output the debug info
-			f = open(self.log_path() + LogName + ".log", 'a')
-			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
-			f.write('\n')
-			f.close
-
-
-	def log_congress(self, strText):
-		if (PYTHON_USE_LOG == 1):  # output the debug info
-			f = open(self.log_path() + "RFCEM_Log_Congress.log", 'a')
-			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
-			f.write('\n')
-			f.close
-
-
-	def log_congress_prob(self, strText):
-		# 模拟计算统一不进行日志IO
-		return 0
-		if (PYTHON_USE_LOG == 1):  # output the debug info
-
-			f = open(self.log_path() + "RFCEM_Log_Congress_Prob.log", 'a')
-			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
-			f.write('\n')
-			f.close
-
-
-	def log_AI_Action(self, strText):  # 可能会报错
-		if (PYTHON_USE_LOG == 1):  # output the debug info
-
-			f = open(self.log_path() + "RFCEM_Log_AI.log", 'a')
-			f.write((self.log_gettime() + strText.encode('utf8', 'xmlcharrefreplace')).encode('utf8', 'xmlcharrefreplace'))
-			f.write('\n')
-			f.close
-
+	def getTurnForYear(self, iGameturn):
+		return gc.getGame().getTurnYear(iGameturn)
 
 	def log_reset(self):
 		if (PYTHON_USE_LOG == 1):  # output the debug info
@@ -1657,7 +1627,13 @@ class RFCUtils:
 							 "RFCEM_Log_RandomEvent.log",
 							 "RFCEM_Log_AIWar.log",
 							 "RFCEM_Log_Congress_Prob.log",
-							 'RFCEM_Log_ModifiersChange.log'
+							 'RFCEM_Log_ModifiersChange.log',
+							 'RFCEM_Log_Info.log',
+							 'RFCEM_Log_Barb.log',
+							 'RFCEM_Log_Independents.log',
+							 'RFCEM_Log_RiseAndFall.log',
+							 'RFCEM_Log_Plague.log',
+							 'RFCEM_Log_Crusades.log'
 							 ]
 
 			DLLLogList = [
@@ -1672,12 +1648,122 @@ class RFCUtils:
 			for filename in PythonLogList:
 				f = open(self.log_path() + filename, 'w')
 				f.write('')
-				f.close
+				f.close()
 
 			for filename in DLLLogList:
 				f = open(self.log_path() + filename, 'w')
 				f.write('')
-				f.close
+				f.close()
+
+
+
+	def log_info(self, strText,id=[]):
+		if (PYTHON_USE_LOG == 1 and PYTHON_LOG_ON_INFO == 1):  # output the debug info
+			logname = 'RFCEM_Log_Info.log'
+			self.log(strText,id,logname)
+
+	def log_barb(self, strText,id=[]):
+		if (PYTHON_USE_LOG == 1 and PYTHON_LOG_ON_BARB == 1):  # output the debug info
+			logname = 'RFCEM_Log_Barb.log'
+			self.log(strText,id,logname)
+
+	def log_riseandfall(self, strText,id=[]):
+		if (PYTHON_USE_LOG == 1 and PYTHON_LOG_ON_RISK_AND_FALL == 1):  # output the debug info
+			logname = 'RFCEM_Log_RiseAndFall.log'
+			self.log(strText,id,logname)
+
+	def log_independents(self, strText,id=[]):
+		if (PYTHON_USE_LOG == 1 and PYTHON_LOG_ON_INDEPENDENT == 1):  # output the debug info
+			logname = 'RFCEM_Log_Independents.log'
+			self.log(strText,id,logname)
+
+	def log_plague(self, strText,id=[]):
+		if (PYTHON_USE_LOG == 1 and PYTHON_LOG_ON_PLAGUE == 1):  # output the debug info
+			logname = 'RFCEM_Log_Plague.log'
+			self.log(strText,id,logname)
+
+	def log_wonder(self, strText,id=[]):
+		if (PYTHON_USE_LOG == 1 and PYTHON_LOG_ON_PLAGUE == 1):  # output the debug info
+			logname = 'RFCEM_Log_Wonder.log'
+			self.log(strText,id,logname)
+
+	def log_crusade(self, strText,id=[]):
+		if (PYTHON_USE_LOG == 1 and PYTHON_LOG_ON_PLAGUE == 1):  # output the debug info
+			logname = 'RFCEM_Log_Crusades.log'
+			self.log(strText,id,logname)
+
+	def log(self, strText,id=[],logname='RFCEM_Log_Main.log'):
+		f = open(self.log_path() + logname, 'a')
+		if id:
+			f.write(
+				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode(
+					'utf8',
+					'xmlcharrefreplace'))
+			f.write((str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
+		else:
+			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
+		f.write('\n')
+		f.close()
+
+
+	def log_getCivNameText(self, id):
+		return  ' [' + gc.getPlayer(id).getCivilizationShortDescription(0) + '] '
+
+	'''
+	def log(self, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_Main.log", 'a')
+			import HTMLParser
+			strText = HTMLParser.HTMLParser().unescape(strText)
+			f.write((self.log_gettime() + strText.decode('utf-8') + u''))
+			f.write('\n')
+			f.close
+
+
+	def log2(self, strText, LogName):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + LogName + ".log", 'a')
+			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close
+	'''
+
+	def debug_manual(self, strText, LogName):
+		if (PYTHON_USE_LOG== 1):  # output the debug info
+			f = open(self.log_path() + LogName + ".log", 'a')
+			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close()
+
+
+
+
+	def log_congress(self, strText):
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+			f = open(self.log_path() + "RFCEM_Log_Congress.log", 'a')
+			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close()
+
+
+	def log_congress_prob(self, strText):
+		# 模拟计算统一不进行日志IO
+		return 0
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+
+			f = open(self.log_path() + "RFCEM_Log_Congress_Prob.log", 'a')
+			f.write((self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close()
+
+
+	def log_AI_Action(self, strText):  # 可能会报错
+		if (PYTHON_USE_LOG == 1):  # output the debug info
+
+			f = open(self.log_path() + "RFCEM_Log_AI.log", 'a')
+			f.write((self.log_gettime() + strText.encode('utf8', 'xmlcharrefreplace')).encode('utf8', 'xmlcharrefreplace'))
+			f.write('\n')
+			f.close()
 
 
 	def logwithid(self, id, strText):
@@ -1688,7 +1774,7 @@ class RFCUtils:
 																													'xmlcharrefreplace'))
 			f.write(str(u'' + strText))
 			f.write('\n')
-			f.close
+			f.close()
 
 
 	def logwithid_stability(self, id, strText):
@@ -1699,7 +1785,7 @@ class RFCUtils:
 																													'xmlcharrefreplace'))
 			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
 			f.write('\n')
-			f.close
+			f.close()
 
 
 	def logwithid_great_people(self, id, strText):
@@ -1710,18 +1796,10 @@ class RFCUtils:
 																													'xmlcharrefreplace'))
 			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
 			f.write('\n')
-			f.close
+			f.close()
 
 
-	def logwithid_wonder(self, id, strText):
-		if (PYTHON_USE_LOG == 1):  # output the debug info
-			f = open(self.log_path() + "RFCEM_Log_Wonder.log", 'a')
-			f.write(
-				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode('utf8',
-																													'xmlcharrefreplace'))
-			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
-			f.write('\n')
-			f.close
+
 
 
 	def logwithid_building(self, id, strText):
@@ -1732,7 +1810,7 @@ class RFCUtils:
 																													'xmlcharrefreplace'))
 			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
 			f.write('\n')
-			f.close
+			f.close()
 
 
 	def logwithid_unit(self, id, strText):
@@ -1743,7 +1821,7 @@ class RFCUtils:
 																													'xmlcharrefreplace'))
 			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
 			f.write('\n')
-			f.close
+			f.close()
 
 
 	def logwithid_tech(self, id, strText):
@@ -1754,7 +1832,7 @@ class RFCUtils:
 																													'xmlcharrefreplace'))
 			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
 			f.write('\n')
-			f.close
+			f.close()
 
 
 	def logwithid_city_build(self, id, strText):
@@ -1765,7 +1843,7 @@ class RFCUtils:
 																													'xmlcharrefreplace'))
 			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
 			f.write('\n')
-			f.close
+			f.close()
 
 
 	def logwithid_city_conquest(self, id, strText):
@@ -1776,7 +1854,7 @@ class RFCUtils:
 																													'xmlcharrefreplace'))
 			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
 			f.write('\n')
-			f.close
+			f.close()
 
 
 	def logwithid_religion(self, id, strText):
@@ -1787,8 +1865,7 @@ class RFCUtils:
 																													'xmlcharrefreplace'))
 			f.write((strText).encode('utf8', 'xmlcharrefreplace'))
 			f.write('\n')
-			f.close
-
+			f.close()
 
 
 

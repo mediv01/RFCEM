@@ -479,7 +479,7 @@ class Stability:
 		cyPlayer = PyHelpers.PyPlayer(iPlayer)
 		pPlayer = gc.getPlayer( iPlayer )
 		print(" Turn: ",iGameTurn)
-		print " ---------------- New Stability For " + cyPlayer.getCivilizationShortDescription()
+		print( " ---------------- New Stability For " + cyPlayer.getCivilizationShortDescription())
 		print("                  Stability : ",pPlayer.getStability() )
 		print("                  Cities    : ",pPlayer.getStabilityBase( iCathegoryCities ) + pPlayer.getStabilityVary( iCathegoryCities ))
 		print("                  Civics    : ",pPlayer.getStabilityBase( iCathegoryCivics ) + pPlayer.getStabilityVary( iCathegoryCivics ))

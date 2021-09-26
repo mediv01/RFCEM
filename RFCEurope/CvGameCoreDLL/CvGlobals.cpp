@@ -561,12 +561,12 @@ bool CvGlobals::isHuman(PlayerTypes PlayerID) const {
 	bool boolisHuman = ((GC.getGameINLINE().getActivePlayer()) == PlayerID);
 	//if (isHuman) {
 	//	log_CWstring.Format(L" HUMAN!!");
-	//	GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+	//	GC.logs(log_CWstring, "RFCEM_DLL_Log_TEST.log");
 	//}
 
 	//else {
 	//	log_CWstring.Format(L" NOT HUMAN!!  %d %d", GC.getGameINLINE().getActivePlayer(), PlayerID);
-	//	GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+	//	GC.logs(log_CWstring, "RFCEM_DLL_Log_TEST.log");
 	//}
 
 	return boolisHuman;
@@ -626,14 +626,14 @@ void CvGlobals::logswithid(PlayerTypes PlayerID, CvWString& buf, CvString filena
 	//日志函数用法1
 			CvWString log_CWstring;
 			log_CWstring = gDLL->getText("TXT_KEY_VICTORY_ARABIA_UHV3_JERUSALEM");
-			GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_AI_BuildCity.log");
+			GC.logs(log_CWstring, "RFCEM_DLL_Log_AI_BuildCity.log");
 	//日志函数用法2
 			CvWString log_CWstring;
 			log_CWstring.Format(L"%s 准备在AI_getCitySite建立城市，坐标( %d , %d) 城市价值： %d", GET_PLAYER(getOwner()).getCivilizationDescription(), plot()->getX(), plot()->getY(), iPlotValue);
 			log_CWstring.Format(L" [ %s ] 的  [%s] 城的建筑 %s 已经失效！", GET_PLAYER(getOwner()).getCivilizationDescription(), getName().GetCString(), GC.getBuildingInfo(eIndex).getText());
 	// 日志函数用法3
 			log_CWstring.Format(L" 勒索WAR!!");
-			GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+			GC.logs(log_CWstring, "RFCEM_DLL_Log_TEST.log");
 	*/
 	int mediv01_log = getDefineINT("CVGAMECORE_DLL_LOG");
 	if (mediv01_log == 1) {
@@ -646,7 +646,7 @@ void CvGlobals::logswithid(PlayerTypes PlayerID, CvWString& buf, CvString filena
 		static CvString filenamepath;
 
 		if (filename == "") {
-			filename = "DoC_SmallMap_DLL_Log_Default.log";
+			filename = "RFCEM_DLL_Log_Default.log";
 		}
 		filenamepath = getDefineSTRING("CVGAMECORE_LOG_PATH") + filename;
 		//log_output1(PlayerID,flog, filenamepath, log_text_tochar);
@@ -665,7 +665,7 @@ void CvGlobals::logswithid(PlayerTypes PlayerID, CvWString& buf, CvString filena
 		flog << "\n";
 		flog.close();
 
-		filename = "DoC_SmallMap_DLL_Log_ALL.log";
+		filename = "RFCEM_DLL_Log_ALL.log";
 		filenamepath = getDefineSTRING("CVGAMECORE_LOG_PATH") + filename;
 		//log_output1(PlayerID,flog, filenamepath, log_text_tochar);
 		flog.open(filenamepath, std::ios::app | std::ios::out);
@@ -690,16 +690,16 @@ void CvGlobals::logs(CvWString& buf, CvString filename) const {
 	//日志函数用法1
 			CvWString log_CWstring;
 			log_CWstring = gDLL->getText("TXT_KEY_VICTORY_ARABIA_UHV3_JERUSALEM");
-			GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_AI_BuildCity.log");
+			GC.logs(log_CWstring, "RFCEM_DLL_Log_AI_BuildCity.log");
 	//日志函数用法2
 			CvWString log_CWstring;
 			log_CWstring.Format(L"%s 准备在AI_getCitySite建立城市，坐标( %d , %d) 城市价值： %d", GET_PLAYER(getOwner()).getCivilizationDescription(), plot()->getX(), plot()->getY(), iPlotValue);
 			log_CWstring.Format(L" [ %s ] 的  [%s] 城的建筑 %s 已经失效！", GET_PLAYER(getOwner()).getCivilizationDescription(), getName().GetCString(), GC.getBuildingInfo(eIndex).getText());
 	// 日志函数用法3
 			log_CWstring.Format(L" 勒索WAR!!");
-			GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+			GC.logs(log_CWstring, "RFCEM_DLL_Log_TEST.log");
 	*/
-	if (filename == "DoC_SmallMap_DLL_Log_TEST.log") {
+	if (filename == "RFCEM_DLL_Log_TEST.log") {
 		if (GC.getDefineINT("CVGAMECORE_LOG_ON_TEST") > 0) {
 
 		}
@@ -724,12 +724,12 @@ void CvGlobals::logs(CvWString& buf, CvString filename) const {
 		static CvString filenamepath;
 
 		if (filename == "") {
-			filename = "DoC_SmallMap_DLL_Log_Default.log";
+			filename = "RFCEM_DLL_Log_Default.log";
 		}
 		filenamepath = getDefineSTRING("CVGAMECORE_LOG_PATH") + filename;
 		log_output1(flog, filenamepath, log_text_tochar);
 
-		filename = "DoC_SmallMap_DLL_Log_ALL.log";
+		filename = "RFCEM_DLL_Log_ALL.log";
 		filenamepath = getDefineSTRING("CVGAMECORE_LOG_PATH") + filename;
 		log_output1(flog, filenamepath, log_text_tochar);
 	}

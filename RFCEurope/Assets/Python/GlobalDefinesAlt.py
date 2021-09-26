@@ -1,7 +1,15 @@
-import sys
 
+from Mediv01_Utils import *
+
+
+
+
+
+import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
+
 
 
 PY_BALANCE_MAX_RESERACH_PUNISH=1        #<!--mediv01 新增，科技领先时的科研惩罚最大比例，数值为1-9，数字越大领先时科研惩罚越大 9为默认模式-->
@@ -21,6 +29,9 @@ PY_Orthodoxy_CAN_TRIGGLER_REFORM=0      #<!--mediv01 新增，东正教也可以
 
 
 
+PY_CRUSADES_HUMAN_UNIT_NOT_LEAVE = 1   #<!--mediv01 新增，人类玩家军队参加十字军后，单位不会消失  0为默认模式-->
+
+
 
 PY_STABILITY_HUMAN_NO_COLLAPSE=0        #<!--mediv01 新增，人类玩家不会崩溃 0为默认模式-->
 PY_tStabilityPenalty_ENABLE=1             #<!--mediv01 新增，允许自定义核心地块、历史地块对所有玩家的稳定度加成  0为默认模式-->
@@ -31,6 +42,11 @@ PY_STABILITY_BONOUS_FOR_H1 = 60   #<!--mediv01 新增，一档难度对人类玩
 PY_STABILITY_BONOUS_FOR_H2 = 2   #<!--mediv01 新增，一档难度对人类玩家稳定度的加成 2为默认模式-->  #mediv01 曾经是2
 
 
+
+
+
+
+
 # 开启信息提示系统
 PYTHON_SCREEN_VICTORY_TIPS = 1
 
@@ -39,6 +55,9 @@ PYTHON_SCREEN_VICTORY_TIPS_00 = 1
 
 # 部落村庄信息
 PYTHON_SCREEN_VICTORY_TIPS_11 = 1
+
+# 瘟疫提醒
+PYTHON_SCREEN_VICTORY_TIPS_03 = 1
 
 # 科技信息
 PYTHON_SCREEN_VICTORY_TIPS_04 = 1
@@ -62,11 +81,31 @@ PYTHON_SCREEN_VICTORY_TIPS_09 = 10
 PYTHON_SCREEN_VICTORY_TIPS_10 = 10
 
 
-
+# <!-- 1为打开日志功能 此选项为日志功能的总开关   0为默认模式 mediv01 -->
 PYTHON_USE_LOG = 1
 
 
 
+# <!-- 1为记录INFO的日志 0为默认模式 mediv01 -->
+PYTHON_LOG_ON_INFO = 1
+
+# <!-- 1为记录野蛮人入侵的日志 0为默认模式 mediv01 -->
+PYTHON_LOG_ON_BARB = 1
+
+# <!-- 1为记录独立城邦的日志 0为默认模式 mediv01 -->
+PYTHON_LOG_ON_INDEPENDENT = 1
+
+
+
+PYTHON_LOG_ON_RISK_AND_FALL = 1
+
+
+PYTHON_LOG_ON_PLAGUE = 1
+
+PYTHON_LOG_ON_WONDER = 1
+
+
+PYTHON_LOG_ON_CRUSADE = 1
 
 
 
@@ -86,78 +125,3 @@ PYTHON_USE_LOG = 1
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-tBirthDate = [500,
-              500,
-              632,
-              680,
-              711,
-              810,
-              843,
-              856,
-              864,
-              872,
-              880,
-              895,
-              910,
-              936,
-              960,
-              966,
-              1016,
-              1040,
-              1066,
-              1139,
-              1164,
-              1210,
-              1224,
-              1236,
-              1282,
-              1356,
-              1380,
-              1581,
-              500]
-tCollapseDate = (
-        1453,  # Byzantium - Ottoman conquest of Constantinople
-        1800,  # Frankia
-        1517,  # Arabia - to make room for the Ottomans
-        1396,  # Bulgaria - Bulgaria UHV 3
-        1492,  # Cordoba - Cordoba UHV 3
-        1800,  # Venice
-        1473,  # Burgundy - Burgundy UHV 3
-        1648,  # Germany - to make room for Prussia
-        1478,  # Novgorod
-        1523,  # Norway
-        1300,  # Kiev - Kiev UHV 1
-        1542,  # Hungary - 1541, Ottoman conquest of Buda
-        1800,  # Spain
-        1800,  # Denmark
-        1650,  # Scotland
-        1780,  # Poland
-        1500,  # Genoa
-        1800,  # Morocco
-        1800,  # England
-        1800,  # Portugal
-        1474,  # Aragon
-        1800,  # Sweden
-        1800,  # Prussia
-        1569,  # Lithuania - Lithuania UHV 3
-        1800,  # Austria
-        1800,  # Turkey
-        1800,  # Moscow
-        1800,  # Dutch
-        1800  # Pope
-    )

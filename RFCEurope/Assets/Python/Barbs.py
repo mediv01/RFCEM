@@ -1,5 +1,5 @@
 # Rhye's and Fall of Civilization: Europe - Barbarian units and cities
-
+from GlobalDefinesAlt import *
 from CvPythonExtensions import *
 import CvUtil
 import PyHelpers		# LOQ
@@ -645,6 +645,10 @@ class Barbs:
 				tCoords, sName, iPos = lVariations[iChosenCity]
 				self.foundCity(iCiv, tCoords, sName, iPop, iUnit, iNumUnits, iReligion, iWorkers)
 				print ("New indy city founded: ", sName)
+				infotext = '在AD' + str(getYear()) + "， 独立城邦 " + sName + ' 在 ' + PlotToStr(tCoords) + ' 出现'
+				utils.info(infotext,iCiv)
+				utils.log_independents(infotext, iCiv)
+
 
 
 	def foundCity(self, iCiv, tCoords, name, iPopulation, iUnitType, iNumUnits, iReligion, iWorkers):
@@ -685,6 +689,9 @@ class Barbs:
 				tPlot = utils.getRandomEntry(plotList)
 				if tPlot:
 					self.makeUnit(iUnitType, iCiv, tPlot, iNumUnits, iForceAttack, szName)
+					infotext ='在AD'+str(getYear())+ "， 野蛮人 " + szName +' 在 ' + PlotToStr(tPlot) +' 附近出现'
+					utils.info(infotext)
+					utils.log_barb(infotext,iCiv)
 
 
 	#This is just a clone of spawnUnits but attempting to put a boat under them
@@ -699,6 +706,9 @@ class Barbs:
 					if szName != "":
 						pUnit.setName( szName )
 					self.makeUnit(iUnitType, iCiv, tPlot, iNumUnits, iForceAttack, szName )
+					infotext ='在AD'+str(getYear())+ "， 野蛮维京人 " + szName +' 在 ' + PlotToStr(tPlot) +' 附近出现'
+					utils.info(infotext)
+					utils.log_barb(infotext,iCiv)
 
 
 	def spawnPirate(self, iCiv, tTopLeft, tBottomRight, iShipType, iNumShips, iFighterType, iNumFighters, iTurn, iPeriod, iRest, function, iForceAttack, szName):
@@ -709,6 +719,9 @@ class Barbs:
 				if tPlot:
 					self.makeUnit(iShipType, iCiv, tPlot, iNumShips, 2, szName)
 					self.makeUnit(iFighterType, iCiv, tPlot, iNumFighters, 1, szName)
+					infotext ='在AD'+str(getYear())+ "， 海盗 " + szName +' 在 ' + PlotToStr(tPlot) +' 附近出现'
+					utils.info(infotext)
+					utils.log_barb(infotext, iCiv)
 
 
 	def killNeighbours(self, tCoords):

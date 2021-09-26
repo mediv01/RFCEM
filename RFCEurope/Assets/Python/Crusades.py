@@ -1,6 +1,6 @@
 # Rhye's and Fall of Civilization: Europe - Crusades
 # Created by 3Miro, revised and improved by AbsintheRed
-
+from GlobalDefinesAlt import *
 from CvPythonExtensions import *
 import CvUtil
 import PyHelpers
@@ -205,6 +205,10 @@ class Crusades:
 		pHuman = gc.getPlayer(iHuman)
 		iActiveCrusade = self.getActiveCrusade( gc.getGame().getGameTurn() )
 		iBribe = 200 + 50 * iActiveCrusade
+
+		infotext = " 十字军贿赂金额阈值为 " + str(iBribe) + '当前玩家拥有的金币为： ' + str(pHuman.getGold())
+		utils.log_crusade(infotext, iHuman)
+
 		if pHuman.getGold() >= iBribe:
 			self.showPopup( 7616, CyTranslator().getText("TXT_KEY_CRUSADE_INIT_POPUP", ()), CyTranslator().getText("TXT_KEY_CRUSADE_INIT", ()), \
 			(CyTranslator().getText("TXT_KEY_CRUSADE_ACCEPT", ()), CyTranslator().getText("TXT_KEY_CRUSADE_DENY", ()), CyTranslator().getText("TXT_KEY_CRUSADE_DENY_RUDE", ()), CyTranslator().getText("TXT_KEY_CRUSADE_BRIBE_OUT", (iBribe, ))) )
@@ -266,6 +270,9 @@ class Crusades:
 		# Absinthe: reset sent unit counter after the Crusades are over (so it won't give Company benefits forever based on the last one)
 		for iPlayer in range( con.iNumPlayers ):
 			self.setNumUnitsSent( iPlayer, 0 )
+		infotext = " [十字军] 本次十字军东征结束 "
+		utils.info(infotext)
+		utils.log_crusade(infotext)
 
 	def checkTurn( self, iGameTurn ):
 		#print(" 3Miro Crusades ")
@@ -277,16 +284,34 @@ class Crusades:
 
 		# Absinthe: crusade date - 5 means the exact time for the arrival
 		if iGameTurn == (xml.i1096AD - 5): #First Crusade arrives in 1096AD
+			infotext = " [十字军] 第一次十字军东征(AD1096) 准备开始！"
+			utils.info(infotext)
+			utils.log_crusade(infotext)
 			self.setCrusadeInit( 0, -1 ) # turn 160
 		elif iGameTurn >= (xml.i1147AD - 7) and self.getCrusadeInit( 0 ) > 0 and self.getCrusadeInit( 1 ) == -2: # Crusade of 1147AD, little earlier (need to be more than 9 turns between crusades)
+			infotext = " [十字军] 第二次十字军东征(AD1147) 准备开始！"
+			utils.info(infotext)
+			utils.log_crusade(infotext)
 			self.setCrusadeInit( 1, -1 ) # turn 176
 		elif iGameTurn >= (xml.i1187AD - 8) and self.getCrusadeInit( 1 ) > 0 and self.getCrusadeInit( 2 ) == -2: # Crusade of 1187AD, little earlier (need to be more than 9 turns between crusades)
+			infotext = " [十字军] 第三次十字军东征(AD1187) 准备开始！"
+			utils.info(infotext)
+			utils.log_crusade(infotext)
 			self.setCrusadeInit( 2, -1 ) # turn 187
 		elif iGameTurn >= (xml.i1202AD - 4) and self.getCrusadeInit( 2 ) > 0 and self.getCrusadeInit( 3 ) == -2: # Crusade of 1202AD, little later (need to be more than 9 turns between crusades)
+			infotext = " [十字军] 第四次十字军东征(AD1202) 准备开始！"
+			utils.info(infotext)
+			utils.log_crusade(infotext)
 			self.setCrusadeInit( 3, -1 ) # turn 197
 		elif iGameTurn >= (xml.i1229AD - 3) and self.getCrusadeInit( 3 ) > 0 and self.getCrusadeInit( 4 ) == -2: # Crusade of 1229AD, little later (need to be more than 9 turns between crusades)
+			infotext = " [十字军] 第五次十字军东征(AD1229) 准备开始！"
+			utils.info(infotext)
+			utils.log_crusade(infotext)
 			self.setCrusadeInit( 4, -1 ) # turn 207
 		elif iGameTurn >= (xml.i1271AD - 5) and self.getCrusadeInit( 4 ) > 0 and self.getCrusadeInit( 5 ) == -2: # Crusade of 1270AD
+			infotext = " [十字军] 第六次十字军东征(AD1271) 准备开始！"
+			utils.info(infotext)
+			utils.log_crusade(infotext)
 			self.setCrusadeInit( 5, -1 ) # turn 219
 
 		# Start of Defensive Crusades: indulgences for the Reconquista given by the Catholic Church in 1000AD
@@ -329,6 +354,17 @@ class Crusades:
 				print( " Crusade Lancers: ",self.getSelectedUnit( 5 ) )
 				print( " Crusade Siege: ",self.getSelectedUnit( 6 ) )
 				print( " Crusade Other: ",self.getSelectedUnit( 7 ) )
+
+				utils.log_crusade( " 十字军情况简报: " )
+				utils.log_crusade( " 十字军总力量: "+ str(self.getCrusadePower()) )
+				utils.log_crusade( " 圣殿骑士： "+ str(self.getSelectedUnit( 0 ) ))
+				utils.log_crusade( " 条顿骑士: "+ str(self.getSelectedUnit( 1 ) ))
+				utils.log_crusade( " 医院骑士团: "+ str(self.getSelectedUnit( 2 ) ))
+				utils.log_crusade( " 骑士: "+ str(self.getSelectedUnit( 3 ) ))
+				utils.log_crusade( " 重装骑兵: "+ str(self.getSelectedUnit( 4 ) ))
+				utils.log_crusade( " 轻骑兵: "+ str(self.getSelectedUnit( 5 ) ))
+				utils.log_crusade( " 攻城武器: "+ str(self.getSelectedUnit( 6 ) ))
+				utils.log_crusade( " 其他成员 "+ str(self.getSelectedUnit( 7 ) ))
 				if not self.anyParticipate():
 					return
 				self.chooseCandidates( iGameTurn )
@@ -372,6 +408,10 @@ class Crusades:
 						self.setCrusadeInit( i, iGameTurn )
 						print( "Crusade Starting Turn ",iGameTurn )
 
+						infotext = " [十字军] 本次十字军东征开始 "
+						utils.info(infotext)
+						utils.log_crusade(infotext)
+
 	def anyCatholic( self ):
 		for i in range( con.iNumPlayers-1 ):
 			if gc.getPlayer(i).getStateReligion() == iCatholicism:
@@ -390,6 +430,9 @@ class Crusades:
 			self.setParticipate( True )
 			gc.getPlayer( iHuman ).setIsCrusader( True )
 			print("Going on a Crusade " )
+
+			infotext = " 玩家同意参加十字军东征！ "
+			utils.log_crusade(infotext)
 		elif popupReturn.getButtonClicked() == 1 or popupReturn.getButtonClicked() == 2:
 			self.setParticipate( False )
 			pPlayer = gc.getPlayer( iHuman )
@@ -397,6 +440,10 @@ class Crusades:
 			pPlayer.changeFaith( - min( 5, pPlayer.getFaith() ) )
 			CyInterface().addMessage(iHuman, True, con.iDuration, CyTranslator().getText("TXT_KEY_CRUSADE_DENY_FAITH", ()), "", 0, "", ColorTypes(con.iLightRed), -1, -1, True, True)
 			gc.getPlayer( con.iPope ).AI_changeMemoryCount( iHuman, MemoryTypes.MEMORY_REJECTED_DEMAND, 2 )
+
+			infotext = " 玩家拒绝参加十字军东征！ 信仰值下降 : " + str( min( 5, pPlayer.getFaith() )) + '，教皇对玩家的好感下降2'
+			utils.info(infotext)
+			utils.log_crusade(infotext)
 			# Absinthe: some units from Chivalric Orders might leave you nevertheless
 			unitList = PyPlayer( iHuman ).getUnitList()
 			for pUnit in unitList:
@@ -409,13 +456,19 @@ class Crusades:
 							if iRandNum < 50:
 								self.addSelectedUnit( self.unitCrusadeCategory( iUnitType ) )
 								CyInterface().addMessage(iHuman, False, con.iDuration, CyTranslator().getText("TXT_KEY_CRUSADE_DENY_LEAVE_ANYWAY", ()), "", 0, gc.getUnitInfo(iUnitType).getButton(), ColorTypes(con.iLightRed), pUnit.getX(), pUnit.getY(), True, True)
+								infotext = " 玩家的单位决定自行离队参加十字军东征 " + pUnit.getName()
+								utils.log_crusade(infotext)
 						elif self.getNumDefendersAtPlot( pPlot ) > 1:
 							if iRandNum < 10:
 								self.addSelectedUnit( self.unitCrusadeCategory( iUnitType ) )
 								CyInterface().addMessage(iHuman, False, con.iDuration, CyTranslator().getText("TXT_KEY_CRUSADE_DENY_LEAVE_ANYWAY", ()), "", 0, gc.getUnitInfo(iUnitType).getButton(), ColorTypes(con.iLightRed), pUnit.getX(), pUnit.getY(), True, True)
+								infotext = " 玩家的单位决定自行离队参加十字军东征 " + pUnit.getName()
+								utils.log_crusade(infotext)
 					elif iRandNum < 30:
 						self.addSelectedUnit( self.unitCrusadeCategory( iUnitType ) )
 						CyInterface().addMessage(iHuman, False, con.iDuration, CyTranslator().getText("TXT_KEY_CRUSADE_DENY_LEAVE_ANYWAY", ()), "", 0, gc.getUnitInfo(iUnitType).getButton(), ColorTypes(con.iLightRed), pUnit.getX(), pUnit.getY(), True, True)
+						infotext = " 玩家的单位决定自行离队参加十字军东征 " + pUnit.getName()
+						utils.log_crusade(infotext)
 		# Absinthe: 3rd option, only if you have enough money to make a contribution to the Crusade instead of sending units
 		else:
 			self.setParticipate( False )
@@ -426,6 +479,11 @@ class Crusades:
 			iBribe = 200 + 50 * iActiveCrusade
 			pPope.changeGold( iBribe )
 			pPlayer.changeGold( -iBribe )
+
+			infotext = " 玩家通过贿赂，避免参加了十字军东征！ 贿赂金:  " + str(iBribe) + ' 教皇对玩家的好感度下降1 '
+			utils.info(infotext)
+			utils.log_crusade(infotext)
+
 			gc.getPlayer( con.iPope ).AI_changeMemoryCount( iHuman, MemoryTypes.MEMORY_REJECTED_DEMAND, 1 )
 
 	def eventApply7618( self, popupReturn ):
@@ -440,6 +498,10 @@ class Crusades:
 			pHuman = gc.getPlayer( iHuman )
 			#pHuman.setGold( pHuman.getGold() - gc.getPlayer( utils.getHumanID() ).getGold() / 4 )
 			pHuman.changeGold( - pHuman.getGold() / 3 )
+
+			infotext = " 人类玩家金币减少: " + str(pHuman.getGold() / 3)
+			utils.log_crusade(infotext)
+
 			self.setLeader( iHuman )
 			self.setCrusadePower( self.getCrusadePower() / 2 )
 			self.deviateNewTargetPopup()
@@ -473,9 +535,17 @@ class Crusades:
 			if pHuman.getStateReligion() != iCatholicism:
 				self.setParticipate( False )
 				CyInterface().addMessage(iHuman, True, con.iDuration/2, CyTranslator().getText("TXT_KEY_CRUSADE_CALLED", ()), "", 0, "", ColorTypes(con.iLightRed), -1, -1, True, True)
+
+				infotext = " 人类玩家的宗教信仰：" + str(pHuman.getStateReligion()) + ' 宗教信仰不是天主教，无法参加十字军'
+				utils.log_crusade(infotext)
+
 				#print(" 3Miro Crusades not Catholic: " )
 			else:
 				#print(" 3Miro Crusades not Vote ")
+
+				infotext = " 人类玩家的宗教信仰：" + str(pHuman.getStateReligion()) + ' 宗教信仰是天主教，可以参加十字军'
+				utils.log_crusade(infotext)
+
 				self.initVotePopup()
 		else:
 			self.setParticipate( False )
@@ -508,6 +578,10 @@ class Crusades:
 		print( " Candidates ", iFavorite, iPowerful )
 		for i in range( con.iNumPlayers ):
 			print( " Civ voting power is: ", i, self.getVotingPower(i) )
+
+			infotext = " Civ voting power is: " + str(utils.getCivChineseName(i)) + ' ' + str(self.getVotingPower(i))
+			utils.log_crusade(infotext)
+
 		if iPowerful == iFavorite:
 			self.setPowerful( -1 )
 		else:
@@ -549,6 +623,10 @@ class Crusades:
 				gc.getPlayer( iPlayer ).setIsCrusader( True )
 
 
+
+
+
+
 	def sendUnits( self, iPlayer ):
 		#iHuman = utils.getHumanID()
 		pPlayer = gc.getPlayer( iPlayer )
@@ -576,6 +654,8 @@ class Crusades:
 						iCrusadeCategory = self.unitCrusadeCategory( pUnit.getUnitType() )
 						pPlot = gc.getMap().plot( pUnit.getX(), pUnit.getY() )
 						iRandNum = gc.getGame().getSorenRandNum(100, 'roll to send Unit to Crusade')
+
+
 						# Absinthe: much bigger chance for special Crusader units and Knights
 						if iCrusadeCategory < 4:
 							if pPlot.isCity():
@@ -647,7 +727,16 @@ class Crusades:
 		print ("Unit was chosen for Crusade:", iOwner, pUnit.getUnitType() )
 		if iOwner == iHuman:
 			CyInterface().addMessage(iHuman, False, con.iDuration/2, CyTranslator().getText("TXT_KEY_CRUSADE_LEAVE", ()) + " " + pUnit.getName(), "AS2D_BUILD_CHRISTIAN", 0, "", ColorTypes(con.iOrange), -1, -1, True, True)
-		pUnit.kill( 0, -1 )
+
+		infotext ="单位  " + str(pUnit.getName()) + ' 被送出去参加十字军!'
+		utils.log_crusade(infotext,iOwner)
+
+		# 人类玩家的十字军单位不会消失
+		if (PY_CRUSADES_HUMAN_UNIT_NOT_LEAVE > 0 and iOwner == iHuman):
+			pass
+		else:
+			pUnit.kill( 0, -1 )
+
 
 
 	def unitProbability( self, iUnitType ):
@@ -702,7 +791,8 @@ class Crusades:
 			iPowerVotes = self.getVotingPower( iPowerful )
 
 		#print( " AI Voting for self", iFavorVotes, iPowerVotes )
-
+		infotext = "十字军领袖选举开始！"
+		utils.log_crusade(infotext)
 		for iPlayer in range( con.iNumPlayers ):
 			if iPlayer == iHuman or iPlayer == iFavorite or iPlayer == iPowerful: continue
 			iVotes = self.getVotingPower( iPlayer )
@@ -711,10 +801,19 @@ class Crusades:
 				#print( " AI now voting ",i,iVotes )
 				if gc.getRelationTowards( iPlayer, iFavorite ) > gc.getRelationTowards( iPlayer, iPowerful ):
 					iFavorVotes += iVotes
+					infotext = "十字军领袖投票中，文明" + str(utils.getCivChineseName(iPlayer)) + ' 投票 ' + str(iVotes) + '给' \
+							   +str(utils.getCivChineseName(iFavorite)) + ' 两国关系良好，目前最受欢迎的票数为' + str(iFavorVotes)
+					utils.info(infotext, iPlayer)
+					utils.log_crusade(infotext, iPlayer)
 				else:
 					iPowerVotes += iVotes
+					infotext = "十字军领袖投票中，文明" + str(utils.getCivChineseName(iPlayer)) + ' 投票 ' + str(iVotes) + '给' \
+							   +str(utils.getCivChineseName(iPowerful)) + ' 目前实力最强国的票数为' + str(iPowerVotes)
+					utils.info(infotext, iPlayer)
+					utils.log_crusade(infotext, iPlayer)
 
-		print( " AI Voting ", iFavorVotes, iPowerVotes )
+		infotext = "十字军领袖选举结束！"
+		utils.log_crusade(infotext)
 
 		self.setVotesGatheredFavorite( iFavorVotes )
 		self.setVotesGatheredPowerful( iPowerVotes )
@@ -724,10 +823,29 @@ class Crusades:
 			self.voteHumanPopup()
 
 	def selectVoteWinner( self ):
+
+		infotext = "本次十字军领袖投票中，实力最强国为: " + str(utils.getCivChineseName( self.getPowerful() )) + ' 票数为：'+str(self.getVotesGatheredPowerful())
+		utils.info(infotext )
+		utils.log_crusade(infotext)
+
+		infotext = "本次十字军领袖投票中，最受欢迎国为: " + str(utils.getCivChineseName(self.getFavorite())) + ' 票数为：' + str(
+			self.getVotesGatheredFavorite())
+		utils.info(infotext )
+		utils.log_crusade(infotext)
+
+
 		if self.getVotesGatheredPowerful() > self.getVotesGatheredFavorite():
 			self.setLeader( self.getPowerful() )
+			iPlayer = self.getPowerful()
+			infotext = "十字军领袖投票中，实力最强的票数最多，当选为领袖 : " + str(utils.getCivChineseName(iPlayer)) + ' '
+			utils.info(infotext, iPlayer)
+			utils.log_crusade(infotext, iPlayer)
 		else:
 			self.setLeader( self.getFavorite() )
+			iPlayer = self.getFavorite()
+			infotext = "十字军领袖投票中，最受喜爱的票数最多，当选为领袖 : " + str(utils.getCivChineseName(iPlayer)) + ' '
+			utils.info(infotext, iPlayer)
+			utils.log_crusade(infotext, iPlayer)
 
 		if self.getParticipate():
 			self.informLeaderPopup()
@@ -926,6 +1044,10 @@ class Crusades:
 				if sCityName == 'Unknown':
 					sCityName = cnm.lookupName(pTargetCity, iLeader)
 				CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, CyTranslator().getText("TXT_KEY_CRUSADE_ARRIVAL", (sCityName, )) + "!", "", 0, "", ColorTypes(con.iGreen), iChosenX, iChosenY, True, True)
+				infotext = " [十字军] 十字军已经到达城市：" + sCityName
+				#utils.info(infotext)
+				utils.log_crusade(infotext,iLeader)
+
 		else:
 			self.returnCrusaders()
 

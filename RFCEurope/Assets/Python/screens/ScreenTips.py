@@ -1,5 +1,6 @@
 ## Sid Meier's Civilization 4
 ## Copyright Firaxis Games 2005
+from GlobalDefinesAlt import *
 from CvPythonExtensions import *
 import CvUtil
 import ScreenInput
@@ -142,6 +143,18 @@ def getScreenHelp():
                 aHelp.append('Goody in X:' + str(x) + '  Y: ' + str(y))
 
 
+    #3.瘟疫进度
+    if (xml.PYTHON_SCREEN_VICTORY_TIPS_03 == 1):
+        aHelp.append(' ')
+        aHelp.append(localText.getText("TXT_KEY_VICTORY_TIPS_IN_SCREEN_PLAGUE", ()))
+        from StoredData import sd
+
+        for i in range(5):
+            plague_turn=sd.scriptDict['lGenericPlagueDates'][i]
+            iGameTurn=max(plague_turn-gc.getGame().getGameTurn(),0)
+            aHelp.append('瘟疫   '+str(i+1)+' '+ global_plaguenamelist[i] + '      开始于回合: '+str(plague_turn)+'   剩余回合:  '+str(iGameTurn))
+
+
     # 5.军事实力
     if (xml.PYTHON_SCREEN_VICTORY_TIPS_05 >0):
         aHelp.append(' ')
@@ -278,7 +291,7 @@ def getScreenHelp():
                 aHelp.append(' RANK ('+str(i_num_city)+') : '+civname+'             with '+str(iValue)+' ')
         pass
 
-    utils.logwithid(1,'1234')
+
 
 
 
