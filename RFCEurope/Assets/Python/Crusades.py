@@ -566,9 +566,13 @@ class Crusades:
 					iFavorite = i
 					bFound = True
 		self.setFavorite( iFavorite )
+		infotext ="跟教皇关系最好的国家是  " + utils.getCivChineseName(iFavorite) + ' ，入选了本次十字军领袖候选人！'
+		utils.info(infotext)
+		utils.log_crusade(infotext)
 
 		iPowerful = iFavorite
 		iPower = self.getVotingPower( iPowerful )
+
 
 		for i in range( con.iNumPlayers-1 ):
 			if self.getVotingPower( i ) > iPower or ( iPowerful == iFavorite and self.getVotingPower( i ) > 0 ):
@@ -586,6 +590,10 @@ class Crusades:
 			self.setPowerful( -1 )
 		else:
 			self.setPowerful( iPowerful )
+			infotext = "实力最强的国家是  " + utils.getCivChineseName(iPowerful) + ' ，入选了本次十字军领袖候选人！'
+			utils.info(infotext)
+			utils.log_crusade(infotext)
+
 
 
 	def computeVotingPower( self, iGameTurn ):

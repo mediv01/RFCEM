@@ -359,15 +359,20 @@ class Plague:
 						# kill the unit if necessary
 						if iUnitDamage >= 100:
 							if (xml.PY_PLAGUE_KILL_PEOPLE==1):  #mediv01
+								if unit:
+									infotext = '在AD' + str(
+										getYear()) + "， 瘟疫在 " + city.getName() + '杀死了我们的单位' + unit.getName()
+									utils.log_plague(infotext, unit.getOwner())
+
 								unit.kill( False, iBarbarian )
 								if unit.getOwner() == iHuman:
-									infotext = '在AD' + str(getYear()) + "， 瘟疫在 " + city.getName() + '杀死了我们的单位' + unit.getName()
-									utils.log_plague(infotext, city.getOwner())
 									CyInterface().addMessage(iHuman, False, con.iDuration/2, CyTranslator().getText("TXT_KEY_PLAGUE_PROCESS_UNIT", (unit.getName(), )) + " " + city.getName() + "!", "AS2D_PLAGUE", 0, gc.getBuildingInfo(iPlague).getButton(), ColorTypes(con.iLime), plot.getX(), plot.getY(), True, True)
 						else:
+							if unit:
+								infotext ='在AD' + str(getYear()) + "， 瘟疫在 " + city.getName() + '伤害了我们的单位' + unit.getName() + '伤害值: ' + str(iUnitDamage)
+								utils.log_plague(infotext, unit.getOwner())
 							unit.setDamage( iUnitDamage, iBarbarian )
-							infotext ='在AD' + str(getYear()) + "， 瘟疫在 " + city.getName() + '伤害了我们的单位' + unit.getName() + '伤害值: ' + str(iUnitDamage)
-							utils.log_plague(infotext, city.getOwner())
+
 						# if we have many units in the same plot, decrease the damage for every other unit
 						iDamage *= 7
 						iDamage /= 8

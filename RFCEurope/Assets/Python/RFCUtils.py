@@ -1694,7 +1694,7 @@ class RFCUtils:
 
 	def log(self, strText,id=[],logname='RFCEM_Log_Main.log'):
 		f = open(self.log_path() + logname, 'a')
-		if id:
+		if id and gc.getPlayer(id):
 			f.write(
 				(str(self.log_gettime() + '[' + gc.getPlayer(id).getCivilizationShortDescription(0)) + '] ').encode(
 					'utf8',
