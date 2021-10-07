@@ -18,6 +18,8 @@ import CvMercenaryManager
 #import CvMercenaryModGameUtils #Rhye
 import CvGameInterface
 
+from GlobalDefinesAlt import *
+
 #objMercenaryUtils = MercenaryUtils.MercenaryUtils()
 gameUtils = CvGameInterface.gameUtils()
 
@@ -3290,153 +3292,8 @@ class CvMainInterface:
 						while (j > -1):
 							ePlayer = gc.getGame().getRankPlayer(j)
 
-							if (not CyInterface().isScoresMinimized() or gc.getGame().getActivePlayer() == ePlayer):
-								if (gc.getPlayer(ePlayer).isAlive() and not gc.getPlayer(ePlayer).isMinorCiv()):		# No dead civs on the scoreboard
-								#if (gc.getPlayer(ePlayer).isEverAlive() and not gc.getPlayer(ePlayer).isMinorCiv()):	# Dead civs also show up on the scoreboard
-
-									if (gc.getPlayer(ePlayer).getTeam() == eTeam):
-										szBuffer = u"<font=2>"
-
-										if (gc.getGame().isGameMultiPlayer()):
-											if (not (gc.getPlayer(ePlayer).isTurnActive())):
-												szBuffer = szBuffer + "*"
-
-										if (not CyInterface().isFlashingPlayer(ePlayer) or CyInterface().shouldFlash(ePlayer)):
-											if (ePlayer == gc.getGame().getActivePlayer()):
-												#Rhye - start
-												#szTempBuffer = u"%d: [<color=%d,%d,%d,%d>%s</color>]" %(gc.getGame().getPlayerScore(ePlayer), gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(), gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(), gc.getPlayer(ePlayer).getName())
-												szTempBuffer = u"[<color=%d,%d,%d,%d>%s</color>]: " %(gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(), gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(), gc.getPlayer(ePlayer).getCivilizationDescription(0))
-											else:
-												#szTempBuffer = u"%d: <color=%d,%d,%d,%d>%s</color>" %(gc.getGame().getPlayerScore(ePlayer), gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(), gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(), gc.getPlayer(ePlayer).getName())
-												szTempBuffer = u"<color=%d,%d,%d,%d>%s</color>: " %(gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(), gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(), gc.getPlayer(ePlayer).getCivilizationDescription(0))
-												#Rhye - end
-										else:
-											szTempBuffer = u"%d: %s" %(gc.getGame().getPlayerScore(ePlayer), gc.getPlayer(ePlayer).getName())
-										szBuffer = szBuffer + szTempBuffer
-
-										#Rhye - ? and WAR moved here
-										if (gc.getTeam(eTeam).isAlive()):
-											if (not (gc.getTeam(gc.getGame().getActiveTeam()).isHasMet(eTeam)) ):
-												szBuffer = szBuffer + ("(?) ")
-											if (gc.getTeam(eTeam).isAtWar(gc.getGame().getActiveTeam())):
-												szBuffer = szBuffer + "("  + localText.getColorText("TXT_KEY_CONCEPT_WAR", (), gc.getInfoTypeForString("COLOR_RED")).upper() + ") "
-
-										#Rhye - techs moved here
-										bEspionageCanSeeResearch = false
-										for iMissionLoop in range(gc.getNumEspionageMissionInfos()):
-											if (gc.getEspionageMissionInfo(iMissionLoop).isSeeResearch()):
-												bEspionageCanSeeResearch = gc.getPlayer(gc.getGame().getActivePlayer()).canDoEspionageMission(iMissionLoop, ePlayer, CyMap().plot(-1,-1), -1)
-												break
-										if (((gc.getPlayer(ePlayer).getTeam() == gc.getGame().getActiveTeam()) and (gc.getTeam(gc.getGame().getActiveTeam()).getNumMembers() > 1)) or (gc.getTeam(gc.getPlayer(ePlayer).getTeam()).isVassal(gc.getGame().getActiveTeam())) or gc.getGame().isDebugMode() or bEspionageCanSeeResearch):
-											if (gc.getPlayer(ePlayer).getCurrentResearch() != -1):
-												szTempBuffer = u"%s (%d) - " %(gc.getTechInfo(gc.getPlayer(ePlayer).getCurrentResearch()).getDescription(), gc.getPlayer(ePlayer).getResearchTurnsLeft(gc.getPlayer(ePlayer).getCurrentResearch(), True))
-												szBuffer = szBuffer + szTempBuffer
-										#szTempBuffer = u" "
-										#szBuffer = szBuffer + szTempBuffer
-										#Rhye - end
-
-										if (gc.getTeam(eTeam).isAlive()):
-
-											if (gc.getPlayer(ePlayer).canTradeNetworkWith(gc.getGame().getActivePlayer()) and (ePlayer != gc.getGame().getActivePlayer())):
-												szTempBuffer = u"%c" %(CyGame().getSymbolID(FontSymbols.TRADE_CHAR))
-												szBuffer = szBuffer + szTempBuffer
-											if (gc.getTeam(eTeam).isOpenBorders(gc.getGame().getActiveTeam())):
-												szTempBuffer = u"%c" %(CyGame().getSymbolID(FontSymbols.OPEN_BORDERS_CHAR))
-												szBuffer = szBuffer + szTempBuffer
-											if (gc.getTeam(eTeam).isDefensivePact(gc.getGame().getActiveTeam())):
-												szTempBuffer = u"%c" %(CyGame().getSymbolID(FontSymbols.DEFENSIVE_PACT_CHAR))
-												szBuffer = szBuffer + szTempBuffer
-											if (gc.getPlayer(ePlayer).getStateReligion() != -1):
-												if (gc.getPlayer(ePlayer).hasHolyCity(gc.getPlayer(ePlayer).getStateReligion())):
-													szTempBuffer = u"%c" %(gc.getReligionInfo(gc.getPlayer(ePlayer).getStateReligion()).getHolyCityChar())
-													szBuffer = szBuffer + szTempBuffer
-												else:
-													szTempBuffer = u"%c" %(gc.getReligionInfo(gc.getPlayer(ePlayer).getStateReligion()).getChar())
-													szBuffer = szBuffer + szTempBuffer
-											#Rhye - start plague
-											if (utils.getPlagueCountdown(ePlayer) > 0):
-												szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 6)
-												szBuffer = szBuffer + szTempBuffer
-											#Rhye - end
-
-
-										if (CyGame().isNetworkMultiPlayer()):
-											szBuffer = szBuffer + CyGameTextMgr().getNetStats(ePlayer)
-
-										if (gc.getPlayer(ePlayer).isHuman() and CyInterface().isOOSVisible()):
-											szTempBuffer = u" <color=255,0,0>* %s *</color>" %(CyGameTextMgr().getOOSSeeds(ePlayer))
-											szBuffer = szBuffer + szTempBuffer
-
-										#Rhye - start
-										if (not gc.getTeam(eTeam).isAlive() and gc.getGame().getGameTurn() >= con.tBirth[eTeam]):
-											szBuffer = szBuffer + " -"
-										else:
-											szBuffer = szBuffer + u" %d" %(gc.getGame().getPlayerScore(ePlayer))
-										#Rhye - end
-
-										#Rhye - start victory
-										#szTempBuffer = u"%d" %(utils.countAchievedGoals(ePlayer)) #white
-										#szBuffer = szBuffer + " (" + szTempBuffer + "/3)" #white
-										if (gc.getPlayer(ePlayer).isAlive()):
-											if (ePlayer < con.iNumMajorPlayers):
-												szTempBuffer = u"<color=%s>%d/3</color>" %(utils.getGoalsColor(ePlayer), utils.countAchievedGoals(ePlayer))
-												szBuffer = szBuffer + " - " + szTempBuffer
-										#Rhye - end victory
-
-										#Rhye - start stability
-										if (gc.getPlayer(ePlayer).isAlive()):
-											if (ePlayer < con.iNumMajorPlayers): #in case byzantium is major
-												#iStability = utils.getStability(ePlayer)
-												iStability = gc.getPlayer(ePlayer).getStability()
-												if (iStability < -15):
-													#szTempBuffer = localText.getText("TXT_KEY_STABILITY_COLLAPSING", ())
-													szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 3)
-													#if (gc.getPlayer(ePlayer).isHuman()):
-													#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_COLLAPSING", ()) + ")"
-												elif (iStability >= -15 and iStability < -8):
-													#szTempBuffer = localText.getText("TXT_KEY_STABILITY_UNSTABLE", ())
-													szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 3)
-													#if (gc.getPlayer(ePlayer).isHuman()):
-													#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_UNSTABLE", ()) + ")"
-												elif (iStability >= -8 and iStability < 0):
-													#szTempBuffer = localText.getText("TXT_KEY_STABILITY_SHAKY", ())
-													szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 4)
-													#if (gc.getPlayer(ePlayer).isHuman()):
-													#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_SHAKY", ()) + ")"
-												elif (iStability >= 0 and iStability < 8):
-													#szTempBuffer = localText.getText("TXT_KEY_STABILITY_STABLE", ())
-													szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 4)
-													#if (gc.getPlayer(ePlayer).isHuman()):
-													#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_STABLE", ()) + ")"
-												elif (iStability >= 8 and iStability < 15):
-													#szTempBuffer = localText.getText("TXT_KEY_STABILITY_SOLID", ())
-													szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 5)
-													#if (gc.getPlayer(ePlayer).isHuman()):
-													#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_SOLID", ()) + ")"
-												elif (iStability >= 15):
-													#szTempBuffer = localText.getText("TXT_KEY_STABILITY_VERYSOLID", ())
-													szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 5)
-													#if (gc.getPlayer(ePlayer).isHuman()):
-													#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_VERYSOLID", ()) + ")"
-												szBuffer = szBuffer + " - " + szTempBuffer
-										#Rhye - end stability
-
-										szBuffer = szBuffer + "</font>"
-
-										if ( CyInterface().determineWidth( szBuffer ) > iWidth ):
-											iWidth = CyInterface().determineWidth( szBuffer )
-
-										szName = "ScoreText" + str(ePlayer)
-										if ( CyInterface().getShowInterface() == InterfaceVisibility.INTERFACE_SHOW or CyInterface().isInAdvancedStart()):
-											yCoord = yResolution - 206
-										else:
-											yCoord = yResolution - 88
-										screen.setText( szName, "Background", szBuffer, CvUtil.FONT_RIGHT_JUSTIFY, xResolution - 12, yCoord - (iCount * iBtnHeight), -0.3, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_CONTACT_CIV, ePlayer, -1 )
-										screen.show( szName )
-
-										CyInterface().checkFlashReset(ePlayer)
-
-										iCount = iCount + 1
+							iCount, iWidth = self.UpdatePlayerText(ePlayer, eTeam, iBtnHeight, iCount, iWidth, screen,
+																   xResolution, yResolution)
 							j = j - 1
 					i = i - 1
 
@@ -3446,6 +3303,226 @@ class CvMainInterface:
 					yCoord = yResolution - 68
 				screen.setPanelSize( "ScoreBackground", xResolution - 21 - iWidth, yCoord - (iBtnHeight * iCount) - 4, iWidth + 12, (iBtnHeight * iCount) + 8 )
 				screen.show( "ScoreBackground" )
+
+	def UpdatePlayerText(self, ePlayer, eTeam, iBtnHeight, iCount, iWidth, screen, xResolution, yResolution):
+
+		if (not CyInterface().isScoresMinimized() or gc.getGame().getActivePlayer() == ePlayer or PYTHON_SHOW_MINOR_CITY_ON_SCREEN):
+			if (gc.getPlayer(ePlayer).isAlive() and (not gc.getPlayer(
+					ePlayer).isMinorCiv() or PYTHON_SHOW_MINOR_CITY_ON_SCREEN)):  # No dead civs on the scoreboard
+				# if (gc.getPlayer(ePlayer).isEverAlive() and not gc.getPlayer(ePlayer).isMinorCiv()):	# Dead civs also show up on the scoreboard
+
+				if (gc.getPlayer(ePlayer).getTeam() == eTeam):
+					szBuffer = u"<font=2>"
+
+					if (gc.getGame().isGameMultiPlayer()):
+						if (not (gc.getPlayer(ePlayer).isTurnActive())):
+							szBuffer = szBuffer + "*"
+
+					if (not CyInterface().isFlashingPlayer(ePlayer) or CyInterface().shouldFlash(ePlayer)):
+						CivName = gc.getPlayer(ePlayer).getCivilizationDescription(0)
+						if PYTHON_SCRREN_SHOW_CIVNAME_WITH_FIXNAME and (not gc.getPlayer(ePlayer).isMinorCiv()):
+							CivName = utils.getCivChineseName(ePlayer) + '-' +gc.getPlayer(ePlayer).getCivilizationDescription(0)
+						if (ePlayer == gc.getGame().getActivePlayer()):
+							# Rhye - start
+							# szTempBuffer = u"%d: [<color=%d,%d,%d,%d>%s</color>]" %(gc.getGame().getPlayerScore(ePlayer), gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(), gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(), gc.getPlayer(ePlayer).getName())
+							szTempBuffer = u"[<color=%d,%d,%d,%d>%s</color>]: " % (
+							gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(),
+							gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(),
+							CivName)
+						else:
+							# szTempBuffer = u"%d: <color=%d,%d,%d,%d>%s</color>" %(gc.getGame().getPlayerScore(ePlayer), gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(), gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(), gc.getPlayer(ePlayer).getName())
+							szTempBuffer = u"<color=%d,%d,%d,%d>%s</color>: " % (
+							gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(),
+							gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(),
+							CivName)
+						# Rhye - end
+					else:
+						szTempBuffer = u"%d: %s" % (
+						gc.getGame().getPlayerScore(ePlayer), gc.getPlayer(ePlayer).getName())
+					szBuffer = szBuffer + szTempBuffer
+
+					# Rhye - ? and WAR moved here
+					if (gc.getTeam(eTeam).isAlive()):
+						if (not (gc.getTeam(gc.getGame().getActiveTeam()).isHasMet(eTeam))):
+							szBuffer = szBuffer + ("(?) ")
+						if (gc.getTeam(eTeam).isAtWar(gc.getGame().getActiveTeam())):
+							szBuffer = szBuffer + "(" + localText.getColorText("TXT_KEY_CONCEPT_WAR", (),
+																			   gc.getInfoTypeForString(
+																				   "COLOR_RED")).upper() + ") "
+
+					szBuffer, szTempBuffer = self.SeePlayerTechInScreen(ePlayer, szBuffer, szTempBuffer)
+
+					if (gc.getTeam(eTeam).isAlive()):
+
+						if (gc.getPlayer(ePlayer).canTradeNetworkWith(gc.getGame().getActivePlayer()) and (
+								ePlayer != gc.getGame().getActivePlayer())):
+							szTempBuffer = u"%c" % (CyGame().getSymbolID(FontSymbols.TRADE_CHAR))
+							szBuffer = szBuffer + szTempBuffer
+						if (gc.getTeam(eTeam).isOpenBorders(gc.getGame().getActiveTeam())):
+							szTempBuffer = u"%c" % (CyGame().getSymbolID(FontSymbols.OPEN_BORDERS_CHAR))
+							szBuffer = szBuffer + szTempBuffer
+						if (gc.getTeam(eTeam).isDefensivePact(gc.getGame().getActiveTeam())):
+							szTempBuffer = u"%c" % (CyGame().getSymbolID(FontSymbols.DEFENSIVE_PACT_CHAR))
+							szBuffer = szBuffer + szTempBuffer
+						if (gc.getPlayer(ePlayer).getStateReligion() != -1):
+							if (gc.getPlayer(ePlayer).hasHolyCity(gc.getPlayer(ePlayer).getStateReligion())):
+								szTempBuffer = u"%c" % (
+									gc.getReligionInfo(gc.getPlayer(ePlayer).getStateReligion()).getHolyCityChar())
+								szBuffer = szBuffer + szTempBuffer
+							else:
+								szTempBuffer = u"%c" % (
+									gc.getReligionInfo(gc.getPlayer(ePlayer).getStateReligion()).getChar())
+								szBuffer = szBuffer + szTempBuffer
+						# Rhye - start plague
+						if (utils.getPlagueCountdown(ePlayer) > 0):
+							szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 6)
+							szBuffer = szBuffer + szTempBuffer
+					# Rhye - end
+
+					if (CyGame().isNetworkMultiPlayer()):
+						szBuffer = szBuffer + CyGameTextMgr().getNetStats(ePlayer)
+
+					if (gc.getPlayer(ePlayer).isHuman() and CyInterface().isOOSVisible()):
+						szTempBuffer = u" <color=255,0,0>* %s *</color>" % (CyGameTextMgr().getOOSSeeds(ePlayer))
+						szBuffer = szBuffer + szTempBuffer
+
+					# Rhye - start
+					if (not gc.getTeam(eTeam).isAlive() and gc.getGame().getGameTurn() >= con.tBirth[eTeam]):
+						szBuffer = szBuffer + " -"
+					else:
+						szBuffer = szBuffer + u" %d" % (gc.getGame().getPlayerScore(ePlayer))
+					# Rhye - end
+
+					# Rhye - start victory
+					# szTempBuffer = u"%d" %(utils.countAchievedGoals(ePlayer)) #white
+					# szBuffer = szBuffer + " (" + szTempBuffer + "/3)" #white
+					if (gc.getPlayer(ePlayer).isAlive()):
+						if (ePlayer < con.iNumMajorPlayers):
+							szTempBuffer = u"<color=%s>%d/3</color>" % (
+							utils.getGoalsColor(ePlayer), utils.countAchievedGoals(ePlayer))
+							szBuffer = szBuffer + " - " + szTempBuffer
+					# Rhye - end victory
+
+					# Rhye - start stability
+					if (gc.getPlayer(ePlayer).isAlive()):
+						if (ePlayer < con.iNumMajorPlayers):  # in case byzantium is major
+							# iStability = utils.getStability(ePlayer)
+							iStability = gc.getPlayer(ePlayer).getStability()
+							if (iStability < -15):
+								# szTempBuffer = localText.getText("TXT_KEY_STABILITY_COLLAPSING", ())
+								szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 3)
+							# if (gc.getPlayer(ePlayer).isHuman()):
+							#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_COLLAPSING", ()) + ")"
+							elif (iStability >= -15 and iStability < -8):
+								# szTempBuffer = localText.getText("TXT_KEY_STABILITY_UNSTABLE", ())
+								szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 3)
+							# if (gc.getPlayer(ePlayer).isHuman()):
+							#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_UNSTABLE", ()) + ")"
+							elif (iStability >= -8 and iStability < 0):
+								# szTempBuffer = localText.getText("TXT_KEY_STABILITY_SHAKY", ())
+								szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 4)
+							# if (gc.getPlayer(ePlayer).isHuman()):
+							#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_SHAKY", ()) + ")"
+							elif (iStability >= 0 and iStability < 8):
+								# szTempBuffer = localText.getText("TXT_KEY_STABILITY_STABLE", ())
+								szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 4)
+							# if (gc.getPlayer(ePlayer).isHuman()):
+							#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_STABLE", ()) + ")"
+							elif (iStability >= 8 and iStability < 15):
+								# szTempBuffer = localText.getText("TXT_KEY_STABILITY_SOLID", ())
+								szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 5)
+							# if (gc.getPlayer(ePlayer).isHuman()):
+							#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_SOLID", ()) + ")"
+							elif (iStability >= 15):
+								# szTempBuffer = localText.getText("TXT_KEY_STABILITY_VERYSOLID", ())
+								szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 5)
+							# if (gc.getPlayer(ePlayer).isHuman()):
+							#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_VERYSOLID", ()) + ")"
+							szBuffer = szBuffer + " - " + szTempBuffer
+					# Rhye - end stability
+					# Rhye - start stability
+					szBuffer = self.ShowScreenTip_Mediv01(ePlayer, szBuffer)
+
+
+					szBuffer = szBuffer + "</font>"
+
+					if (CyInterface().determineWidth(szBuffer) > iWidth):
+						iWidth = CyInterface().determineWidth(szBuffer)
+
+					szName = "ScoreText" + str(ePlayer)
+					if (
+							CyInterface().getShowInterface() == InterfaceVisibility.INTERFACE_SHOW or CyInterface().isInAdvancedStart()):
+						yCoord = yResolution - 206
+					else:
+						yCoord = yResolution - 88
+					screen.setText(szName, "Background", szBuffer, CvUtil.FONT_RIGHT_JUSTIFY, xResolution - 12,
+								   yCoord - (iCount * iBtnHeight), -0.3, FontTypes.SMALL_FONT,
+								   WidgetTypes.WIDGET_CONTACT_CIV, ePlayer, -1)
+					screen.show(szName)
+
+					CyInterface().checkFlashReset(ePlayer)
+
+					iCount = iCount + 1
+		return iCount, iWidth
+
+	def SeePlayerTechInScreen(self, ePlayer, szBuffer, szTempBuffer):
+		# Rhye - techs moved here
+		bEspionageCanSeeResearch = false
+		for iMissionLoop in range(gc.getNumEspionageMissionInfos()):
+			if (gc.getEspionageMissionInfo(iMissionLoop).isSeeResearch()):
+				bEspionageCanSeeResearch = gc.getPlayer(
+					gc.getGame().getActivePlayer()).canDoEspionageMission(iMissionLoop, ePlayer,
+																		  CyMap().plot(-1, -1), -1)
+				break
+		if PYTHON_CAN_SEE_OTHER_PLAYER_TECH_INFO:
+			bEspionageCanSeeResearch = True
+		if (((gc.getPlayer(ePlayer).getTeam() == gc.getGame().getActiveTeam()) and (
+				gc.getTeam(gc.getGame().getActiveTeam()).getNumMembers() > 1)) or (
+				gc.getTeam(gc.getPlayer(ePlayer).getTeam()).isVassal(
+					gc.getGame().getActiveTeam())) or gc.getGame().isDebugMode() or bEspionageCanSeeResearch):
+			if (gc.getPlayer(ePlayer).getCurrentResearch() != -1):
+				import AITradeValue
+				isTradableText = ''
+				canTradeTech = AITradeValue.isTechTradalbeAndWorthy(ePlayer, gc.getPlayer(ePlayer).getCurrentResearch())
+				if (canTradeTech):
+					isTradableText = '[T]'
+				szTempBuffer = u"%s %s(%d) - " % (
+					gc.getTechInfo(gc.getPlayer(ePlayer).getCurrentResearch()).getDescription(),
+					isTradableText,
+					gc.getPlayer(ePlayer).getResearchTurnsLeft(gc.getPlayer(ePlayer).getCurrentResearch(),
+															   True))
+				szBuffer = szBuffer + szTempBuffer
+		# szTempBuffer = u" "
+		# szBuffer = szBuffer + szTempBuffer
+		# Rhye - end
+		return szBuffer, szTempBuffer
+
+	def ShowScreenTip_Mediv01(self, ePlayer, szBuffer):
+
+		if (gc.getPlayer(ePlayer).isAlive() and PYTHON_SHOW_CIV_MONEY_ON_PANNEL):
+			iGold = gc.getPlayer(ePlayer).AI_maxGoldTrade(gc.getGame().getActivePlayer())
+			iGoldPerTurn = gc.getPlayer(ePlayer).AI_maxGoldPerTurnTrade(gc.getGame().getActivePlayer())
+			if(ePlayer is gc.getGame().getActivePlayer()):
+				iGold=0
+				iGoldPerTurn = 0
+			icolor1 =rfce_color_map['white']
+			icolor2 =rfce_color_map['white']
+			if (iGold>PYTHON_SHOW_CIV_MONEY_HIGHLIGHT_LEVEL1):
+				icolor1 = rfce_color_map['green']
+			if (iGold>PYTHON_SHOW_CIV_MONEY_HIGHLIGHT_LEVEL2):
+				icolor1 = rfce_color_map['yellow']
+
+			if (iGoldPerTurn>PYTHON_SHOW_CIV_MONEY_PERTURN_HIGHLIGHT_LEVEL1):
+				icolor2 = rfce_color_map['green']
+			if (iGoldPerTurn>PYTHON_SHOW_CIV_MONEY_PERTURN_HIGHLIGHT_LEVEL2):
+				icolor2 = rfce_color_map['yellow']
+			iGoldText =FillNumberToText(iGold,5)
+			iGoldPerTurnText = FillNumberToText(iGoldPerTurn,3)
+			# szTempBuffer = u"<color=%s>%d</color><color=%s>(%d)</color>" % (icolor1, iGold, icolor2,iGoldPerTurn)
+			szTempBuffer = u"<color=%s>%s</color><color=%s>  (%s)</color>" % (icolor1, iGoldText, icolor2,iGoldPerTurnText)
+			szBuffer = szBuffer + " - " + szTempBuffer
+			pass
+		return szBuffer
 
 	# Will update the help Strings
 	def updateHelpStrings( self ):

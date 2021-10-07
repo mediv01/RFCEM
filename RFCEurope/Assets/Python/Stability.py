@@ -461,8 +461,14 @@ class Stability:
 		pPlayer = gc.getPlayer(iPlayer)
 		if iPlayer != utils.getHumanID():
 			print ("COLLAPSE: CIVIL WAR", gc.getPlayer(iPlayer).getCivilizationAdjective(0), "Stability:", iStability)
+			txt = gc.getPlayer(iPlayer).getCivilizationDescription(0) + " " + CyTranslator().getText("TXT_KEY_STABILITY_CIVILWAR", ())
 			if gc.getPlayer(utils.getHumanID()).canContact(iPlayer):
-				CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, gc.getPlayer(iPlayer).getCivilizationDescription(0) + " " + CyTranslator().getText("TXT_KEY_STABILITY_CIVILWAR", ()), "", 0, "", ColorTypes(con.iRed), -1, -1, True, True)
+				CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, txt, "", 0, "", ColorTypes(con.iRed), -1, -1, True, True)
+			infotext = txt
+			utils.log_info(infotext, utils.getHumanID())
+			utils.log_riseandfall(infotext, utils.getHumanID())
+
+
 			utils.killAndFragmentCiv(iPlayer, False, False)
 		elif pPlayer.getNumCities() > 1:
 			print ("COLLAPSE: CIVIL WAR", gc.getPlayer(iPlayer).getCivilizationAdjective(0), "Stability:", iStability)

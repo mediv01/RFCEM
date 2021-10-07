@@ -1522,6 +1522,64 @@ int CvTeamAI::AI_endWarVal(TeamTypes eTeam) const
 	}
 }
 
+int CvTeamAI::AI_techTradeVal_Ignore_Progress(TechTypes eTech, TeamTypes eTeam,bool IgnoreProgress) const
+{
+	FAssert(eTeam != getID());
+	int iKnownCount;
+	int iPossibleKnownCount;
+	int iCost;
+	int iValue;
+	int iI;
+
+	int ResearchProgress = 0;
+	if (!IgnoreProgress) {
+		ResearchProgress = getResearchProgress(eTech);
+	}
+	iCost = std::max(0, (getResearchCost(eTech) - ResearchProgress));
+
+	iValue = ((iCost * 3) / 2);
+
+	iKnownCount = 0;
+	iPossibleKnownCount = 0;
+
+	for (iI = 0; iI < MAX_CIV_TEAMS; iI++)
+	{
+		if (GET_TEAM((TeamTypes)iI).isAlive())
+		{
+			if (iI != getID())
+			{
+				if (isHasMet((TeamTypes)iI))
+				{
+					if (GET_TEAM((TeamTypes)iI).isHasTech(eTech))
+					{
+						iKnownCount++;
+					}
+
+					iPossibleKnownCount++;
+				}
+			}
+		}
+	}
+
+	if (iPossibleKnownCount != 0)
+	{
+		iValue += (((iCost / 2) * (iPossibleKnownCount - iKnownCount)) / iPossibleKnownCount);
+	}
+
+	iValue *= std::max(0, (GC.getTechInfo(eTech).getAITradeModifier() + 100));
+	iValue /= 100;
+
+	iValue -= (iValue % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+
+	if (isHuman())
+	{
+		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+	}
+	else
+	{
+		return iValue;
+	}
+}
 
 int CvTeamAI::AI_techTradeVal(TechTypes eTech, TeamTypes eTeam) const
 {

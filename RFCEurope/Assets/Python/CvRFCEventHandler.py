@@ -582,6 +582,8 @@ class CvRFCEventHandler:
 		self.province.checkTurn(iGameTurn)
 		self.company.checkTurn(iGameTurn)
 
+		import Mediv01_EventManager
+		Mediv01_EventManager.CheckTurn(iGameTurn)
 		#print(" 3Miro onBegTurn out: ",iGameTurn)
 
 		return 0

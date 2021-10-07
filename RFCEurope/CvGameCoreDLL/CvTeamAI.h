@@ -26,6 +26,10 @@ public:
 #endif
 	DllExport static CvTeamAI& getTeamNonInl(TeamTypes eTeam);
 
+
+	// mediv01
+	int AI_techTradeVal_Ignore_Progress(TechTypes eTech, TeamTypes eTeam, bool IgnoreProgress) const;
+
 	static void initStatics();
 	static void freeStatics();
 

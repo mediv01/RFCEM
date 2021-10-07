@@ -5648,7 +5648,7 @@ void CvGameTextMgr::setTechHelp(CvWStringBuffer &szBuffer, TechTypes eTech, bool
 					int iActualTradeValue = 0;
 					isshow = true;
 					if (iI != (int)(PlayerHuman)) {
-						iValue = CvPlayerAI().getAIdealValuetoMoney((int)(PlayerHuman), iI, (int)TRADE_TECHNOLOGIES, (int)iTech);
+						iValue = CvPlayerAI().getAIdealValuetoMoneyIgnoreProgress((int)(PlayerHuman), iI, (int)TRADE_TECHNOLOGIES, (int)iTech,false);
 						int iMaxMoney = GET_PLAYER((PlayerTypes)iI).AI_maxGoldTrade(PlayerHuman);
 						iActualTradeValue = std::min(iValue, iMaxMoney);
 						iTechValuePercent = 0;
@@ -5660,8 +5660,19 @@ void CvGameTextMgr::setTechHelp(CvWStringBuffer &szBuffer, TechTypes eTech, bool
 					if (iTechValuePercent >= GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY3_HIGHLIGHT_MINVALUE") && (iI != (int)(PlayerHuman))) {
 						textColor = "COLOR_PLAYER_YELLOW";
 					}
+
+					int TechCostofAI = GET_TEAM(GET_PLAYER((PlayerTypes)iI).getTeam()).getResearchCost(iTech);
+					TechCostofAI = std::max(1, TechCostofAI);
+					int TechProgressofAI = GET_TEAM(GET_PLAYER((PlayerTypes)iI).getTeam()).getResearchProgress(iTech);
+					int TechResearchProgressPercent = 100 - (int) (TechProgressofAI * 100 / TechCostofAI);
+
+
+					int iIgnoreProgressValue = CvPlayerAI().getAIdealValuetoMoneyIgnoreProgress((int)(PlayerHuman), iI, (int)TRADE_TECHNOLOGIES, (int)eTech,true);
+					iIgnoreProgressValue = std::max(1, iIgnoreProgressValue);
+					int iIgnoreProgressValuePercent = iValue * 100 / iIgnoreProgressValue;
+
 					if (iValue > 0) {
-						szBuffer1.append(CvWString::format(SETCOLR L" %s (%d , %d )" ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER((PlayerTypes)iI).getCivilizationDescription(), iValue, iActualTradeValue));
+						szBuffer1.append(CvWString::format(SETCOLR L" %s (V: %d , R:%d ) P(V:%d R:%d)" ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER((PlayerTypes)iI).getCivilizationDescription(), iValue, iActualTradeValue, iIgnoreProgressValuePercent, TechResearchProgressPercent));
 					}
 					else {
 						szBuffer1.append(CvWString::format(SETCOLR L" %s " ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER((PlayerTypes)iI).getCivilizationDescription()));
@@ -5692,7 +5703,7 @@ void CvGameTextMgr::setTechHelp(CvWStringBuffer &szBuffer, TechTypes eTech, bool
 				//int iMaxVal = GC.AItradeTechValList((PlayerTypes)-1, PlayerHuman,eTech, MAX);
 
 				int iMaxCountry = iTechShowPlayer;
-				int iCols = 3;  //三维数组 第一列存放国家ID，第二列存放科技可交易值，第三列存放潜在科技交易值
+				int iCols = 5;  //三维数组 第一列存放国家ID，第二列存放科技可交易值，第三列存放潜在科技交易值
 				std::vector<std::vector<int> > iValueVector(iMaxCountry, std::vector<int>(iCols)); //定义二维动态数组
 
 
@@ -5704,6 +5715,8 @@ void CvGameTextMgr::setTechHelp(CvWStringBuffer &szBuffer, TechTypes eTech, bool
 					iValueVector[iI][0] = -1; //国家
 					iValueVector[iI][1] = -1; //可交易值
 					iValueVector[iI][2] = -1; //潜在价值
+					iValueVector[iI][3] = -1; // 科技交易价值的比例
+					iValueVector[iI][4] = -1; // 尚未研究的比例
 
 					bool CivHasTech = GET_TEAM(GET_PLAYER((PlayerTypes)iI).getTeam()).isHasTech(eTech);
 
@@ -5715,7 +5728,7 @@ void CvGameTextMgr::setTechHelp(CvWStringBuffer &szBuffer, TechTypes eTech, bool
 						int iTechValuePercent = 100;
 						int iActualTradeValue = 0;
 						if (iI != (int)(PlayerHuman)) {
-							iValue = CvPlayerAI().getAIdealValuetoMoney((int)(PlayerHuman), iI, (int)TRADE_TECHNOLOGIES, (int)eTech);
+							iValue = CvPlayerAI().getAIdealValuetoMoneyIgnoreProgress((int)(PlayerHuman), iI, (int)TRADE_TECHNOLOGIES, (int)eTech,false);
 							int iMaxMoney = GET_PLAYER((PlayerTypes)iI).AI_maxGoldTrade(PlayerHuman);
 							iActualTradeValue = std::min(iValue, iMaxMoney);
 							iTechValuePercent = 0;
@@ -5724,9 +5737,23 @@ void CvGameTextMgr::setTechHelp(CvWStringBuffer &szBuffer, TechTypes eTech, bool
 							}
 						}
 
+						int TechCostofAI = GET_TEAM(GET_PLAYER((PlayerTypes)iI).getTeam()).getResearchCost(eTech);
+						int TechProgressofAI = GET_TEAM(GET_PLAYER((PlayerTypes)iI).getTeam()).getResearchProgress(eTech);
+						TechCostofAI = std::max(1, TechCostofAI);
+						int TechResearchProgressPercent = 100 - (int)(TechProgressofAI * 100 / TechCostofAI);
+
+
+						int iIgnoreProgressValue = CvPlayerAI().getAIdealValuetoMoneyIgnoreProgress((int)(PlayerHuman), iI, (int)TRADE_TECHNOLOGIES, (int)eTech,true);
+						iIgnoreProgressValue = std::max(1, iIgnoreProgressValue);
+						int iIgnoreProgressValuePercent = iValue * 100 / iIgnoreProgressValue;
+
+
+
 						iValueVector[iI][0] = iI; //国家
 						iValueVector[iI][1] = iActualTradeValue; //可交易值
 						iValueVector[iI][2] = iValue; //潜在价值
+						iValueVector[iI][3] = iIgnoreProgressValuePercent; // 科技交易价值的比例
+						iValueVector[iI][4] = TechResearchProgressPercent; // 尚未研究的比例
 
 
 					}
@@ -5759,10 +5786,12 @@ void CvGameTextMgr::setTechHelp(CvWStringBuffer &szBuffer, TechTypes eTech, bool
 								//textColor = "COLOR_PLAYER_YELLOW";
 							//}
 
+							int iIgnoreProgressValuePercent = iValueVector[iI][3]; //科技交易价值的比例
+							int TechResearchProgressPercent = iValueVector[iI][4]; // 尚未研究的比例
 
 
 							if (iValue > 0) {
-								szBuffer1.append(CvWString::format(SETCOLR L" %s (%d [%d] )" ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER(AIPlayer).getCivilizationDescription(), iActualTradeValue, iValue));
+								szBuffer1.append(CvWString::format(SETCOLR L" %s (%d [%d]) P:(V:%d R:%d)" ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER(AIPlayer).getCivilizationDescription(), iActualTradeValue, iValue, iIgnoreProgressValuePercent, TechResearchProgressPercent));
 							}
 							else {
 								textColor = "COLOR_PLAYER_GREEN";

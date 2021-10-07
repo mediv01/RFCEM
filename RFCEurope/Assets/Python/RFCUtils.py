@@ -1573,9 +1573,10 @@ class RFCUtils:
 		popup.setBodyString(str(message))
 		popup.launch()
 
-	def info(self , message, id=[], color = con.iWhite):
+	def info(self , message, id=[], color = con.iWhite,output=1):
 		# CyTranslator().getText("TXT_KEY_CRUSADE_DENY_FAITH", ())
-		CyInterface().addMessage(self.getHumanID(), True, con.iDuration, str(message),
+		if output:
+			CyInterface().addMessage(self.getHumanID(), True, con.iDuration, str(message),
 								 "", 0, "", ColorTypes(color), -1, -1, True, True)
 		if PYTHON_LOG_ON_INFO:
 			self.log_info(message,id)

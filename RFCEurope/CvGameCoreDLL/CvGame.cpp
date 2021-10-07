@@ -6054,7 +6054,7 @@ void CvGame::doTurn()
 	// Absinthe: disable autosave during autoplay
 	if ((GC.getDefineINT("NO_AUTOSAVE_DURING_AUTOPLAY") == 0) || ((getGameTurn() > 0) && !(getGameTurn() < startingTurn[getActivePlayer()])))
 	{
-		gDLL->getEngineIFace()->AutoSave();
+		//gDLL->getEngineIFace()->AutoSave();
 	}
 	// Absinthe: end
 	//gDLL->getEngineIFace()->AutoSave();

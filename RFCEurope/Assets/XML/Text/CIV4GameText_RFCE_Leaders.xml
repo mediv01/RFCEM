@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' ?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
 <!-- Sid Meier's Civilization 4 -->
 <!-- Copyright Firaxis Games 2005 -->
@@ -12,7 +12,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>查士丁尼一世</Chinese>
+    <Chinese>拜占庭-查士丁尼一世</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_JUSTINIAN_PEDIA</Tag>
@@ -21,7 +21,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>[H1]Justinian I[\H1][NEWLINE][BOLD]Emperor of the Byzantine Empire[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] May 11, 483 - November 13, 565 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Justinian the First, known as Flavius Petrus Sabbatius Iustinianus in Latin, was emperor of the Byzantine Empire from 527 until his death in 565. His four decades of rule marked the greatest expansion of the Byzantine Empire since its split with the Roman Empire and a sweeping revival in the Christian religion.[PARAGRAPH:2]Born in a small village in modern Macedonia, Justinian had little connection to power in Constantinople as a youth. It was the rise of his uncle, Justin, a Byzantine general who succeeded the Emperor Anastasius, which drew young Justinian from the Macedonian pastures into cosmopolitan Constantinople. Justinian served his uncle as a close advisor for a decade before the passing of Emperor Justin transferred the diadem to Justinian.[PARAGRAPH:2]With Justinian's rise to power, two other important faces rose to prominence. Belisarius, a close friend of Justinian, became the leader of Justinian's armies and proved himself as a brilliant tactician. The second face belonged to his beautiful and savvy wife, Theodora, who took on the role that Justinian himself once filled, that of the emperor's closest advisor.[PARAGRAPH:2]One of Justinian's first actions as Emperor was to order a collection of all Roman law, the Corpus Juris Civilis. But not long after the first issuing of the Corpus, an uprising among two rival chariot racing factions, the Blues and the Greens, engulfed Constantinople in a wave of violence and conflagration. Enterprising powers within the city allied against Justinian, using the chaos to declare a new Emperor, Hypatius, a nephew of Anastasius. Justinian, unsure of the strength of usurpers, decided to flee the city, but his brave wife refused. Instead, Belisarius was ordered to take two divisions and quell the uprising, which he did with ruthless ability, trapping rioters in the Hippodrome and killing nearly 30,000 before the riot was finally put down.[PARAGRAPH:2]The damage done to the city after the riots was substantial. Among the smoldering ruins lay the Hagia Sophia, Constantinople's greatest cathedral, burnt to the ground. Justinian thus began a monumental campaign to expand and restore the building. With its completion five years later, the reconstructed Hagia Sophia was christened as the world's largest cathedral, a title it would hold for a millennium. Under Justinian's order, twenty-five cathedrals were built in Constantinople alone, with many more built outside the capital city.[PARAGRAPH:2]The Empire thrived under Justinian. Thanks in no small part to the able command of Belisarius, Emperor Justinian's reach spread from Constantinople to Southern Spain, with North Africa and Italy all falling under the Byzantine grasp. Justinian's reign marked a high point for the Byzantine Empire, as shortly after his death, much of the land conquered in his name was lost. War with powerful Germanic tribes and neighboring Persia would cost the empire much of its hard-fought gains.</Chinese>
+    <Chinese>[H1]查士丁尼一世[\H1][NEWLINE][BOLD]拜占庭帝国皇帝[\BOLD][NEWLINE][BOLD]生前：[\BOLD]公元483年5月11日至565年11月13日[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB ]查士丁尼一世，拉丁语称为弗拉维乌斯·佩特罗斯·萨巴蒂斯·尤斯蒂尼亚努斯，从527年起一直是拜占庭帝国的皇帝，直到565年去世。查士丁尼四十年的统治标志着拜占庭帝国自与罗马帝国分裂以来的最大扩张和基督教的全面复兴。[段落：2]出生于现代马其顿的一个小村庄，年轻时与君士坦丁堡的权力关系不大。他的叔叔贾斯汀（Justin）是拜占庭将军，继承了阿纳斯塔修斯（Anastasius）皇帝，他的崛起将年轻的贾斯汀从马其顿牧场吸引到了世界性的君士坦丁堡。查士丁尼在皇帝查士丁尼去世前曾担任叔叔的亲密顾问十年。[第2段]随着查士丁尼的掌权，另外两位重要人物也崭露头角。贝里萨里乌斯，查士丁尼的密友，成为查士丁尼军队的领袖，证明了自己是一位杰出的战术家。第二张脸属于他美丽而精明的妻子西奥多拉，她扮演了查士丁尼本人曾经担任的角色，即皇帝最亲密的顾问。[PARAGRAPH:2]查士丁尼作为皇帝的第一个行动之一是下令收集所有罗马法律，即《民法典》。但在第一次发布《文集》后不久，两个对立的战车竞赛派系——蓝军和绿军——之间的起义将君士坦丁堡卷入了一场暴力和大火的浪潮中。城内有进取心的力量联合起来对付查士丁尼，利用混乱宣布一位新皇帝，阿纳斯塔修斯的侄子海帕提乌斯。查士丁尼不确定篡位者的力量，决定逃离这座城市，但他勇敢的妻子拒绝了。相反，贝里萨里乌斯被命令分两个师镇压起义，他以残忍的手段镇压了起义，将暴乱者困在竞技场，并在暴乱最终平息之前杀害了近30000人。[第2段]暴乱后对城市造成的破坏是巨大的。在阴燃的废墟中，君士坦丁堡最大的大教堂索菲亚大教堂被烧毁。查士丁尼因此开始了一场纪念性的扩建和修复活动。五年后完工，重建的索菲亚大教堂被命名为世界上最大的大教堂，这一称号将持续一千年。在查士丁尼的命令下，仅在君士坦丁堡就修建了25座大教堂，在首都城外还修建了更多的大教堂。[PARAGRAPH:2]查士丁尼统治下，帝国繁荣昌盛。在很大程度上要感谢贝里萨利斯的干练指挥，查士丁尼皇帝的势力范围从君士坦丁堡扩展到西班牙南部，北非和意大利都落入拜占庭的控制之下。查士丁尼的统治标志着拜占庭帝国的一个高峰，因为在他死后不久，以他的名义征服的大部分土地都消失了。与强大的日耳曼部落和邻国波斯的战争将使帝国损失其大部分艰苦奋斗的成果。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_CHARLEMAGNE</Tag>
@@ -30,7 +30,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>查理曼</Chinese>
+    <Chinese>法兰克-查理曼</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_CHARLEMAGNE_PEDIA</Tag>
@@ -39,7 +39,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>[H1]Charlemagne[\H1][NEWLINE][BOLD]Emperor of the Holy Roman Empire, King of the Franks[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] c. 742 - January 28, 814 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Charles the Great, Emperor of the Holy Roman Empire, fathered a kingdom that encompassed France, Germany, Italy and much of Eastern Europe. Legends of his conquests are pervasive throughout history, and he is considered one of the great figureheads of European Chivalric society.[PARAGRAPH:2]During his lifetime Charlemagne successfully campaigned in many countries. Some wars he completed personally and others were left for his sons to finish. His first campaign was against Desiderius of Lombardy who, soon after the succession of Pope Hadrian I, marched on Rome. Charlemagne pressed into Lombardy, and after a lengthy siege (772-774), he accepted Desiderius' unconditional surrender. Desiderius would live out the remainder of his life confined to a monastery.[PARAGRAPH:2]The longest lasting and most challenging conquest of Charlemagne's reign would be that of Saxonia. It would be a theater that he would continually revisit during his lifetime. After Charlemagne's initial push into Saxonia he was continuously forced to retake previously conquered land which had rebelled against his authority. Weary of war and losing more rights and freedoms with every capitulation, the Saxons eventually accepted Charlemagne's terms, including renouncement of their national religious customs and adoption of the Christian faith and its associated Frankish customs.[PARAGRAPH:2]Charles was both a highly religious man and a philanthropist. He often built friendly relationships with other countries, such as Egypt and India, so that he could later send money in an effort to assist struggling Christians in those regions. Although much more of a conqueror than an economic or social reformer, Charles often contributed money to relieve the poor and sick in his kingdom.[PARAGRAPH:2]Charlemagne, despite being unable to write well himself, had a vast love of literature and education. Due to his conquests, Charlemagne came into contact with many different cultures and learning institutions. Having contributed considerable funding to existing monastic schools and institutions of learning, Charlemagne's era became known as the Carolingian Renaissance, with a blossoming of the arts and sciences.[PARAGRAPH:2]As a member of the Nine Worthies, a group of both fictional and real people that represented the pinnacle of chivalry during their eras, Charlemagne was the embodiment of honor in both person and position. A conqueror, a philanthropist, lover of the arts and a highly devout Christian, Charlemagne stands as one of the important figures of the first millennium, and the forefather of Central Europe as it stands today. </Chinese>
+    <Chinese>[H1]查理曼大帝[\H1][NEWLINE][BOLD]神圣罗马帝国皇帝，法兰克国王[\BOLD][NEWLINE][BOLD]在世：[\BOLD]c。公元742年1月28日-公元814年[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB]神圣罗马帝国的皇帝查尔斯大帝是一个包括法国、德国、意大利和东欧大部分地区的王国的父亲。他的征服传奇在历史上随处可见，他被认为是欧洲骑士社会的伟大领袖人物之一。[PARAGRAPH:2]查理曼大帝在其一生中成功地在许多国家竞选。有些战争是他亲自完成的，有些则留给他的儿子们去完成。他的第一次竞选是反对伦巴第的德西德里厄斯，他在教皇哈德良一世继任后不久就进军罗马。查理曼大帝挺进伦巴第，经过漫长的围困（772-774年），他接受了德西德里厄斯的无条件投降。德西德里厄斯将在修道院度过余生。[PARAGRAPH:2]查理大帝统治时期最持久、最具挑战性的征服将是撒克逊人。这将是他有生之年不断重游的剧院。在查理曼大帝最初进入萨克森之后，他不断地被迫重新夺回先前被征服的土地，这片土地曾反抗他的权威。撒克逊人厌倦了战争，每次投降都会失去更多的权利和自由，最终接受了查理曼大帝的条件，包括放弃他们的民族宗教习俗，接受基督教信仰及其相关的法兰克习俗。[PARAGRAPH:2]查尔斯既是一个高度虔诚的人，也是一个慈善家。他经常与其他国家建立友好关系，如埃及和印度，以便他以后可以寄钱帮助这些地区挣扎的基督徒。尽管查尔斯更像是一个征服者，而不是一个经济或社会改革者，但他经常捐款帮助王国里的穷人和病人。[PARAGRAPH:2]查理曼大帝尽管自己写得不好，但他热爱文学和教育。由于他的征服，查理曼大帝接触了许多不同的文化和学习机构。查理曼大帝为现有的修道院学校和学术机构提供了大量资金，他所处的时代被称为加洛林文艺复兴时期，艺术和科学蓬勃发展。[PARAGRAPH:2]是九大名流中的一员，查理曼大帝是一个虚构和真实的人物群体，代表了他们那个时代骑士精神的巅峰，他在个人和地位上都是荣誉的化身。作为征服者、慈善家、艺术爱好者和高度虔诚的基督徒，查理曼大帝是第一个千年的重要人物之一，也是今天中欧的祖先。 </Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_LOUIS_XIV</Tag>
@@ -48,7 +48,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>路易十四</Chinese>
+    <Chinese>法兰西-路易十四</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_LOUIS_XIV_PEDIA</Tag>
@@ -57,7 +57,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>[H1]Louis XIV[\H1][NEWLINE][BOLD]King of France[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] September 5, 1638 - September 1, 1715 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Born to King Louis XIII of France, Louis XIV was raised in the most opulent court in Europe. His every need was catered to, and he was given an excellent education, even if he was too lazy and spoiled to appreciate it. Louis XIII died when his son was five, and the regency passed to the queen mother, Anne of Austria. For the next 18 years she ruled France with the able assistance of Cardinal Mazarin, who may or may not have also been her lover, while Louis lived in pampered splendor.[PARAGRAPH:2]It was upon Mazarin's death in 1661 that the 22-year-old Louis XIV began to take an active interest in ruling his country. Much to everyone's surprise, he was good at it. First he gathered all of the power into his own hands, bypassing the old bureaucratic patronage system that Mazarin and his predecessors had used. He enticed the great nobles to his court, where he heaped upon them titles, honorary positions, and financial rewards, while at the same time undermining their actual power. In Louis' court, great noblemen - whose parents had fought for the crown of France itself - fought each other for the privilege of watching Louis shave.[PARAGRAPH:2]In person Louis was said to possess a great natural dignity and bearing. He was unfailingly courteous and usually honest, but he could dissimulate with the best of them when need-be.[PARAGRAPH:2]During his early reign Louis's court was known for its debauchery, and Louis himself had several mistresses. As his reign progressed, however, Louis became more devout, and he even married his last mistress (although in secret). Louis also became a patron of the arts, and literature and painting flourished under his rule. He built many great buildings and palaces, including the grand palace at Versailles.[PARAGRAPH:2]Despite France's wealth, the country remained virtually bankrupt, not only because it had to pay for all the gifts that Louis gave his favorites, but, more importantly, it had to pay for all the wars of conquest that Louis embarked upon. Although a sound and thoughtful ruler at home, Louis had a great thirst for international "glory" - which in his terms meant victory on the battlefield. He constantly fought his neighbors, often for the most trivial reasons, gaining little but glory from the wars. Though he left the army and navy in splendid condition, he left his country's treasury bare.[PARAGRAPH:2]After a reign of 72 years, Louis died of gangrene at Versailles on 1 September 1715, four days before his 77th birthday. His body lies in Saint-Denis Basilica, outside Paris. Louis XIV is the longest reigning European monarch of all time.</Chinese>
+    <Chinese>[H1]路易十四[\H1][NEWLINE][BOLD]法兰西国王[\BOLD][NEWLINE][BOLD]生活于1638年9月5日至公元1715年9月1日[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB TAB]出生于法国国王路易十三，路易十四在欧洲最奢华的宫廷中长大。他的每一个需要都得到了满足，他受到了良好的教育，即使他太懒了，被宠坏了，不懂得欣赏。路易十三在儿子五岁时去世，摄政权移交给了王母，奥地利的安妮。在接下来的18年里，她在红衣主教马扎林的干练帮助下统治法国，马扎林可能是她的情人，也可能不是她的情人，而路易则过着娇生惯养的生活。[PARAGRAPH:2]1661年马扎林去世后，22岁的路易十四开始对统治他的国家产生积极的兴趣。令大家大吃一惊的是，他很在行。首先，他将所有权力集中到自己手中，绕过了马扎林及其前任所使用的旧官僚庇护制度。他诱使伟大的贵族来到他的宫廷，在那里他给他们授予头衔、荣誉职位和经济奖励，同时破坏他们的实际权力。在路易的宫廷里，伟大的贵族——他们的父母曾为法兰西的王冠而战——为了观看路易刮胡子的特权而相互争斗。[PARAGRAPH:2]据说路易本人拥有伟大的天生尊严和风度。他总是彬彬有礼，而且通常很诚实，但在需要的时候，他可以和他们中最好的人进行伪装。[PARAGRAPH:2]在他早期统治期间，路易的宫廷以放荡而闻名，路易本人也有好几个情妇。然而，随着他的统治的发展，路易斯变得更加虔诚，他甚至娶了他最后的情妇（尽管是秘密的）。路易也成为了艺术的赞助人，在他的统治下，文学和绘画蓬勃发展。他建造了许多伟大的建筑和宫殿，包括凡尔赛宫的宏伟宫殿。[PARAGRAPH:2]尽管法国很富有，但这个国家实际上仍然处于破产状态，这不仅是因为它必须支付路易送给他最喜欢的礼物的费用，更重要的是，它必须支付路易发动的所有征服战争的费用。尽管路易在国内是一位稳健而深思熟虑的统治者，但他对国际“荣誉”有着强烈的渴望——用他的话来说，这意味着战场上的胜利。他经常与邻居们打仗，往往是为了最微不足道的原因，从战争中除了获得荣誉外，几乎没有什么收获。尽管路易在陆军和海军服役时状态良好，但他的国库却空空如也。[PARAGRAPH:2]在统治72年后，路易于1715年9月1日死于凡尔赛，也就是他77岁生日的四天前。他的尸体躺在巴黎郊外的圣丹尼斯大教堂里。路易十四是有史以来在位时间最长的欧洲君主。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_ELIZABETH</Tag>
@@ -70,7 +70,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>伊丽莎白</Chinese>
+    <Chinese>英格兰-伊丽莎白</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_ELIZABETH_PEDIA</Tag>
@@ -79,7 +79,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>[H1]Elizabeth[\H1][NEWLINE][BOLD]Virgin Queen of England[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] September 7, 1533 - March 24, 1603 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Born to King Henry VIII and Anne Boleyn, who her father had executed for failing to give him a male heir, Elizabeth's early life was filled with danger. Growing up an unwanted daughter of a insane father who was destroying England's ties to the Catholic Church and engaging in civil war so that he could legally marry another woman (several other women, in fact), Elizabeth had to use all of her wits to survive. [PARAGRAPH:2]Elizabeth received an excellent education at the hands of various tutors, including the great scholars of the day. She was an outstanding student, and could speak five languages fluently. [PARAGRAPH:2]When King Henry VIII died, the throne passed to his young son, Edward. At fifteen Elizabeth was implicated in a plot to overthrow him. She came close to being executed, surviving only because she was able to convince her skeptical interrogators that she knew nothing of the plot. [PARAGRAPH:2]When King Edward died in 1553, Elizabeth's older sister, Mary, assumed the throne. An ardent Catholic, Mary was quite unpopular with a number of Protestant noblemen, who attempted unsuccessfully to overthrow her in 1554. Once again Elizabeth was implicated, but once again she talked her way out of execution. [PARAGRAPH:2]Queen Mary died in 1558, and Elizabeth became Queen. Elizabeth was an extraordinary ruler. She established the Protestant Church as the official Church of England. However, she attempted to stem the persecution of Catholics in the country - at least as much as was possible when the Catholic nobility were actively plotting her demise. She restored the debased currency of England, and she made England a center of culture, where great artists like William Shakespeare flourished. [PARAGRAPH:2]Elizabeth used all of the tools available to her to achieve her goals. She received countless offers of marriage from nobility and indeed from kings across Europe. But she accepted none of them, instead using her unmarried state to control her friends and foes alike; if one faction got too strong, she could drive them back into line by suggesting that she was considering marrying someone from an opposing faction. [PARAGRAPH:2]Militarily, Catholic Spain was England's greatest threat. Spain was the great continental power of the day, and its leader, King Philip, had upon more than one occasion expressed the intent of invading England. In 1588 he tried, building a huge armada to conquer the upstart nation. Elizabeth quickly organized the country's navy to fend off the fleet, and by a combination of superior tactics, ship design, and some foul weather at just the right moment, they defeated the Spanish foe. England was not to be seriously threatened with invasion for about 400 years. [PARAGRAPH:2]Elizabeth died in 1603, having left her country in far better state. No better words can serve to describe her than her own: "I know I have the body of a weak and feeble woman, but I have the heart and stomach of a king."</Chinese>
+    <Chinese>[H1]伊丽莎白[\H1][NEWLINE][BOLD]英国处女女王[\BOLD][NEWLINE][BOLD]生活于1533年9月7日至公元1603年3月24日[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB TAB]出生于国王亨利八世和安妮·博林，她的父亲因未能给他男性继承人而被处决，伊丽莎白的早期生活充满了危险。伊丽莎白是一位精神错乱的父亲的一个不受欢迎的女儿，父亲正在破坏英国与天主教会的联系，并参与内战，以便他可以合法地与另一个女人结婚（事实上，还有其他几个女人），伊丽莎白不得不用她所有的智慧来生存。伊丽莎白受到了各种导师的良好教育，包括当时的伟大学者。她是一名优秀的学生，能流利地说五种语言。国王亨利八世去世时，王位传给了他的小儿子爱德华。十五岁时，伊丽莎白卷入了一场推翻他的阴谋。她差点被处决，幸免于难只是因为她能够说服那些持怀疑态度的审问者，她对这个阴谋一无所知。1553年爱德华国王去世时，伊丽莎白的姐姐玛丽继承了王位。玛丽是一位虔诚的天主教徒，在一些新教贵族中很不受欢迎，他们在1554年试图推翻她，但没有成功。伊丽莎白又一次被牵连，但她又一次以自己的方式逃脱了死刑。玛丽女王于1558年去世，伊丽莎白成为女王。伊丽莎白是一位非凡的统治者。她建立了新教教会作为英格兰的官方教会。然而，她试图阻止该国对天主教徒的迫害——至少在天主教贵族积极策划她的死亡时尽可能多。她恢复了堕落的英格兰货币，使英格兰成为文化中心，威廉·莎士比亚等伟大艺术家在这里繁荣昌盛。[PARAGRAPH:2]Elizabeth使用了所有可用的工具来实现她的目标。她收到了无数贵族甚至全欧洲国王的求婚。但她一个也不接受，而是利用未婚状态来控制她的朋友和敌人；如果一个派系变得过于强大，她可以通过暗示她正在考虑与另一个反对派系的人结婚来让他们重新站到一起。在军事上，天主教西班牙是英国最大的威胁。西班牙是当时的大陆强国，其领导人菲利普国王不止一次表示要入侵英国。1588年，他试图建立一支庞大的舰队来征服这个新兴国家。伊丽莎白很快组织了该国海军抵挡舰队，并在适当的时候，通过高超的战术、船只设计和恶劣的天气，他们击败了西班牙敌人。在大约400年的时间里，英国并没有受到入侵的严重威胁。伊丽莎白于1603年去世，她离开了祖国，生活得更好。没有比她自己的话更好的形容她了：“我知道我有一个软弱的女人的身体，但我有一个国王的心和胃。”</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_FREDERICK</Tag>
@@ -88,7 +88,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>腓特烈</Chinese>
+    <Chinese>德意志-腓特烈</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_FREDERICK_PEDIA</Tag>
@@ -97,7 +97,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>[H1]Frederick[\H1][NEWLINE][BOLD]King of Prussia[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] January 24, 1712 - August 17, 1786 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Frederick was born to Frederick William I, the tyrannical and cultured King of Prussia. The king held his son in great contempt, despising him for his lack of interest in leadership and war; the younger Frederick instead preferred to study literature and the arts. At the age of 18 Frederick attempted to flee to England, but he was captured and brought back to his extremely angry father, who forced him to watch the beheading of his close friend and accomplice, Lieutenant Katz. He apparently was able to get back into his father's good graces, and several years later he married a German noblewoman at his father's request. [PARAGRAPH:2]For the next several years Frederick enjoyed the life of a wealthy man of letters. He maintained an active correspondence with various scholars from around Europe, including the brilliant French writer; Voltaire. He wrote "Anti-Machiavel," a lively refutation of Machiavelli's; "The Prince." Frederick assumed the throne of Prussia upon his father's death in 1740. [PARAGRAPH:2]Once in power, Frederick showed himself to be both a ruthless pragmatist and a brilliant campaigner. Seeking to increase the size of his empire, over the next 23 years he fought a series of wars against his neighbors, notably Austria, who was often allied with Russia and France. With the support of England he won a series of significant battles against his foes, but he was eventually worn down and soundly defeated, and Berlin was occupied by an allied Austrian-Russian army. [PARAGRAPH:2]Reportedly on the verge of suicide, Frederick was saved by the timely death of the Russian Tsarina, who was replaced by the pro-Prussian Peter III. Facing the combined power of Russia and Prussia, Austria was forced to accede to Frederick's demands and give up all claims to Upper and Lower Silesia. The two European monarchs then dismembered Poland, making Prussia the most powerful force in Europe for many years to come. [PARAGRAPH:2]Domestically, Frederick was the model of an "enlightened despot." He instituted important legal and penal reforms, created new industries, improved education, and accomplished internal improvements such as drainage projects, roads, and canals. He improved the lot of his own serfs (but did nothing to curtail the nobility's power over them). [PARAGRAPH:2]During his rule Frederick maintained his friendship with the enlightened men of Europe. His midnight soirees in Potsdam were famous for the great men they attracted. Frederick was quite famous for his sharp wit and caustic tongue; he more than held his own in their company. [PARAGRAPH:2]Frederick died in 1786, leaving Prussia more powerful and prosperous than when he first gained power. Upon his death, Frederick's nephew Frederick William II inherited the throne of Prussia.</Chinese>
+    <Chinese>腓特烈[\H1][NEWLINE][BOLD]普鲁士国王[\BOLD][NEWLINE][BOLD]生活于公元1712年1月24日[\BOLD]至1786年8月17日[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB Frederick出生于普鲁士专制而有教养的国王腓特烈·威廉一世。国王非常鄙视他的儿子，因为他对领导和战争缺乏兴趣而鄙视他；相反，年轻的弗雷德里克更喜欢学习文学和艺术。18岁时，弗雷德里克试图逃往英国，但他被抓获并带回极度愤怒的父亲身边，父亲强迫他观看好友和同谋卡茨中尉被斩首的过程。他显然能够重新得到父亲的宠爱，几年后，他应父亲的要求与一位德国贵族女子结婚。在接下来的几年里，弗雷德里克过着富有的文人生活。他与来自欧洲各地的学者保持着积极的通信，包括这位杰出的法国作家；伏尔泰。他写了《反马基雅维利》，生动地驳斥了马基雅维利的观点；“王子。”弗雷德里克于1740年父亲去世后继承普鲁士王位。[PARAGRAPH:2]弗雷德里克上台后，他显示出自己既是一位无情的实用主义者，也是一位杰出的活动家。为了扩大帝国规模，在接下来的23年里，他与邻国进行了一系列战争，尤其是奥地利，后者经常与俄罗斯和法国结盟。在英国的支持下，他赢得了一系列与敌人的重要战役，但他最终被击败，柏林被盟军奥地利-俄罗斯军队占领。[PARAGRAPH:2]据报道，在自杀的边缘，俄罗斯沙利纳的及时死亡拯救了弗雷德里克，沙利纳被亲普鲁士的彼得三世取代。面对俄罗斯和普鲁士的联合力量，奥地利被迫同意弗雷德里克的要求，放弃对上西里西亚和下西里西亚的所有要求。两位欧洲君主随后肢解了波兰，使普鲁士成为未来多年欧洲最强大的力量。[PARAGRAPH:2]在国内，弗雷德里克是“开明暴君”的典范。他实施了重要的法律和刑罚改革，创造了新的产业，改善了教育，并完成了内部改善，如排水工程、道路和运河。他改善了自己农奴的命运（但没有削减贵族对农奴的权力）。弗雷德里克在统治期间与欧洲的开明人士保持着友谊。他在波茨坦的午夜晚会以吸引伟人而闻名。弗雷德里克以他敏锐的机智和刻薄的言辞而闻名；在他们的公司里，他不仅仅是一个人。弗雷德里克于1786年去世，使普鲁士比他第一次掌权时更加强大和繁荣。弗雷德里克的侄子弗雷德里克·威廉二世去世后继承了普鲁士王位。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_PETER</Tag>
@@ -106,11 +106,11 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>彼得</Chinese>
+    <Chinese>莫斯科-彼得</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_PETER_PEDIA</Tag>
-    <English>[H1]Peter the Great[\H1][NEWLINE][BOLD]Emperor of Russia[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] June 9, 1672 - February 8, 1725 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Peter was born the fourth son of the Tsar Alexey I. After the death of his father and older brother, at the age of 10 he became co-tsar with his sickly half-brother, Ivan, under the regency of their sister Sophia Alexeevna. Apparently Peter was quite the terror in his teens. He had utter contempt for religious and political ceremony, combined with almost limitless energy and a capacity for alcohol. At 17 he had the regent (his elder sister) arrested on charges of conspiring against him and had her locked in a convent, where she would stay for the rest of her life. He took total control of the empire, his brother Ivan no more than a figurehead. [PARAGRAPH:2]In addition to drinking, carousing, and political intrigue, young Peter was also fascinated by military affairs. In 1695, he ordered the army to move against the Turks. Astonishingly, he didn't command his forces in the field, instead choosing to act as an lowly artilleryman. The Russian forces emerged victorious and within a year had captured the vital port of Azov. [PARAGRAPH:2]Several years later, Peter set off on a tour of Europe. He spent 16 months traveling incognito through Germany, Holland, England and Austria, at one time working as a shipwright in England and Holland. Peter learned a lot during his trip, and he later hired many western craftsmen, engineers, soldiers, sailors, architects and artists to help modernize Russia. Once home, Peter adopted many European customs, including a mandate that beards were to be shaved off at court, which was a great controversy that nearly caused a revolt with the Boyars. [PARAGRAPH:2]Despite his love of European culture, Peter remained a drunken, overbearing bully, whose practical jokes stopped just short of outright torture. (Or perhaps went a little over the line.) Foreign observers noted with horror that at a state dinner Peter had one of his cronies hold another tight, pinning his arms and forcing his mouth open. The victim was known to hate salads and especially vinegar; Peter jammed salad into his mouth and down his throat and then poured vinegar up his nose until it bled. [PARAGRAPH:2]Peter liked to force his guests - including foreign diplomats - to drink until they passed out, then wake them up an hour later and force them to drink more. He once woke a group of extremely inebriated men up in the middle of the night, gave them axes and demanded that they help him cut down trees to make a path to the seashore. [PARAGRAPH:2]In 1700 Russia went to war against Sweden. But, Gustavus Aldolphus, the Swedish King, proved more cunning to him, striking Peter's army before it was prepared, capturing much of the Russian artillery in the process. In response Peter demanded that all of the bells in Moscow (including church bells) be melted down to make cannons. He also confiscated church treasure to fuel the war effort. The war dragged on, but in 1709 the Swedish forces were decisively defeated, and Russia gained parts of Finland, Estonia, and Latvia. [PARAGRAPH:2]Peter's home life did not go particularly well. In 1698 his wife was implicated in a plot to overthrow him; he divorced her and sent her off to yet another convent. In 1712 he married his mistress, Martha Skavronsky, a former Lithuanian servant and previously the mistress of a bevey of other Russian nobles. She gave him four children. In 1718 the tsar's oldest son Alexey was imprisoned for suspected treason and died under torture. [PARAGRAPH:2]Upon his death Peter was buried in Saint Petersburg, the vital port and Russian capital, which he established in 1703, in the Peter and Paul Cathedral. Presumably under the heaviest rock they could find.</English>
+    <English>[H1]彼得大帝[\H1][NEWLINE][BOLD]俄罗斯皇帝[\BOLD][NEWLINE][BOLD]生于1672年6月9日至公元1725年2月8日[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB Peter出生于沙皇亚历克赛一世的第四个儿子。在他父亲和哥哥去世后，10岁时，他与病重的同父异母兄弟伊万在姐妹索菲亚·阿列克谢夫娜（Sophia Alexeevna）的摄政下共同成为沙皇。显然彼得在他十几岁的时候是个恐怖分子。他完全蔑视宗教和政治仪式，加上几乎无限的精力和酗酒的能力。17岁时，他以密谋反对他的罪名逮捕了摄政王（他的姐姐），并将她锁在修道院，她将在那里度过余生。他完全控制了帝国，他的兄弟伊万不过是个傀儡。除了喝酒、狂欢和政治阴谋，年轻的彼得还对军事事务着迷。1695年，他命令军队进攻土耳其人。令人惊讶的是，他没有在战场上指挥他的部队，而是选择了一个卑微的炮兵。俄罗斯军队取得了胜利，不到一年就占领了重要的亚速尔港。几年后，彼得开始了欧洲之旅。他花了16个月的时间隐姓埋名地穿越德国、荷兰、英国和奥地利，曾在英国和荷兰做过造船工。彼得在旅行中学到了很多东西，后来他雇佣了许多西方工匠、工程师、士兵、水手、建筑师和艺术家帮助俄罗斯实现现代化。回到家后，彼得采纳了许多欧洲习俗，包括在法庭上剃胡子的规定，这是一场巨大的争议，几乎引起了博雅人的反抗。[PARAGRAPH:2]尽管彼得热爱欧洲文化，但他仍然是一个酗酒、专横的恶霸，他的恶作剧几乎完全停止了折磨。外国观察家惊恐地注意到，在一次国宴上，彼得让他的一个密友紧紧地抱着另一个密友，抱住他的胳膊，强迫他张开嘴。受害者痛恨沙拉，尤其是醋；彼得把沙拉塞进嘴里，塞进喉咙，然后往鼻子里倒醋，直到流了血。彼得喜欢强迫他的客人——包括外国外交官——喝酒直到昏倒，然后在一小时后叫醒他们，强迫他们多喝水。他曾在午夜唤醒一群醉酒的人，给他们斧头，要求他们帮助他砍伐树木，走到海边的路。1700年，俄国与瑞典开战。但事实证明，瑞典国王古斯塔夫斯·阿尔多尔福斯（Gustavus Aldolphus）更加狡猾，在彼得的军队准备就绪之前就袭击了它，并在这一过程中俘获了大部分俄罗斯大炮。作为回应，彼得要求莫斯科所有的钟声（包括教堂的钟声）都被熔化以制造大炮。他还没收了教堂的财宝，为战争加油。战争持续了很久，但在1709年，瑞典军队被决定性地击败，俄罗斯获得了芬兰、爱沙尼亚和拉脱维亚的部分领土。彼得的家庭生活并不特别顺利。1698年，他的妻子卷入了推翻他的阴谋；他和她离婚，把她送到另一所修道院。1712年，他与他的情妇玛莎·斯卡夫朗斯基结婚，玛莎是前立陶宛仆人，曾是其他俄罗斯贵族的情妇。她给了他四个孩子。1718年，沙皇的长子阿列克谢因涉嫌叛国而被监禁，并在酷刑下死亡。彼得死后被埋葬在圣彼得堡，这是他于1703年在彼得和保罗大教堂建立的重要港口和俄罗斯首都。大概是在他们能找到的最重的岩石下面。</English>
     <L1/>
     <L2/>
     <L3/>
@@ -128,7 +128,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>凯瑟琳</Chinese>
+    <Chinese>莫斯科-凯瑟琳</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_CATHERINE_PEDIA</Tag>
@@ -137,7 +137,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>[H1]Catherine the Great[\H1][NEWLINE][BOLD]Tsarina of Russia[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] May 2, 1729 - November 17, 1796 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Catherine was born in Szczecin in 1729, a princess of Pomerania, a small kingdom in Prussia. At 16 she was married to Carl Peter Ulrich, the heir to the Russian throne. Catherine quickly learned Russian and joined the Russian Orthodox Church. Largely self-educated, Catherine immersed herself in the literature of the time. Endowed with both beauty and intelligence, she became strong friends (if not more) with the great thinkers of the day, including the brilliant French philosophers Rousseau and Diderot.[PARAGRAPH:2]Catherine did not lack political ambition, however. At the age of 33, with the support of the Imperial guard, she overthrew her husband, the Emperor Peter III, who was soon killed "in a hunting accident," leaving Catherine the sole ruler of Russia. As Empress, Catherine pursued an expansionist policy, fighting two successful wars against the Ottoman Empire and acquiring vast territory in southern Ukraine and the Crimea. She undertook a wide range of political reforms, attempting to shape up the notoriously corrupt and incompetent Russian bureaucracy. She curried favor with the aristocracy, expanding their already-great power over the Russian peasants.[PARAGRAPH:2]A patron of the arts, Catherine commissioned many statues and paintings. Under her rule St. Petersburg was transformed from a primitive and forbidding city into one of the most beautiful and impressive European capitals.[PARAGRAPH:2]Despite her many public successes, Catherine is best known for her private excesses. Her affairs are legendary; it has been suggested that she slept with a fairly large fraction of the Russian officers corps, not to mention her many well-publicized dalliances with a horde of well-known European politicians and artists.[NEWLINE]Catherine died at the age of 67, having lived longer than any other Romanov monarch. </Chinese>
+     <Chinese>[H1]凯瑟琳大帝[\H1][NEWLINE][BOLD]Tsarina of Russia[\BOLD][NEWLINE][BOLD]生活于公元1729年5月2日至1796年11月17日[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB]Catherine 1729年出生于斯切钦，是普鲁士小王国波美拉尼亚的公主。16岁时，她嫁给了俄罗斯王位继承人卡尔·彼得·乌尔里希。凯瑟琳很快就学会了俄语，并加入了俄罗斯东正教。凯瑟琳基本上是自学成才的，她沉浸在当时的文学中。她既美丽又聪明，与当时的伟大思想家，包括才华横溢的法国哲学家卢梭和狄德罗，成为了坚定的朋友（如果不是更多的话）。33岁时，在皇家卫队的支持下，她推翻了丈夫彼得三世，后者很快在“一次狩猎事故”中丧生，凯瑟琳成为俄罗斯的唯一统治者。作为女皇，凯瑟琳奉行扩张主义政策，与奥斯曼帝国进行了两场成功的战争，并在乌克兰南部和克里米亚获得了大片领土。她进行了广泛的政治改革，试图塑造出臭名昭著的腐败无能的俄罗斯官僚机构。她讨好贵族，扩大了他们对俄罗斯农民已经强大的权力。[PARAGRAPH:2]作为艺术的赞助人，凯瑟琳委托制作了许多雕像和绘画。在她的统治下，圣彼得堡从一个原始、令人生畏的城市变成了欧洲最美丽、最令人印象深刻的首都之一。[PARAGRAPH:2]尽管凯瑟琳在公众面前取得了许多成功，但她最为人所知的是她个人的放纵。她的风流韵事是传奇的；有人认为，她与俄罗斯军官团中相当大的一部分人发生了性关系，更不用说她与一大群欧洲著名政治家和艺术家的许多公开调情了。[NEWLINE]凯瑟琳去世时67岁，比任何其他罗曼诺夫君主都活得长。 </Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_ISABELLA</Tag>
@@ -150,7 +150,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>伊莎贝拉</Chinese>
+    <Chinese>西班牙-伊莎贝拉</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_ISABELLA_PEDIA</Tag>
@@ -159,7 +159,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>[H1]Isabella [\H1][NEWLINE][BOLD]Queen of Spain[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] April 22, 1451 - November 26, 1504 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Isabella was the daughter of King John II of Castile. At the time of her birth, Spain was divided into a number of smaller kingdoms, with Castile, Portugal and Aragon being three of the largest. The southern part of the country was under Arab rule, the "Moors" having conquered much of Spain in the 8th Century. For Christian Spain, there were two major objectives: unite the country and drive out the Moors. Isabella accomplished both. [PARAGRAPH:2]After her father's death, Castile was ruled by Isabella's older brother, King Henry IV. At eighteen, and against her brother's express wishes, Isabella married Prince Ferdinand, heir to the throne of Aragon. Henry was furious at her - he had wanted her to marry the King of Portugal - but eventually he forgave her and made Isabella his heir. Upon his death in 1474, Isabella became Queen of Castile, and, after a brief war, made an alliance with Portugal, thus uniting much of Spain. [PARAGRAPH:2]Isabella and Ferdinand worked surprisingly well together. They co-ruled their two kingdoms equally (according to many historians, Isabella was the better ruler of the two). [PARAGRAPH:2]Once they were enthroned, the couple set about weakening the Spanish nobility, which Isabella believed had become overly powerful. They created a special military force known as the "Holy Brotherhood" for the express purpose of protecting people and property from attacks by the nobility. They also redistributed some of the nobles' lands and destroyed several of their castles. In other internal matters, Isabella and Ferdinand reorganized the courts and the justice system, and they more closely regulated the country's coinage. [PARAGRAPH:2]Some of Isabella and Ferdinand's other programs were less appealing. The two rulers were Catholic zealots and they had a rabid hatred for non-Catholics, and especially for Jews. In 1478 they petitioned the Pope to establish the Spanish Inquisition. Under Chief Inquisitor Torquemada, the Inquisition tortured and murdered thousands across Spain, driving the heretics out of the country or underground, or forcing them to convert to Catholicism. [PARAGRAPH:2]Interestingly, when they conquered Granada, the last Muslim stronghold in Spain, Isabella and Ferdinand treated those Muslims quite well, allowing them to freely practice their religion in Spain. The Jews of Granada, however, were treated as barbarously as their cousins in other parts of Spain. [PARAGRAPH:2]Perhaps Isabella's most famous act as monarch was her decision to fund Columbus's voyages of exploration. Christopher Columbus was an Italian navigator who was looking for a western route to India; after getting Isabella's backing, he set out to cross the Atlantic to find Asia. Instead, Columbus discovered America. [PARAGRAPH:2]As a ruler, her record is mixed. She did unite her country along with the help of her husband, Ferdinand. She did drive out foreign powers who had occupied Spain for 700 years. She did bring peace and stability to Spain. She did fund exploration which would bring vast new territory and vast wealth to her kingdom. On the other hand, she did launch a terrible campaign of torture and murder against the most vulnerable population in her lands. To her Christian subjects, then, Isabella probably was the best thing that had ever come their way. However her Jewish subjects probably had a somewhat less positive opinion of Her Majesty. Isabella died in 1504, leaving the kingdom to her daughter.</Chinese>
+    <Chinese>[H1]伊莎贝拉[\H1][NEWLINE][BOLD]西班牙女王[\BOLD][NEWLINE][BOLD]生活于公元1451年4月22日至1504年11月26日[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB Isabella是卡斯蒂利亚国王约翰二世的女儿。在她出生时，西班牙被划分为许多较小的王国，其中卡斯蒂利亚、葡萄牙和阿拉贡是最大的三个王国。该国南部在阿拉伯人的统治下，“摩尔人”在8世纪征服了西班牙的大部分地区。对于信奉基督教的西班牙来说，有两个主要目标：统一国家和驱逐摩尔人。伊莎贝拉做到了这两件事。父亲去世后，卡斯蒂利亚由伊莎贝拉的哥哥亨利四世国王统治。十八岁时，伊莎贝拉违背哥哥的明确意愿，嫁给了阿拉贡王位继承人费迪南德王子。亨利对她大发雷霆——他想让她嫁给葡萄牙国王——但最终他原谅了她，并让伊莎贝拉成为他的继承人。1474年伊莎贝拉去世后，成为卡斯蒂利亚女王，并在短暂战争后与葡萄牙结盟，从而统一了西班牙大部分地区。伊莎贝拉和费迪南德合作得出奇地好。他们平等地共同统治着两个王国（根据许多历史学家的说法，伊莎贝拉是两个王国中更好的统治者）。[PARAGRAPH:2]他们登基后，这对夫妇开始削弱西班牙贵族阶层，伊莎贝拉认为西班牙贵族阶层已经变得过于强大。他们建立了一支被称为“神圣兄弟会”的特殊军事力量，以保护人民和财产免受贵族的袭击。他们还重新分配了一些贵族的土地，摧毁了他们的一些城堡。在其他内部事务方面，伊莎贝拉和费迪南德重组了法院和司法系统，并对国家的铸币进行了更严格的监管。[PARAGRAPH:2]伊莎贝拉和费迪南德的一些其他节目没有那么吸引人。这两位统治者都是天主教狂热分子，他们对非天主教徒，尤其是犹太人有着强烈的仇恨。1478年，他们请求教皇建立西班牙宗教裁判所。在首席宗教裁判官托尔马达的领导下，宗教裁判所在西班牙各地折磨和谋杀了数千人，将异教徒驱逐出境或转入地下，或迫使他们皈依天主教。[PARAGRAPH:2]有趣的是，当他们征服西班牙最后一个穆斯林据点格拉纳达时，伊莎贝拉和费迪南德对这些穆斯林非常好，允许他们在西班牙自由地实践自己的宗教。然而，格拉纳达的犹太人和他们在西班牙其他地区的表亲一样受到野蛮对待。也许伊莎贝拉作为君主最著名的行为是她决定资助哥伦布的探险之旅。克里斯托弗·哥伦布（Christopher Columbus）是一位意大利航海家，他正在寻找通往印度的西方航线；在得到伊莎贝拉的支持后，他开始穿越大西洋寻找亚洲。相反，哥伦布发现了美洲。作为统治者，她的记录好坏参半。在丈夫费迪南德的帮助下，她确实团结了她的国家。她确实驱逐了占领西班牙700年的外国势力。她确实给西班牙带来了和平与稳定。她确实资助了探险，这将为她的王国带来广阔的新领土和巨大的财富。另一方面，她确实发起了一场可怕的酷刑和谋杀运动，针对她国土上最脆弱的人口。对她的基督徒来说，伊莎贝拉可能是他们所遇到的最好的事情。然而，她的犹太臣民可能对女王陛下的评价不那么积极。伊莎贝拉于1504年去世，把王国留给了她的女儿。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_JOAO</Tag>
@@ -168,7 +168,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>若昂二世</Chinese>
+    <Chinese>葡萄牙-若昂二世</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_JOAO_PEDIA</Tag>
@@ -177,7 +177,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>[H1]Joao II[\H1][NEWLINE][BOLD]King of Portugal[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] March 3, 1455 - October 25, 1495 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]King Joao II of Portugal was a statesman that supported the exploration and exploitation of the undiscovered world. Arguably the first nation to discover America, under Joao's reign Portugal made several other important discoveries while also advancing the field of nautical navigation.[PARAGRAPH:2]"I am the lord of lords, not the server of servants." These words, originally a castigation of rebellious nobles by Joao, would come to define the Portuguese king's reign. Joao's dislike of court intrigue and the inability for political opinion to influence his decisions made him an unpopular king amongst his peers. The King's early rule was defined by his efforts to curtail, and eventually crush, all internal corruption and opposition to his rule. After having intercepted conspiratorial letters between the Duke of Braganza and Queen Isabella I of Castile in 1483, Joao had the Duke executed, his family banished from Portugal, and his lands and wealth confiscated. [PARAGRAPH:2]Joao II's policies focused primarily on the exploration and exploitation of maritime trade routes, particularly with India. The full extent of Portugal's explorations and discoveries remain largely unknown due to the government's secrecy, born of a fierce competition with its neighbor Castile. It is, however, argued that Portugal had already reached North America and Brazil by 1470 and 1480, respectively. This places their discovery of North America in advance of Christopher Columbus's voyage.[PARAGRAPH:2]Portugal, under the reign of Joao, was also credited with the 1484 discovery of the Congo River, the 1488 rounding of the Cape of Good Hope (Africa's southern tip), and the 1493 settlement of the S鉶 Tom?and Pr韓cipe Islands.[PARAGRAPH:2]Disputes over rights of exploration between Castile and Aragon and Portugal would eventually lead to the Treaty of Tordesillas (1494) which split the world in half. Portugal would be responsible for exploring the Eastern hemisphere while Aragon and Castile would have the Western hemisphere.[PARAGRAPH:2]Towards the end of his reign, Joao's only legitimate heir, Alfonso, died under mysterious circumstances. This prevented Portugal from inheriting ownership of Castile and Aragon through Alfonso's marriage to Isabella of Aragon - Isabella I of Castile and Ferdinand II of Aragon's eldest daughter. Joao II died without male heir in 1495, possibly poisoned by the vengeful Portuguese nobility and was succeeded by his first cousin, Manuel I.</Chinese>
+    <Chinese>[H1]若昂二世[\H1][NEWLINE][BOLD]葡萄牙国王[\BOLD][NEWLINE][BOLD]生活于公元1455年3月3日至1495年10月25日[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB TAB]葡萄牙国王若昂二世是一位支持探索和开发未发现世界的政治家。可以说是第一个发现美洲的国家，在若昂的统治下，葡萄牙在推进航海领域的同时，也取得了其他几项重要发现。[PARAGRAPH:2]“我是上议院的领主，而不是仆人的侍者。”这句话最初是若昂对反叛贵族的鞭挞，来定义葡萄牙国王的统治。乔不喜欢宫廷阴谋，政治观点无法影响他的决定，这使他在同僚中成为不受欢迎的国王。国王早期统治的定义是他努力遏制并最终粉碎所有内部腐败和对其统治的反对。1483年，在截获布拉甘扎公爵和卡斯蒂利亚女王伊莎贝拉一世之间的密谋信件后，若昂处决了布拉甘扎公爵，将其家人驱逐出葡萄牙，并没收了他的土地和财富。[PARAGRAPH:2]若昂二世的政策主要侧重于探索和开发海上贸易路线，特别是与印度的贸易路线。由于葡萄牙政府的保密性，葡萄牙的勘探和发现的全部范围在很大程度上仍然是未知的，这是与邻国卡斯蒂利亚激烈竞争的结果。然而，有人认为葡萄牙分别在1470年和1480年到达了北美和巴西。这使得他们在克里斯托弗·哥伦布航行之前发现了北美洲。[PARAGRAPH:2]若昂统治下的葡萄牙，也因1484年发现刚果河、1488年环绕好望角（非洲的南端）以及1493年的塞族人定居而受到赞誉鉶 汤姆？还有公关韓西普群岛。[PARAGRAPH:2]卡斯蒂利亚和阿拉贡以及葡萄牙之间关于勘探权的争端最终将导致《托德西拉斯条约》（1494年），该条约将世界一分为二。葡萄牙将负责探索东半球，而阿拉贡和卡斯蒂尔将负责西半球。[PARAGRAPH:2]在若昂统治末期，若昂的唯一合法继承人阿方索在神秘的情况下去世。这使得葡萄牙无法通过阿方索与阿拉贡的伊莎贝拉（Castile的伊莎贝拉一世和Aragon的长女费迪南德二世）的婚姻继承Castile和Aragon的所有权。1495年，若昂二世在没有男性继承人的情况下去世，可能是被复仇心很强的葡萄牙贵族毒死的，他的堂兄曼努埃尔一世继承了他的王位。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_WILLEM_VAN_ORANJE</Tag>
@@ -186,7 +186,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>威廉·奥兰治</Chinese>
+    <Chinese>尼德兰-威廉·奥兰治</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_WILLEM_VAN_ORANJE_PEDIA</Tag>
@@ -204,7 +204,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>萨拉丁</Chinese>
+    <Chinese>阿拉伯-萨拉丁</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_SALADIN_PEDIA</Tag>
@@ -222,7 +222,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>穆罕默德二世</Chinese>
+    <Chinese>奥斯曼-穆罕默德二世</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_MEHMED_PEDIA</Tag>
@@ -240,7 +240,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>苏莱曼</Chinese>
+    <Chinese>奥斯曼-苏莱曼</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_SULEIMAN_PEDIA</Tag>
@@ -262,7 +262,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>玛丽亚·特蕾西亚</Chinese>
+    <Chinese>奥地利-玛丽亚·特蕾西亚</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_MARIA_THERESA_PEDIA</Tag>
@@ -280,7 +280,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>菲利普二世</Chinese>
+    <Chinese>勃艮第-菲利普二世</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_PHILIP_THE_BOLD_PEDIA</Tag>
@@ -298,7 +298,7 @@
     <L2/>
     <L3/>
     <L4/>
-    <Chinese>圣女贞德</Chinese>
+    <Chinese>法兰西-圣女贞德</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_JOAN_PEDIA</Tag>
@@ -316,7 +316,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>阿布·伯克尔</Chinese>
+     <Chinese>阿拉伯-阿布·伯克尔</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_LEADER_ABU_BAKR_PEDIA</Tag>

@@ -19,6 +19,11 @@ void CyGlobalContextPythonInterface1(python::class_<CyGlobalContext>& x)
 	OutputDebugString("Python Extension Module - CyGlobalContextPythonInterface1\n");
 
 	x
+		.def("getAIdealValuetoMoney", &CyGlobalContext::getAIdealValuetoMoney, "int (int ePlayerID, int myPlayerID, int tradetypeID, int tradeitemID) - returns trade value of AI")
+		.def("AI_considerOfferThreshold", &CyGlobalContext::AI_considerOfferThreshold, "int (int ePlayer, int myPlayer) - returns money AI accept to tribute")
+		.def("AI_considerOfferThreshold_Map", &CyGlobalContext::AI_considerOfferThreshold_Map, "int (int ePlayer, int myPlayer) - returns money AI accept to tribute")
+		.def("AI_considerOffer", &CyGlobalContext::AI_considerOffer, "bool() - returns how AI consider the deal")
+		.def("showAIstrategy", &CyGlobalContext::showAIstrategy, "(int iPlayer) - returns AI staretegy")
 		.def("isDebugBuild", &CyGlobalContext::isDebugBuild, "() - returns true if running a debug build")
 		.def("getGame", &CyGlobalContext::getCyGame, python::return_value_policy<python::reference_existing_object>(), "() - CyGame()")
 		.def("getMap", &CyGlobalContext::getCyMap, python::return_value_policy<python::reference_existing_object>(), "() - CyMap()")

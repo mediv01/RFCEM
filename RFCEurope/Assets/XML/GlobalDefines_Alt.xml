@@ -476,63 +476,63 @@
     
       <Define>
         <DefineName>CVPLYER_CAN_ALWAYS_DO_ESPIONAGE_HUMAN</DefineName>        <!-- 1为人类都可以永远查看别的文明的发展情况 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
     <Define>
         <DefineName>CVPLYER_CAN_ALWAYS_DO_ESPIONAGE_AI</DefineName>        <!-- 1为AI可以永远查看别的文明的发展情况 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 
 
     <Define>
         <DefineName>CVPLYER_CAN_DO_ESPIONAGE_POINT_BONUS</DefineName>        <!-- 为大于0为执行谍报任务的谍报加成，可以设置100000000，用于查看其他国家的信息 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1000000000</iDefineIntVal>
     </Define>
 
     <Define>
         <DefineName>CVPLYER_CAN_DO_ESPIONAGE_POINT_BONUS_FOR_AI</DefineName>        <!-- 0为只有人类才享受执行谍报任务加成，用于查看其他国家的信息 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 
 
     <Define>
         <DefineName>CVPLYER_GET_ESPIONAGE_POINT_BONUS</DefineName>        <!-- 大于0为谍报加成，可以设置为10000 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>100000</iDefineIntVal>
     </Define>
 
     <Define>
         <DefineName>CVPLYER_GET_ESPIONAGE_POINT_BONUS_FOR_AI</DefineName>        <!-- 0为只有人类才享受谍报加成 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 	
     <Define>
         <DefineName>CVPLAYERAI_CAN_TRADE_GOLD_UNLIMITED</DefineName>        <!-- 1为AI交易金币无限制，可以交易国库中所有的金币 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 	
 	<Define>
         <DefineName>CVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI</DefineName>        <!-- 大于0的数字为AI交易回合金币倍数 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 	
      <Define>
         <DefineName>CVPLAYERAI_CAN_TRADE_GOLD_TURN_BASE_ON_POPULATION</DefineName>        <!-- 大于0的数字为根据总人口的几分之一设置回合金加成 推荐设置为3 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>3</iDefineIntVal>
     </Define>
 
     <Define>
         <DefineName>CVPLAYER_CAN_ALWAYS_TRADE_CITY</DefineName>        <!-- 大于0的数字为总是可以交易城市（包括首都）  0为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>   
 	
     <Define>
         <DefineName>CVPLAYERAI_CAN_ALWAYS_TRADE_CITY</DefineName>        <!-- 1为AI愿意交易城市 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>	
 	
     <Define>
         <DefineName>CVPLAYERAI_CAN_ALWAYS_TRADE_RESOURCE</DefineName>        <!-- 1为AI愿意交易资源 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>	
 	
     <Define>
@@ -542,7 +542,7 @@
 	
 	    <Define>
         <DefineName>CVTEAMAI_CAN_ALWAYS_TRADE_WAR_WITH_HUMAN</DefineName>        <!-- 1为AI愿意与人类进行战争交易 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 	
 	<Define>

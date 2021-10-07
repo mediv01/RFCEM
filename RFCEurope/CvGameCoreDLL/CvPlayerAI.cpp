@@ -148,12 +148,68 @@ CvPlayerAI::~CvPlayerAI()
 	// Sanguo Mod Performance, end
 }
 
-
-int CvPlayerAI::getAIdealValuetoMoney(int ePlayerID, int myPlayerID, int tradetypeID, int tradeitemID) const {
+int CvPlayerAI::getAIdealValuetoMoneyIgnoreProgress(int ePlayerID, int myPlayerID, int tradetypeID, int tradeitemID,bool IgnoreProgress) const {
 	// 实现人类卖东西给AI的函数
 
 	PlayerTypes ePlayer = (PlayerTypes)ePlayerID;    //Human
 	PlayerTypes myPlayer = (PlayerTypes)myPlayerID;  //AI
+	TradeableItems tradetype = (TradeableItems)tradetypeID;
+	int iValue = 0;
+	int iMoney = 0;
+
+	if (myPlayer >= NUM_MAJOR_PLAYERS) {
+		return 0;
+	}
+
+	if (tradetype == TRADE_TECHNOLOGIES) {
+		TechTypes tradeTech = (TechTypes)tradeitemID;
+
+
+
+		bool cantrade = false;
+
+		//TradeData item;
+		//setTradeItem(&item, TRADE_TECHNOLOGIES, tradeitemID);
+		//cantrade = canTradeItem(ePlayer, item);
+
+		cantrade = GC.AIcantradeTech(myPlayer, ePlayer, tradeTech);
+		cantrade = true;
+		if (cantrade) {
+			iValue = GET_TEAM(GET_PLAYER(myPlayer).getTeam()).AI_techTradeVal_Ignore_Progress((TechTypes)(tradeTech), GET_PLAYER(ePlayer).getTeam(), IgnoreProgress);
+			iMoney = iValue / GET_PLAYER(ePlayer).AI_goldTradeValuePercent() * 100;
+
+		}
+	}
+	/*
+	if (tradetype == TRADE_RESOURCES) {
+		// 不成熟的代码
+		BonusTypes tradeBonus = (BonusTypes)(tradeitemID);
+
+
+		int iChange = -1;
+		iValue = 1000;
+		iValue = GET_PLAYER(myPlayer).AI_bonusTradeVal(tradeBonus, ePlayer, iChange);
+		iMoney = iValue / GET_PLAYER(ePlayer).AI_goldTradeValuePercent(myPlayer) * 100;
+
+		iMoney = iValue;
+
+		CvWString log_CWstring;
+		log_CWstring.Format(L"玩家ID %d ，资源ID： %d  资源价值： %d", (int)ePlayer, tradetypeID, 0);
+		GC.logs(log_CWstring, "TESTBonusTrade.log");
+
+	}
+	*/
+
+
+
+	return iMoney;
+}
+
+int CvPlayerAI::getAIdealValuetoMoney(int ePlayerID, int myPlayerID, int tradetypeID, int tradeitemID) const {
+	// 实现人类卖东西给AI的函数
+
+	PlayerTypes ePlayer = (PlayerTypes)ePlayerID;    // Human
+	PlayerTypes myPlayer = (PlayerTypes)myPlayerID;  // AI
 	TradeableItems tradetype = (TradeableItems)tradetypeID;
 	int iValue = 0;
 	int iMoney = 0;

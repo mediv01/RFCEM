@@ -417,6 +417,7 @@ class RiseAndFall:
 			CyInterface().addMessage(iHuman, True, con.iDuration, CyTranslator().getText("TXT_KEY_FLIP_AGREED", ()), "", 0, "", ColorTypes(con.iGreen), -1, -1, True, True)
 
 			infotext = '在AD' + str(getYear()) + "， 玩家同意翻转 "
+			utils.log_info(infotext, utils.getHumanID())
 			utils.log_riseandfall(infotext, utils.getHumanID())
 
 			if humanCityList:
@@ -464,6 +465,7 @@ class RiseAndFall:
 			print ("Flip disagreed")
 			CyInterface().addMessage(iHuman, True, con.iDuration, CyTranslator().getText("TXT_KEY_FLIP_REFUSED", ()), "", 0, "", ColorTypes(con.iGreen), -1, -1, True, True)
 			infotext = '在AD' + str(getYear()) + "， 玩家拒绝翻转 "
+			utils.log_info(infotext, utils.getHumanID())
 			utils.log_riseandfall(infotext, utils.getHumanID())
 
 			if humanCityList:
@@ -773,13 +775,24 @@ class RiseAndFall:
 			# Reduce Inverness and Scone, so more freedom in where to found cities in Scotland
 			self.reduceCity((37,65))
 			self.reduceCity((37,67))
+			iLoopCiv = con.iScotland
+			infotext = '在AD' + str(getYear()) + "， 文明 " + utils.getCivChineseName(iLoopCiv) + "即将诞生！城市 Inverness 和 Scone 消亡"
+			utils.info(infotext, iLoopCiv)
 		elif iGameTurn == con.tBirth[con.iEngland] -3:
 			# Reduce Norwich and Nottingham, so more freedom in where to found cities in England
 			self.reduceCity((43,55))
 			self.reduceCity((39,56))
+			iLoopCiv = con.iEngland
+			infotext = '在AD' + str(getYear()) + "， 文明 " + utils.getCivChineseName(iLoopCiv) + "即将诞生！城市 Norwich 和 Nottingham 消亡"
+			utils.info(infotext, iLoopCiv)
+			utils.log_riseandfall(infotext, iLoopCiv)
 		elif iGameTurn == con.tBirth[con.iSweden] -2:
 			# Reduce Uppsala
 			self.reduceCity((65,66))
+			iLoopCiv = con.iSweden
+			infotext = '在AD' + str(getYear()) + "， 文明 " + utils.getCivChineseName(iLoopCiv) + "即将诞生！城市 Uppsala 消亡"
+			utils.info(infotext, iLoopCiv)
+			utils.log_riseandfall(infotext, iLoopCiv)
 
 
 	def reduceCity(self, tPlot):
@@ -789,6 +802,7 @@ class RiseAndFall:
 			# Absinthe: apologize from the player:
 			msgString = CyTranslator().getText("TXT_KEY_REDUCE_CITY_1", ()) + " " + pPlot.getPlotCity().getName() + " " + CyTranslator().getText("TXT_KEY_REDUCE_CITY_2", ())
 			CyInterface().addMessage(pPlot.getPlotCity().getOwner(), False, con.iDuration, msgString, "", 0, "", ColorTypes(con.iOrange), tPlot[0], tPlot[1], True, True)
+			# 已经INFO提醒了
 
 			pPlot.eraseCityDevelopment()
 			pPlot.setImprovementType(xml.iImprovementTown) # Improvement Town instead of the city
@@ -1930,6 +1944,9 @@ class RiseAndFall:
 		if iConvertedCitiesCount > 0:
 			if gc.getPlayer(iCiv).isHuman():
 				CyInterface().addMessage(iCiv, True, con.iDuration, CyTranslator().getText("TXT_KEY_FLIP_TO_US", ()), "", 0, "", ColorTypes(con.iGreen), -1, -1, True, True)
+				infotext = CyTranslator().getText("TXT_KEY_FLIP_TO_US", ())
+				utils.log_info(infotext,iCiv)
+				utils.log_riseandfall(infotext, iCiv)
 
 		#print( "converted cities", iConvertedCitiesCount)
 		return (iConvertedCitiesCount, iNumHumanCities)
@@ -2078,8 +2095,15 @@ class RiseAndFall:
 	def unitsBetrayal( self, iNewOwner, iOldOwner, tTopLeft, tBottomRight, tPlot ):
 		#print ("iNewOwner", iNewOwner, "iOldOwner", iOldOwner, "tPlot", tPlot)
 		if gc.getPlayer(self.getOldCivFlip()).isHuman():
+			infotext =CyTranslator().getText("TXT_KEY_FLIP_BETRAYAL", ())
+			utils.log_info(infotext, self.getOldCivFlip())
+			utils.log_riseandfall(infotext, self.getOldCivFlip())
 			CyInterface().addMessage(self.getOldCivFlip(), False, con.iDuration, CyTranslator().getText("TXT_KEY_FLIP_BETRAYAL", ()), "", 0, "", ColorTypes(con.iGreen), -1, -1, True, True)
 		elif gc.getPlayer(self.getNewCivFlip()).isHuman():
+			infotext =CyTranslator().getText("TXT_KEY_FLIP_BETRAYAL_NEW", ())
+			utils.log_info(infotext, self.getNewCivFlip())
+			utils.log_riseandfall(infotext, self.getNewCivFlip())
+
 			CyInterface().addMessage(self.getNewCivFlip(), False, con.iDuration, CyTranslator().getText("TXT_KEY_FLIP_BETRAYAL_NEW", ()), "", 0, "", ColorTypes(con.iGreen), -1, -1, True, True)
 		for (x, y) in utils.getPlotList(tTopLeft, tBottomRight):
 			killPlot = gc.getMap().plot(x,y)

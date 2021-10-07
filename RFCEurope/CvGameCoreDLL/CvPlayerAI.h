@@ -36,6 +36,8 @@ public:
 	// mediv01
 	DllExport int AI_considerOffer_Threshold(int ePlayer, int myPlayer)const;
 	DllExport int AI_considerOffer_Threshold_Map(int ePlayer, int myPlayer)const;
+
+	DllExport int getAIdealValuetoMoneyIgnoreProgress(int ePlayerID, int myPlayerID, int tradetypeID, int tradeitemID,bool IgnoreProgress) const;
 	DllExport int getAIdealValuetoMoney(int ePlayerID, int myPlayerID, int tradetypeID, int tradeitemID) const;
 	bool AIcantradeTech(PlayerTypes eWhoTo, TechTypes iTech) const;
 

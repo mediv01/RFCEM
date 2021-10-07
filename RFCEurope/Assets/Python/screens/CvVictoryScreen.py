@@ -2,9 +2,7 @@
 ## Copyright Firaxis Games 2005
 from CvPythonExtensions import *
 import CvUtil
-import ScreenInput
 import PyHelpers
-import time
 import Consts as con
 import XMLConsts as xml
 import RFCUtils
@@ -831,7 +829,7 @@ class CvVictoryScreen:
 			screen.setTableText(szTable, 0, iRow, localText.getText("TXT_KEY_VICTORY_TIPS_IN_SCREEN", ()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 
 			import ScreenTips
-			aHelpStrings=ScreenTips.getScreenHelp()
+			aHelpStrings= ScreenTips.getScreenHelp()
 			if len(aHelpStrings) > 0:
 				for szHelp in aHelpStrings:
 					iRow = screen.appendTableRow(szTable)

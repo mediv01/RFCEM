@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0'?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
 <!-- Sid Meier's Civilization 4 -->
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Game Text - RFCE Hints -->
-<Civ4GameText xmlns="http://www.firaxis.com">
+<Civ4GameText xmlns="http://www.firaxis.com" >
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_1</Tag>
     <English>To hire a mercenary, click on the "axe" icon in the upper left hand side of the screen.</English>
@@ -84,7 +84,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>大使馆已经从欧洲自由贸易委员会撤走，所有的联系都是在国防部永久性的。</Chinese>
+     <Chinese>大使馆已经从RFCE走，所有的联系都是永久性的。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_10</Tag>
@@ -147,7 +147,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你选择玩的文明会影响你的难度和你选择的难度等级。一定要选择一个适合你的比赛风格和你的专业水平的公民。</Chinese>
+     <Chinese>你选择玩的文明会影响你的难度和你选择的难度等级。一定要选择一个适合你的比赛风格和你的专业水平的国家。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_17</Tag>
@@ -165,7 +165,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你可以向独立国家和小型公民宣战，只要把你的部队转移到他们的领土上。</Chinese>
+     <Chinese>你可以向独立国家和小型国家宣战，只要把你的部队转移到他们的领土上。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_19</Tag>
@@ -183,7 +183,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>商业共和国是一个伟大的公民，为一个和平的商业帝国。</Chinese>
+     <Chinese>商业共和国是一个伟大的国策，为一个和平的商业帝国。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_21</Tag>
@@ -201,7 +201,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>保持当前年份的记录，这个模组在500转中从公元500年到公元1800年。</Chinese>
+     <Chinese>保持当前年份的记录，这个模组的游戏时间为公元500年到公元1800年的500回合。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_23</Tag>
@@ -237,7 +237,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>在Rhye的《文明的沦陷》和RFC的《欧洲》，通过海洋瓷砖的移动要付出代价吗？一个移动点。</Chinese>
+     <Chinese>在Rhye的《文明的沦陷》和RFC的《欧洲》，通过海洋地块的移动要付出代价吗？一个移动点。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_27</Tag>
@@ -327,7 +327,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>RFC欧洲有许多新的地形类型和资源，能够更好地代表中世纪欧洲的国防部。</Chinese>
+     <Chinese>RFC欧洲有许多新的地形类型和资源，能够更好地代表中世纪欧洲。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_37</Tag>
@@ -426,7 +426,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>为了有资格“控制”一个省以实现您的历史目标，您需要确保该省的所有城市都是您的，或者您拥有该省的所有瓷砖（通过文化扩展）。</Chinese>
+     <Chinese>为了有资格“控制”一个省以实现您的历史目标，您需要确保该省的所有城市都是您的，或者您拥有该省的所有地块（通过文化扩展）。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_48</Tag>
@@ -462,7 +462,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>小心小公民。他们的民族认同感很高，如果征服了他们，你可以期待反抗！</Chinese>
+     <Chinese>小心小文明。他们的民族认同感很高，如果征服了他们，你可以期待反抗！</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_52</Tag>
@@ -471,7 +471,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>黄金时代在RFCE中有一个额外的好处（与香草RFC相比）：当你改变你的公民身份时，就不会有无政府状态。</Chinese>
+     <Chinese>黄金时代在RFCE中有一个额外的好处（与RFC相比）：当你改变你的政策身份时，就不会有无政府状态。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_53</Tag>
@@ -489,7 +489,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你在异教时不能宣扬国家宗教。你必须先改变你的公民身份，然后宣布你的国家宗教。</Chinese>
+     <Chinese>你在异教时不能宣扬国家宗教。你必须先改变你的政策身份，然后宣布你的国家宗教。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_55</Tag>
@@ -498,7 +498,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>如果一个宗教与一个或多个奇迹/神龛有关，则不能从这些城市起诉该宗教。所以，如果你和西班牙队一起踢球，想用超高压车赢得比赛，如果你用这样的奇迹把城市夷为平地，不要感到难过。</Chinese>
+     <Chinese>如果一个宗教与一个或多个奇迹/神龛有关，则不能从这些城市起诉该宗教。所以，如果你和西班牙队一起踢球，想用历史胜利赢得比赛，如果你用这样的奇迹把城市夷为平地，不要感到难过。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_56</Tag>
@@ -525,7 +525,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>如果你过度运动，稳定性会毁掉你的比赛。确保你在你的所有城市建造尽可能多的稳定促进建筑（庄园，法院，城堡和夜班）。</Chinese>
+     <Chinese>如果你过度扩展，稳定性会毁掉你的游戏。确保你在你的所有城市建造尽可能多的稳定促进建筑（庄园，法院，城堡和夜班）。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_59</Tag>
@@ -543,7 +543,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>如果小型civ的人工智能对技术的价值出奇的高，不要惊讶：改变你的技术成本的因素之一是你的帝国的规模。</Chinese>
+     <Chinese>如果小型文明的人工智能对技术的价值出奇的高，不要惊讶：改变你的技术成本的因素之一是你的帝国的规模。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_61</Tag>
@@ -642,7 +642,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你的国家比以往任何时候都更需要你，在你到达超高压之前，你不敢让你的人民一个人呆着！</Chinese>
+     <Chinese>你的国家比以往任何时候都更需要你，在你到达历史胜利之前，你不敢让你的人民一个人呆着！</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_72</Tag>
@@ -651,7 +651,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你知道你不应该继续玩。是的，我在和你说话，不要再“再转一圈”。说真的，停下。。。你还有工作要做！</Chinese>
+     <Chinese>你知道你不应该继续玩。是的，我在和你说话，不要再“再来一回合”。说真的，停下。。。你还有工作要做！</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_RFCE_73</Tag>
@@ -1038,7 +1038,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>按[SHIFT+ENTER]强制结束转弯。。。</Chinese>
+     <Chinese>按[SHIFT+ENTER]强制结回合。。。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_HINT_INTERFACE_38</Tag>

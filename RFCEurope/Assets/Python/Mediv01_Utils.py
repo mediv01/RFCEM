@@ -4,6 +4,25 @@ from CvPythonExtensions import *
 gc = CyGlobalContext()
 localText = CyTranslator()
 
+(TRADE_GOLD,
+ TRADE_GOLD_PER_TURN,
+ TRADE_MAPS,
+ TRADE_VASSAL,
+ TRADE_SURRENDER,
+ TRADE_OPEN_BORDERS,
+ TRADE_DEFENSIVE_PACT,
+ TRADE_PERMANENT_ALLIANCE,
+ TRADE_PEACE_TREATY,
+ TRADE_TECHNOLOGIES,
+ TRADE_RESOURCES,
+ TRADE_CITIES,
+ TRADE_PEACE,
+ TRADE_WAR,
+ TRADE_EMBARGO,
+ TRADE_CIVIC,
+ TRADE_RELIGION,
+ TRADE_SLAVE) = range(18)
+
 def getTurn():
     return gc.getGame().getGameTurn()
 
@@ -19,6 +38,17 @@ def getTurnForYear(iGameturn):
 def PlotToStr(tPlot):
     return '(' + str(tPlot[0]) + ', ' + str(tPlot[1]) + ')'
 
+def FillNumberToText(num1,length):
+    num = str(num1)
+    if (len(num)>=length):
+        return str(num)
+    else:
+        gap=length-len(num)
+        s=''
+        for i in range(gap):
+            s = s + '  '
+        s = s +str(num)
+        return s
 '''
 # 会报错 MAP感觉有些问题
 def getProvinceName11111(iProvinceIdOrPlot):
@@ -48,10 +78,18 @@ global_plaguenamelist = [
     '查士丁尼大瘟疫',
     '黑死病第一次大流行',
     '黑死病第二次大流行',
-    '伦敦大瘟疫',
+    '英格兰大瘟疫',
     '马赛大瘟疫',
 ]
 
+rfce_color_map = {
+    'white': '255,255,255',
+    'red': '128,0,30',
+    'blue': '0,157,149',
+    'green': '84,238,66',
+    'gray': '196,196,196',
+    'yellow':'255,255,128',
+}
 
 
 tBirthDate = [500,

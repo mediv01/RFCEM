@@ -362,6 +362,9 @@ class Religions:
 							if iChosenPlayer == utils.getHumanID():
 								sText = CyTranslator().getText("TXT_KEY_FAITH_GOLD_GIFT", (iGift, ))
 								CyInterface().addMessage(iPlayer, False, con.iDuration, sText, "", 0, "", ColorTypes(con.iBlue), -1, -1, True, True)
+								infotext = sText
+								utils.log_info(infotext, iPlayer)
+								utils.log_riseandfall(infotext, iPlayer)
 		# Free religious building
 		if iGameTurn > xml.i800AD: # The crowning of Charlemagne
 			if iGameTurn > xml.i1648AD: # End of religious wars
@@ -423,6 +426,9 @@ class Religions:
 									if iChosenPlayer == utils.getHumanID():
 										sText = CyTranslator().getText("TXT_KEY_FAITH_TECH_GIFT", (gc.getTechInfo(iTech).getDescription(), ))
 										CyInterface().addMessage(iChosenPlayer, True, con.iDuration, sText, "", 0, "", ColorTypes(con.iBlue), -1, -1, True, True)
+										infotext = sText
+										utils.log_info(infotext, iChosenPlayer)
+										utils.log_riseandfall(infotext, iChosenPlayer)
 									# don't continue if a tech was already given - this also means that there is bigger chance for getting a tech if the chosen civ is multiple techs behind
 									break
 
@@ -644,6 +650,9 @@ class Religions:
 			if utils.getHumanID() == iPlayer:
 				sText = CyTranslator().getText("TXT_KEY_FAITH_BUILDING1", ()) + " " + gc.getBuildingInfo( iBuilding ).getDescription() + " " + CyTranslator().getText("TXT_KEY_FAITH_BUILDING2", ()) + " " + city.getName()
 				CyInterface().addMessage(iPlayer, False, con.iDuration, sText, "", 0, gc.getBuildingInfo(iBuilding).getButton(), ColorTypes(con.iBlue), city.getX(), city.getY(), True, True)
+				infotext = sText
+				utils.log_info(infotext, iPlayer)
+				utils.log_riseandfall(infotext, iPlayer)
 
 	# Absinthe: free religious revolution
 	def onPlayerChangeAllCivics(self, iPlayer, lNewCivics, lOldCivics):
@@ -830,7 +839,11 @@ class Religions:
 					city.setHasReligion(xml.iProtestantism, True, False, False) # no announcement in this case
 					if pPlayer.isHuman(): # message for the human player
 						CityName = city.getNameKey()
-						CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, CyTranslator().getText("TXT_KEY_REFORMATION_RELIGION_STILL_SPREAD", (CityName,)), "", InterfaceMessageTypes.MESSAGE_TYPE_MINOR_EVENT, "", ColorTypes(con.iWhite), -1, -1, True, True)
+						sText = CyTranslator().getText("TXT_KEY_REFORMATION_RELIGION_STILL_SPREAD", (CityName,))
+						CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, sText, "", InterfaceMessageTypes.MESSAGE_TYPE_MINOR_EVENT, "", ColorTypes(con.iWhite), -1, -1, True, True)
+						infotext = sText
+						utils.log_info(infotext, iCiv)
+						utils.log_riseandfall(infotext, iCiv)
 					iLostFaith += 1
 		gc.getPlayer(iCiv).changeFaith( - min( gc.getPlayer(iCiv).getFaith(), iLostFaith ) )
 
@@ -893,7 +906,11 @@ class Religions:
 					pCity.setHasReligion(xml.iCatholicism, False, False, False)
 					if pPlayer.isHuman(): # message for the human player
 						CityName = pCity.getNameKey()
-						CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, CyTranslator().getText("TXT_KEY_REFORMATION_PEOPLE_ABANDON_CATHOLICISM_1", (CityName,)), "", InterfaceMessageTypes.MESSAGE_TYPE_MINOR_EVENT, "", ColorTypes(con.iWhite), -1, -1, True, True)
+						sText = CyTranslator().getText("TXT_KEY_REFORMATION_PEOPLE_ABANDON_CATHOLICISM_1", (CityName,))
+						CyInterface().addMessage(utils.getHumanID(), False, con.iDuration,sText , "", InterfaceMessageTypes.MESSAGE_TYPE_MINOR_EVENT, "", ColorTypes(con.iWhite), -1, -1, True, True)
+						infotext = sText
+						utils.log_info(infotext, iCiv)
+						utils.log_riseandfall(infotext, iCiv)
 
 		return iFaith
 
@@ -944,7 +961,13 @@ class Religions:
 						CityName = pCity.getNameKey()
 						if pPlayer.getStateReligion() == xml.iIslam:
 							CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, CyTranslator().getText("TXT_KEY_REFORMATION_PEOPLE_ABANDON_CATHOLICISM_2", (CityName,)), "", InterfaceMessageTypes.MESSAGE_TYPE_MINOR_EVENT, "", ColorTypes(con.iWhite), -1, -1, True, True)
+							infotext = CyTranslator().getText("TXT_KEY_REFORMATION_PEOPLE_ABANDON_CATHOLICISM_2", (CityName,))
+							utils.log_info(infotext, iCiv)
+							utils.log_riseandfall(infotext, iCiv)
 						else:
+							infotext = CyTranslator().getText("TXT_KEY_REFORMATION_PEOPLE_ABANDON_CATHOLICISM_3", (CityName,))
+							utils.log_info(infotext, iCiv)
+							utils.log_riseandfall(infotext, iCiv)
 							CyInterface().addMessage(utils.getHumanID(), False, con.iDuration, CyTranslator().getText("TXT_KEY_REFORMATION_PEOPLE_ABANDON_CATHOLICISM_3", (CityName,)), "", InterfaceMessageTypes.MESSAGE_TYPE_MINOR_EVENT, "", ColorTypes(con.iWhite), -1, -1, True, True)
 
 	def doCounterReformation(self):
