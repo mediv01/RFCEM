@@ -54,7 +54,13 @@ def CheckMinorInDll(argsList):
 	tList=RFCEMapShowInDll.SearchMinorCityBirth(x,y)
 	return tList
 
-
+def SearchUHVProvince(argsList):
+	#tlist=RFCEMapShowInDll.SearchCore(x,y)
+	provinceID=argsList[0]
+	iPlayer=argsList[1]
+	tList=[]
+	tList=RFCEMapShowInDll.SearchUHVProvince(provinceID,iPlayer)
+	return tList
 
 
 

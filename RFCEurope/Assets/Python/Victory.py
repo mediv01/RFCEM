@@ -830,7 +830,7 @@ class Victory:
 
 	def checkDenmark(self, iGameTurn):
 
-		# UHV 1: Control Denmark, Skaneland, Gˆtaland, Svealand, Mercia, London, Northumbria and East Anglia in 1050
+		# UHV 1: Control Denmark, Skaneland, GÈ∞êaland, Svealand, Mercia, London, Northumbria and East Anglia in 1050
 		if iGameTurn == xml.i1050AD:
 			if self.isPossibleUHV(iDenmark, 0, True):
 				if self.checkProvincesStates(iDenmark, tDenmarkControlI):
@@ -838,7 +838,7 @@ class Victory:
 				else:
 					self.lostUHV( iDenmark, 0 )
 
-		# UHV 2: Control Denmark, Norway, Vestfold, Skaneland, Gˆtaland, Svealand, Norrland, Gotland, ÷sterland, Estonia and Iceland in 1523
+		# UHV 2: Control Denmark, Norway, Vestfold, Skaneland, GÈ∞êaland, Svealand, Norrland, Gotland, Ë¨òterland, Estonia and Iceland in 1523
 		elif iGameTurn == xml.i1523AD:
 			if self.isPossibleUHV(iDenmark, 1, True):
 				if self.checkProvincesStates(iDenmark, tDenmarkControlIII):

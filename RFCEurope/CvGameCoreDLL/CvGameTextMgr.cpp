@@ -2378,8 +2378,43 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 		szString.append( gDLL->getText(szTempBuffer.GetCString() ) );
 		szString.append( NEWLINE );
 		szString.append( gDLL->getText("TXT_KEY_PROVINCE_STABILITY_HELP") );
-		szTempBuffer.Format(L"TXT_KEY_PROVINCE_TYPE_%d", GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getProvinceType(iProvince));
+		int iProvinceTypeNumber = GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getProvinceType(iProvince);
+		szTempBuffer.Format(L"TXT_KEY_PROVINCE_TYPE_%d",iProvinceTypeNumber);
 		szString.append( gDLL->getText(szTempBuffer.GetCString() ) );
+
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_UHV_PROVINCE") == 1) {
+			// mediv01 显示UHV省份
+			std::vector<int> pIntList1;
+			CyArgsList argsList;
+			argsList.add(iProvince);
+			argsList.add(iProvinceTypeNumber);
+			gDLL->getPythonIFace()->callFunction(PYGameModule, "SearchUHVProvince", argsList.makeFunctionArgs(), &pIntList1);
+			int uhvsize = pIntList1.size();
+			
+			if (uhvsize> 0) {
+				
+				if (uhvsize == 0) {
+					szTempBuffer.Format(SETCOLR L" （UHV省份）" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"));
+					szString.append(szTempBuffer);
+				}
+
+				else if (uhvsize >=1) {
+
+					for (int i = 1; i <= (int)(pIntList1.size()); i++) {
+						int UHVNum = pIntList1[i - 1];
+						szTempBuffer.Format(SETCOLR L" （UHV%d省份）" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"), UHVNum);
+						szString.append(szTempBuffer);
+					}
+				}
+
+			}
+
+
+
+
+		}
+
+
 		szString.append( NEWLINE );
 	};
 	// 3MiroProvince: end

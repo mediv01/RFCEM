@@ -12409,7 +12409,11 @@ int CvPlayer::getHurryCount(HurryTypes eIndex) const
 
 bool CvPlayer::canHurry(HurryTypes eIndex) const
 {
-	return (getHurryCount(eIndex) > 0);
+	bool canHurry = (getHurryCount(eIndex) > 0);
+	if (GC.getDefineINT("CVCITY_CAN_ALWAYS_HURRY_WITH_CIVICS") > 0) {
+		canHurry = true;
+	}
+	return canHurry;
 }
 
 

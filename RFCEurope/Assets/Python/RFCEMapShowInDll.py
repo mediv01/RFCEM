@@ -1,40 +1,41 @@
 from Consts import *
 from Barbs import *
+import Victory as vic
 
 localText = CyTranslator()
 
 
 def getBirthDate(x, y):
-    tList=[500,1800]
+    tList = [500, 1800]
     tBirthDate = [500,
-              500,
-              632,
-              680,
-              711,
-              810,
-              843,
-              856,
-              864,
-              872,
-              880,
-              895,
-              910,
-              936,
-              960,
-              966,
-              1016,
-              1040,
-              1066,
-              1139,
-              1164,
-              1210,
-              1224,
-              1236,
-              1282,
-              1356,
-              1380,
-              1581,
-              500]
+                  500,
+                  632,
+                  680,
+                  711,
+                  810,
+                  843,
+                  856,
+                  864,
+                  872,
+                  880,
+                  895,
+                  910,
+                  936,
+                  960,
+                  966,
+                  1016,
+                  1040,
+                  1066,
+                  1139,
+                  1164,
+                  1210,
+                  1224,
+                  1236,
+                  1282,
+                  1356,
+                  1380,
+                  1581,
+                  500]
     tCollapseDate = (
         1453,  # Byzantium - Ottoman conquest of Constantinople
         1800,  # Frankia
@@ -67,13 +68,14 @@ def getBirthDate(x, y):
         1800  # Pope
     )
 
-    if (x<len(tBirthDate)):
+    if (x < len(tBirthDate)):
         tList[0] = tBirthDate[x]
 
-    if (y<len(tCollapseDate)):
+    if (y < len(tCollapseDate)):
         tList[1] = tCollapseDate[y]
 
     return tList
+
 
 def SearchCore(x, y):
     tList = []
@@ -119,6 +121,156 @@ def SearchMinorCityBirth(x, y):
 
     return tList
 
+    pass
+
+
+def SearchUHVProvince(provinceID, iPlayer):
+    iPlayer = utils.getHumanID()
+    tList = []
+
+    UHVProvinceList = []
+    UHVProvinceList2 = []
+    UHVProvinceList3 = []
+
+    if (iPlayer == iByzantium):
+        UHVProvinceList = vic.tByzantumControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+    elif (iPlayer == iFrankia):
+        UHVProvinceList = vic.tFrankControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+
+    elif (iPlayer == iArabia):
+        UHVProvinceList = vic.tArabiaControlI
+        UHVProvinceList2 = vic.tArabiaControlII
+        UHVProvinceList3 = []
+
+    elif (iPlayer == iBulgaria):
+        UHVProvinceList = vic.tBulgariaControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+
+    elif (iPlayer == iCordoba):
+        UHVProvinceList = vic.tCordobaIslamize
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+
+    elif (iPlayer == iVenecia):
+        UHVProvinceList = vic.tVenetianControl
+        UHVProvinceList2 = vic.tVenetianControlII
+        UHVProvinceList3 = []
+
+    elif (iPlayer == iBurgundy):
+        UHVProvinceList = vic.tBurgundyControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+    elif (iPlayer == iGermany):
+        UHVProvinceList = vic.tGermanyControl
+        UHVProvinceList2 = vic.tGermanyControlII
+        UHVProvinceList3 = []
+
+    elif (iPlayer == iNovgorod):
+        UHVProvinceList = vic.tNovgorodControl
+        UHVProvinceList2 = vic.tNovgorodControlII
+        UHVProvinceList3 = []
+
+    elif (iPlayer == iKiev):
+        UHVProvinceList = vic.tKievControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+
+    elif (iPlayer == iNorway):
+        UHVProvinceList = vic.tNorwayControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+
+
+    elif (iPlayer == iHungary):
+        UHVProvinceList = vic.tHungarynControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+
+    elif (iPlayer == iSpain):
+        UHVProvinceList = vic.tSpainConvert
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+    elif (iPlayer == iDenmark):
+        UHVProvinceList = vic.tDenmarkControlI
+        UHVProvinceList2 = vic.tDenmarkControlIII
+        UHVProvinceList3 = []
+
+
+    elif (iPlayer == iScotland):
+        UHVProvinceList = vic.tScotlandControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+    elif (iPlayer == iPoland):
+        UHVProvinceList = vic.tPolishControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+    elif (iPlayer == iGenoa):
+        UHVProvinceList = vic.tGenoaControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+    elif (iPlayer == iMorocco):
+        UHVProvinceList = vic.tMoroccoControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+
+
+
+    elif (iPlayer == iEngland):
+        UHVProvinceList = vic.tEnglandControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+    elif (iPlayer == iPortugal):
+        UHVProvinceList = vic.tPortugalControlI
+        UHVProvinceList2 = vic.tPortugalControlII
+        UHVProvinceList3 = []
+
+
+    elif (iPlayer == iAragon):
+        UHVProvinceList = vic.tAragonControlI
+        UHVProvinceList2 = vic.tAragonControlII
+        UHVProvinceList3 = []
+
+
+    elif (iPlayer == iSweden):
+        UHVProvinceList = vic.tSwedenControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+    elif (iPlayer == iPrussia):
+        UHVProvinceList = vic.tPrussiaControlI
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+
+    elif (iPlayer == iAustria):
+        UHVProvinceList = vic.tAustriaControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+
+    elif (iPlayer == iTurkey):
+        UHVProvinceList = vic.tOttomanControlI
+        UHVProvinceList2 = vic.tOttomanControlII
+        UHVProvinceList3 = vic.tOttomanControlIII
+
+
+    elif (iPlayer == iMoscow):
+        UHVProvinceList = vic.tMoscowControl
+        UHVProvinceList2 = []
+        UHVProvinceList3 = []
+
+    if provinceID in UHVProvinceList:
+        tList.append(1)
+
+    if provinceID in UHVProvinceList2:
+        tList.append(2)
+
+    if provinceID in UHVProvinceList3:
+        tList.append(3)
+
+    return tList
     pass
 
 # tList=SearchCore(42,47)
