@@ -34,7 +34,7 @@ PY_PLAGUE_POPE_NO_INFECT = 1
 PY_UNIT_CAN_BE_FLIP = 0
 
 # <!--mediv01 新增，人类控制的文明，在稳定度较低时，不会被文明复活影响  0为默认模式-->
-PY_RISEANDFALL_HUMAN_NO_REBEL = 0
+PY_RISEANDFALL_HUMAN_NO_REBEL = 1
 
 # <!--mediv01 新增，东正教也可以出发宗教改革  0为默认模式-->
 PY_Orthodoxy_CAN_TRIGGLER_REFORM = 0
@@ -47,7 +47,7 @@ PY_CRUSADES_HUMAN_UNIT_NOT_LEAVE = 1
 ########################################## <!-- 稳定度相关 -->######################################################
 
 # <!--mediv01 新增，人类玩家不会崩溃 0为默认模式-->
-PY_STABILITY_HUMAN_NO_COLLAPSE = 0
+PY_STABILITY_HUMAN_NO_COLLAPSE = 1
 
 # <!--mediv01 新增，允许自定义核心地块、历史地块对所有玩家的稳定度加成  0为默认模式-->
 PY_tStabilityPenalty_ENABLE = 1

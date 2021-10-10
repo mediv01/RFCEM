@@ -174,6 +174,10 @@
         <iDefineIntVal>1</iDefineIntVal>
     </Define>
 
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_UHV_PROVINCE</DefineName>        <!-- 1为显示省份是否为玩家的UHV   0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
 
 
 
@@ -285,11 +289,14 @@
     </Define>
 
 	    <Define>
-        <DefineName>CVCITY_CAN_ALWAYS_HURRY</DefineName>        <!-- 可以不受政策的限制减速单位和建筑，0为默认模式  mediv01 -->
+        <DefineName>CVCITY_CAN_ALWAYS_HURRY</DefineName>        <!-- 可以无限制减速单位和建筑，权限太高，建议设置为0  0为默认模式  mediv01 -->
         <iDefineIntVal>0</iDefineIntVal>
     </Define>
 	
-	
+	<Define>
+        <DefineName>CVCITY_CAN_ALWAYS_HURRY_WITH_CIVICS</DefineName>        <!-- 可以不受政策的限制减速单位和建筑   0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
 	
     <Define>
         <DefineName>PLOT_CITY_FULL_YIELD_WHEN_SETTLE</DefineName>  <!--mediv01 新增，坐资源满产出 0为默认模式-->
@@ -420,7 +427,7 @@
 	
 	<Define>
         <DefineName>PLAYER_AI_ALLOW_TO_TRADE_MORE_IN_ONE_TURN</DefineName>        <!-- 可以在1回合内连续交易  0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 
     <Define>
@@ -452,14 +459,10 @@
         <iDefineIntVal>0</iDefineIntVal>
     </Define>	
 	
-   <Define>
-        <DefineName>CVCITY_MAX_CITY_MAINTENANCE_OF_NUMBER</DefineName>        <!-- 大于0的数字为最大的城市数量维护费（每座城市）  0为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>0</iDefineIntVal>
-    </Define>	
 	
     <Define>
         <DefineName>CVPLAYERAI_ATTITUDE_BONUS</DefineName>        <!-- AI对人类的态度加成，0为默认模式  mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>3</iDefineIntVal>
     </Define>
 
 	
@@ -517,7 +520,7 @@
 	
      <Define>
         <DefineName>CVPLAYERAI_CAN_TRADE_GOLD_TURN_BASE_ON_POPULATION</DefineName>        <!-- 大于0的数字为根据总人口的几分之一设置回合金加成 推荐设置为3 0为默认模式 mediv01 -->
-        <iDefineIntVal>3</iDefineIntVal>
+        <iDefineIntVal>5</iDefineIntVal>
     </Define>
 
     <Define>
@@ -537,7 +540,7 @@
 	
     <Define>
         <DefineName>CVTEAMAI_WARTRADEVAL_MULTIPLIERTIMES10000</DefineName>        <!-- 大于0的数字为AI与人类进行战争交易时的乘数，数字需要除以10000  0和10000为默认模式， mediv01  -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>100</iDefineIntVal>
     </Define>	
 	
 	    <Define>
@@ -547,7 +550,7 @@
 	
 	<Define>
         <DefineName>CVTEAMAI_PEACE_TRADEVAL_MULTIPLIERTIMES10000</DefineName>        <!-- 大于0的数字为AI与人类进行战争交易时的乘数，数字需要除以10000  0和10000为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>100</iDefineIntVal>
     </Define>	
 	
     <Define>
@@ -562,22 +565,22 @@
     
      <Define>
         <DefineName>CVCITY_PROB_REBELT_MULTIPLIER_WHEN_CULTURE_IN_LOW</DefineName>        <!-- -1 为取消文化低城市叛乱机制 大于0的数字为城市在低文化时叛乱概率的倍数 1为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>   
 
     <Define>
         <DefineName>CVUNIT_GREAT_ENGINEER_ACCELERATE_UNLIMITED</DefineName>        <!-- 大于0的数字为大工程师加速建筑的锤子数可以溢出 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 
     <Define>
         <DefineName>CVUNIT_GREAT_ENGINEER_ACCELERATE_USE_MODIFIER</DefineName>        <!-- 大于0的数字为大工程师加速建筑的锤子和资源等修正系数有关 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 	
     <Define>
         <DefineName>CVCITY_AI_CANNOT_BUILD_WONDER</DefineName>        <!-- 1为 AI不能建造奇观，奇观控的福音  0为默认模式    mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>	
 	
 
@@ -586,31 +589,36 @@
         <iDefineIntVal>1</iDefineIntVal>
     </Define>
 
+   <Define>
+        <DefineName>CVCITY_MAX_CITY_MAINTENANCE_OF_NUMBER</DefineName>        <!-- 大于0的数字为最大的城市数量维护费（每座城市）  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>10</iDefineIntVal>
+    </Define>	
+
     <Define>
         <DefineName>CVCITY_MAX_CITY_MAINTENANCE_OF_DISTANCE</DefineName>        <!-- 大于0的数字为最大的城市距离维护费（每座城市）  0为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>10</iDefineIntVal>
     </Define>
 
     <Define>
         <DefineName>CVCITY_MAX_CITY_MAINTENANCE_TOTAL</DefineName>        <!-- 大于0的数字为每座城市最大的总维护费  0为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>15</iDefineIntVal>
     </Define>	
   
 
 	    <Define>
         <DefineName>CVTEAMAI_CITY_TRADEVAL_MULTIPLIERTIMES10000</DefineName>        <!-- 大于0的数字为AI与人类进行城市交易时的乘数，数字需要除以10000  0和10000为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1000</iDefineIntVal>
     </Define>
 
 	
 		<Define>
         <DefineName>CVUNIT_HUMAN_SPY_CANNOT_REVEAL</DefineName>        <!-- 大于0的数字为人类的间谍不会被暴露杀害 0为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 	
 	    <Define>
         <DefineName>CVTEAMAI_CITY_TRADEVAL_FOR_VASSAL_MULTIPLIERTIMES10000</DefineName>        <!-- 大于0的数字为AI与人类附庸后，进行城市交易时的乘数，数字需要除以10000  0和10000为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>100</iDefineIntVal>
     </Define>	
 	
 	
@@ -665,7 +673,7 @@
 
 	<Define>
         <DefineName>CVGAMECORE_LOG_ON_TEST</DefineName>        <!-- 1为记录TEST里的日志，0为默认模式， mediv01  -->
-        <iDefineIntVal>1</iDefineIntVal>
+        <iDefineIntVal>0</iDefineIntVal>
     </Define>
 
 	<Define>
