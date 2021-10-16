@@ -179,9 +179,29 @@ def getScreenHelp():
                         ]
         for i in range(len(crusade_turn_list)):
             crusade_turn = crusade_turn_list[i]
-            iGameTurn = max(crusade_turn - gc.getGame().getGameTurn(), -1)
-            txt = crusade_name[i] + '开始于回合: ' + str(crusade_turn) + '   剩余回合:  ' + str(iGameTurn)
+            iGameTurn1 = max(crusade_turn + 1 - gc.getGame().getGameTurn(), -1)
+            iGameTurn2 = max(crusade_turn + 1 + 1 - gc.getGame().getGameTurn(), -1)
+            iGameTurn3 = max(crusade_turn + 5 + 1 - gc.getGame().getGameTurn(), -1)
+            iGameTurn4 = max(crusade_turn + 5 + 1 - gc.getGame().getGameTurn(), -1)
+            iGameTurn5 = max(crusade_turn + 8 + 1 - gc.getGame().getGameTurn(), -1)
+            txt = crusade_name[i]
             aHelp.append(txt)
+
+            txt =  '   回合T+0  决定是否参加十字军: ' + str(crusade_turn) + '   剩余回合:  ' + str(iGameTurn1)
+            aHelp.append(txt)
+
+            txt =    '   回合T+1 决定十字军领袖: ' + str(crusade_turn+1) + '   剩余回合:  ' + str(iGameTurn2)
+            aHelp.append(txt)
+
+            txt =  '   回合T+2 决定十字军是否改变进攻城市: ' + str(crusade_turn+2) + '   剩余回合:  ' + str(iGameTurn3)
+            aHelp.append(txt)
+
+            txt = '   回合T+5  到达进攻城市（耶路撒冷）回合:  ' + str(crusade_turn + 5) + '   剩余回合:  ' + str(iGameTurn4)
+            aHelp.append(txt)
+
+            txt = '   回合T+8  十字军撤军  回合:  ' + str(crusade_turn + 8) + '   剩余回合:  ' + str(iGameTurn5)
+            aHelp.append(txt)
+            aHelp.append(' ')
 
     # 3.瘟疫进度
     if (xml.PYTHON_SCREEN_VICTORY_TIPS_03 == 1):

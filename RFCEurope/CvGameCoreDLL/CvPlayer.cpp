@@ -4334,7 +4334,7 @@ bool CvPlayer::canTradeItem(PlayerTypes eWhoTo, TradeData item, bool bTestDenial
 					}
 
 					if (GC.getDefineINT("CVPLAYER_CAN_ALWAYS_TRADE_CITY") > 0) {
-						if (GET_PLAYER(eWhoTo).isHuman()) {
+						if (GET_PLAYER(eWhoTo).isHuman() || isHuman()) {
 							return true;
 						}
 					}

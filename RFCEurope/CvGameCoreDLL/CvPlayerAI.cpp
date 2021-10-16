@@ -8148,7 +8148,7 @@ DenialTypes CvPlayerAI::AI_bonusTrade(BonusTypes eBonus, PlayerTypes ePlayer) co
 	int iI, iJ;
 
 	if (GC.getDefineINT("CVPLAYERAI_CAN_ALWAYS_TRADE_RESOURCE") == 1) {//mediv01 
-		if (GET_PLAYER(ePlayer).isHuman()) {
+		if (GET_PLAYER(ePlayer).isHuman()|| isHuman()) {
 			return NO_DENIAL;
 		}
 	}

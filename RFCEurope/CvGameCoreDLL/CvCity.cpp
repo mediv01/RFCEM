@@ -11622,7 +11622,14 @@ void CvCity::popOrder(int iNum, bool bFinish, bool bChoose)
 			int iOverflow = getBuildingProduction(eConstructBuilding) - iProductionNeeded;
 			int iMaxOverflow = std::max(iProductionNeeded, getCurrentProductionDifference(false, false));
 			int iMaxOverflowForGold = std::max(iProductionNeeded, getProductionDifference(getProductionNeeded(), getProduction(), 0, isFoodProduction(), false));
-			iOverflow = std::min(iMaxOverflow, iOverflow);
+
+			if (GC.getDefineINT("CVCITY_BUILDING_NO_MAXOVERFLOW_LIMIT") > 0) {
+
+			}
+
+			else {
+				iOverflow = std::min(iMaxOverflow, iOverflow);
+			}
 			if (iOverflow > 0)
 			{
 				changeOverflowProduction(iOverflow, getProductionModifier(eConstructBuilding));
@@ -11718,7 +11725,14 @@ void CvCity::popOrder(int iNum, bool bFinish, bool bChoose)
 			iOverflow = getProjectProduction(eCreateProject) - iProductionNeeded;
 			int iMaxOverflow = std::max(iProductionNeeded, getCurrentProductionDifference(false, false));
 			int iMaxOverflowForGold = std::max(iProductionNeeded, getProductionDifference(getProductionNeeded(), getProduction(), 0, isFoodProduction(), false));
-			iOverflow = std::min(iMaxOverflow, iOverflow);
+
+			if (GC.getDefineINT("CVCITY_BUILDING_NO_MAXOVERFLOW_LIMIT") > 0) {
+
+			}
+
+			else {
+				iOverflow = std::min(iMaxOverflow, iOverflow);
+			}
 			if (iOverflow > 0)
 			{
 				changeOverflowProduction(iOverflow, getProductionModifier(eCreateProject));
@@ -12613,12 +12627,12 @@ void CvCity::doGreatPeople()
 		enum GreatPeopleTypes				// Exposed to Python
 		{
 			NO_GREATEOPLE = -1,
-			iGreatProphet = 190,
-			iGreatArtist = 191,
-			iGreatScientist = 192,
-			iGreatMerchant = 193,
-			iGreatEngineer = 194,
-			iGreatStatesman = 195,
+			iGreatProphet = 82,
+			iGreatArtist = 83,
+			iGreatScientist = 84,
+			iGreatMerchant = 85,
+			iGreatEngineer = 86,
+			iGreatSpy = 88,
 
 		};
 		const int mediv01 = GC.getDefineINT("CVCITY_FIX_GENERATE_GREAT_PEOPLE");
@@ -12638,8 +12652,8 @@ void CvCity::doGreatPeople()
 			else if (mediv01 == 5) {  // 大工程师
 				eGreatPeopleUnit = ((UnitTypes)iGreatEngineer);
 			}
-			else if (mediv01 == 6) {  // 大政治家
-				eGreatPeopleUnit = ((UnitTypes)iGreatStatesman);
+			else if (mediv01 == 6) {  // 大间谍
+				eGreatPeopleUnit = ((UnitTypes)iGreatSpy);
 			}
 			else {
 

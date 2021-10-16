@@ -791,6 +791,8 @@ class Barbs:
 			for iPlayer in range( con.iNumPlayers-1 ):
 				if lPlayersOwning[iPlayer] > 0:
 					if utils.getHumanID() == iPlayer:
+						if PY_BARBS_HUMAN_NO_REBEL:
+							return
 						self.doRevoltHuman( iPlayer, iGameTurn, lNation, iRevoltIndex )
 					else:
 						self.doRevoltAI( iPlayer, iGameTurn, lNation, iRevoltIndex )

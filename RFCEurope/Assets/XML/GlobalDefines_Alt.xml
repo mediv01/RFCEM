@@ -473,7 +473,7 @@
     
     <Define>
         <DefineName>PLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS</DefineName>        <!-- 开边态度福利，数值越大越容易开边，可正可负，0为默认模式  mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>5</iDefineIntVal>
     </Define>    
 
     
@@ -559,8 +559,8 @@
     </Define>	
 	
     <Define>
-        <DefineName>CVCITY_FIX_GENERATE_GREAT_PEOPLE</DefineName>        <!-- 大于0的数字为产生固定类型的伟人 1为大预言家 2为大艺术家 3为大科学家 4为大商业家  5为大工程师 6为大政治家 0为默认模式 mediv01 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <DefineName>CVCITY_FIX_GENERATE_GREAT_PEOPLE</DefineName>        <!-- 大于0的数字为产生固定类型的伟人 1为大预言家 2为大艺术家 3为大科学家 4为大商业家  5为大工程师 6为大间谍 0为默认模式 mediv01 -->
+        <iDefineIntVal>5</iDefineIntVal>
     </Define>
     
      <Define>

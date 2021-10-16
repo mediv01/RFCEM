@@ -841,19 +841,31 @@ class Crusades:
 		utils.info(infotext )
 		utils.log_crusade(infotext)
 
-
+		iLeader = ''
 		if self.getVotesGatheredPowerful() > self.getVotesGatheredFavorite():
+			iLeader = self.getPowerful()
 			self.setLeader( self.getPowerful() )
 			iPlayer = self.getPowerful()
-			infotext = "十字军领袖投票中，实力最强的票数最多，当选为领袖 : " + str(utils.getCivChineseName(iPlayer)) + ' '
+			infotext = "十字军领袖投票中，实力最强的票数最多，被推举为领袖 : " + str(utils.getCivChineseName(iPlayer)) + ' '
 			utils.info(infotext, iPlayer)
 			utils.log_crusade(infotext, iPlayer)
 		else:
+			iLeader =  self.getFavorite()
 			self.setLeader( self.getFavorite() )
 			iPlayer = self.getFavorite()
-			infotext = "十字军领袖投票中，最受喜爱的票数最多，当选为领袖 : " + str(utils.getCivChineseName(iPlayer)) + ' '
+			infotext = "十字军领袖投票中，最受喜爱的票数最多，被推举为领袖 : " + str(utils.getCivChineseName(iPlayer)) + ' '
 			utils.info(infotext, iPlayer)
 			utils.log_crusade(infotext, iPlayer)
+
+		# 十字军领袖总是人类玩家
+		if PY_CRUSADES_HUMAN_ALWAYS_LEADER:
+			if self.getParticipate():
+				if  utils.getHumanID() is not iLeader:
+					iPlayer = utils.getHumanID()
+					infotext = "由于GlobalDefinesAlt.py的设置，参加十字军东征的人类玩家固定被推举为十字军领袖 : " + str(utils.getCivChineseName(iPlayer)) + ' '
+					utils.info(infotext, iPlayer)
+					utils.log_crusade(infotext, iPlayer)
+					self.setLeader(utils.getHumanID())
 
 		if self.getParticipate():
 			self.informLeaderPopup()
@@ -1228,7 +1240,10 @@ class Crusades:
 								continue
 
 				if gc.getGame().getSorenRandNum(100, 'free Crusaders') < iOdds:
-					pUnit.kill( 0, -1 )
+					if PY_CRUSADES_HUMAN_UNIT_NOT_RETURN and  iHuman == iPlayer:
+						pass
+					else:
+						pUnit.kill( 0, -1 )
 					if iHuman == iPlayer:
 						CyInterface().addMessage(iHuman, False, con.iDuration/2, CyTranslator().getText("TXT_KEY_CRUSADE_CRUSADERS_RETURNING_HOME", ()) + " " + pUnit.getName(), "", 0, "", ColorTypes(con.iLime), -1, -1, True, True)
 

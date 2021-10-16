@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0'?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
 <!-- Sid Meier's Civilization 4 -->
 <!-- Copyright Firaxis Games 2005 -->
@@ -30,7 +30,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>[粗体]无视他们，没有人想离开我们强大的帝国。[\粗体][新线]什么也不做；只依赖你的稳定和在城市中的被动军事存在：阻止叛军的机会是%d1拉沃奇%。</Chinese>
+     <Chinese>[粗体]无视他们，没有人想离开我们强大的帝国。[\粗体][新线]什么也不做；只依赖你的稳定和在城市中的被动军事存在：阻止叛军的机会是 %d1_RawOdds % 。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_MINOR_REBELLION_CRACK</Tag>
@@ -39,7 +39,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>[粗体]镇压叛乱并镇压叛乱。[粗体][新线]武力镇压；你的军事力量和城市中的部队数量也大大增加了你的机会，但这一行动将激怒普通民众：有1%的机会阻止叛乱，但如果成功的话，它会产生不快乐，并导致一轮反抗。</Chinese>
+     <Chinese>[粗体]镇压叛乱并镇压叛乱。[粗体][新线]武力镇压；你的军事力量和城市中的部队数量也大大增加了你的机会，但这一行动将激怒普通民众：有 %d1_Odds % 的机会阻止叛乱，但如果成功的话，它会产生不快乐，并导致一轮反抗。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_MINOR_REBELLION_BRIBE</Tag>
@@ -48,7 +48,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>[粗体]贿赂当地的领主，叛军没有他们的支持就没有机会攻占你的城市。[\粗体][新线]派你的特使；你的财政捐助根据你的政府形式进行调整也有助于增加你的机会，但它会进一步激怒叛军民兵：阻止叛军的机会是%d3，但它花费了你%d1黄金[图标黄金]（完全贿赂=d2_贿赂），如果成功的话会出现更多的攻击叛军。</Chinese>
+     <Chinese>[粗体]贿赂当地的领主，叛军没有他们的支持就没有机会攻占你的城市。[\粗体][新线]派你的特使；你的财政捐助根据你的政府形式进行调整也有助于增加你的机会，但它会进一步激怒叛军民兵：阻止叛军的机会是 %d3_Odds % ，但它花费了你 %d1_Gold[ICON_GOLD]（完全贿赂= %d2_Bribe ），如果成功的话会出现更多的攻击叛军。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_MINOR_REBELLION_ALL</Tag>
@@ -57,7 +57,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>[粗体]不惜一切代价留住他们。[\粗体][新线]同时采取军事和财政措施：在上述两种方案的共同作用下，有1%的几率阻止叛军。</Chinese>
+     <Chinese>[粗体]不惜一切代价留住他们。[\粗体][新线]同时采取军事和财政措施：在上述两种方案的共同作用下，有 %d1_Odds % 的几率阻止叛军。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>TXT_KEY_MINOR_NATION_REVOLT_SUPRESSED</Tag>

@@ -379,6 +379,8 @@ class RiseAndFall:
 
 
 	def flipPopup(self, iNewCiv, tTopLeft, tBottomRight):
+
+		if PY_HUMAN_CANNOT_BE_FLIP:return
 		iHuman = utils.getHumanID()
 		flipText = CyTranslator().getText("TXT_KEY_FLIPMESSAGE1", ())
 		lPlots = utils.getPlotList(tTopLeft, tBottomRight) + lExtraPlots[iNewCiv]
@@ -411,6 +413,8 @@ class RiseAndFall:
 				if city.getOwner() == iHuman:
 					if not city.isCapital():
 						humanCityList.append(city)
+		if PY_HUMAN_CANNOT_BE_FLIP:
+			humanCityList = []
 
 		if popupReturn.getButtonClicked() == 0: # 1st button
 			print ("Flip agreed")

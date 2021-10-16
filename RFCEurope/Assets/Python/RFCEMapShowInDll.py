@@ -124,6 +124,14 @@ def SearchMinorCityBirth(x, y):
     pass
 
 
+def checkProvincesStates(iPlayer, tProvince):
+    tProvinces = [tProvince]
+    pPlayer = gc.getPlayer(iPlayer)
+    for iProv in tProvinces:
+        if pPlayer.getProvinceCurrentState(iProv) < con.iProvinceConquer:
+            return False
+    return True
+
 def SearchUHVProvince(provinceID, iPlayer):
     iPlayer = utils.getHumanID()
     tList = []
@@ -261,14 +269,22 @@ def SearchUHVProvince(provinceID, iPlayer):
         UHVProvinceList2 = []
         UHVProvinceList3 = []
 
+    scontrol = 0
+    if checkProvincesStates(iPlayer,provinceID):
+        bcontrol = True
+        scontrol = 100
+
     if provinceID in UHVProvinceList:
-        tList.append(1)
+        val = int(1+scontrol)
+        tList.append(val)
 
     if provinceID in UHVProvinceList2:
-        tList.append(2)
+        val = int(2+scontrol)
+        tList.append(val)
 
     if provinceID in UHVProvinceList3:
-        tList.append(3)
+        val = int(3+scontrol)
+        tList.append(val)
 
     return tList
     pass

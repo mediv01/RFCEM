@@ -2340,6 +2340,7 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 					pSelectedUnitNode = gDLL->getInterfaceIFace()->nextSelectionListNode(pSelectedUnitNode);
 				}
 			}
+			// 大工程师
 			else if (GC.getActionInfo(widgetDataStruct.m_iData1).getMissionType() == MISSION_HURRY)
 			{
 				if (pMissionCity != NULL)
@@ -2376,6 +2377,8 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 								{
 									szBuffer.append(NEWLINE);
 									szBuffer.append(gDLL->getText("TXT_KEY_ACTION_FINISH_CONSTRUCTION", pcKey));
+									szTempBuffer.Format(SETCOLR L"总加速产能: %d   剩余加速产能: %d" ENDCOLR, TEXT_COLOR("COLOR_TECH_TEXT"), pSelectedUnit->getHurryProduction(pMissionPlot), (pSelectedUnit->getHurryProduction(pMissionPlot) - pMissionCity->productionLeft()));
+									szBuffer.append(szTempBuffer);
 								}
 								else
 								{

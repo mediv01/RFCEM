@@ -1651,7 +1651,7 @@ DenialTypes CvTeamAI::AI_techTrade(TechTypes eTech, TeamTypes eTeam) const
 	FAssertMsg(eTeam != getID(), "shouldn't call this function on ourselves");
 	
 	
-	if (GC.getDefineINT("CVPLAYERAI_CAN_ALWAYS_TRADE_TECH") == 1 && GET_TEAM(eTeam).isHuman()) {
+	if ((GC.getDefineINT("CVPLAYERAI_CAN_ALWAYS_TRADE_TECH") == 1) && (isHuman() || GET_TEAM(eTeam).isHuman())) {
 		return NO_DENIAL;
 	}
 	//Rhye
@@ -2684,7 +2684,7 @@ DenialTypes CvTeamAI::AI_declareWarTrade(TeamTypes eWarTeam, TeamTypes eTeam, bo
 	FAssertMsg(!isAtWar(eWarTeam), "should be at peace with eWarTeam");
 
 	if (GC.getDefineINT("CVTEAMAI_CAN_ALWAYS_TRADE_WAR_WITH_HUMAN") == 1) {
-		if (GET_TEAM(eTeam).isHuman()) {
+		if (GET_TEAM(eTeam).isHuman() || isHuman()) {
 			return NO_DENIAL;
 		}
 	}
@@ -2866,7 +2866,7 @@ DenialTypes CvTeamAI::AI_openBordersTrade(TeamTypes eTeam) const
 
 	if (GC.getDefineINT("PLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS") != 0) { //¿ª±ßÌ¬¶È¸£Àû
 		int AttitudeBonus = GC.getDefineINT("PLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS");
-		if (GET_TEAM(eTeam).isHuman()) {
+		if (isHuman()) {
 			if (AttitudeBonus >= 5) {
 				AttitudeBonus = 5;
 			}

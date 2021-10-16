@@ -2239,6 +2239,11 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 	//mediv01 地块详细信息显示
 	if ( (iProvince >-1) && (iProvince<MAX_NUM_PROVINCES) ){
 		
+
+
+
+
+
 		if (GC.getDefineINT("CVGAMETEXT_SHOW_ENERMY_AREA") == 1) {
 			TeamTypes eTeam = pPlot->getTeam();
 			bool enermy = (atWar(GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getTeam(), eTeam));
@@ -2391,23 +2396,26 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 			gDLL->getPythonIFace()->callFunction(PYGameModule, "SearchUHVProvince", argsList.makeFunctionArgs(), &pIntList1);
 			int uhvsize = pIntList1.size();
 			
-			if (uhvsize> 0) {
+
 				
-				if (uhvsize == 0) {
-					szTempBuffer.Format(SETCOLR L" （UHV省份）" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"));
+			if (uhvsize >=1) {
+
+				for (int i = 1; i <= (int)(pIntList1.size()); i++) {
+					int UHVNum = pIntList1[i - 1];
+					if (UHVNum >= 100) {
+						UHVNum = UHVNum - 100;
+						szTempBuffer.Format(SETCOLR L" （UHV%d省份）" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_GREEN"), UHVNum);
+					}
+					else {
+						szTempBuffer.Format(SETCOLR L" （UHV%d省份）" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"), UHVNum);
+					}
+						
+					
 					szString.append(szTempBuffer);
 				}
-
-				else if (uhvsize >=1) {
-
-					for (int i = 1; i <= (int)(pIntList1.size()); i++) {
-						int UHVNum = pIntList1[i - 1];
-						szTempBuffer.Format(SETCOLR L" （UHV%d省份）" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"), UHVNum);
-						szString.append(szTempBuffer);
-					}
-				}
-
 			}
+
+			
 
 
 
