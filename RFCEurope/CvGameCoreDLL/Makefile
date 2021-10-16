@@ -124,8 +124,8 @@ PROJECT_CFLAGS = $(PROJECT_CFLAGS) /DCYBERFRONT
 !ENDIF
 #Debug_SAFE_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /MDd /Od /RTC1 /D_DEBUG /Fp"$(Debug_PCH)" /Fd"$(Debug_PDB)" $(Debug_MOD_CFLAGS)
 Debug_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /Zi /MDd /Od /RTC1 /D_DEBUG /Fp"$(Debug_PCH)" /Fd"$(Debug_PDB)" $(Debug_MOD_CFLAGS)
-Release_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /MD /O2 /DNDEBUG /DFINAL_RELEASE /Fp"$(Release_PCH)" /Fd"$(Release_PDB)" $(Release_MOD_CFLAGS)
-Final_Release_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /MD /O2 /DNDEBUG /DFINAL_RELEASE /Fp"$(Final_Release_PCH)" /Fd"$(Final_Release_PDB)" $(Final_Release_MOD_CFLAGS)
+Release_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /MP4 /MD /O2 /DNDEBUG /DFINAL_RELEASE /Fp"$(Release_PCH)" /Fd"$(Release_PDB)" $(Release_MOD_CFLAGS)
+Final_Release_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /MP4 /MD /O2 /DNDEBUG /DFINAL_RELEASE /Fp"$(Final_Release_PCH)" /Fd"$(Final_Release_PDB)" $(Final_Release_MOD_CFLAGS)
 
 #### LDFLAGS ####
 ## Targets linker flags
