@@ -189,7 +189,13 @@
         <iDefineIntVal>1</iDefineIntVal>
     </Define>
 
-
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_COLOR_WHEN_HAVE_RESOURCE</DefineName>        <!-- 1为在建筑帮助文字用颜色显示是否拥有当前资源  0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	
+	
 
     <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DLL !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <Define>

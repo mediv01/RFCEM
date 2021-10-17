@@ -7,6 +7,15 @@
 
 #include "CvDefines.h"
 
+
+enum CvGameTextColorTypr {
+	COLOR_HIGHLIGHT_TEXT,
+	COLOR_PLAYER_RED_TEXT,
+	COLOR_PLAYER_YELLOW,
+	COLOR_PLAYER_WHITE
+
+};
+
 enum GameStateTypes					// Exposed to Python
 {
 	GAMESTATE_ON,

@@ -8218,14 +8218,55 @@ void CvGameTextMgr::setBuildingHelp(CvWStringBuffer &szBuffer, BuildingTypes eBu
 
 	for (iI = 0; iI < GC.getNumBonusInfos(); ++iI)
 	{
-		szFirstBuffer = gDLL->getText("TXT_KEY_BUILDING_WITH_BONUS", GC.getBonusInfo((BonusTypes) iI).getTextKeyWide());
-		setYieldChangeHelp(szBuffer, L"", L"", szFirstBuffer, kBuilding.getBonusYieldModifierArray(iI), true);
+		bool hasResourceFlag = false;
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_COLOR_WHEN_HAVE_RESOURCE") > 0  && pCity !=NULL) {
+			if (pCity->hasBonus((BonusTypes)iI)) {
+				hasResourceFlag = true;
+			}
+
+		}
+
+		if (hasResourceFlag) {
+
+			szFirstBuffer.Format(SETCOLR L"%s" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"), gDLL->getText("TXT_KEY_BUILDING_WITH_BONUS", GC.getBonusInfo((BonusTypes)iI).getTextKeyWide()).c_str());
+		}
+		else {
+			szFirstBuffer = gDLL->getText("TXT_KEY_BUILDING_WITH_BONUS", GC.getBonusInfo((BonusTypes) iI).getTextKeyWide());
+		}
+
+		if ((GC.getDefineINT("CVGAMETEXT_SHOW_REAL_YIELD_PROMOTE_IN_BUILDING") > 0) && !bCivilopediaText && (NULL != pCity)) {
+			setYieldChangeHelpByCity(pCity,szBuffer, L"", L"", szFirstBuffer, kBuilding.getBonusYieldModifierArray(iI), true);
+		}
+		else {
+
+			setYieldChangeHelp(szBuffer, L"", L"", szFirstBuffer, kBuilding.getBonusYieldModifierArray(iI), true);
+		}
+
+		
 	}
 
 	//BCM: Added 21.9.09
 	for (iI = 0; iI < GC.getNumBonusInfos(); ++iI)
 	{
-		szFirstBuffer = gDLL->getText("TXT_KEY_BUILDING_WITH_BONUS", GC.getBonusInfo((BonusTypes) iI).getTextKeyWide());
+		bool hasResourceFlag = false;
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_COLOR_WHEN_HAVE_RESOURCE") > 0 && pCity != NULL) {
+			if (pCity->hasBonus((BonusTypes)iI)) {
+				hasResourceFlag = true;
+			}
+
+		}
+
+		if (hasResourceFlag) {
+
+			szFirstBuffer.Format(SETCOLR L"%s" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"), gDLL->getText("TXT_KEY_BUILDING_WITH_BONUS", GC.getBonusInfo((BonusTypes)iI).getTextKeyWide()).c_str());
+		}
+		else {
+			szFirstBuffer = gDLL->getText("TXT_KEY_BUILDING_WITH_BONUS", GC.getBonusInfo((BonusTypes)iI).getTextKeyWide());
+		}
+
+
+
+		
 		setCommerceChangeHelp(szBuffer, L"", L"", szFirstBuffer, kBuilding.getBonusCommerceModifierArray(iI), true);
 	}
 	//BCM: End
@@ -10075,7 +10116,7 @@ void CvGameTextMgr::setYieldChangeHelpByCity(CvCity* pCity, CvWStringBuffer& szB
 
 			if (bPercent) {
 				float iCommerceGoldMax =((float) pCity->getYieldRate((YieldTypes)iI)) *(float) piYieldChange[iI] / 100;
-				szTempBuffer += CvWString::format(L"(ÌáÉý£º%.2f %c)", iCommerceGoldMax, GC.getYieldInfo((YieldTypes)iI).getChar());
+				szTempBuffer += CvWString::format(L"(%.2f %c)", iCommerceGoldMax, GC.getYieldInfo((YieldTypes)iI).getChar());
 			}
 
 			szBuffer.append(szTempBuffer);
@@ -10152,7 +10193,7 @@ void CvGameTextMgr::setCommerceChangeHelpByCity(CvCity* pCity, CvWStringBuffer& 
 			}
 			if (bPercent) {
 				float iCommerceGoldMax = ((float)pCity->getYieldRate((YieldTypes)YIELD_COMMERCE))* (float)piCommerceChange[iI]/100;
-				szTempBuffer += CvWString::format(L"(×î´ó£º%.2f %c)",iCommerceGoldMax, GC.getCommerceInfo((CommerceTypes)iI).getChar());
+				szTempBuffer += CvWString::format(L"(Max£º%.2f %c)",iCommerceGoldMax, GC.getCommerceInfo((CommerceTypes)iI).getChar());
 			}
 			szBuffer.append(szTempBuffer);
 
