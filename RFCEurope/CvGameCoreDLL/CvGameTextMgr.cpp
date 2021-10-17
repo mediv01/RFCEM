@@ -7605,8 +7605,14 @@ void CvGameTextMgr::setBuildingHelp(CvWStringBuffer &szBuffer, BuildingTypes eBu
 		}
 		setCommerceChangeHelp(szBuffer, L", ", L"", L"", aiCommerces, false, false);
 
-		setYieldChangeHelp(szBuffer, L", ", L"", L"", kBuilding.getYieldModifierArray(), true, bCivilopediaText);
-
+		
+		if ((GC.getDefineINT("CVGAMETEXT_SHOW_REAL_YIELD_PROMOTE_IN_BUILDING") > 0) && !bCivilopediaText && (NULL != pCity)) {
+			setYieldChangeHelpByCity(pCity, szBuffer, L", ", L"", L"", kBuilding.getYieldModifierArray(), true, bCivilopediaText);
+		}
+		else {
+			
+			setYieldChangeHelp(szBuffer, L", ", L"", L"", kBuilding.getYieldModifierArray(), true, bCivilopediaText);
+		}
 
 
 		if ((GC.getDefineINT("CVGAMETEXT_SHOW_REAL_COMMERCE_PROMOTE_IN_BUILDING") > 0) && !bCivilopediaText && (NULL != pCity)) {
@@ -10030,6 +10036,60 @@ void CvGameTextMgr::setYieldChangeHelp(CvWStringBuffer &szBuffer, const CvWStrin
 	}
 }
 
+
+void CvGameTextMgr::setYieldChangeHelpByCity(CvCity* pCity, CvWStringBuffer& szBuffer, const CvWString& szStart, const CvWString& szSpace, const CvWString& szEnd, const int* piYieldChange, bool bPercent, bool bNewLine)
+{
+	CvWString szTempBuffer;
+	bool bStarted;
+	int iI;
+
+	bStarted = false;
+
+	for (iI = 0; iI < NUM_YIELD_TYPES; ++iI)
+	{
+		if (piYieldChange[iI] != 0)
+		{
+			if (!bStarted)
+			{
+				if (bNewLine)
+				{
+					szTempBuffer.Format(L"\n%c", gDLL->getSymbolID(BULLET_CHAR));
+				}
+				szTempBuffer += CvWString::format(L"%s%s%s%d%s%c",
+					szStart.GetCString(),
+					szSpace.GetCString(),
+					piYieldChange[iI] > 0 ? L"+" : L"",
+					piYieldChange[iI],
+					bPercent ? L"%" : L"",
+					GC.getYieldInfo((YieldTypes)iI).getChar());
+			}
+			else
+			{
+				szTempBuffer.Format(L", %s%d%s%c",
+					piYieldChange[iI] > 0 ? L"+" : L"",
+					piYieldChange[iI],
+					bPercent ? L"%" : L"",
+					GC.getYieldInfo((YieldTypes)iI).getChar());
+			}
+
+
+			if (bPercent) {
+				float iCommerceGoldMax =((float) pCity->getYieldRate((YieldTypes)iI)) *(float) piYieldChange[iI] / 100;
+				szTempBuffer += CvWString::format(L"(提升：%.2f %c)", iCommerceGoldMax, GC.getYieldInfo((YieldTypes)iI).getChar());
+			}
+
+			szBuffer.append(szTempBuffer);
+
+			bStarted = true;
+		}
+	}
+
+	if (bStarted)
+	{
+		szBuffer.append(szEnd);
+	}
+}
+
 void CvGameTextMgr::setCommerceChangeHelp(CvWStringBuffer &szBuffer, const CvWString& szStart, const CvWString& szSpace, const CvWString& szEnd, const int* piCommerceChange, bool bPercent, bool bNewLine)
 {
 	CvWString szTempBuffer;
@@ -10091,8 +10151,8 @@ void CvGameTextMgr::setCommerceChangeHelpByCity(CvCity* pCity, CvWStringBuffer& 
 				szTempBuffer.Format(L", %s%d%s%c", ((piCommerceChange[iI] > 0) ? L"+" : L""), piCommerceChange[iI], ((bPercent) ? L"%" : L""), GC.getCommerceInfo((CommerceTypes)iI).getChar());
 			}
 			if (bPercent) {
-				int iCommerceGoldMax = pCity->getYieldRate((YieldTypes)YIELD_COMMERCE)* piCommerceChange[iI]/100;
-				szTempBuffer += CvWString::format(L"(最大：%d %c)",iCommerceGoldMax, GC.getCommerceInfo((CommerceTypes)iI).getChar());
+				float iCommerceGoldMax = ((float)pCity->getYieldRate((YieldTypes)YIELD_COMMERCE))* (float)piCommerceChange[iI]/100;
+				szTempBuffer += CvWString::format(L"(最大：%.2f %c)",iCommerceGoldMax, GC.getCommerceInfo((CommerceTypes)iI).getChar());
 			}
 			szBuffer.append(szTempBuffer);
 
