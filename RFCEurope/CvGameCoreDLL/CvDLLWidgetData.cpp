@@ -2955,6 +2955,24 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 					}
 				}
 			}
+			else if (GC.getActionInfo(widgetDataStruct.m_iData1).getCommandType() == COMMAND_DELETE) {
+				szBuffer.append(NEWLINE);
+				if (GC.getDefineINT("CVUNIT_DISBAND_CAN_GIVE_GOLD") == 1) {//mediv01 解散单位获得收入
+					pSelectedUnitNode = gDLL->getInterfaceIFace()->headSelectionListNode();
+					pSelectedUnit = ::getUnit(pSelectedUnitNode->m_data);
+					int money = pSelectedUnit->getUnitInfo().getProductionCost() * GC.getDefineINT("CVUNIT_DISBAND_GIVE_GOLD_PERCENT") / 100;
+					if (GC.getDefineINT("CVUNIT_DISBAND_GIVE_GOLD") > 0) {
+						money = GC.getDefineINT("CVUNIT_DISBAND_GIVE_GOLD");
+					}
+
+					szBuffer.append(CvWString::format(L"解散单位获得"));
+					szBuffer.append(CvWString::format(SETCOLR L" %d %c" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_BLUE"),money, GC.getCommerceInfo((CommerceTypes)COMMERCE_GOLD).getChar()));
+
+				}
+			}
+
+			
+
 
 			if (GC.getCommandInfo((CommandTypes)(GC.getActionInfo(widgetDataStruct.m_iData1).getCommandType())).getAll())
 			{
