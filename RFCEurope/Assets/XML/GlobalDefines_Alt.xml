@@ -178,6 +178,11 @@
         <DefineName>CVGAMETEXT_SHOW_UHV_PROVINCE</DefineName>        <!-- 1为显示省份是否为玩家的UHV   0为默认模式 mediv01 -->
         <iDefineIntVal>1</iDefineIntVal>
     </Define>
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_REAL_COMMERCE_PROMOTE_IN_BUILDING</DefineName>        <!-- 1为在建筑帮助文字显示建筑对城市产量金币的提升  0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
 
 
 

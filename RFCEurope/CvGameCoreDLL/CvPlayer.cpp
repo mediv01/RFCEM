@@ -5858,7 +5858,13 @@ bool CvPlayer::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestV
 
 	if (currentTeam.isObsoleteBuilding(eBuilding))
 	{
-		return false;
+		// 建筑不过期
+		if (GC.getDefineINT("PLOT_CITY_BUILDING_NO_OBSOLUTE") == 1) {
+
+		}
+		else {
+			return false;
+		}
 	}
 
 	if (GC.getBuildingInfo(eBuilding).getSpecialBuildingType() != NO_SPECIALBUILDING)

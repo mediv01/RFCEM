@@ -38,6 +38,12 @@ public:
 	DllExport CvGameTextMgr();
 	DllExport virtual ~CvGameTextMgr();
 
+
+	// mediv01 
+	void setCommerceChangeHelpByCity(CvCity* pCity, CvWStringBuffer& szBuffer, const CvWString& szStart, const CvWString& szSpace, const CvWString& szEnd, const int* piCommerceChange, bool bPercent = false, bool bNewLine = true);
+
+
+
 	DllExport void Initialize();
 	DllExport void DeInitialize();
 	DllExport void Reset();
