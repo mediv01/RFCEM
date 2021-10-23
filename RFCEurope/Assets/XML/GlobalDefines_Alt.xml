@@ -435,9 +435,29 @@
         <DefineName>CVPLAYER_GOLEN_AGE_UNIT_REQUIRED</DefineName>        <!-- 大于0的数字为黄金时代烧伟人的数量为固定数量限制，例如数字1表示开启黄金时代固定烧1个伟人 0为默认模式， mediv01  2021年8月版本新增内容 -->
         <iDefineIntVal>0</iDefineIntVal>
     </Define>	
+	
+	
+	<Define>
+        <DefineName>CVCITY_CAN_ALWAYS_LIBERATE_CITY</DefineName>        <!-- 大于0的数字为可以随时让自己的城市独立 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+
+	<Define>
+        <DefineName>CVUNIT_CAN_ALWAYS_SPREAD_RELIGION_IN_OTHER_COUNTRY_FOR_HUMAN</DefineName>        <!-- 大于0的数字为人类玩家的传教士可以不开边就进入其他国家传教 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
 
 
-
+	<Define>
+        <DefineName>CVCITY_RELIGION_SPREAD_MULTIPLIER</DefineName>        <!-- 大于0的数字为人类玩家国教的宗教传播速度乘数  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1000</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVCITY_RELIGION_SPREAD_HUMAN_RELIGION_PROB</DefineName>        <!-- 大于0的数字为所有的AI城市都有概率传播人类玩家的国家 数字为百分比概率   0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>2</iDefineIntVal>
+    </Define>	
+	
     <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DLL 平衡性选项 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 	
 	<Define>

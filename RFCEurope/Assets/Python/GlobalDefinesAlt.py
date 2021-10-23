@@ -68,10 +68,11 @@ PY_STABILITY_HUMAN_NO_COLLAPSE = 1
 PY_tStabilityPenalty_ENABLE = 1
 # province type: unstable, border, potential, historic, core    默认是 ( -5, -2, 0, 0, 0 )
 PY_tStabilityPenalty = (-2, -1, 0, 1, 2)
+PY_tStabilityPenalty = (2, 1, 0, 1, 2)
 
 
 # <!--mediv01 新增，一档难度对人类玩家稳定度的加成 6为默认模式-->  #mediv01 曾经是6
-PY_STABILITY_BONOUS_FOR_H1 = 20
+PY_STABILITY_BONOUS_FOR_H1 = 60
 
 # <!--mediv01 新增，二档难度对人类玩家稳定度的加成 2为默认模式-->  #mediv01 曾经是2
 PY_STABILITY_BONOUS_FOR_H2 = 2

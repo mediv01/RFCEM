@@ -2269,6 +2269,26 @@ bool CvUnit::canEnterTerritory(TeamTypes eTeam, bool bIgnoreRightOfPassage) cons
 		return true;
 	}
 
+
+	if (GC.getDefineINT("CVUNIT_CAN_ALWAYS_SPREAD_RELIGION_IN_OTHER_COUNTRY_FOR_HUMAN") > 0) {
+
+		bool bReligionUnit = false;
+		for (int iI = 0; iI < GC.getNumReligionInfos(); ++iI)
+		{
+			if (m_pUnitInfo->getReligionSpreads(iI) > 0)
+			{
+				bReligionUnit = true;
+			}
+		}
+
+		PlayerTypes iOwner = getOwner();
+		if (GC.getHumanID() == iOwner) {
+			if (bReligionUnit) {
+				return true;
+			}
+		}
+	}
+
 	//GC.getGame().logMsg("  Pass 1 " );
 	if (eTeam == NO_TEAM)
 	{

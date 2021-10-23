@@ -12557,6 +12557,12 @@ void CvCity::doReligion()
 							}
 						}
 					}
+					// 宗教传播乘数
+					if (GC.getDefineINT("CVCITY_RELIGION_SPREAD_MULTIPLIER")>0) {
+						if (iI == GET_PLAYER(getOwnerINLINE()).getStateReligion()) {
+							iRandThreshold = iRandThreshold * GC.getDefineINT("CVCITY_RELIGION_SPREAD_MULTIPLIER");
+						}
+					}
 
 					if (GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("RELIGION_SPREAD_RAND"), "Religion Spread") < iRandThreshold)
 					{
@@ -12566,6 +12572,28 @@ void CvCity::doReligion()
 				}
 			}
 		}
+	}
+
+	if (GC.getDefineINT("CVCITY_RELIGION_SPREAD_HUMAN_RELIGION_PROB") > 0) {
+		for (iI = 0; iI < GC.getNumReligionInfos(); iI++)
+		{
+			if (!isHasReligion((ReligionTypes)iI))
+			{
+				if (!(GET_PLAYER(getOwnerINLINE()).isNoNonStateReligionSpread())) {
+					if ((iI == GET_PLAYER(GC.getHumanID()).getStateReligion()))
+					{
+						int iRandThreshold2 = 0;
+						iRandThreshold2 = GC.getDefineINT("CVCITY_RELIGION_SPREAD_HUMAN_RELIGION_PROB");
+						if (GC.getGameINLINE().getSorenRandNum(100, "Religion Spread") < iRandThreshold2)
+						{
+							setHasReligion(((ReligionTypes)iI), true, true, true);
+							break;
+						}
+					}
+				}
+			}
+		}
+
 	}
 }
 
@@ -14409,7 +14437,7 @@ PlayerTypes CvCity::getLiberationPlayer(bool bConquest) const
 {
 
 	if (GC.getDefineINT("CITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER") == 1) {
-		return NO_PLAYER;
+		return (PlayerTypes)(NUM_MAJOR_PLAYERS);
 		//mediv01            
 		//检测CITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER，解放城市是否一定给独立城邦
 	}
