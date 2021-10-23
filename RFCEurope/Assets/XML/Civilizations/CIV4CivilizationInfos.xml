@@ -21227,9 +21227,9 @@
 		</CivilizationInfo>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_INDEPENDENT</Type>
-			<Description>TXT_KEY_CIV_INDEPENDENT_DESC</Description>
-			<ShortDescription>TXT_KEY_CIV_INDEPENDENT_SHORT_DESC</ShortDescription>
-			<Adjective>TXT_KEY_CIV_INDEPENDENT_ADJECTIVE</Adjective>
+			<Description>TXT_KEY_CIV_INDEPENDENT_DESC1</Description>
+			<ShortDescription>TXT_KEY_CIV_INDEPENDENT_DESC1</ShortDescription>
+			<Adjective>TXT_KEY_CIV_INDEPENDENT_DESC1</Adjective>
 			<Civilopedia>TXT_KEY_CIV_INDEPENDENT_PEDIA</Civilopedia>
 			<StartingYear>500AD</StartingYear>
 			<LoadingTime500>0</LoadingTime500>
@@ -21319,9 +21319,9 @@
 		</CivilizationInfo>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_INDEPENDENT2</Type>
-			<Description>TXT_KEY_CIV_INDEPENDENT_DESC</Description>
-			<ShortDescription>TXT_KEY_CIV_INDEPENDENT_SHORT_DESC</ShortDescription>
-			<Adjective>TXT_KEY_CIV_INDEPENDENT_ADJECTIVE</Adjective>
+			<Description>TXT_KEY_CIV_INDEPENDENT_DESC2</Description>
+			<ShortDescription>TXT_KEY_CIV_INDEPENDENT_DESC2</ShortDescription>
+			<Adjective>TXT_KEY_CIV_INDEPENDENT_DESC2</Adjective>
 			<Civilopedia>TXT_KEY_CIV_INDEPENDENT_PEDIA</Civilopedia>
 			<StartingYear>500AD</StartingYear>
 			<LoadingTime500>0</LoadingTime500>
@@ -21411,9 +21411,9 @@
 		</CivilizationInfo>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_INDEPENDENT3</Type>
-			<Description>TXT_KEY_CIV_INDEPENDENT_DESC</Description>
-			<ShortDescription>TXT_KEY_CIV_INDEPENDENT_SHORT_DESC</ShortDescription>
-			<Adjective>TXT_KEY_CIV_INDEPENDENT_ADJECTIVE</Adjective>
+			<Description>TXT_KEY_CIV_INDEPENDENT_DESC3</Description>
+			<ShortDescription>TXT_KEY_CIV_INDEPENDENT_DESC3</ShortDescription>
+			<Adjective>TXT_KEY_CIV_INDEPENDENT_DESC3</Adjective>
 			<Civilopedia>TXT_KEY_CIV_INDEPENDENT_PEDIA</Civilopedia>
 			<StartingYear>500AD</StartingYear>
 			<LoadingTime500>0</LoadingTime500>
@@ -21503,9 +21503,9 @@
 		</CivilizationInfo>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_INDEPENDENT4</Type>
-			<Description>TXT_KEY_CIV_INDEPENDENT_DESC</Description>
-			<ShortDescription>TXT_KEY_CIV_INDEPENDENT_SHORT_DESC</ShortDescription>
-			<Adjective>TXT_KEY_CIV_INDEPENDENT_ADJECTIVE</Adjective>
+			<Description>TXT_KEY_CIV_INDEPENDENT_DESC4</Description>
+			<ShortDescription>TXT_KEY_CIV_INDEPENDENT_DESC4</ShortDescription>
+			<Adjective>TXT_KEY_CIV_INDEPENDENT_DESC4</Adjective>
 			<Civilopedia>TXT_KEY_CIV_INDEPENDENT_PEDIA</Civilopedia>
 			<StartingYear>500AD</StartingYear>
 			<LoadingTime500>0</LoadingTime500>

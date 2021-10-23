@@ -1292,6 +1292,42 @@
     <L4/>
     <Chinese>独立城邦</Chinese>
   </TEXT>
+    <TEXT>
+    <Tag>TXT_KEY_CIV_INDEPENDENT_DESC1</Tag>
+    <English>Independent Cities</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>独立城邦1</Chinese>
+  </TEXT>
+    <TEXT>
+    <Tag>TXT_KEY_CIV_INDEPENDENT_DESC2</Tag>
+    <English>Independent Cities</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>独立城邦2</Chinese>
+  </TEXT>
+    <TEXT>
+    <Tag>TXT_KEY_CIV_INDEPENDENT_DESC3</Tag>
+    <English>Independent Cities</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>独立城邦3</Chinese>
+  </TEXT>
+    <TEXT>
+    <Tag>TXT_KEY_CIV_INDEPENDENT_DESC4</Tag>
+    <English>Independent Cities</English>
+    <L1/>
+    <L2/>
+    <L3/>
+    <L4/>
+    <Chinese>独立城邦4</Chinese>
+  </TEXT>
   <TEXT>
     <Tag>TXT_KEY_CIV_INDEPENDENT_SHORT_DESC</Tag>
     <English>Independents</English>
