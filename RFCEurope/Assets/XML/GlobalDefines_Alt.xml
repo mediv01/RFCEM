@@ -547,7 +547,7 @@
 
     <Define>
         <DefineName>CVPLYER_CAN_DO_ESPIONAGE_POINT_BONUS_FOR_AI</DefineName>        <!-- 0为只有人类才享受执行谍报任务加成，用于查看其他国家的信息 0为默认模式 mediv01 -->
-        <iDefineIntVal>1</iDefineIntVal>
+        <iDefineIntVal>0</iDefineIntVal>
     </Define>
 
 
@@ -558,8 +558,118 @@
 
     <Define>
         <DefineName>CVPLYER_GET_ESPIONAGE_POINT_BONUS_FOR_AI</DefineName>        <!-- 0为只有人类才享受谍报加成 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+
+
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN</DefineName>        <!-- 大于0的数字表明AI不会发起请求帮助的交易  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_CANCEAL_VASSAL</DefineName>        <!-- 大于0的数字表明AI不会发起取消附庸  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_CANCEAL_DEAL</DefineName>        <!-- 大于0的数字表明AI不会发起取消交易  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_OFFER_DEAL</DefineName>        <!-- 大于0的数字表明AI不会发起提起交易  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_OFFER_VASSAL</DefineName>        <!-- 大于0的数字表明AI不会发起提起附庸  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_RELIGION_PRESSURE</DefineName>        <!-- 大于0的数字表明AI不会发起提起宗教交易  0为默认模式， mediv01  2021年8月版本新增内容 -->
         <iDefineIntVal>1</iDefineIntVal>
     </Define>
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_CIVICS_PRESSURE</DefineName>        <!-- 大于0的数字表明AI不会发起提起政策交易  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_JOIN_WAR</DefineName>        <!-- 大于0的数字表明AI不会发起提起加入战争交易  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_STOP_TRADING</DefineName>        <!-- 大于0的数字表明AI不会发起停止交易交易  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_GIVE_HELP</DefineName>        <!-- 大于0的数字表明AI不会发起给予帮助交易  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_ASK_FOR_HELP</DefineName>        <!-- 大于0的数字表明AI不会发起给予要求帮助交易  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_DEMAND_TRIBUTE</DefineName>        <!-- 大于0的数字表明AI不会发起给予要求进贡  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_OPEN_BORDER</DefineName>        <!-- 大于0的数字表明AI不会发起开边请求 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_DEFENSIVE_PACT</DefineName>        <!-- 大于0的数字表明AI不会发起防御协定请求 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_TRADE_TECH</DefineName>        <!-- 大于0的数字表明AI不会发起科技交易请求 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_TRADE_BONUS</DefineName>        <!-- 大于0的数字表明AI不会发起资源交易请求 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_TRADE_MAP</DefineName>        <!-- 大于0的数字表明AI不会发起地图交易请求 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+	
+	
+	
+
 	
     <Define>
         <DefineName>CVPLAYERAI_CAN_TRADE_GOLD_UNLIMITED</DefineName>        <!-- 1为AI交易金币无限制，可以交易国库中所有的金币 0为默认模式 mediv01 -->
@@ -606,10 +716,6 @@
         <iDefineIntVal>100</iDefineIntVal>
     </Define>	
 	
-    <Define>
-        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN</DefineName>        <!-- 大于0的数字表明AI不会发起请求帮助的交易  0为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>1</iDefineIntVal>
-    </Define>	
 	
     <Define>
         <DefineName>CVCITY_FIX_GENERATE_GREAT_PEOPLE</DefineName>        <!-- 大于0的数字为产生固定类型的伟人 1为大预言家 2为大艺术家 3为大科学家 4为大商业家  5为大工程师 6为大间谍 0为默认模式 mediv01 -->

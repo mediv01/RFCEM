@@ -12806,7 +12806,7 @@ void CvPlayerAI::AI_doDiplo()
 
 													if (pLoopDeal->isVassalDeal())
 													{
-														if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+														if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_CANCEAL_VASSAL") > 0) {
 															continue;
 														}
 														pDiplo->setDiploComment((DiploCommentTypes)GC.getInfoTypeForString("AI_DIPLOCOMMENT_NO_VASSAL"));
@@ -12816,7 +12816,7 @@ void CvPlayerAI::AI_doDiplo()
 													}
 													else
 													{
-														if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+														if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_CANCEAL_DEAL") > 0) {
 															continue;
 														}
 														pDiplo->setDiploComment((DiploCommentTypes)GC.getInfoTypeForString("AI_DIPLOCOMMENT_CANCEL_DEAL"));
@@ -13084,7 +13084,7 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
-															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_OFFER_DEAL") > 0) {
 																continue;
 															}
 
@@ -13122,7 +13122,7 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
-															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_OFFER_VASSAL") > 0) {
 																continue;
 															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_PERMANENT_ALLIANCE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_PERMANENT_ALLIANCE));
@@ -13177,7 +13177,7 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
-															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_RELIGION_PRESSURE") > 0) {
 																continue;
 															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_RELIGION_PRESSURE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_RELIGION_PRESSURE));
@@ -13212,7 +13212,7 @@ void CvPlayerAI::AI_doDiplo()
 															{
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
-																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_CIVICS_PRESSURE") > 0) {
 																		continue;
 																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_CIVIC_PRESSURE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_CIVIC_PRESSURE));
@@ -13270,7 +13270,7 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
-															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_JOIN_WAR") > 0) {
 																continue;
 															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_JOIN_WAR, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_JOIN_WAR));
@@ -13305,7 +13305,7 @@ void CvPlayerAI::AI_doDiplo()
 
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
-															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_STOP_TRADING") > 0) {
 																continue;
 															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_STOP_TRADING, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_STOP_TRADING));
@@ -13363,7 +13363,7 @@ void CvPlayerAI::AI_doDiplo()
 
 															if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 															{
-																if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_GIVE_HELP") > 0) {
 																	continue;
 																}
 																AI_changeContactTimer(((PlayerTypes)iI), CONTACT_GIVE_HELP, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_GIVE_HELP));
@@ -13418,7 +13418,7 @@ void CvPlayerAI::AI_doDiplo()
 
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
-															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_ASK_FOR_HELP") > 0) {
 																continue;
 															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_ASK_FOR_HELP, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_ASK_FOR_HELP));
@@ -13474,7 +13474,7 @@ void CvPlayerAI::AI_doDiplo()
 
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
-																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_DEMAND_TRIBUTE") > 0) {
 																		continue;
 																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEMAND_TRIBUTE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEMAND_TRIBUTE));
@@ -13528,7 +13528,7 @@ void CvPlayerAI::AI_doDiplo()
 
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
-																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_DEMAND_TRIBUTE") > 0) {
 																		continue;
 																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEMAND_TRIBUTE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEMAND_TRIBUTE));
@@ -13604,7 +13604,7 @@ void CvPlayerAI::AI_doDiplo()
 
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
-																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_DEMAND_TRIBUTE") > 0) {
 																		continue;
 																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEMAND_TRIBUTE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEMAND_TRIBUTE));
@@ -13683,7 +13683,7 @@ void CvPlayerAI::AI_doDiplo()
 
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
-																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_DEMAND_TRIBUTE") > 0) {
 																		continue;
 																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEMAND_TRIBUTE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEMAND_TRIBUTE));
@@ -13723,7 +13723,7 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
-															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_OPEN_BORDER") > 0) {
 																continue;
 															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_OPEN_BORDERS, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_OPEN_BORDERS));
@@ -13766,7 +13766,7 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
-															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_DEFENSIVE_PACT") > 0) {
 																continue;
 															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEFENSIVE_PACT, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEFENSIVE_PACT));
@@ -13920,7 +13920,7 @@ void CvPlayerAI::AI_doDiplo()
 															{
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
-																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																	if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_TRADE_TECH") > 0) {
 																		continue;
 																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_TRADE_TECH, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_TRADE_TECH));
@@ -14024,7 +14024,7 @@ void CvPlayerAI::AI_doDiplo()
 														{
 															if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 															{
-																if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+																if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_TRADE_BONUS") > 0) {
 																	continue;
 																}
 																AI_changeContactTimer(((PlayerTypes)iI), CONTACT_TRADE_BONUS, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_TRADE_BONUS));
@@ -14071,7 +14071,7 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
-															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN") > 0) {
+															if (GC.getDefineINT("CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_TRADE_MAP") > 0) {
 																continue;
 															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_TRADE_MAP, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_TRADE_MAP));
