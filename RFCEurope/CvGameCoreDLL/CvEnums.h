@@ -7,6 +7,11 @@
 
 #include "CvDefines.h"
 
+enum RFCECivCountry {
+	Civ_Byzantium, Civ_Frankia, Civ_Arabia, Civ_Bulgaria, Civ_Cordoba, Civ_Venecia, Civ_Burgundy, Civ_Germany, Civ_Novgorod, Civ_Norway,
+	iKiev, Civ_Hungary, Civ_Spain, Civ_Denmark, Civ_Scotland, Civ_Poland, Civ_Genoa, Civ_Morocco, Civ_England, Civ_Portugal,
+	iAragon, Civ_Sweden, Civ_Prussia, Civ_Lithuania, Civ_Austria, Civ_Turkey, Civ_Moscow, Civ_Dutch, Civ_Pope
+};
 
 enum CvGameTextColorTypr {
 	COLOR_HIGHLIGHT_TEXT,

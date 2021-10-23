@@ -454,8 +454,8 @@
     </Define>
 	
 	<Define>
-        <DefineName>CVCITY_RELIGION_SPREAD_HUMAN_RELIGION_PROB</DefineName>        <!-- 大于0的数字为所有的AI城市都有概率传播人类玩家的国家 数字为百分比概率   0为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>2</iDefineIntVal>
+        <DefineName>CVCITY_RELIGION_SPREAD_HUMAN_RELIGION_PROB</DefineName>        <!-- 大于0的数字为所有的AI城市都有概率传播人类玩家的国家 数字为百分比概率   0为默认模式， mediv01  感觉2%属于自然传播概率 2021年8月版本新增内容 -->
+        <iDefineIntVal>3</iDefineIntVal>
     </Define>	
 	
     <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DLL 平衡性选项 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
