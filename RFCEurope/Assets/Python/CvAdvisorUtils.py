@@ -467,6 +467,10 @@ def cityAdvise(pCity, iPlayer):
 	if (pCity.isDisorder()):
 		return
 
+	import GlobalDefinesAlt
+	if(GlobalDefinesAlt.PY_DONNOT_USE_CITY_ADVICE):
+		return
+
 	if (gc.getPlayer(iPlayer).isOption(PlayerOptionTypes.PLAYEROPTION_ADVISOR_POPUPS) and gc.getPlayer(iPlayer).isHuman() and not gc.getGame().isNetworkMultiPlayer()):
 
 		if (gc.getGame().getGameTurn() % 40 == pCity.getGameTurnFounded() % 40):
