@@ -2459,14 +2459,14 @@ bool CvDLLButtonPopup::launchFreeColonyPopup(CvPopup* pPopup, CvPopupInfo &info)
 	{
 		for(CvArea* pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 		{
-			if (GET_PLAYER(ePlayer).canSplitArea(pLoopArea->getID()) || GC.getDefineINT("CVCITY_CAN_ALWAYS_LIBERATE_CITY")>0)
+			if (GET_PLAYER(ePlayer).canSplitArea(pLoopArea->getID()))
 			{
 				CvWString szCityList;
 				int iCityLoop;
 				int iNumCities = 0;
 				for (CvCity* pLoopCity = GET_PLAYER(ePlayer).firstCity(&iCityLoop); pLoopCity != NULL; pLoopCity = GET_PLAYER(ePlayer).nextCity(&iCityLoop))
 				{
-					if (pLoopCity->area()->getID() == pLoopArea->getID() || GC.getDefineINT("CVCITY_CAN_ALWAYS_LIBERATE_CITY") > 0)
+					if (pLoopCity->area()->getID() == pLoopArea->getID())
 					{
 						if (!szCityList.empty())
 						{

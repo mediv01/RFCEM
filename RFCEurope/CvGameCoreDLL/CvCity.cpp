@@ -14446,7 +14446,23 @@ PlayerTypes CvCity::getLiberationPlayer(bool bConquest) const
 {
 
 	if (GC.getDefineINT("CITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER") == 1) {
-		return (PlayerTypes)(NUM_MAJOR_PLAYERS);
+
+		int iRand = GC.getGameINLINE().getSorenRandNum(400, "Religion Spread");
+		int iPlayer = Civ_Independent1;
+		if (iRand <= 100) {
+			// iPlayer = Civ_Independent1;
+		}
+		else if (iRand <= 200) {
+			iPlayer = Civ_Independent2;
+		}
+		else if (iRand <= 300) {
+			iPlayer = Civ_Independent3;
+		}
+		else {
+			iPlayer = Civ_Independent4;
+		}
+
+		return (PlayerTypes)(iPlayer);
 		//mediv01            
 		//检测CITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER，解放城市是否一定给独立城邦
 	}

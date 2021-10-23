@@ -437,10 +437,7 @@
     </Define>	
 	
 	
-	<Define>
-        <DefineName>CVCITY_CAN_ALWAYS_LIBERATE_CITY</DefineName>        <!-- 大于0的数字为可以随时让自己的城市独立 0为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>1</iDefineIntVal>
-    </Define>	
+
 
 	<Define>
         <DefineName>CVUNIT_CAN_ALWAYS_SPREAD_RELIGION_IN_OTHER_COUNTRY_FOR_HUMAN</DefineName>        <!-- 大于0的数字为人类玩家的传教士可以不开边就进入其他国家传教 0为默认模式， mediv01  2021年8月版本新增内容 -->
