@@ -15194,7 +15194,7 @@ bool CvPlayer::doEspionageMission(EspionageMissionTypes eMission, PlayerTypes eT
 			PlayerTypes iOwner = getID();
 			CvWString szBuffer;
 
-			szBuffer.Format(L"%s" SETCOLR L"窃取了%s 的科技" ENDCOLR, GET_PLAYER((PlayerTypes)iOwner).getCivilizationShortDescription(), TEXT_COLOR("COLOR_YELLOW"), GET_PLAYER((PlayerTypes)eTargetPlayer).getCivilizationShortDescription(), GC.getTechInfo((TechTypes)iTech).getDescription());
+			szBuffer.Format(L"%s" SETCOLR L"窃取了%s 的科技 %s" ENDCOLR, GET_PLAYER((PlayerTypes)iOwner).getCivilizationShortDescription(), TEXT_COLOR("COLOR_YELLOW"), GET_PLAYER((PlayerTypes)eTargetPlayer).getCivilizationShortDescription(), GC.getTechInfo((TechTypes)iTech).getDescription());
 			gDLL->getInterfaceIFace()->addMessage(GC.getHumanID(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, NULL, MESSAGE_TYPE_MAJOR_EVENT);
 
 			if (GC.getDefineINT("CVGAMECORE_LOG_AI_Espionage") > 0) {
