@@ -468,11 +468,25 @@
     </Define>
 
 
+	<Define>
+        <DefineName>CVPLAYER_HUMAN_CANNOT_BE_STOLEN_TREASURE</DefineName>        <!-- 大于0的数字为人类不能被盗窃国库 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVPLAYER_HUMAN_CANNOT_BE_STOLEN_TECH</DefineName>        <!-- 大于0的数字为人类不能被盗窃国库 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
 
+	<Define>
+        <DefineName>CVPLAYER_STOLEN_TREASURE_ALERT</DefineName>        <!-- 大于0的数字为盗窃国库时发出提醒 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
 
-
-
-
+	<Define>
+        <DefineName>CVPLAYER_STOLEN_TECH_ALERT</DefineName>        <!-- 大于0的数字为盗窃国库时发出提醒 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
 
 
 	
@@ -827,7 +841,7 @@
 	
 		<Define>
         <DefineName>CVGAMECORE_DLL_LOG</DefineName>        <!-- 1为新增了DLL的LOG函数IO总开关 0为默认模式， mediv01  -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 
 	<Define>
@@ -855,7 +869,11 @@
         <DefineName>CVGAMECORE_LOG_SHOW_CITY_DISAPPEAR_BUILDING</DefineName>        <!-- 1为在DLL记录城市里消失的建筑（劫掠、过时） 0为默认模式， mediv01  -->
         <iDefineIntVal>0</iDefineIntVal>
     </Define>
-	
+
+	<Define>
+        <DefineName>CVGAMECORE_LOG_AI_Espionage</DefineName>        <!-- 1为新增了DLL的LOG函数，记录AI间谍行为 0为默认模式， mediv01  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
 	
 	    <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  调试相关 请勿更改 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 	

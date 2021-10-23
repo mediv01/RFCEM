@@ -1643,7 +1643,8 @@ class RFCUtils:
 				'RFCEM_DLL_Log_Conquest.log',
 				'RFCEM_DLL_Log_AI_TradeCityVal.log',
 				'RFCEM_DLL_Log_AI_BuildCity.log',
-				'RFCEM_DLL_Log_Building_Damage.log'
+				'RFCEM_DLL_Log_Building_Damage.log',
+				'RFCEM_DLL_Log_Espionage.log'
 			]
 
 			for filename in PythonLogList:
