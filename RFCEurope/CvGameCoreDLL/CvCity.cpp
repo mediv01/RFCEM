@@ -12573,8 +12573,10 @@ void CvCity::doReligion()
 			}
 		}
 	}
+	bool bHumanSpread = (GC.getDefineINT("CVCITY_RELIGION_SPREAD_HUMAN_RELIGION_PROB") > 0);
+	bool bHumanArabia = (GC.getDefineINT("CVCITY_RELIGION_SPREAD_HUMAN_RELIGION_PROB_ONLY_FOR_ARABIA") > 0) && GC.getHumanID() == (PlayerTypes)Civ_Arabia;
 
-	if (GC.getDefineINT("CVCITY_RELIGION_SPREAD_HUMAN_RELIGION_PROB") > 0) {
+	if (bHumanSpread || bHumanArabia){
 		for (iI = 0; iI < GC.getNumReligionInfos(); iI++)
 		{
 			if (!isHasReligion((ReligionTypes)iI))
@@ -12583,7 +12585,14 @@ void CvCity::doReligion()
 					if ((iI == GET_PLAYER(GC.getHumanID()).getStateReligion()))
 					{
 						int iRandThreshold2 = 0;
-						iRandThreshold2 = GC.getDefineINT("CVCITY_RELIGION_SPREAD_HUMAN_RELIGION_PROB");
+						if (bHumanSpread) {
+							iRandThreshold2 += GC.getDefineINT("CVCITY_RELIGION_SPREAD_HUMAN_RELIGION_PROB");
+						}
+
+						if (bHumanArabia) {
+							iRandThreshold2 = iRandThreshold2 + GC.getDefineINT("CVCITY_RELIGION_SPREAD_HUMAN_RELIGION_PROB_ONLY_FOR_ARABIA");
+						}
+
 						if (GC.getGameINLINE().getSorenRandNum(100, "Religion Spread") < iRandThreshold2)
 						{
 							setHasReligion(((ReligionTypes)iI), true, true, true);
