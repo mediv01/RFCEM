@@ -3625,6 +3625,38 @@ void CvTeamAI::AI_setWarPlan(TeamTypes eIndex, WarPlanTypes eNewValue, bool bWar
 	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
 	FAssertMsg(eIndex < MAX_TEAMS, "eIndex is expected to be within maximum bounds (invalid Index)");
 
+	if (GC.getDefineINT("CVGAMECORE_LOG_AI_WARPLAN")) {
+		PlayerTypes AIplayer = (PlayerTypes)getID();
+		PlayerTypes TargetPlayer = (PlayerTypes)eIndex;
+		wchar* WarPlanText = L"";
+
+
+		if (eNewValue == WARPLAN_ATTACKED_RECENT) {
+			WarPlanText = L"最近进攻";
+		}
+		else if (eNewValue == WARPLAN_ATTACKED) {
+			WarPlanText = L"进攻";
+		}
+		else if (eNewValue == WARPLAN_PREPARING_LIMITED) {
+			WarPlanText = L"正在准备，但是有限制";
+		}
+		else if (eNewValue == WARPLAN_PREPARING_TOTAL) {
+			WarPlanText = L"正在准备，正在动员";
+		}
+		else if (eNewValue == WARPLAN_LIMITED) {
+			WarPlanText = L"有限制";
+		}
+		else if (eNewValue == WARPLAN_TOTAL) {
+			WarPlanText = L"正在动员";
+		}
+		else if (eNewValue == WARPLAN_DOGPILE) {
+			WarPlanText = L" DOGPILE ";
+		}
+
+		log_CWstring.Format(L"%s 的战争目标为 %s， 战争计划类型为 %s",GC.getCivName(AIplayer), GC.getCivName(TargetPlayer), WarPlanText);
+		GC.logswithid((PlayerTypes)getID(),log_CWstring, "RFCEM_DLL_Log_AI_WARPLAN.log");
+	}
+
 	if (AI_getWarPlan(eIndex) != eNewValue)
 	{
 		if (bWar || !isAtWar(eIndex))

@@ -732,6 +732,7 @@ public:
 	PlayerTypes getHumanID() const;
 	int getGameTurn() const;
 	int getGameTurnYear() const;
+	const wchar* getCivName(PlayerTypes PlayerID) const;
 
 
 

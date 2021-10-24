@@ -544,6 +544,12 @@ const CvString logs_getgameturn() {
 
 
 
+const wchar* CvGlobals::getCivName(PlayerTypes PlayerID) const
+{
+	return GET_PLAYER(PlayerID).getCivilizationShortDescription();
+
+}
+
 int CvGlobals::getGameTurn() const {
 	return  GC.getGame().getGameTurn();
 }

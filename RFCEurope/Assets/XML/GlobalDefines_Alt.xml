@@ -452,7 +452,7 @@
 	
 	<Define>
         <DefineName>CVCITY_RELIGION_SPREAD_HUMAN_RELIGION_PROB</DefineName>        <!-- 大于0的数字为所有的AI城市都有概率传播人类玩家的国家 数字为百分比概率   0为默认模式， mediv01  感觉2%属于自然传播概率 2021年8月版本新增内容 -->
-        <iDefineIntVal>1</iDefineIntVal>
+        <iDefineIntVal>4</iDefineIntVal>
     </Define>	
 	
 	
@@ -487,6 +487,40 @@
         <DefineName>CVPLAYER_STOLEN_TECH_ALERT</DefineName>        <!-- 大于0的数字为盗窃国库时发出提醒 0为默认模式， mediv01  2021年8月版本新增内容 -->
         <iDefineIntVal>1</iDefineIntVal>
     </Define>
+
+	<Define>
+        <DefineName>CVGAME_MINOR_CITY_LOW_SCORE_ON_SCREEN</DefineName>        <!-- 大于0的数字为积分榜上独立城邦的积分被缩减处理的倍数  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>10</iDefineIntVal>
+    </Define>	
+
+
+	<Define>
+        <DefineName>CVCITY_BUILDING_NO_OBSOLETE_FOR_HUMAN</DefineName>        <!-- 大于0的数字为人类的建筑永不过时  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+
+
+	<Define>
+        <DefineName>CVCITY_CAN_BUILD_OBSOLETE_BUILDING_FOR_HUMAN</DefineName>        <!-- 大于0的数字为人类可以建造过期的建筑  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	
@@ -678,7 +712,7 @@
 
     <Define>
         <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_TRADE_MAP</DefineName>        <!-- 大于0的数字表明AI不会发起地图交易请求 0为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 	
 	
@@ -872,6 +906,11 @@
 
 	<Define>
         <DefineName>CVGAMECORE_LOG_AI_Espionage</DefineName>        <!-- 1为新增了DLL的LOG函数，记录AI间谍行为 0为默认模式， mediv01  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+	
+		<Define>
+        <DefineName>CVGAMECORE_LOG_AI_WARPLAN</DefineName>        <!-- 1为新增了DLL的LOG函数，记录AI战争目标的变化 0为默认模式， mediv01  -->
         <iDefineIntVal>1</iDefineIntVal>
     </Define>	
 	

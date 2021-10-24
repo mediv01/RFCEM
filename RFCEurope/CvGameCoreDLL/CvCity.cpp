@@ -3893,7 +3893,15 @@ void CvCity::processBuilding(BuildingTypes eBuilding, int iChange, bool bObsolet
 	UnitTypes eGreatPeopleUnit;
 	int iI, iJ;
 
-	if (!(GET_TEAM(getTeam()).isObsoleteBuilding(eBuilding)) || bObsolete)
+	bool bTeamObsolete = !(GET_TEAM(getTeam()).isObsoleteBuilding(eBuilding));
+	if (GC.getDefineINT("CVCITY_BUILDING_NO_OBSOLETE_FOR_HUMAN") > 0) {
+		if (getOwner() == GC.getHumanID()) {
+			bObsolete = false;
+			bTeamObsolete = false;
+		}
+	}
+
+	if (bTeamObsolete || bObsolete)
 	{
 		if (iChange > 0)
 		{
