@@ -377,10 +377,16 @@ class Crusades:
 					return
 				self.selectVoteWinner()
 				self.decideTheRichestCatholic( iActiveCrusade )
-				if self.getRichestCatholic() == utils.getHumanID():
+				if self.getRichestCatholic() == utils.getHumanID() :
 					self.decideDeviateHuman()
+					infotext = "人类玩家可以选择贿赂十字军，改变进攻的城市"
+					utils.info(infotext,  utils.getHumanID())
+					utils.log_crusade(infotext,  utils.getHumanID())
 				else:
 					self.decideDeviateAI()
+					infotext = "人类玩家国库金币数不够，不可以贿赂十字军"
+					utils.info(infotext,  utils.getHumanID())
+					utils.log_crusade(infotext,  utils.getHumanID())
 
 			elif iStartDate + 5 == iGameTurn:
 				if not self.anyParticipate():
@@ -891,13 +897,25 @@ class Crusades:
 				iPlayerMoney = pPlayer.getGold()
 				#if ( iPlayerMoney > iMoney and iPlayerMoney > iPopeMoney ):
 				if iPlayerMoney > iMoney:
+					if PY_CRUSADES_RICHEST_CIV_NOT_INCLUDE_POPE:
+						if i==con.iPope:
+							continue
 					iRichest = i
 					iMoney = iPlayerMoney
+
+		infotext = "在十字军东征中，最富有的文明是"+utils.getCivChineseName(iRichest)
+		utils.info(infotext, utils.getHumanID())
+		utils.log_crusade(infotext, utils.getHumanID())
 
 		if iRichest != con.iPope:
 			self.setRichestCatholic( iRichest )
 		else:
 			self.setRichestCatholic( -1 )
+
+
+
+		if PY_CRUSADES_HUMAN_ALWAYS_BRIBE_CRUSADE:
+			self.setRichestCatholic(utils.getHumanID())
 
 
 	def decideDeviateHuman( self ):

@@ -181,7 +181,7 @@ def getScreenHelp():
             crusade_turn = crusade_turn_list[i]
             iGameTurn1 = max(crusade_turn + 1 - gc.getGame().getGameTurn(), -1)
             iGameTurn2 = max(crusade_turn + 1 + 1 - gc.getGame().getGameTurn(), -1)
-            iGameTurn3 = max(crusade_turn + 5 + 1 - gc.getGame().getGameTurn(), -1)
+            iGameTurn3 = max(crusade_turn + 2 + 1 - gc.getGame().getGameTurn(), -1)
             iGameTurn4 = max(crusade_turn + 5 + 1 - gc.getGame().getGameTurn(), -1)
             iGameTurn5 = max(crusade_turn + 8 + 1 - gc.getGame().getGameTurn(), -1)
             txt = crusade_name[i]

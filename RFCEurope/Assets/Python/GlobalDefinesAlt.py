@@ -59,6 +59,15 @@ PY_CRUSADES_HUMAN_UNIT_NOT_RETURN = 1
 # <!--mediv01 新增，人类玩家总是十字军的领袖 0为默认模式-->
 PY_CRUSADES_HUMAN_ALWAYS_LEADER= 1
 
+
+# <!--mediv01 新增，统计天主教最富裕的文明排除教皇国 0为默认模式-->
+PY_CRUSADES_RICHEST_CIV_NOT_INCLUDE_POPE = 1
+
+
+# <!--mediv01 新增，人类玩家总是可以贿赂十字军 0为默认模式-->
+PY_CRUSADES_HUMAN_ALWAYS_BRIBE_CRUSADE= 1
+
+
 ########################################## <!-- 稳定度相关 -->######################################################
 
 # <!--mediv01 新增，人类玩家不会崩溃 0为默认模式-->
