@@ -195,6 +195,17 @@
     </Define>
 	
 	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_HURRYINFO_IN_CITY_BAR_TOHUMAN</DefineName>        <!-- 1为在城市界面用H0显示能否加速，以及加速的红脸 用于人类城市 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_HURRYINFO_IN_CITY_BAR_TOAI</DefineName>        <!-- 1为在城市界面用H0显示能否加速，以及加速的红脸 用于AI城市  0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>		
+	
+	
 	
 
     <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DLL !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
@@ -308,10 +319,6 @@
         <iDefineIntVal>0</iDefineIntVal>
     </Define>
 	
-	<Define>
-        <DefineName>CVCITY_CAN_ALWAYS_HURRY_WITH_CIVICS</DefineName>        <!-- 可以不受政策的限制减速单位和建筑   0为默认模式  mediv01 -->
-        <iDefineIntVal>1</iDefineIntVal>
-    </Define>
 	
     <Define>
         <DefineName>PLOT_CITY_FULL_YIELD_WHEN_SETTLE</DefineName>  <!--mediv01 新增，坐资源满产出 0为默认模式-->
@@ -496,13 +503,13 @@
 
 	<Define>
         <DefineName>CVCITY_BUILDING_NO_OBSOLETE_FOR_HUMAN</DefineName>        <!-- 大于0的数字为人类的建筑永不过时  0为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>1</iDefineIntVal>
+        <iDefineIntVal>0</iDefineIntVal>
     </Define>	
 
 
 	<Define>
         <DefineName>CVCITY_CAN_BUILD_OBSOLETE_BUILDING_FOR_HUMAN</DefineName>        <!-- 大于0的数字为人类可以建造过期的建筑  0为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>1</iDefineIntVal>
+        <iDefineIntVal>0</iDefineIntVal>
     </Define>	
 
 
@@ -657,7 +664,7 @@
 	
     <Define>
         <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN_JOIN_WAR</DefineName>        <!-- 大于0的数字表明AI不会发起提起加入战争交易  0为默认模式， mediv01  2021年8月版本新增内容 -->
-        <iDefineIntVal>0</iDefineIntVal>
+        <iDefineIntVal>1</iDefineIntVal>
     </Define>
 
     <Define>
@@ -829,9 +836,15 @@
     </Define>	
 	
 	
+	<Define>
+        <DefineName>CVCITY_CAN_ALWAYS_HURRY_WITH_CIVICS_HUMAN</DefineName>        <!-- 人类玩家可以不受政策的限制减速单位和建筑   0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
 	
-	
-	
+	<Define>
+        <DefineName>CVCITY_CAN_ALWAYS_HURRY_WITH_CIVICS_AI</DefineName>        <!-- AI玩家可以不受政策的限制减速单位和建筑   0为默认模式  mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
 	
 	
 	    <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  少量PYTHON !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->	  

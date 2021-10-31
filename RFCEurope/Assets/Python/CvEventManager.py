@@ -564,6 +564,8 @@ class CvEventManager:
 			iX = pCity.getX()
 			iY = pCity.getY()
 			iGP = gc.getGame().getSorenRandNum(7, "Leaning Tower")
+			if (gc.getDefineINT("CVCITY_FIX_GENERATE_GREAT_PEOPLE")):
+				iGP = gc.getDefineINT("CVCITY_FIX_GENERATE_GREAT_PEOPLE") - 1
 			iUnit = xml.iProphet + iGP
 			pNewUnit = pPlayer.initUnit(iUnit, iX, iY, UnitAITypes(gc.getUnitInfo(iUnit).getDefaultUnitAIType()), DirectionTypes.NO_DIRECTION)
 			if utils.isActive(utils.getHumanID()):

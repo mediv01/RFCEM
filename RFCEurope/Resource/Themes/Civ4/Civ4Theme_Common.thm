@@ -379,12 +379,12 @@ with GFC_Control
 				GFont	.Size2_Bold				=	GFont("Microsoft YaHei",		"Bold",			15, GFlags(GFontFeature, GFC_FONT_BOLD,	GFC_FONT_ALPHA));
 				GFont	.Size2_Italic			=	GFont("Microsoft YaHei",		"Italic",		15, GFlags(GFontFeature, GFC_FONT_ITALIC, GFC_FONT_ALPHA), 0, GRectMargin(1));
 
-				GFont	.Size3_Normal			=	GFont("Microsoft YaHei",		"Bold",		16, GFlags(GFontFeature, GFC_FONT_BOLD, GFC_FONT_ALPHA));
-				GFont	.Size3_Bold				=	GFont("Microsoft YaHei",		"Bold",			16, GFlags(GFontFeature, GFC_FONT_BOLD,	GFC_FONT_ALPHA));
+				GFont	.Size3_Normal			=	GFont("Microsoft YaHei",		"Bold",		15, GFlags(GFontFeature, GFC_FONT_BOLD, GFC_FONT_ALPHA));
+				GFont	.Size3_Bold				=	GFont("Microsoft YaHei",		"Bold",			15, GFlags(GFontFeature, GFC_FONT_BOLD,	GFC_FONT_ALPHA));
 				
 				//游戏主页的大字体
-				GFont	.Size4_Normal			=	GFont("Microsoft YaHei",		"Bold",		24, GFlags(GFontFeature, GFC_FONT_BOLD, GFC_FONT_ALPHA));
-				GFont	.Size4_Bold				=	GFont("Microsoft YaHei",		"Bold",			22, GFlags(GFontFeature, GFC_FONT_BOLD,	GFC_FONT_ALPHA));
+				GFont	.Size4_Normal			=	GFont("Microsoft YaHei",		"Bold",		20, GFlags(GFontFeature, GFC_FONT_BOLD, GFC_FONT_ALPHA));
+				GFont	.Size4_Bold				=	GFont("Microsoft YaHei",		"Bold",			20, GFlags(GFontFeature, GFC_FONT_BOLD,	GFC_FONT_ALPHA));
 
 // <<< CYBERFRONT
 			}
