@@ -300,9 +300,12 @@ class CvDomesticAdvisor:
 			hurryanger = 999
 			if (pLoopCity.canHurry(0, False)):
 				hurryflag = True
-				hurryanger = pLoopCity.getHurryAngerTimer();
+				hurryanger = pLoopCity.getHurryAngerTimer()
+			startflag = ''
+			if (pLoopCity.getProduction()==0):
+				startflag = 'S'
 			if (hurryflag):
-				hurrytext = '[H' + str(hurryanger) + '] '
+				hurrytext ='['+startflag+'H' + str(hurryanger) + '] '
 		return hurrytext
 
 	# Draw the specialist and their increase and decrease buttons
