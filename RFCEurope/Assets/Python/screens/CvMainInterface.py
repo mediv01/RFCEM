@@ -3404,41 +3404,7 @@ class CvMainInterface:
 					# Rhye - end victory
 
 					# Rhye - start stability
-					if (gc.getPlayer(ePlayer).isAlive()):
-						if (ePlayer < con.iNumMajorPlayers):  # in case byzantium is major
-							# iStability = utils.getStability(ePlayer)
-							iStability = gc.getPlayer(ePlayer).getStability()
-							if (iStability < -15):
-								# szTempBuffer = localText.getText("TXT_KEY_STABILITY_COLLAPSING", ())
-								szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 3)
-							# if (gc.getPlayer(ePlayer).isHuman()):
-							#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_COLLAPSING", ()) + ")"
-							elif (iStability >= -15 and iStability < -8):
-								# szTempBuffer = localText.getText("TXT_KEY_STABILITY_UNSTABLE", ())
-								szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 3)
-							# if (gc.getPlayer(ePlayer).isHuman()):
-							#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_UNSTABLE", ()) + ")"
-							elif (iStability >= -8 and iStability < 0):
-								# szTempBuffer = localText.getText("TXT_KEY_STABILITY_SHAKY", ())
-								szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 4)
-							# if (gc.getPlayer(ePlayer).isHuman()):
-							#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_SHAKY", ()) + ")"
-							elif (iStability >= 0 and iStability < 8):
-								# szTempBuffer = localText.getText("TXT_KEY_STABILITY_STABLE", ())
-								szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 4)
-							# if (gc.getPlayer(ePlayer).isHuman()):
-							#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_STABLE", ()) + ")"
-							elif (iStability >= 8 and iStability < 15):
-								# szTempBuffer = localText.getText("TXT_KEY_STABILITY_SOLID", ())
-								szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 5)
-							# if (gc.getPlayer(ePlayer).isHuman()):
-							#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_SOLID", ()) + ")"
-							elif (iStability >= 15):
-								# szTempBuffer = localText.getText("TXT_KEY_STABILITY_VERYSOLID", ())
-								szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 5)
-							# if (gc.getPlayer(ePlayer).isHuman()):
-							#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_VERYSOLID", ()) + ")"
-							szBuffer = szBuffer + " - " + szTempBuffer
+					szBuffer = self.ShowScreenStability_Mediv01(ePlayer, szBuffer, szTempBuffer)
 					# Rhye - end stability
 					# Rhye - start stability
 					szBuffer = self.ShowScreenTip_Mediv01(ePlayer, szBuffer)
@@ -3464,6 +3430,46 @@ class CvMainInterface:
 
 					iCount = iCount + 1
 		return iCount, iWidth
+
+	def ShowScreenStability_Mediv01(self, ePlayer, szBuffer, szTempBuffer):
+		if (gc.getPlayer(ePlayer).isAlive()):
+			if (ePlayer < con.iNumMajorPlayers):  # in case byzantium is major
+				# iStability = utils.getStability(ePlayer)
+				iStability = gc.getPlayer(ePlayer).getStability()
+				if (iStability < -15):
+					# szTempBuffer = localText.getText("TXT_KEY_STABILITY_COLLAPSING", ())
+					szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 3)
+				# if (gc.getPlayer(ePlayer).isHuman()):
+				#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_COLLAPSING", ()) + ")"
+				elif (iStability >= -15 and iStability < -8):
+					# szTempBuffer = localText.getText("TXT_KEY_STABILITY_UNSTABLE", ())
+					szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 3)
+				# if (gc.getPlayer(ePlayer).isHuman()):
+				#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_UNSTABLE", ()) + ")"
+				elif (iStability >= -8 and iStability < 0):
+					# szTempBuffer = localText.getText("TXT_KEY_STABILITY_SHAKY", ())
+					szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 4)
+				# if (gc.getPlayer(ePlayer).isHuman()):
+				#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_SHAKY", ()) + ")"
+				elif (iStability >= 0 and iStability < 8):
+					# szTempBuffer = localText.getText("TXT_KEY_STABILITY_STABLE", ())
+					szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 4)
+				# if (gc.getPlayer(ePlayer).isHuman()):
+				#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_STABLE", ()) + ")"
+				elif (iStability >= 8 and iStability < 15):
+					# szTempBuffer = localText.getText("TXT_KEY_STABILITY_SOLID", ())
+					szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 5)
+				# if (gc.getPlayer(ePlayer).isHuman()):
+				#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_SOLID", ()) + ")"
+				elif (iStability >= 15):
+					# szTempBuffer = localText.getText("TXT_KEY_STABILITY_VERYSOLID", ())
+					szTempBuffer = unichr(CyGame().getSymbolID(FontSymbols.POWER_CHAR) + 5)
+				# if (gc.getPlayer(ePlayer).isHuman()):
+				#	szTempBuffer = szTempBuffer + " (" + localText.getText("TXT_KEY_STABILITY_VERYSOLID", ()) + ")"
+				if (PYTHON_SHOW_CIV_STABILITY_ON_PANNEL):
+					szTempBuffer += "(" + str(FillNumberToText(iStability, 3)) + ")"
+				szBuffer = szBuffer + " - " + szTempBuffer
+		return szBuffer
 
 	def SeePlayerTechInScreen(self, ePlayer, szBuffer, szTempBuffer):
 		# Rhye - techs moved here
@@ -3522,6 +3528,12 @@ class CvMainInterface:
 			szTempBuffer = u"<color=%s>%s</color><color=%s>  (%s)</color>" % (icolor1, iGoldText, icolor2,iGoldPerTurnText)
 			szBuffer = szBuffer + " - " + szTempBuffer
 			pass
+
+		if (PYTHON_SHOW_CIV_NUM_OF_CITY_ON_PANNEL and gc.getPlayer(ePlayer).isAlive()):
+			iNumOfCity = gc.getPlayer(ePlayer).getNumCities()
+			szTempBuffer = u"<color=%s>(%s)</color>" % (rfce_color_map['white'], FillNumberToText(iNumOfCity,2))
+			szBuffer = szBuffer + " - " + szTempBuffer
+
 		return szBuffer
 
 	# Will update the help Strings
