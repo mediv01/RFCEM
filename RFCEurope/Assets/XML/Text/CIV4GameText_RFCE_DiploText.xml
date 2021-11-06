@@ -49,7 +49,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>我很荣幸认识你，[CT_NAME]。我是我们公民的名字。我们可以是朋友，也可以是敌人。</Chinese>
+     <Chinese>我很荣幸认识你，[CT_NAME]。我是 [OUR_CIV_ADJ]。我们可以是朋友，也可以是敌人。</Chinese>
   </TEXT>
   <!-- Generic first contact DiploTexts -->
   <!-- Leader specific first contact DiploTexts -->
@@ -150,7 +150,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你好，潘！一、 [我们的名字]，扎波罗齐军队的一个战士！你在乌克兰的绿色草原上找什么？</Chinese>
+     <Chinese>你好，潘！一、 [OUR_NAME]，扎波罗齐军队的一个战士！你在乌克兰的绿色草原上找什么？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_THE_POPE_1</Tag>
@@ -171,7 +171,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>欢迎来到我的领地。我的帝国是辽阔的，我的知识也是如此。你愿意接受和平的条件，还是我要以上帝的名义向你发动我的军队？</Chinese>
+     <Chinese>欢迎来到我的领地，[CT_NAME]。我的帝国是辽阔的，我的知识也是如此。你愿意接受和平的条件，还是我要以上帝的名义向你发动我的军队？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PHILIP_II_2</Tag>
@@ -189,7 +189,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你好！我是[我们的名字]，[我们的公民简称]的国王！我希望你能和平地来。。。如果我们要毁了你，那就太不幸了！</Chinese>
+     <Chinese>你好！我是[OUR_NAME]，[OUR_CIV_SHORT]的国王！我希望你能和平地来。。。如果我们要毁了你，那就太不幸了！</Chinese>
   </TEXT>
   <!-- Actually this is a quote from Philip II, macedon king, father of Alexander. Currently unused, but I leave it here for now, it's a good quote :) (AbsintheRed) -->
   <TEXT>
@@ -263,7 +263,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>[CT_NAME]，我注意到你有[我们的_帝国]需要的东西。我相信你愿意帮助我们，否则我会派出我的舰队-记住我的话，这次不会失败！</Chinese>
+     <Chinese>[CT_NAME]，我注意到你有[OUR_EMPIRE]需要的东西。我相信你愿意帮助我们，否则我会派出我的舰队-记住我的话，这次不会失败！</Chinese>
   </TEXT>
   <!-- Spanish 2nd leader - Philip II -->
   <!-- French 2nd leader - Joan of Arc -->
@@ -283,7 +283,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你好，[CT_NAME]。我是[我们的名字]，上帝的使者。你说话要谨慎，因为有人说真话有时会被绞死。</Chinese>
+     <Chinese>你好，[CT_NAME]。我是[OUR_NAME]，上帝的使者。你说话要谨慎，因为有人说真话有时会被绞死。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_JOAN_1</Tag>
@@ -310,7 +310,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>[CTúNAME]，我看到你会来这里！过来让自己舒服点。</Chinese>
+     <Chinese>[CT_NAME]，我看到你会来这里！过来让自己舒服点。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_JOAN_1</Tag>
@@ -346,7 +346,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>我有一个幻觉，那就是[反恐帝国]正在熊熊燃烧。你能向我保证我只是疯了吗？</Chinese>
+     <Chinese>我有一个幻觉，那就是[CT_EMPIRE]正在熊熊燃烧。你能向我保证我只是疯了吗？</Chinese>
   </TEXT>
   <!-- French 2nd leader - Joan of Arc -->
   <!-- Polish 1st leader - Casimir III -->
@@ -357,7 +357,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>来自[我们的名字]伟大的，国王的问候！我希望[我们的]帝国和[CT]帝国之间有多年的良好关系！</Chinese>
+     <Chinese>来自[OUR_NAME]伟大的，国王的问候！我希望[OUR_CIV_SHORT]帝国和[OUR_EMPIRE]帝国之间有多年的良好关系！</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CASIMIR_2</Tag>
@@ -366,7 +366,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>我是[我们的名字]。你能帮我把[我们的公民简称]做得很棒吗？</Chinese>
+     <Chinese>我是[OUR_NAME]。你能帮我把[OUR_CIV_SHORT]做得很棒吗？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_CASIMIR_1</Tag>
@@ -411,7 +411,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>有没有可能[我们的公民简称]能得到[CT名称]的帮助？</Chinese>
+     <Chinese>有没有可能[OUR_CIV_SHORT]能得到[CT_NAME]的帮助？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_CASIMIR_1</Tag>
@@ -440,7 +440,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>问候语！我是[我们的]帝国的[我们的名字]。记住：他们不会无缘无故地叫我“莱希坦之狮”！</Chinese>
+     <Chinese>问候语！我是[OUR_NAME]帝国的[OUR_EMPIRE]。记住：他们不会无缘无故地叫我“莱希坦之狮”！</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SOBIESKI_2</Tag>
@@ -532,7 +532,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你好，我是[我们的名字]，我们帝国的统治者！看看你的周围，看看我帝国的力量！</Chinese>
+     <Chinese>你好，我是[OUR_NAME]，帝国的统治者！看看你的周围，看看我帝国的力量！</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_YAROSLAV_1</Tag>
@@ -615,7 +615,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你好，[CT_NAME]。我是[我们的名字]，沙皇[我们的公民短]。你想知道他们为什么叫我恐怖吗？</Chinese>
+     <Chinese>你好，[CT_NAME]。我是[OUR_NAME]，沙皇[OUR_CIV_SHORT]。你想知道他们为什么叫我恐怖吗？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_IVAN_IV_3</Tag>
@@ -705,7 +705,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>[我们的短文]可以用这个，你知道吗？</Chinese>
+     <Chinese>[OUR_CIV_SHORT]可以用这个，你知道吗？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_IVAN_IV_1</Tag>
@@ -752,7 +752,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>来自[我们的公民简称]，[我们的名字]的伟大国王的问候！你是在寻求和平，与我们结盟，还是要求战争？</Chinese>
+     <Chinese>来自[OUR_CIV_SHORT]，[OUR_NAME]的伟大国王的问候！你是在寻求和平，与我们结盟，还是要求战争？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GUSTAV_ADOLF_2</Tag>
@@ -806,7 +806,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>帮助[我们的公民简称]，[姓名]，我们将不胜感激！</Chinese>
+     <Chinese>帮助[OUR_CIV_SHORT]，[CT_NAME]，我们将不胜感激！</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_GUSTAV_ADOLF_1</Tag>
@@ -835,7 +835,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>我是[我们的公民]的[我们的名字]！欢迎来到我的王国。我在你面前，是出于神的旨意；你在我面前，有什么事当你的面呢？</Chinese>
+     <Chinese>我是[OUR_NAME]的[OUR_CIV_SHORT]！欢迎来到我的王国。我在你面前，是出于神的旨意；你在我面前，有什么事当你的面呢？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_STEPHEN_2</Tag>
@@ -1127,7 +1127,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你好，我是[我们的名字]，[我们的公民]皇帝！你，[CT_NAME]，很高兴能在我面前！</Chinese>
+     <Chinese>你好，我是[OUR_NAME]，[OUR_CIV_ADJ]皇帝！你，[CT_NAME]，很高兴能在我面前！</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_BARBAROSSA_2</Tag>
@@ -1210,7 +1210,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>愿你平安，[大名]。我是[我们的]帝国的正义[我们的名字]。只要我们敬拜同一位神，愿我们之间有和平！</Chinese>
+     <Chinese>愿你平安，[CT_NAME]。我是[OUR_NAME]帝国的正义[OUR_EMPIRE]。只要我们敬拜同一位神，愿我们之间有和平！</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ABU_BAKR_2</Tag>
@@ -1319,7 +1319,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>欢迎来到[我们的帝国]，[CT名称]。我是国王[我们的名字]。你愿意成为我们王国的朋友吗？如果你不想，那么。。。很高兴认识你。</Chinese>
+     <Chinese>欢迎来到[OUR_EMPIRE]，[CT_NAME]。我是国王[OUR_NAME]。你愿意成为我们王国的朋友吗？如果你不想，那么。。。很高兴认识你。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AFONSO_2</Tag>
@@ -1328,7 +1328,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>欢迎来到独立的土地！我是国王[我们的名字]。是承认我们的独立，还是我需要用我的军队说服你？</Chinese>
+     <Chinese>欢迎来到独立的土地！我是国王[OUR_CIV_ADJ]。是承认我们的独立，还是我需要用我的军队说服你？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AFONSO_3</Tag>
@@ -1355,7 +1355,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>我以为我们把你所有的人都赶出了[我们的公民简称]。你在这里干什么？</Chinese>
+     <Chinese>我以为我们把你所有的人都赶出了[OUR_CIV_SHORT]。你在这里干什么？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_AFONSO_2</Tag>
@@ -1418,7 +1418,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你愿意参加和[我们的]帝国的交易吗？反正你也别无选择。</Chinese>
+     <Chinese>你愿意参加和[OUR_EMPIRE]帝国的交易吗？反正你也别无选择。</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_AFONSO_2</Tag>
@@ -1427,7 +1427,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>你有机会和[我们的公民]分享你的财富吗？</Chinese>
+     <Chinese>你有机会和[OUR_CIV_SHORT]分享你的财富吗？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_AFONSO_1</Tag>
@@ -1463,7 +1463,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>仅仅承认我是[我们的]帝国的国王是不够的！我要求以下几点表示敬意！</Chinese>
+     <Chinese>仅仅承认我是[OUR_EMPIRE]帝国的国王是不够的！我要求以下几点表示敬意！</Chinese>
   </TEXT>
    <!-- Norse 1st leader - Harald Hardrada -->
   <TEXT>
@@ -1473,7 +1473,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>万岁，大家好，[CT_NAME]！我是[我们的名字]，光荣[我们的公民简称]的统治者。那么告诉我：【CTúCIV戆U SHORT】有很多富裕而没有保护的沿海城市吗，或者是什么？</Chinese>
+     <Chinese>万岁，大家好，[CT_NAME]！我是[OUR_NAME]，光荣[OUR_CIV_SHORT]的统治者。那么告诉我：[CT_CIV_SHORT]有很多富裕而没有保护的沿海城市吗，或者是什么？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HARALD_HARDRADA_2</Tag>
@@ -1482,7 +1482,7 @@
     <L2/>
     <L3/>
     <L4/>
-     <Chinese>来自古代北方[我们的文明]的问候！我们是和平生活还是你想挑战我们？</Chinese>
+     <Chinese>来自古代北方[OUR_CIV_ADJ]的问候！我们是和平生活还是你想挑战我们？</Chinese>
   </TEXT>
   <TEXT>
     <Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HARALD_HARDRADA_3</Tag>
